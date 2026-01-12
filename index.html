@@ -2277,7 +2277,53 @@
             }
         }
 
-        </script>
+        
+        // --- Initialization & Global Attachments ---
+        
+        // Make functions globally available for HTML onclick handlers
+        window.startGame = startGame;
+        window.proceedToNextLevel = proceedToNextLevel;
+        window.openPracticeMode = openPracticeMode;
+        window.closePracticeMode = closePracticeMode;
+        window.showExitModal = showExitModal;
+        window.closeExitModal = closeExitModal;
+        window.confirmExit = confirmExit;
+        window.startPracticeDay = startPracticeDay;
+        window.exitPracticeMode = exitPracticeMode;
+        window.changeSpeed = changeSpeed;
+        window.testAudio = testAudio;
+        
+        // Start the game
+        window.speechSynthesis.getVoices(); // Init voices
+        loadGame();
+        initKeyboardNavigation();
+        loadAnalytics();
+        loadAudioPreference();
+        
+    </script>// --- Initialization & Global Attachments ---
+        
+        // Make functions globally available for HTML onclick handlers
+        window.startGame = startGame;
+        window.proceedToNextLevel = proceedToNextLevel;
+        window.openPracticeMode = openPracticeMode;
+        window.closePracticeMode = closePracticeMode;
+        window.showExitModal = showExitModal;
+        window.closeExitModal = closeExitModal;
+        window.confirmExit = confirmExit;
+        window.startPracticeDay = startPracticeDay;
+        window.exitPracticeMode = exitPracticeMode;
+        window.changeSpeed = changeSpeed;
+        window.testAudio = testAudio;
+        
+        // Start the game
+        window.speechSynthesis.getVoices(); // Init voices
+        loadGame();
+        initKeyboardNavigation();
+        loadAnalytics();
+        loadAudioPreference();
+        
+    </script>
+</body>
 </body>
 
 </html>
