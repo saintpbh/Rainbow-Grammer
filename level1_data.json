@@ -1,0 +1,268 @@
+{
+    "version": "1.0",
+    "levels": [
+        {
+            "id": "1-1",
+            "form": "1",
+            "description": "Subject + Verb",
+            "sentence_text": "The stars shine.",
+            "items": [
+                {
+                    "id": "1-1-1",
+                    "text": "The stars",
+                    "role": "Subject",
+                    "color": "#FF0000"
+                },
+                {
+                    "id": "1-1-2",
+                    "text": "shine",
+                    "role": "Verb",
+                    "color": "#FF7F00"
+                }
+            ]
+        },
+        {
+            "id": "1-2",
+            "form": "1",
+            "description": "Subject + Verb + Modifier",
+            "sentence_text": "The eagle flies high.",
+            "items": [
+                {
+                    "id": "1-2-1",
+                    "text": "The eagle",
+                    "role": "Subject",
+                    "color": "#FF0000"
+                },
+                {
+                    "id": "1-2-2",
+                    "text": "flies",
+                    "role": "Verb",
+                    "color": "#FF7F00"
+                },
+                {
+                    "id": "1-2-3",
+                    "text": "high",
+                    "role": "Modifier",
+                    "color": "#0000FF"
+                }
+            ]
+        },
+        {
+            "id": "1-3",
+            "form": "1",
+            "description": "Abstract Subject + Verb",
+            "sentence_text": "Effective communication matters.",
+            "items": [
+                {
+                    "id": "1-3-1",
+                    "text": "Effective communication",
+                    "role": "Subject",
+                    "color": "#FF0000"
+                },
+                {
+                    "id": "1-3-2",
+                    "text": "matters",
+                    "role": "Verb",
+                    "color": "#FF7F00"
+                }
+            ]
+        },
+        {
+            "id": "1-4",
+            "form": "1",
+            "description": "Subject + Verb + Modifier",
+            "sentence_text": "A heavy rain fell yesterday.",
+            "items": [
+                {
+                    "id": "1-4-1",
+                    "text": "A heavy rain",
+                    "role": "Subject",
+                    "color": "#FF0000"
+                },
+                {
+                    "id": "1-4-2",
+                    "text": "fell",
+                    "role": "Verb",
+                    "color": "#FF7F00"
+                },
+                {
+                    "id": "1-4-3",
+                    "text": "yesterday",
+                    "role": "Modifier",
+                    "color": "#0000FF"
+                }
+            ]
+        },
+        {
+            "id": "1-5",
+            "form": "1",
+            "description": "Subject + Verb + Prepositional Phrase",
+            "sentence_text": "Success happens to everyone.",
+            "items": [
+                {
+                    "id": "1-5-1",
+                    "text": "Success",
+                    "role": "Subject",
+                    "color": "#FF0000"
+                },
+                {
+                    "id": "1-5-2",
+                    "text": "happens",
+                    "role": "Verb",
+                    "color": "#FF7F00"
+                },
+                {
+                    "id": "1-5-3",
+                    "text": "to everyone",
+                    "role": "Preposition",
+                    "color": "#8B00FF"
+                }
+            ]
+        },
+        {
+            "id": "2-1",
+            "form": "2",
+            "description": "Subject + Verb + Noun Complement",
+            "sentence_text": "He became a world leader.",
+            "items": [
+                {
+                    "id": "2-1-1",
+                    "text": "He",
+                    "role": "Subject",
+                    "color": "#FF0000"
+                },
+                {
+                    "id": "2-1-2",
+                    "text": "became",
+                    "role": "Verb",
+                    "color": "#FF7F00"
+                },
+                {
+                    "id": "2-1-3",
+                    "text": "a world leader",
+                    "role": "Complement",
+                    "color": "#00FF00"
+                }
+            ]
+        },
+        {
+            "id": "2-2",
+            "form": "2",
+            "description": "Subject + Verb + Adjective Complement",
+            "sentence_text": "The experiment stayed secret.",
+            "items": [
+                {
+                    "id": "2-2-1",
+                    "text": "The experiment",
+                    "role": "Subject",
+                    "color": "#FF0000"
+                },
+                {
+                    "id": "2-2-2",
+                    "text": "stayed",
+                    "role": "Verb",
+                    "color": "#FF7F00"
+                },
+                {
+                    "id": "2-2-3",
+                    "text": "secret",
+                    "role": "Complement",
+                    "color": "#00FF00"
+                }
+            ]
+        },
+        {
+            "id": "2-3",
+            "form": "2",
+            "description": "Sense Verb + Complement",
+            "sentence_text": "The fresh bread smells delicious.",
+            "items": [
+                {
+                    "id": "2-3-1",
+                    "text": "The fresh bread",
+                    "role": "Subject",
+                    "color": "#FF0000"
+                },
+                {
+                    "id": "2-3-2",
+                    "text": "smells",
+                    "role": "Verb",
+                    "color": "#FF7F00"
+                },
+                {
+                    "id": "2-3-3",
+                    "text": "delicious",
+                    "role": "Complement",
+                    "color": "#00FF00"
+                }
+            ]
+        },
+        {
+            "id": "2-4",
+            "form": "2",
+            "description": "Sense Verb + Comp + Prep Phrase",
+            "sentence_text": "Your idea sounds perfect for us.",
+            "items": [
+                {
+                    "id": "2-4-1",
+                    "text": "Your idea",
+                    "role": "Subject",
+                    "color": "#FF0000"
+                },
+                {
+                    "id": "2-4-2",
+                    "text": "sounds",
+                    "role": "Verb",
+                    "color": "#FF7F00"
+                },
+                {
+                    "id": "2-4-3",
+                    "text": "perfect",
+                    "role": "Complement",
+                    "color": "#00FF00"
+                },
+                {
+                    "id": "2-4-4",
+                    "text": "for us",
+                    "role": "Preposition",
+                    "color": "#8B00FF"
+                }
+            ]
+        },
+        {
+            "id": "2-5",
+            "form": "2",
+            "description": "Subject + Verb + Complement (Remains)",
+            "sentence_text": "The situation remains unchanged.",
+            "items": [
+                {
+                    "id": "2-5-1",
+                    "text": "The situation",
+                    "role": "Subject",
+                    "color": "#FF0000"
+                },
+                {
+                    "id": "2-5-2",
+                    "text": "remains",
+                    "role": "Verb",
+                    "color": "#FF7F00"
+                },
+                {
+                    "id": "2-5-3",
+                    "text": "unchanged",
+                    "role": "Complement",
+                    "color": "#00FF00"
+                }
+            ]
+        }
+    ],
+    "color_legend": {
+        "Subject": "#FF0000",
+        "Verb": "#FF7F00",
+        "Object": "#FFFF00",
+        "Complement": "#00FF00",
+        "Modifier": "#0000FF",
+        "Conjunction": "#4B0082",
+        "Preposition": "#8B00FF"
+    }
+}

@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grammar Rainbow Game</title>
+    <style>
+        body {
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        #game-container {
+            width: 100%;
+            max-width: 600px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* HUD */
+        .hud {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 2rem;
+            font-weight: 700;
+            color: #555;
+            font-size: 1.1rem;
+        }
+
+        .score-box {
+            color: #FF7F00;
+        }
+
+        /* Problem Area */
+        .korean-text {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: #333;
+            margin-bottom: 2rem;
+            word-break: keep-all;
+            min-height: 3rem;
+        }
+
+        /* Drop Zone (Answer Area) */
+        .answer-area {
+            min-height: 80px;
+            border-bottom: 3px solid #eee;
+            margin-bottom: 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            transition: all 0.3s;
+        }
+
+        .answer-area.correct {
+            border-bottom-color: #00FF00;
+            background-color: rgba(0, 255, 0, 0.05);
+        }
+
+        /* Chunk Buttons */
+        .chunk-pool {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: center;
+        }
+
+        .word-pill {
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, background-color 0.3s, opacity 0.3s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border: 2px solid transparent;
+            user-select: none;
+        }
+
+        /* Unselected State */
+        .word-pill.pool-item {
+            background-color: white;
+            color: #444;
+            border-color: #ddd;
+        }
+
+        .word-pill.pool-item:hover {
+            transform: translateY(-2px);
+            border-color: #bbb;
+        }
+
+        .word-pill.pool-item.used {
+            opacity: 0;
+            pointer-events: none;
+            transform: scale(0.8);
+        }
+
+        /* Selected (In Answer Area) State */
+        .word-pill.selected {
+            /* Colors will be applied inline via JS based on role */
+            color: white;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+            animation: popIn 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        /* Custom text color for bright backgrounds */
+        .word-pill.dark-text {
+            color: #333 !important;
+            text-shadow: none !important;
+        }
+
+        @keyframes popIn {
+            from {
+                transform: scale(0.5);
+                opacity: 0;
+            }
+
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+
+        /* Score Animation */
+        .score-anim {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 4rem;
+            color: #FF7F00;
+            font-weight: bold;
+            opacity: 0;
+            pointer-events: none;
+            z-index: 20;
+        }
+
+        @keyframes floatingScore {
+            0% {
+                transform: translate(-50%, -50%) scale(0.5);
+                opacity: 0;
+            }
+
+            50% {
+                transform: translate(-50%, -80%) scale(1.2);
+                opacity: 1;
+            }
+
+            100% {
+                transform: translate(-50%, -120%) scale(1);
+                opacity: 0;
+            }
+        }
+
+        /* Success Overlay - REPOSITIONED ABOVE SENTENCE */
+        #success-overlay {
+            position: absolute;
+            top: 70px;
+            /* Below HUD */
+            left: 0;
+            right: 0;
+            height: auto;
+            background: transparent;
+            /* Don't block view */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s;
+            z-index: 10;
+        }
+
+        #success-overlay.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="game-container">
+        <div class="hud">
+            <span id="level-display">Level 1</span>
+            <span id="score-display" class="score-box">Score: 0</span>
+        </div>
+
+        <!-- Success Message Area (Using overlay div moved here conceptually via CSS) -->
+        <div id="success-overlay">
+            <div class="success-msg" id="success-message">Excellent! 🎉</div>
+        </div>
+
+        <div class="korean-text" id="question-text">
+            문제를 불러오는 중...
+        </div>
+
+        <div class="answer-area" id="answer-slot">
+            <!-- Selected chunks appear here -->
+        </div>
+
+        <div class="chunk-pool" id="pool-area">
+            <!-- Scrambled chunks appear here -->
+        </div>
+
+        <div id="success-overlay">
+            <div class="success-msg" id="success-message">Excellent! 🎉</div>
+        </div>
+
+        <!-- Floating Score Container -->
+        <div id="float-score-container"></div>
+    </div>
+
+    <script type="module">
+        const dataPath = 'grammar_data.json';
+
+        let curriculum = [];
+        let currentLevelIndex = 0;
+        let score = 0;
+        let displayScore = 0;
+        let currentChunks = [];
+        let selectedIndices = [];
+
+        // Sound Context
+        const AudioContext = window.AudioContext || window.webkitAudioContext;
+        const audioCtx = new AudioContext();
+
+        function playSuccessSound() {
+            if (audioCtx.state === 'suspended') audioCtx.resume();
+
+            const oscillator = audioCtx.createOscillator();
+            const gainNode = audioCtx.createGain();
+
+            oscillator.type = 'sine';
+            // "Ping" (High C -> E)
+            oscillator.frequency.setValueAtTime(523.25, audioCtx.currentTime); // C5
+            oscillator.frequency.exponentialRampToValueAtTime(1046.5, audioCtx.currentTime + 0.1); // C6
+
+            gainNode.gain.setValueAtTime(0.2, audioCtx.currentTime);
+            gainNode.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.6);
+
+            oscillator.connect(gainNode);
+            gainNode.connect(audioCtx.destination);
+
+            oscillator.start();
+            oscillator.stop(audioCtx.currentTime + 0.6);
+        }
+
+        function playFailureSound() {
+            if (audioCtx.state === 'suspended') audioCtx.resume();
+
+            const oscillator = audioCtx.createOscillator();
+            const gainNode = audioCtx.createGain();
+
+            oscillator.type = 'sawtooth';
+            // "Buzz/Sad" (Low D -> Low C#)
+            oscillator.frequency.setValueAtTime(146.83, audioCtx.currentTime); // D3
+            oscillator.frequency.linearRampToValueAtTime(138.59, audioCtx.currentTime + 0.3); // C#3
+
+            gainNode.gain.setValueAtTime(0.2, audioCtx.currentTime);
+            gainNode.gain.linearRampToValueAtTime(0.001, audioCtx.currentTime + 0.4);
+
+            oscillator.connect(gainNode);
+            gainNode.connect(audioCtx.destination);
+
+            oscillator.start();
+            oscillator.stop(audioCtx.currentTime + 0.4);
+        }
+
+        async function loadGame() {
+            try {
+                const response = await fetch(dataPath);
+                if (!response.ok) throw new Error('Failed to fetch');
+                const data = await response.json();
+                curriculum = data.curriculum;
+                startGame();
+            } catch (e) {
+                console.warn("Using fallback data", e);
+                // Fallback for demo
+                const fallback = {
+                    "curriculum": [
+                        { "id": "1-1", "section": "Level 1-1", "korean": "별들은 빛난다.", "english": "The stars shine.", "chunks": [{ "text": "The stars", "role": "Subject", "color": "#FF0000" }, { "text": "shine", "role": "Verb", "color": "#FF7F00" }] },
+                        { "id": "1-2", "section": "Level 1-2", "korean": "독수리는 높이 난다.", "english": "The eagle flies high.", "chunks": [{ "text": "The eagle", "role": "Subject", "color": "#FF0000" }, { "text": "flies", "role": "Verb", "color": "#FF7F00" }, { "text": "high", "role": "Modifier", "color": "#0000FF" }] }
+                    ]
+                };
+                curriculum = fallback.curriculum;
+                startGame();
+            }
+        }
+
+        function startGame() {
+            currentLevelIndex = 0;
+            score = 0;
+            displayScore = 0;
+            updateHUD(false);
+            loadLevel(currentLevelIndex);
+        }
+
+        function loadLevel(index) {
+            if (index >= curriculum.length) {
+                alert("All Levels Cleared! You are a Grammar Master! 🏆");
+                startGame();
+                return;
+            }
+
+            const levelData = curriculum[index];
+            document.getElementById('question-text').textContent = levelData.korean;
+            document.getElementById('success-overlay').classList.remove('active');
+            document.getElementById('answer-slot').classList.remove('correct');
+
+            // Prepare Chunks
+            currentChunks = levelData.chunks;
+            selectedIndices = [];
+
+            renderPool(currentChunks);
+            renderAnswer();
+            updateHUD(false);
+        }
+
+        function renderPool(chunks) {
+            const pool = document.getElementById('pool-area');
+            pool.innerHTML = '';
+
+            const indices = chunks.map((_, i) => i);
+            shuffleArray(indices);
+
+            indices.forEach(originalIndex => {
+                const chunk = chunks[originalIndex];
+                const btn = document.createElement('div');
+                btn.className = 'word-pill pool-item';
+                btn.textContent = chunk.text;
+                btn.dataset.idx = originalIndex;
+                btn.onclick = () => handleChunkClick(originalIndex, btn);
+                pool.appendChild(btn);
+            });
+        }
+
+        function handleChunkClick(originalIndex, btnElement) {
+            if (btnElement.classList.contains('used')) return;
+
+            // Temporary check: is this the *correct next* index?
+            // "Ideally user clicks in order".
+            // If we want instant fail: 
+            const nextExpectedIndex = selectedIndices.length;
+            if (originalIndex !== nextExpectedIndex) {
+                // Wrong choice!
+                playFailureSound();
+                // Simple shake animation on the button?
+                btnElement.style.transform = "translateX(5px)";
+                setTimeout(() => btnElement.style.transform = "none", 100);
+                setTimeout(() => btnElement.style.transform = "translateX(-5px)", 200);
+                setTimeout(() => btnElement.style.transform = "none", 300);
+                return; // Do NOT add to answer
+            }
+
+            // If correct:
+            selectedIndices.push(originalIndex);
+            btnElement.classList.add('used');
+            renderAnswer();
+            checkAnswer();
+        }
+
+        function renderAnswer() {
+            const slot = document.getElementById('answer-slot');
+            slot.innerHTML = '';
+
+            selectedIndices.forEach((chunkIdx, i) => {
+                const chunk = currentChunks[chunkIdx];
+                const el = document.createElement('div');
+                el.className = 'word-pill selected';
+                el.textContent = chunk.text;
+                el.style.backgroundColor = chunk.color;
+
+                if (chunk.color === '#FFFF00' || chunk.color === '#00FF00') {
+                    el.classList.add('dark-text');
+                }
+
+                // el.onclick = () => undoSelection(i, chunkIdx); // Disable undo if strict mode
+                slot.appendChild(el);
+            });
+        }
+
+        function checkAnswer() {
+            if (selectedIndices.length === currentChunks.length) {
+                // Since we enforced order in click, this is guaranteed correct
+                score += 100;
+                document.getElementById('answer-slot').classList.add('correct');
+                playSuccessSound();
+                showFloatingScore();
+                updateHUD(true);
+
+
+                document.getElementById('success-overlay').classList.add('active');
+
+                setTimeout(() => {
+                    window.nextLevel();
+                }, 3000);
+            }
+        }
+
+        function showFloatingScore() {
+            const container = document.getElementById('float-score-container');
+            const float = document.createElement('div');
+            float.className = 'score-anim';
+            float.textContent = '+100';
+            float.style.animation = 'floatingScore 1s forwards';
+            container.appendChild(float);
+            setTimeout(() => float.remove(), 1000);
+        }
+
+        window.nextLevel = function () {
+            currentLevelIndex++;
+            loadLevel(currentLevelIndex);
+        }
+
+        function updateHUD(animate) {
+            const scoreEl = document.getElementById('score-display');
+            document.getElementById('level-display').textContent = `Level ${(currentLevelIndex + 1)}`;
+
+            if (animate) {
+                const start = displayScore;
+                const end = score;
+                const duration = 1000;
+                const startTime = performance.now();
+
+                function step(currentTime) {
+                    const progress = Math.min((currentTime - startTime) / duration, 1);
+                    displayScore = Math.floor(start + (end - start) * progress);
+                    scoreEl.textContent = `Score: ${displayScore}`;
+                    if (progress < 1) {
+                        requestAnimationFrame(step);
+                    }
+                }
+                requestAnimationFrame(step);
+            } else {
+                displayScore = score;
+                scoreEl.textContent = `Score: ${score}`;
+            }
+        }
+
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+        }
+
+        loadGame();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,256 @@
+{
+  "curriculum": [
+    {
+      "id": "1-1",
+      "section": "Section 1: Form 1 (S+V) - Level 1-1",
+      "korean": "별들은 빛난다.",
+      "english": "The stars shine.",
+      "chunks": [
+        {
+          "text": "The stars",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "shine",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ]
+    },
+    {
+      "id": "1-2",
+      "section": "Section 1: Form 1 (S+V) - Level 1-2",
+      "korean": "독수리는 높이 난다.",
+      "english": "The eagle flies high.",
+      "chunks": [
+        {
+          "text": "The eagle",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "flies",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "high",
+          "role": "Modifier",
+          "color": "#0000FF"
+        }
+      ]
+    },
+    {
+      "id": "1-3",
+      "section": "Section 1: Form 1 (S+V) - Level 1-3",
+      "korean": "효과적인 의사소통은 중요하다.",
+      "english": "Effective communication matters.",
+      "chunks": [
+        {
+          "text": "Effective communication",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "matters",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ]
+    },
+    {
+      "id": "1-4",
+      "section": "Section 1: Form 1 (S+V) - Level 1-4",
+      "korean": "어제 폭우가 내렸다.",
+      "english": "A heavy rain fell yesterday.",
+      "chunks": [
+        {
+          "text": "A heavy rain",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "fell",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "yesterday",
+          "role": "Modifier",
+          "color": "#0000FF"
+        }
+      ]
+    },
+    {
+      "id": "1-5",
+      "section": "Section 1: Form 1 (S+V) - Level 1-5",
+      "korean": "성공은 모든 사람에게 일어난다.",
+      "english": "Success happens to everyone.",
+      "chunks": [
+        {
+          "text": "Success",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "happens",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "to everyone",
+          "role": "Etc",
+          "color": "#8B00FF"
+        }
+      ]
+    },
+    {
+      "id": "2-1",
+      "section": "Section 2: Form 2 (SVC) - Level 2-1",
+      "korean": "그는 세계적인 지도자가 되었다.",
+      "english": "He became a world leader.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "became",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a world leader",
+          "role": "Complement",
+          "color": "#00FF00"
+        }
+      ]
+    },
+    {
+      "id": "2-2",
+      "section": "Section 2: Form 2 (SVC) - Level 2-2",
+      "korean": "그 실험은 비밀로 유지되었다.",
+      "english": "The experiment stayed secret.",
+      "chunks": [
+        {
+          "text": "The experiment",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "stayed",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "secret",
+          "role": "Complement",
+          "color": "#00FF00"
+        }
+      ]
+    },
+    {
+      "id": "2-3",
+      "section": "Section 2: Form 2 (SVC) - Level 2-3",
+      "korean": "갓 구운 빵은 맛있는 냄새가 난다.",
+      "english": "The fresh bread smells delicious.",
+      "chunks": [
+        {
+          "text": "The fresh bread",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "smells",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "delicious",
+          "role": "Complement",
+          "color": "#00FF00"
+        }
+      ]
+    },
+    {
+      "id": "2-4",
+      "section": "Section 2: Form 2 (SVC) - Level 2-4",
+      "korean": "너의 아이디어는 우리에게 완벽하게 들린다.",
+      "english": "Your idea sounds perfect for us.",
+      "chunks": [
+        {
+          "text": "Your idea",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "sounds",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "perfect",
+          "role": "Complement",
+          "color": "#00FF00"
+        },
+        {
+          "text": "for us",
+          "role": "Etc",
+          "color": "#8B00FF"
+        }
+      ]
+    },
+    {
+      "id": "2-5",
+      "section": "Section 2: Form 2 (SVC) - Level 2-5",
+      "korean": "상황은 변하지 않은 채로 남아있다.",
+      "english": "The situation remains unchanged.",
+      "chunks": [
+        {
+          "text": "The situation",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "remains",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "unchanged",
+          "role": "Complement",
+          "color": "#00FF00"
+        }
+      ]
+    }
+  ],
+  "quest": {
+    "red": [
+      "The project",
+      "Confidence",
+      "Our team",
+      "The result"
+    ],
+    "orange": [
+      "is",
+      "seems",
+      "appeared",
+      "grew",
+      "failed"
+    ],
+    "green": [
+      "difficult",
+      "crucial",
+      "famous",
+      "strange"
+    ],
+    "blue": [
+      "totally",
+      "suddenly",
+      "everywhere",
+      "last night"
+    ]
+  }
+}
