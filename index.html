@@ -1557,15 +1557,6 @@
 
     
         window.speechSynthesis.getVoices();
-                const enVoice = voices.find(v => v.lang === 'en-US' && v.name.includes('Google')) || voices.find(v => v.lang.startsWith('en'));
-                if (enVoice) utterance.voice = enVoice;
-                utterance.lang = 'en-US';
-                utterance.rate = speechRate || 0.9;
-                utterance.onend = () => resolve();
-                utterance.onerror = () => resolve();
-                window.speechSynthesis.speak(utterance);
-            });
-        }
 
         window.testAudio = () => {
             playSuccessSound();
