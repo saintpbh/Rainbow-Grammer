@@ -1460,11 +1460,25 @@
             }
         }
 
+        
         function speakText(text) {
             return new Promise((resolve) => {
                 window.speechSynthesis.cancel();
                 const utterance = new SpeechSynthesisUtterance(text);
-                const voices = // Practice Mode functions
+                
+                // Try to use a better voice if available
+                const voices = window.speechSynthesis.getVoices();
+                const enVoice = voices.find(v => v.lang.startsWith('en-US')) || voices.find(v => v.lang.startsWith('en'));
+                if (enVoice) utterance.voice = enVoice;
+                
+                utterance.rate = speechRate || 1.0;
+                utterance.onend = resolve;
+                utterance.onerror = resolve;
+                window.speechSynthesis.speak(utterance);
+            });
+        }
+        
+        // Practice Mode functions
         let isPracticeMode = false;
         let practiceStartIndex = 0;
 
