@@ -1803,6 +1803,47 @@
             localStorage.setItem('grammar_analytics', JSON.stringify(learningStats));
         }
 
+        
+        function trackVocabularyExposure() {
+            if (!currentChunks) return;
+            
+            currentChunks.forEach(chunk => {
+                const word = chunk.text.toLowerCase();
+                
+                if (!learningStats.vocabularyExposure[word]) {
+                    learningStats.vocabularyExposure[word] = {
+                        count: 0,
+                        lastSeen: Date.now(),
+                        firstSeen: Date.now(),
+                        contexts: [],
+                        cefr: classifyWordCEFR(word) // Add CEFR classification
+                    };
+                }
+                
+                const vocab = learningStats.vocabularyExposure[word];
+                vocab.count++;
+                vocab.lastSeen = Date.now();
+                
+                // Track context (what pattern it appeared in)
+                if (!vocab.contexts.includes(currentItem.section)) {
+                    vocab.contexts.push(currentItem.section);
+                }
+            });
+            
+            // Save to localStorage
+            localStorage.setItem('grammar_analytics', JSON.stringify(learningStats));
+        }
+
+        function classifyWordCEFR(word) {
+            const a1 = ['i', 'you', 'is', 'are', 'the', 'a', 'an', 'cat', 'dog', 'run', 'see', 'eat', 'happy', 'big', 'small', 'sun', 'moon', 'star', 'shine', 'sleep', 'water', 'fire', 'bird', 'tree', 'flower'];
+            const a2 = ['because', 'when', 'where', 'how', 'book', 'read', 'write', 'study', 'work', 'play', 'friend', 'house'];
+            
+            const lower = word.toLowerCase();
+            if (a1.includes(lower)) return 'A1';
+            if (a2.includes(lower)) return 'A2';
+            return word.length <= 4 ? 'A1' : 'A2';
+        }
+
         function getVocabularyReport() {
             const vocab = learningStats.vocabularyExposure;
             const entries = Object.entries(vocab);
