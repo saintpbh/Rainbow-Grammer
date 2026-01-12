@@ -70,6 +70,67 @@
             gap: 4px;
         }
 
+        /* Progress Tracking */
+        .progress-hud {
+            width: 100%;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e8eaf6 100%);
+            border-radius: 16px;
+            padding: 1rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .day-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.8rem;
+        }
+
+        #day-number {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        #week-badge {
+            background: var(--accent);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.85rem;
+            font-weight: 700;
+        }
+
+        .sentence-progress {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        #sentence-counter {
+            font-size: 0.9rem;
+            color: #546E7A;
+            font-weight: 600;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: #E0E0E0;
+            border-radius: 12px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent) 0%, #00E676 100%);
+            border-radius: 12px;
+            transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 0 8px rgba(0, 191, 165, 0.4);
+        }
+
         .level-badge {
             background: var(--primary);
             color: white;
@@ -600,9 +661,18 @@
             </div>
         </div>
 
-        <!-- Top Progress Bar -->
-        <div class="progress-track">
-            <div class="progress-fill" id="progress-bar"></div>
+        <!-- Progress Tracking HUD -->
+        <div class="progress-hud">
+            <div class="day-info">
+                <span id="day-number">Day 1 of 28</span>
+                <span id="week-badge">Week 1</span>
+            </div>
+            <div class="sentence-progress">
+                <span id="sentence-counter">Sentence 1 of 10</span>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill" style="width: 0%"></div>
+                </div>
+            </div>
         </div>
 
         <div class="hud">
@@ -894,8 +964,9 @@
 
             // Badges & Progress
             document.getElementById('level-btn').textContent = currentItem.section.split(':')[0] || "LEVEL";
-            const progressPct = ((currentLevelGlobalIndex) / curriculum.length) * 100;
-            document.getElementById('progress-bar').style.width = `${progressPct}%`;
+
+            // Update Progress HUD
+            updateProgressHUD();
 
             // Clean Zones
             document.getElementById('success-overlay').classList.remove('active');
@@ -906,6 +977,20 @@
 
             renderPool();
             updateScoreHUD(false);
+        }
+
+        function updateProgressHUD() {
+            // Calculate day (1-28) from global index (0-279)
+            const currentDay = Math.floor(currentLevelGlobalIndex / 10) + 1;
+            const currentWeek = Math.ceil(currentDay / 7);
+            const sentenceInDay = (currentLevelGlobalIndex % 10) + 1;
+            const progressPercent = (sentenceInDay / 10) * 100;
+
+            // Update DOM
+            document.getElementById('day-number').textContent = `Day ${currentDay} of 28`;
+            document.getElementById('week-badge').textContent = `Week ${currentWeek}`;
+            document.getElementById('sentence-counter').textContent = `Sentence ${sentenceInDay} of 10`;
+            document.getElementById('progress-fill').style.width = `${progressPercent}%`;
         }
 
         function updatePhase(text) {
