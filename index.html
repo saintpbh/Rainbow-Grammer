@@ -1186,6 +1186,7 @@
                     <button class="speed-btn" onclick="changeSpeed(0.75)">0.75×</button>
                     <button class="speed-btn active" onclick="changeSpeed(1.0)">1.0×</button>
                     <button class="speed-btn" onclick="changeSpeed(1.25)">1.25×</button>
+                    <button class="speed-btn" onclick="changeSpeed(1.5)">1.5×</button>
                 </div>
             </div>
         </div>
@@ -1620,11 +1621,17 @@
             // Update active button
             document.querySelectorAll('.speed-btn').forEach(btn => {
                 btn.classList.remove('active');
+                // Check if this button matches the selected rate
+                const btnRate = parseFloat(btn.textContent.replace('×', ''));
+                if (btnRate === rate) {
+                    btn.classList.add('active');
+                }
             });
-            event.target.classList.add('active');
             
             // Save preference
             localStorage.setItem('audio_speed', rate);
+            
+            console.log(`✓ Audio speed set to ${rate}x`);
         }
 
         function loadAudioPreference() {
@@ -1633,10 +1640,10 @@
                 speechRate = parseFloat(saved);
                 // Update button state
                 document.querySelectorAll('.speed-btn').forEach(btn => {
-                    if (btn.textContent.includes(saved)) {
+                    btn.classList.remove('active');
+                    const btnRate = parseFloat(btn.textContent.replace('×', ''));
+                    if (btnRate === parseFloat(saved)) {
                         btn.classList.add('active');
-                    } else {
-                        btn.classList.remove('active');
                     }
                 });
             }
