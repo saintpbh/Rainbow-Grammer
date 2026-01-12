@@ -131,6 +131,63 @@
             box-shadow: 0 0 8px rgba(0, 191, 165, 0.4);
         }
 
+        /* Context Bubble */
+        .context-bubble {
+            background: linear-gradient(135deg, #FFF9C4 0%, #FFF59D 100%);
+            border-left: 4px solid #FDD835;
+            border-radius: 12px;
+            padding: 12px 16px;
+            margin-bottom: 1.5rem;
+            display: flex;
+            gap: 12px;
+            align-items: flex-start;
+            box-shadow: 0 2px 8px rgba(253, 216, 53, 0.2);
+            opacity: 0;
+            transform: translateY(-10px);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .context-bubble.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .context-icon {
+            font-size: 1.5rem;
+            line-height: 1;
+        }
+
+        .context-content {
+            flex: 1;
+        }
+
+        .context-title {
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: #F57F17;
+            text-transform: uppercase;
+            margin-bottom: 4px;
+            letter-spacing: 0.5px;
+        }
+
+        .context-text {
+            font-size: 0.9rem;
+            color: #6D4C41;
+            line-height: 1.4;
+        }
+
+        .context-close {
+            cursor: pointer;
+            font-size: 1.2rem;
+            color: #9E9E9E;
+            line-height: 1;
+            transition: color 0.2s;
+        }
+
+        .context-close:hover {
+            color: #424242;
+        }
+
         .level-badge {
             background: var(--primary);
             color: white;
