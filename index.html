@@ -63,6 +63,13 @@
             gap: 6px;
         }
 
+        .hud-right {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 4px;
+        }
+
         .level-badge {
             background: var(--primary);
             color: white;
@@ -71,6 +78,32 @@
             font-weight: 800;
             font-size: 0.9rem;
             letter-spacing: 0.5px;
+            transition: all 0.3s;
+        }
+
+        .level-badge.levelup {
+            animation: levelUpBadge 1s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+
+        @keyframes levelUpBadge {
+            0% {
+                transform: scale(1);
+            }
+
+            30% {
+                transform: scale(1.5) rotate(5deg);
+                background: #FFD700;
+            }
+
+            60% {
+                transform: scale(1.3) rotate(-5deg);
+                background: #FFD700;
+            }
+
+            100% {
+                transform: scale(1) rotate(0);
+                background: var(--primary);
+            }
         }
 
         #phase-display {
@@ -80,15 +113,35 @@
             text-transform: uppercase;
         }
 
+        .score-group {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .score-label {
+            font-size: 0.75rem;
+            color: #90A4AE;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
         .score-box {
             font-family: 'Courier New', monospace;
             background: #263238;
             color: #00E676;
-            padding: 8px 16px;
-            border-radius: 8px;
+            padding: 4px 10px;
+            border-radius: 6px;
             font-weight: 700;
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.3);
+            min-width: 60px;
+            text-align: right;
+        }
+
+        .score-box.total {
+            color: #FFEA00;
+            /* Gold for total */
         }
 
         /* Progress Bar */
@@ -139,6 +192,36 @@
             border-style: solid;
             border-color: #00C853;
             background-color: #E8F5E9;
+        }
+
+        .answer-area.shake {
+            animation: shake 0.4s cubic-bezier(.36, .07, .19, .97) both;
+            border-color: #FF1744;
+            background-color: #FFEBEE;
+        }
+
+        @keyframes shake {
+
+            10%,
+            90% {
+                transform: translate3d(-2px, 0, 0);
+            }
+
+            20%,
+            80% {
+                transform: translate3d(4px, 0, 0);
+            }
+
+            30%,
+            50%,
+            70% {
+                transform: translate3d(-8px, 0, 0);
+            }
+
+            40%,
+            60% {
+                transform: translate3d(8px, 0, 0);
+            }
         }
 
         /* --- Chunk Pillars (Cards) --- */
@@ -219,6 +302,12 @@
             overflow: hidden;
             /* For tag border radius */
             animation: popIn 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+
+        .word-pill.selected:hover {
+            background-color: #ECEFF1;
+            /* Indicate clickable */
+            opacity: 0.8;
         }
 
         .word-pill.selected .pill-text {
@@ -432,6 +521,65 @@
             border-radius: 50%;
             display: inline-block;
         }
+
+        /* --- Transition Modal --- */
+        #transition-modal {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(98, 0, 234, 0.97);
+            backdrop-filter: blur(8px);
+            z-index: 600;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 2rem;
+            box-sizing: border-box;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.5s;
+        }
+
+        #transition-modal.active {
+            opacity: 1;
+            pointer-events: all;
+        }
+
+        .transition-content h2 {
+            color: white;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .transition-content p {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 1.3rem;
+            margin-bottom: 2.5rem;
+            line-height: 1.6;
+        }
+
+        .ready-btn {
+            background: white;
+            color: var(--primary);
+            font-size: 1.3rem;
+            font-weight: bold;
+            padding: 18px 50px;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+            transition: all 0.2s;
+        }
+
+        .ready-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+            display: inline-block;
+        }
     </style>
 </head>
 
@@ -441,6 +589,15 @@
         <!-- Welcome Modal -->
         <div id="welcome-modal">
             <!-- Content Injected via JS -->
+        </div>
+
+        <!-- Transition Modal -->
+        <div id="transition-modal">
+            <div class="transition-content">
+                <h2 id="next-level-title">Next Level</h2>
+                <p id="next-level-description">Grammar explanation goes here</p>
+                <button class="ready-btn" onclick="proceedToNextLevel()">Yes, Ready! 🚀</button>
+            </div>
         </div>
 
         <!-- Top Progress Bar -->
@@ -453,7 +610,17 @@
                 <span id="level-btn" class="level-badge">LEVEL 1-1</span>
                 <span id="phase-display">READY</span>
             </div>
-            <span id="score-display" class="score-box">0000</span>
+
+            <div class="hud-right">
+                <div class="score-group">
+                    <span class="score-label">Today</span>
+                    <span id="score-today" class="score-box">0000</span>
+                </div>
+                <div class="score-group">
+                    <span class="score-label">Total</span>
+                    <span id="score-total" class="score-box total">0000</span>
+                </div>
+            </div>
         </div>
 
         <div id="success-overlay">
@@ -479,10 +646,11 @@
     <button class="test-audio-btn" onclick="testAudio()" title="Test Audio">🔊</button>
 
     <script type="module">
-        const dataPath = 'grammar_data.json';
+        // Weekly module paths
+        const WEEK_FILES = ['week1.json', 'week2.json', 'week3.json', 'week4.json'];
 
         // --- Logic & Config ---
-        const POINTS_PER_WIN = 20; // Adjusted for ~5000/hr
+        const POINTS_PER_WIN = 20;
         const PRINCIPLES = {
             ACTIVE: "Active Construction",
             LOOP: "Sensory Loop (3x)",
@@ -501,23 +669,24 @@
         };
 
         let curriculum = [];
-        let score = 0;
-        let displayScore = 0;
+        let totalScore = 0;
+        let todayScore = 0;
 
         let currentItem = null;
         let currentChunks = [];
         let selectedIndices = [];
-        let currentLevelGlobalIndex = 0; // Absolute index in curriculum array
+        let currentLevelGlobalIndex = 0;
 
         // --- Persistence ---
-        const SAVE_KEY = "grammar_rainbow_save_v1";
+        const SAVE_KEY = "grammar_rainbow_v2"; // Migrated version
 
         function saveProgress() {
             const state = {
                 levelIndex: currentLevelGlobalIndex,
-                score: score,
-                hasStarted: true,
-                timestamp: Date.now()
+                totalScore: totalScore,
+                todayScore: todayScore,
+                lastPlayedDate: new Date().toDateString(),
+                hasStarted: true
             };
             localStorage.setItem(SAVE_KEY, JSON.stringify(state));
         }
@@ -535,24 +704,33 @@
             let html = '';
 
             if (saved && saved.hasStarted) {
-                // Returning User
+                // Determine if new day
+                const todayStr = new Date().toDateString();
+                if (saved.lastPlayedDate !== todayStr) {
+                    // New Day Logic
+                    saved.todayScore = 0;
+                }
+
+                // Initial Load for variables
                 currentLevelGlobalIndex = saved.levelIndex || 0;
-                score = saved.score || 0;
+                totalScore = saved.totalScore || 0;
+                todayScore = saved.todayScore || 0;
 
                 html = `
                     <div class="welcome-content">
                         <h1>Welcome Back! 👋</h1>
                         <p>Detailed status report for your session:</p>
-                        <div class="principles-grid" style="grid-template-columns:1fr; max-width:300px; margin: 0 auto 2rem;">
-                            <div class="p-card" style="display:flex; justify-content:space-between; align-items:center;">
-                                <span>Current Level</span>
-                                <strong style="font-size:1.4rem;">${currentLevelGlobalIndex + 1}</strong>
-                            </div>
-                            <div class="p-card" style="display:flex; justify-content:space-between; align-items:center; margin-top:10px;">
+                        <div class="principles-grid" style="grid-template-columns:1fr 1fr; max-width:400px; margin: 0 auto 2rem;">
+                            <div class="p-card" style="text-align:center;">
                                 <span>Total Score</span>
-                                <strong style="font-size:1.4rem; color:#00E676;">${score}</strong>
+                                <strong style="font-size:1.4rem; color:#FFEA00;">${totalScore}</strong>
+                            </div>
+                             <div class="p-card" style="text-align:center;">
+                                <span>Today's Score</span>
+                                <strong style="font-size:1.4rem; color:#00E676;">${todayScore}</strong>
                             </div>
                         </div>
+                         <div style="margin-bottom: 20px; font-weight:bold; color: #555;">Current Level: ${currentLevelGlobalIndex + 1}</div>
                         <button class="start-btn" onclick="startGame()">Resume Journey ▶</button>
                     </div>
                 `;
@@ -560,9 +738,9 @@
                 // First Time User
                 html = `
                     <div class="welcome-content">
-                        <h1>Grammar Rainbow 🌈</h1>
+                        <h1>Rainbow Grammar 🌈</h1>
                         <p>Master English grammar through <strong>Colors</strong>, <strong>Patterns</strong>, and <strong>Active Recall</strong>.</p>
-
+                        
                         <div class="color-legend">
                             <div class="legend-dot"><span class="dot" style="background:#FF1744"></span> Subject</div>
                             <div class="legend-dot"><span class="dot" style="background:#FF9100"></span> Verb</div>
@@ -579,7 +757,7 @@
                                 <span>Listen 3x to reinforce.</span>
                             </div>
                         </div>
-
+                        
                         <button class="start-btn" onclick="startGame()">Start Learning 🚀</button>
                     </div>
                 `;
@@ -591,7 +769,6 @@
         window.startGame = () => {
             const modal = document.getElementById('welcome-modal');
             modal.classList.add('hidden');
-            // Play a subtle start sound?
             if (audioCtx.state === 'suspended') audioCtx.resume();
 
             updateScoreHUD(false); // Sync loaded score
@@ -624,7 +801,7 @@
             osc.type = 'sawtooth';
             osc.frequency.setValueAtTime(150, audioCtx.currentTime);
             osc.frequency.linearRampToValueAtTime(100, audioCtx.currentTime + 0.2);
-            gain.gain.setValueAtTime(0.1, audioCtx.currentTime);
+            gain.gain.setValueAtTime(0.2, audioCtx.currentTime);
             gain.gain.linearRampToValueAtTime(0.001, audioCtx.currentTime + 0.3);
             osc.connect(gain);
             gain.connect(audioCtx.destination);
@@ -665,17 +842,37 @@
 
         async function loadGame() {
             try {
-                const res = await fetch(dataPath);
-                const data = await res.json();
-                curriculum = data.curriculum;
+                // Load all weeks dynamically
+                const weekPromises = WEEK_FILES.map(file =>
+                    fetch(file)
+                        .then(res => res.ok ? res.json() : { curriculum: [] })
+                        .catch(() => ({ curriculum: [] }))
+                );
+
+                const weeks = await Promise.all(weekPromises);
+
+                // Merge all weeks into single curriculum
+                curriculum = [];
+                weeks.forEach(week => {
+                    if (week.curriculum && week.curriculum.length > 0) {
+                        curriculum = curriculum.concat(week.curriculum);
+                    }
+                });
+
+                console.log(`✓ Loaded ${curriculum.length} sentences from ${WEEK_FILES.length} weeks`);
+
+                if (curriculum.length === 0) {
+                    throw new Error('No curriculum data loaded');
+                }
+
                 initApp();
             } catch (e) {
-                console.error("Data load failed", e);
+                console.error("Failed to load curriculum:", e);
+                alert('Failed to load curriculum data. Please refresh.');
             }
         }
 
         function initApp() {
-            // Don't start game immediately, show welcome screen
             showWelcomeModal();
         }
 
@@ -704,6 +901,7 @@
             document.getElementById('success-overlay').classList.remove('active');
             const slot = document.getElementById('answer-slot');
             slot.classList.remove('correct');
+            slot.classList.remove('shake');
             slot.innerHTML = '<div style="color: #CFD8DC; font-weight: 500; font-size: 0.9rem;">( Tap words to build )</div>';
 
             renderPool();
@@ -724,7 +922,6 @@
             indices.forEach(idx => {
                 const chunk = currentChunks[idx];
                 const pill = createPill(chunk, idx, false);
-                // Pool specific styling overrides could go here
                 pool.appendChild(pill);
             });
         }
@@ -736,6 +933,12 @@
                 // Apply colors only when selected
                 pill.style.backgroundColor = chunk.color;
                 if (isLightColor(chunk.color)) pill.classList.add('dark-text');
+
+                // Allow undo
+                pill.onclick = () => undoSelection(idx, pill);
+            } else {
+                // Pool item click
+                pill.onclick = () => handleInput(idx, pill);
             }
 
             pill.dataset.idx = idx;
@@ -754,69 +957,148 @@
             pill.appendChild(textDiv);
             pill.appendChild(tagDiv);
 
-            if (!isSelected) {
-                pill.onclick = () => handleInput(idx, pill);
-            }
-
             return pill;
         }
 
         function handleInput(idx, el) {
             if (el.classList.contains('used')) return;
 
-            // Correct order check
-            if (idx !== selectedIndices.length) {
-                playFailureSound();
-                el.style.transform = "rotate(5deg)";
-                setTimeout(() => el.style.transform = "rotate(-5deg)", 50);
-                setTimeout(() => el.style.transform = "none", 150);
-                return;
-            }
+            // --- DEFERRED VALIDATION CHANGE ---
+            // Always allow adding the chunk, even if wrong order.
+            // Just push to selectedIndices and update UI.
 
-            // Success
             selectedIndices.push(idx);
             el.classList.add('used'); // Hide pool item
 
-            // Update Answer Slot
-            const slot = document.getElementById('answer-slot');
-            // Clear placeholder if first item
-            if (selectedIndices.length === 1) slot.innerHTML = '';
-
-            const chunk = currentChunks[idx];
-            const answerPill = createPill(chunk, idx, true);
-            slot.appendChild(answerPill);
-
+            updateAnswerSlot();
             checkCompletion();
         }
 
+        function undoSelection(chunkIdx, pill) {
+            // Find where this chunk is in selectedIndices
+            const pos = selectedIndices.indexOf(chunkIdx);
+            if (pos === -1) return;
+
+            // Remove from selectedIndices
+            selectedIndices.splice(pos, 1);
+
+            // Re-enable pool item
+            const poolArea = document.getElementById('pool-area');
+            const poolItem = poolArea.querySelector(`.word-pill[data-idx="${chunkIdx}"]`);
+            if (poolItem) poolItem.classList.remove('used');
+
+            updateAnswerSlot();
+        }
+
+        function updateAnswerSlot() {
+            const slot = document.getElementById('answer-slot');
+            slot.innerHTML = '';
+            slot.classList.remove('shake'); // Clear any previous error state
+
+            if (selectedIndices.length === 0) {
+                slot.innerHTML = '<div style="color: #CFD8DC; font-weight: 500; font-size: 0.9rem;">( Tap words to build )</div>';
+                return;
+            }
+
+            selectedIndices.forEach(idx => {
+                const chunk = currentChunks[idx];
+                const pill = createPill(chunk, idx, true);
+                slot.appendChild(pill);
+            });
+        }
+
         async function checkCompletion() {
+            // Only check when ALL slots are filled
             if (selectedIndices.length === currentChunks.length) {
-                // Level Complete
-                score += POINTS_PER_WIN;
 
-                document.getElementById('answer-slot').classList.add('correct');
-                playSuccessSound();
-                updateScoreHUD(true);
-                showFloatingScore();
-
-                document.getElementById('success-overlay').classList.add('active');
-
-                // SAVE PROGRESS
-                currentLevelGlobalIndex++; // increment beforehand to save "next" state
-                saveProgress();
-                currentLevelGlobalIndex--; // revert for logic flow below
-
-                // Audio Loop
-                if (currentItem.english) {
-                    await speak3x(currentItem.english);
-                } else {
-                    await new Promise(r => setTimeout(r, 1500));
+                // Validate Order
+                let isCorrect = true;
+                for (let i = 0; i < selectedIndices.length; i++) {
+                    // Since chunks are 0-indexed in order, selectedIndices should be [0, 1, 2...]
+                    if (selectedIndices[i] !== i) {
+                        isCorrect = false;
+                        break;
+                    }
                 }
 
-                // Next Level
-                currentLevelGlobalIndex++;
-                loadLevel();
+                if (isCorrect) {
+                    // Level Complete
+                    totalScore += POINTS_PER_WIN;
+                    todayScore += POINTS_PER_WIN;
+
+                    document.getElementById('answer-slot').classList.add('correct');
+                    playSuccessSound();
+                    updateScoreHUD(true);
+                    showFloatingScore();
+
+                    document.getElementById('success-overlay').classList.add('active');
+
+                    // SAVE PROGRESS
+                    currentLevelGlobalIndex++;
+                    saveProgress();
+                    currentLevelGlobalIndex--;
+
+                    // Audio Loop
+                    if (currentItem.english) {
+                        await speak3x(currentItem.english);
+                    } else {
+                        await new Promise(r => setTimeout(r, 1500));
+                    }
+
+                    // Check if next level is a new section
+                    currentLevelGlobalIndex++;
+                    const currentSection = currentItem.section;
+                    const nextItem = curriculum[currentLevelGlobalIndex];
+
+                    if (nextItem && nextItem.section !== currentSection) {
+                        // Sub-level complete! Show celebration
+                        showLevelUpCelebration(currentSection, nextItem.section);
+                    } else {
+                        // Same section, just go to next sentence
+                        loadLevel();
+                    }
+
+                } else {
+                    // --- ERROR STATE ---
+                    document.getElementById('answer-slot').classList.add('shake');
+                    playFailureSound();
+                    // Optional: Auto-reset? Or let user undo? User request implies just shake.
+                    // The shake animation runs for 0.4s. User can then click to undo.
+                }
             }
+        }
+
+        function showLevelUpCelebration(completedSection, nextSection) {
+            // Animate the level badge
+            const badge = document.getElementById('level-btn');
+            badge.classList.add('levelup');
+            setTimeout(() => badge.classList.remove('levelup'), 1000);
+
+            // Show transition modal after celebration
+            setTimeout(() => {
+                showTransitionModal();
+            }, 1200);
+        }
+
+        function showTransitionModal() {
+            if (currentLevelGlobalIndex >= curriculum.length) {
+                alert('Course Complete! 🎉');
+                return;
+            }
+
+            const nextLevel = curriculum[currentLevelGlobalIndex];
+            const modal = document.getElementById('transition-modal');
+
+            document.getElementById('next-level-title').textContent = nextLevel.section || 'Next Level';
+            document.getElementById('next-level-description').textContent = nextLevel.description || 'Continue your learning journey!';
+
+            modal.classList.add('active');
+        }
+
+        window.proceedToNextLevel = () => {
+            const modal = document.getElementById('transition-modal');
+            modal.classList.remove('active');
+            loadLevel();
         }
 
         function showFloatingScore() {
@@ -830,24 +1112,11 @@
         }
 
         function updateScoreHUD(anim) {
-            const el = document.getElementById('score-display');
-            if (anim) {
-                const start = displayScore;
-                const end = score;
-                const duration = 800;
-                const startTime = performance.now();
+            const todayEl = document.getElementById('score-today');
+            const totalEl = document.getElementById('score-total');
 
-                function step(now) {
-                    const progress = Math.min((now - startTime) / duration, 1);
-                    displayScore = Math.floor(start + (end - start) * progress);
-                    el.textContent = displayScore.toString().padStart(4, '0');
-                    if (progress < 1) requestAnimationFrame(step);
-                }
-                requestAnimationFrame(step);
-            } else {
-                displayScore = score;
-                el.textContent = score.toString().padStart(4, '0');
-            }
+            todayEl.textContent = todayScore.toString().padStart(4, '0');
+            totalEl.textContent = totalScore.toString().padStart(4, '0');
         }
 
         function shuffle(arr) {
@@ -865,6 +1134,7 @@
 
         window.speechSynthesis.getVoices();
         loadGame();
+
     </script>
 </body>
 

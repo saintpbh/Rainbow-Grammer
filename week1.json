@@ -1569,54 +1569,6 @@
           "color": "#00FF00"
         }
       ]
-    },
-    {
-      "id": "2-1-1",
-      "section": "Day 8",
-      "description": "Subject + Verb + Object: Basic transitive verb pattern",
-      "korean": "나는 음악을 사랑한다.",
-      "english": "I love music.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "love",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "music",
-          "role": "Object",
-          "color": "#FFFF00"
-        }
-      ]
-    },
-    {
-      "id": "2-1-2",
-      "section": "Day 8",
-      "description": "Subject + Verb + Object: Basic transitive verb pattern",
-      "korean": "그녀는 책을 읽는다.",
-      "english": "She reads books.",
-      "chunks": [
-        {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "reads",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "books",
-          "role": "Object",
-          "color": "#FFFF00"
-        }
-      ]
     }
   ]
 }
