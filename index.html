@@ -6,160 +6,293 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grammar Rainbow Game</title>
     <style>
+        :root {
+            /* Palette */
+            --bg-color: #E0F7FA;
+            --card-bg: #FFFFFF;
+            --primary: #6200EA;
+            --accent: #00BFA5;
+            --shadow-light: 0 4px 6px rgba(0, 0, 0, 0.1);
+            --shadow-deep: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+
         body {
             font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
-            background-color: #f0f2f5;
+            background: linear-gradient(135deg, #e0f7fa 0%, #e8e4f6 100%);
             display: flex;
             flex-direction: column;
             align-items: center;
+            justify-content: center;
             min-height: 100vh;
             margin: 0;
             padding: 20px;
+            color: #37474F;
         }
 
         #game-container {
             width: 100%;
-            max-width: 600px;
-            background: white;
-            border-radius: 20px;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-            padding: 2rem;
+            max-width: 700px;
+            background: var(--card-bg);
+            border-radius: 24px;
+            box-shadow: var(--shadow-deep);
+            padding: 2.5rem;
             text-align: center;
             position: relative;
             overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.8);
+            min-height: 500px;
+            /* Ensure space for modal */
+            display: flex;
+            flex-direction: column;
         }
 
-        /* HUD */
+        /* --- HUD Area --- */
         .hud {
             display: flex;
             justify-content: space-between;
-            align-items: center;
+            align-items: flex-start;
             margin-bottom: 2rem;
-            font-weight: 700;
-            color: #555;
-            font-size: 1.1rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid #F5F5F5;
         }
 
         .hud-left {
             display: flex;
             flex-direction: column;
             align-items: flex-start;
-            gap: 4px;
+            gap: 6px;
         }
 
-        .score-box {
-            color: #FF7F00;
+        .level-badge {
+            background: var(--primary);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-weight: 800;
+            font-size: 0.9rem;
+            letter-spacing: 0.5px;
         }
 
         #phase-display {
-            font-size: 0.9rem;
-            color: #777;
-            font-weight: normal;
+            font-size: 0.85rem;
+            color: #78909C;
+            font-weight: 600;
+            text-transform: uppercase;
         }
 
-        /* Problem Area */
+        .score-box {
+            font-family: 'Courier New', monospace;
+            background: #263238;
+            color: #00E676;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 1.2rem;
+            box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Progress Bar */
+        .progress-track {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 6px;
+            background: #ECEFF1;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent), var(--primary));
+            width: 0%;
+            transition: width 0.5s ease;
+        }
+
+        /* --- Question Area --- */
         .korean-text {
-            font-size: 1.8rem;
-            font-weight: 800;
-            color: #333;
-            margin-bottom: 2rem;
+            font-size: 2rem;
+            font-weight: 900;
+            color: #263238;
+            margin: 1.5rem 0 2.5rem;
             word-break: keep-all;
-            min-height: 3rem;
+            line-height: 1.3;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
         }
 
-        /* Drop Zone (Answer Area) */
+        /* --- Answer Slot --- */
         .answer-area {
-            min-height: 80px;
-            border-bottom: 3px solid #eee;
-            margin-bottom: 2rem;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-            justify-content: center;
-            align-items: center;
-            padding: 10px;
-            transition: all 0.3s;
-        }
-
-        .answer-area.correct {
-            border-bottom-color: #00FF00;
-            background-color: rgba(0, 255, 0, 0.05);
-        }
-
-        /* Chunk Buttons */
-        .chunk-pool {
+            min-height: 120px;
+            background: #FAFAFA;
+            border: 2px dashed #B0BEC5;
+            border-radius: 16px;
+            margin-bottom: 2.5rem;
             display: flex;
             flex-wrap: wrap;
             gap: 12px;
             justify-content: center;
+            align-items: center;
+            padding: 20px;
+            transition: all 0.3s;
+        }
+
+        .answer-area.correct {
+            border-style: solid;
+            border-color: #00C853;
+            background-color: #E8F5E9;
+        }
+
+        /* --- Chunk Pillars (Cards) --- */
+        .chunk-pool {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 14px;
+            justify-content: center;
         }
 
         .word-pill {
-            padding: 10px 20px;
-            border-radius: 30px;
-            font-size: 1.2rem;
-            font-weight: 600;
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            background: white;
+            border-radius: 12px;
+            padding: 0;
+            /* Content padding handled by children */
             cursor: pointer;
-            transition: transform 0.2s, background-color 0.3s, opacity 0.3s;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            border: 2px solid transparent;
+            transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
             user-select: none;
+            box-shadow: 0 4px 0 #CFD8DC, 0 5px 10px rgba(0, 0, 0, 0.1);
+            border: 1px solid #ECEFF1;
+            min-width: 80px;
         }
 
-        /* Unselected State */
+        .word-pill:active {
+            transform: translateY(4px);
+            box-shadow: 0 0 0 #CFD8DC, inset 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Top part (Text) */
+        .pill-text {
+            padding: 12px 16px;
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #455A64;
+            width: 100%;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        /* Bottom part (Grammar Tag) - Hidden in pool, visible in answer */
+        .pill-tag {
+            font-size: 0.75rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            padding: 4px 0;
+            width: 100%;
+            text-align: center;
+            border-radius: 0 0 12px 12px;
+            color: rgba(255, 255, 255, 0.9);
+            display: none;
+            /* Hidden by default */
+        }
+
+        /* States */
+        /* Pool Item */
         .word-pill.pool-item {
-            background-color: white;
-            color: #444;
-            border-color: #ddd;
+            /* Standard white look defined above */
         }
 
         .word-pill.pool-item:hover {
             transform: translateY(-2px);
-            border-color: #bbb;
+            box-shadow: 0 6px 0 #CFD8DC, 0 8px 15px rgba(0, 0, 0, 0.1);
         }
 
         .word-pill.pool-item.used {
             opacity: 0;
             pointer-events: none;
-            transform: scale(0.8);
+            transform: scale(0.5);
         }
 
-        /* Selected (In Answer Area) State */
+        /* Selected Item (In Answer) */
         .word-pill.selected {
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border: none;
+            overflow: hidden;
+            /* For tag border radius */
+            animation: popIn 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+
+        .word-pill.selected .pill-text {
             color: white;
             text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-            animation: popIn 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         }
 
-        .word-pill.dark-text {
-            color: #333 !important;
+        .word-pill.selected .pill-tag {
+            display: block;
+            /* Show tag */
+        }
+
+        .word-pill.dark-text .pill-text {
+            color: #263238 !important;
             text-shadow: none !important;
         }
 
+        .word-pill.dark-text .pill-tag {
+            color: rgba(0, 0, 0, 0.6);
+        }
+
         @keyframes popIn {
-            from {
-                transform: scale(0.5);
+            0% {
+                transform: scale(0.8);
                 opacity: 0;
             }
 
-            to {
+            100% {
                 transform: scale(1);
                 opacity: 1;
             }
         }
 
-        /* Score Animation */
+        /* --- Overlays & Floating --- */
+        #success-overlay {
+            position: absolute;
+            top: 60px;
+            /* Under progress bar and HUD */
+            left: 0;
+            right: 0;
+            pointer-events: none;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.4s ease;
+            z-index: 100;
+        }
+
+        #success-overlay.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .success-badge {
+            background: #2E7D32;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+            box-shadow: 0 4px 10px rgba(46, 125, 50, 0.3);
+            display: inline-block;
+        }
+
         .score-anim {
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            font-size: 4rem;
-            color: #FF7F00;
-            font-weight: bold;
+            font-size: 3rem;
+            color: #FFD600;
+            font-weight: 900;
+            text-shadow: 0 2px 0 #F57F17;
             opacity: 0;
             pointer-events: none;
-            z-index: 20;
+            z-index: 200;
         }
 
         @keyframes floatingScore {
@@ -169,50 +302,135 @@
             }
 
             50% {
-                transform: translate(-50%, -80%) scale(1.2);
+                transform: translate(-50%, -100%) scale(1.2);
                 opacity: 1;
             }
 
             100% {
-                transform: translate(-50%, -120%) scale(1);
+                transform: translate(-50%, -150%) scale(1);
                 opacity: 0;
             }
         }
 
-        /* Success Overlay - REPOSITIONED ABOVE SENTENCE */
-        #success-overlay {
+        .test-audio-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: white;
+            border: 1px solid #CFD8DC;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* --- Welcome Modal --- */
+        #welcome-modal {
             position: absolute;
-            top: 70px;
+            top: 0;
             left: 0;
-            right: 0;
-            height: auto;
-            background: transparent;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(5px);
+            z-index: 500;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            text-align: center;
+            padding: 2rem;
+            box-sizing: border-box;
+            transition: opacity 0.4s;
+        }
+
+        #welcome-modal.hidden {
             opacity: 0;
             pointer-events: none;
-            transition: opacity 0.3s;
-            z-index: 10;
         }
 
-        #success-overlay.active {
-            opacity: 1;
-            transform: translateY(0);
+        .welcome-content h1 {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
         }
 
-        .test-audio-btn {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            padding: 5px 10px;
-            font-size: 0.8rem;
-            border: 1px solid #ccc;
-            border-radius: 5px;
+        .welcome-content p {
+            color: #546E7A;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+        }
+
+        .principles-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 2rem;
+            text-align: left;
+        }
+
+        .p-card {
             background: white;
+            padding: 15px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            border: 1px solid #ECEFF1;
+        }
+
+        .p-card strong {
+            color: var(--primary);
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .p-card span {
+            font-size: 0.9rem;
+            color: #78909C;
+        }
+
+        .start-btn {
+            background: var(--primary);
+            color: white;
+            font-size: 1.2rem;
+            font-weight: bold;
+            padding: 16px 40px;
+            border: none;
+            border-radius: 50px;
             cursor: pointer;
-            z-index: 100;
+            box-shadow: 0 4px 15px rgba(98, 0, 234, 0.3);
+            transition: all 0.2s;
+        }
+
+        .start-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(98, 0, 234, 0.4);
+        }
+
+        .color-legend {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+
+        .legend-dot {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        .dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            display: inline-block;
         }
     </style>
 </head>
@@ -220,17 +438,26 @@
 <body>
 
     <div id="game-container">
-        <button class="test-audio-btn" onclick="testAudio()">🔊 Test Audio</button>
+        <!-- Welcome Modal -->
+        <div id="welcome-modal">
+            <!-- Content Injected via JS -->
+        </div>
+
+        <!-- Top Progress Bar -->
+        <div class="progress-track">
+            <div class="progress-fill" id="progress-bar"></div>
+        </div>
+
         <div class="hud">
             <div class="hud-left">
-                <span id="level-display">Level 1</span>
-                <span id="phase-display">🧠 Active Construct</span>
+                <span id="level-btn" class="level-badge">LEVEL 1-1</span>
+                <span id="phase-display">READY</span>
             </div>
-            <span id="score-display" class="score-box">Score: 0</span>
+            <span id="score-display" class="score-box">0000</span>
         </div>
 
         <div id="success-overlay">
-            <div class="success-msg" id="success-message">Excellent! 🎉</div>
+            <div class="success-badge">PERFECT! +20</div>
         </div>
 
         <div class="korean-text" id="question-text">
@@ -239,6 +466,7 @@
 
         <div class="answer-area" id="answer-slot">
             <!-- Selected chunks appear here -->
+            <div style="color: #CFD8DC; font-weight: 600;">Tap chunks to build the sentence</div>
         </div>
 
         <div class="chunk-pool" id="pool-area">
@@ -248,65 +476,129 @@
         <div id="float-score-container"></div>
     </div>
 
+    <button class="test-audio-btn" onclick="testAudio()" title="Test Audio">🔊</button>
+
     <script type="module">
         const dataPath = 'grammar_data.json';
 
-        // --- Learning Principles & Game State ---
+        // --- Logic & Config ---
+        const POINTS_PER_WIN = 20; // Adjusted for ~5000/hr
         const PRINCIPLES = {
-            ACTIVE: "🧠 Active Recall Phase",
-            LOOP: "👂 Sensory Loop (3x)",
-            REVIEW: "🔄 Spaced Review"
+            ACTIVE: "Active Construction",
+            LOOP: "Sensory Loop (3x)",
+            REVIEW: "Spaced Review"
+        };
+
+        // Grammar Tag Mapping
+        const ROLE_MAP = {
+            "Subject": "S",
+            "Verb": "V",
+            "Object": "O",
+            "Complement": "C",
+            "Modifier": "M",
+            "Adverb": "Adv",
+            "Etc": "..."
         };
 
         let curriculum = [];
         let score = 0;
         let displayScore = 0;
 
-        // Current Level State
         let currentItem = null;
         let currentChunks = [];
-        let currentEnglishText = "";
         let selectedIndices = [];
+        let currentLevelGlobalIndex = 0; // Absolute index in curriculum array
 
-        // Simple Spaced Repetition Review Logic
-        class ReviewScheduler {
-            constructor(curriculum) {
-                this.curriculum = curriculum;
-                this.mastered = [];
-                this.currentIndex = 0;
-                this.stepsSinceReview = 0;
-            }
+        // --- Persistence ---
+        const SAVE_KEY = "grammar_rainbow_save_v1";
 
-            getNext() {
-                // Trigger Review every 2 steps if we have items
-                if (this.stepsSinceReview >= 2 && this.mastered.length > 0) {
-                    this.stepsSinceReview = 0;
-                    const randomOld = this.mastered[Math.floor(Math.random() * this.mastered.length)];
-                    return { type: 'review', data: randomOld };
-                }
-
-                if (this.currentIndex < this.curriculum.length) {
-                    this.stepsSinceReview++;
-                    return { type: 'new', data: this.curriculum[this.currentIndex] };
-                }
-
-                return null;
-            }
-
-            markComplete(item) {
-                if (!this.mastered.find(m => m.id === item.id)) {
-                    this.mastered.push(item);
-                    this.currentIndex++;
-                }
-            }
-
-            get totalLength() { return this.curriculum.length; }
-            get completedCount() { return this.mastered.length; }
+        function saveProgress() {
+            const state = {
+                levelIndex: currentLevelGlobalIndex,
+                score: score,
+                hasStarted: true,
+                timestamp: Date.now()
+            };
+            localStorage.setItem(SAVE_KEY, JSON.stringify(state));
         }
 
-        let scheduler;
+        function loadProgress() {
+            const raw = localStorage.getItem(SAVE_KEY);
+            if (!raw) return null;
+            return JSON.parse(raw);
+        }
 
-        // --- Audio & TTS ---
+        function showWelcomeModal() {
+            const modal = document.getElementById('welcome-modal');
+            const saved = loadProgress();
+
+            let html = '';
+
+            if (saved && saved.hasStarted) {
+                // Returning User
+                currentLevelGlobalIndex = saved.levelIndex || 0;
+                score = saved.score || 0;
+
+                html = `
+                    <div class="welcome-content">
+                        <h1>Welcome Back! 👋</h1>
+                        <p>Detailed status report for your session:</p>
+                        <div class="principles-grid" style="grid-template-columns:1fr; max-width:300px; margin: 0 auto 2rem;">
+                            <div class="p-card" style="display:flex; justify-content:space-between; align-items:center;">
+                                <span>Current Level</span>
+                                <strong style="font-size:1.4rem;">${currentLevelGlobalIndex + 1}</strong>
+                            </div>
+                            <div class="p-card" style="display:flex; justify-content:space-between; align-items:center; margin-top:10px;">
+                                <span>Total Score</span>
+                                <strong style="font-size:1.4rem; color:#00E676;">${score}</strong>
+                            </div>
+                        </div>
+                        <button class="start-btn" onclick="startGame()">Resume Journey ▶</button>
+                    </div>
+                `;
+            } else {
+                // First Time User
+                html = `
+                    <div class="welcome-content">
+                        <h1>Grammar Rainbow 🌈</h1>
+                        <p>Master English grammar through <strong>Colors</strong>, <strong>Patterns</strong>, and <strong>Active Recall</strong>.</p>
+
+                        <div class="color-legend">
+                            <div class="legend-dot"><span class="dot" style="background:#FF1744"></span> Subject</div>
+                            <div class="legend-dot"><span class="dot" style="background:#FF9100"></span> Verb</div>
+                            <div class="legend-dot"><span class="dot" style="background:#00E676"></span> Object</div>
+                        </div>
+
+                        <div class="principles-grid">
+                            <div class="p-card">
+                                <strong>Active Recall</strong>
+                                <span>Build sentences yourself.</span>
+                            </div>
+                            <div class="p-card">
+                                <strong>Sensory Loop</strong>
+                                <span>Listen 3x to reinforce.</span>
+                            </div>
+                        </div>
+
+                        <button class="start-btn" onclick="startGame()">Start Learning 🚀</button>
+                    </div>
+                `;
+            }
+
+            modal.innerHTML = html;
+        }
+
+        window.startGame = () => {
+            const modal = document.getElementById('welcome-modal');
+            modal.classList.add('hidden');
+            // Play a subtle start sound?
+            if (audioCtx.state === 'suspended') audioCtx.resume();
+
+            updateScoreHUD(false); // Sync loaded score
+            loadLevel();
+        };
+
+        // --- Audio ---
         const AudioContext = window.AudioContext || window.webkitAudioContext;
         const audioCtx = new AudioContext();
 
@@ -317,12 +609,12 @@
             osc.type = 'sine';
             osc.frequency.setValueAtTime(523.25, audioCtx.currentTime);
             osc.frequency.exponentialRampToValueAtTime(1046.5, audioCtx.currentTime + 0.1);
-            gain.gain.setValueAtTime(0.2, audioCtx.currentTime);
-            gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.6);
+            gain.gain.setValueAtTime(0.1, audioCtx.currentTime);
+            gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.5);
             osc.connect(gain);
             gain.connect(audioCtx.destination);
             osc.start();
-            osc.stop(audioCtx.currentTime + 0.6);
+            osc.stop(audioCtx.currentTime + 0.5);
         }
 
         function playFailureSound() {
@@ -330,239 +622,249 @@
             const osc = audioCtx.createOscillator();
             const gain = audioCtx.createGain();
             osc.type = 'sawtooth';
-            osc.frequency.setValueAtTime(146.83, audioCtx.currentTime);
-            osc.frequency.linearRampToValueAtTime(138.59, audioCtx.currentTime + 0.3);
-            gain.gain.setValueAtTime(0.2, audioCtx.currentTime);
-            gain.gain.linearRampToValueAtTime(0.001, audioCtx.currentTime + 0.4);
+            osc.frequency.setValueAtTime(150, audioCtx.currentTime);
+            osc.frequency.linearRampToValueAtTime(100, audioCtx.currentTime + 0.2);
+            gain.gain.setValueAtTime(0.1, audioCtx.currentTime);
+            gain.gain.linearRampToValueAtTime(0.001, audioCtx.currentTime + 0.3);
             osc.connect(gain);
             gain.connect(audioCtx.destination);
             osc.start();
-            osc.stop(audioCtx.currentTime + 0.4);
+            osc.stop(audioCtx.currentTime + 0.3);
         }
 
-        // TTS Helpers
         function speakText(text) {
             return new Promise((resolve) => {
                 window.speechSynthesis.cancel();
                 const utterance = new SpeechSynthesisUtterance(text);
                 const voices = window.speechSynthesis.getVoices();
-                // Try to find a good English voice
-                const enVoice = voices.find(v => v.lang.startsWith('en-US')) || voices.find(v => v.lang.startsWith('en'));
+                const enVoice = voices.find(v => v.lang === 'en-US' && v.name.includes('Google')) || voices.find(v => v.lang.startsWith('en'));
                 if (enVoice) utterance.voice = enVoice;
-
                 utterance.lang = 'en-US';
                 utterance.rate = 0.9;
-                utterance.volume = 1.0;
-
                 utterance.onend = () => resolve();
-                utterance.onerror = (e) => {
-                    console.error("Speech error", e);
-                    resolve();
-                };
-
+                utterance.onerror = () => resolve();
                 window.speechSynthesis.speak(utterance);
             });
         }
 
         window.testAudio = () => {
             playSuccessSound();
-            speakText("Audio system check. One, two, three.");
+            speakText("Ready");
         };
 
-        async function speakSentenceThreeTimes(text) {
-            updatePhaseDisplay(PRINCIPLES.LOOP); // Show phase
-            await speakText(text);
-            await new Promise(r => setTimeout(r, 600));
-            await speakText(text);
-            await new Promise(r => setTimeout(r, 600));
-            await speakText(text);
+        async function speak3x(text) {
+            updatePhase(PRINCIPLES.LOOP);
+            // Quick 3x loop
+            for (let i = 0; i < 3; i++) {
+                await speakText(text);
+                await new Promise(r => setTimeout(r, 400));
+            }
         }
 
-        // --- Game Logic ---
+        // --- Core Game ---
 
         async function loadGame() {
             try {
-                const response = await fetch(dataPath);
-                if (!response.ok) throw new Error('Failed to fetch');
-                const data = await response.json();
+                const res = await fetch(dataPath);
+                const data = await res.json();
                 curriculum = data.curriculum;
-                initGame();
+                initApp();
             } catch (e) {
-                console.warn("Using fallback data", e);
-                const fallback = {
-                    "curriculum": [
-                        { "id": "1-1", "section": "Level 1-1", "korean": "별들은 빛난다.", "english": "The stars shine.", "chunks": [{ "text": "The stars", "role": "Subject", "color": "#FF0000" }, { "text": "shine", "role": "Verb", "color": "#FF7F00" }] },
-                        { "id": "1-2", "section": "Level 1-2", "korean": "독수리는 높이 난다.", "english": "The eagle flies high.", "chunks": [{ "text": "The eagle", "role": "Subject", "color": "#FF0000" }, { "text": "flies", "role": "Verb", "color": "#FF7F00" }, { "text": "high", "role": "Modifier", "color": "#0000FF" }] },
-                        { "id": "1-3", "section": "Level 1-3", "korean": "태양은 뜨겁다.", "english": "The Sun is hot.", "chunks": [{ "text": "The Sun", "role": "Subject", "color": "#FF0000" }, { "text": "is", "role": "Verb", "color": "#FF7F00" }, { "text": "hot", "role": "Complement", "color": "#00FF00" }] }
-                    ]
-                };
-                curriculum = fallback.curriculum;
-                initGame();
+                console.error("Data load failed", e);
             }
         }
 
-        function initGame() {
-            score = 0;
-            displayScore = 0;
-            scheduler = new ReviewScheduler(curriculum);
-            loadNext();
-            updateHUD(false);
+        function initApp() {
+            // Don't start game immediately, show welcome screen
+            showWelcomeModal();
         }
 
-        function loadNext() {
-            const next = scheduler.getNext();
-            if (!next) {
-                alert("All Levels Done! 🏆");
+        function loadLevel() {
+            if (currentLevelGlobalIndex >= curriculum.length) {
+                alert("Course Complete!");
                 return;
             }
 
-            currentItem = next.data;
-            const isReview = (next.type === 'review');
-
-            // Text Updates
-            document.getElementById('question-text').textContent = currentItem.korean + (isReview ? " (Review Challenge!)" : "");
-
-            // Phase Update
-            updatePhaseDisplay(isReview ? PRINCIPLES.REVIEW : PRINCIPLES.ACTIVE);
-
-            // UI Reset
-            document.getElementById('success-overlay').classList.remove('active');
-            document.getElementById('answer-slot').classList.remove('correct');
-            document.getElementById('answer-slot').innerHTML = '';
-
-            // State Reset
+            currentItem = curriculum[currentLevelGlobalIndex];
             currentChunks = currentItem.chunks;
-            currentEnglishText = currentItem.english;
             selectedIndices = [];
 
-            renderPool(currentChunks);
-            updateHUD(false);
+            // UI Updates
+            updatePhase(PRINCIPLES.ACTIVE);
+
+            // Text
+            document.getElementById('question-text').textContent = currentItem.korean;
+
+            // Badges & Progress
+            document.getElementById('level-btn').textContent = currentItem.section.split(':')[0] || "LEVEL";
+            const progressPct = ((currentLevelGlobalIndex) / curriculum.length) * 100;
+            document.getElementById('progress-bar').style.width = `${progressPct}%`;
+
+            // Clean Zones
+            document.getElementById('success-overlay').classList.remove('active');
+            const slot = document.getElementById('answer-slot');
+            slot.classList.remove('correct');
+            slot.innerHTML = '<div style="color: #CFD8DC; font-weight: 500; font-size: 0.9rem;">( Tap words to build )</div>';
+
+            renderPool();
+            updateScoreHUD(false);
         }
 
-        function updatePhaseDisplay(text) {
+        function updatePhase(text) {
             document.getElementById('phase-display').textContent = text;
         }
 
-        function renderPool(chunks) {
+        function renderPool() {
             const pool = document.getElementById('pool-area');
             pool.innerHTML = '';
-            const indices = chunks.map((_, i) => i);
-            shuffleArray(indices);
-            indices.forEach(originalIndex => {
-                const chunk = chunks[originalIndex];
-                const btn = document.createElement('div');
-                btn.className = 'word-pill pool-item';
-                btn.textContent = chunk.text;
-                btn.dataset.idx = originalIndex;
-                btn.onclick = () => handleChunkClick(originalIndex, btn);
-                pool.appendChild(btn);
+
+            const indices = currentChunks.map((_, i) => i);
+            shuffle(indices);
+
+            indices.forEach(idx => {
+                const chunk = currentChunks[idx];
+                const pill = createPill(chunk, idx, false);
+                // Pool specific styling overrides could go here
+                pool.appendChild(pill);
             });
         }
 
-        function handleChunkClick(originalIndex, btnElement) {
-            if (btnElement.classList.contains('used')) return;
+        function createPill(chunk, idx, isSelected) {
+            const pill = document.createElement('div');
+            pill.className = `word-pill ${isSelected ? 'selected' : 'pool-item'}`;
+            if (isSelected) {
+                // Apply colors only when selected
+                pill.style.backgroundColor = chunk.color;
+                if (isLightColor(chunk.color)) pill.classList.add('dark-text');
+            }
 
-            // Strict Order Check
-            const nextExpectedIndex = selectedIndices.length;
-            if (originalIndex !== nextExpectedIndex) {
+            pill.dataset.idx = idx;
+
+            // Inner HTML Structure
+            const textDiv = document.createElement('div');
+            textDiv.className = 'pill-text';
+            textDiv.textContent = chunk.text;
+
+            const tagDiv = document.createElement('div');
+            tagDiv.className = 'pill-tag';
+            tagDiv.textContent = ROLE_MAP[chunk.role] || chunk.role;
+            // Tag background is slightly darker version of chunk color or just transparent white overlay
+            tagDiv.style.backgroundColor = "rgba(0,0,0,0.1)";
+
+            pill.appendChild(textDiv);
+            pill.appendChild(tagDiv);
+
+            if (!isSelected) {
+                pill.onclick = () => handleInput(idx, pill);
+            }
+
+            return pill;
+        }
+
+        function handleInput(idx, el) {
+            if (el.classList.contains('used')) return;
+
+            // Correct order check
+            if (idx !== selectedIndices.length) {
                 playFailureSound();
-                btnElement.style.transform = "translateX(5px)";
-                setTimeout(() => btnElement.style.transform = "none", 100);
-                setTimeout(() => btnElement.style.transform = "translateX(-5px)", 200);
-                setTimeout(() => btnElement.style.transform = "none", 300);
+                el.style.transform = "rotate(5deg)";
+                setTimeout(() => el.style.transform = "rotate(-5deg)", 50);
+                setTimeout(() => el.style.transform = "none", 150);
                 return;
             }
 
-            // Correct
-            selectedIndices.push(originalIndex);
-            btnElement.classList.add('used');
-            renderAnswer();
-            checkAnswer();
-        }
+            // Success
+            selectedIndices.push(idx);
+            el.classList.add('used'); // Hide pool item
 
-        function renderAnswer() {
+            // Update Answer Slot
             const slot = document.getElementById('answer-slot');
-            slot.innerHTML = '';
-            selectedIndices.forEach((chunkIdx, i) => {
-                const chunk = currentChunks[chunkIdx];
-                const el = document.createElement('div');
-                el.className = 'word-pill selected';
-                el.textContent = chunk.text;
-                el.style.backgroundColor = chunk.color;
-                if (chunk.color === '#FFFF00' || chunk.color === '#00FF00') {
-                    el.classList.add('dark-text');
-                }
-                slot.appendChild(el);
-            });
+            // Clear placeholder if first item
+            if (selectedIndices.length === 1) slot.innerHTML = '';
+
+            const chunk = currentChunks[idx];
+            const answerPill = createPill(chunk, idx, true);
+            slot.appendChild(answerPill);
+
+            checkCompletion();
         }
 
-        async function checkAnswer() {
+        async function checkCompletion() {
             if (selectedIndices.length === currentChunks.length) {
-                // Success!
-                scheduler.markComplete(currentItem);
-                score += 100;
+                // Level Complete
+                score += POINTS_PER_WIN;
 
                 document.getElementById('answer-slot').classList.add('correct');
                 playSuccessSound();
+                updateScoreHUD(true);
                 showFloatingScore();
-                updateHUD(true);
+
                 document.getElementById('success-overlay').classList.add('active');
 
-                // Read Aloud Logic
-                if (currentEnglishText) {
-                    await speakSentenceThreeTimes(currentEnglishText);
+                // SAVE PROGRESS
+                currentLevelGlobalIndex++; // increment beforehand to save "next" state
+                saveProgress();
+                currentLevelGlobalIndex--; // revert for logic flow below
+
+                // Audio Loop
+                if (currentItem.english) {
+                    await speak3x(currentItem.english);
                 } else {
-                    await new Promise(r => setTimeout(r, 2000));
+                    await new Promise(r => setTimeout(r, 1500));
                 }
 
-                loadNext();
+                // Next Level
+                currentLevelGlobalIndex++;
+                loadLevel();
             }
         }
 
         function showFloatingScore() {
             const container = document.getElementById('float-score-container');
-            const float = document.createElement('div');
-            float.className = 'score-anim';
-            float.textContent = '+100';
-            float.style.animation = 'floatingScore 1s forwards';
-            container.appendChild(float);
-            setTimeout(() => float.remove(), 1000);
+            const el = document.createElement('div');
+            el.className = 'score-anim';
+            el.textContent = `+${POINTS_PER_WIN}`;
+            el.style.animation = 'floatingScore 0.8s forwards';
+            container.appendChild(el);
+            setTimeout(() => el.remove(), 800);
         }
 
-        function updateHUD(animate) {
-            document.getElementById('level-display').textContent = `Level ${Math.min(scheduler.completedCount + 1, scheduler.totalLength)}`;
-            const scoreEl = document.getElementById('score-display');
-            if (animate) {
+        function updateScoreHUD(anim) {
+            const el = document.getElementById('score-display');
+            if (anim) {
                 const start = displayScore;
                 const end = score;
-                const duration = 1000;
+                const duration = 800;
                 const startTime = performance.now();
-                function step(currentTime) {
-                    const progress = Math.min((currentTime - startTime) / duration, 1);
+
+                function step(now) {
+                    const progress = Math.min((now - startTime) / duration, 1);
                     displayScore = Math.floor(start + (end - start) * progress);
-                    scoreEl.textContent = `Score: ${displayScore}`;
+                    el.textContent = displayScore.toString().padStart(4, '0');
                     if (progress < 1) requestAnimationFrame(step);
                 }
                 requestAnimationFrame(step);
             } else {
                 displayScore = score;
-                scoreEl.textContent = `Score: ${score}`;
+                el.textContent = score.toString().padStart(4, '0');
             }
         }
 
-        function shuffleArray(array) {
-            for (let i = array.length - 1; i > 0; i--) {
+        function shuffle(arr) {
+            for (let i = arr.length - 1; i > 0; i--) {
                 const j = Math.floor(Math.random() * (i + 1));
-                [array[i], array[j]] = [array[j], array[i]];
+                [arr[i], arr[j]] = [arr[j], arr[i]];
             }
         }
 
-        // --- Init ---
-        // Pre-load voices if possible
+        function isLightColor(hex) {
+            // Simple check for Yellow/Lime/Cyan
+            const brights = ['#FFFF00', '#00FF00', '#00FFFF', '#76FF03'];
+            return brights.includes(hex.toUpperCase());
+        }
+
         window.speechSynthesis.getVoices();
-
         loadGame();
-
     </script>
 </body>
 
