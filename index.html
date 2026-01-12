@@ -853,6 +853,12 @@
             transform: translateY(-2px);
         }
 
+        
+        /* Hide score displays */
+        .score-group {
+            display: none !important;
+        }
+
         .test-audio-btn {
             position: fixed;
             bottom: 20px;
@@ -1767,6 +1773,53 @@
         }
 
         
+        
+        function trackVocabularyExposure() {
+            if (!currentChunks) return;
+            
+            currentChunks.forEach(chunk => {
+                const word = chunk.text.toLowerCase();
+                
+                if (!learningStats.vocabularyExposure[word]) {
+                    learningStats.vocabularyExposure[word] = {
+                        count: 0,
+                        lastSeen: Date.now(),
+                        firstSeen: Date.now(),
+                        contexts: []
+                    };
+                }
+                
+                const vocab = learningStats.vocabularyExposure[word];
+                vocab.count++;
+                vocab.lastSeen = Date.now();
+                
+                // Track context (what pattern it appeared in)
+                if (!vocab.contexts.includes(currentItem.section)) {
+                    vocab.contexts.push(currentItem.section);
+                }
+            });
+            
+            // Save to localStorage
+            localStorage.setItem('grammar_analytics', JSON.stringify(learningStats));
+        }
+
+        function getVocabularyReport() {
+            const vocab = learningStats.vocabularyExposure;
+            const entries = Object.entries(vocab);
+            
+            // Sort by exposure count
+            const sorted = entries.sort((a, b) => b[1].count - a[1].count);
+            
+            console.log('=== Vocabulary Exposure Report ===');
+            console.log(`Total unique words: ${entries.length}`);
+            console.log('\nTop 10 most seen words:');
+            sorted.slice(0, 10).forEach(([word, data]) => {
+                console.log(`  ${word}: ${data.count} times, contexts: ${data.contexts.join(', ')}`);
+            });
+            
+            return sorted;
+        }
+
         function analyzeError(userAnswer) {
             const correctAnswer = currentChunks;
             const feedback = {
