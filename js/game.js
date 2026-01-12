@@ -113,6 +113,8 @@ export function loadLevel() {
         }, 600);
     }
 
+    // Badges
+    const badgeEl = document.getElementById('level-btn');
     if (badgeEl) {
         // If practice mode
         if (gameState.isPracticeMode) {
