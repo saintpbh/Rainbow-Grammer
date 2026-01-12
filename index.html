@@ -1169,9 +1169,17 @@
 
         <!-- Progress Tracking HUD -->
         <div class="progress-hud">
-            <div class="day-info">
-                <span id="day-number">Day 1 of 28</span>
-                <span id="week-badge">Week 1</span>
+            <div class="day-info" style="justify-content: space-between; align-items: center; width: 100%;">
+                <div style="display: flex; gap: 8px; align-items: center;">
+                    <span id="day-number">Day 1 of 28</span>
+                    <span id="week-badge">Week 1</span>
+                </div>
+                <!-- Integrated Level/Phase Badge -->
+                <div style="display: flex; gap: 6px; align-items: center;">
+                    <span id="level-btn" class="level-badge" style="font-size: 0.8rem; padding: 4px 8px;">LEVEL
+                        1-1</span>
+                    <span id="phase-display" style="font-size: 0.7rem; color: #999; font-weight: bold;">READY</span>
+                </div>
             </div>
             <div class="sentence-progress">
                 <span id="sentence-counter">Sentence 1 of 10</span>
@@ -1181,30 +1189,12 @@
             </div>
         </div>
 
-        <div class="hud">
-            <div class="hud-left">
-                <span id="level-btn" class="level-badge">LEVEL 1-1</span>
-                <span id="phase-display">READY</span>
-            </div>
-
-            <div class="hud-right">
-                <div class="score-group">
-                    <span class="score-label">Today</span>
-                    <span id="score-today" class="score-box">0000</span>
-                </div>
-
-                <div class="score-group">
-                    <span class="score-label">Total</span>
-                    <span id="score-total" class="score-box total">0000</span>
-                </div>
-            </div>
-
-            <div class="audio-controls" style="position: fixed; top: 20px; right: 20px; z-index: 999;">
-                <button class="speed-btn" onclick="changeSpeed(0.75)">0.75×</button>
-                <button class="speed-btn active" onclick="changeSpeed(1.0)">1.0×</button>
-                <button class="speed-btn" onclick="changeSpeed(1.25)">1.25×</button>
-                <button class="speed-btn" onclick="changeSpeed(1.5)">1.5×</button>
-            </div>
+        <div class="audio-controls"
+            style="position: fixed; top: 20px; right: 20px; z-index: 999; display: flex; gap: 4px;">
+            <button class="speed-btn" onclick="changeSpeed(0.75)">0.75×</button>
+            <button class="speed-btn active" onclick="changeSpeed(1.0)">1.0×</button>
+            <button class="speed-btn" onclick="changeSpeed(1.25)">1.25×</button>
+            <button class="speed-btn" onclick="changeSpeed(1.5)">1.5×</button>
         </div>
 
         <div id="success-overlay">
