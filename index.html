@@ -33,14 +33,28 @@
         .hud {
             display: flex;
             justify-content: space-between;
+            align-items: center;
             margin-bottom: 2rem;
             font-weight: 700;
             color: #555;
             font-size: 1.1rem;
         }
 
+        .hud-left {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 4px;
+        }
+
         .score-box {
             color: #FF7F00;
+        }
+
+        #phase-display {
+            font-size: 0.9rem;
+            color: #777;
+            font-weight: normal;
         }
 
         /* Problem Area */
@@ -112,13 +126,11 @@
 
         /* Selected (In Answer Area) State */
         .word-pill.selected {
-            /* Colors will be applied inline via JS based on role */
             color: white;
             text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
             animation: popIn 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         }
 
-        /* Custom text color for bright backgrounds */
         .word-pill.dark-text {
             color: #333 !important;
             text-shadow: none !important;
@@ -135,7 +147,6 @@
                 opacity: 1;
             }
         }
-
 
         /* Score Animation */
         .score-anim {
@@ -172,12 +183,10 @@
         #success-overlay {
             position: absolute;
             top: 70px;
-            /* Below HUD */
             left: 0;
             right: 0;
             height: auto;
             background: transparent;
-            /* Don't block view */
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -192,24 +201,40 @@
             opacity: 1;
             transform: translateY(0);
         }
+
+        .test-audio-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            padding: 5px 10px;
+            font-size: 0.8rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background: white;
+            cursor: pointer;
+            z-index: 100;
+        }
     </style>
 </head>
 
 <body>
 
     <div id="game-container">
+        <button class="test-audio-btn" onclick="testAudio()">🔊 Test Audio</button>
         <div class="hud">
-            <span id="level-display">Level 1</span>
+            <div class="hud-left">
+                <span id="level-display">Level 1</span>
+                <span id="phase-display">🧠 Active Construct</span>
+            </div>
             <span id="score-display" class="score-box">Score: 0</span>
         </div>
 
-        <!-- Success Message Area (Using overlay div moved here conceptually via CSS) -->
         <div id="success-overlay">
             <div class="success-msg" id="success-message">Excellent! 🎉</div>
         </div>
 
         <div class="korean-text" id="question-text">
-            문제를 불러오는 중...
+            Loading...
         </div>
 
         <div class="answer-area" id="answer-slot">
@@ -220,69 +245,140 @@
             <!-- Scrambled chunks appear here -->
         </div>
 
-        <div id="success-overlay">
-            <div class="success-msg" id="success-message">Excellent! 🎉</div>
-        </div>
-
-        <!-- Floating Score Container -->
         <div id="float-score-container"></div>
     </div>
 
     <script type="module">
         const dataPath = 'grammar_data.json';
 
+        // --- Learning Principles & Game State ---
+        const PRINCIPLES = {
+            ACTIVE: "🧠 Active Recall Phase",
+            LOOP: "👂 Sensory Loop (3x)",
+            REVIEW: "🔄 Spaced Review"
+        };
+
         let curriculum = [];
-        let currentLevelIndex = 0;
         let score = 0;
         let displayScore = 0;
+
+        // Current Level State
+        let currentItem = null;
         let currentChunks = [];
+        let currentEnglishText = "";
         let selectedIndices = [];
 
-        // Sound Context
+        // Simple Spaced Repetition Review Logic
+        class ReviewScheduler {
+            constructor(curriculum) {
+                this.curriculum = curriculum;
+                this.mastered = [];
+                this.currentIndex = 0;
+                this.stepsSinceReview = 0;
+            }
+
+            getNext() {
+                // Trigger Review every 2 steps if we have items
+                if (this.stepsSinceReview >= 2 && this.mastered.length > 0) {
+                    this.stepsSinceReview = 0;
+                    const randomOld = this.mastered[Math.floor(Math.random() * this.mastered.length)];
+                    return { type: 'review', data: randomOld };
+                }
+
+                if (this.currentIndex < this.curriculum.length) {
+                    this.stepsSinceReview++;
+                    return { type: 'new', data: this.curriculum[this.currentIndex] };
+                }
+
+                return null;
+            }
+
+            markComplete(item) {
+                if (!this.mastered.find(m => m.id === item.id)) {
+                    this.mastered.push(item);
+                    this.currentIndex++;
+                }
+            }
+
+            get totalLength() { return this.curriculum.length; }
+            get completedCount() { return this.mastered.length; }
+        }
+
+        let scheduler;
+
+        // --- Audio & TTS ---
         const AudioContext = window.AudioContext || window.webkitAudioContext;
         const audioCtx = new AudioContext();
 
         function playSuccessSound() {
             if (audioCtx.state === 'suspended') audioCtx.resume();
-
-            const oscillator = audioCtx.createOscillator();
-            const gainNode = audioCtx.createGain();
-
-            oscillator.type = 'sine';
-            // "Ping" (High C -> E)
-            oscillator.frequency.setValueAtTime(523.25, audioCtx.currentTime); // C5
-            oscillator.frequency.exponentialRampToValueAtTime(1046.5, audioCtx.currentTime + 0.1); // C6
-
-            gainNode.gain.setValueAtTime(0.2, audioCtx.currentTime);
-            gainNode.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.6);
-
-            oscillator.connect(gainNode);
-            gainNode.connect(audioCtx.destination);
-
-            oscillator.start();
-            oscillator.stop(audioCtx.currentTime + 0.6);
+            const osc = audioCtx.createOscillator();
+            const gain = audioCtx.createGain();
+            osc.type = 'sine';
+            osc.frequency.setValueAtTime(523.25, audioCtx.currentTime);
+            osc.frequency.exponentialRampToValueAtTime(1046.5, audioCtx.currentTime + 0.1);
+            gain.gain.setValueAtTime(0.2, audioCtx.currentTime);
+            gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.6);
+            osc.connect(gain);
+            gain.connect(audioCtx.destination);
+            osc.start();
+            osc.stop(audioCtx.currentTime + 0.6);
         }
 
         function playFailureSound() {
             if (audioCtx.state === 'suspended') audioCtx.resume();
-
-            const oscillator = audioCtx.createOscillator();
-            const gainNode = audioCtx.createGain();
-
-            oscillator.type = 'sawtooth';
-            // "Buzz/Sad" (Low D -> Low C#)
-            oscillator.frequency.setValueAtTime(146.83, audioCtx.currentTime); // D3
-            oscillator.frequency.linearRampToValueAtTime(138.59, audioCtx.currentTime + 0.3); // C#3
-
-            gainNode.gain.setValueAtTime(0.2, audioCtx.currentTime);
-            gainNode.gain.linearRampToValueAtTime(0.001, audioCtx.currentTime + 0.4);
-
-            oscillator.connect(gainNode);
-            gainNode.connect(audioCtx.destination);
-
-            oscillator.start();
-            oscillator.stop(audioCtx.currentTime + 0.4);
+            const osc = audioCtx.createOscillator();
+            const gain = audioCtx.createGain();
+            osc.type = 'sawtooth';
+            osc.frequency.setValueAtTime(146.83, audioCtx.currentTime);
+            osc.frequency.linearRampToValueAtTime(138.59, audioCtx.currentTime + 0.3);
+            gain.gain.setValueAtTime(0.2, audioCtx.currentTime);
+            gain.gain.linearRampToValueAtTime(0.001, audioCtx.currentTime + 0.4);
+            osc.connect(gain);
+            gain.connect(audioCtx.destination);
+            osc.start();
+            osc.stop(audioCtx.currentTime + 0.4);
         }
+
+        // TTS Helpers
+        function speakText(text) {
+            return new Promise((resolve) => {
+                window.speechSynthesis.cancel();
+                const utterance = new SpeechSynthesisUtterance(text);
+                const voices = window.speechSynthesis.getVoices();
+                // Try to find a good English voice
+                const enVoice = voices.find(v => v.lang.startsWith('en-US')) || voices.find(v => v.lang.startsWith('en'));
+                if (enVoice) utterance.voice = enVoice;
+
+                utterance.lang = 'en-US';
+                utterance.rate = 0.9;
+                utterance.volume = 1.0;
+
+                utterance.onend = () => resolve();
+                utterance.onerror = (e) => {
+                    console.error("Speech error", e);
+                    resolve();
+                };
+
+                window.speechSynthesis.speak(utterance);
+            });
+        }
+
+        window.testAudio = () => {
+            playSuccessSound();
+            speakText("Audio system check. One, two, three.");
+        };
+
+        async function speakSentenceThreeTimes(text) {
+            updatePhaseDisplay(PRINCIPLES.LOOP); // Show phase
+            await speakText(text);
+            await new Promise(r => setTimeout(r, 600));
+            await speakText(text);
+            await new Promise(r => setTimeout(r, 600));
+            await speakText(text);
+        }
+
+        // --- Game Logic ---
 
         async function loadGame() {
             try {
@@ -290,57 +386,68 @@
                 if (!response.ok) throw new Error('Failed to fetch');
                 const data = await response.json();
                 curriculum = data.curriculum;
-                startGame();
+                initGame();
             } catch (e) {
                 console.warn("Using fallback data", e);
-                // Fallback for demo
                 const fallback = {
                     "curriculum": [
                         { "id": "1-1", "section": "Level 1-1", "korean": "별들은 빛난다.", "english": "The stars shine.", "chunks": [{ "text": "The stars", "role": "Subject", "color": "#FF0000" }, { "text": "shine", "role": "Verb", "color": "#FF7F00" }] },
-                        { "id": "1-2", "section": "Level 1-2", "korean": "독수리는 높이 난다.", "english": "The eagle flies high.", "chunks": [{ "text": "The eagle", "role": "Subject", "color": "#FF0000" }, { "text": "flies", "role": "Verb", "color": "#FF7F00" }, { "text": "high", "role": "Modifier", "color": "#0000FF" }] }
+                        { "id": "1-2", "section": "Level 1-2", "korean": "독수리는 높이 난다.", "english": "The eagle flies high.", "chunks": [{ "text": "The eagle", "role": "Subject", "color": "#FF0000" }, { "text": "flies", "role": "Verb", "color": "#FF7F00" }, { "text": "high", "role": "Modifier", "color": "#0000FF" }] },
+                        { "id": "1-3", "section": "Level 1-3", "korean": "태양은 뜨겁다.", "english": "The Sun is hot.", "chunks": [{ "text": "The Sun", "role": "Subject", "color": "#FF0000" }, { "text": "is", "role": "Verb", "color": "#FF7F00" }, { "text": "hot", "role": "Complement", "color": "#00FF00" }] }
                     ]
                 };
                 curriculum = fallback.curriculum;
-                startGame();
+                initGame();
             }
         }
 
-        function startGame() {
-            currentLevelIndex = 0;
+        function initGame() {
             score = 0;
             displayScore = 0;
+            scheduler = new ReviewScheduler(curriculum);
+            loadNext();
             updateHUD(false);
-            loadLevel(currentLevelIndex);
         }
 
-        function loadLevel(index) {
-            if (index >= curriculum.length) {
-                alert("All Levels Cleared! You are a Grammar Master! 🏆");
-                startGame();
+        function loadNext() {
+            const next = scheduler.getNext();
+            if (!next) {
+                alert("All Levels Done! 🏆");
                 return;
             }
 
-            const levelData = curriculum[index];
-            document.getElementById('question-text').textContent = levelData.korean;
+            currentItem = next.data;
+            const isReview = (next.type === 'review');
+
+            // Text Updates
+            document.getElementById('question-text').textContent = currentItem.korean + (isReview ? " (Review Challenge!)" : "");
+
+            // Phase Update
+            updatePhaseDisplay(isReview ? PRINCIPLES.REVIEW : PRINCIPLES.ACTIVE);
+
+            // UI Reset
             document.getElementById('success-overlay').classList.remove('active');
             document.getElementById('answer-slot').classList.remove('correct');
+            document.getElementById('answer-slot').innerHTML = '';
 
-            // Prepare Chunks
-            currentChunks = levelData.chunks;
+            // State Reset
+            currentChunks = currentItem.chunks;
+            currentEnglishText = currentItem.english;
             selectedIndices = [];
 
             renderPool(currentChunks);
-            renderAnswer();
             updateHUD(false);
+        }
+
+        function updatePhaseDisplay(text) {
+            document.getElementById('phase-display').textContent = text;
         }
 
         function renderPool(chunks) {
             const pool = document.getElementById('pool-area');
             pool.innerHTML = '';
-
             const indices = chunks.map((_, i) => i);
             shuffleArray(indices);
-
             indices.forEach(originalIndex => {
                 const chunk = chunks[originalIndex];
                 const btn = document.createElement('div');
@@ -355,22 +462,18 @@
         function handleChunkClick(originalIndex, btnElement) {
             if (btnElement.classList.contains('used')) return;
 
-            // Temporary check: is this the *correct next* index?
-            // "Ideally user clicks in order".
-            // If we want instant fail: 
+            // Strict Order Check
             const nextExpectedIndex = selectedIndices.length;
             if (originalIndex !== nextExpectedIndex) {
-                // Wrong choice!
                 playFailureSound();
-                // Simple shake animation on the button?
                 btnElement.style.transform = "translateX(5px)";
                 setTimeout(() => btnElement.style.transform = "none", 100);
                 setTimeout(() => btnElement.style.transform = "translateX(-5px)", 200);
                 setTimeout(() => btnElement.style.transform = "none", 300);
-                return; // Do NOT add to answer
+                return;
             }
 
-            // If correct:
+            // Correct
             selectedIndices.push(originalIndex);
             btnElement.classList.add('used');
             renderAnswer();
@@ -380,38 +483,39 @@
         function renderAnswer() {
             const slot = document.getElementById('answer-slot');
             slot.innerHTML = '';
-
             selectedIndices.forEach((chunkIdx, i) => {
                 const chunk = currentChunks[chunkIdx];
                 const el = document.createElement('div');
                 el.className = 'word-pill selected';
                 el.textContent = chunk.text;
                 el.style.backgroundColor = chunk.color;
-
                 if (chunk.color === '#FFFF00' || chunk.color === '#00FF00') {
                     el.classList.add('dark-text');
                 }
-
-                // el.onclick = () => undoSelection(i, chunkIdx); // Disable undo if strict mode
                 slot.appendChild(el);
             });
         }
 
-        function checkAnswer() {
+        async function checkAnswer() {
             if (selectedIndices.length === currentChunks.length) {
-                // Since we enforced order in click, this is guaranteed correct
+                // Success!
+                scheduler.markComplete(currentItem);
                 score += 100;
+
                 document.getElementById('answer-slot').classList.add('correct');
                 playSuccessSound();
                 showFloatingScore();
                 updateHUD(true);
-
-
                 document.getElementById('success-overlay').classList.add('active');
 
-                setTimeout(() => {
-                    window.nextLevel();
-                }, 3000);
+                // Read Aloud Logic
+                if (currentEnglishText) {
+                    await speakSentenceThreeTimes(currentEnglishText);
+                } else {
+                    await new Promise(r => setTimeout(r, 2000));
+                }
+
+                loadNext();
             }
         }
 
@@ -425,28 +529,19 @@
             setTimeout(() => float.remove(), 1000);
         }
 
-        window.nextLevel = function () {
-            currentLevelIndex++;
-            loadLevel(currentLevelIndex);
-        }
-
         function updateHUD(animate) {
+            document.getElementById('level-display').textContent = `Level ${Math.min(scheduler.completedCount + 1, scheduler.totalLength)}`;
             const scoreEl = document.getElementById('score-display');
-            document.getElementById('level-display').textContent = `Level ${(currentLevelIndex + 1)}`;
-
             if (animate) {
                 const start = displayScore;
                 const end = score;
                 const duration = 1000;
                 const startTime = performance.now();
-
                 function step(currentTime) {
                     const progress = Math.min((currentTime - startTime) / duration, 1);
                     displayScore = Math.floor(start + (end - start) * progress);
                     scoreEl.textContent = `Score: ${displayScore}`;
-                    if (progress < 1) {
-                        requestAnimationFrame(step);
-                    }
+                    if (progress < 1) requestAnimationFrame(step);
                 }
                 requestAnimationFrame(step);
             } else {
@@ -462,7 +557,12 @@
             }
         }
 
+        // --- Init ---
+        // Pre-load voices if possible
+        window.speechSynthesis.getVoices();
+
         loadGame();
+
     </script>
 </body>
 
