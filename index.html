@@ -647,8 +647,16 @@
             box-shadow: 0 6px 16px rgba(255, 82, 82, 0.4);
         }
 
+
         .save-exit-btn:active {
             transform: translateY(0);
+        }
+
+        /* Hide save button on mobile */
+        @media (max-width: 768px) {
+            .save-exit-btn {
+                display: none;
+            }
         }
 
         /* Exit Confirmation Modal */
@@ -1435,6 +1443,15 @@
             osc.stop(audioCtx.currentTime + 0.3);
         }
 
+        
+        async function speakSequence(text) {
+            // Repeat 3 times for sensory loop
+            for (let i = 0; i < 3; i++) {
+                await speakText(text);
+                if (i < 2) await new Promise(r => setTimeout(r, 300));
+            }
+        }
+
         function speakText(text) {
             return new Promise((resolve) => {
                 window.speechSynthesis.cancel();
@@ -1953,7 +1970,8 @@
                     updateScoreHUD(true);
                     showFloatingScore();
 
-                    document.getElementById('success-overlay').classList.add('active');
+                    // Success overlay removed per user request
+                // document.getElementById('success-overlay').classList.add('active');
 
                     // SAVE PROGRESS
                     currentLevelGlobalIndex++;
