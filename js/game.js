@@ -96,10 +96,23 @@ export function loadLevel() {
 
     // Text setup (Korean)
     const qEl = document.getElementById('question-text');
-    if (qEl) qEl.textContent = item.korean;
+    if (qEl) qEl.textContent = item.korean || "";
 
-    // Badges
-    const badgeEl = document.getElementById('level-btn');
+    // Question Display (English)
+    const qDisplay = document.getElementById('question-display');
+    if (qDisplay) {
+        qDisplay.textContent = item.question || "";
+        // Optional: Add visual cue for "Listen!"
+    }
+
+    // Play Question Audio
+    if (item.question) {
+        // slight delay to allow transition
+        setTimeout(() => {
+            audio.speakText(item.question);
+        }, 600);
+    }
+
     if (badgeEl) {
         // If practice mode
         if (gameState.isPracticeMode) {
