@@ -185,7 +185,7 @@
             transition: color 0.2s;
         }
 
-        
+
         /* Grammar Tips Modal */
         .grammar-modal {
             position: fixed;
@@ -329,7 +329,7 @@
             text-align: right;
         }
 
-        
+
         /* Audio Speed Control */
         .audio-controls {
             display: flex;
@@ -624,7 +624,7 @@
             }
         }
 
-        
+
         /* Save & Exit Button */
         .save-exit-btn {
             position: fixed;
@@ -677,7 +677,7 @@
             transition: opacity 0.3s;
         }
 
-        
+
         /* Practice Mode */
         .practice-mode-btn {
             position: fixed;
@@ -854,7 +854,7 @@
             transform: translateY(-2px);
         }
 
-        
+
         /* Hide score displays */
         .score-group {
             display: none !important;
@@ -1034,7 +1034,7 @@
             transition: all 0.2s;
         }
 
-        
+
         /* Keyboard Navigation */
         .word-pill:focus {
             outline: 3px solid var(--accent);
@@ -1058,7 +1058,7 @@
             z-index: 1000;
         }
 
-        
+
         /* Diagnostic Feedback */
         .error-feedback {
             background: linear-gradient(135deg, #FFEBEE 0%, #FFCDD2 100%);
@@ -1145,7 +1145,7 @@
             </div>
         </div>
 
-        
+
         <!-- Grammar Tips Modal -->
         <div class="grammar-modal" id="grammar-modal">
             <div class="grammar-modal-content">
@@ -1184,13 +1184,13 @@
                     <span class="score-label">Today</span>
                     <span id="score-today" class="score-box">0000</span>
                 </div>
-                
+
                 <div class="score-group">
                     <span class="score-label">Total</span>
                     <span id="score-total" class="score-box total">0000</span>
                 </div>
             </div>
-            
+
             <div class="audio-controls" style="position: fixed; top: 20px; right: 20px; z-index: 999;">
                 <button class="speed-btn" onclick="changeSpeed(0.75)">0.75×</button>
                 <button class="speed-btn active" onclick="changeSpeed(1.0)">1.0×</button>
@@ -1203,7 +1203,7 @@
             <div class="success-badge">PERFECT! +20</div>
         </div>
 
-        
+
         <!-- Context Bubble -->
         <div class="context-bubble" id="context-bubble">
             <div class="context-icon">💡</div>
@@ -1218,7 +1218,7 @@
             Loading...
         </div>
 
-        
+
         <!-- Error Feedback -->
         <div class="error-feedback" id="error-feedback">
             <div class="feedback-icon">❌</div>
@@ -1237,14 +1237,14 @@
         </div>
 
         <div id="float-score-container"></div>
-    
+
         <div class="keyboard-hints" id="keyboard-hints">
             Tab: Navigate | Enter: Select | Backspace: Undo | Ctrl+Enter: Submit | R: Replay Audio
         </div>
     </div>
 
-    
-    
+
+
     <!-- Practice Mode Button -->
     <button class="practice-mode-btn" onclick="openPracticeMode()">
         📚 Practice Mode
@@ -1452,7 +1452,7 @@
             osc.stop(audioCtx.currentTime + 0.3);
         }
 
-        
+
         async function speakSequence(text) {
             // Repeat 3 times for sensory loop
             for (let i = 0; i < 3; i++) {
@@ -1461,24 +1461,24 @@
             }
         }
 
-        
+
         function speakText(text) {
             return new Promise((resolve) => {
                 window.speechSynthesis.cancel();
                 const utterance = new SpeechSynthesisUtterance(text);
-                
+
                 // Try to use a better voice if available
                 const voices = window.speechSynthesis.getVoices();
                 const enVoice = voices.find(v => v.lang.startsWith('en-US')) || voices.find(v => v.lang.startsWith('en'));
                 if (enVoice) utterance.voice = enVoice;
-                
+
                 utterance.rate = speechRate || 1.0;
                 utterance.onend = resolve;
                 utterance.onerror = resolve;
                 window.speechSynthesis.speak(utterance);
             });
         }
-        
+
         // Practice Mode functions
         let isPracticeMode = false;
         let practiceStartIndex = 0;
@@ -1487,13 +1487,13 @@
             const currentDay = Math.floor(currentLevelGlobalIndex / 10) + 1;
             const selector = document.getElementById('day-selector');
             if (!selector) return;
-            
+
             selector.innerHTML = '';
-            
+
             for (let day = 1; day <= 28; day++) {
                 const dayDiv = document.createElement('div');
                 dayDiv.className = 'day-option';
-                
+
                 if (day <= currentDay) {
                     dayDiv.classList.add('completed');
                     dayDiv.innerHTML = `
@@ -1508,10 +1508,10 @@
                         <div class="day-status">🔒 Locked</div>
                     `;
                 }
-                
+
                 selector.appendChild(dayDiv);
             }
-            
+
             document.getElementById('practice-modal').classList.add('active');
         }
 
@@ -1524,14 +1524,14 @@
             isPracticeMode = true;
             practiceStartIndex = (day - 1) * 10;
             const savedIndex = currentLevelGlobalIndex;
-            
+
             currentLevelGlobalIndex = practiceStartIndex;
             closePracticeMode();
             loadLevel();
-            
+
             document.getElementById('level-btn').textContent = `📚 Practice: Day ${day}`;
             document.getElementById('level-btn').style.background = '#9C27B0';
-            
+
             if (!document.getElementById('exit-practice-btn')) {
                 const exitBtn = document.createElement('button');
                 exitBtn.id = 'exit-practice-btn';
@@ -1556,7 +1556,7 @@
             loadLevel();
         }
 
-    
+
         window.speechSynthesis.getVoices();
 
         window.testAudio = () => {
@@ -1632,10 +1632,10 @@
 
             // Update Progress HUD
             updateProgressHUD();
-            
+
             // Show context bubble
             showContext();
-            
+
             // Show grammar tip if first sentence of day
             showGrammarTip();
 
@@ -1664,17 +1664,17 @@
             document.getElementById('progress-fill').style.width = `${progressPercent}%`;
         }
 
-        
-        
+
+
         function showGrammarTip() {
             // Check if this is first sentence of a new day
             const sentenceInDay = (currentLevelGlobalIndex % 10);
-            
+
             if (sentenceInDay === 0 && currentItem && currentItem.grammarTip) {
                 const tip = currentItem.grammarTip;
                 document.getElementById('grammar-title').textContent = tip.title || 'Grammar Pattern';
                 document.getElementById('grammar-explanation').textContent = tip.explanation || '';
-                
+
                 const examplesList = document.getElementById('grammar-examples-list');
                 examplesList.innerHTML = '';
                 if (tip.examples) {
@@ -1684,13 +1684,13 @@
                         examplesList.appendChild(li);
                     });
                 }
-                
+
                 document.getElementById('grammar-modal').classList.add('active');
             }
         }
 
-        
-        
+
+
         let currentFocusIndex = -1;
         let availableChunks = [];
 
@@ -1703,12 +1703,12 @@
             startTime: Date.now()
         };
 
-        
+
         let speechRate = 1.0;
 
         function changeSpeed(rate) {
             speechRate = rate;
-            
+
             // Update active button - don't rely on event.target
             document.querySelectorAll('.speed-btn').forEach(btn => {
                 btn.classList.remove('active');
@@ -1717,7 +1717,7 @@
                     btn.classList.add('active');
                 }
             });
-            
+
             localStorage.setItem('audio_speed', rate);
             console.log(`✓ Audio speed set to ${rate}x`);
         }
@@ -1737,10 +1737,18 @@
             }
         }
 
+        function testAudio() {
+            const utterance = new SpeechSynthesisUtterance("Testing audio speed.");
+            utterance.rate = speechRate;
+            utterance.lang = 'en-US';
+            window.speechSynthesis.cancel();
+            window.speechSynthesis.speak(utterance);
+        }
+
         function trackAttempt(isCorrect, pattern) {
             learningStats.totalAttempts++;
             if (isCorrect) learningStats.correctAttempts++;
-            
+
             // Track pattern-specific accuracy
             if (!learningStats.patternAccuracy[pattern]) {
                 learningStats.patternAccuracy[pattern] = {
@@ -1749,12 +1757,12 @@
                     accuracy: 0
                 };
             }
-            
+
             const patternStats = learningStats.patternAccuracy[pattern];
             patternStats.attempts++;
             if (isCorrect) patternStats.correct++;
             patternStats.accuracy = Math.round((patternStats.correct / patternStats.attempts) * 100);
-            
+
             // Save to localStorage
             localStorage.setItem('grammar_analytics', JSON.stringify(learningStats));
         }
@@ -1779,20 +1787,20 @@
             const overall = learningStats.totalAttempts > 0
                 ? Math.round((learningStats.correctAttempts / learningStats.totalAttempts) * 100)
                 : 0;
-            
+
             let weakHtml = '<h3>Areas to Practice:</h3><ul>';
             weak.forEach(([pattern, stats]) => {
                 weakHtml += `<li>${pattern}: ${stats.accuracy}% (${stats.correct}/${stats.attempts})</li>`;
             });
             weakHtml += '</ul>';
-            
+
             alert(`Overall Accuracy: ${overall}%\n\n${weakHtml.replace(/<[^>]*>/g, '\n')}`);
         }
 
 
         function initKeyboardNavigation() {
             document.addEventListener('keydown', handleKeyDown);
-            
+
             // Show hints on first Tab press
             document.addEventListener('keydown', (e) => {
                 if (e.key === 'Tab') {
@@ -1807,7 +1815,7 @@
         function handleKeyDown(e) {
             // Get all available pills
             availableChunks = Array.from(document.querySelectorAll('#pool-area .word-pill:not(.used)'));
-            
+
             if (e.key === 'Tab') {
                 e.preventDefault();
                 navigateChunks(e.shiftKey ? -1 : 1);
@@ -1835,17 +1843,17 @@
 
         function navigateChunks(direction) {
             if (availableChunks.length === 0) return;
-            
+
             // Remove previous focus
             if (currentFocusIndex >= 0 && availableChunks[currentFocusIndex]) {
                 availableChunks[currentFocusIndex].blur();
             }
-            
+
             // Update index
             currentFocusIndex += direction;
             if (currentFocusIndex < 0) currentFocusIndex = availableChunks.length - 1;
             if (currentFocusIndex >= availableChunks.length) currentFocusIndex = 0;
-            
+
             // Focus new element
             if (availableChunks[currentFocusIndex]) {
                 availableChunks[currentFocusIndex].focus();
@@ -1853,14 +1861,14 @@
             }
         }
 
-        
-        
+
+
         function trackVocabularyExposure() {
             if (!currentChunks) return;
-            
+
             currentChunks.forEach(chunk => {
                 const word = chunk.text.toLowerCase();
-                
+
                 if (!learningStats.vocabularyExposure[word]) {
                     learningStats.vocabularyExposure[word] = {
                         count: 0,
@@ -1869,26 +1877,26 @@
                         contexts: []
                     };
                 }
-                
+
                 const vocab = learningStats.vocabularyExposure[word];
                 vocab.count++;
                 vocab.lastSeen = Date.now();
-                
+
                 // Track context (what pattern it appeared in)
                 if (!vocab.contexts.includes(currentItem.section)) {
                     vocab.contexts.push(currentItem.section);
                 }
             });
-            
+
             // Save to localStorage
             localStorage.setItem('grammar_analytics', JSON.stringify(learningStats));
         }
 
-        
+
         function classifyWordCEFR(word) {
             const a1 = ['i', 'you', 'is', 'are', 'the', 'a', 'an', 'cat', 'dog', 'run', 'see', 'eat', 'happy', 'big', 'small', 'sun', 'moon', 'star', 'shine', 'sleep', 'water', 'fire', 'bird', 'tree', 'flower'];
             const a2 = ['because', 'when', 'where', 'how', 'book', 'read', 'write', 'study', 'work', 'play', 'friend', 'house'];
-            
+
             const lower = word.toLowerCase();
             if (a1.includes(lower)) return 'A1';
             if (a2.includes(lower)) return 'A2';
@@ -1898,17 +1906,17 @@
         function getVocabularyReport() {
             const vocab = learningStats.vocabularyExposure;
             const entries = Object.entries(vocab);
-            
+
             // Sort by exposure count
             const sorted = entries.sort((a, b) => b[1].count - a[1].count);
-            
+
             console.log('=== Vocabulary Exposure Report ===');
             console.log(`Total unique words: ${entries.length}`);
             console.log('\nTop 10 most seen words:');
             sorted.slice(0, 10).forEach(([word, data]) => {
                 console.log(`  ${word}: ${data.count} times, contexts: ${data.contexts.join(', ')}`);
             });
-            
+
             return sorted;
         }
 
@@ -1918,7 +1926,7 @@
                 message: '',
                 hint: ''
             };
-            
+
             // Check word count
             if (selectedIndices.length !== correctAnswer.length) {
                 if (selectedIndices.length > correctAnswer.length) {
@@ -1930,12 +1938,12 @@
                 }
                 return feedback;
             }
-            
+
             // Check each position
             for (let i = 0; i < selectedIndices.length; i++) {
                 const selectedIdx = selectedIndices[i];
                 const correctIdx = i;
-                
+
                 if (selectedIdx !== correctIdx) {
                     feedback.message = `Check word #${i + 1}`;
                     const correctChunk = correctAnswer[correctIdx];
@@ -1943,7 +1951,7 @@
                     return feedback;
                 }
             }
-            
+
             feedback.message = "Almost there!";
             feedback.hint = "Double-check the order of your words.";
             return feedback;
@@ -1953,7 +1961,7 @@
             document.getElementById('feedback-message').textContent = feedback.message;
             document.getElementById('feedback-hint').textContent = feedback.hint;
             document.getElementById('error-feedback').classList.add('active');
-            
+
             // Auto-hide after 8 seconds
             setTimeout(() => {
                 document.getElementById('error-feedback').classList.remove('active');
@@ -1985,7 +1993,7 @@
             if (currentItem && currentItem.context) {
                 document.getElementById('context-text').textContent = currentItem.context;
                 document.getElementById('context-bubble').classList.add('active');
-                
+
                 // Auto-hide after 6 seconds
                 setTimeout(() => {
                     hideContext();
@@ -2124,7 +2132,7 @@
                     showFloatingScore();
 
                     // Success overlay removed per user request
-                // document.getElementById('success-overlay').classList.add('active');
+                    // document.getElementById('success-overlay').classList.add('active');
 
                     // SAVE PROGRESS
                     currentLevelGlobalIndex++;
@@ -2231,13 +2239,13 @@
             const currentDay = Math.floor(currentLevelGlobalIndex / 10) + 1;
             const sentenceInDay = (currentLevelGlobalIndex % 10) + 1;
             const currentWeek = Math.ceil(currentDay / 7);
-            
+
             document.getElementById('exit-progress').innerHTML = `
                 Day ${currentDay} of 28 (Week ${currentWeek})<br>
                 Sentence ${sentenceInDay} of 10<br>
                 <span style="color: #00BFA5;">Total Score: ${totalScore}</span>
             `;
-            
+
             document.getElementById('exit-modal').classList.add('active');
         }
 
@@ -2248,7 +2256,7 @@
         function confirmExit() {
             saveProgress();
             closeExitModal();
-            
+
             const container = document.getElementById('game-container');
             container.innerHTML = `
                 <div style="text-align: center; padding: 3rem;">
@@ -2271,15 +2279,15 @@
                     ">다시 시작하기</button>
                 </div>
             `;
-            
+
             if (learningStats) {
                 localStorage.setItem('grammar_analytics', JSON.stringify(learningStats));
             }
         }
 
-        
+
         // --- Initialization & Global Attachments ---
-        
+
         // Make functions globally available for HTML onclick handlers
         window.startGame = startGame;
         window.proceedToNextLevel = proceedToNextLevel;
@@ -2292,38 +2300,17 @@
         window.exitPracticeMode = exitPracticeMode;
         window.changeSpeed = changeSpeed;
         window.testAudio = testAudio;
-        
+
         // Start the game
         window.speechSynthesis.getVoices(); // Init voices
         loadGame();
         initKeyboardNavigation();
         loadAnalytics();
         loadAudioPreference();
-        
-    </script>// --- Initialization & Global Attachments ---
-        
-        // Make functions globally available for HTML onclick handlers
-        window.startGame = startGame;
-        window.proceedToNextLevel = proceedToNextLevel;
-        window.openPracticeMode = openPracticeMode;
-        window.closePracticeMode = closePracticeMode;
-        window.showExitModal = showExitModal;
-        window.closeExitModal = closeExitModal;
-        window.confirmExit = confirmExit;
-        window.startPracticeDay = startPracticeDay;
-        window.exitPracticeMode = exitPracticeMode;
-        window.changeSpeed = changeSpeed;
-        window.testAudio = testAudio;
-        
-        // Start the game
-        window.speechSynthesis.getVoices(); // Init voices
-        loadGame();
-        initKeyboardNavigation();
-        loadAnalytics();
-        loadAudioPreference();
-        
+
     </script>
 </body>
-</body>
+
+</html>
 
 </html>
