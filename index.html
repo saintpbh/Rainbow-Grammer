@@ -623,6 +623,111 @@
             }
         }
 
+        
+        /* Save & Exit Button */
+        .save-exit-btn {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: linear-gradient(135deg, #FF6B6B 0%, #FF5252 100%);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 25px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(255, 82, 82, 0.3);
+            transition: all 0.3s;
+            z-index: 1000;
+        }
+
+        .save-exit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(255, 82, 82, 0.4);
+        }
+
+        .save-exit-btn:active {
+            transform: translateY(0);
+        }
+
+        /* Exit Confirmation Modal */
+        .exit-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.75);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 3000;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s;
+        }
+
+        .exit-modal.active {
+            opacity: 1;
+            pointer-events: all;
+        }
+
+        .exit-modal-content {
+            background: white;
+            border-radius: 20px;
+            padding: 2.5rem;
+            max-width: 450px;
+            text-align: center;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .exit-modal-content h2 {
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+
+        .exit-modal-content p {
+            color: #546E7A;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .exit-modal-buttons {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+        }
+
+        .exit-cancel-btn,
+        .exit-confirm-btn {
+            padding: 12px 28px;
+            border-radius: 25px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s;
+            border: none;
+        }
+
+        .exit-cancel-btn {
+            background: #E0E0E0;
+            color: #424242;
+        }
+
+        .exit-cancel-btn:hover {
+            background: #BDBDBD;
+        }
+
+        .exit-confirm-btn {
+            background: var(--primary);
+            color: white;
+        }
+
+        .exit-confirm-btn:hover {
+            background: #7C4DFF;
+            transform: translateY(-2px);
+        }
+
         .test-audio-btn {
             position: fixed;
             bottom: 20px;
@@ -1001,6 +1106,29 @@
     
         <div class="keyboard-hints" id="keyboard-hints">
             Tab: Navigate | Enter: Select | Backspace: Undo | Ctrl+Enter: Submit | R: Replay Audio
+        </div>
+    </div>
+
+    
+    <!-- Save & Exit Button -->
+    <button class="save-exit-btn" onclick="showExitModal()">💾 학습 마치기</button>
+
+    <!-- Exit Confirmation Modal -->
+    <div class="exit-modal" id="exit-modal">
+        <div class="exit-modal-content">
+            <h2>✨ 좋은 학습이었어요!</h2>
+            <p>
+                <strong>현재 진행 상황이 저장됩니다.</strong><br>
+                다음에 접속하시면 바로 이어서 학습할 수 있습니다.
+            </p>
+            <div id="exit-info" style="background: #F5F5F5; padding: 1rem; border-radius: 12px; margin-bottom: 1.5rem;">
+                <div style="font-size: 0.9rem; color: #666;">현재 위치</div>
+                <div id="exit-progress" style="font-weight: 700; color: var(--primary); margin-top: 0.5rem;"></div>
+            </div>
+            <div class="exit-modal-buttons">
+                <button class="exit-cancel-btn" onclick="closeExitModal()">계속 학습</button>
+                <button class="exit-confirm-btn" onclick="confirmExit()">저장하고 나가기</button>
+            </div>
         </div>
     </div>
 
