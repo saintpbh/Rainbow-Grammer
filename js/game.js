@@ -21,8 +21,17 @@ export async function loadGame() {
         const files = GET_LEVEL_FILES(level);
         const filePromises = files.map(file =>
             fetch(file)
-                .then(res => res.ok ? res.json() : { curriculum: [] })
-                .catch(() => ({ curriculum: [] }))
+                .then(res => {
+                    if (!res.ok) {
+                        console.warn(`Failed to load ${file}: ${res.statusText}`);
+                        return { curriculum: [] };
+                    }
+                    return res.json();
+                })
+                .catch(err => {
+                    console.error(`Error loading ${file}:`, err);
+                    return { curriculum: [] };
+                })
         );
 
         const dataChunks = await Promise.all(filePromises);
