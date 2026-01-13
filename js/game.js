@@ -142,6 +142,16 @@ export function loadLevel() {
         }
     }
 
+
+    // Update Chili Display
+    const chiliCountEl = document.getElementById('chili-count');
+    if (chiliCountEl) {
+        // Display current Level as Chili Count (or actual completed cycles?)
+        // User requested "Level Up" feeling, so showing Current Level makes sense.
+        // Level 0 -> x 0, Level 1 -> x 1
+        chiliCountEl.textContent = `x ${gameState.currentLevel}`;
+    }
+
     // Progress HUD
     ui.updateProgressHUD(gameState.currentLevelGlobalIndex, gameState.curriculum.length);
 
