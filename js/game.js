@@ -292,7 +292,7 @@ async function checkCompletion() {
                     gameState.currentLevel++;
 
                     // Safety cap
-                    if (gameState.currentLevel > 5) gameState.currentLevel = 5;
+                    if (gameState.currentLevel > 6) gameState.currentLevel = 6;
 
                     gameState.currentLevelGlobalIndex = 0; // Reset for next cycle
 
@@ -413,32 +413,30 @@ export function confirmExit() {
 
 // --- Dev / Test Functions ---
 export function testSpicyLevel() {
-    // Determine next level
-    const nextLevel = gameState.currentLevel + 1;
+    const input = prompt("🌶️ Enter Spicy Level (0-6) to test:", gameState.currentLevel);
+    if (input === null) return;
 
-    // Safety check for max level (assuming max 5 for now)
-    if (nextLevel > 5) {
-        alert("🌶️ You are already at Max Spicy level!");
+    const targetLevel = parseInt(input, 10);
+    if (isNaN(targetLevel) || targetLevel < 0 || targetLevel > 6) {
+        alert("Please enter a number between 0 and 6.");
         return;
     }
 
-    const confirmTest = confirm(`🌶️ Test Spicy Level ${nextLevel}?\nCurrent progress will be saved but temporarily switched to the next difficulty.`);
+    const confirmTest = confirm(`🌶️ Switch to Spicy Level ${targetLevel}?\nCurrent progress will be saved.`);
     if (!confirmTest) return;
 
     // Save current
     storage.saveProgress();
 
-    alert(`Switching to Level ${nextLevel} (Spicy)...`);
-
-    // Save state as Next Level then reload
+    // Reset to start of that level
     const progress = {
         levelIndex: 0,
         totalScore: gameState.totalScore,
         todayScore: 0,
         lastPlayedDate: new Date().toDateString(),
         hasStarted: true,
-        currentLevel: nextLevel,
-        chiliCount: gameState.chiliCount // Chili count usually updates on completion, but for test just keep it
+        currentLevel: targetLevel,
+        chiliCount: gameState.chiliCount
     };
     storage.saveProgressExplicit(progress);
     location.reload();

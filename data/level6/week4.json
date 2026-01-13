@@ -1,0 +1,2278 @@
+{
+  "curriculum": [
+    {
+      "id": "6-22-1",
+      "section": "Day 22",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "성찰하지 않는 삶은 살 가치가 없다.",
+      "english": "The unexamined life is not worth living.",
+      "chunks": [
+        {
+          "text": "The unexamined life",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is not",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "worth living",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": {
+        "title": "The Philosopher",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Complement",
+            "color": "#BA68C8"
+          }
+        ]
+      },
+      "grammarTip": {
+        "title": "Philosophical Truths",
+        "explanation": "추상적인 개념을 정의하거나 삶의 이치를 논할 때 사용하는 문장 구조입니다. 'A is B', 'To do is to be' 등을 사용합니다.",
+        "examples": [
+          "Knowledge is power.",
+          "To live is to suffer."
+        ]
+      }
+    },
+    {
+      "id": "6-22-2",
+      "section": "Day 22",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "나는 생각한다, 고로 나는 존재한다.",
+      "english": "I think, therefore I am.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "think",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "therefore",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "am",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-22-3",
+      "section": "Day 22",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "인생이란 당신이 다른 계획을 세우느라 바쁠 때 일어나는 것이다.",
+      "english": "Life is what happens when you're busy making other plans.",
+      "chunks": [
+        {
+          "text": "Life",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "what happens",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "when you're busy making other plans",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-22-4",
+      "section": "Day 22",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "산다는 것은 고통받는 것이다.",
+      "english": "To live is to suffer.",
+      "chunks": [
+        {
+          "text": "To live",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "to suffer",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-22-5",
+      "section": "Day 22",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "행복은 우리 자신에게 달려 있다.",
+      "english": "Happiness depends upon ourselves.",
+      "chunks": [
+        {
+          "text": "Happiness",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "depends",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "upon ourselves",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-22-6",
+      "section": "Day 22",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "우리가 반복적으로 하는 것이 곧 우리 자신이다.",
+      "english": "We are what we repeatedly do.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "are",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "what we repeatedly do",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-22-7",
+      "section": "Day 22",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "인간은 자유롭게 태어났으나 도처에 사슬에 묶여 있다.",
+      "english": "Man is born free, and everywhere he is in chains.",
+      "chunks": [
+        {
+          "text": "Man",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is born",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "free",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "and",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "everywhere",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "he",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "in chains",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-22-8",
+      "section": "Day 22",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "너 자신을 알라.",
+      "english": "Know thyself.",
+      "chunks": [
+        {
+          "text": "Know",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "thyself",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-22-9",
+      "section": "Day 22",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "우리 삶의 목적은 행복해지는 것이다.",
+      "english": "The purpose of our lives is to be happy.",
+      "chunks": [
+        {
+          "text": "The purpose of our lives",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "to be happy",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-22-10",
+      "section": "Day 22",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "결국, 우리는 잡지 않은 기회들만을 후회한다.",
+      "english": "In the end, we only regret the chances we didn't take.",
+      "chunks": [
+        {
+          "text": "In the end",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "we",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "only regret",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the chances we didn't take",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-23-1",
+      "section": "Day 23",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "이 또한 지나가리라.",
+      "english": "This too shall pass.",
+      "chunks": [
+        {
+          "text": "This too",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "shall pass",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": {
+        "title": "The Philosopher",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          }
+        ]
+      },
+      "grammarTip": null
+    },
+    {
+      "id": "6-23-2",
+      "section": "Day 23",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "시간은 아무도 기다려주지 않는다.",
+      "english": "Time waits for no one.",
+      "chunks": [
+        {
+          "text": "Time",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "waits",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "for no one",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-23-3",
+      "section": "Day 23",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "변화는 삶의 유일한 상수이다.",
+      "english": "Change is the only constant in life.",
+      "chunks": [
+        {
+          "text": "Change",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the only constant",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "in life",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-23-4",
+      "section": "Day 23",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "과거는 낯선 나라이다.",
+      "english": "The past is a foreign country.",
+      "chunks": [
+        {
+          "text": "The past",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a foreign country",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-23-5",
+      "section": "Day 23",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "카르페 디엠, 오늘을 즐겨라.",
+      "english": "Carpe diem, seize the day.",
+      "chunks": [
+        {
+          "text": "Carpe diem",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "seize",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the day",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-23-6",
+      "section": "Day 23",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "역사는 반복된다.",
+      "english": "History repeats itself.",
+      "chunks": [
+        {
+          "text": "History",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "repeats",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "itself",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-23-7",
+      "section": "Day 23",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "날짜를 세지 말고, 하루하루를 의미 있게 만들어라.",
+      "english": "Don't count the days, make the days count.",
+      "chunks": [
+        {
+          "text": "Don't count",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the days",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "make",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the days count",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-23-8",
+      "section": "Day 23",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "잃어버린 시간은 결코 되찾을 수 없다.",
+      "english": "Lost time is never found again.",
+      "chunks": [
+        {
+          "text": "Lost time",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is never found",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "again",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-23-9",
+      "section": "Day 23",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "미래는 내일이 아니라 오늘 시작된다.",
+      "english": "The future starts today, not tomorrow.",
+      "chunks": [
+        {
+          "text": "The future",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "starts",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "today",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "not tomorrow",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-23-10",
+      "section": "Day 23",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "인내는 쓰지만 그 열매는 달다.",
+      "english": "Patience is bitter, but its fruit is sweet.",
+      "chunks": [
+        {
+          "text": "Patience",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "bitter",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "but",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "its fruit",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "sweet",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-24-1",
+      "section": "Day 24",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "유일한 참된 지혜는 당신이 아무것도 모른다는 것을 아는 데 있다.",
+      "english": "The only true wisdom is in knowing you know nothing.",
+      "chunks": [
+        {
+          "text": "The only true wisdom",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "in knowing you know nothing",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": {
+        "title": "The Philosopher",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          }
+        ]
+      },
+      "grammarTip": null
+    },
+    {
+      "id": "6-24-2",
+      "section": "Day 24",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "아는 것이 힘이다.",
+      "english": "Knowledge is power.",
+      "chunks": [
+        {
+          "text": "Knowledge",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "power",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-24-3",
+      "section": "Day 24",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "현실은 소설보다 낯설다 (기이하다).",
+      "english": "Truth is stranger than fiction.",
+      "chunks": [
+        {
+          "text": "Truth",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "stranger",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "than fiction",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-24-4",
+      "section": "Day 24",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "선무당이 사람 잡는다 (얕은 지식은 위험하다).",
+      "english": "A little knowledge is a dangerous thing.",
+      "chunks": [
+        {
+          "text": "A little knowledge",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a dangerous thing",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-24-5",
+      "section": "Day 24",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "모르는 게 약이다.",
+      "english": "Ignorance is bliss.",
+      "chunks": [
+        {
+          "text": "Ignorance",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "bliss",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-24-6",
+      "section": "Day 24",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "진리를 추구하라.",
+      "english": "Seek the truth.",
+      "chunks": [
+        {
+          "text": "Seek",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the truth",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-24-7",
+      "section": "Day 24",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "사실은 무시된다고 해서 존재하기를 멈추지 않는다.",
+      "english": "Facts do not cease to exist because they are ignored.",
+      "chunks": [
+        {
+          "text": "Facts",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "do not cease to exist",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "because they are ignored",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-24-8",
+      "section": "Day 24",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "모든 것을 의심하라.",
+      "english": "Question everything.",
+      "chunks": [
+        {
+          "text": "Question",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "everything",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-24-9",
+      "section": "Day 24",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "교육은 양동이를 채우는 것이 아니라 불을 지피는 것이다.",
+      "english": "Education is not the filling of a pail, but the lighting of a fire.",
+      "chunks": [
+        {
+          "text": "Education",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is not",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the filling of a pail",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "but",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "the lighting of a fire",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-24-10",
+      "section": "Day 24",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "지혜는 경이로움에서 시작된다.",
+      "english": "Wisdom begins in wonder.",
+      "chunks": [
+        {
+          "text": "Wisdom",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "begins",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "in wonder",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-25-1",
+      "section": "Day 25",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "미래는 꿈의 아름다움을 믿는 자들의 것이다.",
+      "english": "The future belongs to those who believe in the beauty of their dreams.",
+      "chunks": [
+        {
+          "text": "The future",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "belongs to",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "those who believe in the beauty of their dreams",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": {
+        "title": "The Philosopher",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Object",
+            "color": "#FFD700"
+          }
+        ]
+      },
+      "grammarTip": null
+    },
+    {
+      "id": "6-25-2",
+      "section": "Day 25",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "모든 사람이 평화롭게 사는 것을 상상해 보라.",
+      "english": "Imagine all the people living life in peace.",
+      "chunks": [
+        {
+          "text": "Imagine",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "all the people",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "living life in peace",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-25-3",
+      "section": "Day 25",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "우리는 하나다 (우리가 세계다).",
+      "english": "We are the world.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "are",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the world",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-25-4",
+      "section": "Day 25",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "천 리 길도 한 걸음부터.",
+      "english": "A journey of a thousand miles begins with a single step.",
+      "chunks": [
+        {
+          "text": "A journey of a thousand miles",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "begins",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "with a single step",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-25-5",
+      "section": "Day 25",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "세상에서 보고 싶은 변화가 되어라.",
+      "english": "Be the change you wish to see in the world.",
+      "chunks": [
+        {
+          "text": "Be",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the change you wish to see",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "in the world",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-25-6",
+      "section": "Day 25",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "항상 얼굴을 햇빛 쪽으로 향하라.",
+      "english": "Keep your face always toward the sunshine.",
+      "chunks": [
+        {
+          "text": "Keep",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "your face",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "always",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "toward the sunshine",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-25-7",
+      "section": "Day 25",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "미래를 예측하는 가장 좋은 방법은 미래를 만드는 것이다.",
+      "english": "The best way to predict the future is to create it.",
+      "chunks": [
+        {
+          "text": "The best way to predict the future",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "to create it",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-25-8",
+      "section": "Day 25",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "희망은 깨어 있는 꿈이다.",
+      "english": "Hope is a waking dream.",
+      "chunks": [
+        {
+          "text": "Hope",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a waking dream",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-25-9",
+      "section": "Day 25",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "크게 꿈꾸고, 실패를 두려워하지 마라.",
+      "english": "Dream big and dare to fail.",
+      "chunks": [
+        {
+          "text": "Dream",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "big",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "and dare to fail",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-25-10",
+      "section": "Day 25",
+      "description": "The Philosopher",
+      "question": "Translate",
+      "korean": "이것은 끝이 아니라 새로운 시작이다.",
+      "english": "This is not the end, but a new beginning.",
+      "chunks": [
+        {
+          "text": "This",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is not",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the end",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "but",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "a new beginning",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-26-1",
+      "section": "Day 26",
+      "description": "Review",
+      "question": "Review",
+      "korean": "사실은 무시된다고 해서 존재하기를 멈추지 않는다.",
+      "english": "Facts do not cease to exist because they are ignored.",
+      "chunks": [
+        {
+          "text": "Facts",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "do not cease to exist",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "because they are ignored",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": {
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          }
+        ]
+      },
+      "grammarTip": null
+    },
+    {
+      "id": "6-26-2",
+      "section": "Day 26",
+      "description": "Review",
+      "question": "Review",
+      "korean": "미래는 내일이 아니라 오늘 시작된다.",
+      "english": "The future starts today, not tomorrow.",
+      "chunks": [
+        {
+          "text": "The future",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "starts",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "today",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "not tomorrow",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-26-3",
+      "section": "Day 26",
+      "description": "Review",
+      "question": "Review",
+      "korean": "교육은 양동이를 채우는 것이 아니라 불을 지피는 것이다.",
+      "english": "Education is not the filling of a pail, but the lighting of a fire.",
+      "chunks": [
+        {
+          "text": "Education",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is not",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the filling of a pail",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "but",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "the lighting of a fire",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-26-4",
+      "section": "Day 26",
+      "description": "Review",
+      "question": "Review",
+      "korean": "역사는 반복된다.",
+      "english": "History repeats itself.",
+      "chunks": [
+        {
+          "text": "History",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "repeats",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "itself",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-26-5",
+      "section": "Day 26",
+      "description": "Review",
+      "question": "Review",
+      "korean": "현실은 소설보다 낯설다 (기이하다).",
+      "english": "Truth is stranger than fiction.",
+      "chunks": [
+        {
+          "text": "Truth",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "stranger",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "than fiction",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-26-6",
+      "section": "Day 26",
+      "description": "Review",
+      "question": "Review",
+      "korean": "미래는 꿈의 아름다움을 믿는 자들의 것이다.",
+      "english": "The future belongs to those who believe in the beauty of their dreams.",
+      "chunks": [
+        {
+          "text": "The future",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "belongs to",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "those who believe in the beauty of their dreams",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-26-7",
+      "section": "Day 26",
+      "description": "Review",
+      "question": "Review",
+      "korean": "이 또한 지나가리라.",
+      "english": "This too shall pass.",
+      "chunks": [
+        {
+          "text": "This too",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "shall pass",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-26-8",
+      "section": "Day 26",
+      "description": "Review",
+      "question": "Review",
+      "korean": "결국, 우리는 잡지 않은 기회들만을 후회한다.",
+      "english": "In the end, we only regret the chances we didn't take.",
+      "chunks": [
+        {
+          "text": "In the end",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "we",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "only regret",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the chances we didn't take",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-26-9",
+      "section": "Day 26",
+      "description": "Review",
+      "question": "Review",
+      "korean": "변화는 삶의 유일한 상수이다.",
+      "english": "Change is the only constant in life.",
+      "chunks": [
+        {
+          "text": "Change",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the only constant",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "in life",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-26-10",
+      "section": "Day 26",
+      "description": "Review",
+      "question": "Review",
+      "korean": "인생이란 당신이 다른 계획을 세우느라 바쁠 때 일어나는 것이다.",
+      "english": "Life is what happens when you're busy making other plans.",
+      "chunks": [
+        {
+          "text": "Life",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "what happens",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "when you're busy making other plans",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-27-1",
+      "section": "Day 27",
+      "description": "Review",
+      "question": "Review",
+      "korean": "인내는 쓰지만 그 열매는 달다.",
+      "english": "Patience is bitter, but its fruit is sweet.",
+      "chunks": [
+        {
+          "text": "Patience",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "bitter",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "but",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "its fruit",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "sweet",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": {
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Complement",
+            "color": "#BA68C8"
+          },
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          },
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Complement",
+            "color": "#BA68C8"
+          }
+        ]
+      },
+      "grammarTip": null
+    },
+    {
+      "id": "6-27-2",
+      "section": "Day 27",
+      "description": "Review",
+      "question": "Review",
+      "korean": "선무당이 사람 잡는다 (얕은 지식은 위험하다).",
+      "english": "A little knowledge is a dangerous thing.",
+      "chunks": [
+        {
+          "text": "A little knowledge",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a dangerous thing",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-27-3",
+      "section": "Day 27",
+      "description": "Review",
+      "question": "Review",
+      "korean": "인생이란 당신이 다른 계획을 세우느라 바쁠 때 일어나는 것이다.",
+      "english": "Life is what happens when you're busy making other plans.",
+      "chunks": [
+        {
+          "text": "Life",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "what happens",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "when you're busy making other plans",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-27-4",
+      "section": "Day 27",
+      "description": "Review",
+      "question": "Review",
+      "korean": "천 리 길도 한 걸음부터.",
+      "english": "A journey of a thousand miles begins with a single step.",
+      "chunks": [
+        {
+          "text": "A journey of a thousand miles",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "begins",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "with a single step",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-27-5",
+      "section": "Day 27",
+      "description": "Review",
+      "question": "Review",
+      "korean": "모르는 게 약이다.",
+      "english": "Ignorance is bliss.",
+      "chunks": [
+        {
+          "text": "Ignorance",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "bliss",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-27-6",
+      "section": "Day 27",
+      "description": "Review",
+      "question": "Review",
+      "korean": "세상에서 보고 싶은 변화가 되어라.",
+      "english": "Be the change you wish to see in the world.",
+      "chunks": [
+        {
+          "text": "Be",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the change you wish to see",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "in the world",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-27-7",
+      "section": "Day 27",
+      "description": "Review",
+      "question": "Review",
+      "korean": "교육은 양동이를 채우는 것이 아니라 불을 지피는 것이다.",
+      "english": "Education is not the filling of a pail, but the lighting of a fire.",
+      "chunks": [
+        {
+          "text": "Education",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is not",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the filling of a pail",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "but",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "the lighting of a fire",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-27-8",
+      "section": "Day 27",
+      "description": "Review",
+      "question": "Review",
+      "korean": "결국, 우리는 잡지 않은 기회들만을 후회한다.",
+      "english": "In the end, we only regret the chances we didn't take.",
+      "chunks": [
+        {
+          "text": "In the end",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "we",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "only regret",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the chances we didn't take",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-27-9",
+      "section": "Day 27",
+      "description": "Review",
+      "question": "Review",
+      "korean": "과거는 낯선 나라이다.",
+      "english": "The past is a foreign country.",
+      "chunks": [
+        {
+          "text": "The past",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a foreign country",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-27-10",
+      "section": "Day 27",
+      "description": "Review",
+      "question": "Review",
+      "korean": "지혜는 경이로움에서 시작된다.",
+      "english": "Wisdom begins in wonder.",
+      "chunks": [
+        {
+          "text": "Wisdom",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "begins",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "in wonder",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-28-1",
+      "section": "Day 28",
+      "description": "Review",
+      "question": "Review",
+      "korean": "나는 생각한다, 고로 나는 존재한다.",
+      "english": "I think, therefore I am.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "think",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "therefore",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "am",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": {
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          },
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          }
+        ]
+      },
+      "grammarTip": null
+    },
+    {
+      "id": "6-28-2",
+      "section": "Day 28",
+      "description": "Review",
+      "question": "Review",
+      "korean": "천 리 길도 한 걸음부터.",
+      "english": "A journey of a thousand miles begins with a single step.",
+      "chunks": [
+        {
+          "text": "A journey of a thousand miles",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "begins",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "with a single step",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-28-3",
+      "section": "Day 28",
+      "description": "Review",
+      "question": "Review",
+      "korean": "크게 꿈꾸고, 실패를 두려워하지 마라.",
+      "english": "Dream big and dare to fail.",
+      "chunks": [
+        {
+          "text": "Dream",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "big",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "and dare to fail",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-28-4",
+      "section": "Day 28",
+      "description": "Review",
+      "question": "Review",
+      "korean": "항상 얼굴을 햇빛 쪽으로 향하라.",
+      "english": "Keep your face always toward the sunshine.",
+      "chunks": [
+        {
+          "text": "Keep",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "your face",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "always",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "toward the sunshine",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-28-5",
+      "section": "Day 28",
+      "description": "Review",
+      "question": "Review",
+      "korean": "미래를 예측하는 가장 좋은 방법은 미래를 만드는 것이다.",
+      "english": "The best way to predict the future is to create it.",
+      "chunks": [
+        {
+          "text": "The best way to predict the future",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "to create it",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-28-6",
+      "section": "Day 28",
+      "description": "Review",
+      "question": "Review",
+      "korean": "변화는 삶의 유일한 상수이다.",
+      "english": "Change is the only constant in life.",
+      "chunks": [
+        {
+          "text": "Change",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the only constant",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "in life",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-28-7",
+      "section": "Day 28",
+      "description": "Review",
+      "question": "Review",
+      "korean": "이 또한 지나가리라.",
+      "english": "This too shall pass.",
+      "chunks": [
+        {
+          "text": "This too",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "shall pass",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-28-8",
+      "section": "Day 28",
+      "description": "Review",
+      "question": "Review",
+      "korean": "모르는 게 약이다.",
+      "english": "Ignorance is bliss.",
+      "chunks": [
+        {
+          "text": "Ignorance",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "bliss",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-28-9",
+      "section": "Day 28",
+      "description": "Review",
+      "question": "Review",
+      "korean": "행복은 우리 자신에게 달려 있다.",
+      "english": "Happiness depends upon ourselves.",
+      "chunks": [
+        {
+          "text": "Happiness",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "depends",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "upon ourselves",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-28-10",
+      "section": "Day 28",
+      "description": "Review",
+      "question": "Review",
+      "korean": "카르페 디엠, 오늘을 즐겨라.",
+      "english": "Carpe diem, seize the day.",
+      "chunks": [
+        {
+          "text": "Carpe diem",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "seize",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the day",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    }
+  ]
+}

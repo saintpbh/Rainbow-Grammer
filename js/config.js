@@ -20,6 +20,9 @@ export const GET_LEVEL_FILES = (level) => {
     } else if (level === 5) {
         // Level 5: Master Class
         return [`${baseUrl}/week1.json`, `${baseUrl}/week2.json`, `${baseUrl}/week3.json`, `${baseUrl}/week4.json`];
+    } else if (level === 6) {
+        // Level 6: The Rhetoric
+        return [`${baseUrl}/week1.json`, `${baseUrl}/week2.json`, `${baseUrl}/week3.json`, `${baseUrl}/week4.json`];
     }
     return [];
 };

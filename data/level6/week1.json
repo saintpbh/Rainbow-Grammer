@@ -1,0 +1,2322 @@
+{
+  "curriculum": [
+    {
+      "id": "6-1-1",
+      "section": "Day 1",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "국가가 당신을 위해 무엇을 할 수 있는지 묻지 마시오.",
+      "english": "Ask not what your country can do for you.",
+      "chunks": [
+        {
+          "text": "Ask not",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "what your country",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "can do",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "for you",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": {
+        "title": "The Art of Persuasion",
+        "structure": [
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          }
+        ]
+      },
+      "grammarTip": {
+        "title": "Rhetorical Devices",
+        "explanation": "수사법은 설득력을 높이는 언어의 기교입니다. 대조(Antithesis), 반복(Repetition) 등을 사용해보세요.",
+        "examples": [
+          "Ask not what X, ask what Y.",
+          "To be or not to be."
+        ]
+      }
+    },
+    {
+      "id": "6-1-2",
+      "section": "Day 1",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "나에게는 언젠가 이 나라가 일어설 것이라는 꿈이 있습니다.",
+      "english": "I have a dream that one day this nation will rise up.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "have",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a dream",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "that one day this nation will rise up",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-1-3",
+      "section": "Day 1",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "사느냐 죽느냐, 그것이 문제로다.",
+      "english": "To be, or not to be, that is the question.",
+      "chunks": [
+        {
+          "text": "To be, or not to be",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "that",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the question",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-1-4",
+      "section": "Day 1",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "우리는 해변에서 싸울 것입니다.",
+      "english": "We shall fight on the beaches.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "shall fight",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "on the beaches",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-1-5",
+      "section": "Day 1",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "최고의 시절이자, 최악의 시절이었다.",
+      "english": "It was the best of times, it was the worst of times.",
+      "chunks": [
+        {
+          "text": "It",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "was",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the best of times",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "it",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "was",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the worst of times",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-1-6",
+      "section": "Day 1",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "왔노라, 보았노라, 이겼노라.",
+      "english": "Veni, vidi, vici.",
+      "chunks": [
+        {
+          "text": "I came",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "I saw",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "I conquered",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-1-7",
+      "section": "Day 1",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "사랑은 오래 참고, 사랑은 온유하다.",
+      "english": "Love is patient, love is kind.",
+      "chunks": [
+        {
+          "text": "Love",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "patient",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "love",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "kind",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-1-8",
+      "section": "Day 1",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "국민의, 국민에 의한, 국민을 위한 정부.",
+      "english": "Government of the people, by the people, for the people.",
+      "chunks": [
+        {
+          "text": "Government",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "of the people",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "by the people",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "for the people",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-1-9",
+      "section": "Day 1",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "항상 갈망하고, 항상 우직하게 나아가라.",
+      "english": "Stay hungry, stay foolish.",
+      "chunks": [
+        {
+          "text": "Stay",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "hungry",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "stay",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "foolish",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-1-10",
+      "section": "Day 1",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "나비처럼 날아서 벌처럼 쏴라.",
+      "english": "Float like a butterfly, sting like a bee.",
+      "chunks": [
+        {
+          "text": "Float",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "like a butterfly",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "sting",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "like a bee",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-2-1",
+      "section": "Day 2",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "그가 지켜보고 있었다는 것을 나는 꿈에도 몰랐다.",
+      "english": "Little did I know that he was watching.",
+      "chunks": [
+        {
+          "text": "Little",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "did I know",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "that he was watching",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": {
+        "title": "The Art of Persuasion",
+        "structure": [
+          {
+            "text": "Adverb",
+            "color": "#BA68C8"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Object",
+            "color": "#FFD700"
+          }
+        ]
+      },
+      "grammarTip": null
+    },
+    {
+      "id": "6-2-2",
+      "section": "Day 2",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "나는 그런 아름다움을 거의 본 적이 없다.",
+      "english": "Rarely have I seen such beauty.",
+      "chunks": [
+        {
+          "text": "Rarely",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "have I seen",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "such beauty",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-2-3",
+      "section": "Day 2",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "해가 질 때까지 우리는 멈추지 않았다.",
+      "english": "Not until the sun set did we stop.",
+      "chunks": [
+        {
+          "text": "Not until the sun set",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "did we stop",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-2-4",
+      "section": "Day 2",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "어떤 상황에서도 이 문을 열지 마라.",
+      "english": "Under no circumstances should you open this door.",
+      "chunks": [
+        {
+          "text": "Under no circumstances",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "should you open",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "this door",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-2-5",
+      "section": "Day 2",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "그제서야 라이는 진실을 이해했다.",
+      "english": "Only then did I understand the truth.",
+      "chunks": [
+        {
+          "text": "Only then",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "did I understand",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the truth",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-2-6",
+      "section": "Day 2",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "그녀는 너무 화가 나서 즉시 떠났다.",
+      "english": "So angry was she that she left immediately.",
+      "chunks": [
+        {
+          "text": "So angry",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "was she",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "that she left immediately",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-2-7",
+      "section": "Day 2",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "내 평생 이렇게 자유로운 적이 없었다.",
+      "english": "Never in my life have I felt so free.",
+      "chunks": [
+        {
+          "text": "Never in my life",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "have I felt",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "so free",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-2-8",
+      "section": "Day 2",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "알았더라면 내가 왔을 텐데.",
+      "english": "Had I known, I would have come.",
+      "chunks": [
+        {
+          "text": "Had I known",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "would have come",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-2-9",
+      "section": "Day 2",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "무엇을 하든, 잘 해라.",
+      "english": "Whatever you do, do it well.",
+      "chunks": [
+        {
+          "text": "Whatever you do",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "do",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "it",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "well",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-2-10",
+      "section": "Day 2",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "그의 재능은 정말 놀랍다.",
+      "english": "Truly remarkable is his talent.",
+      "chunks": [
+        {
+          "text": "Truly remarkable",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "his talent",
+          "role": "Subject",
+          "color": "#FF0000"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-3-1",
+      "section": "Day 3",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "내가 너라면, 그 제안을 받아들일 거야.",
+      "english": "If I were you, I would accept the offer.",
+      "chunks": [
+        {
+          "text": "If I were you",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "would accept",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the offer",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": {
+        "title": "The Art of Persuasion",
+        "structure": [
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          },
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Object",
+            "color": "#FFD700"
+          }
+        ]
+      },
+      "grammarTip": null
+    },
+    {
+      "id": "6-3-2",
+      "section": "Day 3",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "새처럼 날 수 있다면 좋을 텐데.",
+      "english": "I wish I could fly like a bird.",
+      "chunks": [
+        {
+          "text": "I wish",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "I could fly",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "like a bird",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-3-3",
+      "section": "Day 3",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "그는 마치 모든 것을 아는 것처럼 말한다.",
+      "english": "He talks as if he knows everything.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "talks",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "as if he knows everything",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-3-4",
+      "section": "Day 3",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "네 도움이 없었다면, 나는 실패했을 거야.",
+      "english": "Without your help, I would have failed.",
+      "chunks": [
+        {
+          "text": "Without your help",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "would have failed",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-3-5",
+      "section": "Day 3",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "시간이 더 있었더라면.",
+      "english": "If only I had more time.",
+      "chunks": [
+        {
+          "text": "If only",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "had",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "more time",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-3-6",
+      "section": "Day 3",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "무슨 일이 있어도, 너와 함께 있을게.",
+      "english": "Whatever happens, I will stay with you.",
+      "chunks": [
+        {
+          "text": "Whatever happens",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will stay",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "with you",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-3-7",
+      "section": "Day 3",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "비가 오더라도 우리는 갈 것이다.",
+      "english": "Even if it rains, we will go.",
+      "chunks": [
+        {
+          "text": "Even if it rains",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "we",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will go",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-3-8",
+      "section": "Day 3",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "로또에 당첨되었다고 가정해 봐.",
+      "english": "Suppose you won the lottery.",
+      "chunks": [
+        {
+          "text": "Suppose",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "you won",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "the lottery",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-3-9",
+      "section": "Day 3",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "혹시 그를 보면, 나에게 전화하라고 해줘.",
+      "english": "Should you see him, tell him to call me.",
+      "chunks": [
+        {
+          "text": "Should you see him",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "tell",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "him",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "to call me",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-3-10",
+      "section": "Day 3",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "이제 행동을 취해야 할 때다.",
+      "english": "It is high time we took action.",
+      "chunks": [
+        {
+          "text": "It is high time",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "we",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "took action",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-4-1",
+      "section": "Day 4",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "따라서, 우리는 그가 유죄라고 결론지어야 한다.",
+      "english": "Therefore, we must conclude that he is guilty.",
+      "chunks": [
+        {
+          "text": "Therefore",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "we",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "must conclude",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "that he is guilty",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": {
+        "title": "The Art of Persuasion",
+        "structure": [
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          },
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Object",
+            "color": "#FFD700"
+          }
+        ]
+      },
+      "grammarTip": null
+    },
+    {
+      "id": "6-4-2",
+      "section": "Day 4",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "게다가 비용이 너무 비싸다.",
+      "english": "Furthermore, the cost is too high.",
+      "chunks": [
+        {
+          "text": "Furthermore",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "the cost",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "too high",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-4-3",
+      "section": "Day 4",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "그럼에도 불구하고, 나는 내 일을 계속할 것이다.",
+      "english": "Nevertheless, I will continue my work.",
+      "chunks": [
+        {
+          "text": "Nevertheless",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will continue",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "my work",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-4-4",
+      "section": "Day 4",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "결과적으로, 그 프로젝트는 취소되었다.",
+      "english": "Consequently, the project was cancelled.",
+      "chunks": [
+        {
+          "text": "Consequently",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "the project",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "was cancelled",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-4-5",
+      "section": "Day 4",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "반대로, 그녀는 커피보다 차를 선호한다.",
+      "english": "In contrast, she prefers tea over coffee.",
+      "chunks": [
+        {
+          "text": "In contrast",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "she",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "prefers",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "tea",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "over coffee",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-4-6",
+      "section": "Day 4",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "일반적으로 말해서, 고양이는 독립적이다.",
+      "english": "Generally speaking, cats are independent.",
+      "chunks": [
+        {
+          "text": "Generally speaking",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "cats",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "are",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "independent",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-4-7",
+      "section": "Day 4",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "다시 말해, 그것은 불가능하다.",
+      "english": "In other words, it is impossible.",
+      "chunks": [
+        {
+          "text": "In other words",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "it",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "impossible",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-4-8",
+      "section": "Day 4",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "이러한 이유로, 나는 참석할 수 없다.",
+      "english": "For this reason, I cannot attend.",
+      "chunks": [
+        {
+          "text": "For this reason",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "cannot attend",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-4-9",
+      "section": "Day 4",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "비 때문에 경기가 일찍 끝났다.",
+      "english": "Due to the rain, the game ended early.",
+      "chunks": [
+        {
+          "text": "Due to the rain",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "the game",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "ended",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "early",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-4-10",
+      "section": "Day 4",
+      "description": "The Art of Persuasion",
+      "question": "Translate",
+      "korean": "어려움에도 불구하고, 그들은 성공했다.",
+      "english": "Despite the difficulties, they succeeded.",
+      "chunks": [
+        {
+          "text": "Despite the difficulties",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "they",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "succeeded",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "The Art of Persuasion",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-5-1",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review",
+      "korean": "어려움에도 불구하고, 그들은 성공했다.",
+      "english": "Despite the difficulties, they succeeded.",
+      "chunks": [
+        {
+          "text": "Despite the difficulties",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "they",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "succeeded",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": {
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          },
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          }
+        ]
+      },
+      "grammarTip": null
+    },
+    {
+      "id": "6-5-2",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review",
+      "korean": "시간이 더 있었더라면.",
+      "english": "If only I had more time.",
+      "chunks": [
+        {
+          "text": "If only",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "had",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "more time",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-5-3",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review",
+      "korean": "그의 재능은 정말 놀랍다.",
+      "english": "Truly remarkable is his talent.",
+      "chunks": [
+        {
+          "text": "Truly remarkable",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "his talent",
+          "role": "Subject",
+          "color": "#FF0000"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-5-4",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review",
+      "korean": "비가 오더라도 우리는 갈 것이다.",
+      "english": "Even if it rains, we will go.",
+      "chunks": [
+        {
+          "text": "Even if it rains",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "we",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will go",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-5-5",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review",
+      "korean": "그제서야 라이는 진실을 이해했다.",
+      "english": "Only then did I understand the truth.",
+      "chunks": [
+        {
+          "text": "Only then",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "did I understand",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the truth",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-5-6",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review",
+      "korean": "혹시 그를 보면, 나에게 전화하라고 해줘.",
+      "english": "Should you see him, tell him to call me.",
+      "chunks": [
+        {
+          "text": "Should you see him",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "tell",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "him",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "to call me",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-5-7",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review",
+      "korean": "로또에 당첨되었다고 가정해 봐.",
+      "english": "Suppose you won the lottery.",
+      "chunks": [
+        {
+          "text": "Suppose",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "you won",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "the lottery",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-5-8",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review",
+      "korean": "최고의 시절이자, 최악의 시절이었다.",
+      "english": "It was the best of times, it was the worst of times.",
+      "chunks": [
+        {
+          "text": "It",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "was",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the best of times",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "it",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "was",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the worst of times",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-5-9",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review",
+      "korean": "사랑은 오래 참고, 사랑은 온유하다.",
+      "english": "Love is patient, love is kind.",
+      "chunks": [
+        {
+          "text": "Love",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "patient",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "love",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "kind",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-5-10",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review",
+      "korean": "해가 질 때까지 우리는 멈추지 않았다.",
+      "english": "Not until the sun set did we stop.",
+      "chunks": [
+        {
+          "text": "Not until the sun set",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "did we stop",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-6-1",
+      "section": "Day 6",
+      "description": "Review",
+      "question": "Review",
+      "korean": "국가가 당신을 위해 무엇을 할 수 있는지 묻지 마시오.",
+      "english": "Ask not what your country can do for you.",
+      "chunks": [
+        {
+          "text": "Ask not",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "what your country",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "can do",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "for you",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": {
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          }
+        ]
+      },
+      "grammarTip": null
+    },
+    {
+      "id": "6-6-2",
+      "section": "Day 6",
+      "description": "Review",
+      "question": "Review",
+      "korean": "해가 질 때까지 우리는 멈추지 않았다.",
+      "english": "Not until the sun set did we stop.",
+      "chunks": [
+        {
+          "text": "Not until the sun set",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "did we stop",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-6-3",
+      "section": "Day 6",
+      "description": "Review",
+      "question": "Review",
+      "korean": "내 평생 이렇게 자유로운 적이 없었다.",
+      "english": "Never in my life have I felt so free.",
+      "chunks": [
+        {
+          "text": "Never in my life",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "have I felt",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "so free",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-6-4",
+      "section": "Day 6",
+      "description": "Review",
+      "question": "Review",
+      "korean": "그녀는 너무 화가 나서 즉시 떠났다.",
+      "english": "So angry was she that she left immediately.",
+      "chunks": [
+        {
+          "text": "So angry",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "was she",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "that she left immediately",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-6-5",
+      "section": "Day 6",
+      "description": "Review",
+      "question": "Review",
+      "korean": "우리는 해변에서 싸울 것입니다.",
+      "english": "We shall fight on the beaches.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "shall fight",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "on the beaches",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-6-6",
+      "section": "Day 6",
+      "description": "Review",
+      "question": "Review",
+      "korean": "무슨 일이 있어도, 너와 함께 있을게.",
+      "english": "Whatever happens, I will stay with you.",
+      "chunks": [
+        {
+          "text": "Whatever happens",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will stay",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "with you",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-6-7",
+      "section": "Day 6",
+      "description": "Review",
+      "question": "Review",
+      "korean": "비 때문에 경기가 일찍 끝났다.",
+      "english": "Due to the rain, the game ended early.",
+      "chunks": [
+        {
+          "text": "Due to the rain",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "the game",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "ended",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "early",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-6-8",
+      "section": "Day 6",
+      "description": "Review",
+      "question": "Review",
+      "korean": "따라서, 우리는 그가 유죄라고 결론지어야 한다.",
+      "english": "Therefore, we must conclude that he is guilty.",
+      "chunks": [
+        {
+          "text": "Therefore",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "we",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "must conclude",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "that he is guilty",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-6-9",
+      "section": "Day 6",
+      "description": "Review",
+      "question": "Review",
+      "korean": "일반적으로 말해서, 고양이는 독립적이다.",
+      "english": "Generally speaking, cats are independent.",
+      "chunks": [
+        {
+          "text": "Generally speaking",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "cats",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "are",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "independent",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-6-10",
+      "section": "Day 6",
+      "description": "Review",
+      "question": "Review",
+      "korean": "이러한 이유로, 나는 참석할 수 없다.",
+      "english": "For this reason, I cannot attend.",
+      "chunks": [
+        {
+          "text": "For this reason",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "cannot attend",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-7-1",
+      "section": "Day 7",
+      "description": "Review",
+      "question": "Review",
+      "korean": "반대로, 그녀는 커피보다 차를 선호한다.",
+      "english": "In contrast, she prefers tea over coffee.",
+      "chunks": [
+        {
+          "text": "In contrast",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "she",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "prefers",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "tea",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "over coffee",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": {
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          },
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Object",
+            "color": "#FFD700"
+          },
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          }
+        ]
+      },
+      "grammarTip": null
+    },
+    {
+      "id": "6-7-2",
+      "section": "Day 7",
+      "description": "Review",
+      "question": "Review",
+      "korean": "알았더라면 내가 왔을 텐데.",
+      "english": "Had I known, I would have come.",
+      "chunks": [
+        {
+          "text": "Had I known",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "would have come",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-7-3",
+      "section": "Day 7",
+      "description": "Review",
+      "question": "Review",
+      "korean": "그녀는 너무 화가 나서 즉시 떠났다.",
+      "english": "So angry was she that she left immediately.",
+      "chunks": [
+        {
+          "text": "So angry",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "was she",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "that she left immediately",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-7-4",
+      "section": "Day 7",
+      "description": "Review",
+      "question": "Review",
+      "korean": "일반적으로 말해서, 고양이는 독립적이다.",
+      "english": "Generally speaking, cats are independent.",
+      "chunks": [
+        {
+          "text": "Generally speaking",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "cats",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "are",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "independent",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-7-5",
+      "section": "Day 7",
+      "description": "Review",
+      "question": "Review",
+      "korean": "국민의, 국민에 의한, 국민을 위한 정부.",
+      "english": "Government of the people, by the people, for the people.",
+      "chunks": [
+        {
+          "text": "Government",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "of the people",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "by the people",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "for the people",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-7-6",
+      "section": "Day 7",
+      "description": "Review",
+      "question": "Review",
+      "korean": "다시 말해, 그것은 불가능하다.",
+      "english": "In other words, it is impossible.",
+      "chunks": [
+        {
+          "text": "In other words",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "it",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "impossible",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-7-7",
+      "section": "Day 7",
+      "description": "Review",
+      "question": "Review",
+      "korean": "나비처럼 날아서 벌처럼 쏴라.",
+      "english": "Float like a butterfly, sting like a bee.",
+      "chunks": [
+        {
+          "text": "Float",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "like a butterfly",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "sting",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "like a bee",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-7-8",
+      "section": "Day 7",
+      "description": "Review",
+      "question": "Review",
+      "korean": "이러한 이유로, 나는 참석할 수 없다.",
+      "english": "For this reason, I cannot attend.",
+      "chunks": [
+        {
+          "text": "For this reason",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "cannot attend",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-7-9",
+      "section": "Day 7",
+      "description": "Review",
+      "question": "Review",
+      "korean": "그럼에도 불구하고, 나는 내 일을 계속할 것이다.",
+      "english": "Nevertheless, I will continue my work.",
+      "chunks": [
+        {
+          "text": "Nevertheless",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will continue",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "my work",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    },
+    {
+      "id": "6-7-10",
+      "section": "Day 7",
+      "description": "Review",
+      "question": "Review",
+      "korean": "내가 너라면, 그 제안을 받아들일 거야.",
+      "english": "If I were you, I would accept the offer.",
+      "chunks": [
+        {
+          "text": "If I were you",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "would accept",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the offer",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
+    }
+  ]
+}
