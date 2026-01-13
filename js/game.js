@@ -363,27 +363,32 @@ export function confirmExit() {
 
 // --- Dev / Test Functions ---
 export function testSpicyLevel() {
-    const confirmTest = confirm("🌶️ Test Spicy Level 1?\nCurrent progress will be saved but temporarily switched.");
+    // Determine next level
+    const nextLevel = gameState.currentLevel + 1;
+
+    // Safety check for max level (assuming max 5 for now)
+    if (nextLevel > 5) {
+        alert("🌶️ You are already at Max Spicy level!");
+        return;
+    }
+
+    const confirmTest = confirm(`🌶️ Test Spicy Level ${nextLevel}?\nCurrent progress will be saved but temporarily switched to the next difficulty.`);
     if (!confirmTest) return;
 
     // Save current
     storage.saveProgress();
 
-    // Switch state to Level 1
-    gameState.currentLevel = 1;
-    gameState.currentLevelGlobalIndex = 0; // Day 1
+    alert(`Switching to Level ${nextLevel} (Spicy)...`);
 
-    alert("Switching to Level 1 (Spicy)...");
-
-    // Hack: Save state as Level 1 then reload
+    // Save state as Next Level then reload
     const progress = {
         levelIndex: 0,
         totalScore: gameState.totalScore,
         todayScore: 0,
         lastPlayedDate: new Date().toDateString(),
         hasStarted: true,
-        currentLevel: 1, // Force Level 1
-        chiliCount: gameState.chiliCount
+        currentLevel: nextLevel,
+        chiliCount: gameState.chiliCount // Chili count usually updates on completion, but for test just keep it
     };
     storage.saveProgressExplicit(progress);
     location.reload();
