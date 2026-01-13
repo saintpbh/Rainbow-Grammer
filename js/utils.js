@@ -37,3 +37,38 @@ export function isLightColor(hex) {
     const brights = ['#FFFF00', '#00FF00', '#00FFFF', '#76FF03'];
     return brights.includes(hex.toUpperCase());
 }
+
+export function createEmojiFireworks() {
+    const emojis = ['🌶️', '🔥', '🎉', '✨', '🌈', '🤩', '🆙'];
+    const duration = 2000;
+    const count = 50;
+
+    for (let i = 0; i < count; i++) {
+        setTimeout(() => {
+            const x = Math.random() * window.innerWidth;
+            const y = window.innerHeight + 10;
+
+            const el = document.createElement('div');
+            el.innerText = emojis[Math.floor(Math.random() * emojis.length)];
+            el.style.cssText = `
+                position: fixed; left: ${x}px; top: ${y}px;
+                font-size: ${2 + Math.random() * 2}rem;
+                pointer-events: none; z-index: 9999;
+                user-select: none;
+            `;
+            document.body.appendChild(el);
+
+            const destX = (Math.random() - 0.5) * 200;
+            const destY = -(window.innerHeight * 0.5 + Math.random() * (window.innerHeight * 0.5));
+            const rotate = Math.random() * 720 - 360;
+
+            el.animate([
+                { transform: `translate(0, 0) rotate(0deg)`, opacity: 1 },
+                { transform: `translate(${destX}px, ${destY}px) rotate(${rotate}deg)`, opacity: 0 }
+            ], {
+                duration: 1500 + Math.random() * 1000,
+                easing: 'cubic-bezier(0.25, 1, 0.5, 1)'
+            }).onfinish = () => el.remove();
+        }, Math.random() * duration);
+    }
+}

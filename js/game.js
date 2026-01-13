@@ -273,19 +273,25 @@ async function checkCompletion() {
             // Check if we reached the end of the loaded curriculum
             if (gameState.currentLevelGlobalIndex >= gameState.curriculum.length) {
                 // CYCLE COMPLETE!
-                alert("🎉 LEVEL UP! 🎉\nYou earned a Chili!");
-                gameState.chiliCount++;
-                gameState.currentLevel++;
+                utils.createEmojiFireworks();
 
-                // Safety cap
-                if (gameState.currentLevel > 5) gameState.currentLevel = 5;
+                // Slight delay for alert so fireworks can be seen
+                setTimeout(() => {
+                    alert("🎉 LEVEL UP! 🎉\nYou earned a Chili!");
 
-                gameState.currentLevelGlobalIndex = 0; // Reset for next cycle
+                    gameState.chiliCount++;
+                    gameState.currentLevel++;
 
-                // Save updated level/chili
-                storage.saveProgress();
+                    // Safety cap
+                    if (gameState.currentLevel > 5) gameState.currentLevel = 5;
 
-                location.reload(); // Reload to fetch new Level data
+                    gameState.currentLevelGlobalIndex = 0; // Reset for next cycle
+
+                    // Save updated level/chili
+                    storage.saveProgress();
+
+                    location.reload(); // Reload to fetch new Level data
+                }, 1500);
                 return;
             }
 
