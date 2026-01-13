@@ -110,6 +110,7 @@ export function loadLevel() {
     gameState.currentItem = item;
     gameState.currentChunks = item.chunks;
     gameState.selectedIndices = [];
+    gameState.mistakeCount = 0; // Initialize mistake counter
 
     // Update UI
     ui.updatePhase(PRINCIPLES.ACTIVE);
@@ -121,8 +122,16 @@ export function loadLevel() {
     // Question Display (English)
     const qDisplay = document.getElementById('question-display');
     if (qDisplay) {
-        qDisplay.textContent = item.question || "";
-        // Optional: Add visual cue for "Listen!"
+        // Use 'question' field if available and meaningful (not just "Translate"), 
+        // otherwise fallback to description or a default prompt.
+        let qText = item.question || "";
+        if (!qText || qText === "Translate" || qText === "Review") {
+            // If Level 0 style question is missing, try to use English translation or Context?
+            // User requested "Like Level 0 questions". Level 0 uses 'question'.
+            // For others, let's use the Grammar Description as a prompt.
+            qText = item.description ? `Construct: ${item.description}` : "Translate the sentence";
+        }
+        qDisplay.textContent = qText;
     }
 
     // Play Question Audio
@@ -262,76 +271,113 @@ async function checkCompletion() {
         }
 
         // Logic for Next
-        if (gameState.isPracticeMode) {
-            // Simple next
-            gameState.currentLevelGlobalIndex++;
-            // Check boundary for practice (usually 10 sentences)
-            const sentenceInDay = gameState.currentLevelGlobalIndex % 10;
-            if (sentenceInDay === 0) {
-                // End of practice day
-                alert("Practice Day Complete! Good job.");
-                exitPracticeMode();
-                return;
-            }
-            loadLevel();
-        } else {
-            // Normal Flow
-            const currentSection = gameState.currentItem.section;
-            gameState.currentLevelGlobalIndex++;
-
-            // Check if we reached the end of the loaded curriculum
-            if (gameState.currentLevelGlobalIndex >= gameState.curriculum.length) {
-                // CYCLE COMPLETE!
-                utils.createEmojiFireworks();
-
-                // Slight delay for alert so fireworks can be seen
-                setTimeout(() => {
-                    alert("🎉 LEVEL UP! 🎉\nYou earned a Chili!");
-
-                    gameState.chiliCount++;
-                    gameState.currentLevel++;
-
-                    // Safety cap
-                    if (gameState.currentLevel > 6) gameState.currentLevel = 6;
-
-                    gameState.currentLevelGlobalIndex = 0; // Reset for next cycle
-
-                    // Save updated level/chili
-                    storage.saveProgress();
-
-                    location.reload(); // Reload to fetch new Level data
-                }, 1500);
-                return;
-            }
-
-            const nextItem = gameState.curriculum[gameState.currentLevelGlobalIndex];
-
-            if (nextItem && nextItem.section !== currentSection) {
-                // Day/Section Change
-                // Use the next item's grammar guide if available
-                ui.showDayTransition(
-                    currentSection,
-                    nextItem.section,
-                    nextItem.grammarGuide || { title: nextItem.description || "Next Step", structure: [] },
-                    () => { } // Callback is handled by the button in modal calling proceedToNextLevel
-                );
-            } else {
-                // Same section, next sentence
-                loadLevel();
-            }
-        }
+        proceedToNextItemLogic();
 
     } else {
         // Error
+        // Error
+        gameState.mistakeCount++;
+
         const slot = document.getElementById('answer-slot');
         if (slot) slot.classList.add('shake');
         audio.playFailureSound();
 
         analytics.trackAttempt(false, gameState.currentItem.section);
 
-        // Analyze Error
-        // We could call analytics.analyzeError(...) and show feedback
-        // But for now just shake as requested by strict stability.
+        // check if 3 strikes
+        if (gameState.mistakeCount >= 3) {
+            // 3 Strikes Logic
+            setTimeout(() => {
+                alert("Three mistakes! Showing correct answer and moving on.");
+
+                // Show correct answer visually (fill slots)
+                const correctIndices = gameState.currentChunks.map((_, i) => i);
+                ui.renderAnswerSlot(gameState.currentChunks, correctIndices, () => { });
+
+                // Mark as correct styled (but maybe different color?)
+                if (slot) slot.classList.add('correct');
+
+                // Wait then proceed
+                setTimeout(async () => {
+                    // Proceed logic similar to success but without score
+                    if (!gameState.isPracticeMode) {
+                        gameState.currentLevelGlobalIndex++;
+                        storage.saveProgress();
+                        gameState.currentLevelGlobalIndex--;
+                    }
+
+                    // Speak
+                    if (gameState.currentItem.english) {
+                        await audio.speakText(gameState.currentItem.english); // simple speak
+                    }
+
+                    // Logic for Next (Duplicated from success block - should refactor but inline for now)
+                    proceedToNextItemLogic();
+                }, 2000);
+            }, 500);
+            return;
+        }
+    }
+}
+
+function proceedToNextItemLogic() {
+    if (gameState.isPracticeMode) {
+        // Simple next
+        gameState.currentLevelGlobalIndex++;
+        // Check boundary for practice (usually 10 sentences)
+        const sentenceInDay = gameState.currentLevelGlobalIndex % 10;
+        if (sentenceInDay === 0) {
+            // End of practice day
+            alert("Practice Day Complete! Good job.");
+            exitPracticeMode();
+            return;
+        }
+        loadLevel();
+    } else {
+        // Normal Flow
+        const currentSection = gameState.currentItem.section;
+        gameState.currentLevelGlobalIndex++;
+
+        // Check if we reached the end of the loaded curriculum
+        if (gameState.currentLevelGlobalIndex >= gameState.curriculum.length) {
+            // CYCLE COMPLETE!
+            utils.createEmojiFireworks();
+
+            // Slight delay for alert so fireworks can be seen
+            setTimeout(() => {
+                alert("🎉 LEVEL UP! 🎉\nYou earned a Chili!");
+
+                gameState.chiliCount++;
+                gameState.currentLevel++;
+
+                // Safety cap
+                if (gameState.currentLevel > 6) gameState.currentLevel = 6;
+
+                gameState.currentLevelGlobalIndex = 0; // Reset for next cycle
+
+                // Save updated level/chili
+                storage.saveProgress();
+
+                location.reload(); // Reload to fetch new Level data
+            }, 1500);
+            return;
+        }
+
+        const nextItem = gameState.curriculum[gameState.currentLevelGlobalIndex];
+
+        if (nextItem && nextItem.section !== currentSection) {
+            // Day/Section Change
+            // Use the next item's grammar guide if available
+            ui.showDayTransition(
+                currentSection,
+                nextItem.section,
+                nextItem.grammarGuide || { title: nextItem.description || "Next Step", structure: [] },
+                () => { } // Callback is handled by the button in modal calling proceedToNextLevel
+            );
+        } else {
+            // Same section, next sentence
+            loadLevel();
+        }
     }
 }
 
