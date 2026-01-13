@@ -8,6 +8,9 @@ export const GET_LEVEL_FILES = (level) => {
     } else if (level === 1) {
         // Level 1: Full Curriculum
         return [`${baseUrl}/week1.json`, `${baseUrl}/week2.json`, `${baseUrl}/week3.json`, `${baseUrl}/week4.json`];
+    } else if (level === 2) {
+        // Level 2: Time & Voice
+        return [`${baseUrl}/week1.json`, `${baseUrl}/week2.json`, `${baseUrl}/week3.json`, `${baseUrl}/week4.json`];
     }
     return [];
 };
