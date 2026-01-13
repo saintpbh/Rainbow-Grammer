@@ -1,0 +1,217 @@
+{
+    "curriculum": [
+        {
+            "id": "2-3-1",
+            "section": "Day 15",
+            "description": "Location",
+            "question": "Where is the cat?",
+            "korean": "고양이가 소파 위에서 잔다.",
+            "english": "The cat sleeps on the sofa.",
+            "chunks": [
+                {
+                    "text": "The cat",
+                    "role": "Subject",
+                    "color": "#FF0000"
+                },
+                {
+                    "text": "sleeps",
+                    "role": "Verb",
+                    "color": "#FF7F00"
+                },
+                {
+                    "text": "on the sofa",
+                    "role": "Modifier",
+                    "color": "#B0BEC5"
+                }
+            ],
+            "context": "Lazy afternoon"
+        },
+        {
+            "id": "2-3-2",
+            "section": "Day 15",
+            "description": "Location",
+            "question": "Where are my shoes?",
+            "korean": "내 신발은 침대 아래에 있다.",
+            "english": "My shoes are under the bed.",
+            "chunks": [
+                {
+                    "text": "My shoes",
+                    "role": "Subject",
+                    "color": "#FF0000"
+                },
+                {
+                    "text": "are",
+                    "role": "Verb",
+                    "color": "#FF7F00"
+                },
+                {
+                    "text": "under the bed",
+                    "role": "Modifier",
+                    "color": "#B0BEC5"
+                }
+            ],
+            "context": "Cleaning room"
+        },
+        {
+            "id": "2-3-3",
+            "section": "Day 16",
+            "description": "Place",
+            "question": "Where do we study?",
+            "korean": "우리는 학교에서 영어를 공부한다.",
+            "english": "We study English at school.",
+            "chunks": [
+                {
+                    "text": "We",
+                    "role": "Subject",
+                    "color": "#FF0000"
+                },
+                {
+                    "text": "study",
+                    "role": "Verb",
+                    "color": "#FF7F00"
+                },
+                {
+                    "text": "English",
+                    "role": "Object",
+                    "color": "#FFD700"
+                },
+                {
+                    "text": "at school",
+                    "role": "Modifier",
+                    "color": "#B0BEC5"
+                }
+            ],
+            "context": "Daily life"
+        },
+        {
+            "id": "2-3-4",
+            "section": "Day 17",
+            "description": "Time",
+            "question": "When do birds sing?",
+            "korean": "새들은 아침에 노래한다.",
+            "english": "Birds sing in the morning.",
+            "chunks": [
+                {
+                    "text": "Birds",
+                    "role": "Subject",
+                    "color": "#FF0000"
+                },
+                {
+                    "text": "sing",
+                    "role": "Verb",
+                    "color": "#FF7F00"
+                },
+                {
+                    "text": "in the morning",
+                    "role": "Modifier",
+                    "color": "#B0BEC5"
+                }
+            ],
+            "context": "Nature sounds"
+        },
+        {
+            "id": "2-3-5",
+            "section": "Day 18",
+            "description": "Company",
+            "question": "Who do you walk with?",
+            "korean": "나는 강아지와 함께 걷는다.",
+            "english": "I walk with my dog.",
+            "chunks": [
+                {
+                    "text": "I",
+                    "role": "Subject",
+                    "color": "#FF0000"
+                },
+                {
+                    "text": "walk",
+                    "role": "Verb",
+                    "color": "#FF7F00"
+                },
+                {
+                    "text": "with my dog",
+                    "role": "Modifier",
+                    "color": "#B0BEC5"
+                }
+            ],
+            "context": "Park stroll"
+        },
+        {
+            "id": "2-3-6",
+            "section": "Day 19",
+            "description": "Direction",
+            "question": "Where does the plane go?",
+            "korean": "비행기가 구름 위로 날아간다.",
+            "english": "The plane flies above the clouds.",
+            "chunks": [
+                {
+                    "text": "The plane",
+                    "role": "Subject",
+                    "color": "#FF0000"
+                },
+                {
+                    "text": "flies",
+                    "role": "Verb",
+                    "color": "#FF7F00"
+                },
+                {
+                    "text": "above the clouds",
+                    "role": "Modifier",
+                    "color": "#B0BEC5"
+                }
+            ],
+            "context": "Travel"
+        },
+        {
+            "id": "2-3-7",
+            "section": "Day 20",
+            "description": "Means",
+            "question": "How do you travel?",
+            "korean": "우리는 기차를 타고 여행한다.",
+            "english": "We travel by train.",
+            "chunks": [
+                {
+                    "text": "We",
+                    "role": "Subject",
+                    "color": "#FF0000"
+                },
+                {
+                    "text": "travel",
+                    "role": "Verb",
+                    "color": "#FF7F00"
+                },
+                {
+                    "text": "by train",
+                    "role": "Modifier",
+                    "color": "#B0BEC5"
+                }
+            ],
+            "context": "Vacation"
+        },
+        {
+            "id": "2-3-8",
+            "section": "Day 21",
+            "description": "Review",
+            "question": "Where is the gift?",
+            "korean": "그 선물은 상자 안에 있다.",
+            "english": "The gift is inside the box.",
+            "chunks": [
+                {
+                    "text": "The gift",
+                    "role": "Subject",
+                    "color": "#FF0000"
+                },
+                {
+                    "text": "is",
+                    "role": "Verb",
+                    "color": "#FF7F00"
+                },
+                {
+                    "text": "inside the box",
+                    "role": "Modifier",
+                    "color": "#B0BEC5"
+                }
+            ],
+            "context": "Birthday"
+        }
+    ]
+}

@@ -6,8 +6,8 @@ export const GET_LEVEL_FILES = (level) => {
     if (level === 0) {
         return [`${baseUrl}/week1.json`, `${baseUrl}/week2.json`, `${baseUrl}/week3.json`, `${baseUrl}/week4.json`];
     } else if (level === 1) {
-        // Sample: only day1 exists for now
-        return [`${baseUrl}/day1.json`];
+        // Level 1: Full Curriculum
+        return [`${baseUrl}/week1.json`, `${baseUrl}/week2.json`, `${baseUrl}/week3.json`, `${baseUrl}/week4.json`];
     }
     return [];
 };

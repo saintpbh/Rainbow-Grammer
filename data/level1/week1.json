@@ -1,0 +1,259 @@
+{
+    "curriculum": [
+        {
+            "id": "2-1-1",
+            "section": "Day 1",
+            "description": "Colors & Size",
+            "question": "Which apple do you want?",
+            "korean": "나는 빨간 사과를 원한다.",
+            "english": "I want a red apple.",
+            "chunks": [
+                {
+                    "text": "I",
+                    "role": "Subject",
+                    "color": "#FF0000"
+                },
+                {
+                    "text": "want",
+                    "role": "Verb",
+                    "color": "#FF7F00"
+                },
+                {
+                    "text": "a red apple",
+                    "role": "Object",
+                    "color": "#FFD700"
+                }
+            ],
+            "context": "Choosing a fruit"
+        },
+        {
+            "id": "2-1-2",
+            "section": "Day 1",
+            "description": "Colors & Size",
+            "question": "What touches the sky?",
+            "korean": "그 높은 산은 하늘에 닿는다.",
+            "english": "The tall mountain touches the sky.",
+            "chunks": [
+                {
+                    "text": "The tall mountain",
+                    "role": "Subject",
+                    "color": "#FF0000"
+                },
+                {
+                    "text": "touches",
+                    "role": "Verb",
+                    "color": "#FF7F00"
+                },
+                {
+                    "text": "the sky",
+                    "role": "Object",
+                    "color": "#FFD700"
+                }
+            ],
+            "context": "Describing nature"
+        },
+        {
+            "id": "2-1-3",
+            "section": "Day 1",
+            "description": "Colors & Size",
+            "question": "What is in the box?",
+            "korean": "작은 고양이가 상자 안에 숨는다.",
+            "english": "A small cat hides inside the box.",
+            "chunks": [
+                {
+                    "text": "A small cat",
+                    "role": "Subject",
+                    "color": "#FF0000"
+                },
+                {
+                    "text": "hides",
+                    "role": "Verb",
+                    "color": "#FF7F00"
+                },
+                {
+                    "text": "inside the box",
+                    "role": "Modifier",
+                    "color": "#B0BEC5"
+                }
+            ],
+            "context": "Playing hide and seek"
+        },
+        {
+            "id": "2-1-4",
+            "section": "Day 2",
+            "description": "Feelings & Emotions",
+            "question": "How does the boy look?",
+            "korean": "행복한 소년이 크게 웃는다.",
+            "english": "The happy boy laughs loudly.",
+            "chunks": [
+                {
+                    "text": "The happy boy",
+                    "role": "Subject",
+                    "color": "#FF0000"
+                },
+                {
+                    "text": "laughs",
+                    "role": "Verb",
+                    "color": "#FF7F00"
+                },
+                {
+                    "text": "loudly",
+                    "role": "Adverb",
+                    "color": "#BA68C8"
+                }
+            ],
+            "context": "Expressing joy"
+        },
+        {
+            "id": "2-1-5",
+            "section": "Day 2",
+            "description": "Feelings & Emotions",
+            "question": "What did the man do?",
+            "korean": "그 화난 남자는 소리쳤다.",
+            "english": "The angry man shouted.",
+            "chunks": [
+                {
+                    "text": "The angry man",
+                    "role": "Subject",
+                    "color": "#FF0000"
+                },
+                {
+                    "text": "shouted",
+                    "role": "Verb",
+                    "color": "#FF7F00"
+                }
+            ],
+            "context": "Expressing anger"
+        },
+        {
+            "id": "2-1-6",
+            "section": "Day 3",
+            "description": "Taste & Texture",
+            "question": "What kind of cake is it?",
+            "korean": "나는 달콤한 케이크를 좋아한다.",
+            "english": "I like the sweet cake.",
+            "chunks": [
+                {
+                    "text": "I",
+                    "role": "Subject",
+                    "color": "#FF0000"
+                },
+                {
+                    "text": "like",
+                    "role": "Verb",
+                    "color": "#FF7F00"
+                },
+                {
+                    "text": "the sweet cake",
+                    "role": "Object",
+                    "color": "#FFD700"
+                }
+            ],
+            "context": "Talking about dessert"
+        },
+        {
+            "id": "2-1-7",
+            "section": "Day 3",
+            "description": "Taste & Texture",
+            "question": "How is the bed?",
+            "korean": "그녀는 부드러운 침대에서 잔다.",
+            "english": "She sleeps on a soft bed.",
+            "chunks": [
+                {
+                    "text": "She",
+                    "role": "Subject",
+                    "color": "#FF0000"
+                },
+                {
+                    "text": "sleeps",
+                    "role": "Verb",
+                    "color": "#FF7F00"
+                },
+                {
+                    "text": "on a soft bed",
+                    "role": "Modifier",
+                    "color": "#B0BEC5"
+                }
+            ],
+            "context": "Bedtime story"
+        },
+        {
+            "id": "2-1-8",
+            "section": "Day 4",
+            "description": "Weather",
+            "question": "What shines?",
+            "korean": "밝은 태양이 우리를 따뜻하게 한다.",
+            "english": "The bright sun warms us.",
+            "chunks": [
+                {
+                    "text": "The bright sun",
+                    "role": "Subject",
+                    "color": "#FF0000"
+                },
+                {
+                    "text": "warms",
+                    "role": "Verb",
+                    "color": "#FF7F00"
+                },
+                {
+                    "text": "us",
+                    "role": "Object",
+                    "color": "#FFD700"
+                }
+            ],
+            "context": "Weather report"
+        },
+        {
+            "id": "2-1-9",
+            "section": "Day 5",
+            "description": "People",
+            "question": "Who helps you?",
+            "korean": "친절한 의사 선생님이 나를 도왔다.",
+            "english": "The kind doctor helped me.",
+            "chunks": [
+                {
+                    "text": "The kind doctor",
+                    "role": "Subject",
+                    "color": "#FF0000"
+                },
+                {
+                    "text": "helped",
+                    "role": "Verb",
+                    "color": "#FF7F00"
+                },
+                {
+                    "text": "me",
+                    "role": "Object",
+                    "color": "#FFD700"
+                }
+            ],
+            "context": "At the hospital"
+        },
+        {
+            "id": "2-1-10",
+            "section": "Day 6",
+            "description": "Fantasy",
+            "question": "What does the knight have?",
+            "korean": "용감한 기사는 빛나는 검을 가지고 있다.",
+            "english": "The brave knight has a shining sword.",
+            "chunks": [
+                {
+                    "text": "The brave knight",
+                    "role": "Subject",
+                    "color": "#FF0000"
+                },
+                {
+                    "text": "has",
+                    "role": "Verb",
+                    "color": "#FF7F00"
+                },
+                {
+                    "text": "a shining sword",
+                    "role": "Object",
+                    "color": "#FFD700"
+                }
+            ],
+            "context": "Fairy tale time"
+        }
+    ]
+}
