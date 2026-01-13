@@ -360,3 +360,31 @@ export function confirmExit() {
 
     ui.showSaveConfirmation({ day, sentence: sent });
 }
+
+// --- Dev / Test Functions ---
+export function testSpicyLevel() {
+    const confirmTest = confirm("🌶️ Test Spicy Level 1?\nCurrent progress will be saved but temporarily switched.");
+    if (!confirmTest) return;
+
+    // Save current
+    storage.saveProgress();
+
+    // Switch state to Level 1
+    gameState.currentLevel = 1;
+    gameState.currentLevelGlobalIndex = 0; // Day 1
+
+    alert("Switching to Level 1 (Spicy)...");
+
+    // Hack: Save state as Level 1 then reload
+    const progress = {
+        levelIndex: 0,
+        totalScore: gameState.totalScore,
+        todayScore: 0,
+        lastPlayedDate: new Date().toDateString(),
+        hasStarted: true,
+        currentLevel: 1, // Force Level 1
+        chiliCount: gameState.chiliCount
+    };
+    storage.saveProgressExplicit(progress);
+    location.reload();
+}
