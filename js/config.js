@@ -14,6 +14,9 @@ export const GET_LEVEL_FILES = (level) => {
     } else if (level === 3) {
         // Level 3: Connecting Worlds
         return [`${baseUrl}/week1.json`, `${baseUrl}/week2.json`, `${baseUrl}/week3.json`, `${baseUrl}/week4.json`];
+    } else if (level === 4) {
+        // Level 4: Native Nuance
+        return [`${baseUrl}/week1.json`, `${baseUrl}/week2.json`, `${baseUrl}/week3.json`, `${baseUrl}/week4.json`];
     }
     return [];
 };
