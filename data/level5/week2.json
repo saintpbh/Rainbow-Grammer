@@ -1,10 +1,10 @@
 {
   "curriculum": [
     {
-      "id": "6-8-1",
+      "id": "6-2-1",
       "section": "Day 8",
       "description": "Steve Jobs",
-      "question": "Stanford Address",
+      "question": "Quote: Jobs",
       "korean": "항상 갈망하라, 항상 우직하라.",
       "english": "Stay hungry stay foolish.",
       "chunks": [
@@ -15,7 +15,7 @@
         },
         {
           "text": "hungry",
-          "role": "Complement",
+          "role": "Comp",
           "color": "#BA68C8"
         },
         {
@@ -25,110 +25,282 @@
         },
         {
           "text": "foolish",
-          "role": "Complement",
+          "role": "Comp",
           "color": "#BA68C8"
         }
       ],
-      "context": "Commencement",
+      "context": "Steve Jobs",
       "grammarGuide": {
         "title": "Steve Jobs",
         "structure": [
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
-            "text": "Complement",
-            "color": "#BA68C8",
-            "desc": ""
+            "text": "Comp",
+            "color": "#BA68C8"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
-            "text": "Complement",
-            "color": "#BA68C8",
-            "desc": ""
+            "text": "Comp",
+            "color": "#BA68C8"
           }
         ]
       }
     },
     {
-      "id": "6-8-2",
+      "id": "6-2-2",
       "section": "Day 8",
       "description": "Steve Jobs",
-      "question": "Stanford Address",
-      "korean": "항상 갈망하라, 항상 우직하라.",
-      "english": "Stay hungry stay foolish.",
+      "question": "Quote: Jobs",
+      "korean": "과거를 돌아보며 점들을 연결하라.",
+      "english": "Connect the dots looking backward.",
       "chunks": [
         {
-          "text": "Stay",
+          "text": "Connect",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "hungry",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "the dots",
+          "role": "Obj",
+          "color": "#FFD700"
         },
         {
-          "text": "stay",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "foolish",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "looking backward",
+          "role": "Mod",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Commencement"
+      "context": "Steve Jobs",
+      "grammarGuide": null
     },
     {
-      "id": "6-8-3",
+      "id": "6-2-3",
       "section": "Day 8",
       "description": "Steve Jobs",
-      "question": "Stanford Address",
-      "korean": "항상 갈망하라, 항상 우직하라.",
-      "english": "Stay hungry stay foolish.",
+      "question": "Quote: Jobs",
+      "korean": "당신이 하는 일을 사랑하라.",
+      "english": "Love what you do.",
       "chunks": [
         {
-          "text": "Stay",
+          "text": "Love",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "hungry",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "what you do",
+          "role": "Obj",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Steve Jobs",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-2-4",
+      "section": "Day 8",
+      "description": "Steve Jobs",
+      "question": "Quote: Jobs",
+      "korean": "당신의 시간은 제한되어 있다.",
+      "english": "Your time is limited.",
+      "chunks": [
+        {
+          "text": "Your time",
+          "role": "Subj",
+          "color": "#FF0000"
         },
         {
-          "text": "stay",
+          "text": "is",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "foolish",
-          "role": "Complement",
+          "text": "limited",
+          "role": "Comp",
           "color": "#BA68C8"
         }
       ],
-      "context": "Commencement"
+      "context": "Steve Jobs",
+      "grammarGuide": null
     },
     {
-      "id": "6-9-1",
+      "id": "6-2-5",
+      "section": "Day 8",
+      "description": "Steve Jobs",
+      "question": "Quote: Jobs",
+      "korean": "소음이 당신의 목소리를 덮게 하지 마라.",
+      "english": "Don't let the noise drown your voice.",
+      "chunks": [
+        {
+          "text": "Don't let",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the noise",
+          "role": "Obj",
+          "color": "#FFD700"
+        },
+        {
+          "text": "drown your voice",
+          "role": "Mod",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Steve Jobs",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-2-6",
+      "section": "Day 8",
+      "description": "Steve Jobs",
+      "question": "Quote: Jobs",
+      "korean": "당신의 마음을 따를 용기를 가져라.",
+      "english": "Have the courage into follow your heart.",
+      "chunks": [
+        {
+          "text": "Have",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the courage",
+          "role": "Obj",
+          "color": "#FFD700"
+        },
+        {
+          "text": "to follow your heart",
+          "role": "Mod",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Steve Jobs",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-2-7",
+      "section": "Day 8",
+      "description": "Steve Jobs",
+      "question": "Quote: Jobs",
+      "korean": "죽음은 아마 최고의 발명품일 것이다.",
+      "english": "Death is very likely the single best invention.",
+      "chunks": [
+        {
+          "text": "Death",
+          "role": "Subj",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the single best invention",
+          "role": "Comp",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Steve Jobs",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-2-8",
+      "section": "Day 8",
+      "description": "Steve Jobs",
+      "question": "Quote: Jobs",
+      "korean": "마치 마지막 날인 것처럼 하루를 살아라.",
+      "english": "Live each day as if it was your last.",
+      "chunks": [
+        {
+          "text": "Live",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "each day",
+          "role": "Obj",
+          "color": "#FFD700"
+        },
+        {
+          "text": "as if it was your last",
+          "role": "Mod",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Steve Jobs",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-2-9",
+      "section": "Day 8",
+      "description": "Steve Jobs",
+      "question": "Quote: Jobs",
+      "korean": "나는 사랑하는 일을 찾아서 운이 좋았다.",
+      "english": "I was lucky I found what I loved.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subj",
+          "color": "#FF0000"
+        },
+        {
+          "text": "was",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "lucky",
+          "role": "Comp",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "I found what I loved",
+          "role": "Mod",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Steve Jobs",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-2-10",
+      "section": "Day 8",
+      "description": "Steve Jobs",
+      "question": "Quote: Jobs",
+      "korean": "계속 찾아라, 안주하지 마라.",
+      "english": "Keep looking, don't settle.",
+      "chunks": [
+        {
+          "text": "Keep looking",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "don't settle",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Steve Jobs",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-2-11",
       "section": "Day 9",
-      "description": "MLK Jr.",
-      "question": "The Dream",
+      "description": "Martin Luther King Jr.",
+      "question": "Quote: MLK",
       "korean": "나에게는 꿈이 있습니다.",
       "english": "I have a dream.",
       "chunks": [
         {
           "text": "I",
-          "role": "Subject",
+          "role": "Subj",
           "color": "#FF0000"
         },
         {
@@ -138,513 +310,470 @@
         },
         {
           "text": "a dream",
-          "role": "Object",
+          "role": "Obj",
           "color": "#FFD700"
         }
       ],
-      "context": "Civil Rights",
-      "grammarGuide": {
-        "title": "MLK Jr.",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
-          }
-        ]
-      }
+      "context": "Martin Luther King Jr.",
+      "grammarGuide": null
     },
     {
-      "id": "6-9-2",
+      "id": "6-2-12",
       "section": "Day 9",
-      "description": "MLK Jr.",
-      "question": "The Dream",
-      "korean": "나에게는 꿈이 있습니다.",
-      "english": "I have a dream.",
+      "description": "Martin Luther King Jr.",
+      "question": "Quote: MLK",
+      "korean": "모든 산에서 자유가 울려 퍼지게 하라.",
+      "english": "Let freedom ring from every mountain.",
       "chunks": [
         {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "have",
+          "text": "Let",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "a dream",
-          "role": "Object",
+          "text": "freedom",
+          "role": "Obj",
           "color": "#FFD700"
+        },
+        {
+          "text": "ring",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "from every mountain",
+          "role": "Mod",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Civil Rights"
+      "context": "Martin Luther King Jr.",
+      "grammarGuide": null
     },
     {
-      "id": "6-9-3",
+      "id": "6-2-13",
       "section": "Day 9",
-      "description": "MLK Jr.",
-      "question": "The Dream",
-      "korean": "나에게는 꿈이 있습니다.",
-      "english": "I have a dream.",
+      "description": "Martin Luther King Jr.",
+      "question": "Quote: MLK",
+      "korean": "마침내 자유다!",
+      "english": "Free at last!",
       "chunks": [
         {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
+          "text": "Free",
+          "role": "Comp",
+          "color": "#BA68C8"
         },
         {
-          "text": "have",
+          "text": "at last",
+          "role": "Mod",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Martin Luther King Jr.",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-2-14",
+      "section": "Day 9",
+      "description": "Martin Luther King Jr.",
+      "question": "Quote: MLK",
+      "korean": "피부색으로 판단하지 말라.",
+      "english": "Judge not by the color of skin.",
+      "chunks": [
+        {
+          "text": "Judge not",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "a dream",
-          "role": "Object",
+          "text": "by the color of skin",
+          "role": "Mod",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Martin Luther King Jr.",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-2-15",
+      "section": "Day 9",
+      "description": "Martin Luther King Jr.",
+      "question": "Quote: MLK",
+      "korean": "그들의 인격 수준이 중요하다.",
+      "english": "Content of their character matters.",
+      "chunks": [
+        {
+          "text": "Content of their character",
+          "role": "Subj",
+          "color": "#FF0000"
+        },
+        {
+          "text": "matters",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Martin Luther King Jr.",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-2-16",
+      "section": "Day 9",
+      "description": "Martin Luther King Jr.",
+      "question": "Quote: MLK",
+      "korean": "우리는 홀로 걸을 수 없다.",
+      "english": "We cannot walk alone.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subj",
+          "color": "#FF0000"
+        },
+        {
+          "text": "cannot walk",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "alone",
+          "role": "Mod",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Martin Luther King Jr.",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-2-17",
+      "section": "Day 9",
+      "description": "Martin Luther King Jr.",
+      "question": "Quote: MLK",
+      "korean": "어디서든 불의는 모든 곳의 정의에 대한 위협이다.",
+      "english": "Injustice anywhere is a threat to justice everywhere.",
+      "chunks": [
+        {
+          "text": "Injustice anywhere",
+          "role": "Subj",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a threat",
+          "role": "Comp",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "to justice everywhere",
+          "role": "Mod",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Martin Luther King Jr.",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-2-18",
+      "section": "Day 9",
+      "description": "Martin Luther King Jr.",
+      "question": "Quote: MLK",
+      "korean": "어둠은 어둠을 몰아낼 수 없다.",
+      "english": "Darkness cannot drive out darkness.",
+      "chunks": [
+        {
+          "text": "Darkness",
+          "role": "Subj",
+          "color": "#FF0000"
+        },
+        {
+          "text": "cannot drive out",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "darkness",
+          "role": "Obj",
           "color": "#FFD700"
         }
       ],
-      "context": "Civil Rights"
+      "context": "Martin Luther King Jr.",
+      "grammarGuide": null
     },
     {
-      "id": "6-10-1",
+      "id": "6-2-19",
+      "section": "Day 9",
+      "description": "Martin Luther King Jr.",
+      "question": "Quote: MLK",
+      "korean": "오직 빛만이 그것을 할 수 있다.",
+      "english": "Only light can do that.",
+      "chunks": [
+        {
+          "text": "Only light",
+          "role": "Subj",
+          "color": "#FF0000"
+        },
+        {
+          "text": "can do",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "that",
+          "role": "Obj",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Martin Luther King Jr.",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-2-20",
+      "section": "Day 9",
+      "description": "Martin Luther King Jr.",
+      "question": "Quote: MLK",
+      "korean": "사랑만이 유일한 힘이다.",
+      "english": "Love is the only force.",
+      "chunks": [
+        {
+          "text": "Love",
+          "role": "Subj",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the only force",
+          "role": "Comp",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Martin Luther King Jr.",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-2-21",
       "section": "Day 10",
       "description": "Lincoln",
-      "question": "Gettysburg",
-      "korean": "국민의, 국민에 의한, 국민을 위한 정부.",
-      "english": "Government of the people by the people for the people.",
+      "question": "Quote: Lincoln",
+      "korean": "국민의 정부.",
+      "english": "Government of the people.",
       "chunks": [
         {
           "text": "Government",
-          "role": "Subject",
+          "role": "Subj",
           "color": "#FF0000"
         },
         {
           "text": "of the people",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "by the people",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "for the people",
-          "role": "Modifier",
+          "role": "Mod",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Democracy",
-      "grammarGuide": {
-        "title": "Lincoln",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          }
-        ]
-      }
+      "context": "Lincoln",
+      "grammarGuide": null
     },
     {
-      "id": "6-10-2",
+      "id": "6-2-22",
       "section": "Day 10",
       "description": "Lincoln",
-      "question": "Gettysburg",
-      "korean": "국민의, 국민에 의한, 국민을 위한 정부.",
-      "english": "Government of the people by the people for the people.",
+      "question": "Quote: Lincoln",
+      "korean": "국민에 의한, 국민을 위한.",
+      "english": "By the people, for the people.",
       "chunks": [
         {
-          "text": "Government",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "of the people",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "by the people",
-          "role": "Modifier",
+          "text": "By the people",
+          "role": "Mod",
           "color": "#B0BEC5"
         },
         {
           "text": "for the people",
-          "role": "Modifier",
+          "role": "Mod",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Democracy"
+      "context": "Lincoln",
+      "grammarGuide": null
     },
     {
-      "id": "6-10-3",
+      "id": "6-2-23",
       "section": "Day 10",
       "description": "Lincoln",
-      "question": "Gettysburg",
-      "korean": "국민의, 국민에 의한, 국민을 위한 정부.",
-      "english": "Government of the people by the people for the people.",
+      "question": "Quote: Lincoln",
+      "korean": "이 땅에서 사라지지 않을 것이다.",
+      "english": "Shall not perish from the earth.",
       "chunks": [
         {
-          "text": "Government",
-          "role": "Subject",
-          "color": "#FF0000"
+          "text": "Shall not perish",
+          "role": "Verb",
+          "color": "#FF7F00"
         },
         {
-          "text": "of the people",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "by the people",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "for the people",
-          "role": "Modifier",
+          "text": "from the earth",
+          "role": "Mod",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Democracy"
+      "context": "Lincoln",
+      "grammarGuide": null
     },
     {
-      "id": "6-11-1",
-      "section": "Day 11",
-      "description": "Churchill",
-      "question": "War Speech",
-      "korean": "우리는 절대 항복하지 않을 것이다.",
-      "english": "We shall never surrender.",
+      "id": "6-2-24",
+      "section": "Day 10",
+      "description": "Lincoln",
+      "question": "Quote: Lincoln",
+      "korean": "87년 전에.",
+      "english": "Four score and seven years ago.",
       "chunks": [
         {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "shall never surrender",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "WWII",
-      "grammarGuide": {
-        "title": "Churchill",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6-11-2",
-      "section": "Day 11",
-      "description": "Churchill",
-      "question": "War Speech",
-      "korean": "우리는 절대 항복하지 않을 것이다.",
-      "english": "We shall never surrender.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "shall never surrender",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "WWII"
-    },
-    {
-      "id": "6-11-3",
-      "section": "Day 11",
-      "description": "Churchill",
-      "question": "War Speech",
-      "korean": "우리는 절대 항복하지 않을 것이다.",
-      "english": "We shall never surrender.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "shall never surrender",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "WWII"
-    },
-    {
-      "id": "6-12-1",
-      "section": "Day 12",
-      "description": "Gandhi",
-      "question": "Be the Change",
-      "korean": "네가 보고 싶은 변화가 되어라.",
-      "english": "Be the change you wish to see.",
-      "chunks": [
-        {
-          "text": "Be",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the change you wish to see",
-          "role": "Complement",
+          "text": "Four score and seven years ago",
+          "role": "Adverb",
           "color": "#BA68C8"
         }
       ],
-      "context": "Activism",
-      "grammarGuide": {
-        "title": "Gandhi",
-        "structure": [
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Complement",
-            "color": "#BA68C8",
-            "desc": ""
-          }
-        ]
-      }
+      "context": "Lincoln",
+      "grammarGuide": null
     },
     {
-      "id": "6-12-2",
-      "section": "Day 12",
-      "description": "Gandhi",
-      "question": "Be the Change",
-      "korean": "네가 보고 싶은 변화가 되어라.",
-      "english": "Be the change you wish to see.",
+      "id": "6-2-25",
+      "section": "Day 10",
+      "description": "Lincoln",
+      "question": "Quote: Lincoln",
+      "korean": "모든 인간은 평등하게 창조되었다.",
+      "english": "All men are created equal.",
       "chunks": [
         {
-          "text": "Be",
+          "text": "All men",
+          "role": "Subj",
+          "color": "#FF0000"
+        },
+        {
+          "text": "are created",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "the change you wish to see",
-          "role": "Complement",
+          "text": "equal",
+          "role": "Comp",
           "color": "#BA68C8"
         }
       ],
-      "context": "Activism"
+      "context": "Lincoln",
+      "grammarGuide": null
     },
     {
-      "id": "6-12-3",
-      "section": "Day 12",
-      "description": "Gandhi",
-      "question": "Be the Change",
-      "korean": "네가 보고 싶은 변화가 되어라.",
-      "english": "Be the change you wish to see.",
+      "id": "6-2-26",
+      "section": "Day 10",
+      "description": "Lincoln",
+      "question": "Quote: Lincoln",
+      "korean": "분열된 집안은 바로 설 수 없다.",
+      "english": "A house divided cannot stand.",
       "chunks": [
         {
-          "text": "Be",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "A house divided",
+          "role": "Subj",
+          "color": "#FF0000"
         },
         {
-          "text": "the change you wish to see",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "cannot stand",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Activism"
+      "context": "Lincoln",
+      "grammarGuide": null
     },
     {
-      "id": "6-13-1",
-      "section": "Day 13",
-      "description": "JFK",
-      "question": "Inauguration",
-      "korean": "조국이 당신에게 무엇을 해줄 수 있는지 묻지 마라.",
-      "english": "Ask not what your country can do for you.",
+      "id": "6-2-27",
+      "section": "Day 10",
+      "description": "Lincoln",
+      "question": "Quote: Lincoln",
+      "korean": "누구에게도 악의를 품지 않고.",
+      "english": "With malice toward none.",
       "chunks": [
         {
-          "text": "Ask not",
+          "text": "With malice",
+          "role": "Mod",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "toward none",
+          "role": "Mod",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Lincoln",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-2-28",
+      "section": "Day 10",
+      "description": "Lincoln",
+      "question": "Quote: Lincoln",
+      "korean": "모두에게 자비를 베풀며.",
+      "english": "With charity for all.",
+      "chunks": [
+        {
+          "text": "With charity",
+          "role": "Mod",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "for all",
+          "role": "Mod",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Lincoln",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-2-29",
+      "section": "Day 10",
+      "description": "Lincoln",
+      "question": "Quote: Lincoln",
+      "korean": "우리가 그 일을 끝내도록 노력합시다.",
+      "english": "Let us strive to finish the work.",
+      "chunks": [
+        {
+          "text": "Let us strive",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "what your country can do for you",
-          "role": "Object",
+          "text": "to finish the work",
+          "role": "Obj",
           "color": "#FFD700"
         }
       ],
-      "context": "Service",
-      "grammarGuide": {
-        "title": "JFK",
-        "structure": [
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
-          }
-        ]
-      }
+      "context": "Lincoln",
+      "grammarGuide": null
     },
     {
-      "id": "6-13-2",
-      "section": "Day 13",
-      "description": "JFK",
-      "question": "Inauguration",
-      "korean": "조국이 당신에게 무엇을 해줄 수 있는지 묻지 마라.",
-      "english": "Ask not what your country can do for you.",
+      "id": "6-2-30",
+      "section": "Day 10",
+      "description": "Lincoln",
+      "question": "Quote: Lincoln",
+      "korean": "세상은 별로 기억하지 않을 것이다.",
+      "english": "The world will little note.",
       "chunks": [
         {
-          "text": "Ask not",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "The world",
+          "role": "Subj",
+          "color": "#FF0000"
         },
         {
-          "text": "what your country can do for you",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Service"
-    },
-    {
-      "id": "6-13-3",
-      "section": "Day 13",
-      "description": "JFK",
-      "question": "Inauguration",
-      "korean": "조국이 당신에게 무엇을 해줄 수 있는지 묻지 마라.",
-      "english": "Ask not what your country can do for you.",
-      "chunks": [
-        {
-          "text": "Ask not",
+          "text": "will little note",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "what your country can do for you",
-          "role": "Object",
-          "color": "#FFD700"
         }
       ],
-      "context": "Service"
-    },
-    {
-      "id": "6-14-1",
-      "section": "Day 14",
-      "description": "JFK",
-      "question": "Inauguration",
-      "korean": "조국이 당신에게 무엇을 해줄 수 있는지 묻지 마라.",
-      "english": "Ask not what your country can do for you.",
-      "chunks": [
-        {
-          "text": "Ask not",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "what your country can do for you",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Service",
-      "grammarGuide": {
-        "title": "JFK",
-        "structure": [
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6-14-2",
-      "section": "Day 14",
-      "description": "JFK",
-      "question": "Inauguration",
-      "korean": "조국이 당신에게 무엇을 해줄 수 있는지 묻지 마라.",
-      "english": "Ask not what your country can do for you.",
-      "chunks": [
-        {
-          "text": "Ask not",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "what your country can do for you",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Service"
-    },
-    {
-      "id": "6-14-3",
-      "section": "Day 14",
-      "description": "JFK",
-      "question": "Inauguration",
-      "korean": "조국이 당신에게 무엇을 해줄 수 있는지 묻지 마라.",
-      "english": "Ask not what your country can do for you.",
-      "chunks": [
-        {
-          "text": "Ask not",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "what your country can do for you",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Service"
+      "context": "Lincoln",
+      "grammarGuide": null
     }
   ]
 }

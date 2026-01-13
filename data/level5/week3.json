@@ -1,108 +1,63 @@
 {
   "curriculum": [
     {
-      "id": "6-15-1",
+      "id": "6-3-1",
       "section": "Day 15",
       "description": "Shakespeare",
-      "question": "Hamlet",
-      "korean": "죽느냐 사느냐 그것이 문제로다.",
-      "english": "To be or not to be that is the question.",
+      "question": "Lit: Shakespeare",
+      "korean": "죽느냐 사느냐.",
+      "english": "To be or not to be.",
       "chunks": [
         {
           "text": "To be or not to be",
-          "role": "Subject",
+          "role": "Subj",
           "color": "#FF0000"
-        },
-        {
-          "text": "that",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the question",
-          "role": "Complement",
-          "color": "#BA68C8"
         }
       ],
-      "context": "Classic Lit",
+      "context": "Shakespeare",
       "grammarGuide": {
         "title": "Shakespeare",
         "structure": [
           {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Complement",
-            "color": "#BA68C8",
-            "desc": ""
+            "text": "Subj",
+            "color": "#FF0000"
           }
         ]
       }
     },
     {
-      "id": "6-15-2",
+      "id": "6-3-2",
       "section": "Day 15",
       "description": "Shakespeare",
-      "question": "Hamlet",
-      "korean": "죽느냐 사느냐 그것이 문제로다.",
-      "english": "To be or not to be that is the question.",
+      "question": "Lit: Shakespeare",
+      "korean": "온 세상은 무대이다.",
+      "english": "All the world's a stage.",
       "chunks": [
         {
-          "text": "To be or not to be",
-          "role": "Subject",
+          "text": "All the world's",
+          "role": "Subj",
           "color": "#FF0000"
         },
         {
-          "text": "that",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the question",
-          "role": "Complement",
+          "text": "a stage",
+          "role": "Comp",
           "color": "#BA68C8"
         }
       ],
-      "context": "Classic Lit"
+      "context": "Shakespeare",
+      "grammarGuide": null
     },
     {
-      "id": "6-15-3",
+      "id": "6-3-3",
       "section": "Day 15",
       "description": "Shakespeare",
-      "question": "Hamlet",
-      "korean": "죽느냐 사느냐 그것이 문제로다.",
-      "english": "To be or not to be that is the question.",
+      "question": "Lit: Shakespeare",
+      "korean": "이별은 달콤한 슬픔이다.",
+      "english": "Parting is such sweet sorrow.",
       "chunks": [
         {
-          "text": "To be or not to be",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "that",
-          "role": "Subject",
+          "text": "Parting",
+          "role": "Subj",
           "color": "#FF0000"
         },
         {
@@ -111,24 +66,209 @@
           "color": "#FF7F00"
         },
         {
-          "text": "the question",
-          "role": "Complement",
+          "text": "such sweet sorrow",
+          "role": "Comp",
           "color": "#BA68C8"
         }
       ],
-      "context": "Classic Lit"
+      "context": "Shakespeare",
+      "grammarGuide": null
     },
     {
-      "id": "6-16-1",
-      "section": "Day 16",
-      "description": "Proverb",
-      "question": "Journey",
-      "korean": "천 리 길도 한 걸음부터.",
-      "english": "A journey of a thousand miles begins with a single step.",
+      "id": "6-3-4",
+      "section": "Day 15",
+      "description": "Shakespeare",
+      "question": "Lit: Shakespeare",
+      "korean": "겁쟁이는 여러 번 죽는다.",
+      "english": "Cowards die many times.",
       "chunks": [
         {
-          "text": "A journey of a thousand miles",
-          "role": "Subject",
+          "text": "Cowards",
+          "role": "Subj",
+          "color": "#FF0000"
+        },
+        {
+          "text": "die",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "many times",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Shakespeare",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-3-5",
+      "section": "Day 15",
+      "description": "Shakespeare",
+      "question": "Lit: Shakespeare",
+      "korean": "용감한 자는 죽음을 결코 맛보지 않는다.",
+      "english": "The valiant never taste of death.",
+      "chunks": [
+        {
+          "text": "The valiant",
+          "role": "Subj",
+          "color": "#FF0000"
+        },
+        {
+          "text": "never taste",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "of death",
+          "role": "Obj",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Shakespeare",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-3-6",
+      "section": "Day 15",
+      "description": "Shakespeare",
+      "question": "Lit: Shakespeare",
+      "korean": "사랑은 눈으로 보지 않는다.",
+      "english": "Love looks not with the eyes.",
+      "chunks": [
+        {
+          "text": "Love",
+          "role": "Subj",
+          "color": "#FF0000"
+        },
+        {
+          "text": "looks not",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "with the eyes",
+          "role": "Mod",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Shakespeare",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-3-7",
+      "section": "Day 15",
+      "description": "Shakespeare",
+      "question": "Lit: Shakespeare",
+      "korean": "음악이 사랑의 양식이라면 계속 연주하라.",
+      "english": "If music be the food of love, play on.",
+      "chunks": [
+        {
+          "text": "If music be",
+          "role": "Mod",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "play on",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Shakespeare",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-3-8",
+      "section": "Day 15",
+      "description": "Shakespeare",
+      "question": "Lit: Shakespeare",
+      "korean": "그대를 여름날에 비유할까요?",
+      "english": "Shall I compare thee to a summer's day?",
+      "chunks": [
+        {
+          "text": "Shall I compare",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "thee",
+          "role": "Obj",
+          "color": "#FFD700"
+        },
+        {
+          "text": "to a summer's day",
+          "role": "Mod",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Shakespeare",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-3-9",
+      "section": "Day 15",
+      "description": "Shakespeare",
+      "question": "Lit: Shakespeare",
+      "korean": "이름에 무엇이 있는가?",
+      "english": "What's in a name?",
+      "chunks": [
+        {
+          "text": "What's",
+          "role": "Subj",
+          "color": "#FF0000"
+        },
+        {
+          "text": "in a name",
+          "role": "Mod",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Shakespeare",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-3-10",
+      "section": "Day 15",
+      "description": "Shakespeare",
+      "question": "Lit: Shakespeare",
+      "korean": "우리는 꿈이 만들어지는 재료와 같다.",
+      "english": "We are such stuff as dreams are made on.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subj",
+          "color": "#FF0000"
+        },
+        {
+          "text": "are",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "such stuff",
+          "role": "Comp",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "as dreams are made on",
+          "role": "Mod",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Shakespeare",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-3-11",
+      "section": "Day 16",
+      "description": "Proverbs",
+      "question": "Wisdom",
+      "korean": "천 리 길도 한 걸음부터.",
+      "english": "A journey of a thousand miles begins with a step.",
+      "chunks": [
+        {
+          "text": "A journey",
+          "role": "Subj",
           "color": "#FF0000"
         },
         {
@@ -137,194 +277,79 @@
           "color": "#FF7F00"
         },
         {
-          "text": "with a single step",
-          "role": "Modifier",
+          "text": "with a step",
+          "role": "Mod",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Wisdom",
-      "grammarGuide": {
-        "title": "Proverb",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          }
-        ]
-      }
+      "context": "Proverbs",
+      "grammarGuide": null
     },
     {
-      "id": "6-16-2",
+      "id": "6-3-12",
       "section": "Day 16",
-      "description": "Proverb",
-      "question": "Journey",
-      "korean": "천 리 길도 한 걸음부터.",
-      "english": "A journey of a thousand miles begins with a single step.",
+      "description": "Proverbs",
+      "question": "Wisdom",
+      "korean": "행동이 말보다 더 크게 말한다.",
+      "english": "Actions speak louder than words.",
       "chunks": [
         {
-          "text": "A journey of a thousand miles",
-          "role": "Subject",
+          "text": "Actions",
+          "role": "Subj",
           "color": "#FF0000"
         },
         {
-          "text": "begins",
+          "text": "speak",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "with a single step",
-          "role": "Modifier",
+          "text": "louder than words",
+          "role": "Mod",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Wisdom"
+      "context": "Proverbs",
+      "grammarGuide": null
     },
     {
-      "id": "6-16-3",
+      "id": "6-3-13",
       "section": "Day 16",
-      "description": "Proverb",
-      "question": "Journey",
-      "korean": "천 리 길도 한 걸음부터.",
-      "english": "A journey of a thousand miles begins with a single step.",
+      "description": "Proverbs",
+      "question": "Wisdom",
+      "korean": "모든 좋은 일에는 끝이 있다.",
+      "english": "All good things must come to an end.",
       "chunks": [
         {
-          "text": "A journey of a thousand miles",
-          "role": "Subject",
+          "text": "All good things",
+          "role": "Subj",
           "color": "#FF0000"
         },
         {
-          "text": "begins",
+          "text": "must come",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "with a single step",
-          "role": "Modifier",
+          "text": "to an end",
+          "role": "Mod",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Wisdom"
+      "context": "Proverbs",
+      "grammarGuide": null
     },
     {
-      "id": "6-17-1",
-      "section": "Day 17",
-      "description": "Descartes",
-      "question": "Existence",
-      "korean": "나는 생각한다 고로 나는 존재한다.",
-      "english": "I think therefore I am.",
+      "id": "6-3-14",
+      "section": "Day 16",
+      "description": "Proverbs",
+      "question": "Wisdom",
+      "korean": "아름다움은 보는 사람의 눈에 있다.",
+      "english": "Beauty is in the eye of the beholder.",
       "chunks": [
         {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "think",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "therefore I am",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Philosophy",
-      "grammarGuide": {
-        "title": "Descartes",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6-17-2",
-      "section": "Day 17",
-      "description": "Descartes",
-      "question": "Existence",
-      "korean": "나는 생각한다 고로 나는 존재한다.",
-      "english": "I think therefore I am.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "think",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "therefore I am",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Philosophy"
-    },
-    {
-      "id": "6-17-3",
-      "section": "Day 17",
-      "description": "Descartes",
-      "question": "Existence",
-      "korean": "나는 생각한다 고로 나는 존재한다.",
-      "english": "I think therefore I am.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "think",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "therefore I am",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Philosophy"
-    },
-    {
-      "id": "6-18-1",
-      "section": "Day 18",
-      "description": "Little Prince",
-      "question": "Secret",
-      "korean": "중요한 것은 눈에 보이지 않는다.",
-      "english": "What is essential is invisible to the eye.",
-      "chunks": [
-        {
-          "text": "What is essential",
-          "role": "Subject",
+          "text": "Beauty",
+          "role": "Subj",
           "color": "#FF0000"
         },
         {
@@ -333,54 +358,101 @@
           "color": "#FF7F00"
         },
         {
-          "text": "invisible",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "to the eye",
-          "role": "Modifier",
+          "text": "in the eye",
+          "role": "Mod",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Literature",
-      "grammarGuide": {
-        "title": "Little Prince",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Complement",
-            "color": "#BA68C8",
-            "desc": ""
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          }
-        ]
-      }
+      "context": "Proverbs",
+      "grammarGuide": null
     },
     {
-      "id": "6-18-2",
-      "section": "Day 18",
-      "description": "Little Prince",
-      "question": "Secret",
-      "korean": "중요한 것은 눈에 보이지 않는다.",
-      "english": "What is essential is invisible to the eye.",
+      "id": "6-3-15",
+      "section": "Day 16",
+      "description": "Proverbs",
+      "question": "Wisdom",
+      "korean": "달걀이 부화하기 전에 병아리를 세지 마라.",
+      "english": "Don't count your chickens before they hatch.",
       "chunks": [
         {
-          "text": "What is essential",
-          "role": "Subject",
+          "text": "Don't count",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "your chickens",
+          "role": "Obj",
+          "color": "#FFD700"
+        },
+        {
+          "text": "before they hatch",
+          "role": "Mod",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Proverbs",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-3-16",
+      "section": "Day 16",
+      "description": "Proverbs",
+      "question": "Wisdom",
+      "korean": "쉽게 얻은 것은 쉽게 잃는다.",
+      "english": "Easy come, easy go.",
+      "chunks": [
+        {
+          "text": "Easy come",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "easy go",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Proverbs",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-3-17",
+      "section": "Day 16",
+      "description": "Proverbs",
+      "question": "Wisdom",
+      "korean": "행운은 용감한 자의 편이다.",
+      "english": "Fortune favors the bold.",
+      "chunks": [
+        {
+          "text": "Fortune",
+          "role": "Subj",
+          "color": "#FF0000"
+        },
+        {
+          "text": "favors",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the bold",
+          "role": "Obj",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Proverbs",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-3-18",
+      "section": "Day 16",
+      "description": "Proverbs",
+      "question": "Wisdom",
+      "korean": "아는 것이 힘이다.",
+      "english": "Knowledge is power.",
+      "chunks": [
+        {
+          "text": "Knowledge",
+          "role": "Subj",
           "color": "#FF0000"
         },
         {
@@ -389,342 +461,67 @@
           "color": "#FF7F00"
         },
         {
-          "text": "invisible",
-          "role": "Complement",
+          "text": "power",
+          "role": "Comp",
           "color": "#BA68C8"
+        }
+      ],
+      "context": "Proverbs",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-3-19",
+      "section": "Day 16",
+      "description": "Proverbs",
+      "question": "Wisdom",
+      "korean": "연습이 완벽을 만든다.",
+      "english": "Practice makes perfect.",
+      "chunks": [
+        {
+          "text": "Practice",
+          "role": "Subj",
+          "color": "#FF0000"
         },
         {
-          "text": "to the eye",
-          "role": "Modifier",
+          "text": "makes",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "perfect",
+          "role": "Obj",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Proverbs",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-3-20",
+      "section": "Day 16",
+      "description": "Proverbs",
+      "question": "Wisdom",
+      "korean": "로마에 가면 로마법을 따르라.",
+      "english": "When in Rome, do as the Romans do.",
+      "chunks": [
+        {
+          "text": "When in Rome",
+          "role": "Mod",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "do",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "as the Romans do",
+          "role": "Mod",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Literature"
-    },
-    {
-      "id": "6-18-3",
-      "section": "Day 18",
-      "description": "Little Prince",
-      "question": "Secret",
-      "korean": "중요한 것은 눈에 보이지 않는다.",
-      "english": "What is essential is invisible to the eye.",
-      "chunks": [
-        {
-          "text": "What is essential",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "invisible",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "to the eye",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Literature"
-    },
-    {
-      "id": "6-19-1",
-      "section": "Day 19",
-      "description": "Robert Frost",
-      "question": "The Road",
-      "korean": "나는 남들이 가지 않은 길을 택했다.",
-      "english": "I took the one less traveled by.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "took",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the one less traveled by",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Poetry",
-      "grammarGuide": {
-        "title": "Robert Frost",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6-19-2",
-      "section": "Day 19",
-      "description": "Robert Frost",
-      "question": "The Road",
-      "korean": "나는 남들이 가지 않은 길을 택했다.",
-      "english": "I took the one less traveled by.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "took",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the one less traveled by",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Poetry"
-    },
-    {
-      "id": "6-19-3",
-      "section": "Day 19",
-      "description": "Robert Frost",
-      "question": "The Road",
-      "korean": "나는 남들이 가지 않은 길을 택했다.",
-      "english": "I took the one less traveled by.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "took",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the one less traveled by",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Poetry"
-    },
-    {
-      "id": "6-20-1",
-      "section": "Day 20",
-      "description": "Robert Frost",
-      "question": "The Road",
-      "korean": "나는 남들이 가지 않은 길을 택했다.",
-      "english": "I took the one less traveled by.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "took",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the one less traveled by",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Poetry",
-      "grammarGuide": {
-        "title": "Robert Frost",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6-20-2",
-      "section": "Day 20",
-      "description": "Robert Frost",
-      "question": "The Road",
-      "korean": "나는 남들이 가지 않은 길을 택했다.",
-      "english": "I took the one less traveled by.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "took",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the one less traveled by",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Poetry"
-    },
-    {
-      "id": "6-20-3",
-      "section": "Day 20",
-      "description": "Robert Frost",
-      "question": "The Road",
-      "korean": "나는 남들이 가지 않은 길을 택했다.",
-      "english": "I took the one less traveled by.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "took",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the one less traveled by",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Poetry"
-    },
-    {
-      "id": "6-21-1",
-      "section": "Day 21",
-      "description": "Robert Frost",
-      "question": "The Road",
-      "korean": "나는 남들이 가지 않은 길을 택했다.",
-      "english": "I took the one less traveled by.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "took",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the one less traveled by",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Poetry",
-      "grammarGuide": {
-        "title": "Robert Frost",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6-21-2",
-      "section": "Day 21",
-      "description": "Robert Frost",
-      "question": "The Road",
-      "korean": "나는 남들이 가지 않은 길을 택했다.",
-      "english": "I took the one less traveled by.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "took",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the one less traveled by",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Poetry"
-    },
-    {
-      "id": "6-21-3",
-      "section": "Day 21",
-      "description": "Robert Frost",
-      "question": "The Road",
-      "korean": "나는 남들이 가지 않은 길을 택했다.",
-      "english": "I took the one less traveled by.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "took",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the one less traveled by",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Poetry"
+      "context": "Proverbs",
+      "grammarGuide": null
     }
   ]
 }

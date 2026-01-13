@@ -1,16 +1,16 @@
 {
   "curriculum": [
     {
-      "id": "6-22-1",
+      "id": "6-4-1",
       "section": "Day 22",
       "description": "Complex News",
-      "question": "Analysis",
-      "korean": "전문가들은 경제 회복이 예상보다 오래 걸릴 것이라고 예측한다.",
-      "english": "Experts predict economic recovery will take longer than expected.",
+      "question": "News Analysis",
+      "korean": "전문가들은 곧 경제 회복을 예측한다.",
+      "english": "Experts predict economic recovery soon.",
       "chunks": [
         {
           "text": "Experts",
-          "role": "Subject",
+          "role": "Subj",
           "color": "#FF0000"
         },
         {
@@ -19,666 +19,578 @@
           "color": "#FF7F00"
         },
         {
-          "text": "economic recovery will take longer than expected",
-          "role": "Object",
+          "text": "economic recovery",
+          "role": "Obj",
           "color": "#FFD700"
+        },
+        {
+          "text": "soon",
+          "role": "Adv",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Editorial",
+      "context": "Complex News",
       "grammarGuide": {
         "title": "Complex News",
         "structure": [
           {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "text": "Subj",
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
-            "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
+            "text": "Obj",
+            "color": "#FFD700"
+          },
+          {
+            "text": "Adv",
+            "color": "#BA68C8"
           }
         ]
       }
     },
     {
-      "id": "6-22-2",
+      "id": "6-4-2",
       "section": "Day 22",
       "description": "Complex News",
-      "question": "Analysis",
-      "korean": "전문가들은 경제 회복이 예상보다 오래 걸릴 것이라고 예측한다.",
-      "english": "Experts predict economic recovery will take longer than expected.",
+      "question": "News Analysis",
+      "korean": "그 보고서는 건강 분야의 상당한 진전을 강조한다.",
+      "english": "The report highlights significant progress in health.",
       "chunks": [
         {
-          "text": "Experts",
-          "role": "Subject",
+          "text": "The report",
+          "role": "Subj",
           "color": "#FF0000"
         },
         {
-          "text": "predict",
+          "text": "highlights",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "economic recovery will take longer than expected",
-          "role": "Object",
+          "text": "significant progress",
+          "role": "Obj",
+          "color": "#FFD700"
+        },
+        {
+          "text": "in health",
+          "role": "Mod",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Complex News",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-4-3",
+      "section": "Day 22",
+      "description": "Complex News",
+      "question": "News Analysis",
+      "korean": "도전에도 불구하고, 팀은 성공했다.",
+      "english": "Despite challenges, the team succeeded.",
+      "chunks": [
+        {
+          "text": "Despite challenges",
+          "role": "Mod",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "the team",
+          "role": "Subj",
+          "color": "#FF0000"
+        },
+        {
+          "text": "succeeded",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Complex News",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-4-4",
+      "section": "Day 22",
+      "description": "Complex News",
+      "question": "News Analysis",
+      "korean": "협상은 오늘 중요한 단계에 도달했다.",
+      "english": "Negotiations reached a critical stage today.",
+      "chunks": [
+        {
+          "text": "Negotiations",
+          "role": "Subj",
+          "color": "#FF0000"
+        },
+        {
+          "text": "reached",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a critical stage",
+          "role": "Obj",
+          "color": "#FFD700"
+        },
+        {
+          "text": "today",
+          "role": "Adv",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Complex News",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-4-5",
+      "section": "Day 22",
+      "description": "Complex News",
+      "question": "News Analysis",
+      "korean": "과학자들은 앞으로의 잠재적 위험을 경고한다.",
+      "english": "Scientists warn of potential risks ahead.",
+      "chunks": [
+        {
+          "text": "Scientists",
+          "role": "Subj",
+          "color": "#FF0000"
+        },
+        {
+          "text": "warn",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "of potential risks ahead",
+          "role": "Obj",
           "color": "#FFD700"
         }
       ],
-      "context": "Editorial"
+      "context": "Complex News",
+      "grammarGuide": null
     },
     {
-      "id": "6-22-3",
+      "id": "6-4-6",
       "section": "Day 22",
       "description": "Complex News",
-      "question": "Analysis",
-      "korean": "전문가들은 경제 회복이 예상보다 오래 걸릴 것이라고 예측한다.",
-      "english": "Experts predict economic recovery will take longer than expected.",
+      "question": "News Analysis",
+      "korean": "새 정책은 빈곤을 줄이는 것을 목표로 한다.",
+      "english": "The new policy aims to reduce poverty.",
       "chunks": [
         {
-          "text": "Experts",
-          "role": "Subject",
+          "text": "The new policy",
+          "role": "Subj",
           "color": "#FF0000"
         },
         {
-          "text": "predict",
+          "text": "aims",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "economic recovery will take longer than expected",
-          "role": "Object",
+          "text": "to reduce poverty",
+          "role": "Obj",
           "color": "#FFD700"
         }
       ],
-      "context": "Editorial"
+      "context": "Complex News",
+      "grammarGuide": null
     },
     {
-      "id": "6-23-1",
-      "section": "Day 23",
-      "description": "Academic",
-      "question": "History",
-      "korean": "로마 제국의 멸망은 부패와 경제적 불안정에 기인했다.",
-      "english": "The fall of the Roman Empire was caused by corruption and instability.",
+      "id": "6-4-7",
+      "section": "Day 22",
+      "description": "Complex News",
+      "question": "News Analysis",
+      "korean": "혁신은 전 세계적으로 시장 성장을 주도한다.",
+      "english": "Innovation drives market growth globally.",
       "chunks": [
         {
-          "text": "The fall of the Roman Empire",
-          "role": "Subject",
+          "text": "Innovation",
+          "role": "Subj",
           "color": "#FF0000"
         },
         {
-          "text": "was caused",
+          "text": "drives",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "by corruption and instability",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "market growth",
+          "role": "Obj",
+          "color": "#FFD700"
+        },
+        {
+          "text": "globally",
+          "role": "Adv",
+          "color": "#BA68C8"
         }
       ],
-      "context": "History",
-      "grammarGuide": {
-        "title": "Academic",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          }
-        ]
-      }
+      "context": "Complex News",
+      "grammarGuide": null
     },
     {
-      "id": "6-23-2",
-      "section": "Day 23",
-      "description": "Academic",
-      "question": "History",
-      "korean": "로마 제국의 멸망은 부패와 경제적 불안정에 기인했다.",
-      "english": "The fall of the Roman Empire was caused by corruption and instability.",
+      "id": "6-4-8",
+      "section": "Day 22",
+      "description": "Complex News",
+      "question": "News Analysis",
+      "korean": "교육은 우리에게 최우선 과제로 남아 있다.",
+      "english": "Education remains a top priority for us.",
       "chunks": [
         {
-          "text": "The fall of the Roman Empire",
-          "role": "Subject",
+          "text": "Education",
+          "role": "Subj",
           "color": "#FF0000"
         },
         {
-          "text": "was caused",
+          "text": "remains",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "by corruption and instability",
-          "role": "Modifier",
+          "text": "a top priority",
+          "role": "Comp",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "for us",
+          "role": "Mod",
           "color": "#B0BEC5"
         }
       ],
-      "context": "History"
+      "context": "Complex News",
+      "grammarGuide": null
     },
     {
-      "id": "6-23-3",
-      "section": "Day 23",
-      "description": "Academic",
-      "question": "History",
-      "korean": "로마 제국의 멸망은 부패와 경제적 불안정에 기인했다.",
-      "english": "The fall of the Roman Empire was caused by corruption and instability.",
+      "id": "6-4-9",
+      "section": "Day 22",
+      "description": "Complex News",
+      "question": "News Analysis",
+      "korean": "인프라 투자는 일자리를 창출한다.",
+      "english": "Investment in infrastructure creates jobs.",
       "chunks": [
         {
-          "text": "The fall of the Roman Empire",
-          "role": "Subject",
+          "text": "Investment",
+          "role": "Subj",
           "color": "#FF0000"
         },
         {
-          "text": "was caused",
+          "text": "creates",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "by corruption and instability",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "jobs",
+          "role": "Obj",
+          "color": "#FFD700"
         }
       ],
-      "context": "History"
+      "context": "Complex News",
+      "grammarGuide": null
     },
     {
-      "id": "6-24-1",
+      "id": "6-4-10",
+      "section": "Day 22",
+      "description": "Complex News",
+      "question": "News Analysis",
+      "korean": "기후 변화는 긴급한 조치를 요구한다.",
+      "english": "Climate change demands urgent action.",
+      "chunks": [
+        {
+          "text": "Climate change",
+          "role": "Subj",
+          "color": "#FF0000"
+        },
+        {
+          "text": "demands",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "urgent action",
+          "role": "Obj",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Complex News",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-4-11",
       "section": "Day 24",
       "description": "Business",
-      "question": "Email",
-      "korean": "불편을 드려 죄송하며 즉시 환불해 드리겠습니다.",
-      "english": "We apologize for the inconvenience and will issue a refund immediately.",
+      "question": "Formal Email",
+      "korean": "불편을 끼쳐 드려 죄송합니다.",
+      "english": "We apologize for the inconvenience caused.",
       "chunks": [
         {
           "text": "We",
-          "role": "Subject",
+          "role": "Subj",
           "color": "#FF0000"
         },
         {
-          "text": "apologize",
+          "text": "apologize for",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "for the inconvenience",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "and will issue a refund immediately",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "the inconvenience caused",
+          "role": "Obj",
+          "color": "#FFD700"
         }
       ],
-      "context": "Customer Service",
-      "grammarGuide": {
-        "title": "Business",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          }
-        ]
-      }
+      "context": "Business",
+      "grammarGuide": null
     },
     {
-      "id": "6-24-2",
+      "id": "6-4-12",
       "section": "Day 24",
       "description": "Business",
-      "question": "Email",
-      "korean": "불편을 드려 죄송하며 즉시 환불해 드리겠습니다.",
-      "english": "We apologize for the inconvenience and will issue a refund immediately.",
+      "question": "Formal Email",
+      "korean": "아래 첨부된 문서를 확인해 주세요.",
+      "english": "Please find the attached document below.",
       "chunks": [
         {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "apologize",
+          "text": "Please find",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "for the inconvenience",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "the attached document",
+          "role": "Obj",
+          "color": "#FFD700"
         },
         {
-          "text": "and will issue a refund immediately",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "below",
+          "role": "Adv",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Customer Service"
+      "context": "Business",
+      "grammarGuide": null
     },
     {
-      "id": "6-24-3",
+      "id": "6-4-13",
       "section": "Day 24",
       "description": "Business",
-      "question": "Email",
-      "korean": "불편을 드려 죄송하며 즉시 환불해 드리겠습니다.",
-      "english": "We apologize for the inconvenience and will issue a refund immediately.",
+      "question": "Formal Email",
+      "korean": "당신의 소식을 듣기를 기대합니다.",
+      "english": "I look forward to hearing from you.",
       "chunks": [
         {
-          "text": "We",
-          "role": "Subject",
+          "text": "I",
+          "role": "Subj",
           "color": "#FF0000"
         },
         {
-          "text": "apologize",
+          "text": "look forward to",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "for the inconvenience",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "and will issue a refund immediately",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "hearing from you",
+          "role": "Obj",
+          "color": "#FFD700"
         }
       ],
-      "context": "Customer Service"
+      "context": "Business",
+      "grammarGuide": null
     },
     {
-      "id": "6-25-1",
-      "section": "Day 25",
+      "id": "6-4-14",
+      "section": "Day 24",
       "description": "Business",
-      "question": "Email",
-      "korean": "불편을 드려 죄송하며 즉시 환불해 드리겠습니다.",
-      "english": "We apologize for the inconvenience and will issue a refund immediately.",
+      "question": "Formal Email",
+      "korean": "신속한 답변에 감사드립니다.",
+      "english": "Thank you for your prompt response.",
       "chunks": [
         {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "apologize",
+          "text": "Thank you",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "for the inconvenience",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "and will issue a refund immediately",
-          "role": "Modifier",
+          "text": "for your prompt response",
+          "role": "Mod",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Customer Service",
-      "grammarGuide": {
-        "title": "Business",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          }
-        ]
-      }
+      "context": "Business",
+      "grammarGuide": null
     },
     {
-      "id": "6-25-2",
-      "section": "Day 25",
+      "id": "6-4-15",
+      "section": "Day 24",
       "description": "Business",
-      "question": "Email",
-      "korean": "불편을 드려 죄송하며 즉시 환불해 드리겠습니다.",
-      "english": "We apologize for the inconvenience and will issue a refund immediately.",
+      "question": "Formal Email",
+      "korean": "귀하와의 비즈니스 파트너십에 감사드립니다.",
+      "english": "We appreciate your business partnership.",
       "chunks": [
         {
           "text": "We",
-          "role": "Subject",
+          "role": "Subj",
           "color": "#FF0000"
         },
         {
-          "text": "apologize",
+          "text": "appreciate",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "for the inconvenience",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "and will issue a refund immediately",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "your business partnership",
+          "role": "Obj",
+          "color": "#FFD700"
         }
       ],
-      "context": "Customer Service"
+      "context": "Business",
+      "grammarGuide": null
     },
     {
-      "id": "6-25-3",
-      "section": "Day 25",
+      "id": "6-4-16",
+      "section": "Day 24",
       "description": "Business",
-      "question": "Email",
-      "korean": "불편을 드려 죄송하며 즉시 환불해 드리겠습니다.",
-      "english": "We apologize for the inconvenience and will issue a refund immediately.",
+      "question": "Formal Email",
+      "korean": "세부 사항을 명확히 해주실 수 있나요?",
+      "english": "Could you please clarify the details?",
       "chunks": [
         {
-          "text": "We",
-          "role": "Subject",
+          "text": "Could you",
+          "role": "Subj",
           "color": "#FF0000"
         },
         {
-          "text": "apologize",
+          "text": "please clarify",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "for the inconvenience",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "and will issue a refund immediately",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "the details",
+          "role": "Obj",
+          "color": "#FFD700"
         }
       ],
-      "context": "Customer Service"
+      "context": "Business",
+      "grammarGuide": null
     },
     {
-      "id": "6-26-1",
-      "section": "Day 26",
+      "id": "6-4-17",
+      "section": "Day 24",
       "description": "Business",
-      "question": "Email",
-      "korean": "불편을 드려 죄송하며 즉시 환불해 드리겠습니다.",
-      "english": "We apologize for the inconvenience and will issue a refund immediately.",
+      "question": "Formal Email",
+      "korean": "우리는 양질의 서비스에 전념하고 있습니다.",
+      "english": "We are committed to quality service.",
       "chunks": [
         {
           "text": "We",
-          "role": "Subject",
+          "role": "Subj",
           "color": "#FF0000"
         },
         {
-          "text": "apologize",
+          "text": "are committed",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "for the inconvenience",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "and will issue a refund immediately",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "to quality service",
+          "role": "Obj",
+          "color": "#FFD700"
         }
       ],
-      "context": "Customer Service",
-      "grammarGuide": {
-        "title": "Business",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          }
-        ]
-      }
+      "context": "Business",
+      "grammarGuide": null
     },
     {
-      "id": "6-26-2",
-      "section": "Day 26",
+      "id": "6-4-18",
+      "section": "Day 24",
       "description": "Business",
-      "question": "Email",
-      "korean": "불편을 드려 죄송하며 즉시 환불해 드리겠습니다.",
-      "english": "We apologize for the inconvenience and will issue a refund immediately.",
+      "question": "Formal Email",
+      "korean": "다음 주에 회의 일정을 잡읍시다.",
+      "english": "Let's schedule a meeting next week.",
       "chunks": [
         {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "apologize",
+          "text": "Let's schedule",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "for the inconvenience",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "a meeting",
+          "role": "Obj",
+          "color": "#FFD700"
         },
         {
-          "text": "and will issue a refund immediately",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "next week",
+          "role": "Adv",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Customer Service"
+      "context": "Business",
+      "grammarGuide": null
     },
     {
-      "id": "6-26-3",
-      "section": "Day 26",
+      "id": "6-4-19",
+      "section": "Day 24",
       "description": "Business",
-      "question": "Email",
-      "korean": "불편을 드려 죄송하며 즉시 환불해 드리겠습니다.",
-      "english": "We apologize for the inconvenience and will issue a refund immediately.",
+      "question": "Formal Email",
+      "korean": "금요일까지 참석 여부를 확인해 주십시오.",
+      "english": "Please confirm your attendance by Friday.",
       "chunks": [
         {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "apologize",
+          "text": "Please confirm",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "for the inconvenience",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "your attendance",
+          "role": "Obj",
+          "color": "#FFD700"
         },
         {
-          "text": "and will issue a refund immediately",
-          "role": "Modifier",
+          "text": "by Friday",
+          "role": "Mod",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Customer Service"
+      "context": "Business",
+      "grammarGuide": null
     },
     {
-      "id": "6-27-1",
-      "section": "Day 27",
+      "id": "6-4-20",
+      "section": "Day 24",
       "description": "Business",
-      "question": "Email",
-      "korean": "불편을 드려 죄송하며 즉시 환불해 드리겠습니다.",
-      "english": "We apologize for the inconvenience and will issue a refund immediately.",
+      "question": "Formal Email",
+      "korean": "언제든지 주저 말고 연락해 주십시오.",
+      "english": "Feel free to contact us anytime.",
       "chunks": [
         {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "apologize",
+          "text": "Feel free",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "for the inconvenience",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "to contact us",
+          "role": "Obj",
+          "color": "#FFD700"
         },
         {
-          "text": "and will issue a refund immediately",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "anytime",
+          "role": "Adv",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Customer Service",
-      "grammarGuide": {
-        "title": "Business",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          }
-        ]
-      }
+      "context": "Business",
+      "grammarGuide": null
     },
     {
-      "id": "6-27-2",
-      "section": "Day 27",
-      "description": "Business",
-      "question": "Email",
-      "korean": "불편을 드려 죄송하며 즉시 환불해 드리겠습니다.",
-      "english": "We apologize for the inconvenience and will issue a refund immediately.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "apologize",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "for the inconvenience",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "and will issue a refund immediately",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Customer Service"
-    },
-    {
-      "id": "6-27-3",
-      "section": "Day 27",
-      "description": "Business",
-      "question": "Email",
-      "korean": "불편을 드려 죄송하며 즉시 환불해 드리겠습니다.",
-      "english": "We apologize for the inconvenience and will issue a refund immediately.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "apologize",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "for the inconvenience",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "and will issue a refund immediately",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Customer Service"
-    },
-    {
-      "id": "6-28-1",
+      "id": "6-4-21",
       "section": "Day 28",
       "description": "Grand Finale",
-      "question": "The End",
-      "korean": "무지개 끝에는 당신의 꿈이 기다리고 있다.",
-      "english": "Your dreams await at the end of the rainbow.",
+      "question": "Conclusion",
+      "korean": "당신의 꿈이 끝에서 기다리고 있다.",
+      "english": "Your dreams await at the end.",
       "chunks": [
         {
           "text": "Your dreams",
-          "role": "Subject",
+          "role": "Subj",
           "color": "#FF0000"
         },
         {
@@ -687,84 +599,261 @@
           "color": "#FF7F00"
         },
         {
-          "text": "at the end of the rainbow",
-          "role": "Modifier",
+          "text": "at the end",
+          "role": "Mod",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Conclusion",
-      "grammarGuide": {
-        "title": "Grand Finale",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          }
-        ]
-      }
+      "context": "Grand Finale",
+      "grammarGuide": null
     },
     {
-      "id": "6-28-2",
+      "id": "6-4-22",
       "section": "Day 28",
       "description": "Grand Finale",
-      "question": "The End",
-      "korean": "무지개 끝에는 당신의 꿈이 기다리고 있다.",
-      "english": "Your dreams await at the end of the rainbow.",
+      "question": "Conclusion",
+      "korean": "이것은 단지 시작일 뿐이다.",
+      "english": "This is just the beginning.",
       "chunks": [
         {
-          "text": "Your dreams",
-          "role": "Subject",
+          "text": "This",
+          "role": "Subj",
           "color": "#FF0000"
         },
         {
-          "text": "await",
+          "text": "is",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "at the end of the rainbow",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "just the beginning",
+          "role": "Comp",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Conclusion"
+      "context": "Grand Finale",
+      "grammarGuide": null
     },
     {
-      "id": "6-28-3",
+      "id": "6-4-23",
       "section": "Day 28",
       "description": "Grand Finale",
-      "question": "The End",
-      "korean": "무지개 끝에는 당신의 꿈이 기다리고 있다.",
-      "english": "Your dreams await at the end of the rainbow.",
+      "question": "Conclusion",
+      "korean": "당신은 문법의 기술을 마스터했다.",
+      "english": "You have mastered the art of grammar.",
       "chunks": [
         {
-          "text": "Your dreams",
-          "role": "Subject",
+          "text": "You",
+          "role": "Subj",
           "color": "#FF0000"
         },
         {
-          "text": "await",
+          "text": "have mastered",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "at the end of the rainbow",
-          "role": "Modifier",
+          "text": "the art of grammar",
+          "role": "Obj",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Grand Finale",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-4-24",
+      "section": "Day 28",
+      "description": "Grand Finale",
+      "question": "Conclusion",
+      "korean": "세상은 이제 당신의 것이다.",
+      "english": "The world is your oyster now.",
+      "chunks": [
+        {
+          "text": "The world",
+          "role": "Subj",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "your oyster",
+          "role": "Comp",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "now",
+          "role": "Adv",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Grand Finale",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-4-25",
+      "section": "Day 28",
+      "description": "Grand Finale",
+      "question": "Conclusion",
+      "korean": "나가서 자신 있게 말하라.",
+      "english": "Go forth and speak with confidence.",
+      "chunks": [
+        {
+          "text": "Go forth",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "and speak",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "with confidence",
+          "role": "Mod",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Conclusion"
+      "context": "Grand Finale",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-4-26",
+      "section": "Day 28",
+      "description": "Grand Finale",
+      "question": "Conclusion",
+      "korean": "배움은 결코 마음을 지치게 하지 않는다.",
+      "english": "Learning never exhausts the mind.",
+      "chunks": [
+        {
+          "text": "Learning",
+          "role": "Subj",
+          "color": "#FF0000"
+        },
+        {
+          "text": "never exhausts",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the mind",
+          "role": "Obj",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Grand Finale",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-4-27",
+      "section": "Day 28",
+      "description": "Grand Finale",
+      "question": "Conclusion",
+      "korean": "당신은 세상을 향해 나아갈 준비가 되었다.",
+      "english": "You are ready for the world.",
+      "chunks": [
+        {
+          "text": "You",
+          "role": "Subj",
+          "color": "#FF0000"
+        },
+        {
+          "text": "are",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "ready",
+          "role": "Comp",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "for the world",
+          "role": "Mod",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Grand Finale",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-4-28",
+      "section": "Day 28",
+      "description": "Grand Finale",
+      "question": "Conclusion",
+      "korean": "역사에 당신의 자취를 남겨라.",
+      "english": "Make your mark on history.",
+      "chunks": [
+        {
+          "text": "Make",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "your mark",
+          "role": "Obj",
+          "color": "#FFD700"
+        },
+        {
+          "text": "on history",
+          "role": "Mod",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Grand Finale",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-4-29",
+      "section": "Day 28",
+      "description": "Grand Finale",
+      "question": "Conclusion",
+      "korean": "항상 자신을 믿어라.",
+      "english": "Believe in yourself always.",
+      "chunks": [
+        {
+          "text": "Believe",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "in yourself",
+          "role": "Mod",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "always",
+          "role": "Adv",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Grand Finale",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-4-30",
+      "section": "Day 28",
+      "description": "Grand Finale",
+      "question": "Conclusion",
+      "korean": "잘 가요, 행운을 빕니다!",
+      "english": "Farewell and good luck!",
+      "chunks": [
+        {
+          "text": "Farewell",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "and good luck",
+          "role": "Obj",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Grand Finale",
+      "grammarGuide": null
     }
   ]
 }

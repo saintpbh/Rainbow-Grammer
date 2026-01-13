@@ -4,7 +4,7 @@
       "id": "6-1-1",
       "section": "Day 1",
       "description": "Economy News",
-      "question": "Market News",
+      "question": "Topic: Economy",
       "korean": "가격이 상승함에 따라 주식 시장이 붕괴한다.",
       "english": "Stock market crashes as prices rise.",
       "chunks": [
@@ -24,24 +24,21 @@
           "color": "#B0BEC5"
         }
       ],
-      "context": "Breaking News",
+      "context": "Economy News",
       "grammarGuide": {
         "title": "Economy News",
         "structure": [
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
             "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
+            "color": "#B0BEC5"
           }
         ]
       }
@@ -50,59 +47,270 @@
       "id": "6-1-2",
       "section": "Day 1",
       "description": "Economy News",
-      "question": "Market News",
-      "korean": "가격이 상승함에 따라 주식 시장이 붕괴한다.",
-      "english": "Stock market crashes as prices rise.",
+      "question": "Topic: Economy",
+      "korean": "인플레이션이 지난달 최고치를 기록했다.",
+      "english": "Inflation hit a record high last month.",
       "chunks": [
         {
-          "text": "Stock market",
+          "text": "Inflation",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "crashes",
+          "text": "hit",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "as prices rise",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "a record high",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "last month",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Breaking News"
+      "context": "Economy News",
+      "grammarGuide": null
     },
     {
       "id": "6-1-3",
       "section": "Day 1",
       "description": "Economy News",
-      "question": "Market News",
-      "korean": "가격이 상승함에 따라 주식 시장이 붕괴한다.",
-      "english": "Stock market crashes as prices rise.",
+      "question": "Topic: Economy",
+      "korean": "중앙은행이 금리를 다시 인상했다.",
+      "english": "The central bank raised interest rates again.",
       "chunks": [
         {
-          "text": "Stock market",
+          "text": "The central bank",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "crashes",
+          "text": "raised",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "as prices rise",
+          "text": "interest rates",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "again",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Economy News",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-1-4",
+      "section": "Day 1",
+      "description": "Economy News",
+      "question": "Topic: Economy",
+      "korean": "실업률이 3퍼센트로 떨어졌다.",
+      "english": "Unemployment rate dropped to three percent.",
+      "chunks": [
+        {
+          "text": "Unemployment rate",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "dropped",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "to three percent",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Breaking News"
+      "context": "Economy News",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-1-5",
+      "section": "Day 1",
+      "description": "Economy News",
+      "question": "Topic: Economy",
+      "korean": "공급 부족으로 유가가 급등했다.",
+      "english": "Oil prices surged due to supply shortage.",
+      "chunks": [
+        {
+          "text": "Oil prices",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "surged",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "due to supply shortage",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Economy News",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-1-6",
+      "section": "Day 1",
+      "description": "Economy News",
+      "question": "Topic: Economy",
+      "korean": "주택 시장이 회복의 조짐을 보인다.",
+      "english": "Housing market shows signs of recovery.",
+      "chunks": [
+        {
+          "text": "Housing market",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "shows",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "signs of recovery",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Economy News",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-1-7",
+      "section": "Day 1",
+      "description": "Economy News",
+      "question": "Topic: Economy",
+      "korean": "기술주가 오늘 시장 반등을 주도했다.",
+      "english": "Tech stocks led the market rally today.",
+      "chunks": [
+        {
+          "text": "Tech stocks",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "led",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the market rally",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "today",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Economy News",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-1-8",
+      "section": "Day 1",
+      "description": "Economy News",
+      "question": "Topic: Economy",
+      "korean": "소비자들은 명품에 지출을 줄이고 있다.",
+      "english": "Consumers are spending less on luxury goods.",
+      "chunks": [
+        {
+          "text": "Consumers",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "are spending",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "less",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "on luxury goods",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Economy News",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-1-9",
+      "section": "Day 1",
+      "description": "Economy News",
+      "question": "Topic: Economy",
+      "korean": "세계 무역량이 크게 감소했다.",
+      "english": "Global trade volume decreased significantly.",
+      "chunks": [
+        {
+          "text": "Global trade volume",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "decreased",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "significantly",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Economy News",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-1-10",
+      "section": "Day 1",
+      "description": "Economy News",
+      "question": "Topic: Economy",
+      "korean": "투자자들은 가능한 경기 침체를 우려한다.",
+      "english": "Investors worry about a possible recession.",
+      "chunks": [
+        {
+          "text": "Investors",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "worry",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "about a possible recession",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Economy News",
+      "grammarGuide": null
     },
     {
       "id": "6-2-1",
       "section": "Day 2",
-      "description": "Technology News",
-      "question": "Tech Trend",
+      "description": "Tech News",
+      "question": "Topic: Tech",
       "korean": "AI가 공장에서 인간 노동자들을 대체한다.",
       "english": "AI replaces human workers in factories.",
       "chunks": [
@@ -127,29 +335,25 @@
           "color": "#B0BEC5"
         }
       ],
-      "context": "Tech World",
+      "context": "Tech News",
       "grammarGuide": {
-        "title": "Technology News",
+        "title": "Tech News",
         "structure": [
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
             "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
+            "color": "#FFD700"
           },
           {
             "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
+            "color": "#B0BEC5"
           }
         ]
       }
@@ -157,70 +361,276 @@
     {
       "id": "6-2-2",
       "section": "Day 2",
-      "description": "Technology News",
-      "question": "Tech Trend",
-      "korean": "AI가 공장에서 인간 노동자들을 대체한다.",
-      "english": "AI replaces human workers in factories.",
+      "description": "Tech News",
+      "question": "Topic: Tech",
+      "korean": "새 스마트폰 모델은 접이식 화면을 특징으로 한다.",
+      "english": "New smartphone model features foldable screen.",
       "chunks": [
         {
-          "text": "AI",
+          "text": "New smartphone model",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "replaces",
+          "text": "features",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "human workers",
+          "text": "foldable screen",
           "role": "Object",
           "color": "#FFD700"
-        },
-        {
-          "text": "in factories",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Tech World"
+      "context": "Tech News",
+      "grammarGuide": null
     },
     {
       "id": "6-2-3",
       "section": "Day 2",
-      "description": "Technology News",
-      "question": "Tech Trend",
-      "korean": "AI가 공장에서 인간 노동자들을 대체한다.",
-      "english": "AI replaces human workers in factories.",
+      "description": "Tech News",
+      "question": "Topic: Tech",
+      "korean": "과학자들은 그 바이러스의 치료법을 개발했다.",
+      "english": "Scientists developed a cure for the virus.",
       "chunks": [
         {
-          "text": "AI",
+          "text": "Scientists",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "replaces",
+          "text": "developed",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "human workers",
+          "text": "a cure for the virus",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Tech News",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-2-4",
+      "section": "Day 2",
+      "description": "Tech News",
+      "question": "Topic: Tech",
+      "korean": "사이버 공격이 주요 금융 은행들을 겨냥한다.",
+      "english": "Cyber attacks target major financial banks.",
+      "chunks": [
+        {
+          "text": "Cyber attacks",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "target",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "major financial banks",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Tech News",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-2-5",
+      "section": "Day 2",
+      "description": "Tech News",
+      "question": "Topic: Tech",
+      "korean": "전기차들이 빠르게 인기를 얻고 있다.",
+      "english": "Electric cars are gaining popularity fast.",
+      "chunks": [
+        {
+          "text": "Electric cars",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "are gaining",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "popularity",
           "role": "Object",
           "color": "#FFD700"
         },
         {
-          "text": "in factories",
+          "text": "fast",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Tech News",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-2-6",
+      "section": "Day 2",
+      "description": "Tech News",
+      "question": "Topic: Tech",
+      "korean": "가상 현실이 우리가 배우는 방식을 바꾼다.",
+      "english": "Virtual reality changes how we learn.",
+      "chunks": [
+        {
+          "text": "Virtual reality",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "changes",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "how we learn",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Tech News",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-2-7",
+      "section": "Day 2",
+      "description": "Tech News",
+      "question": "Topic: Tech",
+      "korean": "로봇들이 이제 복잡한 수술을 수행할 수 있다.",
+      "english": "Robots can perform complex surgeries now.",
+      "chunks": [
+        {
+          "text": "Robots",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "can perform",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "complex surgeries",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "now",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Tech News",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-2-8",
+      "section": "Day 2",
+      "description": "Tech News",
+      "question": "Topic: Tech",
+      "korean": "소셜 미디어가 여론에 크게 영향을 미친다.",
+      "english": "Social media influences public opinion heavily.",
+      "chunks": [
+        {
+          "text": "Social media",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "influences",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "public opinion",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "heavily",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Tech News",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-2-9",
+      "section": "Day 2",
+      "description": "Tech News",
+      "question": "Topic: Tech",
+      "korean": "드론이 외진 지역으로 소포를 배달한다.",
+      "english": "Drones deliver packages to remote areas.",
+      "chunks": [
+        {
+          "text": "Drones",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "deliver",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "packages",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "to remote areas",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Tech World"
+      "context": "Tech News",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-2-10",
+      "section": "Day 2",
+      "description": "Tech News",
+      "question": "Topic: Tech",
+      "korean": "양자 컴퓨터는 문제를 즉시 해결한다.",
+      "english": "Quantum computers solve problems instantly.",
+      "chunks": [
+        {
+          "text": "Quantum computers",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "solve",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "problems",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "instantly",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Tech News",
+      "grammarGuide": null
     },
     {
       "id": "6-3-1",
       "section": "Day 3",
-      "description": "Environment News",
-      "question": "Global Issue",
+      "description": "Eco News",
+      "question": "Topic: Environment",
       "korean": "지구 온난화가 북극곰 서식지를 위협한다.",
       "english": "Global warming threatens polar bear habitats.",
       "chunks": [
@@ -242,22 +652,19 @@
       ],
       "context": "Eco News",
       "grammarGuide": {
-        "title": "Environment News",
+        "title": "Eco News",
         "structure": [
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
             "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
+            "color": "#FFD700"
           }
         ]
       }
@@ -265,60 +672,271 @@
     {
       "id": "6-3-2",
       "section": "Day 3",
-      "description": "Environment News",
-      "question": "Global Issue",
-      "korean": "지구 온난화가 북극곰 서식지를 위협한다.",
-      "english": "Global warming threatens polar bear habitats.",
+      "description": "Eco News",
+      "question": "Topic: Environment",
+      "korean": "플라스틱 쓰레기가 매일 우리 바다를 오염시킨다.",
+      "english": "Plastic waste pollutes our oceans daily.",
       "chunks": [
         {
-          "text": "Global warming",
+          "text": "Plastic waste",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "threatens",
+          "text": "pollutes",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "polar bear habitats",
+          "text": "our oceans",
           "role": "Object",
           "color": "#FFD700"
+        },
+        {
+          "text": "daily",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Eco News"
+      "context": "Eco News",
+      "grammarGuide": null
     },
     {
       "id": "6-3-3",
       "section": "Day 3",
-      "description": "Environment News",
-      "question": "Global Issue",
-      "korean": "지구 온난화가 북극곰 서식지를 위협한다.",
-      "english": "Global warming threatens polar bear habitats.",
+      "description": "Eco News",
+      "question": "Topic: Environment",
+      "korean": "재생 가능 에너지원은 이제 필수적이다.",
+      "english": "Renewable energy sources are essential now.",
       "chunks": [
         {
-          "text": "Global warming",
+          "text": "Renewable energy sources",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "threatens",
+          "text": "are",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "polar bear habitats",
+          "text": "essential",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "now",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Eco News",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-3-4",
+      "section": "Day 3",
+      "description": "Eco News",
+      "question": "Topic: Environment",
+      "korean": "산림 벌채는 생물 다양성의 상실을 초래한다.",
+      "english": "Deforestation causes loss of biodiversity.",
+      "chunks": [
+        {
+          "text": "Deforestation",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "causes",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "loss of biodiversity",
           "role": "Object",
           "color": "#FFD700"
         }
       ],
-      "context": "Eco News"
+      "context": "Eco News",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-3-5",
+      "section": "Day 3",
+      "description": "Eco News",
+      "question": "Topic: Environment",
+      "korean": "정부들은 일회용 비닐봉지를 금지한다.",
+      "english": "Governments ban single-use plastic bags.",
+      "chunks": [
+        {
+          "text": "Governments",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "ban",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "single-use plastic bags",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Eco News",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-3-6",
+      "section": "Day 3",
+      "description": "Eco News",
+      "question": "Topic: Environment",
+      "korean": "깨끗한 물이 전 세계적으로 부족해지고 있다.",
+      "english": "Clean water is becoming scarce globally.",
+      "chunks": [
+        {
+          "text": "Clean water",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is becoming",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "scarce",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "globally",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Eco News",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-3-7",
+      "section": "Day 3",
+      "description": "Eco News",
+      "question": "Topic: Environment",
+      "korean": "태양광 패널은 전기 요금을 상당히 줄여준다.",
+      "english": "Solar panels reduce electricity bills significantly.",
+      "chunks": [
+        {
+          "text": "Solar panels",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "reduce",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "electricity bills",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "significantly",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Eco News",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-3-8",
+      "section": "Day 3",
+      "description": "Eco News",
+      "question": "Topic: Environment",
+      "korean": "산불이 수천 에이커를 파괴했다.",
+      "english": "Wildfires destroyed thousands of acres.",
+      "chunks": [
+        {
+          "text": "Wildfires",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "destroyed",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "thousands of acres",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Eco News",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-3-9",
+      "section": "Day 3",
+      "description": "Eco News",
+      "question": "Topic: Environment",
+      "korean": "우리는 멸종 위기 종을 보호해야 한다.",
+      "english": "We must protect endangered species.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "must protect",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "endangered species",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Eco News",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-3-10",
+      "section": "Day 3",
+      "description": "Eco News",
+      "question": "Topic: Environment",
+      "korean": "재활용은 에너지와 자원을 절약한다.",
+      "english": "Recycling saves energy and resources.",
+      "chunks": [
+        {
+          "text": "Recycling",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "saves",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "energy and resources",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Eco News",
+      "grammarGuide": null
     },
     {
       "id": "6-4-1",
       "section": "Day 4",
-      "description": "Politics News",
-      "question": "Policy Update",
+      "description": "Politics",
+      "question": "Topic: Politics",
       "korean": "대통령이 오늘 새로운 세금 정책을 발표한다.",
       "english": "President announces new tax policy today.",
       "chunks": [
@@ -345,27 +963,23 @@
       ],
       "context": "Politics",
       "grammarGuide": {
-        "title": "Politics News",
+        "title": "Politics",
         "structure": [
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
             "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
+            "color": "#FFD700"
           },
           {
             "text": "Adverb",
-            "color": "#BA68C8",
-            "desc": "어떻게/어디서"
+            "color": "#BA68C8"
           }
         ]
       }
@@ -373,418 +987,245 @@
     {
       "id": "6-4-2",
       "section": "Day 4",
-      "description": "Politics News",
-      "question": "Policy Update",
-      "korean": "대통령이 오늘 새로운 세금 정책을 발표한다.",
-      "english": "President announces new tax policy today.",
+      "description": "Politics",
+      "question": "Topic: Politics",
+      "korean": "의회는 새 법안에 대해 투표했다.",
+      "english": "Parliament voted on the new bill.",
       "chunks": [
         {
-          "text": "President",
+          "text": "Parliament",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "announces",
+          "text": "voted",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "new tax policy",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "today",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "on the new bill",
+          "role": "Modifier",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Politics"
+      "context": "Politics",
+      "grammarGuide": null
     },
     {
       "id": "6-4-3",
       "section": "Day 4",
-      "description": "Politics News",
-      "question": "Policy Update",
-      "korean": "대통령이 오늘 새로운 세금 정책을 발표한다.",
-      "english": "President announces new tax policy today.",
+      "description": "Politics",
+      "question": "Topic: Politics",
+      "korean": "지도자들이 평화 정상 회담을 위해 모였다.",
+      "english": "Leaders gathered for the peace summit.",
       "chunks": [
         {
-          "text": "President",
+          "text": "Leaders",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "announces",
+          "text": "gathered",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "new tax policy",
-          "role": "Object",
-          "color": "#FFD700"
+          "text": "for the peace summit",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Politics",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-4-4",
+      "section": "Day 4",
+      "description": "Politics",
+      "question": "Topic: Politics",
+      "korean": "시민들은 부패에 맞서 시위했다.",
+      "english": "Citizens protested against the corruption.",
+      "chunks": [
+        {
+          "text": "Citizens",
+          "role": "Subject",
+          "color": "#FF0000"
         },
         {
-          "text": "today",
+          "text": "protested",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "against the corruption",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Politics",
+      "grammarGuide": null
+    },
+    {
+      "id": "6-4-5",
+      "section": "Day 4",
+      "description": "Politics",
+      "question": "Topic: Politics",
+      "korean": "선거 결과가 늦게 발표되었다.",
+      "english": "The election results were announced late.",
+      "chunks": [
+        {
+          "text": "The election results",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "were announced",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "late",
           "role": "Adverb",
           "color": "#BA68C8"
         }
       ],
-      "context": "Politics"
+      "context": "Politics",
+      "grammarGuide": null
     },
     {
-      "id": "6-5-1",
-      "section": "Day 5",
-      "description": "Science News",
-      "question": "Space Discovery",
-      "korean": "NASA는 먼 행성에서 물을 발견한다.",
-      "english": "NASA discovers water on distant planet.",
+      "id": "6-4-6",
+      "section": "Day 4",
+      "description": "Politics",
+      "question": "Topic: Politics",
+      "korean": "외교관들이 무역 협정을 협상 중이다.",
+      "english": "Diplomats are negotiating a trade deal.",
       "chunks": [
         {
-          "text": "NASA",
+          "text": "Diplomats",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "discovers",
+          "text": "are negotiating",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "water",
+          "text": "a trade deal",
           "role": "Object",
           "color": "#FFD700"
-        },
-        {
-          "text": "on distant planet",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Astronomy",
-      "grammarGuide": {
-        "title": "Science News",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          }
-        ]
-      }
+      "context": "Politics",
+      "grammarGuide": null
     },
     {
-      "id": "6-5-2",
-      "section": "Day 5",
-      "description": "Science News",
-      "question": "Space Discovery",
-      "korean": "NASA는 먼 행성에서 물을 발견한다.",
-      "english": "NASA discovers water on distant planet.",
+      "id": "6-4-7",
+      "section": "Day 4",
+      "description": "Politics",
+      "question": "Topic: Politics",
+      "korean": "시장은 더 나은 대중교통을 약속했다.",
+      "english": "The mayor promised better public transport.",
       "chunks": [
         {
-          "text": "NASA",
+          "text": "The mayor",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "discovers",
+          "text": "promised",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "water",
+          "text": "better public transport",
           "role": "Object",
           "color": "#FFD700"
-        },
-        {
-          "text": "on distant planet",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Astronomy"
+      "context": "Politics",
+      "grammarGuide": null
     },
     {
-      "id": "6-5-3",
-      "section": "Day 5",
-      "description": "Science News",
-      "question": "Space Discovery",
-      "korean": "NASA는 먼 행성에서 물을 발견한다.",
-      "english": "NASA discovers water on distant planet.",
+      "id": "6-4-8",
+      "section": "Day 4",
+      "description": "Politics",
+      "question": "Topic: Politics",
+      "korean": "야당은 그 결정을 비판했다.",
+      "english": "Opposition party criticized the decision.",
       "chunks": [
         {
-          "text": "NASA",
+          "text": "Opposition party",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "discovers",
+          "text": "criticized",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "water",
+          "text": "the decision",
           "role": "Object",
           "color": "#FFD700"
-        },
-        {
-          "text": "on distant planet",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Astronomy"
+      "context": "Politics",
+      "grammarGuide": null
     },
     {
-      "id": "6-6-1",
-      "section": "Day 6",
-      "description": "Sports News",
-      "question": "Match Result",
-      "korean": "약체 팀이 결승전에서 챔피언을 꺾었다.",
-      "english": "Underdog team defeats champion in finals.",
+      "id": "6-4-9",
+      "section": "Day 4",
+      "description": "Politics",
+      "question": "Topic: Politics",
+      "korean": "새로운 법률은 소비자 권리를 보호한다.",
+      "english": "New laws protect consumer rights.",
       "chunks": [
         {
-          "text": "Underdog team",
+          "text": "New laws",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "defeats",
+          "text": "protect",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "champion",
+          "text": "consumer rights",
           "role": "Object",
           "color": "#FFD700"
-        },
-        {
-          "text": "in finals",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Sports Highlight",
-      "grammarGuide": {
-        "title": "Sports News",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          }
-        ]
-      }
+      "context": "Politics",
+      "grammarGuide": null
     },
     {
-      "id": "6-6-2",
-      "section": "Day 6",
-      "description": "Sports News",
-      "question": "Match Result",
-      "korean": "약체 팀이 결승전에서 챔피언을 꺾었다.",
-      "english": "Underdog team defeats champion in finals.",
+      "id": "6-4-10",
+      "section": "Day 4",
+      "description": "Politics",
+      "question": "Topic: Politics",
+      "korean": "표현의 자유는 기본적인 권리이다.",
+      "english": "Freedom of speech is a basic right.",
       "chunks": [
         {
-          "text": "Underdog team",
+          "text": "Freedom of speech",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "defeats",
+          "text": "is",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "champion",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "in finals",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "a basic right",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Sports Highlight"
-    },
-    {
-      "id": "6-6-3",
-      "section": "Day 6",
-      "description": "Sports News",
-      "question": "Match Result",
-      "korean": "약체 팀이 결승전에서 챔피언을 꺾었다.",
-      "english": "Underdog team defeats champion in finals.",
-      "chunks": [
-        {
-          "text": "Underdog team",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "defeats",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "champion",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "in finals",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Sports Highlight"
-    },
-    {
-      "id": "6-7-1",
-      "section": "Day 7",
-      "description": "Sports News",
-      "question": "Match Result",
-      "korean": "약체 팀이 결승전에서 챔피언을 꺾었다.",
-      "english": "Underdog team defeats champion in finals.",
-      "chunks": [
-        {
-          "text": "Underdog team",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "defeats",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "champion",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "in finals",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Sports Highlight",
-      "grammarGuide": {
-        "title": "Sports News",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          }
-        ]
-      }
-    },
-    {
-      "id": "6-7-2",
-      "section": "Day 7",
-      "description": "Sports News",
-      "question": "Match Result",
-      "korean": "약체 팀이 결승전에서 챔피언을 꺾었다.",
-      "english": "Underdog team defeats champion in finals.",
-      "chunks": [
-        {
-          "text": "Underdog team",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "defeats",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "champion",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "in finals",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Sports Highlight"
-    },
-    {
-      "id": "6-7-3",
-      "section": "Day 7",
-      "description": "Sports News",
-      "question": "Match Result",
-      "korean": "약체 팀이 결승전에서 챔피언을 꺾었다.",
-      "english": "Underdog team defeats champion in finals.",
-      "chunks": [
-        {
-          "text": "Underdog team",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "defeats",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "champion",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "in finals",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Sports Highlight"
+      "context": "Politics",
+      "grammarGuide": null
     }
   ]
 }
