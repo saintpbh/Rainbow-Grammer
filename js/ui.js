@@ -163,18 +163,49 @@ export function hideErrorFeedback() {
     if (el) el.classList.remove('active');
 }
 
-export function showLevelUpCelebration(currentSection, nextSection, onTransition) {
-    const badge = document.getElementById('level-btn');
-    if (badge) {
-        badge.classList.add('levelup');
-        setTimeout(() => badge.classList.remove('levelup'), 1000);
-    }
+export function showDayTransition(completedSection, nextSection, guideData, onProceed) {
+    const modal = document.createElement('div');
+    modal.className = 'level-transition-modal';
+    modal.innerHTML = `
+        <div class="transition-content" style="background: white; padding: 2.5rem; border-radius: 24px; text-align: center; max-width: 500px; width: 90%; box-shadow: 0 10px 40px rgba(0,0,0,0.3); animation: popIn 0.3s ease-out;">
+            <div style="font-size: 3rem; margin-bottom: 1rem;">🏁</div>
+            <h2 style="color: #455A64; margin: 0; font-size: 1.2rem;">${completedSection} Complete!</h2>
+            <div style="margin: 2rem 0; height: 1px; background: #ECEFF1;"></div>
+            
+            <h3 style="color: var(--primary); font-size: 1.8rem; margin-bottom: 0.5rem; font-weight: 800;">${nextSection}</h3>
+            <p style="color: #78909C; margin-bottom: 2rem;">${guideData.title}</p>
+            
+            <!-- Color Coded Grammar Guide -->
+            <div style="background: #F5F7FA; padding: 1.5rem; border-radius: 16px; margin-bottom: 2rem; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; align-items: center;">
+                ${(guideData.structure || []).map((item, i) => `
+                    ${i > 0 ? '<span style="color: #B0BEC5; font-weight: bold;">+</span>' : ''}
+                    <div style="display: flex; flex-direction: column; align-items: center;">
+                        <span style="background: ${item.color}; color: white; padding: 4px 10px; border-radius: 8px; font-weight: 800; font-size: 0.9rem; box-shadow: 0 2px 4px rgba(0,0,0,0.2);">${item.text}</span>
+                        ${item.desc ? `<span style="margin-top: 4px; font-size: 0.75rem; color: #546E7A; font-weight: 600;">${item.desc}</span>` : ''}
+                    </div>
+                `).join('')}
+            </div>
 
-    setTimeout(() => {
-        showTransitionModal(nextSection);
-        if (onTransition) onTransition();
-    }, 1200);
+            <button onclick="document.querySelector('.level-transition-modal').remove(); proceedToNextLevel()" 
+                style="background: linear-gradient(135deg, #6200EA 0%, #7C4DFF 100%); color: white; border: none; padding: 16px 40px; border-radius: 50px; font-size: 1.1rem; font-weight: 800; cursor: pointer; box-shadow: 0 6px 20px rgba(98, 0, 234, 0.4); transition: transform 0.2s;">
+                Start ${nextSection} 🚀
+            </button>
+        </div>
+    `;
+
+    // Simple fade in style
+    modal.style.cssText = `
+        position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(0,0,0,0.85); display: flex; align-items: center; justify-content: center;
+        z-index: 5000; opacity: 0; transition: opacity 0.4s;
+    `;
+
+    document.body.appendChild(modal);
+    requestAnimationFrame(() => modal.style.opacity = '1');
 }
+
+export function showLevelUpCelebration(prev, next, onC) { }
+
 
 export function showTransitionModal(nextSectionText) {
     const modal = document.getElementById('transition-modal');

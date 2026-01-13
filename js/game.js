@@ -299,9 +299,13 @@ async function checkCompletion() {
 
             if (nextItem && nextItem.section !== currentSection) {
                 // Day/Section Change
-                ui.showLevelUpCelebration(currentSection, nextItem.section, () => {
-                    // Proceed handled by user clicking button in modal (proceedToNextLevel)
-                });
+                // Use the next item's grammar guide if available
+                ui.showDayTransition(
+                    currentSection,
+                    nextItem.section,
+                    nextItem.grammarGuide || { title: nextItem.description || "Next Step", structure: [] },
+                    () => { } // Callback is handled by the button in modal calling proceedToNextLevel
+                );
             } else {
                 // Same section, next sentence
                 loadLevel();
