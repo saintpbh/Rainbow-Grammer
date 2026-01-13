@@ -1,12 +1,12 @@
 {
   "curriculum": [
     {
-      "id": "2-8-1",
+      "id": "3-8-1",
       "section": "Day 8",
-      "description": "Past Continuous",
-      "question": "What lay you doing?",
-      "korean": "나는 소파에서 자고 있었다.",
-      "english": "I was sleeping on the sofa.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 집에 갈 것이다.",
+      "english": "I will go home.",
       "chunks": [
         {
           "text": "I",
@@ -14,605 +14,42 @@
           "color": "#FF0000"
         },
         {
-          "text": "was sleeping",
+          "text": "will go",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "on the sofa",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Yesterday afternoon",
-      "grammarGuide": {
-        "title": "Past Continuous",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2-8-2",
-      "section": "Day 8",
-      "description": "Past Continuous",
-      "question": "What lay you doing?",
-      "korean": "나는 소파에서 자고 있었다.",
-      "english": "I was sleeping on the sofa.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "was sleeping",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "on the sofa",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Yesterday afternoon"
-    },
-    {
-      "id": "2-8-3",
-      "section": "Day 8",
-      "description": "Past Continuous",
-      "question": "What lay you doing?",
-      "korean": "나는 소파에서 자고 있었다.",
-      "english": "I was sleeping on the sofa.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "was sleeping",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "on the sofa",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Yesterday afternoon"
-    },
-    {
-      "id": "2-8-4",
-      "section": "Day 8",
-      "description": "Past Continuous",
-      "question": "What lay you doing?",
-      "korean": "나는 소파에서 자고 있었다.",
-      "english": "I was sleeping on the sofa.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "was sleeping",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "on the sofa",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Yesterday afternoon"
-    },
-    {
-      "id": "2-8-5",
-      "section": "Day 8",
-      "description": "Past Continuous",
-      "question": "What lay you doing?",
-      "korean": "나는 소파에서 자고 있었다.",
-      "english": "I was sleeping on the sofa.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "was sleeping",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "on the sofa",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Yesterday afternoon"
-    },
-    {
-      "id": "2-8-6",
-      "section": "Day 8",
-      "description": "Past Continuous",
-      "question": "What lay you doing?",
-      "korean": "나는 소파에서 자고 있었다.",
-      "english": "I was sleeping on the sofa.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "was sleeping",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "on the sofa",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Yesterday afternoon"
-    },
-    {
-      "id": "2-8-7",
-      "section": "Day 8",
-      "description": "Past Continuous",
-      "question": "What lay you doing?",
-      "korean": "나는 소파에서 자고 있었다.",
-      "english": "I was sleeping on the sofa.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "was sleeping",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "on the sofa",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Yesterday afternoon"
-    },
-    {
-      "id": "2-8-8",
-      "section": "Day 8",
-      "description": "Past Continuous",
-      "question": "What lay you doing?",
-      "korean": "나는 소파에서 자고 있었다.",
-      "english": "I was sleeping on the sofa.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "was sleeping",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "on the sofa",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Yesterday afternoon"
-    },
-    {
-      "id": "2-8-9",
-      "section": "Day 8",
-      "description": "Past Continuous",
-      "question": "What lay you doing?",
-      "korean": "나는 소파에서 자고 있었다.",
-      "english": "I was sleeping on the sofa.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "was sleeping",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "on the sofa",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Yesterday afternoon"
-    },
-    {
-      "id": "2-8-10",
-      "section": "Day 8",
-      "description": "Past Continuous",
-      "question": "What lay you doing?",
-      "korean": "나는 소파에서 자고 있었다.",
-      "english": "I was sleeping on the sofa.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "was sleeping",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "on the sofa",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Yesterday afternoon"
-    },
-    {
-      "id": "2-9-1",
-      "section": "Day 9",
-      "description": "Present Perfect",
-      "question": "What have you done?",
-      "korean": "나는 사자를 본 적이 있다.",
-      "english": "I have seen a lion.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "have seen",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a lion",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Safari trip",
-      "grammarGuide": {
-        "title": "Present Perfect",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2-9-2",
-      "section": "Day 9",
-      "description": "Present Perfect",
-      "question": "What have you done?",
-      "korean": "나는 사자를 본 적이 있다.",
-      "english": "I have seen a lion.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "have seen",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a lion",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Safari trip"
-    },
-    {
-      "id": "2-9-3",
-      "section": "Day 9",
-      "description": "Present Perfect",
-      "question": "What have you done?",
-      "korean": "나는 사자를 본 적이 있다.",
-      "english": "I have seen a lion.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "have seen",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a lion",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Safari trip"
-    },
-    {
-      "id": "2-9-4",
-      "section": "Day 9",
-      "description": "Present Perfect",
-      "question": "What have you done?",
-      "korean": "나는 사자를 본 적이 있다.",
-      "english": "I have seen a lion.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "have seen",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a lion",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Safari trip"
-    },
-    {
-      "id": "2-9-5",
-      "section": "Day 9",
-      "description": "Present Perfect",
-      "question": "What have you done?",
-      "korean": "나는 사자를 본 적이 있다.",
-      "english": "I have seen a lion.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "have seen",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a lion",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Safari trip"
-    },
-    {
-      "id": "2-9-6",
-      "section": "Day 9",
-      "description": "Present Perfect",
-      "question": "What have you done?",
-      "korean": "나는 사자를 본 적이 있다.",
-      "english": "I have seen a lion.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "have seen",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a lion",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Safari trip"
-    },
-    {
-      "id": "2-9-7",
-      "section": "Day 9",
-      "description": "Present Perfect",
-      "question": "What have you done?",
-      "korean": "나는 사자를 본 적이 있다.",
-      "english": "I have seen a lion.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "have seen",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a lion",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Safari trip"
-    },
-    {
-      "id": "2-9-8",
-      "section": "Day 9",
-      "description": "Present Perfect",
-      "question": "What have you done?",
-      "korean": "나는 사자를 본 적이 있다.",
-      "english": "I have seen a lion.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "have seen",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a lion",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Safari trip"
-    },
-    {
-      "id": "2-9-9",
-      "section": "Day 9",
-      "description": "Present Perfect",
-      "question": "What have you done?",
-      "korean": "나는 사자를 본 적이 있다.",
-      "english": "I have seen a lion.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "have seen",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a lion",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Safari trip"
-    },
-    {
-      "id": "2-9-10",
-      "section": "Day 9",
-      "description": "Present Perfect",
-      "question": "What have you done?",
-      "korean": "나는 사자를 본 적이 있다.",
-      "english": "I have seen a lion.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "have seen",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a lion",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Safari trip"
-    },
-    {
-      "id": "2-10-1",
-      "section": "Day 10",
-      "description": "Just Finished",
-      "question": "When did she arrive?",
-      "korean": "그녀는 막 여기에 도착했다.",
-      "english": "She has just arrived here.",
-      "chunks": [
-        {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "has just arrived",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "here",
+          "text": "home",
           "role": "Adverb",
           "color": "#BA68C8"
         }
       ],
-      "context": "Airport pick up",
+      "context": "Core Lesson",
       "grammarGuide": {
-        "title": "Just Finished",
+        "title": "Core Lesson",
         "structure": [
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
             "text": "Adverb",
-            "color": "#BA68C8",
-            "desc": "어떻게/어디서"
+            "color": "#BA68C8"
           }
         ]
       }
     },
     {
-      "id": "2-10-2",
-      "section": "Day 10",
-      "description": "Just Finished",
-      "question": "When did she arrive?",
-      "korean": "그녀는 막 여기에 도착했다.",
-      "english": "She has just arrived here.",
+      "id": "3-8-2",
+      "section": "Day 8",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그녀는 차를 살 것이다.",
+      "english": "She will buy a car.",
       "chunks": [
         {
           "text": "She",
@@ -620,233 +57,26 @@
           "color": "#FF0000"
         },
         {
-          "text": "has just arrived",
+          "text": "will buy",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "here",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "a car",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Airport pick up"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-10-3",
-      "section": "Day 10",
-      "description": "Just Finished",
-      "question": "When did she arrive?",
-      "korean": "그녀는 막 여기에 도착했다.",
-      "english": "She has just arrived here.",
-      "chunks": [
-        {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "has just arrived",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "here",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Airport pick up"
-    },
-    {
-      "id": "2-10-4",
-      "section": "Day 10",
-      "description": "Just Finished",
-      "question": "When did she arrive?",
-      "korean": "그녀는 막 여기에 도착했다.",
-      "english": "She has just arrived here.",
-      "chunks": [
-        {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "has just arrived",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "here",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Airport pick up"
-    },
-    {
-      "id": "2-10-5",
-      "section": "Day 10",
-      "description": "Just Finished",
-      "question": "When did she arrive?",
-      "korean": "그녀는 막 여기에 도착했다.",
-      "english": "She has just arrived here.",
-      "chunks": [
-        {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "has just arrived",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "here",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Airport pick up"
-    },
-    {
-      "id": "2-10-6",
-      "section": "Day 10",
-      "description": "Just Finished",
-      "question": "When did she arrive?",
-      "korean": "그녀는 막 여기에 도착했다.",
-      "english": "She has just arrived here.",
-      "chunks": [
-        {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "has just arrived",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "here",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Airport pick up"
-    },
-    {
-      "id": "2-10-7",
-      "section": "Day 10",
-      "description": "Just Finished",
-      "question": "When did she arrive?",
-      "korean": "그녀는 막 여기에 도착했다.",
-      "english": "She has just arrived here.",
-      "chunks": [
-        {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "has just arrived",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "here",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Airport pick up"
-    },
-    {
-      "id": "2-10-8",
-      "section": "Day 10",
-      "description": "Just Finished",
-      "question": "When did she arrive?",
-      "korean": "그녀는 막 여기에 도착했다.",
-      "english": "She has just arrived here.",
-      "chunks": [
-        {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "has just arrived",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "here",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Airport pick up"
-    },
-    {
-      "id": "2-10-9",
-      "section": "Day 10",
-      "description": "Just Finished",
-      "question": "When did she arrive?",
-      "korean": "그녀는 막 여기에 도착했다.",
-      "english": "She has just arrived here.",
-      "chunks": [
-        {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "has just arrived",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "here",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Airport pick up"
-    },
-    {
-      "id": "2-10-10",
-      "section": "Day 10",
-      "description": "Just Finished",
-      "question": "When did she arrive?",
-      "korean": "그녀는 막 여기에 도착했다.",
-      "english": "She has just arrived here.",
-      "chunks": [
-        {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "has just arrived",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "here",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Airport pick up"
-    },
-    {
-      "id": "2-11-1",
-      "section": "Day 11",
-      "description": "Future Continuous",
-      "question": "What will he be doing?",
-      "korean": "그는 내일 달리고 있을 것이다.",
-      "english": "He will be running tomorrow.",
+      "id": "3-8-3",
+      "section": "Day 8",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그는 우리를 도울 것이다.",
+      "english": "He will help us.",
       "chunks": [
         {
           "text": "He",
@@ -854,45 +84,261 @@
           "color": "#FF0000"
         },
         {
-          "text": "will be running",
+          "text": "will help",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "tomorrow",
+          "text": "us",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-8-4",
+      "section": "Day 8",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "곧 비가 올 것이다.",
+      "english": "It will rain soon.",
+      "chunks": [
+        {
+          "text": "It",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will rain",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "soon",
           "role": "Adverb",
           "color": "#BA68C8"
         }
       ],
-      "context": "Marathon plan",
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-8-5",
+      "section": "Day 8",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그들은 늦게 도착할 것이다.",
+      "english": "They will arrive late.",
+      "chunks": [
+        {
+          "text": "They",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will arrive",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "late",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-8-6",
+      "section": "Day 8",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "우리는 이길 것이다.",
+      "english": "We will win.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will win",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-8-7",
+      "section": "Day 8",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "너는 보게 될 것이다.",
+      "english": "You will see.",
+      "chunks": [
+        {
+          "text": "You",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will see",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-8-8",
+      "section": "Day 8",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "너에게 전화할게.",
+      "english": "I will call you.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will call",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "you",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-8-9",
+      "section": "Day 8",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그녀는 시험에 합격할 것이다.",
+      "english": "She will pass the test.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will pass",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the test",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-8-10",
+      "section": "Day 8",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그가 그것을 고칠 것이다.",
+      "english": "He will fix it.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will fix",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "it",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-9-1",
+      "section": "Day 9",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 공부할 예정이다.",
+      "english": "I am going to study.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "am going to study",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
       "grammarGuide": {
-        "title": "Future Continuous",
+        "title": "Core Lesson",
         "structure": [
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Adverb",
-            "color": "#BA68C8",
-            "desc": "어떻게/어디서"
+            "color": "#FF7F00"
           }
         ]
       }
     },
     {
-      "id": "2-11-2",
-      "section": "Day 11",
-      "description": "Future Continuous",
-      "question": "What will he be doing?",
-      "korean": "그는 내일 달리고 있을 것이다.",
-      "english": "He will be running tomorrow.",
+      "id": "3-9-2",
+      "section": "Day 9",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그녀는 잘 예정이다.",
+      "english": "She is going to sleep.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is going to sleep",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-9-3",
+      "section": "Day 9",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그는 먹을 예정이다.",
+      "english": "He is going to eat.",
       "chunks": [
         {
           "text": "He",
@@ -900,233 +346,104 @@
           "color": "#FF0000"
         },
         {
-          "text": "will be running",
+          "text": "is going to eat",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "tomorrow",
-          "role": "Adverb",
-          "color": "#BA68C8"
         }
       ],
-      "context": "Marathon plan"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-11-3",
-      "section": "Day 11",
-      "description": "Future Continuous",
-      "question": "What will he be doing?",
-      "korean": "그는 내일 달리고 있을 것이다.",
-      "english": "He will be running tomorrow.",
+      "id": "3-9-4",
+      "section": "Day 9",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "우리는 놀 예정이다.",
+      "english": "We are going to play.",
       "chunks": [
         {
-          "text": "He",
+          "text": "We",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "will be running",
+          "text": "are going to play",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "tomorrow",
-          "role": "Adverb",
-          "color": "#BA68C8"
         }
       ],
-      "context": "Marathon plan"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-11-4",
-      "section": "Day 11",
-      "description": "Future Continuous",
-      "question": "What will he be doing?",
-      "korean": "그는 내일 달리고 있을 것이다.",
-      "english": "He will be running tomorrow.",
+      "id": "3-9-5",
+      "section": "Day 9",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그들은 떠날 예정이다.",
+      "english": "They are going to leave.",
       "chunks": [
         {
-          "text": "He",
+          "text": "They",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "will be running",
+          "text": "are going to leave",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "tomorrow",
-          "role": "Adverb",
-          "color": "#BA68C8"
         }
       ],
-      "context": "Marathon plan"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-11-5",
-      "section": "Day 11",
-      "description": "Future Continuous",
-      "question": "What will he be doing?",
-      "korean": "그는 내일 달리고 있을 것이다.",
-      "english": "He will be running tomorrow.",
+      "id": "3-9-6",
+      "section": "Day 9",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "눈이 올 예정이다.",
+      "english": "It is going to snow.",
       "chunks": [
         {
-          "text": "He",
+          "text": "It",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "will be running",
+          "text": "is going to snow",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "tomorrow",
-          "role": "Adverb",
-          "color": "#BA68C8"
         }
       ],
-      "context": "Marathon plan"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-11-6",
-      "section": "Day 11",
-      "description": "Future Continuous",
-      "question": "What will he be doing?",
-      "korean": "그는 내일 달리고 있을 것이다.",
-      "english": "He will be running tomorrow.",
+      "id": "3-9-7",
+      "section": "Day 9",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "요리할 거니?",
+      "english": "Are you going to cook?",
       "chunks": [
         {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "will be running",
+          "text": "Are you going to cook",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "tomorrow",
-          "role": "Adverb",
-          "color": "#BA68C8"
         }
       ],
-      "context": "Marathon plan"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-11-7",
-      "section": "Day 11",
-      "description": "Future Continuous",
-      "question": "What will he be doing?",
-      "korean": "그는 내일 달리고 있을 것이다.",
-      "english": "He will be running tomorrow.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "will be running",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "tomorrow",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Marathon plan"
-    },
-    {
-      "id": "2-11-8",
-      "section": "Day 11",
-      "description": "Future Continuous",
-      "question": "What will he be doing?",
-      "korean": "그는 내일 달리고 있을 것이다.",
-      "english": "He will be running tomorrow.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "will be running",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "tomorrow",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Marathon plan"
-    },
-    {
-      "id": "2-11-9",
-      "section": "Day 11",
-      "description": "Future Continuous",
-      "question": "What will he be doing?",
-      "korean": "그는 내일 달리고 있을 것이다.",
-      "english": "He will be running tomorrow.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "will be running",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "tomorrow",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Marathon plan"
-    },
-    {
-      "id": "2-11-10",
-      "section": "Day 11",
-      "description": "Future Continuous",
-      "question": "What will he be doing?",
-      "korean": "그는 내일 달리고 있을 것이다.",
-      "english": "He will be running tomorrow.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "will be running",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "tomorrow",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Marathon plan"
-    },
-    {
-      "id": "2-12-1",
-      "section": "Day 12",
-      "description": "Duration",
-      "question": "How long have you lived here?",
-      "korean": "나는 여기에 10년 동안 살았다.",
-      "english": "I have lived here for ten years.",
+      "id": "3-9-8",
+      "section": "Day 9",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 울지 않을 것이다.",
+      "english": "I am not going to cry.",
       "chunks": [
         {
           "text": "I",
@@ -1134,210 +451,228 @@
           "color": "#FF0000"
         },
         {
-          "text": "have lived",
+          "text": "am not going to cry",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-9-9",
+      "section": "Day 9",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그는 달릴 것이다.",
+      "english": "He is going to run.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is going to run",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-9-10",
+      "section": "Day 9",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그녀는 춤출 것이다.",
+      "english": "She is going to dance.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is going to dance",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-10-1",
+      "section": "Day 10",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "난 내일 떠난다.",
+      "english": "I am leaving tomorrow.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "am leaving",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "here",
+          "text": "tomorrow",
           "role": "Adverb",
           "color": "#BA68C8"
-        },
-        {
-          "text": "for ten years",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Introduction",
+      "context": "Core Lesson",
       "grammarGuide": {
-        "title": "Duration",
+        "title": "Core Lesson",
         "structure": [
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
             "text": "Adverb",
-            "color": "#BA68C8",
-            "desc": "어떻게/어디서"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
+            "color": "#BA68C8"
           }
         ]
       }
     },
     {
-      "id": "2-12-2",
-      "section": "Day 12",
-      "description": "Duration",
-      "question": "How long have you lived here?",
-      "korean": "나는 여기에 10년 동안 살았다.",
-      "english": "I have lived here for ten years.",
+      "id": "3-10-2",
+      "section": "Day 10",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그녀는 오늘 밤에 온다.",
+      "english": "She is coming tonight.",
       "chunks": [
         {
-          "text": "I",
+          "text": "She",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "have lived",
+          "text": "is coming",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "here",
+          "text": "tonight",
           "role": "Adverb",
           "color": "#BA68C8"
-        },
-        {
-          "text": "for ten years",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Introduction"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-12-3",
-      "section": "Day 12",
-      "description": "Duration",
-      "question": "How long have you lived here?",
-      "korean": "나는 여기에 10년 동안 살았다.",
-      "english": "I have lived here for ten years.",
+      "id": "3-10-3",
+      "section": "Day 10",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "우리는 6시에 만난다.",
+      "english": "We are meeting at 6.",
       "chunks": [
         {
-          "text": "I",
+          "text": "We",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "have lived",
+          "text": "are meeting",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "here",
+          "text": "at 6",
           "role": "Adverb",
           "color": "#BA68C8"
-        },
-        {
-          "text": "for ten years",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Introduction"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-12-4",
-      "section": "Day 12",
-      "description": "Duration",
-      "question": "How long have you lived here?",
-      "korean": "나는 여기에 10년 동안 살았다.",
-      "english": "I have lived here for ten years.",
+      "id": "3-10-4",
+      "section": "Day 10",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그는 파리로 날아간다.",
+      "english": "He is flying to Paris.",
       "chunks": [
         {
-          "text": "I",
+          "text": "He",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "have lived",
+          "text": "is flying",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "here",
+          "text": "to Paris",
           "role": "Adverb",
           "color": "#BA68C8"
-        },
-        {
-          "text": "for ten years",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Introduction"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-12-5",
-      "section": "Day 12",
-      "description": "Duration",
-      "question": "How long have you lived here?",
-      "korean": "나는 여기에 10년 동안 살았다.",
-      "english": "I have lived here for ten years.",
+      "id": "3-10-5",
+      "section": "Day 10",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그들은 결혼한다.",
+      "english": "They are getting married.",
       "chunks": [
         {
-          "text": "I",
+          "text": "They",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "have lived",
+          "text": "are getting married",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "here",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "for ten years",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Introduction"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-12-6",
-      "section": "Day 12",
-      "description": "Duration",
-      "question": "How long have you lived here?",
-      "korean": "나는 여기에 10년 동안 살았다.",
-      "english": "I have lived here for ten years.",
+      "id": "3-10-6",
+      "section": "Day 10",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "너 머무를 거니?",
+      "english": "Are you staying?",
       "chunks": [
         {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "have lived",
+          "text": "Are you staying",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "here",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "for ten years",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Introduction"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-12-7",
-      "section": "Day 12",
-      "description": "Duration",
-      "question": "How long have you lived here?",
-      "korean": "나는 여기에 10년 동안 살았다.",
-      "english": "I have lived here for ten years.",
+      "id": "3-10-7",
+      "section": "Day 10",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 이번 주말에 일한다.",
+      "english": "I am working this weekend.",
       "chunks": [
         {
           "text": "I",
@@ -1345,123 +680,107 @@
           "color": "#FF0000"
         },
         {
-          "text": "have lived",
+          "text": "am working",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "here",
+          "text": "this weekend",
           "role": "Adverb",
           "color": "#BA68C8"
-        },
-        {
-          "text": "for ten years",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Introduction"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-12-8",
-      "section": "Day 12",
-      "description": "Duration",
-      "question": "How long have you lived here?",
-      "korean": "나는 여기에 10년 동안 살았다.",
-      "english": "I have lived here for ten years.",
+      "id": "3-10-8",
+      "section": "Day 10",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그녀는 집을 산다.",
+      "english": "She is buying a house.",
       "chunks": [
         {
-          "text": "I",
+          "text": "She",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "have lived",
+          "text": "is buying",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "here",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "for ten years",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "a house",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Introduction"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-12-9",
-      "section": "Day 12",
-      "description": "Duration",
-      "question": "How long have you lived here?",
-      "korean": "나는 여기에 10년 동안 살았다.",
-      "english": "I have lived here for ten years.",
+      "id": "3-10-9",
+      "section": "Day 10",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그는 일을 그만둔다.",
+      "english": "He is quitting his job.",
       "chunks": [
         {
-          "text": "I",
+          "text": "He",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "have lived",
+          "text": "is quitting",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "here",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "for ten years",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "his job",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Introduction"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-12-10",
-      "section": "Day 12",
-      "description": "Duration",
-      "question": "How long have you lived here?",
-      "korean": "나는 여기에 10년 동안 살았다.",
-      "english": "I have lived here for ten years.",
+      "id": "3-10-10",
+      "section": "Day 10",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "우리는 곧 이사한다.",
+      "english": "We are moving soon.",
       "chunks": [
         {
-          "text": "I",
+          "text": "We",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "have lived",
+          "text": "are moving",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "here",
+          "text": "soon",
           "role": "Adverb",
           "color": "#BA68C8"
-        },
-        {
-          "text": "for ten years",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Introduction"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-13-1",
-      "section": "Day 13",
-      "description": "Duration",
-      "question": "How long have you lived here?",
-      "korean": "나는 여기에 10년 동안 살았다.",
-      "english": "I have lived here for ten years.",
+      "id": "3-11-1",
+      "section": "Day 11",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 가지 않을 것이다.",
+      "english": "I won't go.",
       "chunks": [
         {
           "text": "I",
@@ -1469,148 +788,99 @@
           "color": "#FF0000"
         },
         {
-          "text": "have lived",
+          "text": "won't go",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "here",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "for ten years",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Introduction",
+      "context": "Core Lesson",
       "grammarGuide": {
-        "title": "Duration",
+        "title": "Core Lesson",
         "structure": [
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Adverb",
-            "color": "#BA68C8",
-            "desc": "어떻게/어디서"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
+            "color": "#FF7F00"
           }
         ]
       }
     },
     {
-      "id": "2-13-2",
-      "section": "Day 13",
-      "description": "Duration",
-      "question": "How long have you lived here?",
-      "korean": "나는 여기에 10년 동안 살았다.",
-      "english": "I have lived here for ten years.",
+      "id": "3-11-2",
+      "section": "Day 11",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그녀는 돕지 않을 것이다.",
+      "english": "She won't help.",
       "chunks": [
         {
-          "text": "I",
+          "text": "She",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "have lived",
+          "text": "won't help",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "here",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "for ten years",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Introduction"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-13-3",
-      "section": "Day 13",
-      "description": "Duration",
-      "question": "How long have you lived here?",
-      "korean": "나는 여기에 10년 동안 살았다.",
-      "english": "I have lived here for ten years.",
+      "id": "3-11-3",
+      "section": "Day 11",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나와 결혼해 줄래?",
+      "english": "Will you marry me?",
       "chunks": [
         {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "have lived",
+          "text": "Will you marry",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "here",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "for ten years",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "me",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Introduction"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-13-4",
-      "section": "Day 13",
-      "description": "Duration",
-      "question": "How long have you lived here?",
-      "korean": "나는 여기에 10년 동안 살았다.",
-      "english": "I have lived here for ten years.",
+      "id": "3-11-4",
+      "section": "Day 11",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "언제 시작하니?",
+      "english": "When will it start?",
       "chunks": [
         {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "have lived",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "here",
+          "text": "When",
           "role": "Adverb",
           "color": "#BA68C8"
         },
         {
-          "text": "for ten years",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "will it start",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Introduction"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-13-5",
-      "section": "Day 13",
-      "description": "Duration",
-      "question": "How long have you lived here?",
-      "korean": "나는 여기에 10년 동안 살았다.",
-      "english": "I have lived here for ten years.",
+      "id": "3-11-5",
+      "section": "Day 11",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "난 그거 안 할 거야.",
+      "english": "I am not going to do it.",
       "chunks": [
         {
           "text": "I",
@@ -1618,365 +888,278 @@
           "color": "#FF0000"
         },
         {
-          "text": "have lived",
+          "text": "am not going to do",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "here",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "for ten years",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "it",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Introduction"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-13-6",
-      "section": "Day 13",
-      "description": "Duration",
-      "question": "How long have you lived here?",
-      "korean": "나는 여기에 10년 동안 살았다.",
-      "english": "I have lived here for ten years.",
+      "id": "3-11-6",
+      "section": "Day 11",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그거 먹을 거니?",
+      "english": "Are you going to eat that?",
       "chunks": [
         {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "have lived",
+          "text": "Are you going to eat",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "here",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "for ten years",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "that",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Introduction"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-13-7",
-      "section": "Day 13",
-      "description": "Duration",
-      "question": "How long have you lived here?",
-      "korean": "나는 여기에 10년 동안 살았다.",
-      "english": "I have lived here for ten years.",
+      "id": "3-11-7",
+      "section": "Day 11",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "우리는 늦지 않을 것이다.",
+      "english": "We won't be late.",
       "chunks": [
         {
-          "text": "I",
+          "text": "We",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "have lived",
+          "text": "won't be",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "here",
-          "role": "Adverb",
+          "text": "late",
+          "role": "Complement",
           "color": "#BA68C8"
-        },
-        {
-          "text": "for ten years",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Introduction"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-13-8",
-      "section": "Day 13",
-      "description": "Duration",
-      "question": "How long have you lived here?",
-      "korean": "나는 여기에 10년 동안 살았다.",
-      "english": "I have lived here for ten years.",
+      "id": "3-11-8",
+      "section": "Day 11",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "누가 이길까?",
+      "english": "Who will win?",
       "chunks": [
         {
-          "text": "I",
+          "text": "Who",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "have lived",
+          "text": "will win",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "here",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "for ten years",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Introduction"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-13-9",
-      "section": "Day 13",
-      "description": "Duration",
-      "question": "How long have you lived here?",
-      "korean": "나는 여기에 10년 동안 살았다.",
-      "english": "I have lived here for ten years.",
+      "id": "3-11-9",
+      "section": "Day 11",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "어디 갈 거니?",
+      "english": "Where are you going?",
       "chunks": [
         {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "have lived",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "here",
+          "text": "Where",
           "role": "Adverb",
           "color": "#BA68C8"
         },
         {
-          "text": "for ten years",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "are you going",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Introduction"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-13-10",
-      "section": "Day 13",
-      "description": "Duration",
-      "question": "How long have you lived here?",
-      "korean": "나는 여기에 10년 동안 살았다.",
-      "english": "I have lived here for ten years.",
+      "id": "3-11-10",
+      "section": "Day 11",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나중에 뭐 할 거니?",
+      "english": "What are you doing later?",
       "chunks": [
         {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
+          "text": "What",
+          "role": "Object",
+          "color": "#FFD700"
         },
         {
-          "text": "have lived",
+          "text": "are you doing",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "here",
+          "text": "later",
           "role": "Adverb",
           "color": "#BA68C8"
-        },
-        {
-          "text": "for ten years",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Introduction"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-14-1",
-      "section": "Day 14",
-      "description": "Duration",
-      "question": "How long have you lived here?",
-      "korean": "나는 여기에 10년 동안 살았다.",
-      "english": "I have lived here for ten years.",
+      "id": "3-12-1",
+      "section": "Day 12",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그녀는 돕지 않을 것이다.",
+      "english": "She won't help.",
       "chunks": [
         {
-          "text": "I",
+          "text": "She",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "have lived",
+          "text": "won't help",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "here",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "for ten years",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Introduction",
+      "context": "Review",
       "grammarGuide": {
-        "title": "Duration",
+        "title": "Review",
         "structure": [
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Adverb",
-            "color": "#BA68C8",
-            "desc": "어떻게/어디서"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
+            "color": "#FF7F00"
           }
         ]
       }
     },
     {
-      "id": "2-14-2",
-      "section": "Day 14",
-      "description": "Duration",
-      "question": "How long have you lived here?",
-      "korean": "나는 여기에 10년 동안 살았다.",
-      "english": "I have lived here for ten years.",
+      "id": "3-12-2",
+      "section": "Day 12",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그는 일을 그만둔다.",
+      "english": "He is quitting his job.",
       "chunks": [
         {
-          "text": "I",
+          "text": "He",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "have lived",
+          "text": "is quitting",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "here",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "for ten years",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "his job",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Introduction"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-14-3",
-      "section": "Day 14",
-      "description": "Duration",
-      "question": "How long have you lived here?",
-      "korean": "나는 여기에 10년 동안 살았다.",
-      "english": "I have lived here for ten years.",
+      "id": "3-12-3",
+      "section": "Day 12",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그녀는 집을 산다.",
+      "english": "She is buying a house.",
       "chunks": [
         {
-          "text": "I",
+          "text": "She",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "have lived",
+          "text": "is buying",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "here",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "for ten years",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "a house",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Introduction"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-14-4",
-      "section": "Day 14",
-      "description": "Duration",
-      "question": "How long have you lived here?",
-      "korean": "나는 여기에 10년 동안 살았다.",
-      "english": "I have lived here for ten years.",
+      "id": "3-12-4",
+      "section": "Day 12",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "요리할 거니?",
+      "english": "Are you going to cook?",
       "chunks": [
         {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "have lived",
+          "text": "Are you going to cook",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "here",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "for ten years",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Introduction"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-14-5",
-      "section": "Day 14",
-      "description": "Duration",
-      "question": "How long have you lived here?",
-      "korean": "나는 여기에 10년 동안 살았다.",
-      "english": "I have lived here for ten years.",
+      "id": "3-12-5",
+      "section": "Day 12",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그는 우리를 도울 것이다.",
+      "english": "He will help us.",
       "chunks": [
         {
-          "text": "I",
+          "text": "He",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "have lived",
+          "text": "will help",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "here",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "for ten years",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "us",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Introduction"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-14-6",
-      "section": "Day 14",
-      "description": "Duration",
-      "question": "How long have you lived here?",
-      "korean": "나는 여기에 10년 동안 살았다.",
-      "english": "I have lived here for ten years.",
+      "id": "3-12-6",
+      "section": "Day 12",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "너에게 전화할게.",
+      "english": "I will call you.",
       "chunks": [
         {
           "text": "I",
@@ -1984,30 +1167,26 @@
           "color": "#FF0000"
         },
         {
-          "text": "have lived",
+          "text": "will call",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "here",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "for ten years",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "you",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Introduction"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-14-7",
-      "section": "Day 14",
-      "description": "Duration",
-      "question": "How long have you lived here?",
-      "korean": "나는 여기에 10년 동안 살았다.",
-      "english": "I have lived here for ten years.",
+      "id": "3-12-7",
+      "section": "Day 12",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나는 울지 않을 것이다.",
+      "english": "I am not going to cry.",
       "chunks": [
         {
           "text": "I",
@@ -2015,30 +1194,21 @@
           "color": "#FF0000"
         },
         {
-          "text": "have lived",
+          "text": "am not going to cry",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "here",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "for ten years",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Introduction"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-14-8",
-      "section": "Day 14",
-      "description": "Duration",
-      "question": "How long have you lived here?",
-      "korean": "나는 여기에 10년 동안 살았다.",
-      "english": "I have lived here for ten years.",
+      "id": "3-12-8",
+      "section": "Day 12",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "난 그거 안 할 거야.",
+      "english": "I am not going to do it.",
       "chunks": [
         {
           "text": "I",
@@ -2046,61 +1216,75 @@
           "color": "#FF0000"
         },
         {
-          "text": "have lived",
+          "text": "am not going to do",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "here",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "for ten years",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "it",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Introduction"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-14-9",
-      "section": "Day 14",
-      "description": "Duration",
-      "question": "How long have you lived here?",
-      "korean": "나는 여기에 10년 동안 살았다.",
-      "english": "I have lived here for ten years.",
+      "id": "3-12-9",
+      "section": "Day 12",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "언제 시작하니?",
+      "english": "When will it start?",
       "chunks": [
         {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "have lived",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "here",
+          "text": "When",
           "role": "Adverb",
           "color": "#BA68C8"
         },
         {
-          "text": "for ten years",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "will it start",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Introduction"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-14-10",
-      "section": "Day 14",
-      "description": "Duration",
-      "question": "How long have you lived here?",
-      "korean": "나는 여기에 10년 동안 살았다.",
-      "english": "I have lived here for ten years.",
+      "id": "3-12-10",
+      "section": "Day 12",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "우리는 6시에 만난다.",
+      "english": "We are meeting at 6.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "are meeting",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "at 6",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-13-1",
+      "section": "Day 13",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나는 공부할 예정이다.",
+      "english": "I am going to study.",
       "chunks": [
         {
           "text": "I",
@@ -2108,22 +1292,476 @@
           "color": "#FF0000"
         },
         {
-          "text": "have lived",
+          "text": "am going to study",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": {
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3-13-2",
+      "section": "Day 13",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "눈이 올 예정이다.",
+      "english": "It is going to snow.",
+      "chunks": [
+        {
+          "text": "It",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is going to snow",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-13-3",
+      "section": "Day 13",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나중에 뭐 할 거니?",
+      "english": "What are you doing later?",
+      "chunks": [
+        {
+          "text": "What",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "are you doing",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "here",
+          "text": "later",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-13-4",
+      "section": "Day 13",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그는 먹을 예정이다.",
+      "english": "He is going to eat.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is going to eat",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-13-5",
+      "section": "Day 13",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그는 파리로 날아간다.",
+      "english": "He is flying to Paris.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is flying",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "to Paris",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-13-6",
+      "section": "Day 13",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "너에게 전화할게.",
+      "english": "I will call you.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will call",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "you",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-13-7",
+      "section": "Day 13",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "언제 시작하니?",
+      "english": "When will it start?",
+      "chunks": [
+        {
+          "text": "When",
           "role": "Adverb",
           "color": "#BA68C8"
         },
         {
-          "text": "for ten years",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "will it start",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Introduction"
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-13-8",
+      "section": "Day 13",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "난 그거 안 할 거야.",
+      "english": "I am not going to do it.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "am not going to do",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "it",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-13-9",
+      "section": "Day 13",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그녀는 춤출 것이다.",
+      "english": "She is going to dance.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is going to dance",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-13-10",
+      "section": "Day 13",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "어디 갈 거니?",
+      "english": "Where are you going?",
+      "chunks": [
+        {
+          "text": "Where",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "are you going",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-14-1",
+      "section": "Day 14",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "요리할 거니?",
+      "english": "Are you going to cook?",
+      "chunks": [
+        {
+          "text": "Are you going to cook",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": {
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3-14-2",
+      "section": "Day 14",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "우리는 놀 예정이다.",
+      "english": "We are going to play.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "are going to play",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-14-3",
+      "section": "Day 14",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "너에게 전화할게.",
+      "english": "I will call you.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will call",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "you",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-14-4",
+      "section": "Day 14",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "우리는 6시에 만난다.",
+      "english": "We are meeting at 6.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "are meeting",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "at 6",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-14-5",
+      "section": "Day 14",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "누가 이길까?",
+      "english": "Who will win?",
+      "chunks": [
+        {
+          "text": "Who",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will win",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-14-6",
+      "section": "Day 14",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그녀는 차를 살 것이다.",
+      "english": "She will buy a car.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will buy",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a car",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-14-7",
+      "section": "Day 14",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나는 가지 않을 것이다.",
+      "english": "I won't go.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "won't go",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-14-8",
+      "section": "Day 14",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나와 결혼해 줄래?",
+      "english": "Will you marry me?",
+      "chunks": [
+        {
+          "text": "Will you marry",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "me",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-14-9",
+      "section": "Day 14",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그들은 결혼한다.",
+      "english": "They are getting married.",
+      "chunks": [
+        {
+          "text": "They",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "are getting married",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-14-10",
+      "section": "Day 14",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "너 머무를 거니?",
+      "english": "Are you staying?",
+      "chunks": [
+        {
+          "text": "Are you staying",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
     }
   ]
 }

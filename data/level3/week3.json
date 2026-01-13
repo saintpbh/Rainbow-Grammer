@@ -1,12 +1,303 @@
 {
   "curriculum": [
     {
-      "id": "2-15-1",
+      "id": "4-15-1",
       "section": "Day 15",
-      "description": "Real Conditional",
-      "question": "What if it rains?",
-      "korean": "비가 오면 나는 집에 있을 것이다.",
-      "english": "If it rains I will stay home.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "얼음을 데우면 녹는다.",
+      "english": "If you heat ice, it melts.",
+      "chunks": [
+        {
+          "text": "If you heat ice",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "it",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "melts",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": {
+        "title": "Core Lesson",
+        "structure": [
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          },
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4-15-2",
+      "section": "Day 15",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "비가 오면 땅이 젖는다.",
+      "english": "If it rains, the ground gets wet.",
+      "chunks": [
+        {
+          "text": "If it rains",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "the ground",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "gets",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "wet",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-15-3",
+      "section": "Day 15",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "빨강과 파랑을 섞으면 보라색이 된다.",
+      "english": "If you mix red and blue, you get purple.",
+      "chunks": [
+        {
+          "text": "If you mix red and blue",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "you",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "get",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "purple",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-15-4",
+      "section": "Day 15",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "물을 못 받으면 식물은 죽는다.",
+      "english": "Plants die if they don't get water.",
+      "chunks": [
+        {
+          "text": "Plants",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "die",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "if they don't get water",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-15-5",
+      "section": "Day 15",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 늦으면 뛴다.",
+      "english": "If I am late, I run.",
+      "chunks": [
+        {
+          "text": "If I am late",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "run",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-15-6",
+      "section": "Day 15",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "불을 만지면 덴다.",
+      "english": "If you touch fire, it burns.",
+      "chunks": [
+        {
+          "text": "If you touch fire",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "it",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "burns",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-15-7",
+      "section": "Day 15",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "버튼을 누르면 시작한다.",
+      "english": "If you press the button, it starts.",
+      "chunks": [
+        {
+          "text": "If you press the button",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "it",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "starts",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-15-8",
+      "section": "Day 15",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "100도가 되면 물이 끓는다.",
+      "english": "Water boils if it reaches 100 degrees.",
+      "chunks": [
+        {
+          "text": "Water",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "boils",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "if it reaches 100 degrees",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-15-9",
+      "section": "Day 15",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "피곤하면 자라.",
+      "english": "If you are tired, sleep.",
+      "chunks": [
+        {
+          "text": "If you are tired",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "sleep",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-15-10",
+      "section": "Day 15",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "커피를 마시면 잠을 못 잔다.",
+      "english": "If I drink coffee, I can't sleep.",
+      "chunks": [
+        {
+          "text": "If I drink coffee",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "can't sleep",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-16-1",
+      "section": "Day 16",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "비가 오면 집에 있을 것이다.",
+      "english": "If it rains, I will stay home.",
       "chunks": [
         {
           "text": "If it rains",
@@ -29,1497 +320,670 @@
           "color": "#BA68C8"
         }
       ],
-      "context": "Rainy plan",
+      "context": "Core Lesson",
       "grammarGuide": {
-        "title": "Real Conditional",
+        "title": "Core Lesson",
         "structure": [
           {
             "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
+            "color": "#B0BEC5"
           },
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
             "text": "Adverb",
-            "color": "#BA68C8",
-            "desc": "어떻게/어디서"
+            "color": "#BA68C8"
           }
         ]
       }
     },
     {
-      "id": "2-15-2",
-      "section": "Day 15",
-      "description": "Real Conditional",
-      "question": "What if it rains?",
-      "korean": "비가 오면 나는 집에 있을 것이다.",
-      "english": "If it rains I will stay home.",
+      "id": "4-16-2",
+      "section": "Day 16",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "공부하면 합격할 것이다.",
+      "english": "If you study, you will pass.",
       "chunks": [
         {
-          "text": "If it rains",
+          "text": "If you study",
           "role": "Modifier",
           "color": "#B0BEC5"
         },
+        {
+          "text": "you",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will pass",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-16-3",
+      "section": "Day 16",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "도착하면 전화할게.",
+      "english": "I will call you if I arrive.",
+      "chunks": [
         {
           "text": "I",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "will stay",
+          "text": "will call",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "home",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Rainy plan"
-    },
-    {
-      "id": "2-15-3",
-      "section": "Day 15",
-      "description": "Real Conditional",
-      "question": "What if it rains?",
-      "korean": "비가 오면 나는 집에 있을 것이다.",
-      "english": "If it rains I will stay home.",
-      "chunks": [
-        {
-          "text": "If it rains",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "will stay",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "home",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Rainy plan"
-    },
-    {
-      "id": "2-15-4",
-      "section": "Day 15",
-      "description": "Real Conditional",
-      "question": "What if it rains?",
-      "korean": "비가 오면 나는 집에 있을 것이다.",
-      "english": "If it rains I will stay home.",
-      "chunks": [
-        {
-          "text": "If it rains",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "will stay",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "home",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Rainy plan"
-    },
-    {
-      "id": "2-15-5",
-      "section": "Day 15",
-      "description": "Real Conditional",
-      "question": "What if it rains?",
-      "korean": "비가 오면 나는 집에 있을 것이다.",
-      "english": "If it rains I will stay home.",
-      "chunks": [
-        {
-          "text": "If it rains",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "will stay",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "home",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Rainy plan"
-    },
-    {
-      "id": "2-15-6",
-      "section": "Day 15",
-      "description": "Real Conditional",
-      "question": "What if it rains?",
-      "korean": "비가 오면 나는 집에 있을 것이다.",
-      "english": "If it rains I will stay home.",
-      "chunks": [
-        {
-          "text": "If it rains",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "will stay",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "home",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Rainy plan"
-    },
-    {
-      "id": "2-15-7",
-      "section": "Day 15",
-      "description": "Real Conditional",
-      "question": "What if it rains?",
-      "korean": "비가 오면 나는 집에 있을 것이다.",
-      "english": "If it rains I will stay home.",
-      "chunks": [
-        {
-          "text": "If it rains",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "will stay",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "home",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Rainy plan"
-    },
-    {
-      "id": "2-15-8",
-      "section": "Day 15",
-      "description": "Real Conditional",
-      "question": "What if it rains?",
-      "korean": "비가 오면 나는 집에 있을 것이다.",
-      "english": "If it rains I will stay home.",
-      "chunks": [
-        {
-          "text": "If it rains",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "will stay",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "home",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Rainy plan"
-    },
-    {
-      "id": "2-15-9",
-      "section": "Day 15",
-      "description": "Real Conditional",
-      "question": "What if it rains?",
-      "korean": "비가 오면 나는 집에 있을 것이다.",
-      "english": "If it rains I will stay home.",
-      "chunks": [
-        {
-          "text": "If it rains",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "will stay",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "home",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Rainy plan"
-    },
-    {
-      "id": "2-15-10",
-      "section": "Day 15",
-      "description": "Real Conditional",
-      "question": "What if it rains?",
-      "korean": "비가 오면 나는 집에 있을 것이다.",
-      "english": "If it rains I will stay home.",
-      "chunks": [
-        {
-          "text": "If it rains",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "will stay",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "home",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Rainy plan"
-    },
-    {
-      "id": "2-16-1",
-      "section": "Day 16",
-      "description": "Scientific Fact",
-      "question": "What happens to ice?",
-      "korean": "얼음을 가열하면 녹는다.",
-      "english": "If you heat ice it melts.",
-      "chunks": [
-        {
-          "text": "If you heat ice",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "it",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "melts",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Science experiment",
-      "grammarGuide": {
-        "title": "Scientific Fact",
-        "structure": [
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          },
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2-16-2",
-      "section": "Day 16",
-      "description": "Scientific Fact",
-      "question": "What happens to ice?",
-      "korean": "얼음을 가열하면 녹는다.",
-      "english": "If you heat ice it melts.",
-      "chunks": [
-        {
-          "text": "If you heat ice",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "it",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "melts",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Science experiment"
-    },
-    {
-      "id": "2-16-3",
-      "section": "Day 16",
-      "description": "Scientific Fact",
-      "question": "What happens to ice?",
-      "korean": "얼음을 가열하면 녹는다.",
-      "english": "If you heat ice it melts.",
-      "chunks": [
-        {
-          "text": "If you heat ice",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "it",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "melts",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Science experiment"
-    },
-    {
-      "id": "2-16-4",
-      "section": "Day 16",
-      "description": "Scientific Fact",
-      "question": "What happens to ice?",
-      "korean": "얼음을 가열하면 녹는다.",
-      "english": "If you heat ice it melts.",
-      "chunks": [
-        {
-          "text": "If you heat ice",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "it",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "melts",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Science experiment"
-    },
-    {
-      "id": "2-16-5",
-      "section": "Day 16",
-      "description": "Scientific Fact",
-      "question": "What happens to ice?",
-      "korean": "얼음을 가열하면 녹는다.",
-      "english": "If you heat ice it melts.",
-      "chunks": [
-        {
-          "text": "If you heat ice",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "it",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "melts",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Science experiment"
-    },
-    {
-      "id": "2-16-6",
-      "section": "Day 16",
-      "description": "Scientific Fact",
-      "question": "What happens to ice?",
-      "korean": "얼음을 가열하면 녹는다.",
-      "english": "If you heat ice it melts.",
-      "chunks": [
-        {
-          "text": "If you heat ice",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "it",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "melts",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Science experiment"
-    },
-    {
-      "id": "2-16-7",
-      "section": "Day 16",
-      "description": "Scientific Fact",
-      "question": "What happens to ice?",
-      "korean": "얼음을 가열하면 녹는다.",
-      "english": "If you heat ice it melts.",
-      "chunks": [
-        {
-          "text": "If you heat ice",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "it",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "melts",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Science experiment"
-    },
-    {
-      "id": "2-16-8",
-      "section": "Day 16",
-      "description": "Scientific Fact",
-      "question": "What happens to ice?",
-      "korean": "얼음을 가열하면 녹는다.",
-      "english": "If you heat ice it melts.",
-      "chunks": [
-        {
-          "text": "If you heat ice",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "it",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "melts",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Science experiment"
-    },
-    {
-      "id": "2-16-9",
-      "section": "Day 16",
-      "description": "Scientific Fact",
-      "question": "What happens to ice?",
-      "korean": "얼음을 가열하면 녹는다.",
-      "english": "If you heat ice it melts.",
-      "chunks": [
-        {
-          "text": "If you heat ice",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "it",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "melts",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Science experiment"
-    },
-    {
-      "id": "2-16-10",
-      "section": "Day 16",
-      "description": "Scientific Fact",
-      "question": "What happens to ice?",
-      "korean": "얼음을 가열하면 녹는다.",
-      "english": "If you heat ice it melts.",
-      "chunks": [
-        {
-          "text": "If you heat ice",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "it",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "melts",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Science experiment"
-    },
-    {
-      "id": "2-17-1",
-      "section": "Day 17",
-      "description": "Request Condition",
-      "question": "When should I call?",
-      "korean": "만약 네가 바쁘면 나중에 전화해.",
-      "english": "If you are busy call me later.",
-      "chunks": [
-        {
-          "text": "If you are busy",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "call",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "me",
+          "text": "you",
           "role": "Object",
           "color": "#FFD700"
         },
         {
-          "text": "later",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "if I arrive",
+          "role": "Modifier",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Phone etiquette",
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-16-4",
+      "section": "Day 16",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "서두르면 버스를 잡을 것이다.",
+      "english": "If we hurry, we will catch the bus.",
+      "chunks": [
+        {
+          "text": "If we hurry",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "we",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will catch",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the bus",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-16-5",
+      "section": "Day 16",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "거짓말하면 그는 화낼 것이다.",
+      "english": "He will be angry if you lie.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will be",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "angry",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "if you lie",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-16-6",
+      "section": "Day 16",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "네가 날 도우면 나도 널 도울게.",
+      "english": "If you help me, I will help you.",
+      "chunks": [
+        {
+          "text": "If you help me",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will help",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "you",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-16-7",
+      "section": "Day 16",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "시간이 있으면 그녀는 올 것이다.",
+      "english": "She will come if she has time.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will come",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "if she has time",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-16-8",
+      "section": "Day 16",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "추우면 코트를 입어라.",
+      "english": "If it is cold, wear a coat.",
+      "chunks": [
+        {
+          "text": "If it is cold",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "wear",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a coat",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-16-9",
+      "section": "Day 16",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "이기면 뭐 할 거야?",
+      "english": "What will you do if you win?",
+      "chunks": [
+        {
+          "text": "What",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "will you do",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "if you win",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-16-10",
+      "section": "Day 16",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그를 보면 말해줄게.",
+      "english": "If I see him, I will tell him.",
+      "chunks": [
+        {
+          "text": "If I see him",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will tell",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "him",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-17-1",
+      "section": "Day 17",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "내가 새라면 날아갈 텐데.",
+      "english": "If I were a bird, I would fly.",
+      "chunks": [
+        {
+          "text": "If I were a bird",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "would fly",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
       "grammarGuide": {
-        "title": "Request Condition",
+        "title": "Core Lesson",
         "structure": [
           {
             "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
+            "color": "#B0BEC5"
+          },
+          {
+            "text": "Subject",
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4-17-2",
+      "section": "Day 17",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "돈이 있다면 살 텐데.",
+      "english": "If I had money, I would buy it.",
+      "chunks": [
+        {
+          "text": "If I had money",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "would buy",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "it",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-17-3",
+      "section": "Day 17",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "알았다면 말해줬을 텐데.",
+      "english": "If I knew, I would tell you.",
+      "chunks": [
+        {
+          "text": "If I knew",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "would tell",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "you",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-17-4",
+      "section": "Day 17",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그가 여기 있다면 도왔을 텐데.",
+      "english": "If he were here, he would help.",
+      "chunks": [
+        {
+          "text": "If he were here",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "he",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "would help",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-17-5",
+      "section": "Day 17",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "내가 너라면 갈 텐데.",
+      "english": "I would go if I were you.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "would go",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "if I were you",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-17-6",
+      "section": "Day 17",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "파리에 산다면 행복할 텐데.",
+      "english": "If I lived in Paris, I would be happy.",
+      "chunks": [
+        {
+          "text": "If I lived in Paris",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "would be",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "happy",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-17-7",
+      "section": "Day 17",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "부자라면 뭐 할 거야?",
+      "english": "What would you do if you were rich?",
+      "chunks": [
+        {
+          "text": "What",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "would you do",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "if you were rich",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-17-8",
+      "section": "Day 17",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "노래를 잘하면 스타가 될 텐데.",
+      "english": "If I could sing, I would become a star.",
+      "chunks": [
+        {
+          "text": "If I could sing",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "would become",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a star",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-17-9",
+      "section": "Day 17",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "오늘 눈이 온다면 스키를 탈 텐데.",
+      "english": "If it snowed today, we could ski.",
+      "chunks": [
+        {
+          "text": "If it snowed today",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "we",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "could ski",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-17-10",
+      "section": "Day 17",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "키가 더 컸다면 농구를 했을 텐데.",
+      "english": "If I were taller, I would play basketball.",
+      "chunks": [
+        {
+          "text": "If I were taller",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "would play",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "basketball",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-18-1",
+      "section": "Day 18",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "노랑과 파랑을 섞으면 초록이 된다.",
+      "english": "If you mix yellow and blue, you get green.",
+      "chunks": [
+        {
+          "text": "If you mix yellow and blue",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "you",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "get",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "green",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": {
+        "title": "Core Lesson",
+        "structure": [
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          },
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
           },
           {
             "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
-          },
-          {
-            "text": "Adverb",
-            "color": "#BA68C8",
-            "desc": "어떻게/어디서"
+            "color": "#FFD700"
           }
         ]
       }
     },
     {
-      "id": "2-17-2",
-      "section": "Day 17",
-      "description": "Request Condition",
-      "question": "When should I call?",
-      "korean": "만약 네가 바쁘면 나중에 전화해.",
-      "english": "If you are busy call me later.",
-      "chunks": [
-        {
-          "text": "If you are busy",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "call",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "me",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "later",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Phone etiquette"
-    },
-    {
-      "id": "2-17-3",
-      "section": "Day 17",
-      "description": "Request Condition",
-      "question": "When should I call?",
-      "korean": "만약 네가 바쁘면 나중에 전화해.",
-      "english": "If you are busy call me later.",
-      "chunks": [
-        {
-          "text": "If you are busy",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "call",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "me",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "later",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Phone etiquette"
-    },
-    {
-      "id": "2-17-4",
-      "section": "Day 17",
-      "description": "Request Condition",
-      "question": "When should I call?",
-      "korean": "만약 네가 바쁘면 나중에 전화해.",
-      "english": "If you are busy call me later.",
-      "chunks": [
-        {
-          "text": "If you are busy",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "call",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "me",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "later",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Phone etiquette"
-    },
-    {
-      "id": "2-17-5",
-      "section": "Day 17",
-      "description": "Request Condition",
-      "question": "When should I call?",
-      "korean": "만약 네가 바쁘면 나중에 전화해.",
-      "english": "If you are busy call me later.",
-      "chunks": [
-        {
-          "text": "If you are busy",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "call",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "me",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "later",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Phone etiquette"
-    },
-    {
-      "id": "2-17-6",
-      "section": "Day 17",
-      "description": "Request Condition",
-      "question": "When should I call?",
-      "korean": "만약 네가 바쁘면 나중에 전화해.",
-      "english": "If you are busy call me later.",
-      "chunks": [
-        {
-          "text": "If you are busy",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "call",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "me",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "later",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Phone etiquette"
-    },
-    {
-      "id": "2-17-7",
-      "section": "Day 17",
-      "description": "Request Condition",
-      "question": "When should I call?",
-      "korean": "만약 네가 바쁘면 나중에 전화해.",
-      "english": "If you are busy call me later.",
-      "chunks": [
-        {
-          "text": "If you are busy",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "call",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "me",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "later",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Phone etiquette"
-    },
-    {
-      "id": "2-17-8",
-      "section": "Day 17",
-      "description": "Request Condition",
-      "question": "When should I call?",
-      "korean": "만약 네가 바쁘면 나중에 전화해.",
-      "english": "If you are busy call me later.",
-      "chunks": [
-        {
-          "text": "If you are busy",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "call",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "me",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "later",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Phone etiquette"
-    },
-    {
-      "id": "2-17-9",
-      "section": "Day 17",
-      "description": "Request Condition",
-      "question": "When should I call?",
-      "korean": "만약 네가 바쁘면 나중에 전화해.",
-      "english": "If you are busy call me later.",
-      "chunks": [
-        {
-          "text": "If you are busy",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "call",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "me",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "later",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Phone etiquette"
-    },
-    {
-      "id": "2-17-10",
-      "section": "Day 17",
-      "description": "Request Condition",
-      "question": "When should I call?",
-      "korean": "만약 네가 바쁘면 나중에 전화해.",
-      "english": "If you are busy call me later.",
-      "chunks": [
-        {
-          "text": "If you are busy",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "call",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "me",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "later",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Phone etiquette"
-    },
-    {
-      "id": "2-18-1",
+      "id": "4-18-2",
       "section": "Day 18",
-      "description": "Advice Condition",
-      "question": "I am sick.",
-      "korean": "아프면 병원에 가라.",
-      "english": "If you are sick go to a doctor.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "일찍 끝나면 갈게.",
+      "english": "If I finish early, I will go.",
       "chunks": [
         {
-          "text": "If you are sick",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to a doctor",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Health advice",
-      "grammarGuide": {
-        "title": "Advice Condition",
-        "structure": [
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2-18-2",
-      "section": "Day 18",
-      "description": "Advice Condition",
-      "question": "I am sick.",
-      "korean": "아프면 병원에 가라.",
-      "english": "If you are sick go to a doctor.",
-      "chunks": [
-        {
-          "text": "If you are sick",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to a doctor",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Health advice"
-    },
-    {
-      "id": "2-18-3",
-      "section": "Day 18",
-      "description": "Advice Condition",
-      "question": "I am sick.",
-      "korean": "아프면 병원에 가라.",
-      "english": "If you are sick go to a doctor.",
-      "chunks": [
-        {
-          "text": "If you are sick",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to a doctor",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Health advice"
-    },
-    {
-      "id": "2-18-4",
-      "section": "Day 18",
-      "description": "Advice Condition",
-      "question": "I am sick.",
-      "korean": "아프면 병원에 가라.",
-      "english": "If you are sick go to a doctor.",
-      "chunks": [
-        {
-          "text": "If you are sick",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to a doctor",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Health advice"
-    },
-    {
-      "id": "2-18-5",
-      "section": "Day 18",
-      "description": "Advice Condition",
-      "question": "I am sick.",
-      "korean": "아프면 병원에 가라.",
-      "english": "If you are sick go to a doctor.",
-      "chunks": [
-        {
-          "text": "If you are sick",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to a doctor",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Health advice"
-    },
-    {
-      "id": "2-18-6",
-      "section": "Day 18",
-      "description": "Advice Condition",
-      "question": "I am sick.",
-      "korean": "아프면 병원에 가라.",
-      "english": "If you are sick go to a doctor.",
-      "chunks": [
-        {
-          "text": "If you are sick",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to a doctor",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Health advice"
-    },
-    {
-      "id": "2-18-7",
-      "section": "Day 18",
-      "description": "Advice Condition",
-      "question": "I am sick.",
-      "korean": "아프면 병원에 가라.",
-      "english": "If you are sick go to a doctor.",
-      "chunks": [
-        {
-          "text": "If you are sick",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to a doctor",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Health advice"
-    },
-    {
-      "id": "2-18-8",
-      "section": "Day 18",
-      "description": "Advice Condition",
-      "question": "I am sick.",
-      "korean": "아프면 병원에 가라.",
-      "english": "If you are sick go to a doctor.",
-      "chunks": [
-        {
-          "text": "If you are sick",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to a doctor",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Health advice"
-    },
-    {
-      "id": "2-18-9",
-      "section": "Day 18",
-      "description": "Advice Condition",
-      "question": "I am sick.",
-      "korean": "아프면 병원에 가라.",
-      "english": "If you are sick go to a doctor.",
-      "chunks": [
-        {
-          "text": "If you are sick",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to a doctor",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Health advice"
-    },
-    {
-      "id": "2-18-10",
-      "section": "Day 18",
-      "description": "Advice Condition",
-      "question": "I am sick.",
-      "korean": "아프면 병원에 가라.",
-      "english": "If you are sick go to a doctor.",
-      "chunks": [
-        {
-          "text": "If you are sick",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to a doctor",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Health advice"
-    },
-    {
-      "id": "2-19-1",
-      "section": "Day 19",
-      "description": "Advice Condition",
-      "question": "I am sick.",
-      "korean": "아프면 병원에 가라.",
-      "english": "If you are sick go to a doctor.",
-      "chunks": [
-        {
-          "text": "If you are sick",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to a doctor",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Health advice",
-      "grammarGuide": {
-        "title": "Advice Condition",
-        "structure": [
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2-19-2",
-      "section": "Day 19",
-      "description": "Advice Condition",
-      "question": "I am sick.",
-      "korean": "아프면 병원에 가라.",
-      "english": "If you are sick go to a doctor.",
-      "chunks": [
-        {
-          "text": "If you are sick",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to a doctor",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Health advice"
-    },
-    {
-      "id": "2-19-3",
-      "section": "Day 19",
-      "description": "Advice Condition",
-      "question": "I am sick.",
-      "korean": "아프면 병원에 가라.",
-      "english": "If you are sick go to a doctor.",
-      "chunks": [
-        {
-          "text": "If you are sick",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to a doctor",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Health advice"
-    },
-    {
-      "id": "2-19-4",
-      "section": "Day 19",
-      "description": "Advice Condition",
-      "question": "I am sick.",
-      "korean": "아프면 병원에 가라.",
-      "english": "If you are sick go to a doctor.",
-      "chunks": [
-        {
-          "text": "If you are sick",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to a doctor",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Health advice"
-    },
-    {
-      "id": "2-19-5",
-      "section": "Day 19",
-      "description": "Advice Condition",
-      "question": "I am sick.",
-      "korean": "아프면 병원에 가라.",
-      "english": "If you are sick go to a doctor.",
-      "chunks": [
-        {
-          "text": "If you are sick",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to a doctor",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Health advice"
-    },
-    {
-      "id": "2-19-6",
-      "section": "Day 19",
-      "description": "Advice Condition",
-      "question": "I am sick.",
-      "korean": "아프면 병원에 가라.",
-      "english": "If you are sick go to a doctor.",
-      "chunks": [
-        {
-          "text": "If you are sick",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to a doctor",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Health advice"
-    },
-    {
-      "id": "2-19-7",
-      "section": "Day 19",
-      "description": "Advice Condition",
-      "question": "I am sick.",
-      "korean": "아프면 병원에 가라.",
-      "english": "If you are sick go to a doctor.",
-      "chunks": [
-        {
-          "text": "If you are sick",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to a doctor",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Health advice"
-    },
-    {
-      "id": "2-19-8",
-      "section": "Day 19",
-      "description": "Advice Condition",
-      "question": "I am sick.",
-      "korean": "아프면 병원에 가라.",
-      "english": "If you are sick go to a doctor.",
-      "chunks": [
-        {
-          "text": "If you are sick",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to a doctor",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Health advice"
-    },
-    {
-      "id": "2-19-9",
-      "section": "Day 19",
-      "description": "Advice Condition",
-      "question": "I am sick.",
-      "korean": "아프면 병원에 가라.",
-      "english": "If you are sick go to a doctor.",
-      "chunks": [
-        {
-          "text": "If you are sick",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to a doctor",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Health advice"
-    },
-    {
-      "id": "2-19-10",
-      "section": "Day 19",
-      "description": "Advice Condition",
-      "question": "I am sick.",
-      "korean": "아프면 병원에 가라.",
-      "english": "If you are sick go to a doctor.",
-      "chunks": [
-        {
-          "text": "If you are sick",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to a doctor",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Health advice"
-    },
-    {
-      "id": "2-20-1",
-      "section": "Day 20",
-      "description": "Imagination",
-      "question": "What if you were a bird?",
-      "korean": "내가 새라면 날 수 있을 텐데.",
-      "english": "If I were a bird I could fly.",
-      "chunks": [
-        {
-          "text": "If I were a bird",
+          "text": "If I finish early",
           "role": "Modifier",
           "color": "#B0BEC5"
         },
@@ -1529,40 +993,279 @@
           "color": "#FF0000"
         },
         {
-          "text": "could fly",
+          "text": "will go",
           "role": "Verb",
           "color": "#FF7F00"
         }
       ],
-      "context": "Daydreaming",
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-18-3",
+      "section": "Day 18",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "내가 너라면 멈출 거야.",
+      "english": "If I were you, I would stop.",
+      "chunks": [
+        {
+          "text": "If I were you",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "would stop",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-18-4",
+      "section": "Day 18",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "뛰지 않으면 늦을 거야.",
+      "english": "Unless you run, you will be late.",
+      "chunks": [
+        {
+          "text": "Unless you run",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "you",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will be",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "late",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-18-5",
+      "section": "Day 18",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "네가 행복하다면 나도 행복해.",
+      "english": "As long as you are happy, I am happy.",
+      "chunks": [
+        {
+          "text": "As long as you are happy",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "am",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "happy",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-18-6",
+      "section": "Day 18",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "비가 와도 나는 갈 거야.",
+      "english": "Even if it rains, I will go.",
+      "chunks": [
+        {
+          "text": "Even if it rains",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will go",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-18-7",
+      "section": "Day 18",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "내가 알기만 했어도.",
+      "english": "If only I knew.",
+      "chunks": [
+        {
+          "text": "If only I knew",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-18-8",
+      "section": "Day 18",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "실패하면 어쩌지?",
+      "english": "What if we fail?",
+      "chunks": [
+        {
+          "text": "What if we fail",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-18-9",
+      "section": "Day 18",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "가능하면 일찍 와.",
+      "english": "If possible, come early.",
+      "chunks": [
+        {
+          "text": "If possible",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "come",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "early",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-18-10",
+      "section": "Day 18",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "아니면 나에게 알려줘.",
+      "english": "If not, let me know.",
+      "chunks": [
+        {
+          "text": "If not",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "let",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "me know",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-19-1",
+      "section": "Day 19",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "서두르면 버스를 잡을 것이다.",
+      "english": "If we hurry, we will catch the bus.",
+      "chunks": [
+        {
+          "text": "If we hurry",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "we",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will catch",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the bus",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
       "grammarGuide": {
-        "title": "Imagination",
+        "title": "Review",
         "structure": [
           {
             "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
+            "color": "#B0BEC5"
           },
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Object",
+            "color": "#FFD700"
           }
         ]
       }
     },
     {
-      "id": "2-20-2",
-      "section": "Day 20",
-      "description": "Imagination",
-      "question": "What if you were a bird?",
-      "korean": "내가 새라면 날 수 있을 텐데.",
-      "english": "If I were a bird I could fly.",
+      "id": "4-19-2",
+      "section": "Day 19",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "내가 새라면 날아갈 텐데.",
+      "english": "If I were a bird, I would fly.",
       "chunks": [
         {
           "text": "If I were a bird",
@@ -1575,23 +1278,24 @@
           "color": "#FF0000"
         },
         {
-          "text": "could fly",
+          "text": "would fly",
           "role": "Verb",
           "color": "#FF7F00"
         }
       ],
-      "context": "Daydreaming"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-20-3",
-      "section": "Day 20",
-      "description": "Imagination",
-      "question": "What if you were a bird?",
-      "korean": "내가 새라면 날 수 있을 텐데.",
-      "english": "If I were a bird I could fly.",
+      "id": "4-19-3",
+      "section": "Day 19",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "파리에 산다면 행복할 텐데.",
+      "english": "If I lived in Paris, I would be happy.",
       "chunks": [
         {
-          "text": "If I were a bird",
+          "text": "If I lived in Paris",
           "role": "Modifier",
           "color": "#B0BEC5"
         },
@@ -1601,49 +1305,61 @@
           "color": "#FF0000"
         },
         {
-          "text": "could fly",
+          "text": "would be",
           "role": "Verb",
           "color": "#FF7F00"
+        },
+        {
+          "text": "happy",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Daydreaming"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-20-4",
-      "section": "Day 20",
-      "description": "Imagination",
-      "question": "What if you were a bird?",
-      "korean": "내가 새라면 날 수 있을 텐데.",
-      "english": "If I were a bird I could fly.",
+      "id": "4-19-4",
+      "section": "Day 19",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "거짓말하면 그는 화낼 것이다.",
+      "english": "He will be angry if you lie.",
       "chunks": [
         {
-          "text": "If I were a bird",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "I",
+          "text": "He",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "could fly",
+          "text": "will be",
           "role": "Verb",
           "color": "#FF7F00"
+        },
+        {
+          "text": "angry",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "if you lie",
+          "role": "Modifier",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Daydreaming"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-20-5",
-      "section": "Day 20",
-      "description": "Imagination",
-      "question": "What if you were a bird?",
-      "korean": "내가 새라면 날 수 있을 텐데.",
-      "english": "If I were a bird I could fly.",
+      "id": "4-19-5",
+      "section": "Day 19",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "키가 더 컸다면 농구를 했을 텐데.",
+      "english": "If I were taller, I would play basketball.",
       "chunks": [
         {
-          "text": "If I were a bird",
+          "text": "If I were taller",
           "role": "Modifier",
           "color": "#B0BEC5"
         },
@@ -1653,49 +1369,56 @@
           "color": "#FF0000"
         },
         {
-          "text": "could fly",
+          "text": "would play",
           "role": "Verb",
           "color": "#FF7F00"
+        },
+        {
+          "text": "basketball",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Daydreaming"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-20-6",
-      "section": "Day 20",
-      "description": "Imagination",
-      "question": "What if you were a bird?",
-      "korean": "내가 새라면 날 수 있을 텐데.",
-      "english": "If I were a bird I could fly.",
+      "id": "4-19-6",
+      "section": "Day 19",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "공부하면 합격할 것이다.",
+      "english": "If you study, you will pass.",
       "chunks": [
         {
-          "text": "If I were a bird",
+          "text": "If you study",
           "role": "Modifier",
           "color": "#B0BEC5"
         },
         {
-          "text": "I",
+          "text": "you",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "could fly",
+          "text": "will pass",
           "role": "Verb",
           "color": "#FF7F00"
         }
       ],
-      "context": "Daydreaming"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-20-7",
-      "section": "Day 20",
-      "description": "Imagination",
-      "question": "What if you were a bird?",
-      "korean": "내가 새라면 날 수 있을 텐데.",
-      "english": "If I were a bird I could fly.",
+      "id": "4-19-7",
+      "section": "Day 19",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나는 늦으면 뛴다.",
+      "english": "If I am late, I run.",
       "chunks": [
         {
-          "text": "If I were a bird",
+          "text": "If I am late",
           "role": "Modifier",
           "color": "#B0BEC5"
         },
@@ -1705,251 +1428,261 @@
           "color": "#FF0000"
         },
         {
-          "text": "could fly",
+          "text": "run",
           "role": "Verb",
           "color": "#FF7F00"
         }
       ],
-      "context": "Daydreaming"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-20-8",
-      "section": "Day 20",
-      "description": "Imagination",
-      "question": "What if you were a bird?",
-      "korean": "내가 새라면 날 수 있을 텐데.",
-      "english": "If I were a bird I could fly.",
+      "id": "4-19-8",
+      "section": "Day 19",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "아니면 나에게 알려줘.",
+      "english": "If not, let me know.",
       "chunks": [
         {
-          "text": "If I were a bird",
+          "text": "If not",
           "role": "Modifier",
           "color": "#B0BEC5"
         },
         {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "could fly",
+          "text": "let",
           "role": "Verb",
           "color": "#FF7F00"
+        },
+        {
+          "text": "me know",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Daydreaming"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-20-9",
-      "section": "Day 20",
-      "description": "Imagination",
-      "question": "What if you were a bird?",
-      "korean": "내가 새라면 날 수 있을 텐데.",
-      "english": "If I were a bird I could fly.",
+      "id": "4-19-9",
+      "section": "Day 19",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "내가 너라면 갈 텐데.",
+      "english": "I would go if I were you.",
       "chunks": [
-        {
-          "text": "If I were a bird",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
         {
           "text": "I",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "could fly",
+          "text": "would go",
           "role": "Verb",
           "color": "#FF7F00"
+        },
+        {
+          "text": "if I were you",
+          "role": "Modifier",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Daydreaming"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-20-10",
-      "section": "Day 20",
-      "description": "Imagination",
-      "question": "What if you were a bird?",
-      "korean": "내가 새라면 날 수 있을 텐데.",
-      "english": "If I were a bird I could fly.",
+      "id": "4-19-10",
+      "section": "Day 19",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "부자라면 뭐 할 거야?",
+      "english": "What would you do if you were rich?",
       "chunks": [
         {
-          "text": "If I were a bird",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "What",
+          "role": "Object",
+          "color": "#FFD700"
         },
         {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "could fly",
+          "text": "would you do",
           "role": "Verb",
           "color": "#FF7F00"
+        },
+        {
+          "text": "if you were rich",
+          "role": "Modifier",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Daydreaming"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-21-1",
-      "section": "Day 21",
-      "description": "Imagination",
-      "question": "What if you were a bird?",
-      "korean": "내가 새라면 날 수 있을 텐데.",
-      "english": "If I were a bird I could fly.",
+      "id": "4-20-1",
+      "section": "Day 20",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "오늘 눈이 온다면 스키를 탈 텐데.",
+      "english": "If it snowed today, we could ski.",
       "chunks": [
         {
-          "text": "If I were a bird",
+          "text": "If it snowed today",
           "role": "Modifier",
           "color": "#B0BEC5"
         },
         {
-          "text": "I",
+          "text": "we",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "could fly",
+          "text": "could ski",
           "role": "Verb",
           "color": "#FF7F00"
         }
       ],
-      "context": "Daydreaming",
+      "context": "Review",
       "grammarGuide": {
-        "title": "Imagination",
+        "title": "Review",
         "structure": [
           {
             "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
+            "color": "#B0BEC5"
           },
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           }
         ]
       }
     },
     {
-      "id": "2-21-2",
-      "section": "Day 21",
-      "description": "Imagination",
-      "question": "What if you were a bird?",
-      "korean": "내가 새라면 날 수 있을 텐데.",
-      "english": "If I were a bird I could fly.",
+      "id": "4-20-2",
+      "section": "Day 20",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "가능하면 일찍 와.",
+      "english": "If possible, come early.",
       "chunks": [
         {
-          "text": "If I were a bird",
+          "text": "If possible",
           "role": "Modifier",
           "color": "#B0BEC5"
         },
         {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "could fly",
+          "text": "come",
           "role": "Verb",
           "color": "#FF7F00"
+        },
+        {
+          "text": "early",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Daydreaming"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-21-3",
-      "section": "Day 21",
-      "description": "Imagination",
-      "question": "What if you were a bird?",
-      "korean": "내가 새라면 날 수 있을 텐데.",
-      "english": "If I were a bird I could fly.",
+      "id": "4-20-3",
+      "section": "Day 20",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "뛰지 않으면 늦을 거야.",
+      "english": "Unless you run, you will be late.",
       "chunks": [
         {
-          "text": "If I were a bird",
+          "text": "Unless you run",
           "role": "Modifier",
           "color": "#B0BEC5"
         },
         {
-          "text": "I",
+          "text": "you",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "could fly",
+          "text": "will be",
           "role": "Verb",
           "color": "#FF7F00"
+        },
+        {
+          "text": "late",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Daydreaming"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-21-4",
-      "section": "Day 21",
-      "description": "Imagination",
-      "question": "What if you were a bird?",
-      "korean": "내가 새라면 날 수 있을 텐데.",
-      "english": "If I were a bird I could fly.",
+      "id": "4-20-4",
+      "section": "Day 20",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "얼음을 데우면 녹는다.",
+      "english": "If you heat ice, it melts.",
       "chunks": [
         {
-          "text": "If I were a bird",
+          "text": "If you heat ice",
           "role": "Modifier",
           "color": "#B0BEC5"
         },
         {
-          "text": "I",
+          "text": "it",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "could fly",
+          "text": "melts",
           "role": "Verb",
           "color": "#FF7F00"
         }
       ],
-      "context": "Daydreaming"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-21-5",
-      "section": "Day 21",
-      "description": "Imagination",
-      "question": "What if you were a bird?",
-      "korean": "내가 새라면 날 수 있을 텐데.",
-      "english": "If I were a bird I could fly.",
+      "id": "4-20-5",
+      "section": "Day 20",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "불을 만지면 덴다.",
+      "english": "If you touch fire, it burns.",
       "chunks": [
         {
-          "text": "If I were a bird",
+          "text": "If you touch fire",
           "role": "Modifier",
           "color": "#B0BEC5"
         },
         {
-          "text": "I",
+          "text": "it",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "could fly",
+          "text": "burns",
           "role": "Verb",
           "color": "#FF7F00"
         }
       ],
-      "context": "Daydreaming"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-21-6",
-      "section": "Day 21",
-      "description": "Imagination",
-      "question": "What if you were a bird?",
-      "korean": "내가 새라면 날 수 있을 텐데.",
-      "english": "If I were a bird I could fly.",
+      "id": "4-20-6",
+      "section": "Day 20",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "파리에 산다면 행복할 텐데.",
+      "english": "If I lived in Paris, I would be happy.",
       "chunks": [
         {
-          "text": "If I were a bird",
+          "text": "If I lived in Paris",
           "role": "Modifier",
           "color": "#B0BEC5"
         },
@@ -1959,23 +1692,29 @@
           "color": "#FF0000"
         },
         {
-          "text": "could fly",
+          "text": "would be",
           "role": "Verb",
           "color": "#FF7F00"
+        },
+        {
+          "text": "happy",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Daydreaming"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-21-7",
-      "section": "Day 21",
-      "description": "Imagination",
-      "question": "What if you were a bird?",
-      "korean": "내가 새라면 날 수 있을 텐데.",
-      "english": "If I were a bird I could fly.",
+      "id": "4-20-7",
+      "section": "Day 20",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "일찍 끝나면 갈게.",
+      "english": "If I finish early, I will go.",
       "chunks": [
         {
-          "text": "If I were a bird",
+          "text": "If I finish early",
           "role": "Modifier",
           "color": "#B0BEC5"
         },
@@ -1985,72 +1724,70 @@
           "color": "#FF0000"
         },
         {
-          "text": "could fly",
+          "text": "will go",
           "role": "Verb",
           "color": "#FF7F00"
         }
       ],
-      "context": "Daydreaming"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-21-8",
-      "section": "Day 21",
-      "description": "Imagination",
-      "question": "What if you were a bird?",
-      "korean": "내가 새라면 날 수 있을 텐데.",
-      "english": "If I were a bird I could fly.",
+      "id": "4-20-8",
+      "section": "Day 20",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "실패하면 어쩌지?",
+      "english": "What if we fail?",
       "chunks": [
         {
-          "text": "If I were a bird",
+          "text": "What if we fail",
           "role": "Modifier",
           "color": "#B0BEC5"
-        },
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "could fly",
-          "role": "Verb",
-          "color": "#FF7F00"
         }
       ],
-      "context": "Daydreaming"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-21-9",
-      "section": "Day 21",
-      "description": "Imagination",
-      "question": "What if you were a bird?",
-      "korean": "내가 새라면 날 수 있을 텐데.",
-      "english": "If I were a bird I could fly.",
+      "id": "4-20-9",
+      "section": "Day 20",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "빨강과 파랑을 섞으면 보라색이 된다.",
+      "english": "If you mix red and blue, you get purple.",
       "chunks": [
         {
-          "text": "If I were a bird",
+          "text": "If you mix red and blue",
           "role": "Modifier",
           "color": "#B0BEC5"
         },
         {
-          "text": "I",
+          "text": "you",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "could fly",
+          "text": "get",
           "role": "Verb",
           "color": "#FF7F00"
+        },
+        {
+          "text": "purple",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Daydreaming"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-21-10",
-      "section": "Day 21",
-      "description": "Imagination",
-      "question": "What if you were a bird?",
-      "korean": "내가 새라면 날 수 있을 텐데.",
-      "english": "If I were a bird I could fly.",
+      "id": "4-20-10",
+      "section": "Day 20",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "내가 새라면 날아갈 텐데.",
+      "english": "If I were a bird, I would fly.",
       "chunks": [
         {
           "text": "If I were a bird",
@@ -2063,12 +1800,304 @@
           "color": "#FF0000"
         },
         {
-          "text": "could fly",
+          "text": "would fly",
           "role": "Verb",
           "color": "#FF7F00"
         }
       ],
-      "context": "Daydreaming"
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-21-1",
+      "section": "Day 21",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "일찍 끝나면 갈게.",
+      "english": "If I finish early, I will go.",
+      "chunks": [
+        {
+          "text": "If I finish early",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will go",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": {
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          },
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4-21-2",
+      "section": "Day 21",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "뛰지 않으면 늦을 거야.",
+      "english": "Unless you run, you will be late.",
+      "chunks": [
+        {
+          "text": "Unless you run",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "you",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will be",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "late",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-21-3",
+      "section": "Day 21",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "100도가 되면 물이 끓는다.",
+      "english": "Water boils if it reaches 100 degrees.",
+      "chunks": [
+        {
+          "text": "Water",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "boils",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "if it reaches 100 degrees",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-21-4",
+      "section": "Day 21",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "내가 너라면 멈출 거야.",
+      "english": "If I were you, I would stop.",
+      "chunks": [
+        {
+          "text": "If I were you",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "would stop",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-21-5",
+      "section": "Day 21",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "실패하면 어쩌지?",
+      "english": "What if we fail?",
+      "chunks": [
+        {
+          "text": "What if we fail",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-21-6",
+      "section": "Day 21",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "얼음을 데우면 녹는다.",
+      "english": "If you heat ice, it melts.",
+      "chunks": [
+        {
+          "text": "If you heat ice",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "it",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "melts",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-21-7",
+      "section": "Day 21",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "노랑과 파랑을 섞으면 초록이 된다.",
+      "english": "If you mix yellow and blue, you get green.",
+      "chunks": [
+        {
+          "text": "If you mix yellow and blue",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "you",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "get",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "green",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-21-8",
+      "section": "Day 21",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "서두르면 버스를 잡을 것이다.",
+      "english": "If we hurry, we will catch the bus.",
+      "chunks": [
+        {
+          "text": "If we hurry",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "we",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will catch",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the bus",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-21-9",
+      "section": "Day 21",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "아니면 나에게 알려줘.",
+      "english": "If not, let me know.",
+      "chunks": [
+        {
+          "text": "If not",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "let",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "me know",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-21-10",
+      "section": "Day 21",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나는 늦으면 뛴다.",
+      "english": "If I am late, I run.",
+      "chunks": [
+        {
+          "text": "If I am late",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "run",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
     }
   ]
 }

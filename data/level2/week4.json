@@ -1,1787 +1,665 @@
 {
   "curriculum": [
     {
-      "id": "2-22-1",
+      "id": "3-22-1",
       "section": "Day 22",
-      "description": "Ability",
-      "question": "Can you swim?",
-      "korean": "나는 빠르게 수영할 수 있다.",
-      "english": "I can swim fast.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "방은 나에 의해 청소된다.",
+      "english": "The room is cleaned by me.",
       "chunks": [
         {
-          "text": "I",
+          "text": "The room",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "can swim",
+          "text": "is cleaned",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "fast",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Pool",
-      "grammarGuide": {
-        "title": "Ability",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Adverb",
-            "color": "#BA68C8",
-            "desc": "어떻게/어디서"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2-22-2",
-      "section": "Day 22",
-      "description": "Ability",
-      "question": "Can you swim?",
-      "korean": "나는 빠르게 수영할 수 있다.",
-      "english": "I can swim fast.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "can swim",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "fast",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Pool"
-    },
-    {
-      "id": "2-22-3",
-      "section": "Day 22",
-      "description": "Ability",
-      "question": "Can you swim?",
-      "korean": "나는 빠르게 수영할 수 있다.",
-      "english": "I can swim fast.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "can swim",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "fast",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Pool"
-    },
-    {
-      "id": "2-22-4",
-      "section": "Day 22",
-      "description": "Ability",
-      "question": "Can you swim?",
-      "korean": "나는 빠르게 수영할 수 있다.",
-      "english": "I can swim fast.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "can swim",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "fast",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Pool"
-    },
-    {
-      "id": "2-22-5",
-      "section": "Day 22",
-      "description": "Ability",
-      "question": "Can you swim?",
-      "korean": "나는 빠르게 수영할 수 있다.",
-      "english": "I can swim fast.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "can swim",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "fast",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Pool"
-    },
-    {
-      "id": "2-22-6",
-      "section": "Day 22",
-      "description": "Ability",
-      "question": "Can you swim?",
-      "korean": "나는 빠르게 수영할 수 있다.",
-      "english": "I can swim fast.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "can swim",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "fast",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Pool"
-    },
-    {
-      "id": "2-22-7",
-      "section": "Day 22",
-      "description": "Ability",
-      "question": "Can you swim?",
-      "korean": "나는 빠르게 수영할 수 있다.",
-      "english": "I can swim fast.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "can swim",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "fast",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Pool"
-    },
-    {
-      "id": "2-22-8",
-      "section": "Day 22",
-      "description": "Ability",
-      "question": "Can you swim?",
-      "korean": "나는 빠르게 수영할 수 있다.",
-      "english": "I can swim fast.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "can swim",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "fast",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Pool"
-    },
-    {
-      "id": "2-22-9",
-      "section": "Day 22",
-      "description": "Ability",
-      "question": "Can you swim?",
-      "korean": "나는 빠르게 수영할 수 있다.",
-      "english": "I can swim fast.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "can swim",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "fast",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Pool"
-    },
-    {
-      "id": "2-22-10",
-      "section": "Day 22",
-      "description": "Ability",
-      "question": "Can you swim?",
-      "korean": "나는 빠르게 수영할 수 있다.",
-      "english": "I can swim fast.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "can swim",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "fast",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Pool"
-    },
-    {
-      "id": "2-23-1",
-      "section": "Day 23",
-      "description": "Advice",
-      "question": "What should I do?",
-      "korean": "너는 일찍 자야 한다.",
-      "english": "You should sleep early.",
-      "chunks": [
-        {
-          "text": "You",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "should sleep",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "early",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Health advice",
-      "grammarGuide": {
-        "title": "Advice",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Adverb",
-            "color": "#BA68C8",
-            "desc": "어떻게/어디서"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2-23-2",
-      "section": "Day 23",
-      "description": "Advice",
-      "question": "What should I do?",
-      "korean": "너는 일찍 자야 한다.",
-      "english": "You should sleep early.",
-      "chunks": [
-        {
-          "text": "You",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "should sleep",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "early",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Health advice"
-    },
-    {
-      "id": "2-23-3",
-      "section": "Day 23",
-      "description": "Advice",
-      "question": "What should I do?",
-      "korean": "너는 일찍 자야 한다.",
-      "english": "You should sleep early.",
-      "chunks": [
-        {
-          "text": "You",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "should sleep",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "early",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Health advice"
-    },
-    {
-      "id": "2-23-4",
-      "section": "Day 23",
-      "description": "Advice",
-      "question": "What should I do?",
-      "korean": "너는 일찍 자야 한다.",
-      "english": "You should sleep early.",
-      "chunks": [
-        {
-          "text": "You",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "should sleep",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "early",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Health advice"
-    },
-    {
-      "id": "2-23-5",
-      "section": "Day 23",
-      "description": "Advice",
-      "question": "What should I do?",
-      "korean": "너는 일찍 자야 한다.",
-      "english": "You should sleep early.",
-      "chunks": [
-        {
-          "text": "You",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "should sleep",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "early",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Health advice"
-    },
-    {
-      "id": "2-23-6",
-      "section": "Day 23",
-      "description": "Advice",
-      "question": "What should I do?",
-      "korean": "너는 일찍 자야 한다.",
-      "english": "You should sleep early.",
-      "chunks": [
-        {
-          "text": "You",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "should sleep",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "early",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Health advice"
-    },
-    {
-      "id": "2-23-7",
-      "section": "Day 23",
-      "description": "Advice",
-      "question": "What should I do?",
-      "korean": "너는 일찍 자야 한다.",
-      "english": "You should sleep early.",
-      "chunks": [
-        {
-          "text": "You",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "should sleep",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "early",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Health advice"
-    },
-    {
-      "id": "2-23-8",
-      "section": "Day 23",
-      "description": "Advice",
-      "question": "What should I do?",
-      "korean": "너는 일찍 자야 한다.",
-      "english": "You should sleep early.",
-      "chunks": [
-        {
-          "text": "You",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "should sleep",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "early",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Health advice"
-    },
-    {
-      "id": "2-23-9",
-      "section": "Day 23",
-      "description": "Advice",
-      "question": "What should I do?",
-      "korean": "너는 일찍 자야 한다.",
-      "english": "You should sleep early.",
-      "chunks": [
-        {
-          "text": "You",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "should sleep",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "early",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Health advice"
-    },
-    {
-      "id": "2-23-10",
-      "section": "Day 23",
-      "description": "Advice",
-      "question": "What should I do?",
-      "korean": "너는 일찍 자야 한다.",
-      "english": "You should sleep early.",
-      "chunks": [
-        {
-          "text": "You",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "should sleep",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "early",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Health advice"
-    },
-    {
-      "id": "2-24-1",
-      "section": "Day 24",
-      "description": "Obligation",
-      "question": "Must he go?",
-      "korean": "그는 지금 가야만 한다.",
-      "english": "He must go now.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "must go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "now",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Farewell",
-      "grammarGuide": {
-        "title": "Obligation",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Adverb",
-            "color": "#BA68C8",
-            "desc": "어떻게/어디서"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2-24-2",
-      "section": "Day 24",
-      "description": "Obligation",
-      "question": "Must he go?",
-      "korean": "그는 지금 가야만 한다.",
-      "english": "He must go now.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "must go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "now",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Farewell"
-    },
-    {
-      "id": "2-24-3",
-      "section": "Day 24",
-      "description": "Obligation",
-      "question": "Must he go?",
-      "korean": "그는 지금 가야만 한다.",
-      "english": "He must go now.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "must go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "now",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Farewell"
-    },
-    {
-      "id": "2-24-4",
-      "section": "Day 24",
-      "description": "Obligation",
-      "question": "Must he go?",
-      "korean": "그는 지금 가야만 한다.",
-      "english": "He must go now.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "must go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "now",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Farewell"
-    },
-    {
-      "id": "2-24-5",
-      "section": "Day 24",
-      "description": "Obligation",
-      "question": "Must he go?",
-      "korean": "그는 지금 가야만 한다.",
-      "english": "He must go now.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "must go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "now",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Farewell"
-    },
-    {
-      "id": "2-24-6",
-      "section": "Day 24",
-      "description": "Obligation",
-      "question": "Must he go?",
-      "korean": "그는 지금 가야만 한다.",
-      "english": "He must go now.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "must go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "now",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Farewell"
-    },
-    {
-      "id": "2-24-7",
-      "section": "Day 24",
-      "description": "Obligation",
-      "question": "Must he go?",
-      "korean": "그는 지금 가야만 한다.",
-      "english": "He must go now.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "must go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "now",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Farewell"
-    },
-    {
-      "id": "2-24-8",
-      "section": "Day 24",
-      "description": "Obligation",
-      "question": "Must he go?",
-      "korean": "그는 지금 가야만 한다.",
-      "english": "He must go now.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "must go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "now",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Farewell"
-    },
-    {
-      "id": "2-24-9",
-      "section": "Day 24",
-      "description": "Obligation",
-      "question": "Must he go?",
-      "korean": "그는 지금 가야만 한다.",
-      "english": "He must go now.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "must go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "now",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Farewell"
-    },
-    {
-      "id": "2-24-10",
-      "section": "Day 24",
-      "description": "Obligation",
-      "question": "Must he go?",
-      "korean": "그는 지금 가야만 한다.",
-      "english": "He must go now.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "must go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "now",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Farewell"
-    },
-    {
-      "id": "2-25-1",
-      "section": "Day 25",
-      "description": "Possibility",
-      "question": "Will it rain?",
-      "korean": "곧 비가 올지도 모른다.",
-      "english": "It may rain soon.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "may rain",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "soon",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Weather forecast",
-      "grammarGuide": {
-        "title": "Possibility",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Adverb",
-            "color": "#BA68C8",
-            "desc": "어떻게/어디서"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2-25-2",
-      "section": "Day 25",
-      "description": "Possibility",
-      "question": "Will it rain?",
-      "korean": "곧 비가 올지도 모른다.",
-      "english": "It may rain soon.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "may rain",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "soon",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Weather forecast"
-    },
-    {
-      "id": "2-25-3",
-      "section": "Day 25",
-      "description": "Possibility",
-      "question": "Will it rain?",
-      "korean": "곧 비가 올지도 모른다.",
-      "english": "It may rain soon.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "may rain",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "soon",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Weather forecast"
-    },
-    {
-      "id": "2-25-4",
-      "section": "Day 25",
-      "description": "Possibility",
-      "question": "Will it rain?",
-      "korean": "곧 비가 올지도 모른다.",
-      "english": "It may rain soon.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "may rain",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "soon",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Weather forecast"
-    },
-    {
-      "id": "2-25-5",
-      "section": "Day 25",
-      "description": "Possibility",
-      "question": "Will it rain?",
-      "korean": "곧 비가 올지도 모른다.",
-      "english": "It may rain soon.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "may rain",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "soon",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Weather forecast"
-    },
-    {
-      "id": "2-25-6",
-      "section": "Day 25",
-      "description": "Possibility",
-      "question": "Will it rain?",
-      "korean": "곧 비가 올지도 모른다.",
-      "english": "It may rain soon.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "may rain",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "soon",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Weather forecast"
-    },
-    {
-      "id": "2-25-7",
-      "section": "Day 25",
-      "description": "Possibility",
-      "question": "Will it rain?",
-      "korean": "곧 비가 올지도 모른다.",
-      "english": "It may rain soon.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "may rain",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "soon",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Weather forecast"
-    },
-    {
-      "id": "2-25-8",
-      "section": "Day 25",
-      "description": "Possibility",
-      "question": "Will it rain?",
-      "korean": "곧 비가 올지도 모른다.",
-      "english": "It may rain soon.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "may rain",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "soon",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Weather forecast"
-    },
-    {
-      "id": "2-25-9",
-      "section": "Day 25",
-      "description": "Possibility",
-      "question": "Will it rain?",
-      "korean": "곧 비가 올지도 모른다.",
-      "english": "It may rain soon.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "may rain",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "soon",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Weather forecast"
-    },
-    {
-      "id": "2-25-10",
-      "section": "Day 25",
-      "description": "Possibility",
-      "question": "Will it rain?",
-      "korean": "곧 비가 올지도 모른다.",
-      "english": "It may rain soon.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "may rain",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "soon",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Weather forecast"
-    },
-    {
-      "id": "2-26-1",
-      "section": "Day 26",
-      "description": "Suggestion",
-      "question": "Can you help?",
-      "korean": "나를 도와주시겠어요?",
-      "english": "Would you help me?",
-      "chunks": [
-        {
-          "text": "Would you help",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "me",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Asking favor",
-      "grammarGuide": {
-        "title": "Suggestion",
-        "structure": [
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2-26-2",
-      "section": "Day 26",
-      "description": "Suggestion",
-      "question": "Can you help?",
-      "korean": "나를 도와주시겠어요?",
-      "english": "Would you help me?",
-      "chunks": [
-        {
-          "text": "Would you help",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "me",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Asking favor"
-    },
-    {
-      "id": "2-26-3",
-      "section": "Day 26",
-      "description": "Suggestion",
-      "question": "Can you help?",
-      "korean": "나를 도와주시겠어요?",
-      "english": "Would you help me?",
-      "chunks": [
-        {
-          "text": "Would you help",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "me",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Asking favor"
-    },
-    {
-      "id": "2-26-4",
-      "section": "Day 26",
-      "description": "Suggestion",
-      "question": "Can you help?",
-      "korean": "나를 도와주시겠어요?",
-      "english": "Would you help me?",
-      "chunks": [
-        {
-          "text": "Would you help",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "me",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Asking favor"
-    },
-    {
-      "id": "2-26-5",
-      "section": "Day 26",
-      "description": "Suggestion",
-      "question": "Can you help?",
-      "korean": "나를 도와주시겠어요?",
-      "english": "Would you help me?",
-      "chunks": [
-        {
-          "text": "Would you help",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "me",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Asking favor"
-    },
-    {
-      "id": "2-26-6",
-      "section": "Day 26",
-      "description": "Suggestion",
-      "question": "Can you help?",
-      "korean": "나를 도와주시겠어요?",
-      "english": "Would you help me?",
-      "chunks": [
-        {
-          "text": "Would you help",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "me",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Asking favor"
-    },
-    {
-      "id": "2-26-7",
-      "section": "Day 26",
-      "description": "Suggestion",
-      "question": "Can you help?",
-      "korean": "나를 도와주시겠어요?",
-      "english": "Would you help me?",
-      "chunks": [
-        {
-          "text": "Would you help",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "me",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Asking favor"
-    },
-    {
-      "id": "2-26-8",
-      "section": "Day 26",
-      "description": "Suggestion",
-      "question": "Can you help?",
-      "korean": "나를 도와주시겠어요?",
-      "english": "Would you help me?",
-      "chunks": [
-        {
-          "text": "Would you help",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "me",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Asking favor"
-    },
-    {
-      "id": "2-26-9",
-      "section": "Day 26",
-      "description": "Suggestion",
-      "question": "Can you help?",
-      "korean": "나를 도와주시겠어요?",
-      "english": "Would you help me?",
-      "chunks": [
-        {
-          "text": "Would you help",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "me",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Asking favor"
-    },
-    {
-      "id": "2-26-10",
-      "section": "Day 26",
-      "description": "Suggestion",
-      "question": "Can you help?",
-      "korean": "나를 도와주시겠어요?",
-      "english": "Would you help me?",
-      "chunks": [
-        {
-          "text": "Would you help",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "me",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Asking favor"
-    },
-    {
-      "id": "2-27-1",
-      "section": "Day 27",
-      "description": "Dream",
-      "question": "What is your dream?",
-      "korean": "나는 의사가 되기 위해 공부해야 한다.",
-      "english": "I must study to become a doctor.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "must study",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to become a doctor",
+          "text": "by me",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Career path",
+      "context": "Core Lesson",
       "grammarGuide": {
-        "title": "Dream",
+        "title": "Core Lesson",
         "structure": [
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
             "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
+            "color": "#B0BEC5"
           }
         ]
       }
     },
     {
-      "id": "2-27-2",
-      "section": "Day 27",
-      "description": "Dream",
-      "question": "What is your dream?",
-      "korean": "나는 의사가 되기 위해 공부해야 한다.",
-      "english": "I must study to become a doctor.",
+      "id": "3-22-2",
+      "section": "Day 22",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "차는 그에 의해 세차되었다.",
+      "english": "The car was washed by him.",
       "chunks": [
         {
-          "text": "I",
+          "text": "The car",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "must study",
+          "text": "was washed",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "to become a doctor",
+          "text": "by him",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Career path"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-27-3",
-      "section": "Day 27",
-      "description": "Dream",
-      "question": "What is your dream?",
-      "korean": "나는 의사가 되기 위해 공부해야 한다.",
-      "english": "I must study to become a doctor.",
+      "id": "3-22-3",
+      "section": "Day 22",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "영어는 여기서 사용된다.",
+      "english": "English is spoken here.",
       "chunks": [
         {
-          "text": "I",
+          "text": "English",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "must study",
+          "text": "is spoken",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "to become a doctor",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "here",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Career path"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-27-4",
-      "section": "Day 27",
-      "description": "Dream",
-      "question": "What is your dream?",
-      "korean": "나는 의사가 되기 위해 공부해야 한다.",
-      "english": "I must study to become a doctor.",
+      "id": "3-22-4",
+      "section": "Day 22",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "책은 그녀에 의해 쓰였다.",
+      "english": "The book was written by her.",
       "chunks": [
         {
-          "text": "I",
+          "text": "The book",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "must study",
+          "text": "was written",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "to become a doctor",
+          "text": "by her",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Career path"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-27-5",
-      "section": "Day 27",
-      "description": "Dream",
-      "question": "What is your dream?",
-      "korean": "나는 의사가 되기 위해 공부해야 한다.",
-      "english": "I must study to become a doctor.",
+      "id": "3-22-5",
+      "section": "Day 22",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "창문이 깨졌다.",
+      "english": "The window is broken.",
       "chunks": [
         {
-          "text": "I",
+          "text": "The window",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "must study",
+          "text": "is broken",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "to become a doctor",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Career path"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-27-6",
-      "section": "Day 27",
-      "description": "Dream",
-      "question": "What is your dream?",
-      "korean": "나는 의사가 되기 위해 공부해야 한다.",
-      "english": "I must study to become a doctor.",
+      "id": "3-22-6",
+      "section": "Day 22",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "저녁이 제공된다.",
+      "english": "Dinner is served.",
       "chunks": [
         {
-          "text": "I",
+          "text": "Dinner",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "must study",
+          "text": "is served",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "to become a doctor",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Career path"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-27-7",
-      "section": "Day 27",
-      "description": "Dream",
-      "question": "What is your dream?",
-      "korean": "나는 의사가 되기 위해 공부해야 한다.",
-      "english": "I must study to become a doctor.",
+      "id": "3-22-7",
+      "section": "Day 22",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "편지가 보내졌다.",
+      "english": "The letter was sent.",
       "chunks": [
         {
-          "text": "I",
+          "text": "The letter",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "must study",
+          "text": "was sent",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "to become a doctor",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Career path"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-27-8",
-      "section": "Day 27",
-      "description": "Dream",
-      "question": "What is your dream?",
-      "korean": "나는 의사가 되기 위해 공부해야 한다.",
-      "english": "I must study to become a doctor.",
+      "id": "3-22-8",
+      "section": "Day 22",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "내 폰이 도난당했다.",
+      "english": "My phone was stolen.",
       "chunks": [
         {
-          "text": "I",
+          "text": "My phone",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "must study",
+          "text": "was stolen",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "to become a doctor",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Career path"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-27-9",
-      "section": "Day 27",
-      "description": "Dream",
-      "question": "What is your dream?",
-      "korean": "나는 의사가 되기 위해 공부해야 한다.",
-      "english": "I must study to become a doctor.",
+      "id": "3-22-9",
+      "section": "Day 22",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "케이크는 먹혀졌다(누가 먹었다).",
+      "english": "The cake was eaten.",
       "chunks": [
         {
-          "text": "I",
+          "text": "The cake",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "must study",
+          "text": "was eaten",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "to become a doctor",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Career path"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-27-10",
-      "section": "Day 27",
-      "description": "Dream",
-      "question": "What is your dream?",
-      "korean": "나는 의사가 되기 위해 공부해야 한다.",
-      "english": "I must study to become a doctor.",
+      "id": "3-22-10",
+      "section": "Day 22",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "파일들이 저장된다.",
+      "english": "Files are saved.",
       "chunks": [
         {
-          "text": "I",
+          "text": "Files",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "must study",
+          "text": "are saved",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "to become a doctor",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Career path"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-28-1",
-      "section": "Day 28",
-      "description": "Dream",
-      "question": "What is your dream?",
-      "korean": "나는 의사가 되기 위해 공부해야 한다.",
-      "english": "I must study to become a doctor.",
+      "id": "3-23-1",
+      "section": "Day 23",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "문 잠겼니?",
+      "english": "Is the door locked?",
       "chunks": [
         {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "must study",
+          "text": "Is",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "to become a doctor",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "the door",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "locked",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Career path",
+      "context": "Core Lesson",
       "grammarGuide": {
-        "title": "Dream",
+        "title": "Core Lesson",
         "structure": [
           {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
+          },
+          {
+            "text": "Complement",
+            "color": "#BA68C8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3-23-2",
+      "section": "Day 23",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "일이 끝났니?",
+      "english": "Was the work finished?",
+      "chunks": [
+        {
+          "text": "Was",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the work",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "finished",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-23-3",
+      "section": "Day 23",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "너 피곤하니? (수동태적 의미)",
+      "english": "Are you tired?",
+      "chunks": [
+        {
+          "text": "Are",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "you",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "tired",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-23-4",
+      "section": "Day 23",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그는 어디서 태어났니?",
+      "english": "Where was he born?",
+      "chunks": [
+        {
+          "text": "Where",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "was he born",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-23-5",
+      "section": "Day 23",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그거 언제 지어졌니?",
+      "english": "When was it built?",
+      "chunks": [
+        {
+          "text": "When",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "was it built",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-23-6",
+      "section": "Day 23",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "누구에 의해 만들어졌니?",
+      "english": "By whom was it made?",
+      "chunks": [
+        {
+          "text": "By whom",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "was it made",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-23-7",
+      "section": "Day 23",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "영어가 여기서 가르쳐지니?",
+      "english": "Is English taught here?",
+      "chunks": [
+        {
+          "text": "Is English taught",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "here",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-23-8",
+      "section": "Day 23",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그들이 초대되었니?",
+      "english": "Were they invited?",
+      "chunks": [
+        {
+          "text": "Were they invited",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-23-9",
+      "section": "Day 23",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그녀가 왜 선택되었니?",
+      "english": "Why was she chosen?",
+      "chunks": [
+        {
+          "text": "Why",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "was she chosen",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-23-10",
+      "section": "Day 23",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그걸 어떻게 하니?",
+      "english": "How is it done?",
+      "chunks": [
+        {
+          "text": "How",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "is it done",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-24-1",
+      "section": "Day 24",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "기회가 주어지면 갈게.",
+      "english": "Given the chance, I will go.",
+      "chunks": [
+        {
+          "text": "Given the chance",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will go",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": {
+        "title": "Core Lesson",
+        "structure": [
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          },
+          {
+            "text": "Subject",
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
+            "color": "#FF7F00"
           }
         ]
       }
     },
     {
-      "id": "2-28-2",
-      "section": "Day 28",
-      "description": "Dream",
-      "question": "What is your dream?",
-      "korean": "나는 의사가 되기 위해 공부해야 한다.",
-      "english": "I must study to become a doctor.",
+      "id": "3-24-2",
+      "section": "Day 24",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "숨겨진 보물이 발견되었다.",
+      "english": "The hidden treasure is found.",
       "chunks": [
         {
-          "text": "I",
+          "text": "The hidden treasure",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "must study",
+          "text": "is found",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "to become a doctor",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Career path"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-28-3",
-      "section": "Day 28",
-      "description": "Dream",
-      "question": "What is your dream?",
-      "korean": "나는 의사가 되기 위해 공부해야 한다.",
-      "english": "I must study to become a doctor.",
+      "id": "3-24-3",
+      "section": "Day 24",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "한국에서 태어나서 그는 김치를 좋아한다.",
+      "english": "Born in Korea, he loves kimchi.",
       "chunks": [
         {
-          "text": "I",
+          "text": "Born in Korea",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "he",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "must study",
+          "text": "loves",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "to become a doctor",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "kimchi",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Career path"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-28-4",
-      "section": "Day 28",
-      "description": "Dream",
-      "question": "What is your dream?",
-      "korean": "나는 의사가 되기 위해 공부해야 한다.",
-      "english": "I must study to become a doctor.",
+      "id": "3-24-4",
+      "section": "Day 24",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "잉크로 쓰여서 지울 수 없다.",
+      "english": "Written in ink, it cannot be erased.",
       "chunks": [
         {
-          "text": "I",
+          "text": "Written in ink",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "it",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "must study",
+          "text": "cannot be erased",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "to become a doctor",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Career path"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-28-5",
-      "section": "Day 28",
-      "description": "Dream",
-      "question": "What is your dream?",
-      "korean": "나는 의사가 되기 위해 공부해야 한다.",
-      "english": "I must study to become a doctor.",
+      "id": "3-24-5",
+      "section": "Day 24",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "깨진 유리는 위험하다.",
+      "english": "Broken glass is dangerous.",
       "chunks": [
         {
-          "text": "I",
+          "text": "Broken glass",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "must study",
+          "text": "is",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "to become a doctor",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "dangerous",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Career path"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-28-6",
-      "section": "Day 28",
-      "description": "Dream",
-      "question": "What is your dream?",
-      "korean": "나는 의사가 되기 위해 공부해야 한다.",
-      "english": "I must study to become a doctor.",
+      "id": "3-24-6",
+      "section": "Day 24",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 구운 감자를 좋아한다.",
+      "english": "I like baked potatoes.",
       "chunks": [
         {
           "text": "I",
@@ -1789,103 +667,129 @@
           "color": "#FF0000"
         },
         {
-          "text": "must study",
+          "text": "like",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "to become a doctor",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "baked potatoes",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Career path"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-28-7",
-      "section": "Day 28",
-      "description": "Dream",
-      "question": "What is your dream?",
-      "korean": "나는 의사가 되기 위해 공부해야 한다.",
-      "english": "I must study to become a doctor.",
+      "id": "3-24-7",
+      "section": "Day 24",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그녀는 중고차를 가지고 있다.",
+      "english": "She has a used car.",
       "chunks": [
         {
-          "text": "I",
+          "text": "She",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "must study",
+          "text": "has",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "to become a doctor",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "a used car",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Career path"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-28-8",
-      "section": "Day 28",
-      "description": "Dream",
-      "question": "What is your dream?",
-      "korean": "나는 의사가 되기 위해 공부해야 한다.",
-      "english": "I must study to become a doctor.",
+      "id": "3-24-8",
+      "section": "Day 24",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "잃어버린 개가 돌아왔다.",
+      "english": "The lost dog returned.",
       "chunks": [
         {
-          "text": "I",
+          "text": "The lost dog",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "must study",
+          "text": "returned",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "to become a doctor",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Career path"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-28-9",
-      "section": "Day 28",
-      "description": "Dream",
-      "question": "What is your dream?",
-      "korean": "나는 의사가 되기 위해 공부해야 한다.",
-      "english": "I must study to become a doctor.",
+      "id": "3-24-9",
+      "section": "Day 24",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "놀라서 그는 점프했다.",
+      "english": "Surprised, he jumped.",
       "chunks": [
         {
-          "text": "I",
+          "text": "Surprised",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "he",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "must study",
+          "text": "jumped",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "to become a doctor",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Career path"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-28-10",
-      "section": "Day 28",
-      "description": "Dream",
-      "question": "What is your dream?",
-      "korean": "나는 의사가 되기 위해 공부해야 한다.",
-      "english": "I must study to become a doctor.",
+      "id": "3-24-10",
+      "section": "Day 24",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "피곤해서 잤다.",
+      "english": "Tired, I slept.",
+      "chunks": [
+        {
+          "text": "Tired",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "slept",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-25-1",
+      "section": "Day 25",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나 피곤해졌어.",
+      "english": "I got tired.",
       "chunks": [
         {
           "text": "I",
@@ -1893,17 +797,988 @@
           "color": "#FF0000"
         },
         {
-          "text": "must study",
+          "text": "got",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "to become a doctor",
+          "text": "tired",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": {
+        "title": "Core Lesson",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Complement",
+            "color": "#BA68C8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3-25-2",
+      "section": "Day 25",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그는 해고당했다.",
+      "english": "He got fired.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "got fired",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-25-3",
+      "section": "Day 25",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그녀는 결혼했다.",
+      "english": "She got married.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "got married",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-25-4",
+      "section": "Day 25",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "우리 길 잃었어.",
+      "english": "We got lost.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "got lost",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-25-5",
+      "section": "Day 25",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그거 부서졌어.",
+      "english": "It got broken.",
+      "chunks": [
+        {
+          "text": "It",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "got broken",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-25-6",
+      "section": "Day 25",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "잡히지 마.",
+      "english": "Don't get caught.",
+      "chunks": [
+        {
+          "text": "Don't",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "get caught",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-25-7",
+      "section": "Day 25",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "옷 입어.",
+      "english": "Get dressed.",
+      "chunks": [
+        {
+          "text": "Get dressed",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-25-8",
+      "section": "Day 25",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그는 다쳤다.",
+      "english": "He got hurt.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "got hurt",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-25-9",
+      "section": "Day 25",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나 헷갈렸어.",
+      "english": "I got confused.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "got confused",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-25-10",
+      "section": "Day 25",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "시작하자.",
+      "english": "Let's get started.",
+      "chunks": [
+        {
+          "text": "Let's",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "get started",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-26-1",
+      "section": "Day 26",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그는 다쳤다.",
+      "english": "He got hurt.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "got hurt",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": {
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3-26-2",
+      "section": "Day 26",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "책은 그녀에 의해 쓰였다.",
+      "english": "The book was written by her.",
+      "chunks": [
+        {
+          "text": "The book",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "was written",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "by her",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Career path"
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-26-3",
+      "section": "Day 26",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그걸 어떻게 하니?",
+      "english": "How is it done?",
+      "chunks": [
+        {
+          "text": "How",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "is it done",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-26-4",
+      "section": "Day 26",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그거 언제 지어졌니?",
+      "english": "When was it built?",
+      "chunks": [
+        {
+          "text": "When",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "was it built",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-26-5",
+      "section": "Day 26",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그녀는 중고차를 가지고 있다.",
+      "english": "She has a used car.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "has",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a used car",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-26-6",
+      "section": "Day 26",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "방은 나에 의해 청소된다.",
+      "english": "The room is cleaned by me.",
+      "chunks": [
+        {
+          "text": "The room",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is cleaned",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "by me",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-26-7",
+      "section": "Day 26",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "너 피곤하니? (수동태적 의미)",
+      "english": "Are you tired?",
+      "chunks": [
+        {
+          "text": "Are",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "you",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "tired",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-26-8",
+      "section": "Day 26",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "창문이 깨졌다.",
+      "english": "The window is broken.",
+      "chunks": [
+        {
+          "text": "The window",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is broken",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-26-9",
+      "section": "Day 26",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "문 잠겼니?",
+      "english": "Is the door locked?",
+      "chunks": [
+        {
+          "text": "Is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the door",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "locked",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-26-10",
+      "section": "Day 26",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "한국에서 태어나서 그는 김치를 좋아한다.",
+      "english": "Born in Korea, he loves kimchi.",
+      "chunks": [
+        {
+          "text": "Born in Korea",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "he",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "loves",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "kimchi",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-27-1",
+      "section": "Day 27",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그걸 어떻게 하니?",
+      "english": "How is it done?",
+      "chunks": [
+        {
+          "text": "How",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "is it done",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": {
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Adverb",
+            "color": "#BA68C8"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3-27-2",
+      "section": "Day 27",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그녀는 중고차를 가지고 있다.",
+      "english": "She has a used car.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "has",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a used car",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-27-3",
+      "section": "Day 27",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "케이크는 먹혀졌다(누가 먹었다).",
+      "english": "The cake was eaten.",
+      "chunks": [
+        {
+          "text": "The cake",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "was eaten",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-27-4",
+      "section": "Day 27",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그는 해고당했다.",
+      "english": "He got fired.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "got fired",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-27-5",
+      "section": "Day 27",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그들이 초대되었니?",
+      "english": "Were they invited?",
+      "chunks": [
+        {
+          "text": "Were they invited",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-27-6",
+      "section": "Day 27",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나 헷갈렸어.",
+      "english": "I got confused.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "got confused",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-27-7",
+      "section": "Day 27",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "시작하자.",
+      "english": "Let's get started.",
+      "chunks": [
+        {
+          "text": "Let's",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "get started",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-27-8",
+      "section": "Day 27",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "기회가 주어지면 갈게.",
+      "english": "Given the chance, I will go.",
+      "chunks": [
+        {
+          "text": "Given the chance",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will go",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-27-9",
+      "section": "Day 27",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그녀는 결혼했다.",
+      "english": "She got married.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "got married",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-27-10",
+      "section": "Day 27",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "편지가 보내졌다.",
+      "english": "The letter was sent.",
+      "chunks": [
+        {
+          "text": "The letter",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "was sent",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-28-1",
+      "section": "Day 28",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그걸 어떻게 하니?",
+      "english": "How is it done?",
+      "chunks": [
+        {
+          "text": "How",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "is it done",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": {
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Adverb",
+            "color": "#BA68C8"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3-28-2",
+      "section": "Day 28",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "편지가 보내졌다.",
+      "english": "The letter was sent.",
+      "chunks": [
+        {
+          "text": "The letter",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "was sent",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-28-3",
+      "section": "Day 28",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "피곤해서 잤다.",
+      "english": "Tired, I slept.",
+      "chunks": [
+        {
+          "text": "Tired",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "slept",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-28-4",
+      "section": "Day 28",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "방은 나에 의해 청소된다.",
+      "english": "The room is cleaned by me.",
+      "chunks": [
+        {
+          "text": "The room",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is cleaned",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "by me",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-28-5",
+      "section": "Day 28",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "우리 길 잃었어.",
+      "english": "We got lost.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "got lost",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-28-6",
+      "section": "Day 28",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나 헷갈렸어.",
+      "english": "I got confused.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "got confused",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-28-7",
+      "section": "Day 28",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "깨진 유리는 위험하다.",
+      "english": "Broken glass is dangerous.",
+      "chunks": [
+        {
+          "text": "Broken glass",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "dangerous",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-28-8",
+      "section": "Day 28",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "숨겨진 보물이 발견되었다.",
+      "english": "The hidden treasure is found.",
+      "chunks": [
+        {
+          "text": "The hidden treasure",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is found",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-28-9",
+      "section": "Day 28",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나 피곤해졌어.",
+      "english": "I got tired.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "got",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "tired",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-28-10",
+      "section": "Day 28",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "기회가 주어지면 갈게.",
+      "english": "Given the chance, I will go.",
+      "chunks": [
+        {
+          "text": "Given the chance",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will go",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
     }
   ]
 }

@@ -1,12 +1,12 @@
 {
   "curriculum": [
     {
-      "id": "2-8-1",
+      "id": "4-8-1",
       "section": "Day 8",
-      "description": "Reason (Because)",
-      "question": "Why did you cry?",
-      "korean": "나는 슬퍼서 울었다.",
-      "english": "I cried because I was sad.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "피곤해서 잤다.",
+      "english": "I slept because I was tired.",
       "chunks": [
         {
           "text": "I",
@@ -14,48 +14,45 @@
           "color": "#FF0000"
         },
         {
-          "text": "cried",
+          "text": "slept",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "because I was sad",
+          "text": "because I was tired",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Emotional moment",
+      "context": "Core Lesson",
       "grammarGuide": {
-        "title": "Reason (Because)",
+        "title": "Core Lesson",
         "structure": [
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
             "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
+            "color": "#B0BEC5"
           }
         ]
       }
     },
     {
-      "id": "2-8-2",
+      "id": "4-8-2",
       "section": "Day 8",
-      "description": "Reason (Because)",
-      "question": "Why did you cry?",
-      "korean": "나는 슬퍼서 울었다.",
-      "english": "I cried because I was sad.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그녀는 넘어져서 울었다.",
+      "english": "She cried because she fell.",
       "chunks": [
         {
-          "text": "I",
+          "text": "She",
           "role": "Subject",
           "color": "#FF0000"
         },
@@ -65,20 +62,21 @@
           "color": "#FF7F00"
         },
         {
-          "text": "because I was sad",
+          "text": "because she fell",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Emotional moment"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-8-3",
+      "id": "4-8-3",
       "section": "Day 8",
-      "description": "Reason (Because)",
-      "question": "Why did you cry?",
-      "korean": "나는 슬퍼서 울었다.",
-      "english": "I cried because I was sad.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그가 친절해서 나는 그를 좋아한다.",
+      "english": "I like him because he is kind.",
       "chunks": [
         {
           "text": "I",
@@ -86,25 +84,90 @@
           "color": "#FF0000"
         },
         {
-          "text": "cried",
+          "text": "like",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "because I was sad",
+          "text": "him",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "because he is kind",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Emotional moment"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-8-4",
+      "id": "4-8-4",
       "section": "Day 8",
-      "description": "Reason (Because)",
-      "question": "Why did you cry?",
-      "korean": "나는 슬퍼서 울었다.",
-      "english": "I cried because I was sad.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "비 때문에 집에 있었다.",
+      "english": "We stayed home because of rain.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "stayed",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "home",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "because of rain",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-8-5",
+      "section": "Day 8",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그는 배우고 싶어서 공부한다.",
+      "english": "He studies because he wants to learn.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "studies",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "because he wants to learn",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-8-6",
+      "section": "Day 8",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "배고파서 먹는다.",
+      "english": "I eat because I am hungry.",
       "chunks": [
         {
           "text": "I",
@@ -112,25 +175,80 @@
           "color": "#FF0000"
         },
         {
-          "text": "cried",
+          "text": "eat",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "because I was sad",
+          "text": "because I am hungry",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Emotional moment"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-8-5",
+      "id": "4-8-7",
       "section": "Day 8",
-      "description": "Reason (Because)",
-      "question": "Why did you cry?",
-      "korean": "나는 슬퍼서 울었다.",
-      "english": "I cried because I was sad.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "너를 사랑하니까 내가 갈게.",
+      "english": "Because I love you, I will go.",
+      "chunks": [
+        {
+          "text": "Because I love you",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will go",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-8-8",
+      "section": "Day 8",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그녀가 웃어서 그도 웃었다.",
+      "english": "He smiled because she smiled.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "smiled",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "because she smiled",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-8-9",
+      "section": "Day 8",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "늦어서 뛰었다.",
+      "english": "I ran because I was late.",
       "chunks": [
         {
           "text": "I",
@@ -138,155 +256,53 @@
           "color": "#FF0000"
         },
         {
-          "text": "cried",
+          "text": "ran",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "because I was sad",
+          "text": "because I was late",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Emotional moment"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-8-6",
+      "id": "4-8-10",
       "section": "Day 8",
-      "description": "Reason (Because)",
-      "question": "Why did you cry?",
-      "korean": "나는 슬퍼서 울었다.",
-      "english": "I cried because I was sad.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "낡아서 부서졌다.",
+      "english": "It broke because it was old.",
       "chunks": [
         {
-          "text": "I",
+          "text": "It",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "cried",
+          "text": "broke",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "because I was sad",
+          "text": "because it was old",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Emotional moment"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-8-7",
-      "section": "Day 8",
-      "description": "Reason (Because)",
-      "question": "Why did you cry?",
-      "korean": "나는 슬퍼서 울었다.",
-      "english": "I cried because I was sad.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "cried",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "because I was sad",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Emotional moment"
-    },
-    {
-      "id": "2-8-8",
-      "section": "Day 8",
-      "description": "Reason (Because)",
-      "question": "Why did you cry?",
-      "korean": "나는 슬퍼서 울었다.",
-      "english": "I cried because I was sad.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "cried",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "because I was sad",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Emotional moment"
-    },
-    {
-      "id": "2-8-9",
-      "section": "Day 8",
-      "description": "Reason (Because)",
-      "question": "Why did you cry?",
-      "korean": "나는 슬퍼서 울었다.",
-      "english": "I cried because I was sad.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "cried",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "because I was sad",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Emotional moment"
-    },
-    {
-      "id": "2-8-10",
-      "section": "Day 8",
-      "description": "Reason (Because)",
-      "question": "Why did you cry?",
-      "korean": "나는 슬퍼서 울었다.",
-      "english": "I cried because I was sad.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "cried",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "because I was sad",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Emotional moment"
-    },
-    {
-      "id": "2-9-1",
+      "id": "4-9-1",
       "section": "Day 9",
-      "description": "Time (When)",
-      "question": "What do you do first?",
-      "korean": "내가 일어날 때, 나는 물을 마신다.",
-      "english": "When I wake up I drink water.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "일어나면 물을 마신다.",
+      "english": "When I wake up, I drink water.",
       "chunks": [
         {
           "text": "When I wake up",
@@ -309,43 +325,93 @@
           "color": "#FFD700"
         }
       ],
-      "context": "Morning routine",
+      "context": "Core Lesson",
       "grammarGuide": {
-        "title": "Time (When)",
+        "title": "Core Lesson",
         "structure": [
           {
             "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
+            "color": "#B0BEC5"
           },
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
             "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
+            "color": "#FFD700"
           }
         ]
       }
     },
     {
-      "id": "2-9-2",
+      "id": "4-9-2",
       "section": "Day 9",
-      "description": "Time (When)",
-      "question": "What do you do first?",
-      "korean": "내가 일어날 때, 나는 물을 마신다.",
-      "english": "When I wake up I drink water.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "도착하면 전화해.",
+      "english": "Call me when you arrive.",
       "chunks": [
         {
-          "text": "When I wake up",
+          "text": "Call",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "me",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "when you arrive",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-9-3",
+      "section": "Day 9",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "널 보면 웃음이 나.",
+      "english": "I smile when I see you.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "smile",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "when I see you",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-9-4",
+      "section": "Day 9",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "비가 오면 기쁨을 극대화한다.",
+      "english": "When it rains, I maximize joy.",
+      "chunks": [
+        {
+          "text": "When it rains",
           "role": "Modifier",
           "color": "#B0BEC5"
         },
@@ -355,273 +421,173 @@
           "color": "#FF0000"
         },
         {
-          "text": "drink",
+          "text": "maximize",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "water",
+          "text": "joy",
           "role": "Object",
           "color": "#FFD700"
         }
       ],
-      "context": "Morning routine"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-9-3",
+      "id": "4-9-5",
       "section": "Day 9",
-      "description": "Time (When)",
-      "question": "What do you do first?",
-      "korean": "내가 일어날 때, 나는 물을 마신다.",
-      "english": "When I wake up I drink water.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그는 지루하면 잔다.",
+      "english": "He sleeps when he is bored.",
       "chunks": [
         {
-          "text": "When I wake up",
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "sleeps",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "when he is bored",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-9-6",
+      "section": "Day 9",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "종이 울리면 나가라.",
+      "english": "When the bell rings, leave.",
+      "chunks": [
+        {
+          "text": "When the bell rings",
           "role": "Modifier",
           "color": "#B0BEC5"
         },
+        {
+          "text": "leave",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-9-7",
+      "section": "Day 9",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그녀를 만났을 때 행복했다.",
+      "english": "I was happy when I met her.",
+      "chunks": [
         {
           "text": "I",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "drink",
+          "text": "was",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "water",
-          "role": "Object",
-          "color": "#FFD700"
+          "text": "happy",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "when I met her",
+          "role": "Modifier",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Morning routine"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-9-4",
+      "id": "4-9-8",
       "section": "Day 9",
-      "description": "Time (When)",
-      "question": "What do you do first?",
-      "korean": "내가 일어날 때, 나는 물을 마신다.",
-      "english": "When I wake up I drink water.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "언제 시작하니?",
+      "english": "When do you start?",
       "chunks": [
         {
-          "text": "When I wake up",
+          "text": "When",
           "role": "Modifier",
           "color": "#B0BEC5"
         },
         {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "drink",
+          "text": "do you start",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "water",
-          "role": "Object",
-          "color": "#FFD700"
         }
       ],
-      "context": "Morning routine"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-9-5",
+      "id": "4-9-9",
       "section": "Day 9",
-      "description": "Time (When)",
-      "question": "What do you do first?",
-      "korean": "내가 일어날 때, 나는 물을 마신다.",
-      "english": "When I wake up I drink water.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "언제인지 말해줘.",
+      "english": "Tell me when.",
       "chunks": [
         {
-          "text": "When I wake up",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "drink",
+          "text": "Tell",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "water",
+          "text": "me",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "when",
           "role": "Object",
           "color": "#FFD700"
         }
       ],
-      "context": "Morning routine"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-9-6",
+      "id": "4-9-10",
       "section": "Day 9",
-      "description": "Time (When)",
-      "question": "What do you do first?",
-      "korean": "내가 일어날 때, 나는 물을 마신다.",
-      "english": "When I wake up I drink water.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "해가 서쪽에서 뜨면!",
+      "english": "When pigs fly!",
       "chunks": [
         {
-          "text": "When I wake up",
+          "text": "When pigs fly",
           "role": "Modifier",
           "color": "#B0BEC5"
-        },
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "drink",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "water",
-          "role": "Object",
-          "color": "#FFD700"
         }
       ],
-      "context": "Morning routine"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-9-7",
-      "section": "Day 9",
-      "description": "Time (When)",
-      "question": "What do you do first?",
-      "korean": "내가 일어날 때, 나는 물을 마신다.",
-      "english": "When I wake up I drink water.",
-      "chunks": [
-        {
-          "text": "When I wake up",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "drink",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "water",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Morning routine"
-    },
-    {
-      "id": "2-9-8",
-      "section": "Day 9",
-      "description": "Time (When)",
-      "question": "What do you do first?",
-      "korean": "내가 일어날 때, 나는 물을 마신다.",
-      "english": "When I wake up I drink water.",
-      "chunks": [
-        {
-          "text": "When I wake up",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "drink",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "water",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Morning routine"
-    },
-    {
-      "id": "2-9-9",
-      "section": "Day 9",
-      "description": "Time (When)",
-      "question": "What do you do first?",
-      "korean": "내가 일어날 때, 나는 물을 마신다.",
-      "english": "When I wake up I drink water.",
-      "chunks": [
-        {
-          "text": "When I wake up",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "drink",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "water",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Morning routine"
-    },
-    {
-      "id": "2-9-10",
-      "section": "Day 9",
-      "description": "Time (When)",
-      "question": "What do you do first?",
-      "korean": "내가 일어날 때, 나는 물을 마신다.",
-      "english": "When I wake up I drink water.",
-      "chunks": [
-        {
-          "text": "When I wake up",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "drink",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "water",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Morning routine"
-    },
-    {
-      "id": "2-10-1",
+      "id": "4-10-1",
       "section": "Day 10",
-      "description": "Sequence (Before)",
-      "question": "What before eating?",
+      "description": "Core Lesson",
+      "question": "Translate",
       "korean": "먹기 전에 손을 씻어라.",
-      "english": "Wash your hands before you eat.",
+      "english": "Wash hands before eating.",
       "chunks": [
         {
           "text": "Wash",
@@ -629,614 +595,626 @@
           "color": "#FF7F00"
         },
         {
-          "text": "your hands",
+          "text": "hands",
           "role": "Object",
           "color": "#FFD700"
         },
         {
-          "text": "before you eat",
+          "text": "before eating",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Hygiene",
+      "context": "Core Lesson",
       "grammarGuide": {
-        "title": "Sequence (Before)",
+        "title": "Core Lesson",
         "structure": [
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
             "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
+            "color": "#FFD700"
           },
           {
             "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
+            "color": "#B0BEC5"
           }
         ]
       }
     },
     {
-      "id": "2-10-2",
+      "id": "4-10-2",
       "section": "Day 10",
-      "description": "Sequence (Before)",
-      "question": "What before eating?",
-      "korean": "먹기 전에 손을 씻어라.",
-      "english": "Wash your hands before you eat.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "먹은 후에 이를 닦아라.",
+      "english": "Brush teeth after eating.",
       "chunks": [
         {
-          "text": "Wash",
+          "text": "Brush",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "your hands",
+          "text": "teeth",
           "role": "Object",
           "color": "#FFD700"
         },
         {
-          "text": "before you eat",
+          "text": "after eating",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Hygiene"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-10-3",
+      "id": "4-10-3",
       "section": "Day 10",
-      "description": "Sequence (Before)",
-      "question": "What before eating?",
-      "korean": "먹기 전에 손을 씻어라.",
-      "english": "Wash your hands before you eat.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 아침 전에 달린다.",
+      "english": "I run before breakfast.",
       "chunks": [
         {
-          "text": "Wash",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "your hands",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "before you eat",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Hygiene"
-    },
-    {
-      "id": "2-10-4",
-      "section": "Day 10",
-      "description": "Sequence (Before)",
-      "question": "What before eating?",
-      "korean": "먹기 전에 손을 씻어라.",
-      "english": "Wash your hands before you eat.",
-      "chunks": [
-        {
-          "text": "Wash",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "your hands",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "before you eat",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Hygiene"
-    },
-    {
-      "id": "2-10-5",
-      "section": "Day 10",
-      "description": "Sequence (Before)",
-      "question": "What before eating?",
-      "korean": "먹기 전에 손을 씻어라.",
-      "english": "Wash your hands before you eat.",
-      "chunks": [
-        {
-          "text": "Wash",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "your hands",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "before you eat",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Hygiene"
-    },
-    {
-      "id": "2-10-6",
-      "section": "Day 10",
-      "description": "Sequence (Before)",
-      "question": "What before eating?",
-      "korean": "먹기 전에 손을 씻어라.",
-      "english": "Wash your hands before you eat.",
-      "chunks": [
-        {
-          "text": "Wash",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "your hands",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "before you eat",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Hygiene"
-    },
-    {
-      "id": "2-10-7",
-      "section": "Day 10",
-      "description": "Sequence (Before)",
-      "question": "What before eating?",
-      "korean": "먹기 전에 손을 씻어라.",
-      "english": "Wash your hands before you eat.",
-      "chunks": [
-        {
-          "text": "Wash",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "your hands",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "before you eat",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Hygiene"
-    },
-    {
-      "id": "2-10-8",
-      "section": "Day 10",
-      "description": "Sequence (Before)",
-      "question": "What before eating?",
-      "korean": "먹기 전에 손을 씻어라.",
-      "english": "Wash your hands before you eat.",
-      "chunks": [
-        {
-          "text": "Wash",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "your hands",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "before you eat",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Hygiene"
-    },
-    {
-      "id": "2-10-9",
-      "section": "Day 10",
-      "description": "Sequence (Before)",
-      "question": "What before eating?",
-      "korean": "먹기 전에 손을 씻어라.",
-      "english": "Wash your hands before you eat.",
-      "chunks": [
-        {
-          "text": "Wash",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "your hands",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "before you eat",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Hygiene"
-    },
-    {
-      "id": "2-10-10",
-      "section": "Day 10",
-      "description": "Sequence (Before)",
-      "question": "What before eating?",
-      "korean": "먹기 전에 손을 씻어라.",
-      "english": "Wash your hands before you eat.",
-      "chunks": [
-        {
-          "text": "Wash",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "your hands",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "before you eat",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Hygiene"
-    },
-    {
-      "id": "2-11-1",
-      "section": "Day 11",
-      "description": "Sequence (After)",
-      "question": "When did you play?",
-      "korean": "우리는 방과 후에 축구를 했다.",
-      "english": "We played soccer after school finished.",
-      "chunks": [
-        {
-          "text": "We",
+          "text": "I",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "played",
+          "text": "run",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "soccer",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "after school finished",
+          "text": "before breakfast",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "After school",
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-10-4",
+      "section": "Day 10",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "책 읽은 후에 자라.",
+      "english": "Sleep after reading.",
+      "chunks": [
+        {
+          "text": "Sleep",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "after reading",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-10-5",
+      "section": "Day 10",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "말하기 전에 생각해라.",
+      "english": "Think before you speak.",
+      "chunks": [
+        {
+          "text": "Think",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "before you speak",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-10-6",
+      "section": "Day 10",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "비 온 뒤에 맑음.",
+      "english": "After rain comes sunshine.",
+      "chunks": [
+        {
+          "text": "After rain",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "comes",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "sunshine",
+          "role": "Subject",
+          "color": "#FF0000"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-10-7",
+      "section": "Day 10",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "가기 전에 전화해.",
+      "english": "Call me before you go.",
+      "chunks": [
+        {
+          "text": "Call",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "me",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "before you go",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-10-8",
+      "section": "Day 10",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "퇴근 후에 운동한다.",
+      "english": "I exercise after work.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "exercise",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "after work",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-10-9",
+      "section": "Day 10",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "까먹기 전에 이거 받아.",
+      "english": "Before I forget, take this.",
+      "chunks": [
+        {
+          "text": "Before I forget",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "take",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "this",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-10-10",
+      "section": "Day 10",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "방과 후에 봐.",
+      "english": "See you after school.",
+      "chunks": [
+        {
+          "text": "See",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "you",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "after school",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-11-1",
+      "section": "Day 11",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "먹으면서 말하지 마라.",
+      "english": "Don't talk while eating.",
+      "chunks": [
+        {
+          "text": "Don't talk",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "while eating",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
       "grammarGuide": {
-        "title": "Sequence (After)",
+        "title": "Core Lesson",
+        "structure": [
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4-11-2",
+      "section": "Day 11",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "달리면서 음악을 듣는다.",
+      "english": "I listen to music while running.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "listen to music",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "while running",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-11-3",
+      "section": "Day 11",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "내가 자는 동안 비가 왔다.",
+      "english": "While I slept, it rained.",
+      "chunks": [
+        {
+          "text": "While I slept",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "it",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "rained",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-11-4",
+      "section": "Day 11",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그녀는 요리하면서 노래한다.",
+      "english": "She sings while cooking.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "sings",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "while cooking",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-11-5",
+      "section": "Day 11",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그는 일하면서 공부한다.",
+      "english": "He studies while working.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "studies",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "while working",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-11-6",
+      "section": "Day 11",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "내가 확인하는 동안 여기서 기다려.",
+      "english": "Wait here while I check.",
+      "chunks": [
+        {
+          "text": "Wait",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "here",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "while I check",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-11-7",
+      "section": "Day 11",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "기회를 놓치지 마라.",
+      "english": "Make hay while the sun shines.",
+      "chunks": [
+        {
+          "text": "Make",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "hay",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "while the sun shines",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-11-8",
+      "section": "Day 11",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "걷다가 그를 보았다.",
+      "english": "I saw him while walking.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "saw",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "him",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "while walking",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-11-9",
+      "section": "Day 11",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "여기 있는 동안 나 좀 도와줘.",
+      "english": "While you are here, help me.",
+      "chunks": [
+        {
+          "text": "While you are here",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "help",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "me",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-11-10",
+      "section": "Day 11",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "운전 중에 문자 하지 마라.",
+      "english": "Don't text while driving.",
+      "chunks": [
+        {
+          "text": "Don't text",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "while driving",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-12-1",
+      "section": "Day 12",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그가 친절해서 나는 그를 좋아한다.",
+      "english": "I like him because he is kind.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "like",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "him",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "because he is kind",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": {
+        "title": "Review",
         "structure": [
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
             "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
+            "color": "#FFD700"
           },
           {
             "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
+            "color": "#B0BEC5"
           }
         ]
       }
     },
     {
-      "id": "2-11-2",
-      "section": "Day 11",
-      "description": "Sequence (After)",
-      "question": "When did you play?",
-      "korean": "우리는 방과 후에 축구를 했다.",
-      "english": "We played soccer after school finished.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "played",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "soccer",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "after school finished",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "After school"
-    },
-    {
-      "id": "2-11-3",
-      "section": "Day 11",
-      "description": "Sequence (After)",
-      "question": "When did you play?",
-      "korean": "우리는 방과 후에 축구를 했다.",
-      "english": "We played soccer after school finished.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "played",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "soccer",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "after school finished",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "After school"
-    },
-    {
-      "id": "2-11-4",
-      "section": "Day 11",
-      "description": "Sequence (After)",
-      "question": "When did you play?",
-      "korean": "우리는 방과 후에 축구를 했다.",
-      "english": "We played soccer after school finished.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "played",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "soccer",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "after school finished",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "After school"
-    },
-    {
-      "id": "2-11-5",
-      "section": "Day 11",
-      "description": "Sequence (After)",
-      "question": "When did you play?",
-      "korean": "우리는 방과 후에 축구를 했다.",
-      "english": "We played soccer after school finished.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "played",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "soccer",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "after school finished",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "After school"
-    },
-    {
-      "id": "2-11-6",
-      "section": "Day 11",
-      "description": "Sequence (After)",
-      "question": "When did you play?",
-      "korean": "우리는 방과 후에 축구를 했다.",
-      "english": "We played soccer after school finished.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "played",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "soccer",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "after school finished",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "After school"
-    },
-    {
-      "id": "2-11-7",
-      "section": "Day 11",
-      "description": "Sequence (After)",
-      "question": "When did you play?",
-      "korean": "우리는 방과 후에 축구를 했다.",
-      "english": "We played soccer after school finished.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "played",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "soccer",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "after school finished",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "After school"
-    },
-    {
-      "id": "2-11-8",
-      "section": "Day 11",
-      "description": "Sequence (After)",
-      "question": "When did you play?",
-      "korean": "우리는 방과 후에 축구를 했다.",
-      "english": "We played soccer after school finished.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "played",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "soccer",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "after school finished",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "After school"
-    },
-    {
-      "id": "2-11-9",
-      "section": "Day 11",
-      "description": "Sequence (After)",
-      "question": "When did you play?",
-      "korean": "우리는 방과 후에 축구를 했다.",
-      "english": "We played soccer after school finished.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "played",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "soccer",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "after school finished",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "After school"
-    },
-    {
-      "id": "2-11-10",
-      "section": "Day 11",
-      "description": "Sequence (After)",
-      "question": "When did you play?",
-      "korean": "우리는 방과 후에 축구를 했다.",
-      "english": "We played soccer after school finished.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "played",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "soccer",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "after school finished",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "After school"
-    },
-    {
-      "id": "2-12-1",
+      "id": "4-12-2",
       "section": "Day 12",
-      "description": "Simultaneous (While)",
-      "question": "What did he do?",
-      "korean": "그는 요리하면서 노래했다.",
-      "english": "He sang while he cooked.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "종이 울리면 나가라.",
+      "english": "When the bell rings, leave.",
+      "chunks": [
+        {
+          "text": "When the bell rings",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "leave",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-12-3",
+      "section": "Day 12",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그는 일하면서 공부한다.",
+      "english": "He studies while working.",
       "chunks": [
         {
           "text": "He",
@@ -1244,279 +1222,248 @@
           "color": "#FF0000"
         },
         {
-          "text": "sang",
+          "text": "studies",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "while he cooked",
+          "text": "while working",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Multi-tasking",
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-12-4",
+      "section": "Day 12",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "해가 서쪽에서 뜨면!",
+      "english": "When pigs fly!",
+      "chunks": [
+        {
+          "text": "When pigs fly",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-12-5",
+      "section": "Day 12",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "도착하면 전화해.",
+      "english": "Call me when you arrive.",
+      "chunks": [
+        {
+          "text": "Call",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "me",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "when you arrive",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-12-6",
+      "section": "Day 12",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "비가 오면 기쁨을 극대화한다.",
+      "english": "When it rains, I maximize joy.",
+      "chunks": [
+        {
+          "text": "When it rains",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "maximize",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "joy",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-12-7",
+      "section": "Day 12",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그는 배우고 싶어서 공부한다.",
+      "english": "He studies because he wants to learn.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "studies",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "because he wants to learn",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-12-8",
+      "section": "Day 12",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "먹으면서 말하지 마라.",
+      "english": "Don't talk while eating.",
+      "chunks": [
+        {
+          "text": "Don't talk",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "while eating",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-12-9",
+      "section": "Day 12",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "늦어서 뛰었다.",
+      "english": "I ran because I was late.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "ran",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "because I was late",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-12-10",
+      "section": "Day 12",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "너를 사랑하니까 내가 갈게.",
+      "english": "Because I love you, I will go.",
+      "chunks": [
+        {
+          "text": "Because I love you",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will go",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-13-1",
+      "section": "Day 13",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "널 보면 웃음이 나.",
+      "english": "I smile when I see you.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "smile",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "when I see you",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
       "grammarGuide": {
-        "title": "Simultaneous (While)",
+        "title": "Review",
         "structure": [
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
             "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
+            "color": "#B0BEC5"
           }
         ]
       }
     },
     {
-      "id": "2-12-2",
-      "section": "Day 12",
-      "description": "Simultaneous (While)",
-      "question": "What did he do?",
-      "korean": "그는 요리하면서 노래했다.",
-      "english": "He sang while he cooked.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sang",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "while he cooked",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Multi-tasking"
-    },
-    {
-      "id": "2-12-3",
-      "section": "Day 12",
-      "description": "Simultaneous (While)",
-      "question": "What did he do?",
-      "korean": "그는 요리하면서 노래했다.",
-      "english": "He sang while he cooked.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sang",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "while he cooked",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Multi-tasking"
-    },
-    {
-      "id": "2-12-4",
-      "section": "Day 12",
-      "description": "Simultaneous (While)",
-      "question": "What did he do?",
-      "korean": "그는 요리하면서 노래했다.",
-      "english": "He sang while he cooked.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sang",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "while he cooked",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Multi-tasking"
-    },
-    {
-      "id": "2-12-5",
-      "section": "Day 12",
-      "description": "Simultaneous (While)",
-      "question": "What did he do?",
-      "korean": "그는 요리하면서 노래했다.",
-      "english": "He sang while he cooked.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sang",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "while he cooked",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Multi-tasking"
-    },
-    {
-      "id": "2-12-6",
-      "section": "Day 12",
-      "description": "Simultaneous (While)",
-      "question": "What did he do?",
-      "korean": "그는 요리하면서 노래했다.",
-      "english": "He sang while he cooked.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sang",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "while he cooked",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Multi-tasking"
-    },
-    {
-      "id": "2-12-7",
-      "section": "Day 12",
-      "description": "Simultaneous (While)",
-      "question": "What did he do?",
-      "korean": "그는 요리하면서 노래했다.",
-      "english": "He sang while he cooked.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sang",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "while he cooked",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Multi-tasking"
-    },
-    {
-      "id": "2-12-8",
-      "section": "Day 12",
-      "description": "Simultaneous (While)",
-      "question": "What did he do?",
-      "korean": "그는 요리하면서 노래했다.",
-      "english": "He sang while he cooked.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sang",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "while he cooked",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Multi-tasking"
-    },
-    {
-      "id": "2-12-9",
-      "section": "Day 12",
-      "description": "Simultaneous (While)",
-      "question": "What did he do?",
-      "korean": "그는 요리하면서 노래했다.",
-      "english": "He sang while he cooked.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sang",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "while he cooked",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Multi-tasking"
-    },
-    {
-      "id": "2-12-10",
-      "section": "Day 12",
-      "description": "Simultaneous (While)",
-      "question": "What did he do?",
-      "korean": "그는 요리하면서 노래했다.",
-      "english": "He sang while he cooked.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sang",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "while he cooked",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Multi-tasking"
-    },
-    {
-      "id": "2-13-1",
+      "id": "4-13-2",
       "section": "Day 13",
-      "description": "Simultaneous (While)",
-      "question": "What did he do?",
-      "korean": "그는 요리하면서 노래했다.",
-      "english": "He sang while he cooked.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그는 일하면서 공부한다.",
+      "english": "He studies while working.",
       "chunks": [
         {
           "text": "He",
@@ -1524,429 +1471,430 @@
           "color": "#FF0000"
         },
         {
-          "text": "sang",
+          "text": "studies",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "while he cooked",
+          "text": "while working",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Multi-tasking",
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-13-3",
+      "section": "Day 13",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "비 때문에 집에 있었다.",
+      "english": "We stayed home because of rain.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "stayed",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "home",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "because of rain",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-13-4",
+      "section": "Day 13",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "일어나면 물을 마신다.",
+      "english": "When I wake up, I drink water.",
+      "chunks": [
+        {
+          "text": "When I wake up",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "drink",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "water",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-13-5",
+      "section": "Day 13",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "종이 울리면 나가라.",
+      "english": "When the bell rings, leave.",
+      "chunks": [
+        {
+          "text": "When the bell rings",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "leave",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-13-6",
+      "section": "Day 13",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "너를 사랑하니까 내가 갈게.",
+      "english": "Because I love you, I will go.",
+      "chunks": [
+        {
+          "text": "Because I love you",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will go",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-13-7",
+      "section": "Day 13",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그는 지루하면 잔다.",
+      "english": "He sleeps when he is bored.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "sleeps",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "when he is bored",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-13-8",
+      "section": "Day 13",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그가 친절해서 나는 그를 좋아한다.",
+      "english": "I like him because he is kind.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "like",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "him",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "because he is kind",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-13-9",
+      "section": "Day 13",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "먹은 후에 이를 닦아라.",
+      "english": "Brush teeth after eating.",
+      "chunks": [
+        {
+          "text": "Brush",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "teeth",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "after eating",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-13-10",
+      "section": "Day 13",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "도착하면 전화해.",
+      "english": "Call me when you arrive.",
+      "chunks": [
+        {
+          "text": "Call",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "me",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "when you arrive",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-14-1",
+      "section": "Day 14",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "늦어서 뛰었다.",
+      "english": "I ran because I was late.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "ran",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "because I was late",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
       "grammarGuide": {
-        "title": "Simultaneous (While)",
+        "title": "Review",
         "structure": [
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
             "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
+            "color": "#B0BEC5"
           }
         ]
       }
     },
     {
-      "id": "2-13-2",
-      "section": "Day 13",
-      "description": "Simultaneous (While)",
-      "question": "What did he do?",
-      "korean": "그는 요리하면서 노래했다.",
-      "english": "He sang while he cooked.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sang",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "while he cooked",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Multi-tasking"
-    },
-    {
-      "id": "2-13-3",
-      "section": "Day 13",
-      "description": "Simultaneous (While)",
-      "question": "What did he do?",
-      "korean": "그는 요리하면서 노래했다.",
-      "english": "He sang while he cooked.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sang",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "while he cooked",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Multi-tasking"
-    },
-    {
-      "id": "2-13-4",
-      "section": "Day 13",
-      "description": "Simultaneous (While)",
-      "question": "What did he do?",
-      "korean": "그는 요리하면서 노래했다.",
-      "english": "He sang while he cooked.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sang",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "while he cooked",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Multi-tasking"
-    },
-    {
-      "id": "2-13-5",
-      "section": "Day 13",
-      "description": "Simultaneous (While)",
-      "question": "What did he do?",
-      "korean": "그는 요리하면서 노래했다.",
-      "english": "He sang while he cooked.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sang",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "while he cooked",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Multi-tasking"
-    },
-    {
-      "id": "2-13-6",
-      "section": "Day 13",
-      "description": "Simultaneous (While)",
-      "question": "What did he do?",
-      "korean": "그는 요리하면서 노래했다.",
-      "english": "He sang while he cooked.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sang",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "while he cooked",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Multi-tasking"
-    },
-    {
-      "id": "2-13-7",
-      "section": "Day 13",
-      "description": "Simultaneous (While)",
-      "question": "What did he do?",
-      "korean": "그는 요리하면서 노래했다.",
-      "english": "He sang while he cooked.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sang",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "while he cooked",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Multi-tasking"
-    },
-    {
-      "id": "2-13-8",
-      "section": "Day 13",
-      "description": "Simultaneous (While)",
-      "question": "What did he do?",
-      "korean": "그는 요리하면서 노래했다.",
-      "english": "He sang while he cooked.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sang",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "while he cooked",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Multi-tasking"
-    },
-    {
-      "id": "2-13-9",
-      "section": "Day 13",
-      "description": "Simultaneous (While)",
-      "question": "What did he do?",
-      "korean": "그는 요리하면서 노래했다.",
-      "english": "He sang while he cooked.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sang",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "while he cooked",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Multi-tasking"
-    },
-    {
-      "id": "2-13-10",
-      "section": "Day 13",
-      "description": "Simultaneous (While)",
-      "question": "What did he do?",
-      "korean": "그는 요리하면서 노래했다.",
-      "english": "He sang while he cooked.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sang",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "while he cooked",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Multi-tasking"
-    },
-    {
-      "id": "2-14-1",
+      "id": "4-14-2",
       "section": "Day 14",
-      "description": "Simultaneous (While)",
-      "question": "What did he do?",
-      "korean": "그는 요리하면서 노래했다.",
-      "english": "He sang while he cooked.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "비 때문에 집에 있었다.",
+      "english": "We stayed home because of rain.",
       "chunks": [
         {
-          "text": "He",
+          "text": "We",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "sang",
+          "text": "stayed",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "while he cooked",
+          "text": "home",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "because of rain",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Multi-tasking",
-      "grammarGuide": {
-        "title": "Simultaneous (While)",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          }
-        ]
-      }
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-14-2",
+      "id": "4-14-3",
       "section": "Day 14",
-      "description": "Simultaneous (While)",
-      "question": "What did he do?",
-      "korean": "그는 요리하면서 노래했다.",
-      "english": "He sang while he cooked.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "가기 전에 전화해.",
+      "english": "Call me before you go.",
       "chunks": [
         {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sang",
+          "text": "Call",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "while he cooked",
+          "text": "me",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "before you go",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Multi-tasking"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-14-3",
+      "id": "4-14-4",
       "section": "Day 14",
-      "description": "Simultaneous (While)",
-      "question": "What did he do?",
-      "korean": "그는 요리하면서 노래했다.",
-      "english": "He sang while he cooked.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "먹기 전에 손을 씻어라.",
+      "english": "Wash hands before eating.",
       "chunks": [
         {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sang",
+          "text": "Wash",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "while he cooked",
+          "text": "hands",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "before eating",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Multi-tasking"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-14-4",
+      "id": "4-14-5",
       "section": "Day 14",
-      "description": "Simultaneous (While)",
-      "question": "What did he do?",
-      "korean": "그는 요리하면서 노래했다.",
-      "english": "He sang while he cooked.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "먹으면서 말하지 마라.",
+      "english": "Don't talk while eating.",
       "chunks": [
         {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sang",
+          "text": "Don't talk",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "while he cooked",
+          "text": "while eating",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Multi-tasking"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-14-5",
+      "id": "4-14-6",
       "section": "Day 14",
-      "description": "Simultaneous (While)",
-      "question": "What did he do?",
-      "korean": "그는 요리하면서 노래했다.",
-      "english": "He sang while he cooked.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그녀는 요리하면서 노래한다.",
+      "english": "She sings while cooking.",
       "chunks": [
         {
-          "text": "He",
+          "text": "She",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "sang",
+          "text": "sings",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "while he cooked",
+          "text": "while cooking",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Multi-tasking"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-14-6",
+      "id": "4-14-7",
       "section": "Day 14",
-      "description": "Simultaneous (While)",
-      "question": "What did he do?",
-      "korean": "그는 요리하면서 노래했다.",
-      "english": "He sang while he cooked.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그녀가 웃어서 그도 웃었다.",
+      "english": "He smiled because she smiled.",
       "chunks": [
         {
           "text": "He",
@@ -1954,121 +1902,99 @@
           "color": "#FF0000"
         },
         {
-          "text": "sang",
+          "text": "smiled",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "while he cooked",
+          "text": "because she smiled",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Multi-tasking"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-14-7",
+      "id": "4-14-8",
       "section": "Day 14",
-      "description": "Simultaneous (While)",
-      "question": "What did he do?",
-      "korean": "그는 요리하면서 노래했다.",
-      "english": "He sang while he cooked.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "내가 자는 동안 비가 왔다.",
+      "english": "While I slept, it rained.",
       "chunks": [
         {
-          "text": "He",
+          "text": "While I slept",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "it",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "sang",
+          "text": "rained",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "while he cooked",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Multi-tasking"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-14-8",
+      "id": "4-14-9",
       "section": "Day 14",
-      "description": "Simultaneous (While)",
-      "question": "What did he do?",
-      "korean": "그는 요리하면서 노래했다.",
-      "english": "He sang while he cooked.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "배고파서 먹는다.",
+      "english": "I eat because I am hungry.",
       "chunks": [
         {
-          "text": "He",
+          "text": "I",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "sang",
+          "text": "eat",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "while he cooked",
+          "text": "because I am hungry",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Multi-tasking"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-14-9",
+      "id": "4-14-10",
       "section": "Day 14",
-      "description": "Simultaneous (While)",
-      "question": "What did he do?",
-      "korean": "그는 요리하면서 노래했다.",
-      "english": "He sang while he cooked.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "기회를 놓치지 마라.",
+      "english": "Make hay while the sun shines.",
       "chunks": [
         {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sang",
+          "text": "Make",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "while he cooked",
+          "text": "hay",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "while the sun shines",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Multi-tasking"
-    },
-    {
-      "id": "2-14-10",
-      "section": "Day 14",
-      "description": "Simultaneous (While)",
-      "question": "What did he do?",
-      "korean": "그는 요리하면서 노래했다.",
-      "english": "He sang while he cooked.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sang",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "while he cooked",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Multi-tasking"
+      "context": "Review",
+      "grammarGuide": null
     }
   ]
 }

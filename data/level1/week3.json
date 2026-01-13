@@ -3,1748 +3,13 @@
     {
       "id": "2-15-1",
       "section": "Day 15",
-      "description": "Location",
-      "question": "Where is the cat?",
-      "korean": "고양이가 소파 위에서 잔다.",
-      "english": "The cat sleeps on the sofa.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "고양이는 매트 위에 있다.",
+      "english": "The cat is on the mat.",
       "chunks": [
         {
           "text": "The cat",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sleeps",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "on the sofa",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Lazy afternoon",
-      "grammarGuide": {
-        "title": "Location",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2-15-2",
-      "section": "Day 15",
-      "description": "Location",
-      "question": "Where are my shoes?",
-      "korean": "내 신발은 침대 아래에 있다.",
-      "english": "My shoes are under the bed.",
-      "chunks": [
-        {
-          "text": "My shoes",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "are",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "under the bed",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Cleaning room"
-    },
-    {
-      "id": "2-15-3",
-      "section": "Day 15",
-      "description": "Location",
-      "question": "Where is the cat?",
-      "korean": "고양이가 소파 위에서 잔다.",
-      "english": "The cat sleeps on the sofa.",
-      "chunks": [
-        {
-          "text": "The cat",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sleeps",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "on the sofa",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Lazy afternoon"
-    },
-    {
-      "id": "2-15-4",
-      "section": "Day 15",
-      "description": "Location",
-      "question": "Where are my shoes?",
-      "korean": "내 신발은 침대 아래에 있다.",
-      "english": "My shoes are under the bed.",
-      "chunks": [
-        {
-          "text": "My shoes",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "are",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "under the bed",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Cleaning room"
-    },
-    {
-      "id": "2-15-5",
-      "section": "Day 15",
-      "description": "Location",
-      "question": "Where is the cat?",
-      "korean": "고양이가 소파 위에서 잔다.",
-      "english": "The cat sleeps on the sofa.",
-      "chunks": [
-        {
-          "text": "The cat",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sleeps",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "on the sofa",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Lazy afternoon"
-    },
-    {
-      "id": "2-15-6",
-      "section": "Day 15",
-      "description": "Location",
-      "question": "Where are my shoes?",
-      "korean": "내 신발은 침대 아래에 있다.",
-      "english": "My shoes are under the bed.",
-      "chunks": [
-        {
-          "text": "My shoes",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "are",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "under the bed",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Cleaning room"
-    },
-    {
-      "id": "2-15-7",
-      "section": "Day 15",
-      "description": "Location",
-      "question": "Where is the cat?",
-      "korean": "고양이가 소파 위에서 잔다.",
-      "english": "The cat sleeps on the sofa.",
-      "chunks": [
-        {
-          "text": "The cat",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sleeps",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "on the sofa",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Lazy afternoon"
-    },
-    {
-      "id": "2-15-8",
-      "section": "Day 15",
-      "description": "Location",
-      "question": "Where are my shoes?",
-      "korean": "내 신발은 침대 아래에 있다.",
-      "english": "My shoes are under the bed.",
-      "chunks": [
-        {
-          "text": "My shoes",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "are",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "under the bed",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Cleaning room"
-    },
-    {
-      "id": "2-15-9",
-      "section": "Day 15",
-      "description": "Location",
-      "question": "Where is the cat?",
-      "korean": "고양이가 소파 위에서 잔다.",
-      "english": "The cat sleeps on the sofa.",
-      "chunks": [
-        {
-          "text": "The cat",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sleeps",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "on the sofa",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Lazy afternoon"
-    },
-    {
-      "id": "2-15-10",
-      "section": "Day 15",
-      "description": "Location",
-      "question": "Where are my shoes?",
-      "korean": "내 신발은 침대 아래에 있다.",
-      "english": "My shoes are under the bed.",
-      "chunks": [
-        {
-          "text": "My shoes",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "are",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "under the bed",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Cleaning room"
-    },
-    {
-      "id": "2-16-1",
-      "section": "Day 16",
-      "description": "Place",
-      "question": "Where do we study?",
-      "korean": "우리는 학교에서 영어를 공부한다.",
-      "english": "We study English at school.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "study",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "English",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "at school",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Daily life",
-      "grammarGuide": {
-        "title": "Place",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2-16-2",
-      "section": "Day 16",
-      "description": "Place",
-      "question": "Where do we study?",
-      "korean": "우리는 학교에서 영어를 공부한다.",
-      "english": "We study English at school.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "study",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "English",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "at school",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Daily life"
-    },
-    {
-      "id": "2-16-3",
-      "section": "Day 16",
-      "description": "Place",
-      "question": "Where do we study?",
-      "korean": "우리는 학교에서 영어를 공부한다.",
-      "english": "We study English at school.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "study",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "English",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "at school",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Daily life"
-    },
-    {
-      "id": "2-16-4",
-      "section": "Day 16",
-      "description": "Place",
-      "question": "Where do we study?",
-      "korean": "우리는 학교에서 영어를 공부한다.",
-      "english": "We study English at school.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "study",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "English",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "at school",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Daily life"
-    },
-    {
-      "id": "2-16-5",
-      "section": "Day 16",
-      "description": "Place",
-      "question": "Where do we study?",
-      "korean": "우리는 학교에서 영어를 공부한다.",
-      "english": "We study English at school.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "study",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "English",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "at school",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Daily life"
-    },
-    {
-      "id": "2-16-6",
-      "section": "Day 16",
-      "description": "Place",
-      "question": "Where do we study?",
-      "korean": "우리는 학교에서 영어를 공부한다.",
-      "english": "We study English at school.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "study",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "English",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "at school",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Daily life"
-    },
-    {
-      "id": "2-16-7",
-      "section": "Day 16",
-      "description": "Place",
-      "question": "Where do we study?",
-      "korean": "우리는 학교에서 영어를 공부한다.",
-      "english": "We study English at school.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "study",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "English",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "at school",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Daily life"
-    },
-    {
-      "id": "2-16-8",
-      "section": "Day 16",
-      "description": "Place",
-      "question": "Where do we study?",
-      "korean": "우리는 학교에서 영어를 공부한다.",
-      "english": "We study English at school.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "study",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "English",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "at school",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Daily life"
-    },
-    {
-      "id": "2-16-9",
-      "section": "Day 16",
-      "description": "Place",
-      "question": "Where do we study?",
-      "korean": "우리는 학교에서 영어를 공부한다.",
-      "english": "We study English at school.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "study",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "English",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "at school",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Daily life"
-    },
-    {
-      "id": "2-16-10",
-      "section": "Day 16",
-      "description": "Place",
-      "question": "Where do we study?",
-      "korean": "우리는 학교에서 영어를 공부한다.",
-      "english": "We study English at school.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "study",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "English",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "at school",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Daily life"
-    },
-    {
-      "id": "2-17-1",
-      "section": "Day 17",
-      "description": "Time",
-      "question": "When do birds sing?",
-      "korean": "새들은 아침에 노래한다.",
-      "english": "Birds sing in the morning.",
-      "chunks": [
-        {
-          "text": "Birds",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sing",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "in the morning",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Nature sounds",
-      "grammarGuide": {
-        "title": "Time",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2-17-2",
-      "section": "Day 17",
-      "description": "Time",
-      "question": "When do birds sing?",
-      "korean": "새들은 아침에 노래한다.",
-      "english": "Birds sing in the morning.",
-      "chunks": [
-        {
-          "text": "Birds",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sing",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "in the morning",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Nature sounds"
-    },
-    {
-      "id": "2-17-3",
-      "section": "Day 17",
-      "description": "Time",
-      "question": "When do birds sing?",
-      "korean": "새들은 아침에 노래한다.",
-      "english": "Birds sing in the morning.",
-      "chunks": [
-        {
-          "text": "Birds",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sing",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "in the morning",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Nature sounds"
-    },
-    {
-      "id": "2-17-4",
-      "section": "Day 17",
-      "description": "Time",
-      "question": "When do birds sing?",
-      "korean": "새들은 아침에 노래한다.",
-      "english": "Birds sing in the morning.",
-      "chunks": [
-        {
-          "text": "Birds",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sing",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "in the morning",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Nature sounds"
-    },
-    {
-      "id": "2-17-5",
-      "section": "Day 17",
-      "description": "Time",
-      "question": "When do birds sing?",
-      "korean": "새들은 아침에 노래한다.",
-      "english": "Birds sing in the morning.",
-      "chunks": [
-        {
-          "text": "Birds",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sing",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "in the morning",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Nature sounds"
-    },
-    {
-      "id": "2-17-6",
-      "section": "Day 17",
-      "description": "Time",
-      "question": "When do birds sing?",
-      "korean": "새들은 아침에 노래한다.",
-      "english": "Birds sing in the morning.",
-      "chunks": [
-        {
-          "text": "Birds",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sing",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "in the morning",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Nature sounds"
-    },
-    {
-      "id": "2-17-7",
-      "section": "Day 17",
-      "description": "Time",
-      "question": "When do birds sing?",
-      "korean": "새들은 아침에 노래한다.",
-      "english": "Birds sing in the morning.",
-      "chunks": [
-        {
-          "text": "Birds",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sing",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "in the morning",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Nature sounds"
-    },
-    {
-      "id": "2-17-8",
-      "section": "Day 17",
-      "description": "Time",
-      "question": "When do birds sing?",
-      "korean": "새들은 아침에 노래한다.",
-      "english": "Birds sing in the morning.",
-      "chunks": [
-        {
-          "text": "Birds",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sing",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "in the morning",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Nature sounds"
-    },
-    {
-      "id": "2-17-9",
-      "section": "Day 17",
-      "description": "Time",
-      "question": "When do birds sing?",
-      "korean": "새들은 아침에 노래한다.",
-      "english": "Birds sing in the morning.",
-      "chunks": [
-        {
-          "text": "Birds",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sing",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "in the morning",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Nature sounds"
-    },
-    {
-      "id": "2-17-10",
-      "section": "Day 17",
-      "description": "Time",
-      "question": "When do birds sing?",
-      "korean": "새들은 아침에 노래한다.",
-      "english": "Birds sing in the morning.",
-      "chunks": [
-        {
-          "text": "Birds",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sing",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "in the morning",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Nature sounds"
-    },
-    {
-      "id": "2-18-1",
-      "section": "Day 18",
-      "description": "Company",
-      "question": "Who do you walk with?",
-      "korean": "나는 강아지와 함께 걷는다.",
-      "english": "I walk with my dog.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "walk",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "with my dog",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Park stroll",
-      "grammarGuide": {
-        "title": "Company",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2-18-2",
-      "section": "Day 18",
-      "description": "Company",
-      "question": "Who do you walk with?",
-      "korean": "나는 강아지와 함께 걷는다.",
-      "english": "I walk with my dog.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "walk",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "with my dog",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Park stroll"
-    },
-    {
-      "id": "2-18-3",
-      "section": "Day 18",
-      "description": "Company",
-      "question": "Who do you walk with?",
-      "korean": "나는 강아지와 함께 걷는다.",
-      "english": "I walk with my dog.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "walk",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "with my dog",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Park stroll"
-    },
-    {
-      "id": "2-18-4",
-      "section": "Day 18",
-      "description": "Company",
-      "question": "Who do you walk with?",
-      "korean": "나는 강아지와 함께 걷는다.",
-      "english": "I walk with my dog.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "walk",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "with my dog",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Park stroll"
-    },
-    {
-      "id": "2-18-5",
-      "section": "Day 18",
-      "description": "Company",
-      "question": "Who do you walk with?",
-      "korean": "나는 강아지와 함께 걷는다.",
-      "english": "I walk with my dog.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "walk",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "with my dog",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Park stroll"
-    },
-    {
-      "id": "2-18-6",
-      "section": "Day 18",
-      "description": "Company",
-      "question": "Who do you walk with?",
-      "korean": "나는 강아지와 함께 걷는다.",
-      "english": "I walk with my dog.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "walk",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "with my dog",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Park stroll"
-    },
-    {
-      "id": "2-18-7",
-      "section": "Day 18",
-      "description": "Company",
-      "question": "Who do you walk with?",
-      "korean": "나는 강아지와 함께 걷는다.",
-      "english": "I walk with my dog.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "walk",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "with my dog",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Park stroll"
-    },
-    {
-      "id": "2-18-8",
-      "section": "Day 18",
-      "description": "Company",
-      "question": "Who do you walk with?",
-      "korean": "나는 강아지와 함께 걷는다.",
-      "english": "I walk with my dog.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "walk",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "with my dog",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Park stroll"
-    },
-    {
-      "id": "2-18-9",
-      "section": "Day 18",
-      "description": "Company",
-      "question": "Who do you walk with?",
-      "korean": "나는 강아지와 함께 걷는다.",
-      "english": "I walk with my dog.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "walk",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "with my dog",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Park stroll"
-    },
-    {
-      "id": "2-18-10",
-      "section": "Day 18",
-      "description": "Company",
-      "question": "Who do you walk with?",
-      "korean": "나는 강아지와 함께 걷는다.",
-      "english": "I walk with my dog.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "walk",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "with my dog",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Park stroll"
-    },
-    {
-      "id": "2-19-1",
-      "section": "Day 19",
-      "description": "Direction",
-      "question": "Where does the plane go?",
-      "korean": "비행기가 구름 위로 날아간다.",
-      "english": "The plane flies above the clouds.",
-      "chunks": [
-        {
-          "text": "The plane",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "flies",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "above the clouds",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Travel",
-      "grammarGuide": {
-        "title": "Direction",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2-19-2",
-      "section": "Day 19",
-      "description": "Direction",
-      "question": "Where does the plane go?",
-      "korean": "비행기가 구름 위로 날아간다.",
-      "english": "The plane flies above the clouds.",
-      "chunks": [
-        {
-          "text": "The plane",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "flies",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "above the clouds",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Travel"
-    },
-    {
-      "id": "2-19-3",
-      "section": "Day 19",
-      "description": "Direction",
-      "question": "Where does the plane go?",
-      "korean": "비행기가 구름 위로 날아간다.",
-      "english": "The plane flies above the clouds.",
-      "chunks": [
-        {
-          "text": "The plane",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "flies",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "above the clouds",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Travel"
-    },
-    {
-      "id": "2-19-4",
-      "section": "Day 19",
-      "description": "Direction",
-      "question": "Where does the plane go?",
-      "korean": "비행기가 구름 위로 날아간다.",
-      "english": "The plane flies above the clouds.",
-      "chunks": [
-        {
-          "text": "The plane",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "flies",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "above the clouds",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Travel"
-    },
-    {
-      "id": "2-19-5",
-      "section": "Day 19",
-      "description": "Direction",
-      "question": "Where does the plane go?",
-      "korean": "비행기가 구름 위로 날아간다.",
-      "english": "The plane flies above the clouds.",
-      "chunks": [
-        {
-          "text": "The plane",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "flies",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "above the clouds",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Travel"
-    },
-    {
-      "id": "2-19-6",
-      "section": "Day 19",
-      "description": "Direction",
-      "question": "Where does the plane go?",
-      "korean": "비행기가 구름 위로 날아간다.",
-      "english": "The plane flies above the clouds.",
-      "chunks": [
-        {
-          "text": "The plane",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "flies",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "above the clouds",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Travel"
-    },
-    {
-      "id": "2-19-7",
-      "section": "Day 19",
-      "description": "Direction",
-      "question": "Where does the plane go?",
-      "korean": "비행기가 구름 위로 날아간다.",
-      "english": "The plane flies above the clouds.",
-      "chunks": [
-        {
-          "text": "The plane",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "flies",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "above the clouds",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Travel"
-    },
-    {
-      "id": "2-19-8",
-      "section": "Day 19",
-      "description": "Direction",
-      "question": "Where does the plane go?",
-      "korean": "비행기가 구름 위로 날아간다.",
-      "english": "The plane flies above the clouds.",
-      "chunks": [
-        {
-          "text": "The plane",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "flies",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "above the clouds",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Travel"
-    },
-    {
-      "id": "2-19-9",
-      "section": "Day 19",
-      "description": "Direction",
-      "question": "Where does the plane go?",
-      "korean": "비행기가 구름 위로 날아간다.",
-      "english": "The plane flies above the clouds.",
-      "chunks": [
-        {
-          "text": "The plane",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "flies",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "above the clouds",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Travel"
-    },
-    {
-      "id": "2-19-10",
-      "section": "Day 19",
-      "description": "Direction",
-      "question": "Where does the plane go?",
-      "korean": "비행기가 구름 위로 날아간다.",
-      "english": "The plane flies above the clouds.",
-      "chunks": [
-        {
-          "text": "The plane",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "flies",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "above the clouds",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Travel"
-    },
-    {
-      "id": "2-20-1",
-      "section": "Day 20",
-      "description": "Means",
-      "question": "How do you travel?",
-      "korean": "우리는 기차를 타고 여행한다.",
-      "english": "We travel by train.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "travel",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "by train",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Vacation",
-      "grammarGuide": {
-        "title": "Means",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2-20-2",
-      "section": "Day 20",
-      "description": "Means",
-      "question": "How do you travel?",
-      "korean": "우리는 기차를 타고 여행한다.",
-      "english": "We travel by train.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "travel",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "by train",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Vacation"
-    },
-    {
-      "id": "2-20-3",
-      "section": "Day 20",
-      "description": "Means",
-      "question": "How do you travel?",
-      "korean": "우리는 기차를 타고 여행한다.",
-      "english": "We travel by train.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "travel",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "by train",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Vacation"
-    },
-    {
-      "id": "2-20-4",
-      "section": "Day 20",
-      "description": "Means",
-      "question": "How do you travel?",
-      "korean": "우리는 기차를 타고 여행한다.",
-      "english": "We travel by train.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "travel",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "by train",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Vacation"
-    },
-    {
-      "id": "2-20-5",
-      "section": "Day 20",
-      "description": "Means",
-      "question": "How do you travel?",
-      "korean": "우리는 기차를 타고 여행한다.",
-      "english": "We travel by train.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "travel",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "by train",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Vacation"
-    },
-    {
-      "id": "2-20-6",
-      "section": "Day 20",
-      "description": "Means",
-      "question": "How do you travel?",
-      "korean": "우리는 기차를 타고 여행한다.",
-      "english": "We travel by train.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "travel",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "by train",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Vacation"
-    },
-    {
-      "id": "2-20-7",
-      "section": "Day 20",
-      "description": "Means",
-      "question": "How do you travel?",
-      "korean": "우리는 기차를 타고 여행한다.",
-      "english": "We travel by train.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "travel",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "by train",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Vacation"
-    },
-    {
-      "id": "2-20-8",
-      "section": "Day 20",
-      "description": "Means",
-      "question": "How do you travel?",
-      "korean": "우리는 기차를 타고 여행한다.",
-      "english": "We travel by train.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "travel",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "by train",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Vacation"
-    },
-    {
-      "id": "2-20-9",
-      "section": "Day 20",
-      "description": "Means",
-      "question": "How do you travel?",
-      "korean": "우리는 기차를 타고 여행한다.",
-      "english": "We travel by train.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "travel",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "by train",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Vacation"
-    },
-    {
-      "id": "2-20-10",
-      "section": "Day 20",
-      "description": "Means",
-      "question": "How do you travel?",
-      "korean": "우리는 기차를 타고 여행한다.",
-      "english": "We travel by train.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "travel",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "by train",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Vacation"
-    },
-    {
-      "id": "2-21-1",
-      "section": "Day 21",
-      "description": "Review",
-      "question": "Where is the gift?",
-      "korean": "그 선물은 상자 안에 있다.",
-      "english": "The gift is inside the box.",
-      "chunks": [
-        {
-          "text": "The gift",
           "role": "Subject",
           "color": "#FF0000"
         },
@@ -1754,29 +19,1555 @@
           "color": "#FF7F00"
         },
         {
-          "text": "inside the box",
+          "text": "on the mat",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Birthday",
+      "context": "Core Lesson",
+      "grammarGuide": {
+        "title": "Core Lesson",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2-15-2",
+      "section": "Day 15",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "공은 테이블 아래에 있다.",
+      "english": "The ball is under the table.",
+      "chunks": [
+        {
+          "text": "The ball",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "under the table",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-15-3",
+      "section": "Day 15",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그는 의자 위에 앉는다.",
+      "english": "He sits upon the chair.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "sits",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "upon the chair",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-15-4",
+      "section": "Day 15",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "물고기는 물속에서 수영한다.",
+      "english": "Fish swim in the water.",
+      "chunks": [
+        {
+          "text": "Fish",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "swim",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "in the water",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-15-5",
+      "section": "Day 15",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "새는 나무 위에 있다.",
+      "english": "The bird is above the tree.",
+      "chunks": [
+        {
+          "text": "The bird",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "above the tree",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-15-6",
+      "section": "Day 15",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "내 옆에 서라.",
+      "english": "Stand next to me.",
+      "chunks": [
+        {
+          "text": "Stand",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "next to me",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-15-7",
+      "section": "Day 15",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "상점은 여기 근처다.",
+      "english": "The shop is near here.",
+      "chunks": [
+        {
+          "text": "The shop",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "near here",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-15-8",
+      "section": "Day 15",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "문 뒤에 숨어라.",
+      "english": "Hide behind the door.",
+      "chunks": [
+        {
+          "text": "Hide",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "behind the door",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-15-9",
+      "section": "Day 15",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "대문 앞에서 기다려라.",
+      "english": "Wait in front of the gate.",
+      "chunks": [
+        {
+          "text": "Wait",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "in front of the gate",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-15-10",
+      "section": "Day 15",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "선 사이로 걸어라.",
+      "english": "Walk between the lines.",
+      "chunks": [
+        {
+          "text": "Walk",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "between the lines",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-16-1",
+      "section": "Day 16",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "학교로 가라.",
+      "english": "Go to school.",
+      "chunks": [
+        {
+          "text": "Go",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "to school",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": {
+        "title": "Core Lesson",
+        "structure": [
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2-16-2",
+      "section": "Day 16",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "집에서 와라.",
+      "english": "Come from home.",
+      "chunks": [
+        {
+          "text": "Come",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "from home",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-16-3",
+      "section": "Day 16",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "빛을 향해 걸어라.",
+      "english": "Walk towards the light.",
+      "chunks": [
+        {
+          "text": "Walk",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "towards the light",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-16-4",
+      "section": "Day 16",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "집으로 뛰어 들어가라.",
+      "english": "Run into the house.",
+      "chunks": [
+        {
+          "text": "Run",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "into the house",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-16-5",
+      "section": "Day 16",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "언덕 위로 올라가라.",
+      "english": "Climb up the hill.",
+      "chunks": [
+        {
+          "text": "Climb",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "up the hill",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-16-6",
+      "section": "Day 16",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "상자에서 뛰어내려라.",
+      "english": "Jump off the box.",
+      "chunks": [
+        {
+          "text": "Jump",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "off the box",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-16-7",
+      "section": "Day 16",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "창문을 통해 봐라.",
+      "english": "Look through the window.",
+      "chunks": [
+        {
+          "text": "Look",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "through the window",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-16-8",
+      "section": "Day 16",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "길을 건너라.",
+      "english": "Walk across the street.",
+      "chunks": [
+        {
+          "text": "Walk",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "across the street",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-16-9",
+      "section": "Day 16",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "강을 따라 운전해라.",
+      "english": "Drive along the river.",
+      "chunks": [
+        {
+          "text": "Drive",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "along the river",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-16-10",
+      "section": "Day 16",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "계단을 내려가라.",
+      "english": "Go down the stairs.",
+      "chunks": [
+        {
+          "text": "Go",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "down the stairs",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-17-1",
+      "section": "Day 17",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 7시에 일어난다.",
+      "english": "I wake up at 7.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "wake up",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "at 7",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": {
+        "title": "Core Lesson",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2-17-2",
+      "section": "Day 17",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "월요일에 봐.",
+      "english": "See you on Monday.",
+      "chunks": [
+        {
+          "text": "See",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "you",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "on Monday",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-17-3",
+      "section": "Day 17",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "우리는 여름에 수영한다.",
+      "english": "We swim in summer.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "swim",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "in summer",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-17-4",
+      "section": "Day 17",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "한 시간 동안 기다려라.",
+      "english": "Wait for an hour.",
+      "chunks": [
+        {
+          "text": "Wait",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "for an hour",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-17-5",
+      "section": "Day 17",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "정오까지 끝내라.",
+      "english": "Finish by noon.",
+      "chunks": [
+        {
+          "text": "Finish",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "by noon",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-17-6",
+      "section": "Day 17",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 6시까지 일한다.",
+      "english": "I work until 6.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "work",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "until 6",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-17-7",
+      "section": "Day 17",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "점심 식사 후에 만나.",
+      "english": "Meet me after lunch.",
+      "chunks": [
+        {
+          "text": "Meet",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "me",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "after lunch",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-17-8",
+      "section": "Day 17",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "저녁 식사 전에 손을 씻어라.",
+      "english": "Wash hands before dinner.",
+      "chunks": [
+        {
+          "text": "Wash",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "hands",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "before dinner",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-17-9",
+      "section": "Day 17",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "영화 보는 동안, 쉿.",
+      "english": "During the movie, shh.",
+      "chunks": [
+        {
+          "text": "During the movie",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "shh",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-17-10",
+      "section": "Day 17",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "어제부터 나는 아프다.",
+      "english": "Since yesterday, I am sick.",
+      "chunks": [
+        {
+          "text": "Since yesterday",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "am",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "sick",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-18-1",
+      "section": "Day 18",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "이 선물은 너를 위한 거야.",
+      "english": "This gift is for you.",
+      "chunks": [
+        {
+          "text": "This gift",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "for you",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": {
+        "title": "Core Lesson",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2-18-2",
+      "section": "Day 18",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 너에게 동의해.",
+      "english": "I agree with you.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "agree",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "with you",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-18-3",
+      "section": "Day 18",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그것에 대해 생각해 봐.",
+      "english": "Think about it.",
+      "chunks": [
+        {
+          "text": "Think",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "about it",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-18-4",
+      "section": "Day 18",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "별들을 봐.",
+      "english": "Look at the stars.",
+      "chunks": [
+        {
+          "text": "Look",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "at the stars",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-18-5",
+      "section": "Day 18",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "음악을 들어라.",
+      "english": "Listen to music.",
+      "chunks": [
+        {
+          "text": "Listen",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "to music",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-18-6",
+      "section": "Day 18",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그는 수학을 잘한다.",
+      "english": "He is good at math.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "good",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "at math",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-18-7",
+      "section": "Day 18",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 유령이 무섭다.",
+      "english": "I am afraid of ghosts.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "am",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "afraid",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "of ghosts",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-18-8",
+      "section": "Day 18",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "너 자신을 믿어라.",
+      "english": "Believe in yourself.",
+      "chunks": [
+        {
+          "text": "Believe",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "in yourself",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-18-9",
+      "section": "Day 18",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나에게 말해.",
+      "english": "Talk to me.",
+      "chunks": [
+        {
+          "text": "Talk",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "to me",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-18-10",
+      "section": "Day 18",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나를 기다려.",
+      "english": "Wait for me.",
+      "chunks": [
+        {
+          "text": "Wait",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "for me",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-19-1",
+      "section": "Day 19",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나는 너에게 동의해.",
+      "english": "I agree with you.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "agree",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "with you",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
       "grammarGuide": {
         "title": "Review",
         "structure": [
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
             "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
+            "color": "#B0BEC5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2-19-2",
+      "section": "Day 19",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "영화 보는 동안, 쉿.",
+      "english": "During the movie, shh.",
+      "chunks": [
+        {
+          "text": "During the movie",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "shh",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-19-3",
+      "section": "Day 19",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "집으로 뛰어 들어가라.",
+      "english": "Run into the house.",
+      "chunks": [
+        {
+          "text": "Run",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "into the house",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-19-4",
+      "section": "Day 19",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "빛을 향해 걸어라.",
+      "english": "Walk towards the light.",
+      "chunks": [
+        {
+          "text": "Walk",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "towards the light",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-19-5",
+      "section": "Day 19",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "계단을 내려가라.",
+      "english": "Go down the stairs.",
+      "chunks": [
+        {
+          "text": "Go",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "down the stairs",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-19-6",
+      "section": "Day 19",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "학교로 가라.",
+      "english": "Go to school.",
+      "chunks": [
+        {
+          "text": "Go",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "to school",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-19-7",
+      "section": "Day 19",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "상점은 여기 근처다.",
+      "english": "The shop is near here.",
+      "chunks": [
+        {
+          "text": "The shop",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "near here",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-19-8",
+      "section": "Day 19",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "문 뒤에 숨어라.",
+      "english": "Hide behind the door.",
+      "chunks": [
+        {
+          "text": "Hide",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "behind the door",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-19-9",
+      "section": "Day 19",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "상자에서 뛰어내려라.",
+      "english": "Jump off the box.",
+      "chunks": [
+        {
+          "text": "Jump",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "off the box",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-19-10",
+      "section": "Day 19",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "선 사이로 걸어라.",
+      "english": "Walk between the lines.",
+      "chunks": [
+        {
+          "text": "Walk",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "between the lines",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-20-1",
+      "section": "Day 20",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "음악을 들어라.",
+      "english": "Listen to music.",
+      "chunks": [
+        {
+          "text": "Listen",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "to music",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": {
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2-20-2",
+      "section": "Day 20",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "언덕 위로 올라가라.",
+      "english": "Climb up the hill.",
+      "chunks": [
+        {
+          "text": "Climb",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "up the hill",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-20-3",
+      "section": "Day 20",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "계단을 내려가라.",
+      "english": "Go down the stairs.",
+      "chunks": [
+        {
+          "text": "Go",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "down the stairs",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-20-4",
+      "section": "Day 20",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "강을 따라 운전해라.",
+      "english": "Drive along the river.",
+      "chunks": [
+        {
+          "text": "Drive",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "along the river",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-20-5",
+      "section": "Day 20",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "집으로 뛰어 들어가라.",
+      "english": "Run into the house.",
+      "chunks": [
+        {
+          "text": "Run",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "into the house",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-20-6",
+      "section": "Day 20",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "어제부터 나는 아프다.",
+      "english": "Since yesterday, I am sick.",
+      "chunks": [
+        {
+          "text": "Since yesterday",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "am",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "sick",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-20-7",
+      "section": "Day 20",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "창문을 통해 봐라.",
+      "english": "Look through the window.",
+      "chunks": [
+        {
+          "text": "Look",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "through the window",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-20-8",
+      "section": "Day 20",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "집에서 와라.",
+      "english": "Come from home.",
+      "chunks": [
+        {
+          "text": "Come",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "from home",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-20-9",
+      "section": "Day 20",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나는 6시까지 일한다.",
+      "english": "I work until 6.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "work",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "until 6",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-20-10",
+      "section": "Day 20",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "점심 식사 후에 만나.",
+      "english": "Meet me after lunch.",
+      "chunks": [
+        {
+          "text": "Meet",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "me",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "after lunch",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "2-21-1",
+      "section": "Day 21",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "강을 따라 운전해라.",
+      "english": "Drive along the river.",
+      "chunks": [
+        {
+          "text": "Drive",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "along the river",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": {
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
           }
         ]
       }
@@ -1785,235 +1576,219 @@
       "id": "2-21-2",
       "section": "Day 21",
       "description": "Review",
-      "question": "Where is the gift?",
-      "korean": "그 선물은 상자 안에 있다.",
-      "english": "The gift is inside the box.",
+      "question": "Review Time",
+      "korean": "점심 식사 후에 만나.",
+      "english": "Meet me after lunch.",
       "chunks": [
         {
-          "text": "The gift",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
+          "text": "Meet",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "inside the box",
+          "text": "me",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "after lunch",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Birthday"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "2-21-3",
       "section": "Day 21",
       "description": "Review",
-      "question": "Where is the gift?",
-      "korean": "그 선물은 상자 안에 있다.",
-      "english": "The gift is inside the box.",
+      "question": "Review Time",
+      "korean": "나를 기다려.",
+      "english": "Wait for me.",
       "chunks": [
         {
-          "text": "The gift",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
+          "text": "Wait",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "inside the box",
+          "text": "for me",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Birthday"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "2-21-4",
       "section": "Day 21",
       "description": "Review",
-      "question": "Where is the gift?",
-      "korean": "그 선물은 상자 안에 있다.",
-      "english": "The gift is inside the box.",
+      "question": "Review Time",
+      "korean": "상자에서 뛰어내려라.",
+      "english": "Jump off the box.",
       "chunks": [
         {
-          "text": "The gift",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
+          "text": "Jump",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "inside the box",
+          "text": "off the box",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Birthday"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "2-21-5",
       "section": "Day 21",
       "description": "Review",
-      "question": "Where is the gift?",
-      "korean": "그 선물은 상자 안에 있다.",
-      "english": "The gift is inside the box.",
+      "question": "Review Time",
+      "korean": "나는 너에게 동의해.",
+      "english": "I agree with you.",
       "chunks": [
         {
-          "text": "The gift",
+          "text": "I",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "is",
+          "text": "agree",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "inside the box",
+          "text": "with you",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Birthday"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "2-21-6",
       "section": "Day 21",
       "description": "Review",
-      "question": "Where is the gift?",
-      "korean": "그 선물은 상자 안에 있다.",
-      "english": "The gift is inside the box.",
+      "question": "Review Time",
+      "korean": "선 사이로 걸어라.",
+      "english": "Walk between the lines.",
       "chunks": [
         {
-          "text": "The gift",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
+          "text": "Walk",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "inside the box",
+          "text": "between the lines",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Birthday"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "2-21-7",
       "section": "Day 21",
       "description": "Review",
-      "question": "Where is the gift?",
-      "korean": "그 선물은 상자 안에 있다.",
-      "english": "The gift is inside the box.",
+      "question": "Review Time",
+      "korean": "월요일에 봐.",
+      "english": "See you on Monday.",
       "chunks": [
         {
-          "text": "The gift",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
+          "text": "See",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "inside the box",
+          "text": "you",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "on Monday",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Birthday"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "2-21-8",
       "section": "Day 21",
       "description": "Review",
-      "question": "Where is the gift?",
-      "korean": "그 선물은 상자 안에 있다.",
-      "english": "The gift is inside the box.",
+      "question": "Review Time",
+      "korean": "나는 7시에 일어난다.",
+      "english": "I wake up at 7.",
       "chunks": [
         {
-          "text": "The gift",
+          "text": "I",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "is",
+          "text": "wake up",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "inside the box",
+          "text": "at 7",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Birthday"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "2-21-9",
       "section": "Day 21",
       "description": "Review",
-      "question": "Where is the gift?",
-      "korean": "그 선물은 상자 안에 있다.",
-      "english": "The gift is inside the box.",
+      "question": "Review Time",
+      "korean": "문 뒤에 숨어라.",
+      "english": "Hide behind the door.",
       "chunks": [
         {
-          "text": "The gift",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
+          "text": "Hide",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "inside the box",
+          "text": "behind the door",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Birthday"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "2-21-10",
       "section": "Day 21",
       "description": "Review",
-      "question": "Where is the gift?",
-      "korean": "그 선물은 상자 안에 있다.",
-      "english": "The gift is inside the box.",
+      "question": "Review Time",
+      "korean": "빛을 향해 걸어라.",
+      "english": "Walk towards the light.",
       "chunks": [
         {
-          "text": "The gift",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
+          "text": "Walk",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "inside the box",
+          "text": "towards the light",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Birthday"
+      "context": "Review",
+      "grammarGuide": null
     }
   ]
 }

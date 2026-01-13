@@ -1,12 +1,12 @@
 {
   "curriculum": [
     {
-      "id": "2-1-1",
+      "id": "3-1-1",
       "section": "Day 1",
-      "description": "Simple Past (Regular)",
-      "question": "What did you do?",
-      "korean": "나는 어제 영화를 봤다.",
-      "english": "I watched a movie yesterday.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 어제 할머니 댁을 방문했다.",
+      "english": "I visited my grandma yesterday.",
       "chunks": [
         {
           "text": "I",
@@ -14,12 +14,12 @@
           "color": "#FF0000"
         },
         {
-          "text": "watched",
+          "text": "visited",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "a movie",
+          "text": "my grandma",
           "role": "Object",
           "color": "#FFD700"
         },
@@ -29,43 +29,71 @@
           "color": "#BA68C8"
         }
       ],
-      "context": "Weekend talk",
+      "context": "Core Lesson",
       "grammarGuide": {
-        "title": "Simple Past (Regular)",
+        "title": "Core Lesson",
         "structure": [
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
             "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
+            "color": "#FFD700"
           },
           {
             "text": "Adverb",
-            "color": "#BA68C8",
-            "desc": "어떻게/어디서"
+            "color": "#BA68C8"
           }
         ]
       }
     },
     {
-      "id": "2-1-2",
+      "id": "3-1-2",
       "section": "Day 1",
-      "description": "Simple Past (Regular)",
-      "question": "What did you do?",
-      "korean": "나는 어제 영화를 봤다.",
-      "english": "I watched a movie yesterday.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그녀는 지난주에 축구를 했다.",
+      "english": "She played soccer last week.",
       "chunks": [
         {
-          "text": "I",
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "played",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "soccer",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "last week",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-1-3",
+      "section": "Day 1",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "우리는 함께 영화를 보았다.",
+      "english": "We watched a movie together.",
+      "chunks": [
+        {
+          "text": "We",
           "role": "Subject",
           "color": "#FF0000"
         },
@@ -80,20 +108,102 @@
           "color": "#FFD700"
         },
         {
-          "text": "yesterday",
+          "text": "together",
           "role": "Adverb",
           "color": "#BA68C8"
         }
       ],
-      "context": "Weekend talk"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-1-3",
+      "id": "3-1-4",
       "section": "Day 1",
-      "description": "Simple Past (Regular)",
-      "question": "What did you do?",
-      "korean": "나는 어제 영화를 봤다.",
-      "english": "I watched a movie yesterday.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그는 그의 방을 청소했다.",
+      "english": "He cleaned his room.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "cleaned",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "his room",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-1-5",
+      "section": "Day 1",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그들은 파티에서 춤을 췄다.",
+      "english": "They danced at the party.",
+      "chunks": [
+        {
+          "text": "They",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "danced",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "at the party",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-1-6",
+      "section": "Day 1",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "하루 종일 비가 왔다.",
+      "english": "It rained all day.",
+      "chunks": [
+        {
+          "text": "It",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "rained",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "all day",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-1-7",
+      "section": "Day 1",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 그들을 위해 저녁을 요리했다.",
+      "english": "I cooked dinner for them.",
       "chunks": [
         {
           "text": "I",
@@ -101,247 +211,155 @@
           "color": "#FF0000"
         },
         {
-          "text": "watched",
+          "text": "cooked",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "a movie",
+          "text": "dinner",
           "role": "Object",
           "color": "#FFD700"
         },
         {
-          "text": "yesterday",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "for them",
+          "role": "Modifier",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Weekend talk"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-1-4",
+      "id": "3-1-8",
       "section": "Day 1",
-      "description": "Simple Past (Regular)",
-      "question": "What did you do?",
-      "korean": "나는 어제 영화를 봤다.",
-      "english": "I watched a movie yesterday.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "너는 열심히 공부했다.",
+      "english": "You studied hard.",
       "chunks": [
         {
-          "text": "I",
+          "text": "You",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "watched",
+          "text": "studied",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "a movie",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "yesterday",
+          "text": "hard",
           "role": "Adverb",
           "color": "#BA68C8"
         }
       ],
-      "context": "Weekend talk"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-1-5",
+      "id": "3-1-9",
       "section": "Day 1",
-      "description": "Simple Past (Regular)",
-      "question": "What did you do?",
-      "korean": "나는 어제 영화를 봤다.",
-      "english": "I watched a movie yesterday.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "버스가 늦게 도착했다.",
+      "english": "The bus arrived late.",
       "chunks": [
         {
-          "text": "I",
+          "text": "The bus",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "watched",
+          "text": "arrived",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "a movie",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "yesterday",
+          "text": "late",
           "role": "Adverb",
           "color": "#BA68C8"
         }
       ],
-      "context": "Weekend talk"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-1-6",
+      "id": "3-1-10",
       "section": "Day 1",
-      "description": "Simple Past (Regular)",
-      "question": "What did you do?",
-      "korean": "나는 어제 영화를 봤다.",
-      "english": "I watched a movie yesterday.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그녀는 저 노래를 좋아했다.",
+      "english": "She loved that song.",
       "chunks": [
         {
-          "text": "I",
+          "text": "She",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "watched",
+          "text": "loved",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "a movie",
+          "text": "that song",
           "role": "Object",
           "color": "#FFD700"
-        },
-        {
-          "text": "yesterday",
-          "role": "Adverb",
-          "color": "#BA68C8"
         }
       ],
-      "context": "Weekend talk"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-1-7",
-      "section": "Day 1",
-      "description": "Simple Past (Regular)",
-      "question": "What did you do?",
-      "korean": "나는 어제 영화를 봤다.",
-      "english": "I watched a movie yesterday.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "watched",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a movie",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "yesterday",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Weekend talk"
-    },
-    {
-      "id": "2-1-8",
-      "section": "Day 1",
-      "description": "Simple Past (Regular)",
-      "question": "What did you do?",
-      "korean": "나는 어제 영화를 봤다.",
-      "english": "I watched a movie yesterday.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "watched",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a movie",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "yesterday",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Weekend talk"
-    },
-    {
-      "id": "2-1-9",
-      "section": "Day 1",
-      "description": "Simple Past (Regular)",
-      "question": "What did you do?",
-      "korean": "나는 어제 영화를 봤다.",
-      "english": "I watched a movie yesterday.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "watched",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a movie",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "yesterday",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Weekend talk"
-    },
-    {
-      "id": "2-1-10",
-      "section": "Day 1",
-      "description": "Simple Past (Regular)",
-      "question": "What did you do?",
-      "korean": "나는 어제 영화를 봤다.",
-      "english": "I watched a movie yesterday.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "watched",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a movie",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "yesterday",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Weekend talk"
-    },
-    {
-      "id": "2-2-1",
+      "id": "3-2-1",
       "section": "Day 2",
-      "description": "Simple Past (Irregular)",
-      "question": "What did he eat?",
-      "korean": "그는 점심으로 피자를 먹었다.",
-      "english": "He ate pizza for lunch.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 공원에 갔다.",
+      "english": "I went to the park.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "went",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "to the park",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": {
+        "title": "Core Lesson",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3-2-2",
+      "section": "Day 2",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그는 큰 피자를 먹었다.",
+      "english": "He ate a big pizza.",
       "chunks": [
         {
           "text": "He",
@@ -354,329 +372,755 @@
           "color": "#FF7F00"
         },
         {
-          "text": "pizza",
+          "text": "a big pizza",
           "role": "Object",
           "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-2-3",
+      "section": "Day 2",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그녀는 새 가방을 샀다.",
+      "english": "She bought a new bag.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
         },
         {
-          "text": "for lunch",
+          "text": "bought",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a new bag",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-2-4",
+      "section": "Day 2",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "우리는 웃긴 광대를 보았다.",
+      "english": "We saw a funny clown.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "saw",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a funny clown",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-2-5",
+      "section": "Day 2",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그들은 매우 빨리 달렸다.",
+      "english": "They ran very fast.",
+      "chunks": [
+        {
+          "text": "They",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "ran",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "very fast",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-2-6",
+      "section": "Day 2",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 실수를 했다.",
+      "english": "I made a mistake.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "made",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a mistake",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-2-7",
+      "section": "Day 2",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그는 찬물을 마셨다.",
+      "english": "He drank cold water.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "drank",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "cold water",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-2-8",
+      "section": "Day 2",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그녀는 편지를 썼다.",
+      "english": "She wrote a letter.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "wrote",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a letter",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-2-9",
+      "section": "Day 2",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "새가 날아갔다.",
+      "english": "The bird flew away.",
+      "chunks": [
+        {
+          "text": "The bird",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "flew",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "away",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-2-10",
+      "section": "Day 2",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "우리는 일찍 잤다.",
+      "english": "We slept early.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "slept",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "early",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-3-1",
+      "section": "Day 3",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 거기에 가지 않았다.",
+      "english": "I did not go there.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "did not go",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "there",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Lunch menu",
+      "context": "Core Lesson",
       "grammarGuide": {
-        "title": "Simple Past (Irregular)",
+        "title": "Core Lesson",
         "structure": [
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3-3-2",
+      "section": "Day 3",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그녀는 점심을 먹지 않았다.",
+      "english": "She did not eat lunch.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "did not eat",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "lunch",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-3-3",
+      "section": "Day 3",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그는 나를 보지 못했다.",
+      "english": "He didn't see me.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "didn't see",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "me",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-3-4",
+      "section": "Day 3",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "우리는 게임을 하지 않았다.",
+      "english": "We didn't play games.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "didn't play",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "games",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-3-5",
+      "section": "Day 3",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그들은 오늘 오지 않았다.",
+      "english": "They didn't come today.",
+      "chunks": [
+        {
+          "text": "They",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "didn't come",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "today",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-3-6",
+      "section": "Day 3",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "어제는 비가 오지 않았다.",
+      "english": "It didn't rain yesterday.",
+      "chunks": [
+        {
+          "text": "It",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "didn't rain",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "yesterday",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-3-7",
+      "section": "Day 3",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "너는 대답하지 않았다.",
+      "english": "You didn't answer.",
+      "chunks": [
+        {
+          "text": "You",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "didn't answer",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-3-8",
+      "section": "Day 3",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 아무것도 사지 않았다.",
+      "english": "I didn't buy anything.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "didn't buy",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "anything",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-3-9",
+      "section": "Day 3",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그녀는 정답을 몰랐다.",
+      "english": "She didn't know the answer.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "didn't know",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the answer",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-3-10",
+      "section": "Day 3",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그는 일을 끝내지 못했다.",
+      "english": "He didn't finish his work.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "didn't finish",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "his work",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-4-1",
+      "section": "Day 4",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "너 저거 봤니?",
+      "english": "Did you see that?",
+      "chunks": [
+        {
+          "text": "Did you see",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "that",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": {
+        "title": "Core Lesson",
+        "structure": [
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
           },
           {
             "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
+            "color": "#FFD700"
           }
         ]
       }
     },
     {
-      "id": "2-2-2",
-      "section": "Day 2",
-      "description": "Simple Past (Irregular)",
-      "question": "What did he eat?",
-      "korean": "그는 점심으로 피자를 먹었다.",
-      "english": "He ate pizza for lunch.",
+      "id": "3-4-2",
+      "section": "Day 4",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그가 집에 왔니?",
+      "english": "Did he come home?",
       "chunks": [
         {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "ate",
+          "text": "Did he come",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "pizza",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "for lunch",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "home",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Lunch menu"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-2-3",
-      "section": "Day 2",
-      "description": "Simple Past (Irregular)",
-      "question": "What did he eat?",
-      "korean": "그는 점심으로 피자를 먹었다.",
-      "english": "He ate pizza for lunch.",
+      "id": "3-4-3",
+      "section": "Day 4",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그녀가 선물을 좋아했니?",
+      "english": "Did she like the gift?",
       "chunks": [
         {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "ate",
+          "text": "Did she like",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "pizza",
+          "text": "the gift",
           "role": "Object",
           "color": "#FFD700"
-        },
-        {
-          "text": "for lunch",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Lunch menu"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-2-4",
-      "section": "Day 2",
-      "description": "Simple Past (Irregular)",
-      "question": "What did he eat?",
-      "korean": "그는 점심으로 피자를 먹었다.",
-      "english": "He ate pizza for lunch.",
+      "id": "3-4-4",
+      "section": "Day 4",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그들이 벌써 떠났니?",
+      "english": "Did they leave already?",
       "chunks": [
         {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "ate",
+          "text": "Did they leave",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "pizza",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "for lunch",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "already",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Lunch menu"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-2-5",
-      "section": "Day 2",
-      "description": "Simple Past (Irregular)",
-      "question": "What did he eat?",
-      "korean": "그는 점심으로 피자를 먹었다.",
-      "english": "He ate pizza for lunch.",
+      "id": "3-4-5",
+      "section": "Day 4",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "어젯밤에 눈이 왔니?",
+      "english": "Did it snow last night?",
       "chunks": [
         {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "ate",
+          "text": "Did it snow",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "pizza",
+          "text": "last night",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-4-6",
+      "section": "Day 4",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "너 어디 갔었니?",
+      "english": "Where did you go?",
+      "chunks": [
+        {
+          "text": "Where",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "did you go",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-4-7",
+      "section": "Day 4",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그가 뭐라고 했니?",
+      "english": "What did he say?",
+      "chunks": [
+        {
+          "text": "What",
           "role": "Object",
           "color": "#FFD700"
         },
         {
-          "text": "for lunch",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "did he say",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Lunch menu"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-2-6",
-      "section": "Day 2",
-      "description": "Simple Past (Irregular)",
-      "question": "What did he eat?",
-      "korean": "그는 점심으로 피자를 먹었다.",
-      "english": "He ate pizza for lunch.",
+      "id": "3-4-8",
+      "section": "Day 4",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그들이 언제 도착했니?",
+      "english": "When did they arrive?",
       "chunks": [
         {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
+          "text": "When",
+          "role": "Adverb",
+          "color": "#BA68C8"
         },
         {
-          "text": "ate",
+          "text": "did they arrive",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-4-9",
+      "section": "Day 4",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그녀가 왜 울었니?",
+      "english": "Why did she cry?",
+      "chunks": [
+        {
+          "text": "Why",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "did she cry",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-4-10",
+      "section": "Day 4",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "너 그거 어떻게 했니?",
+      "english": "How did you do it?",
+      "chunks": [
+        {
+          "text": "How",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "did you do",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "pizza",
+          "text": "it",
           "role": "Object",
           "color": "#FFD700"
-        },
-        {
-          "text": "for lunch",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Lunch menu"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-2-7",
-      "section": "Day 2",
-      "description": "Simple Past (Irregular)",
-      "question": "What did he eat?",
-      "korean": "그는 점심으로 피자를 먹었다.",
-      "english": "He ate pizza for lunch.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "ate",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "pizza",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "for lunch",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Lunch menu"
-    },
-    {
-      "id": "2-2-8",
-      "section": "Day 2",
-      "description": "Simple Past (Irregular)",
-      "question": "What did he eat?",
-      "korean": "그는 점심으로 피자를 먹었다.",
-      "english": "He ate pizza for lunch.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "ate",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "pizza",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "for lunch",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Lunch menu"
-    },
-    {
-      "id": "2-2-9",
-      "section": "Day 2",
-      "description": "Simple Past (Irregular)",
-      "question": "What did he eat?",
-      "korean": "그는 점심으로 피자를 먹었다.",
-      "english": "He ate pizza for lunch.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "ate",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "pizza",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "for lunch",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Lunch menu"
-    },
-    {
-      "id": "2-2-10",
-      "section": "Day 2",
-      "description": "Simple Past (Irregular)",
-      "question": "What did he eat?",
-      "korean": "그는 점심으로 피자를 먹었다.",
-      "english": "He ate pizza for lunch.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "ate",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "pizza",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "for lunch",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Lunch menu"
-    },
-    {
-      "id": "2-3-1",
-      "section": "Day 3",
-      "description": "Future (Will)",
-      "question": "What will she do?",
-      "korean": "그녀는 열심히 공부할 것이다.",
-      "english": "She will study hard.",
+      "id": "3-5-1",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그녀는 저 노래를 좋아했다.",
+      "english": "She loved that song.",
       "chunks": [
         {
           "text": "She",
@@ -684,7 +1128,50 @@
           "color": "#FF0000"
         },
         {
-          "text": "will study",
+          "text": "loved",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "that song",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": {
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Object",
+            "color": "#FFD700"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3-5-2",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "너는 열심히 공부했다.",
+      "english": "You studied hard.",
+      "chunks": [
+        {
+          "text": "You",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "studied",
           "role": "Verb",
           "color": "#FF7F00"
         },
@@ -694,494 +1181,300 @@
           "color": "#BA68C8"
         }
       ],
-      "context": "Exam preparation",
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-5-3",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "너 저거 봤니?",
+      "english": "Did you see that?",
+      "chunks": [
+        {
+          "text": "Did you see",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "that",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-5-4",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나는 실수를 했다.",
+      "english": "I made a mistake.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "made",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a mistake",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-5-5",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그녀는 정답을 몰랐다.",
+      "english": "She didn't know the answer.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "didn't know",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the answer",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-5-6",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나는 아무것도 사지 않았다.",
+      "english": "I didn't buy anything.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "didn't buy",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "anything",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-5-7",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나는 공원에 갔다.",
+      "english": "I went to the park.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "went",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "to the park",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-5-8",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "너 어디 갔었니?",
+      "english": "Where did you go?",
+      "chunks": [
+        {
+          "text": "Where",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "did you go",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-5-9",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나는 거기에 가지 않았다.",
+      "english": "I did not go there.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "did not go",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "there",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-5-10",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그녀가 선물을 좋아했니?",
+      "english": "Did she like the gift?",
+      "chunks": [
+        {
+          "text": "Did she like",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the gift",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-6-1",
+      "section": "Day 6",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그들이 벌써 떠났니?",
+      "english": "Did they leave already?",
+      "chunks": [
+        {
+          "text": "Did they leave",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "already",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
       "grammarGuide": {
-        "title": "Future (Will)",
+        "title": "Review",
         "structure": [
           {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
             "text": "Adverb",
-            "color": "#BA68C8",
-            "desc": "어떻게/어디서"
+            "color": "#BA68C8"
           }
         ]
       }
     },
     {
-      "id": "2-3-2",
-      "section": "Day 3",
-      "description": "Future (Will)",
-      "question": "What will she do?",
-      "korean": "그녀는 열심히 공부할 것이다.",
-      "english": "She will study hard.",
+      "id": "3-6-2",
+      "section": "Day 6",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그들이 언제 도착했니?",
+      "english": "When did they arrive?",
       "chunks": [
         {
-          "text": "She",
+          "text": "When",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "did they arrive",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-6-3",
+      "section": "Day 6",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "우리는 게임을 하지 않았다.",
+      "english": "We didn't play games.",
+      "chunks": [
+        {
+          "text": "We",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "will study",
+          "text": "didn't play",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "hard",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "games",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Exam preparation"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-3-3",
-      "section": "Day 3",
-      "description": "Future (Will)",
-      "question": "What will she do?",
-      "korean": "그녀는 열심히 공부할 것이다.",
-      "english": "She will study hard.",
-      "chunks": [
-        {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "will study",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "hard",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Exam preparation"
-    },
-    {
-      "id": "2-3-4",
-      "section": "Day 3",
-      "description": "Future (Will)",
-      "question": "What will she do?",
-      "korean": "그녀는 열심히 공부할 것이다.",
-      "english": "She will study hard.",
-      "chunks": [
-        {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "will study",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "hard",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Exam preparation"
-    },
-    {
-      "id": "2-3-5",
-      "section": "Day 3",
-      "description": "Future (Will)",
-      "question": "What will she do?",
-      "korean": "그녀는 열심히 공부할 것이다.",
-      "english": "She will study hard.",
-      "chunks": [
-        {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "will study",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "hard",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Exam preparation"
-    },
-    {
-      "id": "2-3-6",
-      "section": "Day 3",
-      "description": "Future (Will)",
-      "question": "What will she do?",
-      "korean": "그녀는 열심히 공부할 것이다.",
-      "english": "She will study hard.",
-      "chunks": [
-        {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "will study",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "hard",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Exam preparation"
-    },
-    {
-      "id": "2-3-7",
-      "section": "Day 3",
-      "description": "Future (Will)",
-      "question": "What will she do?",
-      "korean": "그녀는 열심히 공부할 것이다.",
-      "english": "She will study hard.",
-      "chunks": [
-        {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "will study",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "hard",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Exam preparation"
-    },
-    {
-      "id": "2-3-8",
-      "section": "Day 3",
-      "description": "Future (Will)",
-      "question": "What will she do?",
-      "korean": "그녀는 열심히 공부할 것이다.",
-      "english": "She will study hard.",
-      "chunks": [
-        {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "will study",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "hard",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Exam preparation"
-    },
-    {
-      "id": "2-3-9",
-      "section": "Day 3",
-      "description": "Future (Will)",
-      "question": "What will she do?",
-      "korean": "그녀는 열심히 공부할 것이다.",
-      "english": "She will study hard.",
-      "chunks": [
-        {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "will study",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "hard",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Exam preparation"
-    },
-    {
-      "id": "2-3-10",
-      "section": "Day 3",
-      "description": "Future (Will)",
-      "question": "What will she do?",
-      "korean": "그녀는 열심히 공부할 것이다.",
-      "english": "She will study hard.",
-      "chunks": [
-        {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "will study",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "hard",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Exam preparation"
-    },
-    {
-      "id": "2-4-1",
-      "section": "Day 4",
-      "description": "Future Question",
-      "question": "Will you go?",
-      "korean": "너는 파티에 갈 거니?",
-      "english": "Will you go to the party?",
-      "chunks": [
-        {
-          "text": "Will you go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to the party",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Invitation",
-      "grammarGuide": {
-        "title": "Future Question",
-        "structure": [
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2-4-2",
-      "section": "Day 4",
-      "description": "Future Question",
-      "question": "Will you go?",
-      "korean": "너는 파티에 갈 거니?",
-      "english": "Will you go to the party?",
-      "chunks": [
-        {
-          "text": "Will you go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to the party",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Invitation"
-    },
-    {
-      "id": "2-4-3",
-      "section": "Day 4",
-      "description": "Future Question",
-      "question": "Will you go?",
-      "korean": "너는 파티에 갈 거니?",
-      "english": "Will you go to the party?",
-      "chunks": [
-        {
-          "text": "Will you go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to the party",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Invitation"
-    },
-    {
-      "id": "2-4-4",
-      "section": "Day 4",
-      "description": "Future Question",
-      "question": "Will you go?",
-      "korean": "너는 파티에 갈 거니?",
-      "english": "Will you go to the party?",
-      "chunks": [
-        {
-          "text": "Will you go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to the party",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Invitation"
-    },
-    {
-      "id": "2-4-5",
-      "section": "Day 4",
-      "description": "Future Question",
-      "question": "Will you go?",
-      "korean": "너는 파티에 갈 거니?",
-      "english": "Will you go to the party?",
-      "chunks": [
-        {
-          "text": "Will you go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to the party",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Invitation"
-    },
-    {
-      "id": "2-4-6",
-      "section": "Day 4",
-      "description": "Future Question",
-      "question": "Will you go?",
-      "korean": "너는 파티에 갈 거니?",
-      "english": "Will you go to the party?",
-      "chunks": [
-        {
-          "text": "Will you go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to the party",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Invitation"
-    },
-    {
-      "id": "2-4-7",
-      "section": "Day 4",
-      "description": "Future Question",
-      "question": "Will you go?",
-      "korean": "너는 파티에 갈 거니?",
-      "english": "Will you go to the party?",
-      "chunks": [
-        {
-          "text": "Will you go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to the party",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Invitation"
-    },
-    {
-      "id": "2-4-8",
-      "section": "Day 4",
-      "description": "Future Question",
-      "question": "Will you go?",
-      "korean": "너는 파티에 갈 거니?",
-      "english": "Will you go to the party?",
-      "chunks": [
-        {
-          "text": "Will you go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to the party",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Invitation"
-    },
-    {
-      "id": "2-4-9",
-      "section": "Day 4",
-      "description": "Future Question",
-      "question": "Will you go?",
-      "korean": "너는 파티에 갈 거니?",
-      "english": "Will you go to the party?",
-      "chunks": [
-        {
-          "text": "Will you go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to the party",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Invitation"
-    },
-    {
-      "id": "2-4-10",
-      "section": "Day 4",
-      "description": "Future Question",
-      "question": "Will you go?",
-      "korean": "너는 파티에 갈 거니?",
-      "english": "Will you go to the party?",
-      "chunks": [
-        {
-          "text": "Will you go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to the party",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Invitation"
-    },
-    {
-      "id": "2-5-1",
-      "section": "Day 5",
-      "description": "Past Negative",
-      "question": "Did he cry?",
-      "korean": "그는 울지 않았다.",
-      "english": "He did not cry.",
+      "id": "3-6-4",
+      "section": "Day 6",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그는 그의 방을 청소했다.",
+      "english": "He cleaned his room.",
       "chunks": [
         {
           "text": "He",
@@ -1189,35 +1482,390 @@
           "color": "#FF0000"
         },
         {
-          "text": "did not cry",
+          "text": "cleaned",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "his room",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-6-5",
+      "section": "Day 6",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그들은 매우 빨리 달렸다.",
+      "english": "They ran very fast.",
+      "chunks": [
+        {
+          "text": "They",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "ran",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "very fast",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-6-6",
+      "section": "Day 6",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "하루 종일 비가 왔다.",
+      "english": "It rained all day.",
+      "chunks": [
+        {
+          "text": "It",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "rained",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "all day",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-6-7",
+      "section": "Day 6",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그가 집에 왔니?",
+      "english": "Did he come home?",
+      "chunks": [
+        {
+          "text": "Did he come",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "home",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-6-8",
+      "section": "Day 6",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "버스가 늦게 도착했다.",
+      "english": "The bus arrived late.",
+      "chunks": [
+        {
+          "text": "The bus",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "arrived",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "late",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-6-9",
+      "section": "Day 6",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나는 거기에 가지 않았다.",
+      "english": "I did not go there.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "did not go",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "there",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-6-10",
+      "section": "Day 6",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "너는 대답하지 않았다.",
+      "english": "You didn't answer.",
+      "chunks": [
+        {
+          "text": "You",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "didn't answer",
           "role": "Verb",
           "color": "#FF7F00"
         }
       ],
-      "context": "Being brave",
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-7-1",
+      "section": "Day 7",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "우리는 일찍 잤다.",
+      "english": "We slept early.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "slept",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "early",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
       "grammarGuide": {
-        "title": "Past Negative",
+        "title": "Review",
         "structure": [
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Adverb",
+            "color": "#BA68C8"
           }
         ]
       }
     },
     {
-      "id": "2-5-2",
-      "section": "Day 5",
-      "description": "Past Negative",
-      "question": "Did he cry?",
-      "korean": "그는 울지 않았다.",
-      "english": "He did not cry.",
+      "id": "3-7-2",
+      "section": "Day 7",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "너 저거 봤니?",
+      "english": "Did you see that?",
+      "chunks": [
+        {
+          "text": "Did you see",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "that",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-7-3",
+      "section": "Day 7",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그들은 매우 빨리 달렸다.",
+      "english": "They ran very fast.",
+      "chunks": [
+        {
+          "text": "They",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "ran",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "very fast",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-7-4",
+      "section": "Day 7",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "새가 날아갔다.",
+      "english": "The bird flew away.",
+      "chunks": [
+        {
+          "text": "The bird",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "flew",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "away",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-7-5",
+      "section": "Day 7",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그녀가 선물을 좋아했니?",
+      "english": "Did she like the gift?",
+      "chunks": [
+        {
+          "text": "Did she like",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the gift",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-7-6",
+      "section": "Day 7",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "너 어디 갔었니?",
+      "english": "Where did you go?",
+      "chunks": [
+        {
+          "text": "Where",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "did you go",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-7-7",
+      "section": "Day 7",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그들이 언제 도착했니?",
+      "english": "When did they arrive?",
+      "chunks": [
+        {
+          "text": "When",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "did they arrive",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-7-8",
+      "section": "Day 7",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "버스가 늦게 도착했다.",
+      "english": "The bus arrived late.",
+      "chunks": [
+        {
+          "text": "The bus",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "arrived",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "late",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "3-7-9",
+      "section": "Day 7",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그는 그의 방을 청소했다.",
+      "english": "He cleaned his room.",
       "chunks": [
         {
           "text": "He",
@@ -1225,740 +1873,40 @@
           "color": "#FF0000"
         },
         {
-          "text": "did not cry",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Being brave"
-    },
-    {
-      "id": "2-5-3",
-      "section": "Day 5",
-      "description": "Past Negative",
-      "question": "Did he cry?",
-      "korean": "그는 울지 않았다.",
-      "english": "He did not cry.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "did not cry",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Being brave"
-    },
-    {
-      "id": "2-5-4",
-      "section": "Day 5",
-      "description": "Past Negative",
-      "question": "Did he cry?",
-      "korean": "그는 울지 않았다.",
-      "english": "He did not cry.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "did not cry",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Being brave"
-    },
-    {
-      "id": "2-5-5",
-      "section": "Day 5",
-      "description": "Past Negative",
-      "question": "Did he cry?",
-      "korean": "그는 울지 않았다.",
-      "english": "He did not cry.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "did not cry",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Being brave"
-    },
-    {
-      "id": "2-5-6",
-      "section": "Day 5",
-      "description": "Past Negative",
-      "question": "Did he cry?",
-      "korean": "그는 울지 않았다.",
-      "english": "He did not cry.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "did not cry",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Being brave"
-    },
-    {
-      "id": "2-5-7",
-      "section": "Day 5",
-      "description": "Past Negative",
-      "question": "Did he cry?",
-      "korean": "그는 울지 않았다.",
-      "english": "He did not cry.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "did not cry",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Being brave"
-    },
-    {
-      "id": "2-5-8",
-      "section": "Day 5",
-      "description": "Past Negative",
-      "question": "Did he cry?",
-      "korean": "그는 울지 않았다.",
-      "english": "He did not cry.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "did not cry",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Being brave"
-    },
-    {
-      "id": "2-5-9",
-      "section": "Day 5",
-      "description": "Past Negative",
-      "question": "Did he cry?",
-      "korean": "그는 울지 않았다.",
-      "english": "He did not cry.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "did not cry",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Being brave"
-    },
-    {
-      "id": "2-5-10",
-      "section": "Day 5",
-      "description": "Past Negative",
-      "question": "Did he cry?",
-      "korean": "그는 울지 않았다.",
-      "english": "He did not cry.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "did not cry",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Being brave"
-    },
-    {
-      "id": "2-6-1",
-      "section": "Day 6",
-      "description": "Comparison",
-      "question": "What changed?",
-      "korean": "나는 뛰었지만, 지금은 걷는다.",
-      "english": "I ran, but now I walk.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "ran",
+          "text": "cleaned",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "but now I walk",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "his room",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Cooling down",
-      "grammarGuide": {
-        "title": "Comparison",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          }
-        ]
-      }
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-6-2",
-      "section": "Day 6",
-      "description": "Comparison",
-      "question": "What changed?",
-      "korean": "나는 뛰었지만, 지금은 걷는다.",
-      "english": "I ran, but now I walk.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "ran",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "but now I walk",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Cooling down"
-    },
-    {
-      "id": "2-6-3",
-      "section": "Day 6",
-      "description": "Comparison",
-      "question": "What changed?",
-      "korean": "나는 뛰었지만, 지금은 걷는다.",
-      "english": "I ran, but now I walk.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "ran",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "but now I walk",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Cooling down"
-    },
-    {
-      "id": "2-6-4",
-      "section": "Day 6",
-      "description": "Comparison",
-      "question": "What changed?",
-      "korean": "나는 뛰었지만, 지금은 걷는다.",
-      "english": "I ran, but now I walk.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "ran",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "but now I walk",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Cooling down"
-    },
-    {
-      "id": "2-6-5",
-      "section": "Day 6",
-      "description": "Comparison",
-      "question": "What changed?",
-      "korean": "나는 뛰었지만, 지금은 걷는다.",
-      "english": "I ran, but now I walk.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "ran",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "but now I walk",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Cooling down"
-    },
-    {
-      "id": "2-6-6",
-      "section": "Day 6",
-      "description": "Comparison",
-      "question": "What changed?",
-      "korean": "나는 뛰었지만, 지금은 걷는다.",
-      "english": "I ran, but now I walk.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "ran",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "but now I walk",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Cooling down"
-    },
-    {
-      "id": "2-6-7",
-      "section": "Day 6",
-      "description": "Comparison",
-      "question": "What changed?",
-      "korean": "나는 뛰었지만, 지금은 걷는다.",
-      "english": "I ran, but now I walk.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "ran",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "but now I walk",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Cooling down"
-    },
-    {
-      "id": "2-6-8",
-      "section": "Day 6",
-      "description": "Comparison",
-      "question": "What changed?",
-      "korean": "나는 뛰었지만, 지금은 걷는다.",
-      "english": "I ran, but now I walk.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "ran",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "but now I walk",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Cooling down"
-    },
-    {
-      "id": "2-6-9",
-      "section": "Day 6",
-      "description": "Comparison",
-      "question": "What changed?",
-      "korean": "나는 뛰었지만, 지금은 걷는다.",
-      "english": "I ran, but now I walk.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "ran",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "but now I walk",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Cooling down"
-    },
-    {
-      "id": "2-6-10",
-      "section": "Day 6",
-      "description": "Comparison",
-      "question": "What changed?",
-      "korean": "나는 뛰었지만, 지금은 걷는다.",
-      "english": "I ran, but now I walk.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "ran",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "but now I walk",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Cooling down"
-    },
-    {
-      "id": "2-7-1",
+      "id": "3-7-10",
       "section": "Day 7",
-      "description": "Comparison",
-      "question": "What changed?",
-      "korean": "나는 뛰었지만, 지금은 걷는다.",
-      "english": "I ran, but now I walk.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "너는 대답하지 않았다.",
+      "english": "You didn't answer.",
       "chunks": [
         {
-          "text": "I",
+          "text": "You",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "ran",
+          "text": "didn't answer",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "but now I walk",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Cooling down",
-      "grammarGuide": {
-        "title": "Comparison",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2-7-2",
-      "section": "Day 7",
-      "description": "Comparison",
-      "question": "What changed?",
-      "korean": "나는 뛰었지만, 지금은 걷는다.",
-      "english": "I ran, but now I walk.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "ran",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "but now I walk",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Cooling down"
-    },
-    {
-      "id": "2-7-3",
-      "section": "Day 7",
-      "description": "Comparison",
-      "question": "What changed?",
-      "korean": "나는 뛰었지만, 지금은 걷는다.",
-      "english": "I ran, but now I walk.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "ran",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "but now I walk",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Cooling down"
-    },
-    {
-      "id": "2-7-4",
-      "section": "Day 7",
-      "description": "Comparison",
-      "question": "What changed?",
-      "korean": "나는 뛰었지만, 지금은 걷는다.",
-      "english": "I ran, but now I walk.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "ran",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "but now I walk",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Cooling down"
-    },
-    {
-      "id": "2-7-5",
-      "section": "Day 7",
-      "description": "Comparison",
-      "question": "What changed?",
-      "korean": "나는 뛰었지만, 지금은 걷는다.",
-      "english": "I ran, but now I walk.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "ran",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "but now I walk",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Cooling down"
-    },
-    {
-      "id": "2-7-6",
-      "section": "Day 7",
-      "description": "Comparison",
-      "question": "What changed?",
-      "korean": "나는 뛰었지만, 지금은 걷는다.",
-      "english": "I ran, but now I walk.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "ran",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "but now I walk",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Cooling down"
-    },
-    {
-      "id": "2-7-7",
-      "section": "Day 7",
-      "description": "Comparison",
-      "question": "What changed?",
-      "korean": "나는 뛰었지만, 지금은 걷는다.",
-      "english": "I ran, but now I walk.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "ran",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "but now I walk",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Cooling down"
-    },
-    {
-      "id": "2-7-8",
-      "section": "Day 7",
-      "description": "Comparison",
-      "question": "What changed?",
-      "korean": "나는 뛰었지만, 지금은 걷는다.",
-      "english": "I ran, but now I walk.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "ran",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "but now I walk",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Cooling down"
-    },
-    {
-      "id": "2-7-9",
-      "section": "Day 7",
-      "description": "Comparison",
-      "question": "What changed?",
-      "korean": "나는 뛰었지만, 지금은 걷는다.",
-      "english": "I ran, but now I walk.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "ran",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "but now I walk",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Cooling down"
-    },
-    {
-      "id": "2-7-10",
-      "section": "Day 7",
-      "description": "Comparison",
-      "question": "What changed?",
-      "korean": "나는 뛰었지만, 지금은 걷는다.",
-      "english": "I ran, but now I walk.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "ran",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "but now I walk",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Cooling down"
+      "context": "Review",
+      "grammarGuide": null
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
   "curriculum": [
     {
-      "id": "2-8-1",
+      "id": "5-8-1",
       "section": "Day 8",
-      "description": "Weather Idiom",
-      "question": "How is the weather?",
-      "korean": "비가 억수같이 내린다.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "비가 억수같이 온다.",
       "english": "It is raining cats and dogs.",
       "chunks": [
         {
@@ -24,35 +24,103 @@
           "color": "#BA68C8"
         }
       ],
-      "context": "Storm",
+      "context": "Core Lesson",
       "grammarGuide": {
-        "title": "Weather Idiom",
+        "title": "Core Lesson",
         "structure": [
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
             "text": "Adverb",
-            "color": "#BA68C8",
-            "desc": "어떻게/어디서"
+            "color": "#BA68C8"
           }
         ]
       }
     },
     {
-      "id": "2-8-2",
+      "id": "5-8-2",
       "section": "Day 8",
-      "description": "Weather Idiom",
-      "question": "How is the weather?",
-      "korean": "비가 억수같이 내린다.",
-      "english": "It is raining cats and dogs.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 기분이 날아갈 듯 좋다.",
+      "english": "I am on cloud nine.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "am",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "on cloud nine",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-8-3",
+      "section": "Day 8",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "내 공을 가로채지 마.",
+      "english": "Don't steal my thunder.",
+      "chunks": [
+        {
+          "text": "Don't steal",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "my thunder",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-8-4",
+      "section": "Day 8",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "다음으로 미루다.",
+      "english": "Take a rain check.",
+      "chunks": [
+        {
+          "text": "Take",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a rain check",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-8-5",
+      "section": "Day 8",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "식은 죽 먹기다.",
+      "english": "It's a breeze.",
       "chunks": [
         {
           "text": "It",
@@ -60,232 +128,135 @@
           "color": "#FF0000"
         },
         {
-          "text": "is raining",
+          "text": "is",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "cats and dogs",
-          "role": "Adverb",
+          "text": "a breeze",
+          "role": "Complement",
           "color": "#BA68C8"
         }
       ],
-      "context": "Storm"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-8-3",
+      "id": "5-8-6",
       "section": "Day 8",
-      "description": "Weather Idiom",
-      "question": "How is the weather?",
-      "korean": "비가 억수같이 내린다.",
-      "english": "It is raining cats and dogs.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "폭풍 전야.",
+      "english": "Calm before the storm.",
       "chunks": [
         {
-          "text": "It",
+          "text": "Calm",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "is raining",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "cats and dogs",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "before the storm",
+          "role": "Modifier",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Storm"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-8-4",
+      "id": "5-8-7",
       "section": "Day 8",
-      "description": "Weather Idiom",
-      "question": "How is the weather?",
-      "korean": "비가 억수같이 내린다.",
-      "english": "It is raining cats and dogs.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "쥐구멍에도 볕 들 날 있다.",
+      "english": "Every cloud has a silver lining.",
       "chunks": [
         {
-          "text": "It",
+          "text": "Every cloud",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "is raining",
+          "text": "has",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "cats and dogs",
-          "role": "Adverb",
+          "text": "a silver lining",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-8-8",
+      "section": "Day 8",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "컨디션이 안 좋은.",
+      "english": "Under the weather.",
+      "chunks": [
+        {
+          "text": "Under the weather",
+          "role": "Complement",
           "color": "#BA68C8"
         }
       ],
-      "context": "Storm"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-8-5",
+      "id": "5-8-9",
       "section": "Day 8",
-      "description": "Weather Idiom",
-      "question": "How is the weather?",
-      "korean": "비가 억수같이 내린다.",
-      "english": "It is raining cats and dogs.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "분위기를 깨다.",
+      "english": "Break the ice.",
       "chunks": [
         {
-          "text": "It",
+          "text": "Break",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the ice",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-8-10",
+      "section": "Day 8",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "찻잔 속의 태풍.",
+      "english": "Storm in a teacup.",
+      "chunks": [
+        {
+          "text": "Storm",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "is raining",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "cats and dogs",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "in a teacup",
+          "role": "Modifier",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Storm"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-8-6",
-      "section": "Day 8",
-      "description": "Weather Idiom",
-      "question": "How is the weather?",
-      "korean": "비가 억수같이 내린다.",
-      "english": "It is raining cats and dogs.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is raining",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "cats and dogs",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Storm"
-    },
-    {
-      "id": "2-8-7",
-      "section": "Day 8",
-      "description": "Weather Idiom",
-      "question": "How is the weather?",
-      "korean": "비가 억수같이 내린다.",
-      "english": "It is raining cats and dogs.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is raining",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "cats and dogs",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Storm"
-    },
-    {
-      "id": "2-8-8",
-      "section": "Day 8",
-      "description": "Weather Idiom",
-      "question": "How is the weather?",
-      "korean": "비가 억수같이 내린다.",
-      "english": "It is raining cats and dogs.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is raining",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "cats and dogs",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Storm"
-    },
-    {
-      "id": "2-8-9",
-      "section": "Day 8",
-      "description": "Weather Idiom",
-      "question": "How is the weather?",
-      "korean": "비가 억수같이 내린다.",
-      "english": "It is raining cats and dogs.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is raining",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "cats and dogs",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Storm"
-    },
-    {
-      "id": "2-8-10",
-      "section": "Day 8",
-      "description": "Weather Idiom",
-      "question": "How is the weather?",
-      "korean": "비가 억수같이 내린다.",
-      "english": "It is raining cats and dogs.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is raining",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "cats and dogs",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Storm"
-    },
-    {
-      "id": "2-9-1",
+      "id": "5-9-1",
       "section": "Day 9",
-      "description": "Body Idiom",
-      "question": "Why so sad?",
-      "korean": "힘내라 (고개를 들어라).",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "기운 내라.",
       "english": "Keep your chin up.",
       "chunks": [
         {
@@ -299,498 +270,433 @@
           "color": "#FFD700"
         }
       ],
-      "context": "Cheering up",
+      "context": "Core Lesson",
       "grammarGuide": {
-        "title": "Body Idiom",
+        "title": "Core Lesson",
         "structure": [
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
             "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
+            "color": "#FFD700"
           }
         ]
       }
     },
     {
-      "id": "2-9-2",
+      "id": "5-9-2",
       "section": "Day 9",
-      "description": "Body Idiom",
-      "question": "Why so sad?",
-      "korean": "힘내라 (고개를 들어라).",
-      "english": "Keep your chin up.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "경청하고 있다.",
+      "english": "I am all ears.",
       "chunks": [
         {
-          "text": "Keep",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "your chin up",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Cheering up"
-    },
-    {
-      "id": "2-9-3",
-      "section": "Day 9",
-      "description": "Body Idiom",
-      "question": "Why so sad?",
-      "korean": "힘내라 (고개를 들어라).",
-      "english": "Keep your chin up.",
-      "chunks": [
-        {
-          "text": "Keep",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "your chin up",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Cheering up"
-    },
-    {
-      "id": "2-9-4",
-      "section": "Day 9",
-      "description": "Body Idiom",
-      "question": "Why so sad?",
-      "korean": "힘내라 (고개를 들어라).",
-      "english": "Keep your chin up.",
-      "chunks": [
-        {
-          "text": "Keep",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "your chin up",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Cheering up"
-    },
-    {
-      "id": "2-9-5",
-      "section": "Day 9",
-      "description": "Body Idiom",
-      "question": "Why so sad?",
-      "korean": "힘내라 (고개를 들어라).",
-      "english": "Keep your chin up.",
-      "chunks": [
-        {
-          "text": "Keep",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "your chin up",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Cheering up"
-    },
-    {
-      "id": "2-9-6",
-      "section": "Day 9",
-      "description": "Body Idiom",
-      "question": "Why so sad?",
-      "korean": "힘내라 (고개를 들어라).",
-      "english": "Keep your chin up.",
-      "chunks": [
-        {
-          "text": "Keep",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "your chin up",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Cheering up"
-    },
-    {
-      "id": "2-9-7",
-      "section": "Day 9",
-      "description": "Body Idiom",
-      "question": "Why so sad?",
-      "korean": "힘내라 (고개를 들어라).",
-      "english": "Keep your chin up.",
-      "chunks": [
-        {
-          "text": "Keep",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "your chin up",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Cheering up"
-    },
-    {
-      "id": "2-9-8",
-      "section": "Day 9",
-      "description": "Body Idiom",
-      "question": "Why so sad?",
-      "korean": "힘내라 (고개를 들어라).",
-      "english": "Keep your chin up.",
-      "chunks": [
-        {
-          "text": "Keep",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "your chin up",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Cheering up"
-    },
-    {
-      "id": "2-9-9",
-      "section": "Day 9",
-      "description": "Body Idiom",
-      "question": "Why so sad?",
-      "korean": "힘내라 (고개를 들어라).",
-      "english": "Keep your chin up.",
-      "chunks": [
-        {
-          "text": "Keep",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "your chin up",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Cheering up"
-    },
-    {
-      "id": "2-9-10",
-      "section": "Day 9",
-      "description": "Body Idiom",
-      "question": "Why so sad?",
-      "korean": "힘내라 (고개를 들어라).",
-      "english": "Keep your chin up.",
-      "chunks": [
-        {
-          "text": "Keep",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "your chin up",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Cheering up"
-    },
-    {
-      "id": "2-10-1",
-      "section": "Day 10",
-      "description": "Food Idiom",
-      "question": "Is it hard?",
-      "korean": "그것은 식은 죽 먹기다.",
-      "english": "It is a piece of cake.",
-      "chunks": [
-        {
-          "text": "It",
+          "text": "I",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "is",
+          "text": "am",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "a piece of cake",
+          "text": "all ears",
           "role": "Complement",
           "color": "#BA68C8"
         }
       ],
-      "context": "Easy task",
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-9-3",
+      "section": "Day 9",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "겁먹다.",
+      "english": "Cold feet.",
+      "chunks": [
+        {
+          "text": "Cold feet",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-9-4",
+      "section": "Day 9",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "행운을 빌어!",
+      "english": "Break a leg!",
+      "chunks": [
+        {
+          "text": "Break",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a leg",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-9-5",
+      "section": "Day 9",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "현실을 직시해라.",
+      "english": "Face the music.",
+      "chunks": [
+        {
+          "text": "Face",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the music",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-9-6",
+      "section": "Day 9",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "손이 꽉 찼다 (바쁘다).",
+      "english": "Hands exist full.",
+      "chunks": [
+        {
+          "text": "Hands",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "exist",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "full",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-9-7",
+      "section": "Day 9",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "의견이 일치하다.",
+      "english": "Eye to eye.",
+      "chunks": [
+        {
+          "text": "Eye to eye",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-9-8",
+      "section": "Day 9",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그를 지켜봐라.",
+      "english": "Keep an eye on him.",
+      "chunks": [
+        {
+          "text": "Keep an eye",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "on him",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-9-9",
+      "section": "Day 9",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "비밀 지킬게.",
+      "english": "My lips are sealed.",
+      "chunks": [
+        {
+          "text": "My lips",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "are sealed",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-9-10",
+      "section": "Day 9",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "따뜻한 마음.",
+      "english": "Heart of gold.",
+      "chunks": [
+        {
+          "text": "Heart",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "of gold",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-10-1",
+      "section": "Day 10",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "누워서 떡 먹기.",
+      "english": "Piece of cake.",
+      "chunks": [
+        {
+          "text": "Piece of cake",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
       "grammarGuide": {
-        "title": "Food Idiom",
+        "title": "Core Lesson",
         "structure": [
           {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
             "text": "Complement",
-            "color": "#BA68C8",
-            "desc": ""
+            "color": "#BA68C8"
           }
         ]
       }
     },
     {
-      "id": "2-10-2",
+      "id": "5-10-2",
       "section": "Day 10",
-      "description": "Food Idiom",
-      "question": "Is it hard?",
-      "korean": "그것은 식은 죽 먹기다.",
-      "english": "It is a piece of cake.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "비밀을 누설해라.",
+      "english": "Spill the beans.",
       "chunks": [
         {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
+          "text": "Spill",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "a piece of cake",
+          "text": "the beans",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-10-3",
+      "section": "Day 10",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "내 취향이 아니다.",
+      "english": "Not my cup of tea.",
+      "chunks": [
+        {
+          "text": "Not",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "my cup of tea",
           "role": "Complement",
           "color": "#BA68C8"
         }
       ],
-      "context": "Easy task"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-10-3",
+      "id": "5-10-4",
       "section": "Day 10",
-      "description": "Food Idiom",
-      "question": "Is it hard?",
-      "korean": "그것은 식은 죽 먹기다.",
-      "english": "It is a piece of cake.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "눈에 넣어도 안 아픈 존재.",
+      "english": "Apple of my eye.",
       "chunks": [
         {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
+          "text": "Apple",
+          "role": "Complement",
+          "color": "#BA68C8"
         },
         {
-          "text": "is",
+          "text": "of my eye",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-10-5",
+      "section": "Day 10",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "미쳐 날뛰다.",
+      "english": "Go bananas.",
+      "chunks": [
+        {
+          "text": "Go",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "a piece of cake",
+          "text": "bananas",
           "role": "Complement",
           "color": "#BA68C8"
         }
       ],
-      "context": "Easy task"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-10-4",
+      "id": "5-10-6",
       "section": "Day 10",
-      "description": "Food Idiom",
-      "question": "Is it hard?",
-      "korean": "그것은 식은 죽 먹기다.",
-      "english": "It is a piece of cake.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "중요한 인물.",
+      "english": "Big cheese.",
       "chunks": [
         {
-          "text": "It",
+          "text": "Big cheese",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-10-7",
+      "section": "Day 10",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "물건을 잘 떨어뜨리는 사람.",
+      "english": "Butter fingers.",
+      "chunks": [
+        {
+          "text": "Butter fingers",
           "role": "Subject",
           "color": "#FF0000"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-10-8",
+      "section": "Day 10",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "침착한.",
+      "english": "Cool as a cucumber.",
+      "chunks": [
+        {
+          "text": "Cool",
+          "role": "Complement",
+          "color": "#BA68C8"
         },
         {
-          "text": "is",
+          "text": "as a cucumber",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-10-9",
+      "section": "Day 10",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "간단히 말해서.",
+      "english": "In a nutshell.",
+      "chunks": [
+        {
+          "text": "In a nutshell",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-10-10",
+      "section": "Day 10",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "머리를 써라.",
+      "english": "Use your noodle.",
+      "chunks": [
+        {
+          "text": "Use",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "a piece of cake",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "your noodle",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Easy task"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-10-5",
-      "section": "Day 10",
-      "description": "Food Idiom",
-      "question": "Is it hard?",
-      "korean": "그것은 식은 죽 먹기다.",
-      "english": "It is a piece of cake.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a piece of cake",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Easy task"
-    },
-    {
-      "id": "2-10-6",
-      "section": "Day 10",
-      "description": "Food Idiom",
-      "question": "Is it hard?",
-      "korean": "그것은 식은 죽 먹기다.",
-      "english": "It is a piece of cake.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a piece of cake",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Easy task"
-    },
-    {
-      "id": "2-10-7",
-      "section": "Day 10",
-      "description": "Food Idiom",
-      "question": "Is it hard?",
-      "korean": "그것은 식은 죽 먹기다.",
-      "english": "It is a piece of cake.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a piece of cake",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Easy task"
-    },
-    {
-      "id": "2-10-8",
-      "section": "Day 10",
-      "description": "Food Idiom",
-      "question": "Is it hard?",
-      "korean": "그것은 식은 죽 먹기다.",
-      "english": "It is a piece of cake.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a piece of cake",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Easy task"
-    },
-    {
-      "id": "2-10-9",
-      "section": "Day 10",
-      "description": "Food Idiom",
-      "question": "Is it hard?",
-      "korean": "그것은 식은 죽 먹기다.",
-      "english": "It is a piece of cake.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a piece of cake",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Easy task"
-    },
-    {
-      "id": "2-10-10",
-      "section": "Day 10",
-      "description": "Food Idiom",
-      "question": "Is it hard?",
-      "korean": "그것은 식은 죽 먹기다.",
-      "english": "It is a piece of cake.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a piece of cake",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Easy task"
-    },
-    {
-      "id": "2-11-1",
+      "id": "5-11-1",
       "section": "Day 11",
-      "description": "Animal Idiom",
-      "question": "Wait!",
-      "korean": "진정해라 (말을 붙잡아라).",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "진정해라.",
       "english": "Hold your horses.",
       "chunks": [
         {
@@ -804,275 +710,348 @@
           "color": "#FFD700"
         }
       ],
-      "context": "Patience",
+      "context": "Core Lesson",
       "grammarGuide": {
-        "title": "Animal Idiom",
+        "title": "Core Lesson",
         "structure": [
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
             "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
+            "color": "#FFD700"
           }
         ]
       }
     },
     {
-      "id": "2-11-2",
+      "id": "5-11-2",
       "section": "Day 11",
-      "description": "Animal Idiom",
-      "question": "Wait!",
-      "korean": "진정해라 (말을 붙잡아라).",
-      "english": "Hold your horses.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "무심코 비밀을 말하다.",
+      "english": "Let the cat out of the bag.",
       "chunks": [
         {
-          "text": "Hold",
+          "text": "Let",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "your horses",
+          "text": "the cat",
           "role": "Object",
           "color": "#FFD700"
+        },
+        {
+          "text": "out of the bag",
+          "role": "Modifier",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Patience"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-11-3",
+      "id": "5-11-3",
       "section": "Day 11",
-      "description": "Animal Idiom",
-      "question": "Wait!",
-      "korean": "진정해라 (말을 붙잡아라).",
-      "english": "Hold your horses.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "일석이조.",
+      "english": "Kill two birds with one stone.",
       "chunks": [
         {
-          "text": "Hold",
+          "text": "Kill",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "your horses",
+          "text": "two birds",
           "role": "Object",
           "color": "#FFD700"
-        }
-      ],
-      "context": "Patience"
-    },
-    {
-      "id": "2-11-4",
-      "section": "Day 11",
-      "description": "Animal Idiom",
-      "question": "Wait!",
-      "korean": "진정해라 (말을 붙잡아라).",
-      "english": "Hold your horses.",
-      "chunks": [
-        {
-          "text": "Hold",
-          "role": "Verb",
-          "color": "#FF7F00"
         },
         {
-          "text": "your horses",
-          "role": "Object",
-          "color": "#FFD700"
+          "text": "with one stone",
+          "role": "Modifier",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Patience"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-11-5",
+      "id": "5-11-4",
       "section": "Day 11",
-      "description": "Animal Idiom",
-      "question": "Wait!",
-      "korean": "진정해라 (말을 붙잡아라).",
-      "english": "Hold your horses.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "지나친 호기심은 화를 부른다.",
+      "english": "Curiosity killed the cat.",
       "chunks": [
         {
-          "text": "Hold",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "your horses",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Patience"
-    },
-    {
-      "id": "2-11-6",
-      "section": "Day 11",
-      "description": "Animal Idiom",
-      "question": "Wait!",
-      "korean": "진정해라 (말을 붙잡아라).",
-      "english": "Hold your horses.",
-      "chunks": [
-        {
-          "text": "Hold",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "your horses",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Patience"
-    },
-    {
-      "id": "2-11-7",
-      "section": "Day 11",
-      "description": "Animal Idiom",
-      "question": "Wait!",
-      "korean": "진정해라 (말을 붙잡아라).",
-      "english": "Hold your horses.",
-      "chunks": [
-        {
-          "text": "Hold",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "your horses",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Patience"
-    },
-    {
-      "id": "2-11-8",
-      "section": "Day 11",
-      "description": "Animal Idiom",
-      "question": "Wait!",
-      "korean": "진정해라 (말을 붙잡아라).",
-      "english": "Hold your horses.",
-      "chunks": [
-        {
-          "text": "Hold",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "your horses",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Patience"
-    },
-    {
-      "id": "2-11-9",
-      "section": "Day 11",
-      "description": "Animal Idiom",
-      "question": "Wait!",
-      "korean": "진정해라 (말을 붙잡아라).",
-      "english": "Hold your horses.",
-      "chunks": [
-        {
-          "text": "Hold",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "your horses",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Patience"
-    },
-    {
-      "id": "2-11-10",
-      "section": "Day 11",
-      "description": "Animal Idiom",
-      "question": "Wait!",
-      "korean": "진정해라 (말을 붙잡아라).",
-      "english": "Hold your horses.",
-      "chunks": [
-        {
-          "text": "Hold",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "your horses",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Patience"
-    },
-    {
-      "id": "2-12-1",
-      "section": "Day 12",
-      "description": "Color Idiom",
-      "question": "How do you feel?",
-      "korean": "나 오늘 기분이 우울해.",
-      "english": "I feel blue today.",
-      "chunks": [
-        {
-          "text": "I",
+          "text": "Curiosity",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "feel",
+          "text": "killed",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "blue",
+          "text": "the cat",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-11-5",
+      "section": "Day 11",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "매의 눈으로 감시하다.",
+      "english": "Watch like a hawk.",
+      "chunks": [
+        {
+          "text": "Watch",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "like a hawk",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-11-6",
+      "section": "Day 11",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "벌처럼 바쁜.",
+      "english": "Busy as a bee.",
+      "chunks": [
+        {
+          "text": "Busy",
           "role": "Complement",
           "color": "#BA68C8"
         },
         {
-          "text": "today",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "as a bee",
+          "role": "Modifier",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Mood",
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-11-7",
+      "section": "Day 11",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "다들 알지만 말 안 하는 문제.",
+      "english": "Elephant in the room.",
+      "chunks": [
+        {
+          "text": "Elephant",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "in the room",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-11-8",
+      "section": "Day 11",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "겁먹고 꽁무니 빼다.",
+      "english": "Chicken out.",
+      "chunks": [
+        {
+          "text": "Chicken out",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-11-9",
+      "section": "Day 11",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "낯선 환경에 처한 사람.",
+      "english": "Fish out of water.",
+      "chunks": [
+        {
+          "text": "Fish",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "out of water",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-11-10",
+      "section": "Day 11",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "부질없는 시도.",
+      "english": "Wild goose chase.",
+      "chunks": [
+        {
+          "text": "Wild goose chase",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-12-1",
+      "section": "Day 12",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "찻잔 속의 태풍.",
+      "english": "Storm in a teacup.",
+      "chunks": [
+        {
+          "text": "Storm",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "in a teacup",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
       "grammarGuide": {
-        "title": "Color Idiom",
+        "title": "Review",
         "structure": [
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Complement",
-            "color": "#BA68C8",
-            "desc": ""
-          },
-          {
-            "text": "Adverb",
-            "color": "#BA68C8",
-            "desc": "어떻게/어디서"
+            "text": "Modifier",
+            "color": "#B0BEC5"
           }
         ]
       }
     },
     {
-      "id": "2-12-2",
+      "id": "5-12-2",
       "section": "Day 12",
-      "description": "Color Idiom",
-      "question": "How do you feel?",
-      "korean": "나 오늘 기분이 우울해.",
-      "english": "I feel blue today.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "내 공을 가로채지 마.",
+      "english": "Don't steal my thunder.",
+      "chunks": [
+        {
+          "text": "Don't steal",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "my thunder",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-12-3",
+      "section": "Day 12",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "현실을 직시해라.",
+      "english": "Face the music.",
+      "chunks": [
+        {
+          "text": "Face",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the music",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-12-4",
+      "section": "Day 12",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그를 지켜봐라.",
+      "english": "Keep an eye on him.",
+      "chunks": [
+        {
+          "text": "Keep an eye",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "on him",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-12-5",
+      "section": "Day 12",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "중요한 인물.",
+      "english": "Big cheese.",
+      "chunks": [
+        {
+          "text": "Big cheese",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-12-6",
+      "section": "Day 12",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나는 기분이 날아갈 듯 좋다.",
+      "english": "I am on cloud nine.",
       "chunks": [
         {
           "text": "I",
@@ -1080,30 +1059,97 @@
           "color": "#FF0000"
         },
         {
-          "text": "feel",
+          "text": "am",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "blue",
+          "text": "on cloud nine",
           "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "today",
-          "role": "Adverb",
           "color": "#BA68C8"
         }
       ],
-      "context": "Mood"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-12-3",
+      "id": "5-12-7",
       "section": "Day 12",
-      "description": "Color Idiom",
-      "question": "How do you feel?",
-      "korean": "나 오늘 기분이 우울해.",
-      "english": "I feel blue today.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "내 취향이 아니다.",
+      "english": "Not my cup of tea.",
+      "chunks": [
+        {
+          "text": "Not",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "my cup of tea",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-12-8",
+      "section": "Day 12",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "기운 내라.",
+      "english": "Keep your chin up.",
+      "chunks": [
+        {
+          "text": "Keep",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "your chin up",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-12-9",
+      "section": "Day 12",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "무심코 비밀을 말하다.",
+      "english": "Let the cat out of the bag.",
+      "chunks": [
+        {
+          "text": "Let",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the cat",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "out of the bag",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-12-10",
+      "section": "Day 12",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "경청하고 있다.",
+      "english": "I am all ears.",
       "chunks": [
         {
           "text": "I",
@@ -1111,886 +1157,483 @@
           "color": "#FF0000"
         },
         {
-          "text": "feel",
+          "text": "am",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "blue",
+          "text": "all ears",
           "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "today",
-          "role": "Adverb",
           "color": "#BA68C8"
         }
       ],
-      "context": "Mood"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-12-4",
-      "section": "Day 12",
-      "description": "Color Idiom",
-      "question": "How do you feel?",
-      "korean": "나 오늘 기분이 우울해.",
-      "english": "I feel blue today.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "feel",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "blue",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "today",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Mood"
-    },
-    {
-      "id": "2-12-5",
-      "section": "Day 12",
-      "description": "Color Idiom",
-      "question": "How do you feel?",
-      "korean": "나 오늘 기분이 우울해.",
-      "english": "I feel blue today.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "feel",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "blue",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "today",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Mood"
-    },
-    {
-      "id": "2-12-6",
-      "section": "Day 12",
-      "description": "Color Idiom",
-      "question": "How do you feel?",
-      "korean": "나 오늘 기분이 우울해.",
-      "english": "I feel blue today.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "feel",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "blue",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "today",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Mood"
-    },
-    {
-      "id": "2-12-7",
-      "section": "Day 12",
-      "description": "Color Idiom",
-      "question": "How do you feel?",
-      "korean": "나 오늘 기분이 우울해.",
-      "english": "I feel blue today.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "feel",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "blue",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "today",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Mood"
-    },
-    {
-      "id": "2-12-8",
-      "section": "Day 12",
-      "description": "Color Idiom",
-      "question": "How do you feel?",
-      "korean": "나 오늘 기분이 우울해.",
-      "english": "I feel blue today.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "feel",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "blue",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "today",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Mood"
-    },
-    {
-      "id": "2-12-9",
-      "section": "Day 12",
-      "description": "Color Idiom",
-      "question": "How do you feel?",
-      "korean": "나 오늘 기분이 우울해.",
-      "english": "I feel blue today.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "feel",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "blue",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "today",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Mood"
-    },
-    {
-      "id": "2-12-10",
-      "section": "Day 12",
-      "description": "Color Idiom",
-      "question": "How do you feel?",
-      "korean": "나 오늘 기분이 우울해.",
-      "english": "I feel blue today.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "feel",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "blue",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "today",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Mood"
-    },
-    {
-      "id": "2-13-1",
+      "id": "5-13-1",
       "section": "Day 13",
-      "description": "Color Idiom",
-      "question": "How do you feel?",
-      "korean": "나 오늘 기분이 우울해.",
-      "english": "I feel blue today.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "비밀 지킬게.",
+      "english": "My lips are sealed.",
       "chunks": [
         {
-          "text": "I",
+          "text": "My lips",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "feel",
+          "text": "are sealed",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "blue",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "today",
-          "role": "Adverb",
-          "color": "#BA68C8"
         }
       ],
-      "context": "Mood",
+      "context": "Review",
       "grammarGuide": {
-        "title": "Color Idiom",
+        "title": "Review",
         "structure": [
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Complement",
-            "color": "#BA68C8",
-            "desc": ""
-          },
-          {
-            "text": "Adverb",
-            "color": "#BA68C8",
-            "desc": "어떻게/어디서"
+            "color": "#FF7F00"
           }
         ]
       }
     },
     {
-      "id": "2-13-2",
+      "id": "5-13-2",
       "section": "Day 13",
-      "description": "Color Idiom",
-      "question": "How do you feel?",
-      "korean": "나 오늘 기분이 우울해.",
-      "english": "I feel blue today.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "내 공을 가로채지 마.",
+      "english": "Don't steal my thunder.",
       "chunks": [
         {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "feel",
+          "text": "Don't steal",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "blue",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "today",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "my thunder",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Mood"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-13-3",
+      "id": "5-13-3",
       "section": "Day 13",
-      "description": "Color Idiom",
-      "question": "How do you feel?",
-      "korean": "나 오늘 기분이 우울해.",
-      "english": "I feel blue today.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "일석이조.",
+      "english": "Kill two birds with one stone.",
       "chunks": [
         {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "feel",
+          "text": "Kill",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "blue",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "two birds",
+          "role": "Object",
+          "color": "#FFD700"
         },
         {
-          "text": "today",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "with one stone",
+          "role": "Modifier",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Mood"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-13-4",
+      "id": "5-13-4",
       "section": "Day 13",
-      "description": "Color Idiom",
-      "question": "How do you feel?",
-      "korean": "나 오늘 기분이 우울해.",
-      "english": "I feel blue today.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "지나친 호기심은 화를 부른다.",
+      "english": "Curiosity killed the cat.",
       "chunks": [
         {
-          "text": "I",
+          "text": "Curiosity",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "feel",
+          "text": "killed",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "blue",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "the cat",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-13-5",
+      "section": "Day 13",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "현실을 직시해라.",
+      "english": "Face the music.",
+      "chunks": [
+        {
+          "text": "Face",
+          "role": "Verb",
+          "color": "#FF7F00"
         },
         {
-          "text": "today",
-          "role": "Adverb",
+          "text": "the music",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-13-6",
+      "section": "Day 13",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "물건을 잘 떨어뜨리는 사람.",
+      "english": "Butter fingers.",
+      "chunks": [
+        {
+          "text": "Butter fingers",
+          "role": "Subject",
+          "color": "#FF0000"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-13-7",
+      "section": "Day 13",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "비밀을 누설해라.",
+      "english": "Spill the beans.",
+      "chunks": [
+        {
+          "text": "Spill",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the beans",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-13-8",
+      "section": "Day 13",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "내 취향이 아니다.",
+      "english": "Not my cup of tea.",
+      "chunks": [
+        {
+          "text": "Not",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "my cup of tea",
+          "role": "Complement",
           "color": "#BA68C8"
         }
       ],
-      "context": "Mood"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-13-5",
+      "id": "5-13-9",
       "section": "Day 13",
-      "description": "Color Idiom",
-      "question": "How do you feel?",
-      "korean": "나 오늘 기분이 우울해.",
-      "english": "I feel blue today.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "중요한 인물.",
+      "english": "Big cheese.",
       "chunks": [
         {
-          "text": "I",
+          "text": "Big cheese",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-13-10",
+      "section": "Day 13",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "손이 꽉 찼다 (바쁘다).",
+      "english": "Hands exist full.",
+      "chunks": [
+        {
+          "text": "Hands",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "feel",
+          "text": "exist",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "blue",
+          "text": "full",
           "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "today",
-          "role": "Adverb",
           "color": "#BA68C8"
         }
       ],
-      "context": "Mood"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-13-6",
-      "section": "Day 13",
-      "description": "Color Idiom",
-      "question": "How do you feel?",
-      "korean": "나 오늘 기분이 우울해.",
-      "english": "I feel blue today.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "feel",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "blue",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "today",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Mood"
-    },
-    {
-      "id": "2-13-7",
-      "section": "Day 13",
-      "description": "Color Idiom",
-      "question": "How do you feel?",
-      "korean": "나 오늘 기분이 우울해.",
-      "english": "I feel blue today.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "feel",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "blue",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "today",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Mood"
-    },
-    {
-      "id": "2-13-8",
-      "section": "Day 13",
-      "description": "Color Idiom",
-      "question": "How do you feel?",
-      "korean": "나 오늘 기분이 우울해.",
-      "english": "I feel blue today.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "feel",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "blue",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "today",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Mood"
-    },
-    {
-      "id": "2-13-9",
-      "section": "Day 13",
-      "description": "Color Idiom",
-      "question": "How do you feel?",
-      "korean": "나 오늘 기분이 우울해.",
-      "english": "I feel blue today.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "feel",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "blue",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "today",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Mood"
-    },
-    {
-      "id": "2-13-10",
-      "section": "Day 13",
-      "description": "Color Idiom",
-      "question": "How do you feel?",
-      "korean": "나 오늘 기분이 우울해.",
-      "english": "I feel blue today.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "feel",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "blue",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "today",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Mood"
-    },
-    {
-      "id": "2-14-1",
+      "id": "5-14-1",
       "section": "Day 14",
-      "description": "Color Idiom",
-      "question": "How do you feel?",
-      "korean": "나 오늘 기분이 우울해.",
-      "english": "I feel blue today.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "현실을 직시해라.",
+      "english": "Face the music.",
       "chunks": [
         {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "feel",
+          "text": "Face",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "blue",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "today",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "the music",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Mood",
+      "context": "Review",
       "grammarGuide": {
-        "title": "Color Idiom",
+        "title": "Review",
         "structure": [
           {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
-            "text": "Complement",
-            "color": "#BA68C8",
-            "desc": ""
-          },
-          {
-            "text": "Adverb",
-            "color": "#BA68C8",
-            "desc": "어떻게/어디서"
+            "text": "Object",
+            "color": "#FFD700"
           }
         ]
       }
     },
     {
-      "id": "2-14-2",
+      "id": "5-14-2",
       "section": "Day 14",
-      "description": "Color Idiom",
-      "question": "How do you feel?",
-      "korean": "나 오늘 기분이 우울해.",
-      "english": "I feel blue today.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "분위기를 깨다.",
+      "english": "Break the ice.",
       "chunks": [
         {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "feel",
+          "text": "Break",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "blue",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "today",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "the ice",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Mood"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-14-3",
+      "id": "5-14-3",
       "section": "Day 14",
-      "description": "Color Idiom",
-      "question": "How do you feel?",
-      "korean": "나 오늘 기분이 우울해.",
-      "english": "I feel blue today.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "비밀 지킬게.",
+      "english": "My lips are sealed.",
       "chunks": [
         {
-          "text": "I",
+          "text": "My lips",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "feel",
+          "text": "are sealed",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "blue",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "today",
-          "role": "Adverb",
-          "color": "#BA68C8"
         }
       ],
-      "context": "Mood"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-14-4",
+      "id": "5-14-4",
       "section": "Day 14",
-      "description": "Color Idiom",
-      "question": "How do you feel?",
-      "korean": "나 오늘 기분이 우울해.",
-      "english": "I feel blue today.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "미쳐 날뛰다.",
+      "english": "Go bananas.",
       "chunks": [
         {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "feel",
+          "text": "Go",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "blue",
+          "text": "bananas",
           "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "today",
-          "role": "Adverb",
           "color": "#BA68C8"
         }
       ],
-      "context": "Mood"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-14-5",
+      "id": "5-14-5",
       "section": "Day 14",
-      "description": "Color Idiom",
-      "question": "How do you feel?",
-      "korean": "나 오늘 기분이 우울해.",
-      "english": "I feel blue today.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "기운 내라.",
+      "english": "Keep your chin up.",
       "chunks": [
         {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "feel",
+          "text": "Keep",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "blue",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "today",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "your chin up",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Mood"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-14-6",
+      "id": "5-14-6",
       "section": "Day 14",
-      "description": "Color Idiom",
-      "question": "How do you feel?",
-      "korean": "나 오늘 기분이 우울해.",
-      "english": "I feel blue today.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "비밀을 누설해라.",
+      "english": "Spill the beans.",
       "chunks": [
         {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "feel",
+          "text": "Spill",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "blue",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "today",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "the beans",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Mood"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-14-7",
+      "id": "5-14-7",
       "section": "Day 14",
-      "description": "Color Idiom",
-      "question": "How do you feel?",
-      "korean": "나 오늘 기분이 우울해.",
-      "english": "I feel blue today.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "비가 억수같이 온다.",
+      "english": "It is raining cats and dogs.",
       "chunks": [
         {
-          "text": "I",
+          "text": "It",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "feel",
+          "text": "is raining",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "blue",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "today",
+          "text": "cats and dogs",
           "role": "Adverb",
           "color": "#BA68C8"
         }
       ],
-      "context": "Mood"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-14-8",
+      "id": "5-14-8",
       "section": "Day 14",
-      "description": "Color Idiom",
-      "question": "How do you feel?",
-      "korean": "나 오늘 기분이 우울해.",
-      "english": "I feel blue today.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "벌처럼 바쁜.",
+      "english": "Busy as a bee.",
       "chunks": [
         {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "feel",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "blue",
+          "text": "Busy",
           "role": "Complement",
           "color": "#BA68C8"
         },
         {
-          "text": "today",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "as a bee",
+          "role": "Modifier",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Mood"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-14-9",
+      "id": "5-14-9",
       "section": "Day 14",
-      "description": "Color Idiom",
-      "question": "How do you feel?",
-      "korean": "나 오늘 기분이 우울해.",
-      "english": "I feel blue today.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "지나친 호기심은 화를 부른다.",
+      "english": "Curiosity killed the cat.",
       "chunks": [
         {
-          "text": "I",
+          "text": "Curiosity",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "feel",
+          "text": "killed",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "blue",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "today",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "the cat",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Mood"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-14-10",
+      "id": "5-14-10",
       "section": "Day 14",
-      "description": "Color Idiom",
-      "question": "How do you feel?",
-      "korean": "나 오늘 기분이 우울해.",
-      "english": "I feel blue today.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나는 기분이 날아갈 듯 좋다.",
+      "english": "I am on cloud nine.",
       "chunks": [
         {
           "text": "I",
@@ -1998,22 +1641,18 @@
           "color": "#FF0000"
         },
         {
-          "text": "feel",
+          "text": "am",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "blue",
+          "text": "on cloud nine",
           "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "today",
-          "role": "Adverb",
           "color": "#BA68C8"
         }
       ],
-      "context": "Mood"
+      "context": "Review",
+      "grammarGuide": null
     }
   ]
 }

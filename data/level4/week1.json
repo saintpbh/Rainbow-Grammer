@@ -1,12 +1,12 @@
 {
   "curriculum": [
     {
-      "id": "2-1-1",
+      "id": "5-1-1",
       "section": "Day 1",
-      "description": "Daily Routine",
-      "question": "What do you do?",
-      "korean": "나는 일찍 일어나서 라디오를 켠다.",
-      "english": "I get up early and turn on the radio.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 오전 7시에 일어난다.",
+      "english": "I get up at 7 AM.",
       "chunks": [
         {
           "text": "I",
@@ -19,1394 +19,606 @@
           "color": "#FF7F00"
         },
         {
-          "text": "early and turn on the radio",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Morning",
-      "grammarGuide": {
-        "title": "Daily Routine",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2-1-2",
-      "section": "Day 1",
-      "description": "Daily Routine",
-      "question": "What do you do?",
-      "korean": "나는 일찍 일어나서 라디오를 켠다.",
-      "english": "I get up early and turn on the radio.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "get up",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "early and turn on the radio",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Morning"
-    },
-    {
-      "id": "2-1-3",
-      "section": "Day 1",
-      "description": "Daily Routine",
-      "question": "What do you do?",
-      "korean": "나는 일찍 일어나서 라디오를 켠다.",
-      "english": "I get up early and turn on the radio.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "get up",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "early and turn on the radio",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Morning"
-    },
-    {
-      "id": "2-1-4",
-      "section": "Day 1",
-      "description": "Daily Routine",
-      "question": "What do you do?",
-      "korean": "나는 일찍 일어나서 라디오를 켠다.",
-      "english": "I get up early and turn on the radio.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "get up",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "early and turn on the radio",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Morning"
-    },
-    {
-      "id": "2-1-5",
-      "section": "Day 1",
-      "description": "Daily Routine",
-      "question": "What do you do?",
-      "korean": "나는 일찍 일어나서 라디오를 켠다.",
-      "english": "I get up early and turn on the radio.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "get up",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "early and turn on the radio",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Morning"
-    },
-    {
-      "id": "2-1-6",
-      "section": "Day 1",
-      "description": "Daily Routine",
-      "question": "What do you do?",
-      "korean": "나는 일찍 일어나서 라디오를 켠다.",
-      "english": "I get up early and turn on the radio.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "get up",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "early and turn on the radio",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Morning"
-    },
-    {
-      "id": "2-1-7",
-      "section": "Day 1",
-      "description": "Daily Routine",
-      "question": "What do you do?",
-      "korean": "나는 일찍 일어나서 라디오를 켠다.",
-      "english": "I get up early and turn on the radio.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "get up",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "early and turn on the radio",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Morning"
-    },
-    {
-      "id": "2-1-8",
-      "section": "Day 1",
-      "description": "Daily Routine",
-      "question": "What do you do?",
-      "korean": "나는 일찍 일어나서 라디오를 켠다.",
-      "english": "I get up early and turn on the radio.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "get up",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "early and turn on the radio",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Morning"
-    },
-    {
-      "id": "2-1-9",
-      "section": "Day 1",
-      "description": "Daily Routine",
-      "question": "What do you do?",
-      "korean": "나는 일찍 일어나서 라디오를 켠다.",
-      "english": "I get up early and turn on the radio.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "get up",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "early and turn on the radio",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Morning"
-    },
-    {
-      "id": "2-1-10",
-      "section": "Day 1",
-      "description": "Daily Routine",
-      "question": "What do you do?",
-      "korean": "나는 일찍 일어나서 라디오를 켠다.",
-      "english": "I get up early and turn on the radio.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "get up",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "early and turn on the radio",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Morning"
-    },
-    {
-      "id": "2-2-1",
-      "section": "Day 2",
-      "description": "Movement",
-      "question": "Where should I go?",
-      "korean": "빨리 차에 타라.",
-      "english": "Get in the car quickly.",
-      "chunks": [
-        {
-          "text": "Get in",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the car",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "quickly",
+          "text": "at 7 AM",
           "role": "Adverb",
           "color": "#BA68C8"
         }
       ],
-      "context": "Action",
+      "context": "Core Lesson",
       "grammarGuide": {
-        "title": "Movement",
+        "title": "Core Lesson",
         "structure": [
           {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "text": "Subject",
+            "color": "#FF0000"
           },
           {
-            "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
+            "text": "Verb",
+            "color": "#FF7F00"
           },
           {
             "text": "Adverb",
-            "color": "#BA68C8",
-            "desc": "어떻게/어디서"
+            "color": "#BA68C8"
           }
         ]
       }
     },
     {
-      "id": "2-2-2",
-      "section": "Day 2",
-      "description": "Movement",
-      "question": "Where should I go?",
-      "korean": "빨리 차에 타라.",
-      "english": "Get in the car quickly.",
+      "id": "5-1-2",
+      "section": "Day 1",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "불 좀 켜주세요.",
+      "english": "Please turn on the light.",
       "chunks": [
         {
-          "text": "Get in",
+          "text": "Please",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "turn on",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "the car",
+          "text": "the light",
           "role": "Object",
           "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-1-3",
+      "section": "Day 1",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그는 일찍 일어난다.",
+      "english": "He gets up early.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
         },
         {
-          "text": "quickly",
+          "text": "gets up",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "early",
           "role": "Adverb",
           "color": "#BA68C8"
         }
       ],
-      "context": "Action"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-2-3",
-      "section": "Day 2",
-      "description": "Movement",
-      "question": "Where should I go?",
-      "korean": "빨리 차에 타라.",
-      "english": "Get in the car quickly.",
+      "id": "5-1-4",
+      "section": "Day 1",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "TV 켰니?",
+      "english": "Did you turn on the TV?",
       "chunks": [
         {
-          "text": "Get in",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the car",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "quickly",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Action"
-    },
-    {
-      "id": "2-2-4",
-      "section": "Day 2",
-      "description": "Movement",
-      "question": "Where should I go?",
-      "korean": "빨리 차에 타라.",
-      "english": "Get in the car quickly.",
-      "chunks": [
-        {
-          "text": "Get in",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the car",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "quickly",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Action"
-    },
-    {
-      "id": "2-2-5",
-      "section": "Day 2",
-      "description": "Movement",
-      "question": "Where should I go?",
-      "korean": "빨리 차에 타라.",
-      "english": "Get in the car quickly.",
-      "chunks": [
-        {
-          "text": "Get in",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the car",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "quickly",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Action"
-    },
-    {
-      "id": "2-2-6",
-      "section": "Day 2",
-      "description": "Movement",
-      "question": "Where should I go?",
-      "korean": "빨리 차에 타라.",
-      "english": "Get in the car quickly.",
-      "chunks": [
-        {
-          "text": "Get in",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the car",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "quickly",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Action"
-    },
-    {
-      "id": "2-2-7",
-      "section": "Day 2",
-      "description": "Movement",
-      "question": "Where should I go?",
-      "korean": "빨리 차에 타라.",
-      "english": "Get in the car quickly.",
-      "chunks": [
-        {
-          "text": "Get in",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the car",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "quickly",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Action"
-    },
-    {
-      "id": "2-2-8",
-      "section": "Day 2",
-      "description": "Movement",
-      "question": "Where should I go?",
-      "korean": "빨리 차에 타라.",
-      "english": "Get in the car quickly.",
-      "chunks": [
-        {
-          "text": "Get in",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the car",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "quickly",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Action"
-    },
-    {
-      "id": "2-2-9",
-      "section": "Day 2",
-      "description": "Movement",
-      "question": "Where should I go?",
-      "korean": "빨리 차에 타라.",
-      "english": "Get in the car quickly.",
-      "chunks": [
-        {
-          "text": "Get in",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the car",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "quickly",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Action"
-    },
-    {
-      "id": "2-2-10",
-      "section": "Day 2",
-      "description": "Movement",
-      "question": "Where should I go?",
-      "korean": "빨리 차에 타라.",
-      "english": "Get in the car quickly.",
-      "chunks": [
-        {
-          "text": "Get in",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the car",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "quickly",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Action"
-    },
-    {
-      "id": "2-3-1",
-      "section": "Day 3",
-      "description": "Relationship",
-      "question": "How are they?",
-      "korean": "그들은 서로 잘 지낸다.",
-      "english": "They get along well with each other.",
-      "chunks": [
-        {
-          "text": "They",
+          "text": "Did you",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "get along",
+          "text": "turn on",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "well with each other",
+          "text": "the TV",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-1-5",
+      "section": "Day 1",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "포기하지 마!",
+      "english": "Don't give up!",
+      "chunks": [
+        {
+          "text": "Don't",
           "role": "Modifier",
           "color": "#B0BEC5"
-        }
-      ],
-      "context": "Friendship",
-      "grammarGuide": {
-        "title": "Relationship",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2-3-2",
-      "section": "Day 3",
-      "description": "Relationship",
-      "question": "How are they?",
-      "korean": "그들은 서로 잘 지낸다.",
-      "english": "They get along well with each other.",
-      "chunks": [
-        {
-          "text": "They",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "get along",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "well with each other",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Friendship"
-    },
-    {
-      "id": "2-3-3",
-      "section": "Day 3",
-      "description": "Relationship",
-      "question": "How are they?",
-      "korean": "그들은 서로 잘 지낸다.",
-      "english": "They get along well with each other.",
-      "chunks": [
-        {
-          "text": "They",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "get along",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "well with each other",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Friendship"
-    },
-    {
-      "id": "2-3-4",
-      "section": "Day 3",
-      "description": "Relationship",
-      "question": "How are they?",
-      "korean": "그들은 서로 잘 지낸다.",
-      "english": "They get along well with each other.",
-      "chunks": [
-        {
-          "text": "They",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "get along",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "well with each other",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Friendship"
-    },
-    {
-      "id": "2-3-5",
-      "section": "Day 3",
-      "description": "Relationship",
-      "question": "How are they?",
-      "korean": "그들은 서로 잘 지낸다.",
-      "english": "They get along well with each other.",
-      "chunks": [
-        {
-          "text": "They",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "get along",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "well with each other",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Friendship"
-    },
-    {
-      "id": "2-3-6",
-      "section": "Day 3",
-      "description": "Relationship",
-      "question": "How are they?",
-      "korean": "그들은 서로 잘 지낸다.",
-      "english": "They get along well with each other.",
-      "chunks": [
-        {
-          "text": "They",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "get along",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "well with each other",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Friendship"
-    },
-    {
-      "id": "2-3-7",
-      "section": "Day 3",
-      "description": "Relationship",
-      "question": "How are they?",
-      "korean": "그들은 서로 잘 지낸다.",
-      "english": "They get along well with each other.",
-      "chunks": [
-        {
-          "text": "They",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "get along",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "well with each other",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Friendship"
-    },
-    {
-      "id": "2-3-8",
-      "section": "Day 3",
-      "description": "Relationship",
-      "question": "How are they?",
-      "korean": "그들은 서로 잘 지낸다.",
-      "english": "They get along well with each other.",
-      "chunks": [
-        {
-          "text": "They",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "get along",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "well with each other",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Friendship"
-    },
-    {
-      "id": "2-3-9",
-      "section": "Day 3",
-      "description": "Relationship",
-      "question": "How are they?",
-      "korean": "그들은 서로 잘 지낸다.",
-      "english": "They get along well with each other.",
-      "chunks": [
-        {
-          "text": "They",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "get along",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "well with each other",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Friendship"
-    },
-    {
-      "id": "2-3-10",
-      "section": "Day 3",
-      "description": "Relationship",
-      "question": "How are they?",
-      "korean": "그들은 서로 잘 지낸다.",
-      "english": "They get along well with each other.",
-      "chunks": [
-        {
-          "text": "They",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "get along",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "well with each other",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Friendship"
-    },
-    {
-      "id": "2-4-1",
-      "section": "Day 4",
-      "description": "Searching",
-      "question": "What are you doing?",
-      "korean": "나는 내 열쇠를 찾고 있다.",
-      "english": "I am looking for my keys.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "am looking for",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "my keys",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Lost item",
-      "grammarGuide": {
-        "title": "Searching",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2-4-2",
-      "section": "Day 4",
-      "description": "Searching",
-      "question": "What are you doing?",
-      "korean": "나는 내 열쇠를 찾고 있다.",
-      "english": "I am looking for my keys.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "am looking for",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "my keys",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Lost item"
-    },
-    {
-      "id": "2-4-3",
-      "section": "Day 4",
-      "description": "Searching",
-      "question": "What are you doing?",
-      "korean": "나는 내 열쇠를 찾고 있다.",
-      "english": "I am looking for my keys.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "am looking for",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "my keys",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Lost item"
-    },
-    {
-      "id": "2-4-4",
-      "section": "Day 4",
-      "description": "Searching",
-      "question": "What are you doing?",
-      "korean": "나는 내 열쇠를 찾고 있다.",
-      "english": "I am looking for my keys.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "am looking for",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "my keys",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Lost item"
-    },
-    {
-      "id": "2-4-5",
-      "section": "Day 4",
-      "description": "Searching",
-      "question": "What are you doing?",
-      "korean": "나는 내 열쇠를 찾고 있다.",
-      "english": "I am looking for my keys.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "am looking for",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "my keys",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Lost item"
-    },
-    {
-      "id": "2-4-6",
-      "section": "Day 4",
-      "description": "Searching",
-      "question": "What are you doing?",
-      "korean": "나는 내 열쇠를 찾고 있다.",
-      "english": "I am looking for my keys.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "am looking for",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "my keys",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Lost item"
-    },
-    {
-      "id": "2-4-7",
-      "section": "Day 4",
-      "description": "Searching",
-      "question": "What are you doing?",
-      "korean": "나는 내 열쇠를 찾고 있다.",
-      "english": "I am looking for my keys.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "am looking for",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "my keys",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Lost item"
-    },
-    {
-      "id": "2-4-8",
-      "section": "Day 4",
-      "description": "Searching",
-      "question": "What are you doing?",
-      "korean": "나는 내 열쇠를 찾고 있다.",
-      "english": "I am looking for my keys.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "am looking for",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "my keys",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Lost item"
-    },
-    {
-      "id": "2-4-9",
-      "section": "Day 4",
-      "description": "Searching",
-      "question": "What are you doing?",
-      "korean": "나는 내 열쇠를 찾고 있다.",
-      "english": "I am looking for my keys.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "am looking for",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "my keys",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Lost item"
-    },
-    {
-      "id": "2-4-10",
-      "section": "Day 4",
-      "description": "Searching",
-      "question": "What are you doing?",
-      "korean": "나는 내 열쇠를 찾고 있다.",
-      "english": "I am looking for my keys.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "am looking for",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "my keys",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Lost item"
-    },
-    {
-      "id": "2-5-1",
-      "section": "Day 5",
-      "description": "Persistence",
-      "question": "Any advice?",
-      "korean": "절대 네 꿈을 포기하지 마라.",
-      "english": "Never give up your dream.",
-      "chunks": [
-        {
-          "text": "Never",
-          "role": "Adverb",
-          "color": "#BA68C8"
         },
         {
           "text": "give up",
           "role": "Verb",
           "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-1-6",
+      "section": "Day 1",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "라디오를 꺼라.",
+      "english": "Turn off the radio.",
+      "chunks": [
+        {
+          "text": "Turn off",
+          "role": "Verb",
+          "color": "#FF7F00"
         },
         {
-          "text": "your dream",
+          "text": "the radio",
           "role": "Object",
           "color": "#FFD700"
         }
       ],
-      "context": "Motivation",
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-1-7",
+      "section": "Day 1",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그녀는 행복하게 깬다.",
+      "english": "She wakes up happy.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "wakes up",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "happy",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-1-8",
+      "section": "Day 1",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "쓰레기를 주워라.",
+      "english": "Pick up the trash.",
+      "chunks": [
+        {
+          "text": "Pick up",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the trash",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-1-9",
+      "section": "Day 1",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "신발을 신어라.",
+      "english": "Put on your shoes.",
+      "chunks": [
+        {
+          "text": "Put on",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "your shoes",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-1-10",
+      "section": "Day 1",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "모자를 벗어라.",
+      "english": "Take off your hat.",
+      "chunks": [
+        {
+          "text": "Take off",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "your hat",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-2-1",
+      "section": "Day 2",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "차에 타라.",
+      "english": "Get in the car.",
+      "chunks": [
+        {
+          "text": "Get in",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the car",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
       "grammarGuide": {
-        "title": "Persistence",
+        "title": "Core Lesson",
         "structure": [
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Object",
+            "color": "#FFD700"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5-2-2",
+      "section": "Day 2",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "여기서 나가!",
+      "english": "Get out of here!",
+      "chunks": [
+        {
+          "text": "Get out",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "of here",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-2-3",
+      "section": "Day 2",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "들어오세요.",
+      "english": "Come in, please.",
+      "chunks": [
+        {
+          "text": "Come in",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "please",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-2-4",
+      "section": "Day 2",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나가서 놀아라.",
+      "english": "Go out and play.",
+      "chunks": [
+        {
+          "text": "Go out",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "and play",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-2-5",
+      "section": "Day 2",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "사이트에 로그인해라.",
+      "english": "Log in to the site.",
+      "chunks": [
+        {
+          "text": "Log in",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "to the site",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-2-6",
+      "section": "Day 2",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "이 책 좀 봐.",
+      "english": "Check out this book.",
+      "chunks": [
+        {
+          "text": "Check out",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "this book",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-2-7",
+      "section": "Day 2",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "새 신발을 길들여라.",
+      "english": "Break in the new shoes.",
+      "chunks": [
+        {
+          "text": "Break in",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the new shoes",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-2-8",
+      "section": "Day 2",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "언제든 들러라.",
+      "english": "Drop in anytime.",
+      "chunks": [
+        {
+          "text": "Drop in",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "anytime",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-2-9",
+      "section": "Day 2",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "서식에 기입해라.",
+      "english": "Fill out the form.",
+      "chunks": [
+        {
+          "text": "Fill out",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the form",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-2-10",
+      "section": "Day 2",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "숙제를 제출해라.",
+      "english": "Hand in your homework.",
+      "chunks": [
+        {
+          "text": "Hand in",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "your homework",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-3-1",
+      "section": "Day 3",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "우리는 잘 지낸다.",
+      "english": "We get along well.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "get along",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "well",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": {
+        "title": "Core Lesson",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
           {
             "text": "Adverb",
-            "color": "#BA68C8",
-            "desc": "어떻게/어디서"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
+            "color": "#BA68C8"
           }
         ]
       }
     },
     {
-      "id": "2-5-2",
-      "section": "Day 5",
-      "description": "Persistence",
-      "question": "Any advice?",
-      "korean": "절대 네 꿈을 포기하지 마라.",
-      "english": "Never give up your dream.",
+      "id": "5-3-2",
+      "section": "Day 3",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그들은 어제 헤어졌다.",
+      "english": "They broke up yesterday.",
       "chunks": [
         {
-          "text": "Never",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "They",
+          "role": "Subject",
+          "color": "#FF0000"
         },
         {
-          "text": "give up",
+          "text": "broke up",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "your dream",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Motivation"
-    },
-    {
-      "id": "2-5-3",
-      "section": "Day 5",
-      "description": "Persistence",
-      "question": "Any advice?",
-      "korean": "절대 네 꿈을 포기하지 마라.",
-      "english": "Never give up your dream.",
-      "chunks": [
-        {
-          "text": "Never",
+          "text": "yesterday",
           "role": "Adverb",
           "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-3-3",
+      "section": "Day 3",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그는 이야기를 지어냈다.",
+      "english": "He made up a story.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
         },
         {
-          "text": "give up",
+          "text": "made up",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "your dream",
+          "text": "a story",
           "role": "Object",
           "color": "#FFD700"
         }
       ],
-      "context": "Motivation"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-5-4",
-      "section": "Day 5",
-      "description": "Persistence",
-      "question": "Any advice?",
-      "korean": "절대 네 꿈을 포기하지 마라.",
-      "english": "Never give up your dream.",
+      "id": "5-3-4",
+      "section": "Day 3",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "우리 화해하자.",
+      "english": "Let's make up.",
       "chunks": [
         {
-          "text": "Never",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "Let's",
+          "role": "Modifier",
+          "color": "#B0BEC5"
         },
         {
-          "text": "give up",
+          "text": "make up",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "your dream",
-          "role": "Object",
-          "color": "#FFD700"
         }
       ],
-      "context": "Motivation"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-5-5",
-      "section": "Day 5",
-      "description": "Persistence",
-      "question": "Any advice?",
-      "korean": "절대 네 꿈을 포기하지 마라.",
-      "english": "Never give up your dream.",
-      "chunks": [
-        {
-          "text": "Never",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "give up",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "your dream",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Motivation"
-    },
-    {
-      "id": "2-5-6",
-      "section": "Day 5",
-      "description": "Persistence",
-      "question": "Any advice?",
-      "korean": "절대 네 꿈을 포기하지 마라.",
-      "english": "Never give up your dream.",
-      "chunks": [
-        {
-          "text": "Never",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "give up",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "your dream",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Motivation"
-    },
-    {
-      "id": "2-5-7",
-      "section": "Day 5",
-      "description": "Persistence",
-      "question": "Any advice?",
-      "korean": "절대 네 꿈을 포기하지 마라.",
-      "english": "Never give up your dream.",
-      "chunks": [
-        {
-          "text": "Never",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "give up",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "your dream",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Motivation"
-    },
-    {
-      "id": "2-5-8",
-      "section": "Day 5",
-      "description": "Persistence",
-      "question": "Any advice?",
-      "korean": "절대 네 꿈을 포기하지 마라.",
-      "english": "Never give up your dream.",
-      "chunks": [
-        {
-          "text": "Never",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "give up",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "your dream",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Motivation"
-    },
-    {
-      "id": "2-5-9",
-      "section": "Day 5",
-      "description": "Persistence",
-      "question": "Any advice?",
-      "korean": "절대 네 꿈을 포기하지 마라.",
-      "english": "Never give up your dream.",
-      "chunks": [
-        {
-          "text": "Never",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "give up",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "your dream",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Motivation"
-    },
-    {
-      "id": "2-5-10",
-      "section": "Day 5",
-      "description": "Persistence",
-      "question": "Any advice?",
-      "korean": "절대 네 꿈을 포기하지 마라.",
-      "english": "Never give up your dream.",
-      "chunks": [
-        {
-          "text": "Never",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "give up",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "your dream",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Motivation"
-    },
-    {
-      "id": "2-6-1",
-      "section": "Day 6",
-      "description": "Care",
-      "question": "Who does she help?",
-      "korean": "그녀는 여동생을 돌본다.",
-      "english": "She looks after her sister.",
+      "id": "5-3-5",
+      "section": "Day 3",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그녀는 그를 존경한다.",
+      "english": "She looks up to him.",
       "chunks": [
         {
           "text": "She",
@@ -1414,455 +626,806 @@
           "color": "#FF0000"
         },
         {
-          "text": "looks after",
+          "text": "looks up to",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "her sister",
+          "text": "him",
           "role": "Object",
           "color": "#FFD700"
         }
       ],
-      "context": "Family",
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-3-6",
+      "section": "Day 3",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나를 무시하지 마라.",
+      "english": "Don't look down on me.",
+      "chunks": [
+        {
+          "text": "Don't",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "look down on",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "me",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-3-7",
+      "section": "Day 3",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나를 믿어.",
+      "english": "Count on me.",
+      "chunks": [
+        {
+          "text": "Count on",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "me",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-3-8",
+      "section": "Day 3",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그는 제안을 거절했다.",
+      "english": "He turned down the offer.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "turned down",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the offer",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-3-9",
+      "section": "Day 3",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나에게 다시 전화해.",
+      "english": "Call me back.",
+      "chunks": [
+        {
+          "text": "Call",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "me",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "back",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-3-10",
+      "section": "Day 3",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "친구들과 어울리다.",
+      "english": "Hang out with friends.",
+      "chunks": [
+        {
+          "text": "Hang out",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "with friends",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-4-1",
+      "section": "Day 4",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 열쇠를 찾고 있다.",
+      "english": "I am looking for my keys.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "am looking for",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "my keys",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
       "grammarGuide": {
-        "title": "Care",
+        "title": "Core Lesson",
         "structure": [
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
             "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
+            "color": "#FFD700"
           }
         ]
       }
     },
     {
-      "id": "2-6-2",
-      "section": "Day 6",
-      "description": "Care",
-      "question": "Who does she help?",
-      "korean": "그녀는 여동생을 돌본다.",
-      "english": "She looks after her sister.",
+      "id": "5-4-2",
+      "section": "Day 4",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "이 사진을 봐라.",
+      "english": "Look at this picture.",
       "chunks": [
         {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "looks after",
+          "text": "Look at",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "her sister",
+          "text": "this picture",
           "role": "Object",
           "color": "#FFD700"
         }
       ],
-      "context": "Family"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-6-3",
-      "section": "Day 6",
-      "description": "Care",
-      "question": "Who does she help?",
-      "korean": "그녀는 여동생을 돌본다.",
-      "english": "She looks after her sister.",
+      "id": "5-4-3",
+      "section": "Day 4",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "차 조심해라.",
+      "english": "Watch out for cars.",
       "chunks": [
         {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "looks after",
+          "text": "Watch out",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "her sister",
-          "role": "Object",
-          "color": "#FFD700"
+          "text": "for cars",
+          "role": "Modifier",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Family"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-6-4",
-      "section": "Day 6",
-      "description": "Care",
-      "question": "Who does she help?",
-      "korean": "그녀는 여동생을 돌본다.",
-      "english": "She looks after her sister.",
+      "id": "5-4-4",
+      "section": "Day 4",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "진실을 알아내라.",
+      "english": "Find out the truth.",
       "chunks": [
         {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "looks after",
+          "text": "Find out",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "her sister",
+          "text": "the truth",
           "role": "Object",
           "color": "#FFD700"
         }
       ],
-      "context": "Family"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-6-5",
-      "section": "Day 6",
-      "description": "Care",
-      "question": "Who does she help?",
-      "korean": "그녀는 여동생을 돌본다.",
-      "english": "She looks after her sister.",
+      "id": "5-4-5",
+      "section": "Day 4",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "문제를 해결해라.",
+      "english": "Figure out the problem.",
       "chunks": [
         {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "looks after",
+          "text": "Figure out",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "her sister",
+          "text": "the problem",
           "role": "Object",
           "color": "#FFD700"
         }
       ],
-      "context": "Family"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-6-6",
-      "section": "Day 6",
-      "description": "Care",
-      "question": "Who does she help?",
-      "korean": "그녀는 여동생을 돌본다.",
-      "english": "She looks after her sister.",
+      "id": "5-4-6",
+      "section": "Day 4",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "실수를 지적해라.",
+      "english": "Point out the mistake.",
       "chunks": [
         {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "looks after",
+          "text": "Point out",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "her sister",
+          "text": "the mistake",
           "role": "Object",
           "color": "#FFD700"
         }
       ],
-      "context": "Family"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-6-7",
-      "section": "Day 6",
-      "description": "Care",
-      "question": "Who does she help?",
-      "korean": "그녀는 여동생을 돌본다.",
-      "english": "She looks after her sister.",
+      "id": "5-4-7",
+      "section": "Day 4",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그 주제를 꺼내라.",
+      "english": "Bring up the topic.",
       "chunks": [
         {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "looks after",
+          "text": "Bring up",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "her sister",
+          "text": "the topic",
           "role": "Object",
           "color": "#FFD700"
         }
       ],
-      "context": "Family"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-6-8",
-      "section": "Day 6",
-      "description": "Care",
-      "question": "Who does she help?",
-      "korean": "그녀는 여동생을 돌본다.",
-      "english": "She looks after her sister.",
+      "id": "5-4-8",
+      "section": "Day 4",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "너의 기술을 뽐내라.",
+      "english": "Show off your skills.",
       "chunks": [
         {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "looks after",
+          "text": "Show off",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "her sister",
+          "text": "your skills",
           "role": "Object",
           "color": "#FFD700"
         }
       ],
-      "context": "Family"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-6-9",
-      "section": "Day 6",
-      "description": "Care",
-      "question": "Who does she help?",
-      "korean": "그녀는 여동생을 돌본다.",
-      "english": "She looks after her sister.",
+      "id": "5-4-9",
+      "section": "Day 4",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "계획을 심사숙고해라.",
+      "english": "Think over the plan.",
       "chunks": [
         {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "looks after",
+          "text": "Think over",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "her sister",
+          "text": "the plan",
           "role": "Object",
           "color": "#FFD700"
         }
       ],
-      "context": "Family"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-6-10",
-      "section": "Day 6",
-      "description": "Care",
-      "question": "Who does she help?",
-      "korean": "그녀는 여동생을 돌본다.",
-      "english": "She looks after her sister.",
+      "id": "5-4-10",
+      "section": "Day 4",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "성공을 꿈꿔라.",
+      "english": "Dream of success.",
       "chunks": [
         {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "looks after",
+          "text": "Dream of",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "her sister",
+          "text": "success",
           "role": "Object",
           "color": "#FFD700"
         }
       ],
-      "context": "Family"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-7-1",
-      "section": "Day 7",
-      "description": "Care",
-      "question": "Who does she help?",
-      "korean": "그녀는 여동생을 돌본다.",
-      "english": "She looks after her sister.",
+      "id": "5-5-1",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "불 좀 켜주세요.",
+      "english": "Please turn on the light.",
       "chunks": [
         {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
+          "text": "Please",
+          "role": "Modifier",
+          "color": "#B0BEC5"
         },
         {
-          "text": "looks after",
+          "text": "turn on",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "her sister",
+          "text": "the light",
           "role": "Object",
           "color": "#FFD700"
         }
       ],
-      "context": "Family",
+      "context": "Review",
       "grammarGuide": {
-        "title": "Care",
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Object",
+            "color": "#FFD700"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5-5-2",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "차 조심해라.",
+      "english": "Watch out for cars.",
+      "chunks": [
+        {
+          "text": "Watch out",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "for cars",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-5-3",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "사이트에 로그인해라.",
+      "english": "Log in to the site.",
+      "chunks": [
+        {
+          "text": "Log in",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "to the site",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-5-4",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "들어오세요.",
+      "english": "Come in, please.",
+      "chunks": [
+        {
+          "text": "Come in",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "please",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-5-5",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "숙제를 제출해라.",
+      "english": "Hand in your homework.",
+      "chunks": [
+        {
+          "text": "Hand in",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "your homework",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-5-6",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "우리는 잘 지낸다.",
+      "english": "We get along well.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "get along",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "well",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-5-7",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "너의 기술을 뽐내라.",
+      "english": "Show off your skills.",
+      "chunks": [
+        {
+          "text": "Show off",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "your skills",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-5-8",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나는 오전 7시에 일어난다.",
+      "english": "I get up at 7 AM.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "get up",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "at 7 AM",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-5-9",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그들은 어제 헤어졌다.",
+      "english": "They broke up yesterday.",
+      "chunks": [
+        {
+          "text": "They",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "broke up",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "yesterday",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-5-10",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그 주제를 꺼내라.",
+      "english": "Bring up the topic.",
+      "chunks": [
+        {
+          "text": "Bring up",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the topic",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-6-1",
+      "section": "Day 6",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그들은 어제 헤어졌다.",
+      "english": "They broke up yesterday.",
+      "chunks": [
+        {
+          "text": "They",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "broke up",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "yesterday",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": {
+        "title": "Review",
         "structure": [
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
-            "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
+            "text": "Adverb",
+            "color": "#BA68C8"
           }
         ]
       }
     },
     {
-      "id": "2-7-2",
-      "section": "Day 7",
-      "description": "Care",
-      "question": "Who does she help?",
-      "korean": "그녀는 여동생을 돌본다.",
-      "english": "She looks after her sister.",
+      "id": "5-6-2",
+      "section": "Day 6",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나는 오전 7시에 일어난다.",
+      "english": "I get up at 7 AM.",
       "chunks": [
         {
-          "text": "She",
+          "text": "I",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "looks after",
+          "text": "get up",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "her sister",
-          "role": "Object",
-          "color": "#FFD700"
+          "text": "at 7 AM",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Family"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-7-3",
-      "section": "Day 7",
-      "description": "Care",
-      "question": "Who does she help?",
-      "korean": "그녀는 여동생을 돌본다.",
-      "english": "She looks after her sister.",
+      "id": "5-6-3",
+      "section": "Day 6",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "서식에 기입해라.",
+      "english": "Fill out the form.",
       "chunks": [
         {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "looks after",
+          "text": "Fill out",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "her sister",
+          "text": "the form",
           "role": "Object",
           "color": "#FFD700"
         }
       ],
-      "context": "Family"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-7-4",
-      "section": "Day 7",
-      "description": "Care",
-      "question": "Who does she help?",
-      "korean": "그녀는 여동생을 돌본다.",
-      "english": "She looks after her sister.",
+      "id": "5-6-4",
+      "section": "Day 6",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "친구들과 어울리다.",
+      "english": "Hang out with friends.",
       "chunks": [
         {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "looks after",
+          "text": "Hang out",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "her sister",
-          "role": "Object",
-          "color": "#FFD700"
+          "text": "with friends",
+          "role": "Modifier",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Family"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-7-5",
-      "section": "Day 7",
-      "description": "Care",
-      "question": "Who does she help?",
-      "korean": "그녀는 여동생을 돌본다.",
-      "english": "She looks after her sister.",
+      "id": "5-6-5",
+      "section": "Day 6",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "사이트에 로그인해라.",
+      "english": "Log in to the site.",
       "chunks": [
         {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "looks after",
+          "text": "Log in",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "her sister",
-          "role": "Object",
-          "color": "#FFD700"
+          "text": "to the site",
+          "role": "Modifier",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Family"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-7-6",
-      "section": "Day 7",
-      "description": "Care",
-      "question": "Who does she help?",
-      "korean": "그녀는 여동생을 돌본다.",
-      "english": "She looks after her sister.",
+      "id": "5-6-6",
+      "section": "Day 6",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "여기서 나가!",
+      "english": "Get out of here!",
       "chunks": [
         {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "looks after",
+          "text": "Get out",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "her sister",
-          "role": "Object",
-          "color": "#FFD700"
+          "text": "of here",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Family"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-7-7",
-      "section": "Day 7",
-      "description": "Care",
-      "question": "Who does she help?",
-      "korean": "그녀는 여동생을 돌본다.",
-      "english": "She looks after her sister.",
+      "id": "5-6-7",
+      "section": "Day 6",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그녀는 그를 존경한다.",
+      "english": "She looks up to him.",
       "chunks": [
         {
           "text": "She",
@@ -1870,95 +1433,330 @@
           "color": "#FF0000"
         },
         {
-          "text": "looks after",
+          "text": "looks up to",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "her sister",
+          "text": "him",
           "role": "Object",
           "color": "#FFD700"
         }
       ],
-      "context": "Family"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-7-8",
-      "section": "Day 7",
-      "description": "Care",
-      "question": "Who does she help?",
-      "korean": "그녀는 여동생을 돌본다.",
-      "english": "She looks after her sister.",
+      "id": "5-6-8",
+      "section": "Day 6",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "쓰레기를 주워라.",
+      "english": "Pick up the trash.",
       "chunks": [
         {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "looks after",
+          "text": "Pick up",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "her sister",
+          "text": "the trash",
           "role": "Object",
           "color": "#FFD700"
         }
       ],
-      "context": "Family"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-7-9",
-      "section": "Day 7",
-      "description": "Care",
-      "question": "Who does she help?",
-      "korean": "그녀는 여동생을 돌본다.",
-      "english": "She looks after her sister.",
+      "id": "5-6-9",
+      "section": "Day 6",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "모자를 벗어라.",
+      "english": "Take off your hat.",
       "chunks": [
         {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "looks after",
+          "text": "Take off",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "her sister",
+          "text": "your hat",
           "role": "Object",
           "color": "#FFD700"
         }
       ],
-      "context": "Family"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-7-10",
-      "section": "Day 7",
-      "description": "Care",
-      "question": "Who does she help?",
-      "korean": "그녀는 여동생을 돌본다.",
-      "english": "She looks after her sister.",
+      "id": "5-6-10",
+      "section": "Day 6",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "들어오세요.",
+      "english": "Come in, please.",
       "chunks": [
         {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "looks after",
+          "text": "Come in",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "her sister",
+          "text": "please",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-7-1",
+      "section": "Day 7",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "우리는 잘 지낸다.",
+      "english": "We get along well.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "get along",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "well",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": {
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Adverb",
+            "color": "#BA68C8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5-7-2",
+      "section": "Day 7",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나가서 놀아라.",
+      "english": "Go out and play.",
+      "chunks": [
+        {
+          "text": "Go out",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "and play",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-7-3",
+      "section": "Day 7",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "라디오를 꺼라.",
+      "english": "Turn off the radio.",
+      "chunks": [
+        {
+          "text": "Turn off",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the radio",
           "role": "Object",
           "color": "#FFD700"
         }
       ],
-      "context": "Family"
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-7-4",
+      "section": "Day 7",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "차에 타라.",
+      "english": "Get in the car.",
+      "chunks": [
+        {
+          "text": "Get in",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the car",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-7-5",
+      "section": "Day 7",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나를 믿어.",
+      "english": "Count on me.",
+      "chunks": [
+        {
+          "text": "Count on",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "me",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-7-6",
+      "section": "Day 7",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그는 이야기를 지어냈다.",
+      "english": "He made up a story.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "made up",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a story",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-7-7",
+      "section": "Day 7",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "실수를 지적해라.",
+      "english": "Point out the mistake.",
+      "chunks": [
+        {
+          "text": "Point out",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the mistake",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-7-8",
+      "section": "Day 7",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "이 사진을 봐라.",
+      "english": "Look at this picture.",
+      "chunks": [
+        {
+          "text": "Look at",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "this picture",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-7-9",
+      "section": "Day 7",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "우리 화해하자.",
+      "english": "Let's make up.",
+      "chunks": [
+        {
+          "text": "Let's",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "make up",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-7-10",
+      "section": "Day 7",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "신발을 신어라.",
+      "english": "Put on your shoes.",
+      "chunks": [
+        {
+          "text": "Put on",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "your shoes",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
     }
   ]
 }

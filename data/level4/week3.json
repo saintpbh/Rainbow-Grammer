@@ -1,12 +1,12 @@
 {
   "curriculum": [
     {
-      "id": "2-15-1",
+      "id": "5-15-1",
       "section": "Day 15",
-      "description": "To-Infinitive vs Gerund",
-      "question": "What do you want?",
-      "korean": "나는 가고 싶지만 머무르는 것을 즐긴다.",
-      "english": "I want to go but I enjoy staying.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 집에 가고 싶다.",
+      "english": "I want to go home.",
       "chunks": [
         {
           "text": "I",
@@ -19,329 +19,64 @@
           "color": "#FF7F00"
         },
         {
-          "text": "to go",
+          "text": "to go home",
           "role": "Object",
           "color": "#FFD700"
-        },
-        {
-          "text": "but I enjoy staying",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Mixed feelings",
+      "context": "Core Lesson",
       "grammarGuide": {
-        "title": "To-Infinitive vs Gerund",
+        "title": "Core Lesson",
         "structure": [
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
             "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
+            "color": "#FFD700"
           }
         ]
       }
     },
     {
-      "id": "2-15-2",
+      "id": "5-15-2",
       "section": "Day 15",
-      "description": "To-Infinitive vs Gerund",
-      "question": "What do you want?",
-      "korean": "나는 가고 싶지만 머무르는 것을 즐긴다.",
-      "english": "I want to go but I enjoy staying.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그녀는 노래하는 것을 좋아한다.",
+      "english": "She likes to sing.",
       "chunks": [
         {
-          "text": "I",
+          "text": "She",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "want",
+          "text": "likes",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "to go",
+          "text": "to sing",
           "role": "Object",
           "color": "#FFD700"
-        },
-        {
-          "text": "but I enjoy staying",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Mixed feelings"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-15-3",
+      "id": "5-15-3",
       "section": "Day 15",
-      "description": "To-Infinitive vs Gerund",
-      "question": "What do you want?",
-      "korean": "나는 가고 싶지만 머무르는 것을 즐긴다.",
-      "english": "I want to go but I enjoy staying.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "want",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to go",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "but I enjoy staying",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Mixed feelings"
-    },
-    {
-      "id": "2-15-4",
-      "section": "Day 15",
-      "description": "To-Infinitive vs Gerund",
-      "question": "What do you want?",
-      "korean": "나는 가고 싶지만 머무르는 것을 즐긴다.",
-      "english": "I want to go but I enjoy staying.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "want",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to go",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "but I enjoy staying",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Mixed feelings"
-    },
-    {
-      "id": "2-15-5",
-      "section": "Day 15",
-      "description": "To-Infinitive vs Gerund",
-      "question": "What do you want?",
-      "korean": "나는 가고 싶지만 머무르는 것을 즐긴다.",
-      "english": "I want to go but I enjoy staying.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "want",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to go",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "but I enjoy staying",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Mixed feelings"
-    },
-    {
-      "id": "2-15-6",
-      "section": "Day 15",
-      "description": "To-Infinitive vs Gerund",
-      "question": "What do you want?",
-      "korean": "나는 가고 싶지만 머무르는 것을 즐긴다.",
-      "english": "I want to go but I enjoy staying.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "want",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to go",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "but I enjoy staying",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Mixed feelings"
-    },
-    {
-      "id": "2-15-7",
-      "section": "Day 15",
-      "description": "To-Infinitive vs Gerund",
-      "question": "What do you want?",
-      "korean": "나는 가고 싶지만 머무르는 것을 즐긴다.",
-      "english": "I want to go but I enjoy staying.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "want",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to go",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "but I enjoy staying",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Mixed feelings"
-    },
-    {
-      "id": "2-15-8",
-      "section": "Day 15",
-      "description": "To-Infinitive vs Gerund",
-      "question": "What do you want?",
-      "korean": "나는 가고 싶지만 머무르는 것을 즐긴다.",
-      "english": "I want to go but I enjoy staying.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "want",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to go",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "but I enjoy staying",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Mixed feelings"
-    },
-    {
-      "id": "2-15-9",
-      "section": "Day 15",
-      "description": "To-Infinitive vs Gerund",
-      "question": "What do you want?",
-      "korean": "나는 가고 싶지만 머무르는 것을 즐긴다.",
-      "english": "I want to go but I enjoy staying.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "want",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to go",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "but I enjoy staying",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Mixed feelings"
-    },
-    {
-      "id": "2-15-10",
-      "section": "Day 15",
-      "description": "To-Infinitive vs Gerund",
-      "question": "What do you want?",
-      "korean": "나는 가고 싶지만 머무르는 것을 즐긴다.",
-      "english": "I want to go but I enjoy staying.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "want",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "to go",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "but I enjoy staying",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Mixed feelings"
-    },
-    {
-      "id": "2-16-1",
-      "section": "Day 16",
-      "description": "Stop usage",
-      "question": "Did he stop?",
-      "korean": "그는 담배를 끊었다.",
-      "english": "He stopped smoking.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그는 남기로 결정했다.",
+      "english": "He decided to stay.",
       "chunks": [
         {
           "text": "He",
@@ -349,48 +84,251 @@
           "color": "#FF0000"
         },
         {
-          "text": "stopped",
+          "text": "decided",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "smoking",
+          "text": "to stay",
           "role": "Object",
           "color": "#FFD700"
         }
       ],
-      "context": "Health",
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-15-4",
+      "section": "Day 15",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "우리는 여행할 계획이다.",
+      "english": "We plan to travel.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "plan",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "to travel",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-15-5",
+      "section": "Day 15",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "너를 보길 희망해.",
+      "english": "I hope to see you.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "hope",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "to see you",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-15-6",
+      "section": "Day 15",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그들은 일해야 한다.",
+      "english": "They need to work.",
+      "chunks": [
+        {
+          "text": "They",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "need",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "to work",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-15-7",
+      "section": "Day 15",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "도울 것을 약속해.",
+      "english": "I promise to help.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "promise",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "to help",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-15-8",
+      "section": "Day 15",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그녀는 수영을 배웠다.",
+      "english": "She learned to swim.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "learned",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "to swim",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-15-9",
+      "section": "Day 15",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "이해하려고 노력해 봐.",
+      "english": "Try to understand.",
+      "chunks": [
+        {
+          "text": "Try",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "to understand",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-15-10",
+      "section": "Day 15",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "우유 사는 걸 잊다.",
+      "english": "Forget to buy milk.",
+      "chunks": [
+        {
+          "text": "Forget",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "to buy milk",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-16-1",
+      "section": "Day 16",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 수영을 즐긴다.",
+      "english": "I enjoy swimming.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "enjoy",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "swimming",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
       "grammarGuide": {
-        "title": "Stop usage",
+        "title": "Core Lesson",
         "structure": [
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
             "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
+            "color": "#FFD700"
           }
         ]
       }
     },
     {
-      "id": "2-16-2",
+      "id": "5-16-2",
       "section": "Day 16",
-      "description": "Stop usage",
-      "question": "Did he stop?",
-      "korean": "그는 담배를 끊었다.",
-      "english": "He stopped smoking.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그녀는 울음을 멈췄다.",
+      "english": "She stopped crying.",
       "chunks": [
         {
-          "text": "He",
+          "text": "She",
           "role": "Subject",
           "color": "#FF0000"
         },
@@ -400,20 +338,21 @@
           "color": "#FF7F00"
         },
         {
-          "text": "smoking",
+          "text": "crying",
           "role": "Object",
           "color": "#FFD700"
         }
       ],
-      "context": "Health"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-16-3",
+      "id": "5-16-3",
       "section": "Day 16",
-      "description": "Stop usage",
-      "question": "Did he stop?",
-      "korean": "그는 담배를 끊었다.",
-      "english": "He stopped smoking.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그는 일을 마쳤다.",
+      "english": "He finished working.",
       "chunks": [
         {
           "text": "He",
@@ -421,7 +360,149 @@
           "color": "#FF0000"
         },
         {
-          "text": "stopped",
+          "text": "finished",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "working",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-16-4",
+      "section": "Day 16",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "우리는 말하기를 연습한다.",
+      "english": "We practice speaking.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "practice",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "speaking",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-16-5",
+      "section": "Day 16",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "문 좀 열어주시겠어요?",
+      "english": "Do you mind opening the door?",
+      "chunks": [
+        {
+          "text": "Do you mind",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "opening the door",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-16-6",
+      "section": "Day 16",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "거기 가는 것을 제안한다.",
+      "english": "I suggest going there.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "suggest",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "going there",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-16-7",
+      "section": "Day 16",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "늦게 먹는 것을 피하라.",
+      "english": "Avoid eating late.",
+      "chunks": [
+        {
+          "text": "Avoid",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "eating late",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-16-8",
+      "section": "Day 16",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "계속 시도해라.",
+      "english": "Keep trying.",
+      "chunks": [
+        {
+          "text": "Keep",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "trying",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-16-9",
+      "section": "Day 16",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "담배를 끊어라.",
+      "english": "Give up smoking.",
+      "chunks": [
+        {
+          "text": "Give up",
           "role": "Verb",
           "color": "#FF7F00"
         },
@@ -431,197 +512,38 @@
           "color": "#FFD700"
         }
       ],
-      "context": "Health"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-16-4",
+      "id": "5-16-10",
       "section": "Day 16",
-      "description": "Stop usage",
-      "question": "Did he stop?",
-      "korean": "그는 담배를 끊었다.",
-      "english": "He stopped smoking.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 것을 상상해 봐.",
+      "english": "Imagine flying.",
       "chunks": [
         {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "stopped",
+          "text": "Imagine",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "smoking",
+          "text": "flying",
           "role": "Object",
           "color": "#FFD700"
         }
       ],
-      "context": "Health"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-16-5",
-      "section": "Day 16",
-      "description": "Stop usage",
-      "question": "Did he stop?",
-      "korean": "그는 담배를 끊었다.",
-      "english": "He stopped smoking.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "stopped",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "smoking",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Health"
-    },
-    {
-      "id": "2-16-6",
-      "section": "Day 16",
-      "description": "Stop usage",
-      "question": "Did he stop?",
-      "korean": "그는 담배를 끊었다.",
-      "english": "He stopped smoking.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "stopped",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "smoking",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Health"
-    },
-    {
-      "id": "2-16-7",
-      "section": "Day 16",
-      "description": "Stop usage",
-      "question": "Did he stop?",
-      "korean": "그는 담배를 끊었다.",
-      "english": "He stopped smoking.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "stopped",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "smoking",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Health"
-    },
-    {
-      "id": "2-16-8",
-      "section": "Day 16",
-      "description": "Stop usage",
-      "question": "Did he stop?",
-      "korean": "그는 담배를 끊었다.",
-      "english": "He stopped smoking.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "stopped",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "smoking",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Health"
-    },
-    {
-      "id": "2-16-9",
-      "section": "Day 16",
-      "description": "Stop usage",
-      "question": "Did he stop?",
-      "korean": "그는 담배를 끊었다.",
-      "english": "He stopped smoking.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "stopped",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "smoking",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Health"
-    },
-    {
-      "id": "2-16-10",
-      "section": "Day 16",
-      "description": "Stop usage",
-      "question": "Did he stop?",
-      "korean": "그는 담배를 끊었다.",
-      "english": "He stopped smoking.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "stopped",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "smoking",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Health"
-    },
-    {
-      "id": "2-17-1",
+      "id": "5-17-1",
       "section": "Day 17",
-      "description": "Common Phrase",
-      "question": "Tell me the truth.",
-      "korean": "솔직히 말해서 나는 피곤하다.",
-      "english": "To be honest I am tired.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "솔직히 말해서 피곤해.",
+      "english": "To be honest, I am tired.",
       "chunks": [
         {
           "text": "To be honest",
@@ -644,46 +566,150 @@
           "color": "#BA68C8"
         }
       ],
-      "context": "Confession",
+      "context": "Core Lesson",
       "grammarGuide": {
-        "title": "Common Phrase",
+        "title": "Core Lesson",
         "structure": [
           {
             "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
+            "color": "#B0BEC5"
           },
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
             "text": "Complement",
-            "color": "#BA68C8",
-            "desc": ""
+            "color": "#BA68C8"
           }
         ]
       }
     },
     {
-      "id": "2-17-2",
+      "id": "5-17-2",
       "section": "Day 17",
-      "description": "Common Phrase",
-      "question": "Tell me the truth.",
-      "korean": "솔직히 말해서 나는 피곤하다.",
-      "english": "To be honest I am tired.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "진실을 말하자면 거짓말했어.",
+      "english": "To tell the truth, I lied.",
       "chunks": [
         {
-          "text": "To be honest",
+          "text": "To tell the truth",
           "role": "Modifier",
           "color": "#B0BEC5"
         },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "lied",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-17-3",
+      "section": "Day 17",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "만나서 반가워요.",
+      "english": "Nice to meet you.",
+      "chunks": [
+        {
+          "text": "Nice",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "to meet you",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-17-4",
+      "section": "Day 17",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "배우기 쉽다.",
+      "english": "It is easy to learn.",
+      "chunks": [
+        {
+          "text": "It",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "easy",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-17-5",
+      "section": "Day 17",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "말하기 어렵다.",
+      "english": "It is hard to say.",
+      "chunks": [
+        {
+          "text": "It",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "hard",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "to say",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-17-6",
+      "section": "Day 17",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "도와줘서 기쁘다.",
+      "english": "I am happy to help.",
+      "chunks": [
         {
           "text": "I",
           "role": "Subject",
@@ -695,938 +721,114 @@
           "color": "#FF7F00"
         },
         {
-          "text": "tired",
+          "text": "happy",
           "role": "Complement",
           "color": "#BA68C8"
+        },
+        {
+          "text": "to help",
+          "role": "Modifier",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Confession"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-17-3",
+      "id": "5-17-7",
       "section": "Day 17",
-      "description": "Common Phrase",
-      "question": "Tell me the truth.",
-      "korean": "솔직히 말해서 나는 피곤하다.",
-      "english": "To be honest I am tired.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "갈 준비 됐니?",
+      "english": "Ready to go?",
       "chunks": [
         {
-          "text": "To be honest",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "am",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "tired",
+          "text": "Ready",
           "role": "Complement",
           "color": "#BA68C8"
+        },
+        {
+          "text": "to go",
+          "role": "Modifier",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Confession"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-17-4",
+      "id": "5-17-8",
       "section": "Day 17",
-      "description": "Common Phrase",
-      "question": "Tell me the truth.",
-      "korean": "솔직히 말해서 나는 피곤하다.",
-      "english": "To be honest I am tired.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "잘 시간이다.",
+      "english": "Time to sleep.",
       "chunks": [
         {
-          "text": "To be honest",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "I",
+          "text": "Time",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "am",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "tired",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "to sleep",
+          "role": "Modifier",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Confession"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-17-5",
+      "id": "5-17-9",
       "section": "Day 17",
-      "description": "Common Phrase",
-      "question": "Tell me the truth.",
-      "korean": "솔직히 말해서 나는 피곤하다.",
-      "english": "To be honest I am tired.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "할 게 없다.",
+      "english": "Nothing to do.",
       "chunks": [
         {
-          "text": "To be honest",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "I",
+          "text": "Nothing",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "am",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "tired",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "to do",
+          "role": "Modifier",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Confession"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-17-6",
+      "id": "5-17-10",
       "section": "Day 17",
-      "description": "Common Phrase",
-      "question": "Tell me the truth.",
-      "korean": "솔직히 말해서 나는 피곤하다.",
-      "english": "To be honest I am tired.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "믿기지 않을 만큼 좋다.",
+      "english": "Too good to be true.",
       "chunks": [
         {
-          "text": "To be honest",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "am",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "tired",
+          "text": "Too good",
           "role": "Complement",
           "color": "#BA68C8"
-        }
-      ],
-      "context": "Confession"
-    },
-    {
-      "id": "2-17-7",
-      "section": "Day 17",
-      "description": "Common Phrase",
-      "question": "Tell me the truth.",
-      "korean": "솔직히 말해서 나는 피곤하다.",
-      "english": "To be honest I am tired.",
-      "chunks": [
+        },
         {
-          "text": "To be honest",
+          "text": "to be true",
           "role": "Modifier",
           "color": "#B0BEC5"
-        },
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "am",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "tired",
-          "role": "Complement",
-          "color": "#BA68C8"
         }
       ],
-      "context": "Confession"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-17-8",
-      "section": "Day 17",
-      "description": "Common Phrase",
-      "question": "Tell me the truth.",
-      "korean": "솔직히 말해서 나는 피곤하다.",
-      "english": "To be honest I am tired.",
-      "chunks": [
-        {
-          "text": "To be honest",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "am",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "tired",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Confession"
-    },
-    {
-      "id": "2-17-9",
-      "section": "Day 17",
-      "description": "Common Phrase",
-      "question": "Tell me the truth.",
-      "korean": "솔직히 말해서 나는 피곤하다.",
-      "english": "To be honest I am tired.",
-      "chunks": [
-        {
-          "text": "To be honest",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "am",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "tired",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Confession"
-    },
-    {
-      "id": "2-17-10",
-      "section": "Day 17",
-      "description": "Common Phrase",
-      "question": "Tell me the truth.",
-      "korean": "솔직히 말해서 나는 피곤하다.",
-      "english": "To be honest I am tired.",
-      "chunks": [
-        {
-          "text": "To be honest",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "am",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "tired",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Confession"
-    },
-    {
-      "id": "2-18-1",
+      "id": "5-18-1",
       "section": "Day 18",
-      "description": "Too ~ to",
-      "question": "Can we go out?",
-      "korean": "너무 더워서 나갈 수 없다.",
-      "english": "It is too hot to go out.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "too hot",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "to go out",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Summer heat",
-      "grammarGuide": {
-        "title": "Too ~ to",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Complement",
-            "color": "#BA68C8",
-            "desc": ""
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2-18-2",
-      "section": "Day 18",
-      "description": "Too ~ to",
-      "question": "Can we go out?",
-      "korean": "너무 더워서 나갈 수 없다.",
-      "english": "It is too hot to go out.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "too hot",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "to go out",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Summer heat"
-    },
-    {
-      "id": "2-18-3",
-      "section": "Day 18",
-      "description": "Too ~ to",
-      "question": "Can we go out?",
-      "korean": "너무 더워서 나갈 수 없다.",
-      "english": "It is too hot to go out.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "too hot",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "to go out",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Summer heat"
-    },
-    {
-      "id": "2-18-4",
-      "section": "Day 18",
-      "description": "Too ~ to",
-      "question": "Can we go out?",
-      "korean": "너무 더워서 나갈 수 없다.",
-      "english": "It is too hot to go out.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "too hot",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "to go out",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Summer heat"
-    },
-    {
-      "id": "2-18-5",
-      "section": "Day 18",
-      "description": "Too ~ to",
-      "question": "Can we go out?",
-      "korean": "너무 더워서 나갈 수 없다.",
-      "english": "It is too hot to go out.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "too hot",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "to go out",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Summer heat"
-    },
-    {
-      "id": "2-18-6",
-      "section": "Day 18",
-      "description": "Too ~ to",
-      "question": "Can we go out?",
-      "korean": "너무 더워서 나갈 수 없다.",
-      "english": "It is too hot to go out.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "too hot",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "to go out",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Summer heat"
-    },
-    {
-      "id": "2-18-7",
-      "section": "Day 18",
-      "description": "Too ~ to",
-      "question": "Can we go out?",
-      "korean": "너무 더워서 나갈 수 없다.",
-      "english": "It is too hot to go out.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "too hot",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "to go out",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Summer heat"
-    },
-    {
-      "id": "2-18-8",
-      "section": "Day 18",
-      "description": "Too ~ to",
-      "question": "Can we go out?",
-      "korean": "너무 더워서 나갈 수 없다.",
-      "english": "It is too hot to go out.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "too hot",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "to go out",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Summer heat"
-    },
-    {
-      "id": "2-18-9",
-      "section": "Day 18",
-      "description": "Too ~ to",
-      "question": "Can we go out?",
-      "korean": "너무 더워서 나갈 수 없다.",
-      "english": "It is too hot to go out.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "too hot",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "to go out",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Summer heat"
-    },
-    {
-      "id": "2-18-10",
-      "section": "Day 18",
-      "description": "Too ~ to",
-      "question": "Can we go out?",
-      "korean": "너무 더워서 나갈 수 없다.",
-      "english": "It is too hot to go out.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "too hot",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "to go out",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Summer heat"
-    },
-    {
-      "id": "2-19-1",
-      "section": "Day 19",
-      "description": "Too ~ to",
-      "question": "Can we go out?",
-      "korean": "너무 더워서 나갈 수 없다.",
-      "english": "It is too hot to go out.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "too hot",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "to go out",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Summer heat",
-      "grammarGuide": {
-        "title": "Too ~ to",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Complement",
-            "color": "#BA68C8",
-            "desc": ""
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2-19-2",
-      "section": "Day 19",
-      "description": "Too ~ to",
-      "question": "Can we go out?",
-      "korean": "너무 더워서 나갈 수 없다.",
-      "english": "It is too hot to go out.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "too hot",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "to go out",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Summer heat"
-    },
-    {
-      "id": "2-19-3",
-      "section": "Day 19",
-      "description": "Too ~ to",
-      "question": "Can we go out?",
-      "korean": "너무 더워서 나갈 수 없다.",
-      "english": "It is too hot to go out.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "too hot",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "to go out",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Summer heat"
-    },
-    {
-      "id": "2-19-4",
-      "section": "Day 19",
-      "description": "Too ~ to",
-      "question": "Can we go out?",
-      "korean": "너무 더워서 나갈 수 없다.",
-      "english": "It is too hot to go out.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "too hot",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "to go out",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Summer heat"
-    },
-    {
-      "id": "2-19-5",
-      "section": "Day 19",
-      "description": "Too ~ to",
-      "question": "Can we go out?",
-      "korean": "너무 더워서 나갈 수 없다.",
-      "english": "It is too hot to go out.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "too hot",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "to go out",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Summer heat"
-    },
-    {
-      "id": "2-19-6",
-      "section": "Day 19",
-      "description": "Too ~ to",
-      "question": "Can we go out?",
-      "korean": "너무 더워서 나갈 수 없다.",
-      "english": "It is too hot to go out.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "too hot",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "to go out",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Summer heat"
-    },
-    {
-      "id": "2-19-7",
-      "section": "Day 19",
-      "description": "Too ~ to",
-      "question": "Can we go out?",
-      "korean": "너무 더워서 나갈 수 없다.",
-      "english": "It is too hot to go out.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "too hot",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "to go out",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Summer heat"
-    },
-    {
-      "id": "2-19-8",
-      "section": "Day 19",
-      "description": "Too ~ to",
-      "question": "Can we go out?",
-      "korean": "너무 더워서 나갈 수 없다.",
-      "english": "It is too hot to go out.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "too hot",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "to go out",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Summer heat"
-    },
-    {
-      "id": "2-19-9",
-      "section": "Day 19",
-      "description": "Too ~ to",
-      "question": "Can we go out?",
-      "korean": "너무 더워서 나갈 수 없다.",
-      "english": "It is too hot to go out.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "too hot",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "to go out",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Summer heat"
-    },
-    {
-      "id": "2-19-10",
-      "section": "Day 19",
-      "description": "Too ~ to",
-      "question": "Can we go out?",
-      "korean": "너무 더워서 나갈 수 없다.",
-      "english": "It is too hot to go out.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "too hot",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "to go out",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Summer heat"
-    },
-    {
-      "id": "2-20-1",
-      "section": "Day 20",
-      "description": "Takes time",
-      "question": "How long is the flight?",
-      "korean": "거기까지 비행기로 2시간 걸린다.",
-      "english": "It takes two hours to fly there.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "치유에는 시간이 걸린다.",
+      "english": "It takes time to heal.",
       "chunks": [
         {
           "text": "It",
@@ -1639,50 +841,46 @@
           "color": "#FF7F00"
         },
         {
-          "text": "two hours",
+          "text": "time",
           "role": "Object",
           "color": "#FFD700"
         },
         {
-          "text": "to fly there",
+          "text": "to heal",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Travel info",
+      "context": "Core Lesson",
       "grammarGuide": {
-        "title": "Takes time",
+        "title": "Core Lesson",
         "structure": [
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
             "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
+            "color": "#FFD700"
           },
           {
             "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
+            "color": "#B0BEC5"
           }
         ]
       }
     },
     {
-      "id": "2-20-2",
-      "section": "Day 20",
-      "description": "Takes time",
-      "question": "How long is the flight?",
-      "korean": "거기까지 비행기로 2시간 걸린다.",
-      "english": "It takes two hours to fly there.",
+      "id": "5-18-2",
+      "section": "Day 18",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "너무 뜨거워서 못 먹겠다.",
+      "english": "It is too hot to eat.",
       "chunks": [
         {
           "text": "It",
@@ -1690,458 +888,384 @@
           "color": "#FF0000"
         },
         {
-          "text": "takes",
+          "text": "is",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "two hours",
-          "role": "Object",
-          "color": "#FFD700"
+          "text": "too hot",
+          "role": "Complement",
+          "color": "#BA68C8"
         },
         {
-          "text": "to fly there",
+          "text": "to eat",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Travel info"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-20-3",
-      "section": "Day 20",
-      "description": "Takes time",
-      "question": "How long is the flight?",
-      "korean": "거기까지 비행기로 2시간 걸린다.",
-      "english": "It takes two hours to fly there.",
+      "id": "5-18-3",
+      "section": "Day 18",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그는 그걸 살 만큼 부자다.",
+      "english": "He is rich enough to buy it.",
       "chunks": [
         {
-          "text": "It",
+          "text": "He",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "takes",
+          "text": "is",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "two hours",
-          "role": "Object",
-          "color": "#FFD700"
+          "text": "rich enough",
+          "role": "Complement",
+          "color": "#BA68C8"
         },
         {
-          "text": "to fly there",
+          "text": "to buy it",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Travel info"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-20-4",
-      "section": "Day 20",
-      "description": "Takes time",
-      "question": "How long is the flight?",
-      "korean": "거기까지 비행기로 2시간 걸린다.",
-      "english": "It takes two hours to fly there.",
+      "id": "5-18-4",
+      "section": "Day 18",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그 말을 들으니 유감이다.",
+      "english": "I am sorry to hear that.",
       "chunks": [
         {
-          "text": "It",
+          "text": "I",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "takes",
+          "text": "am",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "two hours",
-          "role": "Object",
-          "color": "#FFD700"
+          "text": "sorry",
+          "role": "Complement",
+          "color": "#BA68C8"
         },
         {
-          "text": "to fly there",
+          "text": "to hear that",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Travel info"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-20-5",
-      "section": "Day 20",
-      "description": "Takes time",
-      "question": "How long is the flight?",
-      "korean": "거기까지 비행기로 2시간 걸린다.",
-      "english": "It takes two hours to fly there.",
+      "id": "5-18-5",
+      "section": "Day 18",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그녀는 자라서 의사가 되었다.",
+      "english": "She grew up to be a doctor.",
       "chunks": [
         {
-          "text": "It",
+          "text": "She",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "takes",
+          "text": "grew up",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "two hours",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "to fly there",
+          "text": "to be a doctor",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Travel info"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-20-6",
-      "section": "Day 20",
-      "description": "Takes time",
-      "question": "How long is the flight?",
-      "korean": "거기까지 비행기로 2시간 걸린다.",
-      "english": "It takes two hours to fly there.",
+      "id": "5-18-6",
+      "section": "Day 18",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그들은 공부하러 파리에 갔다.",
+      "english": "They went to Paris to study.",
       "chunks": [
         {
-          "text": "It",
+          "text": "They",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "takes",
+          "text": "went",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "two hours",
-          "role": "Object",
-          "color": "#FFD700"
+          "text": "to Paris",
+          "role": "Modifier",
+          "color": "#B0BEC5"
         },
         {
-          "text": "to fly there",
+          "text": "to study",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Travel info"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-20-7",
-      "section": "Day 20",
-      "description": "Takes time",
-      "question": "How long is the flight?",
-      "korean": "거기까지 비행기로 2시간 걸린다.",
-      "english": "It takes two hours to fly there.",
+      "id": "5-18-7",
+      "section": "Day 18",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 쓰기 위해 펜을 쓴다.",
+      "english": "I use a pen to write.",
       "chunks": [
         {
-          "text": "It",
+          "text": "I",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "takes",
+          "text": "use",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "two hours",
+          "text": "a pen",
           "role": "Object",
           "color": "#FFD700"
         },
         {
-          "text": "to fly there",
+          "text": "to write",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Travel info"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-20-8",
-      "section": "Day 20",
-      "description": "Takes time",
-      "question": "How long is the flight?",
-      "korean": "거기까지 비행기로 2시간 걸린다.",
-      "english": "It takes two hours to fly there.",
+      "id": "5-18-8",
+      "section": "Day 18",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "장미 냄새를 맡으러 멈춰라.",
+      "english": "Stop to smell the roses.",
       "chunks": [
         {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "takes",
+          "text": "Stop",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "two hours",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "to fly there",
+          "text": "to smell the roses",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Travel info"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-20-9",
-      "section": "Day 20",
-      "description": "Takes time",
-      "question": "How long is the flight?",
-      "korean": "거기까지 비행기로 2시간 걸린다.",
-      "english": "It takes two hours to fly there.",
+      "id": "5-18-9",
+      "section": "Day 18",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "문 잠그는 거 기억해.",
+      "english": "Remember to lock the door.",
       "chunks": [
         {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "takes",
+          "text": "Remember",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "two hours",
+          "text": "to lock the door",
           "role": "Object",
           "color": "#FFD700"
-        },
-        {
-          "text": "to fly there",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Travel info"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-20-10",
-      "section": "Day 20",
-      "description": "Takes time",
-      "question": "How long is the flight?",
-      "korean": "거기까지 비행기로 2시간 걸린다.",
-      "english": "It takes two hours to fly there.",
+      "id": "5-18-10",
+      "section": "Day 18",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "전화하는 거 잊지 마.",
+      "english": "Don't forget to call.",
       "chunks": [
         {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "takes",
+          "text": "Don't forget",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "two hours",
+          "text": "to call",
           "role": "Object",
           "color": "#FFD700"
-        },
-        {
-          "text": "to fly there",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Travel info"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-21-1",
-      "section": "Day 21",
-      "description": "Takes time",
-      "question": "How long is the flight?",
-      "korean": "거기까지 비행기로 2시간 걸린다.",
-      "english": "It takes two hours to fly there.",
+      "id": "5-19-1",
+      "section": "Day 19",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "늦게 먹는 것을 피하라.",
+      "english": "Avoid eating late.",
       "chunks": [
         {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "takes",
+          "text": "Avoid",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "two hours",
+          "text": "eating late",
           "role": "Object",
           "color": "#FFD700"
-        },
-        {
-          "text": "to fly there",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Travel info",
+      "context": "Review",
       "grammarGuide": {
-        "title": "Takes time",
+        "title": "Review",
         "structure": [
           {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
             "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
+            "color": "#FFD700"
           }
         ]
       }
     },
     {
-      "id": "2-21-2",
-      "section": "Day 21",
-      "description": "Takes time",
-      "question": "How long is the flight?",
-      "korean": "거기까지 비행기로 2시간 걸린다.",
-      "english": "It takes two hours to fly there.",
+      "id": "5-19-2",
+      "section": "Day 19",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나는 집에 가고 싶다.",
+      "english": "I want to go home.",
       "chunks": [
         {
-          "text": "It",
+          "text": "I",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "takes",
+          "text": "want",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "two hours",
+          "text": "to go home",
           "role": "Object",
           "color": "#FFD700"
-        },
-        {
-          "text": "to fly there",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Travel info"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-21-3",
-      "section": "Day 21",
-      "description": "Takes time",
-      "question": "How long is the flight?",
-      "korean": "거기까지 비행기로 2시간 걸린다.",
-      "english": "It takes two hours to fly there.",
+      "id": "5-19-3",
+      "section": "Day 19",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "전화하는 거 잊지 마.",
+      "english": "Don't forget to call.",
       "chunks": [
         {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "takes",
+          "text": "Don't forget",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "two hours",
+          "text": "to call",
           "role": "Object",
           "color": "#FFD700"
-        },
-        {
-          "text": "to fly there",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Travel info"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-21-4",
-      "section": "Day 21",
-      "description": "Takes time",
-      "question": "How long is the flight?",
-      "korean": "거기까지 비행기로 2시간 걸린다.",
-      "english": "It takes two hours to fly there.",
+      "id": "5-19-4",
+      "section": "Day 19",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "거기 가는 것을 제안한다.",
+      "english": "I suggest going there.",
       "chunks": [
         {
-          "text": "It",
+          "text": "I",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "takes",
+          "text": "suggest",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "two hours",
+          "text": "going there",
           "role": "Object",
           "color": "#FFD700"
-        },
-        {
-          "text": "to fly there",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Travel info"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-21-5",
-      "section": "Day 21",
-      "description": "Takes time",
-      "question": "How long is the flight?",
-      "korean": "거기까지 비행기로 2시간 걸린다.",
-      "english": "It takes two hours to fly there.",
+      "id": "5-19-5",
+      "section": "Day 19",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "잘 시간이다.",
+      "english": "Time to sleep.",
       "chunks": [
         {
-          "text": "It",
+          "text": "Time",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "takes",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "two hours",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "to fly there",
+          "text": "to sleep",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Travel info"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-21-6",
-      "section": "Day 21",
-      "description": "Takes time",
-      "question": "How long is the flight?",
-      "korean": "거기까지 비행기로 2시간 걸린다.",
-      "english": "It takes two hours to fly there.",
+      "id": "5-19-6",
+      "section": "Day 19",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "배우기 쉽다.",
+      "english": "It is easy to learn.",
       "chunks": [
         {
           "text": "It",
@@ -2149,61 +1273,53 @@
           "color": "#FF0000"
         },
         {
-          "text": "takes",
+          "text": "is",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "two hours",
-          "role": "Object",
-          "color": "#FFD700"
+          "text": "easy",
+          "role": "Complement",
+          "color": "#BA68C8"
         },
         {
-          "text": "to fly there",
+          "text": "to learn",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Travel info"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-21-7",
-      "section": "Day 21",
-      "description": "Takes time",
-      "question": "How long is the flight?",
-      "korean": "거기까지 비행기로 2시간 걸린다.",
-      "english": "It takes two hours to fly there.",
+      "id": "5-19-7",
+      "section": "Day 19",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "믿기지 않을 만큼 좋다.",
+      "english": "Too good to be true.",
       "chunks": [
         {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
+          "text": "Too good",
+          "role": "Complement",
+          "color": "#BA68C8"
         },
         {
-          "text": "takes",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "two hours",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "to fly there",
+          "text": "to be true",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Travel info"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-21-8",
-      "section": "Day 21",
-      "description": "Takes time",
-      "question": "How long is the flight?",
-      "korean": "거기까지 비행기로 2시간 걸린다.",
-      "english": "It takes two hours to fly there.",
+      "id": "5-19-8",
+      "section": "Day 19",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "너무 뜨거워서 못 먹겠다.",
+      "english": "It is too hot to eat.",
       "chunks": [
         {
           "text": "It",
@@ -2211,30 +1327,31 @@
           "color": "#FF0000"
         },
         {
-          "text": "takes",
+          "text": "is",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "two hours",
-          "role": "Object",
-          "color": "#FFD700"
+          "text": "too hot",
+          "role": "Complement",
+          "color": "#BA68C8"
         },
         {
-          "text": "to fly there",
+          "text": "to eat",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Travel info"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-21-9",
-      "section": "Day 21",
-      "description": "Takes time",
-      "question": "How long is the flight?",
-      "korean": "거기까지 비행기로 2시간 걸린다.",
-      "english": "It takes two hours to fly there.",
+      "id": "5-19-9",
+      "section": "Day 19",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "치유에는 시간이 걸린다.",
+      "english": "It takes time to heal.",
       "chunks": [
         {
           "text": "It",
@@ -2247,25 +1364,253 @@
           "color": "#FF7F00"
         },
         {
-          "text": "two hours",
+          "text": "time",
           "role": "Object",
           "color": "#FFD700"
         },
         {
-          "text": "to fly there",
+          "text": "to heal",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Travel info"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-21-10",
-      "section": "Day 21",
-      "description": "Takes time",
-      "question": "How long is the flight?",
-      "korean": "거기까지 비행기로 2시간 걸린다.",
-      "english": "It takes two hours to fly there.",
+      "id": "5-19-10",
+      "section": "Day 19",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "만나서 반가워요.",
+      "english": "Nice to meet you.",
+      "chunks": [
+        {
+          "text": "Nice",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "to meet you",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-20-1",
+      "section": "Day 20",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나는 수영을 즐긴다.",
+      "english": "I enjoy swimming.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "enjoy",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "swimming",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": {
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Object",
+            "color": "#FFD700"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5-20-2",
+      "section": "Day 20",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나는 쓰기 위해 펜을 쓴다.",
+      "english": "I use a pen to write.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "use",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a pen",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "to write",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-20-3",
+      "section": "Day 20",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "담배를 끊어라.",
+      "english": "Give up smoking.",
+      "chunks": [
+        {
+          "text": "Give up",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "smoking",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-20-4",
+      "section": "Day 20",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "믿기지 않을 만큼 좋다.",
+      "english": "Too good to be true.",
+      "chunks": [
+        {
+          "text": "Too good",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "to be true",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-20-5",
+      "section": "Day 20",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그녀는 노래하는 것을 좋아한다.",
+      "english": "She likes to sing.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "likes",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "to sing",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-20-6",
+      "section": "Day 20",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "도울 것을 약속해.",
+      "english": "I promise to help.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "promise",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "to help",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-20-7",
+      "section": "Day 20",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "도와줘서 기쁘다.",
+      "english": "I am happy to help.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "am",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "happy",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "to help",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-20-8",
+      "section": "Day 20",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "치유에는 시간이 걸린다.",
+      "english": "It takes time to heal.",
       "chunks": [
         {
           "text": "It",
@@ -2278,17 +1623,349 @@
           "color": "#FF7F00"
         },
         {
-          "text": "two hours",
+          "text": "time",
           "role": "Object",
           "color": "#FFD700"
         },
         {
-          "text": "to fly there",
+          "text": "to heal",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Travel info"
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-20-9",
+      "section": "Day 20",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "너를 보길 희망해.",
+      "english": "I hope to see you.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "hope",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "to see you",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-20-10",
+      "section": "Day 20",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "솔직히 말해서 피곤해.",
+      "english": "To be honest, I am tired.",
+      "chunks": [
+        {
+          "text": "To be honest",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "am",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "tired",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-21-1",
+      "section": "Day 21",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "전화하는 거 잊지 마.",
+      "english": "Don't forget to call.",
+      "chunks": [
+        {
+          "text": "Don't forget",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "to call",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": {
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Object",
+            "color": "#FFD700"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5-21-2",
+      "section": "Day 21",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "거기 가는 것을 제안한다.",
+      "english": "I suggest going there.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "suggest",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "going there",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-21-3",
+      "section": "Day 21",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나는 것을 상상해 봐.",
+      "english": "Imagine flying.",
+      "chunks": [
+        {
+          "text": "Imagine",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "flying",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-21-4",
+      "section": "Day 21",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그녀는 자라서 의사가 되었다.",
+      "english": "She grew up to be a doctor.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "grew up",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "to be a doctor",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-21-5",
+      "section": "Day 21",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "진실을 말하자면 거짓말했어.",
+      "english": "To tell the truth, I lied.",
+      "chunks": [
+        {
+          "text": "To tell the truth",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "lied",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-21-6",
+      "section": "Day 21",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "할 게 없다.",
+      "english": "Nothing to do.",
+      "chunks": [
+        {
+          "text": "Nothing",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "to do",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-21-7",
+      "section": "Day 21",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "너를 보길 희망해.",
+      "english": "I hope to see you.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "hope",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "to see you",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-21-8",
+      "section": "Day 21",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "만나서 반가워요.",
+      "english": "Nice to meet you.",
+      "chunks": [
+        {
+          "text": "Nice",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "to meet you",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-21-9",
+      "section": "Day 21",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나는 쓰기 위해 펜을 쓴다.",
+      "english": "I use a pen to write.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "use",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a pen",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "to write",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "5-21-10",
+      "section": "Day 21",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "도와줘서 기쁘다.",
+      "english": "I am happy to help.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "am",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "happy",
+          "role": "Complement",
+          "color": "#BA68C8"
+        },
+        {
+          "text": "to help",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
     }
   ]
 }

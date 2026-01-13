@@ -1,12 +1,12 @@
 {
   "curriculum": [
     {
-      "id": "2-1-1",
+      "id": "4-1-1",
       "section": "Day 1",
-      "description": "Connecting Ideas (And)",
-      "question": "What do they like?",
-      "korean": "나는 사과를 좋아하고 그는 바나나를 좋아한다.",
-      "english": "I like apples and he likes bananas.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 사과와 바나나를 좋아한다.",
+      "english": "I like apples and bananas.",
       "chunks": [
         {
           "text": "I",
@@ -19,332 +19,62 @@
           "color": "#FF7F00"
         },
         {
-          "text": "apples",
+          "text": "apples and bananas",
           "role": "Object",
           "color": "#FFD700"
-        },
-        {
-          "text": "and he likes bananas",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Fruit preferences",
+      "context": "Core Lesson",
       "grammarGuide": {
-        "title": "Connecting Ideas (And)",
+        "title": "Core Lesson",
         "structure": [
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
             "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
+            "color": "#FFD700"
           }
         ]
       }
     },
     {
-      "id": "2-1-2",
+      "id": "4-1-2",
       "section": "Day 1",
-      "description": "Connecting Ideas (And)",
-      "question": "What do they like?",
-      "korean": "나는 사과를 좋아하고 그는 바나나를 좋아한다.",
-      "english": "I like apples and he likes bananas.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그녀는 달리고 점프한다.",
+      "english": "She runs and jumps.",
       "chunks": [
         {
-          "text": "I",
+          "text": "She",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "like",
+          "text": "runs and jumps",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "apples",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "and he likes bananas",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Fruit preferences"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-1-3",
+      "id": "4-1-3",
       "section": "Day 1",
-      "description": "Connecting Ideas (And)",
-      "question": "What do they like?",
-      "korean": "나는 사과를 좋아하고 그는 바나나를 좋아한다.",
-      "english": "I like apples and he likes bananas.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그는 키가 크고 잘생겼다.",
+      "english": "He is tall and handsome.",
       "chunks": [
         {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "like",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "apples",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "and he likes bananas",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Fruit preferences"
-    },
-    {
-      "id": "2-1-4",
-      "section": "Day 1",
-      "description": "Connecting Ideas (And)",
-      "question": "What do they like?",
-      "korean": "나는 사과를 좋아하고 그는 바나나를 좋아한다.",
-      "english": "I like apples and he likes bananas.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "like",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "apples",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "and he likes bananas",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Fruit preferences"
-    },
-    {
-      "id": "2-1-5",
-      "section": "Day 1",
-      "description": "Connecting Ideas (And)",
-      "question": "What do they like?",
-      "korean": "나는 사과를 좋아하고 그는 바나나를 좋아한다.",
-      "english": "I like apples and he likes bananas.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "like",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "apples",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "and he likes bananas",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Fruit preferences"
-    },
-    {
-      "id": "2-1-6",
-      "section": "Day 1",
-      "description": "Connecting Ideas (And)",
-      "question": "What do they like?",
-      "korean": "나는 사과를 좋아하고 그는 바나나를 좋아한다.",
-      "english": "I like apples and he likes bananas.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "like",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "apples",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "and he likes bananas",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Fruit preferences"
-    },
-    {
-      "id": "2-1-7",
-      "section": "Day 1",
-      "description": "Connecting Ideas (And)",
-      "question": "What do they like?",
-      "korean": "나는 사과를 좋아하고 그는 바나나를 좋아한다.",
-      "english": "I like apples and he likes bananas.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "like",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "apples",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "and he likes bananas",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Fruit preferences"
-    },
-    {
-      "id": "2-1-8",
-      "section": "Day 1",
-      "description": "Connecting Ideas (And)",
-      "question": "What do they like?",
-      "korean": "나는 사과를 좋아하고 그는 바나나를 좋아한다.",
-      "english": "I like apples and he likes bananas.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "like",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "apples",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "and he likes bananas",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Fruit preferences"
-    },
-    {
-      "id": "2-1-9",
-      "section": "Day 1",
-      "description": "Connecting Ideas (And)",
-      "question": "What do they like?",
-      "korean": "나는 사과를 좋아하고 그는 바나나를 좋아한다.",
-      "english": "I like apples and he likes bananas.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "like",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "apples",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "and he likes bananas",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Fruit preferences"
-    },
-    {
-      "id": "2-1-10",
-      "section": "Day 1",
-      "description": "Connecting Ideas (And)",
-      "question": "What do they like?",
-      "korean": "나는 사과를 좋아하고 그는 바나나를 좋아한다.",
-      "english": "I like apples and he likes bananas.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "like",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "apples",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "and he likes bananas",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Fruit preferences"
-    },
-    {
-      "id": "2-2-1",
-      "section": "Day 2",
-      "description": "Contrast (But)",
-      "question": "How do you feel?",
-      "korean": "날씨는 춥지만 나는 행복하다.",
-      "english": "It is cold but I am happy.",
-      "chunks": [
-        {
-          "text": "It",
+          "text": "He",
           "role": "Subject",
           "color": "#FF0000"
         },
@@ -354,53 +84,300 @@
           "color": "#FF7F00"
         },
         {
-          "text": "cold",
+          "text": "tall and handsome",
           "role": "Complement",
           "color": "#BA68C8"
-        },
-        {
-          "text": "but I am happy",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Winter day",
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-1-4",
+      "section": "Day 1",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "우리는 피자와 파스타를 먹었다.",
+      "english": "We ate pizza and pasta.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "ate",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "pizza and pasta",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-1-5",
+      "section": "Day 1",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "태양은 뜨고 진다.",
+      "english": "The sun rises and sets.",
+      "chunks": [
+        {
+          "text": "The sun",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "rises and sets",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-1-6",
+      "section": "Day 1",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "너와 나는 친구다.",
+      "english": "You and I are friends.",
+      "chunks": [
+        {
+          "text": "You and I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "are",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "friends",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-1-7",
+      "section": "Day 1",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그는 펜과 공책을 샀다.",
+      "english": "He bought a pen and a notebook.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "bought",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a pen and a notebook",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-1-8",
+      "section": "Day 1",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그들은 춤추고 노래했다.",
+      "english": "They danced and sang.",
+      "chunks": [
+        {
+          "text": "They",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "danced and sang",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-1-9",
+      "section": "Day 1",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "빨강과 파랑은 보라색을 만든다.",
+      "english": "Red and blue make purple.",
+      "chunks": [
+        {
+          "text": "Red and blue",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "make",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "purple",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-1-10",
+      "section": "Day 1",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "눈을 뜨고 봐라.",
+      "english": "Open your eyes and look.",
+      "chunks": [
+        {
+          "text": "Open",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "your eyes",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "and look",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-2-1",
+      "section": "Day 2",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 가고 싶었지만 머물렀다.",
+      "english": "I wanted to go but stayed.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "wanted to go",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "but stayed",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
       "grammarGuide": {
-        "title": "Contrast (But)",
+        "title": "Core Lesson",
         "structure": [
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
-            "text": "Complement",
-            "color": "#BA68C8",
-            "desc": ""
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
+            "text": "Verb",
+            "color": "#FF7F00"
           }
         ]
       }
     },
     {
-      "id": "2-2-2",
+      "id": "4-2-2",
       "section": "Day 2",
-      "description": "Contrast (But)",
-      "question": "Did he win?",
-      "korean": "그는 열심히 노력했지만 실패했다.",
-      "english": "He tried hard but he failed.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그는 작지만 강하다.",
+      "english": "He is small but strong.",
       "chunks": [
         {
           "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "small but strong",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-2-3",
+      "section": "Day 2",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "카레는 맵지만 맛있다.",
+      "english": "The curry is spicy but delicious.",
+      "chunks": [
+        {
+          "text": "The curry",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "spicy but delicious",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-2-4",
+      "section": "Day 2",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그녀는 열심히 노력했지만 실패했다.",
+      "english": "She tried hard but failed.",
+      "chunks": [
+        {
+          "text": "She",
           "role": "Subject",
           "color": "#FF0000"
         },
@@ -415,20 +392,48 @@
           "color": "#BA68C8"
         },
         {
-          "text": "but he failed",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "but failed",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Competition"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-2-3",
+      "id": "4-2-5",
       "section": "Day 2",
-      "description": "Contrast (But)",
-      "question": "How do you feel?",
-      "korean": "날씨는 춥지만 나는 행복하다.",
-      "english": "It is cold but I am happy.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 찾아봤지만 아무것도 발견하지 못했다.",
+      "english": "I looked but found nothing.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "looked",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "but found nothing",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-2-6",
+      "section": "Day 2",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그것은 비싸지만 좋다.",
+      "english": "It is expensive but good.",
       "chunks": [
         {
           "text": "It",
@@ -441,59 +446,24 @@
           "color": "#FF7F00"
         },
         {
-          "text": "cold",
+          "text": "expensive but good",
           "role": "Complement",
           "color": "#BA68C8"
-        },
-        {
-          "text": "but I am happy",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Winter day"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-2-4",
+      "id": "4-2-7",
       "section": "Day 2",
-      "description": "Contrast (But)",
-      "question": "Did he win?",
-      "korean": "그는 열심히 노력했지만 실패했다.",
-      "english": "He tried hard but he failed.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그는 부자지만 외롭다.",
+      "english": "He is rich but lonely.",
       "chunks": [
         {
           "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "tried",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "hard",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "but he failed",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Competition"
-    },
-    {
-      "id": "2-2-5",
-      "section": "Day 2",
-      "description": "Contrast (But)",
-      "question": "How do you feel?",
-      "korean": "날씨는 춥지만 나는 행복하다.",
-      "english": "It is cold but I am happy.",
-      "chunks": [
-        {
-          "text": "It",
           "role": "Subject",
           "color": "#FF0000"
         },
@@ -503,59 +473,24 @@
           "color": "#FF7F00"
         },
         {
-          "text": "cold",
+          "text": "rich but lonely",
           "role": "Complement",
           "color": "#BA68C8"
-        },
-        {
-          "text": "but I am happy",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Winter day"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-2-6",
+      "id": "4-2-8",
       "section": "Day 2",
-      "description": "Contrast (But)",
-      "question": "Did he win?",
-      "korean": "그는 열심히 노력했지만 실패했다.",
-      "english": "He tried hard but he failed.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그 차는 낡았지만 빠르다.",
+      "english": "The car is old but fast.",
       "chunks": [
         {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "tried",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "hard",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "but he failed",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Competition"
-    },
-    {
-      "id": "2-2-7",
-      "section": "Day 2",
-      "description": "Contrast (But)",
-      "question": "How do you feel?",
-      "korean": "날씨는 춥지만 나는 행복하다.",
-      "english": "It is cold but I am happy.",
-      "chunks": [
-        {
-          "text": "It",
+          "text": "The car",
           "role": "Subject",
           "color": "#FF0000"
         },
@@ -565,59 +500,51 @@
           "color": "#FF7F00"
         },
         {
-          "text": "cold",
+          "text": "old but fast",
           "role": "Complement",
           "color": "#BA68C8"
-        },
-        {
-          "text": "but I am happy",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Winter day"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-2-8",
+      "id": "4-2-9",
       "section": "Day 2",
-      "description": "Contrast (But)",
-      "question": "Did he win?",
-      "korean": "그는 열심히 노력했지만 실패했다.",
-      "english": "He tried hard but he failed.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "전화했지만 아무도 받지 않았다.",
+      "english": "I called but no one answered.",
       "chunks": [
         {
-          "text": "He",
+          "text": "I",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "tried",
+          "text": "called",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "hard",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "but he failed",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "but no one answered",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Competition"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-2-9",
+      "id": "4-2-10",
       "section": "Day 2",
-      "description": "Contrast (But)",
-      "question": "How do you feel?",
-      "korean": "날씨는 춥지만 나는 행복하다.",
-      "english": "It is cold but I am happy.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그녀는 엄격하지만 친절하다.",
+      "english": "She is strict but kind.",
       "chunks": [
         {
-          "text": "It",
+          "text": "She",
           "role": "Subject",
           "color": "#FF0000"
         },
@@ -627,55 +554,20 @@
           "color": "#FF7F00"
         },
         {
-          "text": "cold",
+          "text": "strict but kind",
           "role": "Complement",
           "color": "#BA68C8"
-        },
-        {
-          "text": "but I am happy",
-          "role": "Modifier",
-          "color": "#B0BEC5"
         }
       ],
-      "context": "Winter day"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-2-10",
-      "section": "Day 2",
-      "description": "Contrast (But)",
-      "question": "Did he win?",
-      "korean": "그는 열심히 노력했지만 실패했다.",
-      "english": "He tried hard but he failed.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "tried",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "hard",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "but he failed",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Competition"
-    },
-    {
-      "id": "2-3-1",
+      "id": "4-3-1",
       "section": "Day 3",
-      "description": "Choice (Or)",
-      "question": "What do you want?",
-      "korean": "너는 차를 원하니 아니면 커피를 원하니?",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "차 줄까 커피 줄까?",
       "english": "Do you want tea or coffee?",
       "chunks": [
         {
@@ -689,678 +581,475 @@
           "color": "#FFD700"
         }
       ],
-      "context": "Cafe order",
+      "context": "Core Lesson",
       "grammarGuide": {
-        "title": "Choice (Or)",
+        "title": "Core Lesson",
         "structure": [
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
             "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
+            "color": "#FFD700"
           }
         ]
       }
     },
     {
-      "id": "2-3-2",
+      "id": "4-3-2",
       "section": "Day 3",
-      "description": "Choice (Or)",
-      "question": "What do you want?",
-      "korean": "너는 차를 원하니 아니면 커피를 원하니?",
-      "english": "Do you want tea or coffee?",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "우리는 버스나 기차로 갈 수 있다.",
+      "english": "We can go by bus or train.",
       "chunks": [
         {
-          "text": "Do you want",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "tea or coffee",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Cafe order"
-    },
-    {
-      "id": "2-3-3",
-      "section": "Day 3",
-      "description": "Choice (Or)",
-      "question": "What do you want?",
-      "korean": "너는 차를 원하니 아니면 커피를 원하니?",
-      "english": "Do you want tea or coffee?",
-      "chunks": [
-        {
-          "text": "Do you want",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "tea or coffee",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Cafe order"
-    },
-    {
-      "id": "2-3-4",
-      "section": "Day 3",
-      "description": "Choice (Or)",
-      "question": "What do you want?",
-      "korean": "너는 차를 원하니 아니면 커피를 원하니?",
-      "english": "Do you want tea or coffee?",
-      "chunks": [
-        {
-          "text": "Do you want",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "tea or coffee",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Cafe order"
-    },
-    {
-      "id": "2-3-5",
-      "section": "Day 3",
-      "description": "Choice (Or)",
-      "question": "What do you want?",
-      "korean": "너는 차를 원하니 아니면 커피를 원하니?",
-      "english": "Do you want tea or coffee?",
-      "chunks": [
-        {
-          "text": "Do you want",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "tea or coffee",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Cafe order"
-    },
-    {
-      "id": "2-3-6",
-      "section": "Day 3",
-      "description": "Choice (Or)",
-      "question": "What do you want?",
-      "korean": "너는 차를 원하니 아니면 커피를 원하니?",
-      "english": "Do you want tea or coffee?",
-      "chunks": [
-        {
-          "text": "Do you want",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "tea or coffee",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Cafe order"
-    },
-    {
-      "id": "2-3-7",
-      "section": "Day 3",
-      "description": "Choice (Or)",
-      "question": "What do you want?",
-      "korean": "너는 차를 원하니 아니면 커피를 원하니?",
-      "english": "Do you want tea or coffee?",
-      "chunks": [
-        {
-          "text": "Do you want",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "tea or coffee",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Cafe order"
-    },
-    {
-      "id": "2-3-8",
-      "section": "Day 3",
-      "description": "Choice (Or)",
-      "question": "What do you want?",
-      "korean": "너는 차를 원하니 아니면 커피를 원하니?",
-      "english": "Do you want tea or coffee?",
-      "chunks": [
-        {
-          "text": "Do you want",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "tea or coffee",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Cafe order"
-    },
-    {
-      "id": "2-3-9",
-      "section": "Day 3",
-      "description": "Choice (Or)",
-      "question": "What do you want?",
-      "korean": "너는 차를 원하니 아니면 커피를 원하니?",
-      "english": "Do you want tea or coffee?",
-      "chunks": [
-        {
-          "text": "Do you want",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "tea or coffee",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Cafe order"
-    },
-    {
-      "id": "2-3-10",
-      "section": "Day 3",
-      "description": "Choice (Or)",
-      "question": "What do you want?",
-      "korean": "너는 차를 원하니 아니면 커피를 원하니?",
-      "english": "Do you want tea or coffee?",
-      "chunks": [
-        {
-          "text": "Do you want",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "tea or coffee",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Cafe order"
-    },
-    {
-      "id": "2-4-1",
-      "section": "Day 4",
-      "description": "Result (So)",
-      "question": "Why did you stay home?",
-      "korean": "비가 와서 우리는 집에 머물렀다.",
-      "english": "It rained so we stayed home.",
-      "chunks": [
-        {
-          "text": "It",
+          "text": "We",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "rained",
+          "text": "can go",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "so we stayed home",
+          "text": "by bus or train",
           "role": "Modifier",
           "color": "#B0BEC5"
         }
       ],
-      "context": "Rainy day",
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-3-3",
+      "section": "Day 3",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "고양이니 개니?",
+      "english": "Is it a cat or a dog?",
+      "chunks": [
+        {
+          "text": "Is it",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a cat or a dog",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-3-4",
+      "section": "Day 3",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "너는 머물거나 떠날 수 있다.",
+      "english": "You can stay or leave.",
+      "chunks": [
+        {
+          "text": "You",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "can stay or leave",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-3-5",
+      "section": "Day 3",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "사거나 말거나.",
+      "english": "Buy it or don't.",
+      "chunks": [
+        {
+          "text": "Buy it",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "or don't",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-3-6",
+      "section": "Day 3",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그는 자고 있니 일하고 있니?",
+      "english": "Is he sleeping or working?",
+      "chunks": [
+        {
+          "text": "Is he",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "sleeping or working",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-3-7",
+      "section": "Day 3",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "빨강 아님 파랑, 하나 골라.",
+      "english": "Red or blue, pick one.",
+      "chunks": [
+        {
+          "text": "Red or blue",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "pick",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "one",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-3-8",
+      "section": "Day 3",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "오늘이나 내일 괜찮아요.",
+      "english": "Today or tomorrow works.",
+      "chunks": [
+        {
+          "text": "Today or tomorrow",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "works",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-3-9",
+      "section": "Day 3",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "이기든 지든 최선을 다해라.",
+      "english": "Win or lose, do your best.",
+      "chunks": [
+        {
+          "text": "Win or lose",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "do",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "your best",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-3-10",
+      "section": "Day 3",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "진실 혹은 도전?",
+      "english": "Truth or dare?",
+      "chunks": [
+        {
+          "text": "Truth or dare",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-4-1",
+      "section": "Day 4",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "추워서 코트를 입었다.",
+      "english": "It was cold so I wore a coat.",
+      "chunks": [
+        {
+          "text": "It was cold",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "so",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "wore",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a coat",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
       "grammarGuide": {
-        "title": "Result (So)",
+        "title": "Core Lesson",
         "structure": [
           {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "text": "Modifier",
+            "color": "#B0BEC5"
           },
           {
             "text": "Modifier",
-            "color": "#B0BEC5",
-            "desc": "꾸며주는 말"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2-4-2",
-      "section": "Day 4",
-      "description": "Result (So)",
-      "question": "Why did you stay home?",
-      "korean": "비가 와서 우리는 집에 머물렀다.",
-      "english": "It rained so we stayed home.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "rained",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "so we stayed home",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Rainy day"
-    },
-    {
-      "id": "2-4-3",
-      "section": "Day 4",
-      "description": "Result (So)",
-      "question": "Why did you stay home?",
-      "korean": "비가 와서 우리는 집에 머물렀다.",
-      "english": "It rained so we stayed home.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "rained",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "so we stayed home",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Rainy day"
-    },
-    {
-      "id": "2-4-4",
-      "section": "Day 4",
-      "description": "Result (So)",
-      "question": "Why did you stay home?",
-      "korean": "비가 와서 우리는 집에 머물렀다.",
-      "english": "It rained so we stayed home.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "rained",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "so we stayed home",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Rainy day"
-    },
-    {
-      "id": "2-4-5",
-      "section": "Day 4",
-      "description": "Result (So)",
-      "question": "Why did you stay home?",
-      "korean": "비가 와서 우리는 집에 머물렀다.",
-      "english": "It rained so we stayed home.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "rained",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "so we stayed home",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Rainy day"
-    },
-    {
-      "id": "2-4-6",
-      "section": "Day 4",
-      "description": "Result (So)",
-      "question": "Why did you stay home?",
-      "korean": "비가 와서 우리는 집에 머물렀다.",
-      "english": "It rained so we stayed home.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "rained",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "so we stayed home",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Rainy day"
-    },
-    {
-      "id": "2-4-7",
-      "section": "Day 4",
-      "description": "Result (So)",
-      "question": "Why did you stay home?",
-      "korean": "비가 와서 우리는 집에 머물렀다.",
-      "english": "It rained so we stayed home.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "rained",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "so we stayed home",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Rainy day"
-    },
-    {
-      "id": "2-4-8",
-      "section": "Day 4",
-      "description": "Result (So)",
-      "question": "Why did you stay home?",
-      "korean": "비가 와서 우리는 집에 머물렀다.",
-      "english": "It rained so we stayed home.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "rained",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "so we stayed home",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Rainy day"
-    },
-    {
-      "id": "2-4-9",
-      "section": "Day 4",
-      "description": "Result (So)",
-      "question": "Why did you stay home?",
-      "korean": "비가 와서 우리는 집에 머물렀다.",
-      "english": "It rained so we stayed home.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "rained",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "so we stayed home",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Rainy day"
-    },
-    {
-      "id": "2-4-10",
-      "section": "Day 4",
-      "description": "Result (So)",
-      "question": "Why did you stay home?",
-      "korean": "비가 와서 우리는 집에 머물렀다.",
-      "english": "It rained so we stayed home.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "rained",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "so we stayed home",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        }
-      ],
-      "context": "Rainy day"
-    },
-    {
-      "id": "2-5-1",
-      "section": "Day 5",
-      "description": "Joined Subjects",
-      "question": "Who ran?",
-      "korean": "톰과 제리는 빠르게 달렸다.",
-      "english": "Tom and Jerry ran fast.",
-      "chunks": [
-        {
-          "text": "Tom and Jerry",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "ran",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "fast",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Cartoon chase",
-      "grammarGuide": {
-        "title": "Joined Subjects",
-        "structure": [
+            "color": "#B0BEC5"
+          },
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
-            "text": "Adverb",
-            "color": "#BA68C8",
-            "desc": "어떻게/어디서"
+            "text": "Object",
+            "color": "#FFD700"
           }
         ]
       }
     },
     {
-      "id": "2-5-2",
-      "section": "Day 5",
-      "description": "Joined Subjects",
-      "question": "Who ran?",
-      "korean": "톰과 제리는 빠르게 달렸다.",
-      "english": "Tom and Jerry ran fast.",
+      "id": "4-4-2",
+      "section": "Day 4",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그는 배고파서 먹었다.",
+      "english": "He was hungry so he ate.",
       "chunks": [
         {
-          "text": "Tom and Jerry",
+          "text": "He was hungry",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "so",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "he",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "ran",
+          "text": "ate",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "fast",
-          "role": "Adverb",
-          "color": "#BA68C8"
         }
       ],
-      "context": "Cartoon chase"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-5-3",
-      "section": "Day 5",
-      "description": "Joined Subjects",
-      "question": "Who ran?",
-      "korean": "톰과 제리는 빠르게 달렸다.",
-      "english": "Tom and Jerry ran fast.",
+      "id": "4-4-3",
+      "section": "Day 4",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그녀는 열심히 공부해서 합격했다.",
+      "english": "She studied hard so she passed.",
       "chunks": [
         {
-          "text": "Tom and Jerry",
+          "text": "She studied hard",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "so",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "she",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "ran",
+          "text": "passed",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "fast",
-          "role": "Adverb",
-          "color": "#BA68C8"
         }
       ],
-      "context": "Cartoon chase"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-5-4",
-      "section": "Day 5",
-      "description": "Joined Subjects",
-      "question": "Who ran?",
-      "korean": "톰과 제리는 빠르게 달렸다.",
-      "english": "Tom and Jerry ran fast.",
+      "id": "4-4-4",
+      "section": "Day 4",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 피곤해서 잤다.",
+      "english": "I was tired so I slept.",
       "chunks": [
         {
-          "text": "Tom and Jerry",
+          "text": "I was tired",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "so",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "ran",
+          "text": "slept",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "fast",
-          "role": "Adverb",
-          "color": "#BA68C8"
         }
       ],
-      "context": "Cartoon chase"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-5-5",
-      "section": "Day 5",
-      "description": "Joined Subjects",
-      "question": "Who ran?",
-      "korean": "톰과 제리는 빠르게 달렸다.",
-      "english": "Tom and Jerry ran fast.",
+      "id": "4-4-5",
+      "section": "Day 4",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "비가 와서 우리는 안에 있었다.",
+      "english": "It rained so we stayed inside.",
       "chunks": [
         {
-          "text": "Tom and Jerry",
+          "text": "It rained",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "so",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "we",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "ran",
+          "text": "stayed",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "fast",
+          "text": "inside",
           "role": "Adverb",
           "color": "#BA68C8"
         }
       ],
-      "context": "Cartoon chase"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-5-6",
-      "section": "Day 5",
-      "description": "Joined Subjects",
-      "question": "Who ran?",
-      "korean": "톰과 제리는 빠르게 달렸다.",
-      "english": "Tom and Jerry ran fast.",
+      "id": "4-4-6",
+      "section": "Day 4",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "차가 고장 나서 걸었다.",
+      "english": "The car broke so we walked.",
       "chunks": [
         {
-          "text": "Tom and Jerry",
+          "text": "The car broke",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "so",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "we",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "ran",
+          "text": "walked",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "fast",
-          "role": "Adverb",
-          "color": "#BA68C8"
         }
       ],
-      "context": "Cartoon chase"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-5-7",
-      "section": "Day 5",
-      "description": "Joined Subjects",
-      "question": "Who ran?",
-      "korean": "톰과 제리는 빠르게 달렸다.",
-      "english": "Tom and Jerry ran fast.",
+      "id": "4-4-7",
+      "section": "Day 4",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그는 늦어서 달렸다.",
+      "english": "He was late so he ran.",
       "chunks": [
         {
-          "text": "Tom and Jerry",
+          "text": "He was late",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "so",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "he",
           "role": "Subject",
           "color": "#FF0000"
         },
@@ -1368,652 +1057,961 @@
           "text": "ran",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "fast",
-          "role": "Adverb",
-          "color": "#BA68C8"
         }
       ],
-      "context": "Cartoon chase"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-5-8",
-      "section": "Day 5",
-      "description": "Joined Subjects",
-      "question": "Who ran?",
-      "korean": "톰과 제리는 빠르게 달렸다.",
-      "english": "Tom and Jerry ran fast.",
+      "id": "4-4-8",
+      "section": "Day 4",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 그녀를 좋아해서 선물을 줬다.",
+      "english": "I like her so I gave a gift.",
       "chunks": [
         {
-          "text": "Tom and Jerry",
+          "text": "I like her",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "so",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "ran",
+          "text": "gave",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "fast",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "a gift",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Cartoon chase"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-5-9",
-      "section": "Day 5",
-      "description": "Joined Subjects",
-      "question": "Who ran?",
-      "korean": "톰과 제리는 빠르게 달렸다.",
-      "english": "Tom and Jerry ran fast.",
+      "id": "4-4-9",
+      "section": "Day 4",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "어두우니 불을 켜라.",
+      "english": "It is dark so turn on the light.",
       "chunks": [
         {
-          "text": "Tom and Jerry",
-          "role": "Subject",
-          "color": "#FF0000"
+          "text": "It is dark",
+          "role": "Modifier",
+          "color": "#B0BEC5"
         },
         {
-          "text": "ran",
+          "text": "so",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "turn on",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "fast",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "the light",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Cartoon chase"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-5-10",
-      "section": "Day 5",
-      "description": "Joined Subjects",
-      "question": "Who ran?",
-      "korean": "톰과 제리는 빠르게 달렸다.",
-      "english": "Tom and Jerry ran fast.",
+      "id": "4-4-10",
+      "section": "Day 4",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그녀가 웃어서 나도 웃었다.",
+      "english": "She smiled so I smiled.",
       "chunks": [
         {
-          "text": "Tom and Jerry",
+          "text": "She smiled",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "so",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "ran",
+          "text": "smiled",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "fast",
-          "role": "Adverb",
-          "color": "#BA68C8"
         }
       ],
-      "context": "Cartoon chase"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-6-1",
-      "section": "Day 6",
-      "description": "Joined Subjects",
-      "question": "Who ran?",
-      "korean": "톰과 제리는 빠르게 달렸다.",
-      "english": "Tom and Jerry ran fast.",
+      "id": "4-5-1",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "차 줄까 커피 줄까?",
+      "english": "Do you want tea or coffee?",
       "chunks": [
         {
-          "text": "Tom and Jerry",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "ran",
+          "text": "Do you want",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "fast",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "tea or coffee",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Cartoon chase",
+      "context": "Review",
       "grammarGuide": {
-        "title": "Joined Subjects",
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Object",
+            "color": "#FFD700"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4-5-2",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "사거나 말거나.",
+      "english": "Buy it or don't.",
+      "chunks": [
+        {
+          "text": "Buy it",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "or don't",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-5-3",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그는 배고파서 먹었다.",
+      "english": "He was hungry so he ate.",
+      "chunks": [
+        {
+          "text": "He was hungry",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "so",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "he",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "ate",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-5-4",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "빨강과 파랑은 보라색을 만든다.",
+      "english": "Red and blue make purple.",
+      "chunks": [
+        {
+          "text": "Red and blue",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "make",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "purple",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-5-5",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나는 피곤해서 잤다.",
+      "english": "I was tired so I slept.",
+      "chunks": [
+        {
+          "text": "I was tired",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "so",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "slept",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-5-6",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "이기든 지든 최선을 다해라.",
+      "english": "Win or lose, do your best.",
+      "chunks": [
+        {
+          "text": "Win or lose",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "do",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "your best",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-5-7",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그 차는 낡았지만 빠르다.",
+      "english": "The car is old but fast.",
+      "chunks": [
+        {
+          "text": "The car",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "old but fast",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-5-8",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그는 작지만 강하다.",
+      "english": "He is small but strong.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "small but strong",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-5-9",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그것은 비싸지만 좋다.",
+      "english": "It is expensive but good.",
+      "chunks": [
+        {
+          "text": "It",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "expensive but good",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-5-10",
+      "section": "Day 5",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그녀는 엄격하지만 친절하다.",
+      "english": "She is strict but kind.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "strict but kind",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-6-1",
+      "section": "Day 6",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "오늘이나 내일 괜찮아요.",
+      "english": "Today or tomorrow works.",
+      "chunks": [
+        {
+          "text": "Today or tomorrow",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "works",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": {
+        "title": "Review",
         "structure": [
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Adverb",
-            "color": "#BA68C8",
-            "desc": "어떻게/어디서"
+            "color": "#FF7F00"
           }
         ]
       }
     },
     {
-      "id": "2-6-2",
+      "id": "4-6-2",
       "section": "Day 6",
-      "description": "Joined Subjects",
-      "question": "Who ran?",
-      "korean": "톰과 제리는 빠르게 달렸다.",
-      "english": "Tom and Jerry ran fast.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그는 작지만 강하다.",
+      "english": "He is small but strong.",
       "chunks": [
         {
-          "text": "Tom and Jerry",
+          "text": "He",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "ran",
+          "text": "is",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "fast",
-          "role": "Adverb",
+          "text": "small but strong",
+          "role": "Complement",
           "color": "#BA68C8"
         }
       ],
-      "context": "Cartoon chase"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-6-3",
+      "id": "4-6-3",
       "section": "Day 6",
-      "description": "Joined Subjects",
-      "question": "Who ran?",
-      "korean": "톰과 제리는 빠르게 달렸다.",
-      "english": "Tom and Jerry ran fast.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그것은 비싸지만 좋다.",
+      "english": "It is expensive but good.",
       "chunks": [
         {
-          "text": "Tom and Jerry",
+          "text": "It",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "ran",
+          "text": "is",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "fast",
-          "role": "Adverb",
+          "text": "expensive but good",
+          "role": "Complement",
           "color": "#BA68C8"
         }
       ],
-      "context": "Cartoon chase"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-6-4",
+      "id": "4-6-4",
       "section": "Day 6",
-      "description": "Joined Subjects",
-      "question": "Who ran?",
-      "korean": "톰과 제리는 빠르게 달렸다.",
-      "english": "Tom and Jerry ran fast.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "진실 혹은 도전?",
+      "english": "Truth or dare?",
       "chunks": [
         {
-          "text": "Tom and Jerry",
+          "text": "Truth or dare",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-6-5",
+      "section": "Day 6",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나는 그녀를 좋아해서 선물을 줬다.",
+      "english": "I like her so I gave a gift.",
+      "chunks": [
+        {
+          "text": "I like her",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "so",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "ran",
+          "text": "gave",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "fast",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "a gift",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Cartoon chase"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-6-5",
+      "id": "4-6-6",
       "section": "Day 6",
-      "description": "Joined Subjects",
-      "question": "Who ran?",
-      "korean": "톰과 제리는 빠르게 달렸다.",
-      "english": "Tom and Jerry ran fast.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그녀는 엄격하지만 친절하다.",
+      "english": "She is strict but kind.",
       "chunks": [
         {
-          "text": "Tom and Jerry",
+          "text": "She",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "ran",
+          "text": "is",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "fast",
-          "role": "Adverb",
+          "text": "strict but kind",
+          "role": "Complement",
           "color": "#BA68C8"
         }
       ],
-      "context": "Cartoon chase"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-6-6",
+      "id": "4-6-7",
       "section": "Day 6",
-      "description": "Joined Subjects",
-      "question": "Who ran?",
-      "korean": "톰과 제리는 빠르게 달렸다.",
-      "english": "Tom and Jerry ran fast.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "전화했지만 아무도 받지 않았다.",
+      "english": "I called but no one answered.",
       "chunks": [
         {
-          "text": "Tom and Jerry",
+          "text": "I",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "ran",
+          "text": "called",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "fast",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "but no one answered",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Cartoon chase"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-6-7",
+      "id": "4-6-8",
       "section": "Day 6",
-      "description": "Joined Subjects",
-      "question": "Who ran?",
-      "korean": "톰과 제리는 빠르게 달렸다.",
-      "english": "Tom and Jerry ran fast.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나는 찾아봤지만 아무것도 발견하지 못했다.",
+      "english": "I looked but found nothing.",
       "chunks": [
         {
-          "text": "Tom and Jerry",
+          "text": "I",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "ran",
+          "text": "looked",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "fast",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "but found nothing",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Cartoon chase"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-6-8",
+      "id": "4-6-9",
       "section": "Day 6",
-      "description": "Joined Subjects",
-      "question": "Who ran?",
-      "korean": "톰과 제리는 빠르게 달렸다.",
-      "english": "Tom and Jerry ran fast.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그는 자고 있니 일하고 있니?",
+      "english": "Is he sleeping or working?",
       "chunks": [
         {
-          "text": "Tom and Jerry",
+          "text": "Is he",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "ran",
+          "text": "sleeping or working",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "fast",
-          "role": "Adverb",
-          "color": "#BA68C8"
         }
       ],
-      "context": "Cartoon chase"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-6-9",
+      "id": "4-6-10",
       "section": "Day 6",
-      "description": "Joined Subjects",
-      "question": "Who ran?",
-      "korean": "톰과 제리는 빠르게 달렸다.",
-      "english": "Tom and Jerry ran fast.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그는 배고파서 먹었다.",
+      "english": "He was hungry so he ate.",
       "chunks": [
         {
-          "text": "Tom and Jerry",
+          "text": "He was hungry",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "so",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "he",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "ran",
+          "text": "ate",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "fast",
-          "role": "Adverb",
-          "color": "#BA68C8"
         }
       ],
-      "context": "Cartoon chase"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-6-10",
-      "section": "Day 6",
-      "description": "Joined Subjects",
-      "question": "Who ran?",
-      "korean": "톰과 제리는 빠르게 달렸다.",
-      "english": "Tom and Jerry ran fast.",
-      "chunks": [
-        {
-          "text": "Tom and Jerry",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "ran",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "fast",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Cartoon chase"
-    },
-    {
-      "id": "2-7-1",
+      "id": "4-7-1",
       "section": "Day 7",
-      "description": "Joined Subjects",
-      "question": "Who ran?",
-      "korean": "톰과 제리는 빠르게 달렸다.",
-      "english": "Tom and Jerry ran fast.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나는 가고 싶었지만 머물렀다.",
+      "english": "I wanted to go but stayed.",
       "chunks": [
         {
-          "text": "Tom and Jerry",
+          "text": "I",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "ran",
+          "text": "wanted to go",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "fast",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "but stayed",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Cartoon chase",
+      "context": "Review",
       "grammarGuide": {
-        "title": "Joined Subjects",
+        "title": "Review",
         "structure": [
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
-            "text": "Adverb",
-            "color": "#BA68C8",
-            "desc": "어떻게/어디서"
+            "text": "Verb",
+            "color": "#FF7F00"
           }
         ]
       }
     },
     {
-      "id": "2-7-2",
+      "id": "4-7-2",
       "section": "Day 7",
-      "description": "Joined Subjects",
-      "question": "Who ran?",
-      "korean": "톰과 제리는 빠르게 달렸다.",
-      "english": "Tom and Jerry ran fast.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "고양이니 개니?",
+      "english": "Is it a cat or a dog?",
       "chunks": [
         {
-          "text": "Tom and Jerry",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "ran",
+          "text": "Is it",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "fast",
-          "role": "Adverb",
+          "text": "a cat or a dog",
+          "role": "Complement",
           "color": "#BA68C8"
         }
       ],
-      "context": "Cartoon chase"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-7-3",
+      "id": "4-7-3",
       "section": "Day 7",
-      "description": "Joined Subjects",
-      "question": "Who ran?",
-      "korean": "톰과 제리는 빠르게 달렸다.",
-      "english": "Tom and Jerry ran fast.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "빨강 아님 파랑, 하나 골라.",
+      "english": "Red or blue, pick one.",
       "chunks": [
         {
-          "text": "Tom and Jerry",
-          "role": "Subject",
-          "color": "#FF0000"
+          "text": "Red or blue",
+          "role": "Object",
+          "color": "#FFD700"
         },
         {
-          "text": "ran",
+          "text": "pick",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "fast",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "one",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Cartoon chase"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-7-4",
+      "id": "4-7-4",
       "section": "Day 7",
-      "description": "Joined Subjects",
-      "question": "Who ran?",
-      "korean": "톰과 제리는 빠르게 달렸다.",
-      "english": "Tom and Jerry ran fast.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "빨강과 파랑은 보라색을 만든다.",
+      "english": "Red and blue make purple.",
       "chunks": [
         {
-          "text": "Tom and Jerry",
+          "text": "Red and blue",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "ran",
+          "text": "make",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "fast",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "purple",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Cartoon chase"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-7-5",
+      "id": "4-7-5",
       "section": "Day 7",
-      "description": "Joined Subjects",
-      "question": "Who ran?",
-      "korean": "톰과 제리는 빠르게 달렸다.",
-      "english": "Tom and Jerry ran fast.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그 차는 낡았지만 빠르다.",
+      "english": "The car is old but fast.",
       "chunks": [
         {
-          "text": "Tom and Jerry",
+          "text": "The car",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "ran",
+          "text": "is",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "fast",
-          "role": "Adverb",
+          "text": "old but fast",
+          "role": "Complement",
           "color": "#BA68C8"
         }
       ],
-      "context": "Cartoon chase"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-7-6",
+      "id": "4-7-6",
       "section": "Day 7",
-      "description": "Joined Subjects",
-      "question": "Who ran?",
-      "korean": "톰과 제리는 빠르게 달렸다.",
-      "english": "Tom and Jerry ran fast.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나는 찾아봤지만 아무것도 발견하지 못했다.",
+      "english": "I looked but found nothing.",
       "chunks": [
         {
-          "text": "Tom and Jerry",
+          "text": "I",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "ran",
+          "text": "looked",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "fast",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "but found nothing",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Cartoon chase"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-7-7",
+      "id": "4-7-7",
       "section": "Day 7",
-      "description": "Joined Subjects",
-      "question": "Who ran?",
-      "korean": "톰과 제리는 빠르게 달렸다.",
-      "english": "Tom and Jerry ran fast.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "비가 와서 우리는 안에 있었다.",
+      "english": "It rained so we stayed inside.",
       "chunks": [
         {
-          "text": "Tom and Jerry",
+          "text": "It rained",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "so",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "we",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "ran",
+          "text": "stayed",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "fast",
+          "text": "inside",
           "role": "Adverb",
           "color": "#BA68C8"
         }
       ],
-      "context": "Cartoon chase"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-7-8",
+      "id": "4-7-8",
       "section": "Day 7",
-      "description": "Joined Subjects",
-      "question": "Who ran?",
-      "korean": "톰과 제리는 빠르게 달렸다.",
-      "english": "Tom and Jerry ran fast.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그녀는 열심히 노력했지만 실패했다.",
+      "english": "She tried hard but failed.",
       "chunks": [
         {
-          "text": "Tom and Jerry",
+          "text": "She",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "ran",
+          "text": "tried",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "fast",
+          "text": "hard",
           "role": "Adverb",
           "color": "#BA68C8"
+        },
+        {
+          "text": "but failed",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Cartoon chase"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-7-9",
+      "id": "4-7-9",
       "section": "Day 7",
-      "description": "Joined Subjects",
-      "question": "Who ran?",
-      "korean": "톰과 제리는 빠르게 달렸다.",
-      "english": "Tom and Jerry ran fast.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "너는 머물거나 떠날 수 있다.",
+      "english": "You can stay or leave.",
       "chunks": [
         {
-          "text": "Tom and Jerry",
+          "text": "You",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "ran",
+          "text": "can stay or leave",
           "role": "Verb",
           "color": "#FF7F00"
-        },
-        {
-          "text": "fast",
-          "role": "Adverb",
-          "color": "#BA68C8"
         }
       ],
-      "context": "Cartoon chase"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-7-10",
+      "id": "4-7-10",
       "section": "Day 7",
-      "description": "Joined Subjects",
-      "question": "Who ran?",
-      "korean": "톰과 제리는 빠르게 달렸다.",
-      "english": "Tom and Jerry ran fast.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "전화했지만 아무도 받지 않았다.",
+      "english": "I called but no one answered.",
       "chunks": [
         {
-          "text": "Tom and Jerry",
+          "text": "I",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "ran",
+          "text": "called",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "fast",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "but no one answered",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Cartoon chase"
+      "context": "Review",
+      "grammarGuide": null
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
   "curriculum": [
     {
-      "id": "2-22-1",
+      "id": "4-22-1",
       "section": "Day 22",
-      "description": "Person (Who)",
-      "question": "Which man?",
-      "korean": "나는 노래하고 있는 남자를 안다.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 노래하는 남자를 안다.",
       "english": "I know the man who is singing.",
       "chunks": [
         {
@@ -24,35 +24,157 @@
           "color": "#FFD700"
         }
       ],
-      "context": "Concert",
+      "context": "Core Lesson",
       "grammarGuide": {
-        "title": "Person (Who)",
+        "title": "Core Lesson",
         "structure": [
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
             "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
+            "color": "#FFD700"
           }
         ]
       }
     },
     {
-      "id": "2-22-2",
+      "id": "4-22-2",
       "section": "Day 22",
-      "description": "Person (Who)",
-      "question": "Which man?",
-      "korean": "나는 노래하고 있는 남자를 안다.",
-      "english": "I know the man who is singing.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "고양이를 좋아하는 소녀가 여기 있다.",
+      "english": "The girl who likes cats is here.",
+      "chunks": [
+        {
+          "text": "The girl who likes cats",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "here",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-22-3",
+      "section": "Day 22",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "과속하는 운전자들은 위험하다.",
+      "english": "Drivers who speed are dangerous.",
+      "chunks": [
+        {
+          "text": "Drivers who speed",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "are",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "dangerous",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-22-4",
+      "section": "Day 22",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그가 나를 도와준 사람이다.",
+      "english": "He is the one who helped me.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the one who helped me",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-22-5",
+      "section": "Day 22",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "공부하는 학생들은 합격한다.",
+      "english": "Students who study pass.",
+      "chunks": [
+        {
+          "text": "Students who study",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "pass",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-22-6",
+      "section": "Day 22",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "프랑스어 할 줄 아는 사람 아니?",
+      "english": "Do you know anyone who speaks French?",
+      "chunks": [
+        {
+          "text": "Do you know",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "anyone who speaks French",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-22-7",
+      "section": "Day 22",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 조종사인 여자를 만났다.",
+      "english": "I met a woman who is a pilot.",
       "chunks": [
         {
           "text": "I",
@@ -60,231 +182,105 @@
           "color": "#FF0000"
         },
         {
-          "text": "know",
+          "text": "met",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "the man who is singing",
+          "text": "a woman who is a pilot",
           "role": "Object",
           "color": "#FFD700"
         }
       ],
-      "context": "Concert"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-22-3",
+      "id": "4-22-8",
       "section": "Day 22",
-      "description": "Person (Who)",
-      "question": "Which man?",
-      "korean": "나는 노래하고 있는 남자를 안다.",
-      "english": "I know the man who is singing.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "운 소년은 내 동생이다.",
+      "english": "The boy who cried is my brother.",
       "chunks": [
         {
-          "text": "I",
+          "text": "The boy who cried",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "know",
+          "text": "is",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "the man who is singing",
-          "role": "Object",
-          "color": "#FFD700"
+          "text": "my brother",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Concert"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-22-4",
+      "id": "4-22-9",
       "section": "Day 22",
-      "description": "Person (Who)",
-      "question": "Which man?",
-      "korean": "나는 노래하고 있는 남자를 안다.",
-      "english": "I know the man who is singing.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "거짓말하는 사람들은 신뢰를 잃는다.",
+      "english": "People who lie lose trust.",
       "chunks": [
         {
-          "text": "I",
+          "text": "People who lie",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "know",
+          "text": "lose",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "the man who is singing",
+          "text": "trust",
           "role": "Object",
           "color": "#FFD700"
         }
       ],
-      "context": "Concert"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-22-5",
+      "id": "4-22-10",
       "section": "Day 22",
-      "description": "Person (Who)",
-      "question": "Which man?",
-      "korean": "나는 노래하고 있는 남자를 안다.",
-      "english": "I know the man who is singing.",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그녀는 나를 가르친 선생님이다.",
+      "english": "She is the teacher who taught me.",
       "chunks": [
         {
-          "text": "I",
+          "text": "She",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "know",
+          "text": "is",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "the man who is singing",
-          "role": "Object",
-          "color": "#FFD700"
+          "text": "the teacher who taught me",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Concert"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
-      "id": "2-22-6",
-      "section": "Day 22",
-      "description": "Person (Who)",
-      "question": "Which man?",
-      "korean": "나는 노래하고 있는 남자를 안다.",
-      "english": "I know the man who is singing.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "know",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the man who is singing",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Concert"
-    },
-    {
-      "id": "2-22-7",
-      "section": "Day 22",
-      "description": "Person (Who)",
-      "question": "Which man?",
-      "korean": "나는 노래하고 있는 남자를 안다.",
-      "english": "I know the man who is singing.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "know",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the man who is singing",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Concert"
-    },
-    {
-      "id": "2-22-8",
-      "section": "Day 22",
-      "description": "Person (Who)",
-      "question": "Which man?",
-      "korean": "나는 노래하고 있는 남자를 안다.",
-      "english": "I know the man who is singing.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "know",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the man who is singing",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Concert"
-    },
-    {
-      "id": "2-22-9",
-      "section": "Day 22",
-      "description": "Person (Who)",
-      "question": "Which man?",
-      "korean": "나는 노래하고 있는 남자를 안다.",
-      "english": "I know the man who is singing.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "know",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the man who is singing",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Concert"
-    },
-    {
-      "id": "2-22-10",
-      "section": "Day 22",
-      "description": "Person (Who)",
-      "question": "Which man?",
-      "korean": "나는 노래하고 있는 남자를 안다.",
-      "english": "I know the man who is singing.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "know",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the man who is singing",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Concert"
-    },
-    {
-      "id": "2-23-1",
+      "id": "4-23-1",
       "section": "Day 23",
-      "description": "Thing (Which)",
-      "question": "Which cake?",
+      "description": "Core Lesson",
+      "question": "Translate",
       "korean": "이것은 그녀가 만든 케이크다.",
       "english": "This is the cake which she made.",
       "chunks": [
@@ -304,272 +300,1294 @@
           "color": "#BA68C8"
         }
       ],
-      "context": "Bakery",
+      "context": "Core Lesson",
       "grammarGuide": {
-        "title": "Thing (Which)",
+        "title": "Core Lesson",
         "structure": [
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
             "text": "Complement",
-            "color": "#BA68C8",
-            "desc": ""
+            "color": "#BA68C8"
           }
         ]
       }
     },
     {
-      "id": "2-23-2",
+      "id": "4-23-2",
       "section": "Day 23",
-      "description": "Thing (Which)",
-      "question": "Which cake?",
-      "korean": "이것은 그녀가 만든 케이크다.",
-      "english": "This is the cake which she made.",
-      "chunks": [
-        {
-          "text": "This",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the cake which she made",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Bakery"
-    },
-    {
-      "id": "2-23-3",
-      "section": "Day 23",
-      "description": "Thing (Which)",
-      "question": "Which cake?",
-      "korean": "이것은 그녀가 만든 케이크다.",
-      "english": "This is the cake which she made.",
-      "chunks": [
-        {
-          "text": "This",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the cake which she made",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Bakery"
-    },
-    {
-      "id": "2-23-4",
-      "section": "Day 23",
-      "description": "Thing (Which)",
-      "question": "Which cake?",
-      "korean": "이것은 그녀가 만든 케이크다.",
-      "english": "This is the cake which she made.",
-      "chunks": [
-        {
-          "text": "This",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the cake which she made",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Bakery"
-    },
-    {
-      "id": "2-23-5",
-      "section": "Day 23",
-      "description": "Thing (Which)",
-      "question": "Which cake?",
-      "korean": "이것은 그녀가 만든 케이크다.",
-      "english": "This is the cake which she made.",
-      "chunks": [
-        {
-          "text": "This",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the cake which she made",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Bakery"
-    },
-    {
-      "id": "2-23-6",
-      "section": "Day 23",
-      "description": "Thing (Which)",
-      "question": "Which cake?",
-      "korean": "이것은 그녀가 만든 케이크다.",
-      "english": "This is the cake which she made.",
-      "chunks": [
-        {
-          "text": "This",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the cake which she made",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Bakery"
-    },
-    {
-      "id": "2-23-7",
-      "section": "Day 23",
-      "description": "Thing (Which)",
-      "question": "Which cake?",
-      "korean": "이것은 그녀가 만든 케이크다.",
-      "english": "This is the cake which she made.",
-      "chunks": [
-        {
-          "text": "This",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the cake which she made",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Bakery"
-    },
-    {
-      "id": "2-23-8",
-      "section": "Day 23",
-      "description": "Thing (Which)",
-      "question": "Which cake?",
-      "korean": "이것은 그녀가 만든 케이크다.",
-      "english": "This is the cake which she made.",
-      "chunks": [
-        {
-          "text": "This",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the cake which she made",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Bakery"
-    },
-    {
-      "id": "2-23-9",
-      "section": "Day 23",
-      "description": "Thing (Which)",
-      "question": "Which cake?",
-      "korean": "이것은 그녀가 만든 케이크다.",
-      "english": "This is the cake which she made.",
-      "chunks": [
-        {
-          "text": "This",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the cake which she made",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Bakery"
-    },
-    {
-      "id": "2-23-10",
-      "section": "Day 23",
-      "description": "Thing (Which)",
-      "question": "Which cake?",
-      "korean": "이것은 그녀가 만든 케이크다.",
-      "english": "This is the cake which she made.",
-      "chunks": [
-        {
-          "text": "This",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the cake which she made",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Bakery"
-    },
-    {
-      "id": "2-24-1",
-      "section": "Day 24",
-      "description": "Universal (That)",
-      "question": "Which book?",
+      "description": "Core Lesson",
+      "question": "Translate",
       "korean": "내가 읽은 책은 재미있다.",
-      "english": "The book that I read is fun.",
+      "english": "The book which I read is fun.",
       "chunks": [
         {
-          "text": "The book that I read",
+          "text": "The book which I read",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "fun",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-23-3",
+      "section": "Day 23",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 빠른 차를 가지고 있다.",
+      "english": "I have a car which is fast.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "have",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a car which is fast",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-23-4",
+      "section": "Day 23",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "거기 서 있는 집은 낡았다.",
+      "english": "The house which stands there is old.",
+      "chunks": [
+        {
+          "text": "The house which stands there",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "old",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-23-5",
+      "section": "Day 23",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나오는 펜 있니?",
+      "english": "Do you have a pen which works?",
+      "chunks": [
+        {
+          "text": "Do you have",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a pen which works",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-23-6",
+      "section": "Day 23",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "우리가 본 영화는 슬펐다.",
+      "english": "The movie which we watched was sad.",
+      "chunks": [
+        {
+          "text": "The movie which we watched",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "was",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "sad",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-23-7",
+      "section": "Day 23",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 이 문을 여는 열쇠를 잃어버렸다.",
+      "english": "I lost the key which opens this door.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "lost",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the key which opens this door",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-23-8",
+      "section": "Day 23",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그녀는 빨간 드레스를 입고 있다.",
+      "english": "She wears a dress which is red.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "wears",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a dress which is red",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-23-9",
+      "section": "Day 23",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "이것은 내가 산 선물이다.",
+      "english": "This is the gift which I bought.",
+      "chunks": [
+        {
+          "text": "This",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the gift which I bought",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-23-10",
+      "section": "Day 23",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "개들은 맛있는 뼈다귀를 좋아한다.",
+      "english": "Dogs like bones which are tasty.",
+      "chunks": [
+        {
+          "text": "Dogs",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "like",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "bones which are tasty",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-24-1",
+      "section": "Day 24",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 빨리 나는 새를 보았다.",
+      "english": "I saw the bird that flies fast.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "saw",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the bird that flies fast",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": {
+        "title": "Core Lesson",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Object",
+            "color": "#FFD700"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4-24-2",
+      "section": "Day 24",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "네가 요리한 음식은 맛있다.",
+      "english": "The food that you cooked is good.",
+      "chunks": [
+        {
+          "text": "The food that you cooked",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "good",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-24-3",
+      "section": "Day 24",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "이게 내가 가진 전부다.",
+      "english": "This is all that I have.",
+      "chunks": [
+        {
+          "text": "This",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "all that I have",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-24-4",
+      "section": "Day 24",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "반짝이는 모든 것이 금은 아니다.",
+      "english": "Everything that glitters is not gold.",
+      "chunks": [
+        {
+          "text": "Everything that glitters",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is not",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "gold",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-24-5",
+      "section": "Day 24",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "내가 만난 남자는 친절하다.",
+      "english": "The man that I met is nice.",
+      "chunks": [
+        {
+          "text": "The man that I met",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "nice",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-24-6",
+      "section": "Day 24",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 작동하는 폰이 필요하다.",
+      "english": "I need a phone that works.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "need",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a phone that works",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-24-7",
+      "section": "Day 24",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나를 문 개가 도망갔다.",
+      "english": "The dog that bit me ran away.",
+      "chunks": [
+        {
+          "text": "The dog that bit me",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "ran",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "away",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-24-8",
+      "section": "Day 24",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "원하는 거 있니?",
+      "english": "Is there anything that you want?",
+      "chunks": [
+        {
+          "text": "Is there",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "anything that you want",
+          "role": "Subject",
+          "color": "#FF0000"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-24-9",
+      "section": "Day 24",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "내가 들은 뉴스는 충격적이다.",
+      "english": "The news that I heard is shocking.",
+      "chunks": [
+        {
+          "text": "The news that I heard",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "shocking",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-24-10",
+      "section": "Day 24",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그게 내가 할 수 있는 최선이다.",
+      "english": "It is the best that I can do.",
+      "chunks": [
+        {
+          "text": "It",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the best that I can do",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-25-1",
+      "section": "Day 25",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "아빠가 조종사인 친구가 있다.",
+      "english": "I have a friend whose father is a pilot.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "have",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a friend whose father is a pilot",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": {
+        "title": "Core Lesson",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Object",
+            "color": "#FFD700"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4-25-2",
+      "section": "Day 25",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "이것은 지붕이 빨간 집이다.",
+      "english": "This is the house whose roof is red.",
+      "chunks": [
+        {
+          "text": "This",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the house whose roof is red",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-25-3",
+      "section": "Day 25",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "나는 눈이 파란 소년을 안다.",
+      "english": "I know a boy whose eyes are blue.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "know",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a boy whose eyes are blue",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-25-4",
+      "section": "Day 25",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "여기가 우리가 만난 공원이다.",
+      "english": "This is the park where we met.",
+      "chunks": [
+        {
+          "text": "This",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the park where we met",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-25-5",
+      "section": "Day 25",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "우리가 시작한 날을 기억한다.",
+      "english": "I remember the day when we started.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "remember",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the day when we started",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-25-6",
+      "section": "Day 25",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그가 언제 오는지 아니?",
+      "english": "Do you know the time when he comes?",
+      "chunks": [
+        {
+          "text": "Do you know",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the time when he comes",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-25-7",
+      "section": "Day 25",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "저기가 내가 사탕 사는 가게다.",
+      "english": "That is the shop where I buy candy.",
+      "chunks": [
+        {
+          "text": "That",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the shop where I buy candy",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-25-8",
+      "section": "Day 25",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "봄은 꽃이 피는 계절이다.",
+      "english": "Spring is the season when flowers bloom.",
+      "chunks": [
+        {
+          "text": "Spring",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the season when flowers bloom",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-25-9",
+      "section": "Day 25",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "네가 운 이유를 말해줘.",
+      "english": "Tell me the reason why you cried.",
+      "chunks": [
+        {
+          "text": "Tell",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "me",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "the reason why you cried",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-25-10",
+      "section": "Day 25",
+      "description": "Core Lesson",
+      "question": "Translate",
+      "korean": "그게 내가 하는 방식이야.",
+      "english": "That is the way how I do it.",
+      "chunks": [
+        {
+          "text": "That",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the way how I do it",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Core Lesson",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-26-1",
+      "section": "Day 26",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "네가 요리한 음식은 맛있다.",
+      "english": "The food that you cooked is good.",
+      "chunks": [
+        {
+          "text": "The food that you cooked",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "good",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": {
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Complement",
+            "color": "#BA68C8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4-26-2",
+      "section": "Day 26",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그가 언제 오는지 아니?",
+      "english": "Do you know the time when he comes?",
+      "chunks": [
+        {
+          "text": "Do you know",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the time when he comes",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-26-3",
+      "section": "Day 26",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그게 내가 하는 방식이야.",
+      "english": "That is the way how I do it.",
+      "chunks": [
+        {
+          "text": "That",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the way how I do it",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-26-4",
+      "section": "Day 26",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "아빠가 조종사인 친구가 있다.",
+      "english": "I have a friend whose father is a pilot.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "have",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a friend whose father is a pilot",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-26-5",
+      "section": "Day 26",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나는 눈이 파란 소년을 안다.",
+      "english": "I know a boy whose eyes are blue.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "know",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a boy whose eyes are blue",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-26-6",
+      "section": "Day 26",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그게 내가 할 수 있는 최선이다.",
+      "english": "It is the best that I can do.",
+      "chunks": [
+        {
+          "text": "It",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the best that I can do",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-26-7",
+      "section": "Day 26",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그가 나를 도와준 사람이다.",
+      "english": "He is the one who helped me.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the one who helped me",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-26-8",
+      "section": "Day 26",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나는 노래하는 남자를 안다.",
+      "english": "I know the man who is singing.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "know",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the man who is singing",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-26-9",
+      "section": "Day 26",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그녀는 빨간 드레스를 입고 있다.",
+      "english": "She wears a dress which is red.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "wears",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a dress which is red",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-26-10",
+      "section": "Day 26",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "이것은 그녀가 만든 케이크다.",
+      "english": "This is the cake which she made.",
+      "chunks": [
+        {
+          "text": "This",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the cake which she made",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-27-1",
+      "section": "Day 27",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "봄은 꽃이 피는 계절이다.",
+      "english": "Spring is the season when flowers bloom.",
+      "chunks": [
+        {
+          "text": "Spring",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the season when flowers bloom",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": {
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Complement",
+            "color": "#BA68C8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4-27-2",
+      "section": "Day 27",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "저기가 내가 사탕 사는 가게다.",
+      "english": "That is the shop where I buy candy.",
+      "chunks": [
+        {
+          "text": "That",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the shop where I buy candy",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-27-3",
+      "section": "Day 27",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "우리가 시작한 날을 기억한다.",
+      "english": "I remember the day when we started.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "remember",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the day when we started",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-27-4",
+      "section": "Day 27",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "우리가 본 영화는 슬펐다.",
+      "english": "The movie which we watched was sad.",
+      "chunks": [
+        {
+          "text": "The movie which we watched",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "was",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "sad",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-27-5",
+      "section": "Day 27",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나는 작동하는 폰이 필요하다.",
+      "english": "I need a phone that works.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "need",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a phone that works",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-27-6",
+      "section": "Day 27",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "내가 들은 뉴스는 충격적이다.",
+      "english": "The news that I heard is shocking.",
+      "chunks": [
+        {
+          "text": "The news that I heard",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "shocking",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-27-7",
+      "section": "Day 27",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "내가 읽은 책은 재미있다.",
+      "english": "The book which I read is fun.",
+      "chunks": [
+        {
+          "text": "The book which I read",
           "role": "Subject",
           "color": "#FF0000"
         },
@@ -585,37 +1603,142 @@
         }
       ],
       "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-27-8",
+      "section": "Day 27",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "이것은 그녀가 만든 케이크다.",
+      "english": "This is the cake which she made.",
+      "chunks": [
+        {
+          "text": "This",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the cake which she made",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-27-9",
+      "section": "Day 27",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "반짝이는 모든 것이 금은 아니다.",
+      "english": "Everything that glitters is not gold.",
+      "chunks": [
+        {
+          "text": "Everything that glitters",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is not",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "gold",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-27-10",
+      "section": "Day 27",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "과속하는 운전자들은 위험하다.",
+      "english": "Drivers who speed are dangerous.",
+      "chunks": [
+        {
+          "text": "Drivers who speed",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "are",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "dangerous",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "grammarGuide": null
+    },
+    {
+      "id": "4-28-1",
+      "section": "Day 28",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "저기가 내가 사탕 사는 가게다.",
+      "english": "That is the shop where I buy candy.",
+      "chunks": [
+        {
+          "text": "That",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the shop where I buy candy",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
       "grammarGuide": {
-        "title": "Universal (That)",
+        "title": "Review",
         "structure": [
           {
             "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
+            "color": "#FF0000"
           },
           {
             "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
+            "color": "#FF7F00"
           },
           {
             "text": "Complement",
-            "color": "#BA68C8",
-            "desc": ""
+            "color": "#BA68C8"
           }
         ]
       }
     },
     {
-      "id": "2-24-2",
-      "section": "Day 24",
-      "description": "Universal (That)",
-      "question": "Which book?",
-      "korean": "내가 읽은 책은 재미있다.",
-      "english": "The book that I read is fun.",
+      "id": "4-28-2",
+      "section": "Day 28",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "그가 나를 도와준 사람이다.",
+      "english": "He is the one who helped me.",
       "chunks": [
         {
-          "text": "The book that I read",
+          "text": "He",
           "role": "Subject",
           "color": "#FF0000"
         },
@@ -625,23 +1748,24 @@
           "color": "#FF7F00"
         },
         {
-          "text": "fun",
+          "text": "the one who helped me",
           "role": "Complement",
           "color": "#BA68C8"
         }
       ],
-      "context": "Review"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-24-3",
-      "section": "Day 24",
-      "description": "Universal (That)",
-      "question": "Which book?",
-      "korean": "내가 읽은 책은 재미있다.",
-      "english": "The book that I read is fun.",
+      "id": "4-28-3",
+      "section": "Day 28",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "네가 요리한 음식은 맛있다.",
+      "english": "The food that you cooked is good.",
       "chunks": [
         {
-          "text": "The book that I read",
+          "text": "The food that you cooked",
           "role": "Subject",
           "color": "#FF0000"
         },
@@ -651,482 +1775,48 @@
           "color": "#FF7F00"
         },
         {
-          "text": "fun",
+          "text": "good",
           "role": "Complement",
           "color": "#BA68C8"
         }
       ],
-      "context": "Review"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-24-4",
-      "section": "Day 24",
-      "description": "Universal (That)",
-      "question": "Which book?",
-      "korean": "내가 읽은 책은 재미있다.",
-      "english": "The book that I read is fun.",
+      "id": "4-28-4",
+      "section": "Day 28",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나를 문 개가 도망갔다.",
+      "english": "The dog that bit me ran away.",
       "chunks": [
         {
-          "text": "The book that I read",
+          "text": "The dog that bit me",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "is",
+          "text": "ran",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "fun",
-          "role": "Complement",
+          "text": "away",
+          "role": "Adverb",
           "color": "#BA68C8"
         }
       ],
-      "context": "Review"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-24-5",
-      "section": "Day 24",
-      "description": "Universal (That)",
-      "question": "Which book?",
-      "korean": "내가 읽은 책은 재미있다.",
-      "english": "The book that I read is fun.",
-      "chunks": [
-        {
-          "text": "The book that I read",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "fun",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Review"
-    },
-    {
-      "id": "2-24-6",
-      "section": "Day 24",
-      "description": "Universal (That)",
-      "question": "Which book?",
-      "korean": "내가 읽은 책은 재미있다.",
-      "english": "The book that I read is fun.",
-      "chunks": [
-        {
-          "text": "The book that I read",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "fun",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Review"
-    },
-    {
-      "id": "2-24-7",
-      "section": "Day 24",
-      "description": "Universal (That)",
-      "question": "Which book?",
-      "korean": "내가 읽은 책은 재미있다.",
-      "english": "The book that I read is fun.",
-      "chunks": [
-        {
-          "text": "The book that I read",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "fun",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Review"
-    },
-    {
-      "id": "2-24-8",
-      "section": "Day 24",
-      "description": "Universal (That)",
-      "question": "Which book?",
-      "korean": "내가 읽은 책은 재미있다.",
-      "english": "The book that I read is fun.",
-      "chunks": [
-        {
-          "text": "The book that I read",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "fun",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Review"
-    },
-    {
-      "id": "2-24-9",
-      "section": "Day 24",
-      "description": "Universal (That)",
-      "question": "Which book?",
-      "korean": "내가 읽은 책은 재미있다.",
-      "english": "The book that I read is fun.",
-      "chunks": [
-        {
-          "text": "The book that I read",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "fun",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Review"
-    },
-    {
-      "id": "2-24-10",
-      "section": "Day 24",
-      "description": "Universal (That)",
-      "question": "Which book?",
-      "korean": "내가 읽은 책은 재미있다.",
-      "english": "The book that I read is fun.",
-      "chunks": [
-        {
-          "text": "The book that I read",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "fun",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Review"
-    },
-    {
-      "id": "2-25-1",
-      "section": "Day 25",
-      "description": "Possession (Whose)",
-      "question": "Who is your friend?",
-      "korean": "나는 아버지가 조종사인 친구가 있다.",
-      "english": "I have a friend whose father is a pilot.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "have",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a friend whose father is a pilot",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Introduction",
-      "grammarGuide": {
-        "title": "Possession (Whose)",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Object",
-            "color": "#FFD700",
-            "desc": "대상"
-          }
-        ]
-      }
-    },
-    {
-      "id": "2-25-2",
-      "section": "Day 25",
-      "description": "Possession (Whose)",
-      "question": "Who is your friend?",
-      "korean": "나는 아버지가 조종사인 친구가 있다.",
-      "english": "I have a friend whose father is a pilot.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "have",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a friend whose father is a pilot",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Introduction"
-    },
-    {
-      "id": "2-25-3",
-      "section": "Day 25",
-      "description": "Possession (Whose)",
-      "question": "Who is your friend?",
-      "korean": "나는 아버지가 조종사인 친구가 있다.",
-      "english": "I have a friend whose father is a pilot.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "have",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a friend whose father is a pilot",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Introduction"
-    },
-    {
-      "id": "2-25-4",
-      "section": "Day 25",
-      "description": "Possession (Whose)",
-      "question": "Who is your friend?",
-      "korean": "나는 아버지가 조종사인 친구가 있다.",
-      "english": "I have a friend whose father is a pilot.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "have",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a friend whose father is a pilot",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Introduction"
-    },
-    {
-      "id": "2-25-5",
-      "section": "Day 25",
-      "description": "Possession (Whose)",
-      "question": "Who is your friend?",
-      "korean": "나는 아버지가 조종사인 친구가 있다.",
-      "english": "I have a friend whose father is a pilot.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "have",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a friend whose father is a pilot",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Introduction"
-    },
-    {
-      "id": "2-25-6",
-      "section": "Day 25",
-      "description": "Possession (Whose)",
-      "question": "Who is your friend?",
-      "korean": "나는 아버지가 조종사인 친구가 있다.",
-      "english": "I have a friend whose father is a pilot.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "have",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a friend whose father is a pilot",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Introduction"
-    },
-    {
-      "id": "2-25-7",
-      "section": "Day 25",
-      "description": "Possession (Whose)",
-      "question": "Who is your friend?",
-      "korean": "나는 아버지가 조종사인 친구가 있다.",
-      "english": "I have a friend whose father is a pilot.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "have",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a friend whose father is a pilot",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Introduction"
-    },
-    {
-      "id": "2-25-8",
-      "section": "Day 25",
-      "description": "Possession (Whose)",
-      "question": "Who is your friend?",
-      "korean": "나는 아버지가 조종사인 친구가 있다.",
-      "english": "I have a friend whose father is a pilot.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "have",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a friend whose father is a pilot",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Introduction"
-    },
-    {
-      "id": "2-25-9",
-      "section": "Day 25",
-      "description": "Possession (Whose)",
-      "question": "Who is your friend?",
-      "korean": "나는 아버지가 조종사인 친구가 있다.",
-      "english": "I have a friend whose father is a pilot.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "have",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a friend whose father is a pilot",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Introduction"
-    },
-    {
-      "id": "2-25-10",
-      "section": "Day 25",
-      "description": "Possession (Whose)",
-      "question": "Who is your friend?",
-      "korean": "나는 아버지가 조종사인 친구가 있다.",
-      "english": "I have a friend whose father is a pilot.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "have",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a friend whose father is a pilot",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Introduction"
-    },
-    {
-      "id": "2-26-1",
-      "section": "Day 26",
-      "description": "Place (Where)",
-      "question": "Where is this?",
-      "korean": "이곳은 우리가 만났던 공원이다.",
-      "english": "This is the park where we met.",
+      "id": "4-28-5",
+      "section": "Day 28",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "이것은 그녀가 만든 케이크다.",
+      "english": "This is the cake which she made.",
       "chunks": [
         {
           "text": "This",
@@ -1139,603 +1829,51 @@
           "color": "#FF7F00"
         },
         {
-          "text": "the park where we met",
+          "text": "the cake which she made",
           "role": "Complement",
           "color": "#BA68C8"
         }
       ],
-      "context": "Memory lane",
-      "grammarGuide": {
-        "title": "Place (Where)",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Complement",
-            "color": "#BA68C8",
-            "desc": ""
-          }
-        ]
-      }
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-26-2",
-      "section": "Day 26",
-      "description": "Place (Where)",
-      "question": "Where is this?",
-      "korean": "이곳은 우리가 만났던 공원이다.",
-      "english": "This is the park where we met.",
-      "chunks": [
-        {
-          "text": "This",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the park where we met",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Memory lane"
-    },
-    {
-      "id": "2-26-3",
-      "section": "Day 26",
-      "description": "Place (Where)",
-      "question": "Where is this?",
-      "korean": "이곳은 우리가 만났던 공원이다.",
-      "english": "This is the park where we met.",
-      "chunks": [
-        {
-          "text": "This",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the park where we met",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Memory lane"
-    },
-    {
-      "id": "2-26-4",
-      "section": "Day 26",
-      "description": "Place (Where)",
-      "question": "Where is this?",
-      "korean": "이곳은 우리가 만났던 공원이다.",
-      "english": "This is the park where we met.",
-      "chunks": [
-        {
-          "text": "This",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the park where we met",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Memory lane"
-    },
-    {
-      "id": "2-26-5",
-      "section": "Day 26",
-      "description": "Place (Where)",
-      "question": "Where is this?",
-      "korean": "이곳은 우리가 만났던 공원이다.",
-      "english": "This is the park where we met.",
-      "chunks": [
-        {
-          "text": "This",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the park where we met",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Memory lane"
-    },
-    {
-      "id": "2-26-6",
-      "section": "Day 26",
-      "description": "Place (Where)",
-      "question": "Where is this?",
-      "korean": "이곳은 우리가 만났던 공원이다.",
-      "english": "This is the park where we met.",
-      "chunks": [
-        {
-          "text": "This",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the park where we met",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Memory lane"
-    },
-    {
-      "id": "2-26-7",
-      "section": "Day 26",
-      "description": "Place (Where)",
-      "question": "Where is this?",
-      "korean": "이곳은 우리가 만났던 공원이다.",
-      "english": "This is the park where we met.",
-      "chunks": [
-        {
-          "text": "This",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the park where we met",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Memory lane"
-    },
-    {
-      "id": "2-26-8",
-      "section": "Day 26",
-      "description": "Place (Where)",
-      "question": "Where is this?",
-      "korean": "이곳은 우리가 만났던 공원이다.",
-      "english": "This is the park where we met.",
-      "chunks": [
-        {
-          "text": "This",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the park where we met",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Memory lane"
-    },
-    {
-      "id": "2-26-9",
-      "section": "Day 26",
-      "description": "Place (Where)",
-      "question": "Where is this?",
-      "korean": "이곳은 우리가 만났던 공원이다.",
-      "english": "This is the park where we met.",
-      "chunks": [
-        {
-          "text": "This",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the park where we met",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Memory lane"
-    },
-    {
-      "id": "2-26-10",
-      "section": "Day 26",
-      "description": "Place (Where)",
-      "question": "Where is this?",
-      "korean": "이곳은 우리가 만났던 공원이다.",
-      "english": "This is the park where we met.",
-      "chunks": [
-        {
-          "text": "This",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the park where we met",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Memory lane"
-    },
-    {
-      "id": "2-27-1",
-      "section": "Day 27",
-      "description": "Complex Subject",
-      "question": "Who is she?",
-      "korean": "옆집에 사는 소녀는 내 친구다.",
-      "english": "The girl who lives next door is my friend.",
-      "chunks": [
-        {
-          "text": "The girl who lives next door",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "my friend",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Neighbors",
-      "grammarGuide": {
-        "title": "Complex Subject",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Complement",
-            "color": "#BA68C8",
-            "desc": ""
-          }
-        ]
-      }
-    },
-    {
-      "id": "2-27-2",
-      "section": "Day 27",
-      "description": "Complex Subject",
-      "question": "Who is she?",
-      "korean": "옆집에 사는 소녀는 내 친구다.",
-      "english": "The girl who lives next door is my friend.",
-      "chunks": [
-        {
-          "text": "The girl who lives next door",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "my friend",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Neighbors"
-    },
-    {
-      "id": "2-27-3",
-      "section": "Day 27",
-      "description": "Complex Subject",
-      "question": "Who is she?",
-      "korean": "옆집에 사는 소녀는 내 친구다.",
-      "english": "The girl who lives next door is my friend.",
-      "chunks": [
-        {
-          "text": "The girl who lives next door",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "my friend",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Neighbors"
-    },
-    {
-      "id": "2-27-4",
-      "section": "Day 27",
-      "description": "Complex Subject",
-      "question": "Who is she?",
-      "korean": "옆집에 사는 소녀는 내 친구다.",
-      "english": "The girl who lives next door is my friend.",
-      "chunks": [
-        {
-          "text": "The girl who lives next door",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "my friend",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Neighbors"
-    },
-    {
-      "id": "2-27-5",
-      "section": "Day 27",
-      "description": "Complex Subject",
-      "question": "Who is she?",
-      "korean": "옆집에 사는 소녀는 내 친구다.",
-      "english": "The girl who lives next door is my friend.",
-      "chunks": [
-        {
-          "text": "The girl who lives next door",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "my friend",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Neighbors"
-    },
-    {
-      "id": "2-27-6",
-      "section": "Day 27",
-      "description": "Complex Subject",
-      "question": "Who is she?",
-      "korean": "옆집에 사는 소녀는 내 친구다.",
-      "english": "The girl who lives next door is my friend.",
-      "chunks": [
-        {
-          "text": "The girl who lives next door",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "my friend",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Neighbors"
-    },
-    {
-      "id": "2-27-7",
-      "section": "Day 27",
-      "description": "Complex Subject",
-      "question": "Who is she?",
-      "korean": "옆집에 사는 소녀는 내 친구다.",
-      "english": "The girl who lives next door is my friend.",
-      "chunks": [
-        {
-          "text": "The girl who lives next door",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "my friend",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Neighbors"
-    },
-    {
-      "id": "2-27-8",
-      "section": "Day 27",
-      "description": "Complex Subject",
-      "question": "Who is she?",
-      "korean": "옆집에 사는 소녀는 내 친구다.",
-      "english": "The girl who lives next door is my friend.",
-      "chunks": [
-        {
-          "text": "The girl who lives next door",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "my friend",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Neighbors"
-    },
-    {
-      "id": "2-27-9",
-      "section": "Day 27",
-      "description": "Complex Subject",
-      "question": "Who is she?",
-      "korean": "옆집에 사는 소녀는 내 친구다.",
-      "english": "The girl who lives next door is my friend.",
-      "chunks": [
-        {
-          "text": "The girl who lives next door",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "my friend",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Neighbors"
-    },
-    {
-      "id": "2-27-10",
-      "section": "Day 27",
-      "description": "Complex Subject",
-      "question": "Who is she?",
-      "korean": "옆집에 사는 소녀는 내 친구다.",
-      "english": "The girl who lives next door is my friend.",
-      "chunks": [
-        {
-          "text": "The girl who lives next door",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "my friend",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Neighbors"
-    },
-    {
-      "id": "2-28-1",
+      "id": "4-28-6",
       "section": "Day 28",
-      "description": "Complex Subject",
-      "question": "Who is she?",
-      "korean": "옆집에 사는 소녀는 내 친구다.",
-      "english": "The girl who lives next door is my friend.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "과속하는 운전자들은 위험하다.",
+      "english": "Drivers who speed are dangerous.",
       "chunks": [
         {
-          "text": "The girl who lives next door",
+          "text": "Drivers who speed",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "is",
+          "text": "are",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "my friend",
+          "text": "dangerous",
           "role": "Complement",
           "color": "#BA68C8"
         }
       ],
-      "context": "Neighbors",
-      "grammarGuide": {
-        "title": "Complex Subject",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000",
-            "desc": "주인공"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00",
-            "desc": "행동/상태"
-          },
-          {
-            "text": "Complement",
-            "color": "#BA68C8",
-            "desc": ""
-          }
-        ]
-      }
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-28-2",
+      "id": "4-28-7",
       "section": "Day 28",
-      "description": "Complex Subject",
-      "question": "Who is she?",
-      "korean": "옆집에 사는 소녀는 내 친구다.",
-      "english": "The girl who lives next door is my friend.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "고양이를 좋아하는 소녀가 여기 있다.",
+      "english": "The girl who likes cats is here.",
       "chunks": [
         {
-          "text": "The girl who lives next door",
+          "text": "The girl who likes cats",
           "role": "Subject",
           "color": "#FF0000"
         },
@@ -1745,49 +1883,51 @@
           "color": "#FF7F00"
         },
         {
-          "text": "my friend",
-          "role": "Complement",
+          "text": "here",
+          "role": "Adverb",
           "color": "#BA68C8"
         }
       ],
-      "context": "Neighbors"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-28-3",
+      "id": "4-28-8",
       "section": "Day 28",
-      "description": "Complex Subject",
-      "question": "Who is she?",
-      "korean": "옆집에 사는 소녀는 내 친구다.",
-      "english": "The girl who lives next door is my friend.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "네가 운 이유를 말해줘.",
+      "english": "Tell me the reason why you cried.",
       "chunks": [
         {
-          "text": "The girl who lives next door",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
+          "text": "Tell",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "my friend",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "me",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "the reason why you cried",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Neighbors"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-28-4",
+      "id": "4-28-9",
       "section": "Day 28",
-      "description": "Complex Subject",
-      "question": "Who is she?",
-      "korean": "옆집에 사는 소녀는 내 친구다.",
-      "english": "The girl who lives next door is my friend.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "운 소년은 내 동생이다.",
+      "english": "The boy who cried is my brother.",
       "chunks": [
         {
-          "text": "The girl who lives next door",
+          "text": "The boy who cried",
           "role": "Subject",
           "color": "#FF0000"
         },
@@ -1797,168 +1937,40 @@
           "color": "#FF7F00"
         },
         {
-          "text": "my friend",
+          "text": "my brother",
           "role": "Complement",
           "color": "#BA68C8"
         }
       ],
-      "context": "Neighbors"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
-      "id": "2-28-5",
+      "id": "4-28-10",
       "section": "Day 28",
-      "description": "Complex Subject",
-      "question": "Who is she?",
-      "korean": "옆집에 사는 소녀는 내 친구다.",
-      "english": "The girl who lives next door is my friend.",
+      "description": "Review",
+      "question": "Review Time",
+      "korean": "나는 빨리 나는 새를 보았다.",
+      "english": "I saw the bird that flies fast.",
       "chunks": [
         {
-          "text": "The girl who lives next door",
+          "text": "I",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "is",
+          "text": "saw",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "my friend",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "the bird that flies fast",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Neighbors"
-    },
-    {
-      "id": "2-28-6",
-      "section": "Day 28",
-      "description": "Complex Subject",
-      "question": "Who is she?",
-      "korean": "옆집에 사는 소녀는 내 친구다.",
-      "english": "The girl who lives next door is my friend.",
-      "chunks": [
-        {
-          "text": "The girl who lives next door",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "my friend",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Neighbors"
-    },
-    {
-      "id": "2-28-7",
-      "section": "Day 28",
-      "description": "Complex Subject",
-      "question": "Who is she?",
-      "korean": "옆집에 사는 소녀는 내 친구다.",
-      "english": "The girl who lives next door is my friend.",
-      "chunks": [
-        {
-          "text": "The girl who lives next door",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "my friend",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Neighbors"
-    },
-    {
-      "id": "2-28-8",
-      "section": "Day 28",
-      "description": "Complex Subject",
-      "question": "Who is she?",
-      "korean": "옆집에 사는 소녀는 내 친구다.",
-      "english": "The girl who lives next door is my friend.",
-      "chunks": [
-        {
-          "text": "The girl who lives next door",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "my friend",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Neighbors"
-    },
-    {
-      "id": "2-28-9",
-      "section": "Day 28",
-      "description": "Complex Subject",
-      "question": "Who is she?",
-      "korean": "옆집에 사는 소녀는 내 친구다.",
-      "english": "The girl who lives next door is my friend.",
-      "chunks": [
-        {
-          "text": "The girl who lives next door",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "my friend",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Neighbors"
-    },
-    {
-      "id": "2-28-10",
-      "section": "Day 28",
-      "description": "Complex Subject",
-      "question": "Who is she?",
-      "korean": "옆집에 사는 소녀는 내 친구다.",
-      "english": "The girl who lives next door is my friend.",
-      "chunks": [
-        {
-          "text": "The girl who lives next door",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "my friend",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Neighbors"
+      "context": "Review",
+      "grammarGuide": null
     }
   ]
 }
