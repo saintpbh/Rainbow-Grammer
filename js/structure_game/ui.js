@@ -1,5 +1,6 @@
-import { ROLE_MAP, PRINCIPLES } from './config.js';
-import { isLightColor } from './utils.js';
+import { ROLE_MAP, PRINCIPLES } from '../config.js';
+import { isLightColor } from '../utils.js';
+import { startGame } from './game.js';
 
 export function updateScoreHUD(today, total) {
     const todayEl = document.getElementById('score-today');
@@ -163,17 +164,30 @@ export function hideErrorFeedback() {
     if (el) el.classList.remove('active');
 }
 
+const TITLE_MAP = {
+    "Core Lesson": "오늘의 핵심 강의",
+    "Review Time": "복습 시간",
+    "News Headlines": "뉴스 헤드라인",
+    "Famous Speeches": "유명 연설",
+    "Literature & Wisdom": "문학의 지혜",
+    "Mastery": "마스터리"
+};
+
 export function showDayTransition(completedSection, nextSection, guideData, onProceed) {
     const modal = document.createElement('div');
     modal.className = 'level-transition-modal';
+
+    // Map English titles to Korean if possible
+    const title = TITLE_MAP[guideData.title] || guideData.title;
+
     modal.innerHTML = `
         <div class="transition-content" style="background: white; padding: 2.5rem; border-radius: 24px; text-align: center; max-width: 500px; width: 90%; box-shadow: 0 10px 40px rgba(0,0,0,0.3); animation: popIn 0.3s ease-out;">
             <div style="font-size: 3rem; margin-bottom: 1rem;">🏁</div>
-            <h2 style="color: #455A64; margin: 0; font-size: 1.2rem;">${completedSection} Complete!</h2>
+            <h2 style="color: #455A64; margin: 0; font-size: 1.2rem;">${completedSection} 완료!</h2>
             <div style="margin: 2rem 0; height: 1px; background: #ECEFF1;"></div>
             
             <h3 style="color: var(--primary); font-size: 1.8rem; margin-bottom: 0.5rem; font-weight: 800;">${nextSection}</h3>
-            <p style="color: #78909C; margin-bottom: 2rem;">${guideData.title}</p>
+            <p style="color: #78909C; margin-bottom: 2rem;">${title}</p>
             
             <!-- Color Coded Grammar Guide -->
             <div style="background: #F5F7FA; padding: 1.5rem; border-radius: 16px; margin-bottom: 2rem; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; align-items: center;">
@@ -188,7 +202,7 @@ export function showDayTransition(completedSection, nextSection, guideData, onPr
 
             <button onclick="document.querySelector('.level-transition-modal').remove(); proceedToNextLevel()" 
                 style="background: linear-gradient(135deg, #6200EA 0%, #7C4DFF 100%); color: white; border: none; padding: 16px 40px; border-radius: 50px; font-size: 1.1rem; font-weight: 800; cursor: pointer; box-shadow: 0 6px 20px rgba(98, 0, 234, 0.4); transition: transform 0.2s;">
-                Start ${nextSection} 🚀
+                ${nextSection} 시작하기 🚀
             </button>
         </div>
     `;
@@ -242,6 +256,7 @@ export function showWelcomeModal(hasStarted, data) {
                 </div>
                  <div style="margin-bottom: 20px; font-weight:bold; color: #555;">Current Level: ${data.levelIndex + 1}</div>
                 <button class="start-btn" onclick="startGame()">Resume Journey ▶</button>
+                <button class="start-btn" style="background:#546E7A; margin-top:10px" onclick="location.reload()">← Back to Lobby</button>
             </div>
         `;
     } else {
@@ -268,6 +283,7 @@ export function showWelcomeModal(hasStarted, data) {
                 </div>
                 
                 <button class="start-btn" onclick="startGame()">Start Learning 🚀</button>
+                <button class="start-btn" style="background:#546E7A; margin-top:10px" onclick="location.reload()">← Back to Lobby</button>
             </div>
         `;
     }

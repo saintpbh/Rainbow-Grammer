@@ -602,7 +602,7 @@ body {
 /* Save & Exit Button */
 .save-exit-btn {
     position: fixed;
-    top: 20px;
+    bottom: 20px;
     right: 20px;
     background: linear-gradient(135deg, #FF6B6B 0%, #FF5252 100%);
     color: white;
@@ -713,7 +713,8 @@ body {
 .practice-mode-btn {
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    bottom: 20px;
+    left: 20px;
     background: linear-gradient(135deg, #9C27B0 0%, #7B1FA2 100%);
     color: white;
     border: none;

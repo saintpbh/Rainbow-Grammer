@@ -1,10 +1,10 @@
-import { GET_LEVEL_FILES, POINTS_PER_WIN, PRINCIPLES } from './config.js';
-import { gameState } from './state.js';
+import { GET_LEVEL_FILES, POINTS_PER_WIN, PRINCIPLES } from '../config.js';
+import { gameState } from '../state.js';
 import * as ui from './ui.js';
-import * as audio from './audio.js';
-import * as storage from './storage.js';
-import * as utils from './utils.js';
-import * as analytics from './analytics.js';
+import * as audio from '../audio.js';
+import * as storage from '../storage.js';
+import * as utils from '../utils.js';
+import * as analytics from '../analytics.js';
 
 // --- Initialization ---
 
@@ -193,6 +193,10 @@ export function loadLevel() {
 function handleInput(idx, element) {
     if (element.classList.contains('used')) return;
 
+    // Speak chunk
+    const chunk = gameState.currentChunks[idx];
+    audio.speakText(chunk.text);
+
     // Add to selection
     gameState.selectedIndices.push(idx);
 
@@ -213,6 +217,10 @@ function handleInput(idx, element) {
 function undoSelection(chunkIdx) {
     const pos = gameState.selectedIndices.indexOf(chunkIdx);
     if (pos === -1) return;
+
+    // Speak chunk (optional, but good for feedback)
+    const chunk = gameState.currentChunks[chunkIdx];
+    audio.speakText(chunk.text);
 
     gameState.selectedIndices.splice(pos, 1);
 

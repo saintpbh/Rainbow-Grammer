@@ -1,0 +1,67 @@
+/* Lobby CSS */
+.lobby-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.lobby-title {
+    font-size: 3rem;
+    color: var(--primary);
+    margin-bottom: 3rem;
+    font-weight: 800;
+}
+
+.game-cards {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.game-card {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 24px;
+    width: 300px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    text-align: center;
+    border: 2px solid transparent;
+}
+
+.game-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    border-color: var(--primary);
+}
+
+.card-icon {
+    font-size: 5rem;
+    margin-bottom: 1.5rem;
+    display: block;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #455A64;
+    font-weight: 700;
+}
+
+.card-desc {
+    color: #78909C;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+
+.card-status {
+    background: #F5F7FA;
+    padding: 0.8rem;
+    border-radius: 12px;
+    color: var(--accent);
+    font-weight: 700;
+    font-size: 0.9rem;
+}
