@@ -14,6 +14,10 @@ export function saveProgress() {
     localStorage.setItem(SAVE_KEY, JSON.stringify(progress));
 }
 
+export function saveProgressExplicit(stateObj) {
+    localStorage.setItem(SAVE_KEY, JSON.stringify(stateObj));
+}
+
 export function loadProgress() {
     const raw = localStorage.getItem(SAVE_KEY);
     if (!raw) return null;

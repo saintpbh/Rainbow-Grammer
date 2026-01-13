@@ -1,4 +1,4 @@
-import { startGame, proceedToNextLevel, openPracticeMode, closePracticeMode, startPracticeDay, exitPracticeMode, showExitModal, closeExitModal, confirmExit, loadGame } from './game.js';
+import { startGame, proceedToNextLevel, openPracticeMode, closePracticeMode, startPracticeDay, exitPracticeMode, showExitModal, closeExitModal, confirmExit, loadGame, testSpicyLevel } from './game.js';
 import { changeSpeed, testAudio } from './audio.js';
 import { closeGrammarModal, hideContext, hideErrorFeedback } from './ui.js';
 
@@ -12,6 +12,7 @@ window.exitPracticeMode = exitPracticeMode;
 window.showExitModal = showExitModal;
 window.closeExitModal = closeExitModal;
 window.confirmExit = confirmExit;
+window.testSpicyLevel = testSpicyLevel;
 window.changeSpeed = changeSpeed;
 window.testAudio = testAudio;
 window.closeGrammarModal = closeGrammarModal;

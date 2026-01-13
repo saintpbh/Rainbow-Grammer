@@ -1,0 +1,29 @@
+/* Chili Display */
+.chili-display {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: #FFF3E0;
+    border: 1px solid #FFCC80;
+    padding: 6px 12px;
+    border-radius: 20px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    width: fit-content;
+    transition: all 0.2s;
+}
+
+.chili-display:hover {
+    transform: scale(1.05);
+    background: #FFE0B2;
+}
+
+#chili-icon {
+    font-size: 1.2rem;
+}
+
+#chili-count {
+    font-weight: 800;
+    color: #EF6C00;
+    font-size: 0.9rem;
+}
