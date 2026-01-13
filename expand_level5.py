@@ -50,16 +50,23 @@ def expand_week_file(filepath, week_num):
             
             day_items = [clone_src] # Use last known as seed
 
-        # Expand to 10 items
+        # Expand to 3 items (Reduced from 10 to avoid excessive repetition of identical sentences)
         expanded_items = []
         seed_idx = 0
-        while len(expanded_items) < 10:
+        target_count = 3
+        
+        while len(expanded_items) < target_count:
             seed = day_items[seed_idx % len(day_items)]
             
             # Create new instance
             new_item = seed.copy()
-            new_item['id'] = f"2-{d}-{len(expanded_items)+1}"
+            # Level 5 ID prefix: 6-
+            new_item['id'] = f"6-{d}-{len(expanded_items)+1}"
             new_item['section'] = day_key
+            
+            # Add drill info if repeated
+            if len(expanded_items) >= len(day_items):
+                new_item['description'] = f"{seed.get('description', '')} (Drill {len(expanded_items)+1})"
             
             # Add Grammar Guide to the FIRST item of the day
             if len(expanded_items) == 0:
@@ -77,12 +84,6 @@ def expand_week_file(filepath, week_num):
                     "structure": guide
                 }
             
-            # Tweak content for variety if duplicate
-            if len(expanded_items) >= len(day_items):
-                # Simple variation: Rotate subject id possible
-                # (Complex generation skipped for stability, just duping for volume)
-                pass
-
             expanded_items.append(new_item)
             seed_idx += 1
             
