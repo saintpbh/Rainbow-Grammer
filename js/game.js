@@ -269,14 +269,35 @@ async function checkCompletion() {
             // Normal Flow
             const currentSection = gameState.currentItem.section;
             gameState.currentLevelGlobalIndex++;
+
+            // Check if we reached the end of the loaded curriculum
+            if (gameState.currentLevelGlobalIndex >= gameState.curriculum.length) {
+                // CYCLE COMPLETE!
+                alert("🎉 LEVEL UP! 🎉\nYou earned a Chili!");
+                gameState.chiliCount++;
+                gameState.currentLevel++;
+
+                // Safety cap
+                if (gameState.currentLevel > 5) gameState.currentLevel = 5;
+
+                gameState.currentLevelGlobalIndex = 0; // Reset for next cycle
+
+                // Save updated level/chili
+                storage.saveProgress();
+
+                location.reload(); // Reload to fetch new Level data
+                return;
+            }
+
             const nextItem = gameState.curriculum[gameState.currentLevelGlobalIndex];
 
             if (nextItem && nextItem.section !== currentSection) {
-                // Level Up
+                // Day/Section Change
                 ui.showLevelUpCelebration(currentSection, nextItem.section, () => {
                     // Proceed handled by user clicking button in modal (proceedToNextLevel)
                 });
             } else {
+                // Same section, next sentence
                 loadLevel();
             }
         }
