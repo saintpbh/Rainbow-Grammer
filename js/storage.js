@@ -2,14 +2,16 @@ import { SAVE_KEY } from './config.js';
 import { gameState } from './state.js';
 
 export function saveProgress() {
-    const stateToSave = {
+    const progress = {
         levelIndex: gameState.currentLevelGlobalIndex,
         totalScore: gameState.totalScore,
         todayScore: gameState.todayScore,
         lastPlayedDate: new Date().toDateString(),
-        hasStarted: true
+        hasStarted: true,
+        currentLevel: gameState.currentLevel,
+        chiliCount: gameState.chiliCount
     };
-    localStorage.setItem(SAVE_KEY, JSON.stringify(stateToSave));
+    localStorage.setItem(SAVE_KEY, JSON.stringify(progress));
 }
 
 export function loadProgress() {

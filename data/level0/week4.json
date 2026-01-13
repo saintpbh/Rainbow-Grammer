@@ -1,0 +1,1794 @@
+{
+  "curriculum": [
+    {
+      "id": "4-1-1",
+      "section": "Day 22",
+      "description": "Compound Sentences: Joining independent clauses with and/but/or",
+      "korean": "나는 음악을 사랑하고 그녀는 미술을 사랑한다.",
+      "english": "I love music and she loves art.",
+      "chunks": [
+        {
+          "text": "I love music",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "and",
+          "role": "Modifier",
+          "color": "#0000FF"
+        },
+        {
+          "text": "she loves art",
+          "role": "Subject",
+          "color": "#FF0000"
+        }
+      ]
+    },
+    {
+      "id": "4-1-2",
+      "section": "Day 22",
+      "description": "Compound Sentences: Joining independent clauses with and/but/or",
+      "korean": "그는 열심히 공부하지만 시험에 떨어진다.",
+      "english": "He studies hard but fails exams.",
+      "chunks": [
+        {
+          "text": "He studies hard",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "but",
+          "role": "Modifier",
+          "color": "#0000FF"
+        },
+        {
+          "text": "fails exams",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ]
+    },
+    {
+      "id": "4-1-3",
+      "section": "Day 22",
+      "description": "Compound Sentences: Joining independent clauses with and/but/or",
+      "korean": "그녀는 차를 마시거나 커피를 마신다.",
+      "english": "She drinks tea or coffee.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "drinks",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "tea or coffee",
+          "role": "Object",
+          "color": "#FFFF00"
+        }
+      ]
+    },
+    {
+      "id": "4-1-4",
+      "section": "Day 22",
+      "description": "Compound Sentences: Joining independent clauses with and/but/or",
+      "korean": "그들은 춤추고 노래한다.",
+      "english": "They dance and sing.",
+      "chunks": [
+        {
+          "text": "They",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "dance",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "and",
+          "role": "Modifier",
+          "color": "#0000FF"
+        },
+        {
+          "text": "sing",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ]
+    },
+    {
+      "id": "4-1-5",
+      "section": "Day 22",
+      "description": "Compound Sentences: Joining independent clauses with and/but/or",
+      "korean": "날씨가 좋지만 나는 밖에 나가지 않는다.",
+      "english": "The weather is nice but I stay inside.",
+      "chunks": [
+        {
+          "text": "The weather is nice",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "but",
+          "role": "Modifier",
+          "color": "#0000FF"
+        },
+        {
+          "text": "I stay inside",
+          "role": "Subject",
+          "color": "#FF0000"
+        }
+      ]
+    },
+    {
+      "id": "4-1-6",
+      "section": "Day 22",
+      "description": "Compound Sentences: Joining independent clauses with and/but/or",
+      "korean": "그는 피곤하지만 계속 일한다.",
+      "english": "He is tired but keeps working.",
+      "chunks": [
+        {
+          "text": "He is tired",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "but",
+          "role": "Modifier",
+          "color": "#0000FF"
+        },
+        {
+          "text": "keeps working",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ]
+    },
+    {
+      "id": "4-1-7",
+      "section": "Day 22",
+      "description": "Compound Sentences: Joining independent clauses with and/but/or",
+      "korean": "우리는 영화를 보거나 게임을 한다.",
+      "english": "We watch movies or play games.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "watch movies",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "or",
+          "role": "Modifier",
+          "color": "#0000FF"
+        },
+        {
+          "text": "play games",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ]
+    },
+    {
+      "id": "4-1-8",
+      "section": "Day 22",
+      "description": "Compound Sentences: Joining independent clauses with and/but/or",
+      "korean": "그녀는 아름답고 친절하다.",
+      "english": "She is beautiful and kind.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "beautiful and kind",
+          "role": "Complement",
+          "color": "#00FF00"
+        }
+      ]
+    },
+    {
+      "id": "4-1-9",
+      "section": "Day 22",
+      "description": "Compound Sentences: Joining independent clauses with and/but/or",
+      "korean": "나는 요리를 좋아하고 그는 청소를 좋아한다.",
+      "english": "I like cooking and he likes cleaning.",
+      "chunks": [
+        {
+          "text": "I like cooking",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "and",
+          "role": "Modifier",
+          "color": "#0000FF"
+        },
+        {
+          "text": "he likes cleaning",
+          "role": "Subject",
+          "color": "#FF0000"
+        }
+      ]
+    },
+    {
+      "id": "4-1-10",
+      "section": "Day 22",
+      "description": "Compound Sentences: Joining independent clauses with and/but/or",
+      "korean": "비가 내리지만 우리는 떠난다.",
+      "english": "It rains but we leave.",
+      "chunks": [
+        {
+          "text": "It rains",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "but",
+          "role": "Modifier",
+          "color": "#0000FF"
+        },
+        {
+          "text": "we leave",
+          "role": "Subject",
+          "color": "#FF0000"
+        }
+      ]
+    },
+    {
+      "id": "4-2-1",
+      "section": "Day 23",
+      "description": "Complex Sentences: Dependent clauses with because/when/if",
+      "korean": "당신이 왔기 때문에 나는 행복하다.",
+      "english": "I'm happy because you came.",
+      "chunks": [
+        {
+          "text": "I'm happy",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "because",
+          "role": "Modifier",
+          "color": "#0000FF"
+        },
+        {
+          "text": "you came",
+          "role": "Subject",
+          "color": "#FF0000"
+        }
+      ]
+    },
+    {
+      "id": "4-2-2",
+      "section": "Day 23",
+      "description": "Complex Sentences: Dependent clauses with because/when/if",
+      "korean": "당신이 도착하면 나에게 전화해.",
+      "english": "Call me when you arrive.",
+      "chunks": [
+        {
+          "text": "Call me",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "when",
+          "role": "Modifier",
+          "color": "#0000FF"
+        },
+        {
+          "text": "you arrive",
+          "role": "Subject",
+          "color": "#FF0000"
+        }
+      ]
+    },
+    {
+      "id": "4-2-3",
+      "section": "Day 23",
+      "description": "Complex Sentences: Dependent clauses with because/when/if",
+      "korean": "비가 오면 우리는 집에 있을 것이다.",
+      "english": "If it rains we will stay home.",
+      "chunks": [
+        {
+          "text": "If",
+          "role": "Modifier",
+          "color": "#0000FF"
+        },
+        {
+          "text": "it rains",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "we will stay home",
+          "role": "Subject",
+          "color": "#FF0000"
+        }
+      ]
+    },
+    {
+      "id": "4-2-4",
+      "section": "Day 23",
+      "description": "Complex Sentences: Dependent clauses with because/when/if",
+      "korean": "그녀는 피곤해서 잠을 잔다.",
+      "english": "She sleeps because she is tired.",
+      "chunks": [
+        {
+          "text": "She sleeps",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "because",
+          "role": "Modifier",
+          "color": "#0000FF"
+        },
+        {
+          "text": "she is tired",
+          "role": "Subject",
+          "color": "#FF0000"
+        }
+      ]
+    },
+    {
+      "id": "4-2-5",
+      "section": "Day 23",
+      "description": "Complex Sentences: Dependent clauses with because/when/if",
+      "korean": "태양이 뜨면 새들이 노래한다.",
+      "english": "Birds sing when the sun rises.",
+      "chunks": [
+        {
+          "text": "Birds sing",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "when",
+          "role": "Modifier",
+          "color": "#0000FF"
+        },
+        {
+          "text": "the sun rises",
+          "role": "Subject",
+          "color": "#FF0000"
+        }
+      ]
+    },
+    {
+      "id": "4-2-6",
+      "section": "Day 23",
+      "description": "Complex Sentences: Dependent clauses with because/when/if",
+      "korean": "당신이 공부하면 성공할 것이다.",
+      "english": "You will succeed if you study.",
+      "chunks": [
+        {
+          "text": "You will succeed",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "if",
+          "role": "Modifier",
+          "color": "#0000FF"
+        },
+        {
+          "text": "you study",
+          "role": "Subject",
+          "color": "#FF0000"
+        }
+      ]
+    },
+    {
+      "id": "4-2-7",
+      "section": "Day 23",
+      "description": "Complex Sentences: Dependent clauses with because/when/if",
+      "korean": "그는 아파서 학교에 가지 않았다.",
+      "english": "He didn't go to school because he was sick.",
+      "chunks": [
+        {
+          "text": "He didn't go to school",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "because",
+          "role": "Modifier",
+          "color": "#0000FF"
+        },
+        {
+          "text": "he was sick",
+          "role": "Subject",
+          "color": "#FF0000"
+        }
+      ]
+    },
+    {
+      "id": "4-2-8",
+      "section": "Day 23",
+      "description": "Complex Sentences: Dependent clauses with because/when/if",
+      "korean": "그녀가 웃으면 나도 웃는다.",
+      "english": "I smile when she smiles.",
+      "chunks": [
+        {
+          "text": "I smile",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "when",
+          "role": "Modifier",
+          "color": "#0000FF"
+        },
+        {
+          "text": "she smiles",
+          "role": "Subject",
+          "color": "#FF0000"
+        }
+      ]
+    },
+    {
+      "id": "4-2-9",
+      "section": "Day 23",
+      "description": "Complex Sentences: Dependent clauses with because/when/if",
+      "korean": "시간이 없으면 택시를 타세요.",
+      "english": "Take a taxi if you have no time.",
+      "chunks": [
+        {
+          "text": "Take a taxi",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "if",
+          "role": "Modifier",
+          "color": "#0000FF"
+        },
+        {
+          "text": "you have no time",
+          "role": "Subject",
+          "color": "#FF0000"
+        }
+      ]
+    },
+    {
+      "id": "4-2-10",
+      "section": "Day 23",
+      "description": "Complex Sentences: Dependent clauses with because/when/if",
+      "korean": "우리는 늦었기 때문에 서둘렀다.",
+      "english": "We hurried because we were late.",
+      "chunks": [
+        {
+          "text": "We hurried",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "because",
+          "role": "Modifier",
+          "color": "#0000FF"
+        },
+        {
+          "text": "we were late",
+          "role": "Subject",
+          "color": "#FF0000"
+        }
+      ]
+    },
+    {
+      "id": "4-3-1",
+      "section": "Day 24",
+      "description": "Relative Clauses: Describing nouns with who/which/that",
+      "korean": "여기에 사는 남자는 친절하다.",
+      "english": "The man who lives here is kind.",
+      "chunks": [
+        {
+          "text": "The man",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "who lives here",
+          "role": "Modifier",
+          "color": "#0000FF"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "kind",
+          "role": "Complement",
+          "color": "#00FF00"
+        }
+      ]
+    },
+    {
+      "id": "4-3-2",
+      "section": "Day 24",
+      "description": "Relative Clauses: Describing nouns with who/which/that",
+      "korean": "내가 읽은 책은 훌륭했다.",
+      "english": "The book that I read was great.",
+      "chunks": [
+        {
+          "text": "The book",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "that I read",
+          "role": "Modifier",
+          "color": "#0000FF"
+        },
+        {
+          "text": "was",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "great",
+          "role": "Complement",
+          "color": "#00FF00"
+        }
+      ]
+    },
+    {
+      "id": "4-3-3",
+      "section": "Day 24",
+      "description": "Relative Clauses: Describing nouns with who/which/that",
+      "korean": "테이블 위에 있는 사과는 빨갛다.",
+      "english": "The apple which is on the table is red.",
+      "chunks": [
+        {
+          "text": "The apple",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "which is on the table",
+          "role": "Modifier",
+          "color": "#0000FF"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "red",
+          "role": "Complement",
+          "color": "#00FF00"
+        }
+      ]
+    },
+    {
+      "id": "4-3-4",
+      "section": "Day 24",
+      "description": "Relative Clauses: Describing nouns with who/which/that",
+      "korean": "나를 도와준 소녀는 친구이다.",
+      "english": "The girl who helped me is my friend.",
+      "chunks": [
+        {
+          "text": "The girl",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "who helped me",
+          "role": "Modifier",
+          "color": "#0000FF"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "my friend",
+          "role": "Complement",
+          "color": "#00FF00"
+        }
+      ]
+    },
+    {
+      "id": "4-3-5",
+      "section": "Day 24",
+      "description": "Relative Clauses: Describing nouns with who/which/that",
+      "korean": "그가 산 차는 크다.",
+      "english": "The car that he bought is big.",
+      "chunks": [
+        {
+          "text": "The car",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "that he bought",
+          "role": "Modifier",
+          "color": "#0000FF"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "big",
+          "role": "Complement",
+          "color": "#00FF00"
+        }
+      ]
+    },
+    {
+      "id": "4-3-6",
+      "section": "Day 24",
+      "description": "Relative Clauses: Describing nouns with who/which/that",
+      "korean": "음악을 연주하는 사람은 나의 선생님이다.",
+      "english": "The person who plays music is my teacher.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "who plays music",
+          "role": "Modifier",
+          "color": "#0000FF"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "my teacher",
+          "role": "Complement",
+          "color": "#00FF00"
+        }
+      ]
+    },
+    {
+      "id": "4-3-7",
+      "section": "Day 24",
+      "description": "Relative Clauses: Describing nouns with who/which/that",
+      "korean": "창문이 열린 방은 시원하다.",
+      "english": "The room which has open windows is cool.",
+      "chunks": [
+        {
+          "text": "The room",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "which has open windows",
+          "role": "Modifier",
+          "color": "#0000FF"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "cool",
+          "role": "Complement",
+          "color": "#00FF00"
+        }
+      ]
+    },
+    {
+      "id": "4-3-8",
+      "section": "Day 24",
+      "description": "Relative Clauses: Describing nouns with who/which/that",
+      "korean": "내가 봤던 영화는 재미있었다.",
+      "english": "The movie that I watched was fun.",
+      "chunks": [
+        {
+          "text": "The movie",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "that I watched",
+          "role": "Modifier",
+          "color": "#0000FF"
+        },
+        {
+          "text": "was",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "fun",
+          "role": "Complement",
+          "color": "#00FF00"
+        }
+      ]
+    },
+    {
+      "id": "4-3-9",
+      "section": "Day 24",
+      "description": "Relative Clauses: Describing nouns with who/which/that",
+      "korean": "우리와 함께 일하는 여자는 의사이다.",
+      "english": "The woman who works with us is a doctor.",
+      "chunks": [
+        {
+          "text": "The woman",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "who works with us",
+          "role": "Modifier",
+          "color": "#0000FF"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a doctor",
+          "role": "Complement",
+          "color": "#00FF00"
+        }
+      ]
+    },
+    {
+      "id": "4-3-10",
+      "section": "Day 24",
+      "description": "Relative Clauses: Describing nouns with who/which/that",
+      "korean": "정원에서 자라는 꽃은 아름답다.",
+      "english": "The flowers which grow in the garden are beautiful.",
+      "chunks": [
+        {
+          "text": "The flowers",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "which grow in the garden",
+          "role": "Modifier",
+          "color": "#0000FF"
+        },
+        {
+          "text": "are",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "beautiful",
+          "role": "Complement",
+          "color": "#00FF00"
+        }
+      ]
+    },
+    {
+      "id": "4-4-1",
+      "section": "Day 25",
+      "description": "Passive Voice: is/are/was/were + past participle",
+      "korean": "그 책은 그에 의해 쓰여졌다.",
+      "english": "The book was written by him.",
+      "chunks": [
+        {
+          "text": "The book",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "was written",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "by him",
+          "role": "Modifier",
+          "color": "#0000FF"
+        }
+      ]
+    },
+    {
+      "id": "4-4-2",
+      "section": "Day 25",
+      "description": "Passive Voice: is/are/was/were + past participle",
+      "korean": "영어는 전세계적으로 사용된다.",
+      "english": "English is spoken worldwide.",
+      "chunks": [
+        {
+          "text": "English",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is spoken",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "worldwide",
+          "role": "Modifier",
+          "color": "#0000FF"
+        }
+      ]
+    },
+    {
+      "id": "4-4-3",
+      "section": "Day 25",
+      "description": "Passive Voice: is/are/was/were + past participle",
+      "korean": "그 집은 1900년에 지어졌다.",
+      "english": "The house was built in 1900.",
+      "chunks": [
+        {
+          "text": "The house",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "was built",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "in 1900",
+          "role": "Modifier",
+          "color": "#0000FF"
+        }
+      ]
+    },
+    {
+      "id": "4-4-4",
+      "section": "Day 25",
+      "description": "Passive Voice: is/are/was/were + past participle",
+      "korean": "음식이 엄마에 의해 만들어진다.",
+      "english": "Food is made by Mom.",
+      "chunks": [
+        {
+          "text": "Food",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is made",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "by Mom",
+          "role": "Modifier",
+          "color": "#0000FF"
+        }
+      ]
+    },
+    {
+      "id": "4-4-5",
+      "section": "Day 25",
+      "description": "Passive Voice: is/are/was/were + past participle",
+      "korean": "그 편지는 어제 보내졌다.",
+      "english": "The letter was sent yesterday.",
+      "chunks": [
+        {
+          "text": "The letter",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "was sent",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "yesterday",
+          "role": "Modifier",
+          "color": "#0000FF"
+        }
+      ]
+    },
+    {
+      "id": "4-4-6",
+      "section": "Day 25",
+      "description": "Passive Voice: is/are/was/were + past participle",
+      "korean": "그들은 많은 사람들에 의해 사랑받는다.",
+      "english": "They are loved by many people.",
+      "chunks": [
+        {
+          "text": "They",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "are loved",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "by many people",
+          "role": "Modifier",
+          "color": "#0000FF"
+        }
+      ]
+    },
+    {
+      "id": "4-4-7",
+      "section": "Day 25",
+      "description": "Passive Voice: is/are/was/were + past participle",
+      "korean": "그 문제는 해결되었다.",
+      "english": "The problem was solved.",
+      "chunks": [
+        {
+          "text": "The problem",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "was solved",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ]
+    },
+    {
+      "id": "4-4-8",
+      "section": "Day 25",
+      "description": "Passive Voice: is/are/was/were + past participle",
+      "korean": "문이 닫혀있다.",
+      "english": "The door is closed.",
+      "chunks": [
+        {
+          "text": "The door",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is closed",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ]
+    },
+    {
+      "id": "4-4-9",
+      "section": "Day 25",
+      "description": "Passive Voice: is/are/was/were + past participle",
+      "korean": "그 차는 수리되었다.",
+      "english": "The car was repaired.",
+      "chunks": [
+        {
+          "text": "The car",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "was repaired",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ]
+    },
+    {
+      "id": "4-4-10",
+      "section": "Day 25",
+      "description": "Passive Voice: is/are/was/were + past participle",
+      "korean": "새로운 규칙들이 만들어졌다.",
+      "english": "New rules were created.",
+      "chunks": [
+        {
+          "text": "New rules",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "were created",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ]
+    },
+    {
+      "id": "4-5-1",
+      "section": "Day 26",
+      "description": "Modal Verbs: can/will/should/must + verb",
+      "korean": "당신은 열심히 공부해야 한다.",
+      "english": "You should study hard.",
+      "chunks": [
+        {
+          "text": "You",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "should",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "study",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "hard",
+          "role": "Modifier",
+          "color": "#0000FF"
+        }
+      ]
+    },
+    {
+      "id": "4-5-2",
+      "section": "Day 26",
+      "description": "Modal Verbs: can/will/should/must + verb",
+      "korean": "나는 영어를 말할 수 있다.",
+      "english": "I can speak English.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "can",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "speak",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "English",
+          "role": "Object",
+          "color": "#FFFF00"
+        }
+      ]
+    },
+    {
+      "id": "4-5-3",
+      "section": "Day 26",
+      "description": "Modal Verbs: can/will/should/must + verb",
+      "korean": "그녀는 내일 올 것이다.",
+      "english": "She will come tomorrow.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "come",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "tomorrow",
+          "role": "Modifier",
+          "color": "#0000FF"
+        }
+      ]
+    },
+    {
+      "id": "4-5-4",
+      "section": "Day 26",
+      "description": "Modal Verbs: can/will/should/must + verb",
+      "korean": "우리는 조용히 해야 한다.",
+      "english": "We must be quiet.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "must",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "be",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "quiet",
+          "role": "Complement",
+          "color": "#00FF00"
+        }
+      ]
+    },
+    {
+      "id": "4-5-5",
+      "section": "Day 26",
+      "description": "Modal Verbs: can/will/should/must + verb",
+      "korean": "그는 피아노를 연주할 수 있다.",
+      "english": "He can play piano.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "can",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "play",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "piano",
+          "role": "Object",
+          "color": "#FFFF00"
+        }
+      ]
+    },
+    {
+      "id": "4-5-6",
+      "section": "Day 26",
+      "description": "Modal Verbs: can/will/should/must + verb",
+      "korean": "그들은 일찍 떠날 것이다.",
+      "english": "They will leave early.",
+      "chunks": [
+        {
+          "text": "They",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "leave",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "early",
+          "role": "Modifier",
+          "color": "#0000FF"
+        }
+      ]
+    },
+    {
+      "id": "4-5-7",
+      "section": "Day 26",
+      "description": "Modal Verbs: can/will/should/must + verb",
+      "korean": "당신은 더 많이 연습해야 한다.",
+      "english": "You should practice more.",
+      "chunks": [
+        {
+          "text": "You",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "should",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "practice",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "more",
+          "role": "Modifier",
+          "color": "#0000FF"
+        }
+      ]
+    },
+    {
+      "id": "4-5-8",
+      "section": "Day 26",
+      "description": "Modal Verbs: can/will/should/must + verb",
+      "korean": "나는 헤엄칠 수 있다.",
+      "english": "I can swim.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "can",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "swim",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ]
+    },
+    {
+      "id": "4-5-9",
+      "section": "Day 26",
+      "description": "Modal Verbs: can/will/should/must + verb",
+      "korean": "그녀는 의사가 될 것이다.",
+      "english": "She will become a doctor.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "become",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a doctor",
+          "role": "Complement",
+          "color": "#00FF00"
+        }
+      ]
+    },
+    {
+      "id": "4-5-10",
+      "section": "Day 26",
+      "description": "Modal Verbs: can/will/should/must + verb",
+      "korean": "우리는 규칙을 따라야 한다.",
+      "english": "We must follow the rules.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "must",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "follow",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the rules",
+          "role": "Object",
+          "color": "#FFFF00"
+        }
+      ]
+    },
+    {
+      "id": "4-6-1",
+      "section": "Day 27",
+      "description": "Perfect Tense: have/has + past participle",
+      "korean": "나는 숙제를 끝냈다.",
+      "english": "I have finished my homework.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "have finished",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "my homework",
+          "role": "Object",
+          "color": "#FFFF00"
+        }
+      ]
+    },
+    {
+      "id": "4-6-2",
+      "section": "Day 27",
+      "description": "Perfect Tense: have/has + past participle",
+      "korean": "그녀는 5년 동안 여기에 살았다.",
+      "english": "She has lived here for 5 years.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "has lived",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "here",
+          "role": "Modifier",
+          "color": "#0000FF"
+        },
+        {
+          "text": "for 5 years",
+          "role": "Modifier",
+          "color": "#0000FF"
+        }
+      ]
+    },
+    {
+      "id": "4-6-3",
+      "section": "Day 27",
+      "description": "Perfect Tense: have/has + past participle",
+      "korean": "그들은 그 영화를 본 적이 있다.",
+      "english": "They have seen that movie.",
+      "chunks": [
+        {
+          "text": "They",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "have seen",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "that movie",
+          "role": "Object",
+          "color": "#FFFF00"
+        }
+      ]
+    },
+    {
+      "id": "4-6-4",
+      "section": "Day 27",
+      "description": "Perfect Tense: have/has + past participle",
+      "korean": "그는 아침을 먹었다.",
+      "english": "He has eaten breakfast.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "has eaten",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "breakfast",
+          "role": "Object",
+          "color": "#FFFF00"
+        }
+      ]
+    },
+    {
+      "id": "4-6-5",
+      "section": "Day 27",
+      "description": "Perfect Tense: have/has + past participle",
+      "korean": "우리는 그 책을 읽었다.",
+      "english": "We have read that book.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "have read",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "that book",
+          "role": "Object",
+          "color": "#FFFF00"
+        }
+      ]
+    },
+    {
+      "id": "4-6-6",
+      "section": "Day 27",
+      "description": "Perfect Tense: have/has + past participle",
+      "korean": "나는 파리에 가본 적이 있다.",
+      "english": "I have been to Paris.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "have been",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "to Paris",
+          "role": "Modifier",
+          "color": "#0000FF"
+        }
+      ]
+    },
+    {
+      "id": "4-6-7",
+      "section": "Day 27",
+      "description": "Perfect Tense: have/has + past participle",
+      "korean": "그녀는 열쇠를 잃어버렸다.",
+      "english": "She has lost her keys.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "has lost",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "her keys",
+          "role": "Object",
+          "color": "#FFFF00"
+        }
+      ]
+    },
+    {
+      "id": "4-6-8",
+      "section": "Day 27",
+      "description": "Perfect Tense: have/has + past participle",
+      "korean": "그들은 프로젝트를 완성했다.",
+      "english": "They have completed the project.",
+      "chunks": [
+        {
+          "text": "They",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "have completed",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the project",
+          "role": "Object",
+          "color": "#FFFF00"
+        }
+      ]
+    },
+    {
+      "id": "4-6-9",
+      "section": "Day 27",
+      "description": "Perfect Tense: have/has + past participle",
+      "korean": "그는 많이 변했다.",
+      "english": "He has changed a lot.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "has changed",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a lot",
+          "role": "Modifier",
+          "color": "#0000FF"
+        }
+      ]
+    },
+    {
+      "id": "4-6-10",
+      "section": "Day 27",
+      "description": "Perfect Tense: have/has + past participle",
+      "korean": "우리는 그를 만난 적이 있다.",
+      "english": "We have met him before.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "have met",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "him",
+          "role": "Object",
+          "color": "#FFFF00"
+        },
+        {
+          "text": "before",
+          "role": "Modifier",
+          "color": "#0000FF"
+        }
+      ]
+    },
+    {
+      "id": "4-7-1",
+      "section": "Day 28",
+      "description": "Final Review: All 5 forms + variations",
+      "korean": "별들이 빛난다.",
+      "english": "Stars shine.",
+      "chunks": [
+        {
+          "text": "Stars",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "shine",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ]
+    },
+    {
+      "id": "4-7-2",
+      "section": "Day 28",
+      "description": "Final Review: All 5 forms + variations",
+      "korean": "나는 책을 읽었다.",
+      "english": "I have read books.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "have read",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "books",
+          "role": "Object",
+          "color": "#FFFF00"
+        }
+      ]
+    },
+    {
+      "id": "4-7-3",
+      "section": "Day 28",
+      "description": "Final Review: All 5 forms + variations",
+      "korean": "그들은 나를 행복하게 만든다.",
+      "english": "They make me happy.",
+      "chunks": [
+        {
+          "text": "They",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "make",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "me",
+          "role": "Object",
+          "color": "#FFFF00"
+        },
+        {
+          "text": "happy",
+          "role": "Complement",
+          "color": "#E91E63"
+        }
+      ]
+    },
+    {
+      "id": "4-7-4",
+      "section": "Day 28",
+      "description": "Final Review: All 5 forms + variations",
+      "korean": "당신이 왔기 때문에 나는 기쁘다.",
+      "english": "I'm glad because you came.",
+      "chunks": [
+        {
+          "text": "I'm glad",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "because",
+          "role": "Modifier",
+          "color": "#0000FF"
+        },
+        {
+          "text": "you came",
+          "role": "Subject",
+          "color": "#FF0000"
+        }
+      ]
+    },
+    {
+      "id": "4-7-5",
+      "section": "Day 28",
+      "description": "Final Review: All 5 forms + variations",
+      "korean": "그 책은 그에 의해 쓰여졌다.",
+      "english": "The book was written by him.",
+      "chunks": [
+        {
+          "text": "The book",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "was written",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "by him",
+          "role": "Modifier",
+          "color": "#0000FF"
+        }
+      ]
+    },
+    {
+      "id": "4-7-6",
+      "section": "Day 28",
+      "description": "Final Review: All 5 forms + variations",
+      "korean": "나는 영어를 말할 수 있다.",
+      "english": "I can speak English.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "can",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "speak",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "English",
+          "role": "Object",
+          "color": "#FFFF00"
+        }
+      ]
+    },
+    {
+      "id": "4-7-7",
+      "section": "Day 28",
+      "description": "Final Review: All 5 forms + variations",
+      "korean": "여기에 사는 남자는 의사이다.",
+      "english": "The man who lives here is a doctor.",
+      "chunks": [
+        {
+          "text": "The man",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "who lives here",
+          "role": "Modifier",
+          "color": "#0000FF"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a doctor",
+          "role": "Complement",
+          "color": "#00FF00"
+        }
+      ]
+    },
+    {
+      "id": "4-7-8",
+      "section": "Day 28",
+      "description": "Final Review: All 5 forms + variations",
+      "korean": "당신은 무엇을 원하나요?",
+      "english": "What do you want?",
+      "chunks": [
+        {
+          "text": "What",
+          "role": "Modifier",
+          "color": "#0000FF"
+        },
+        {
+          "text": "do",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "you",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "want",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ]
+    },
+    {
+      "id": "4-7-9",
+      "section": "Day 28",
+      "description": "Final Review: All 5 forms + variations",
+      "korean": "나는 커피를 좋아하지 않는다.",
+      "english": "I don't like coffee.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "don't like",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "coffee",
+          "role": "Object",
+          "color": "#FFFF00"
+        }
+      ]
+    },
+    {
+      "id": "4-7-10",
+      "section": "Day 28",
+      "description": "Final Review: All 5 forms + variations",
+      "korean": "테이블 위에 책이 있다.",
+      "english": "There is a book on the table.",
+      "chunks": [
+        {
+          "text": "There is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a book",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "on the table",
+          "role": "Modifier",
+          "color": "#0000FF"
+        }
+      ]
+    }
+  ]
+}

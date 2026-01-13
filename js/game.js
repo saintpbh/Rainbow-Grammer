@@ -1,4 +1,4 @@
-import { WEEK_FILES, POINTS_PER_WIN, PRINCIPLES } from './config.js';
+import { GET_LEVEL_FILES, POINTS_PER_WIN, PRINCIPLES } from './config.js';
 import { gameState } from './state.js';
 import * as ui from './ui.js';
 import * as audio from './audio.js';
@@ -10,18 +10,27 @@ import * as analytics from './analytics.js';
 
 export async function loadGame() {
     try {
-        const weekPromises = WEEK_FILES.map(file =>
+        // Determine level (default 0 or loaded from state?) 
+        // We need to initApp first to get saved state, THEN load data.
+        // But original logic loaded data THEN initApp. 
+        // Let's modify: load saved state lightly first to get level.
+        const saved = storage.loadProgress();
+        const level = saved ? (saved.currentLevel || 0) : 0;
+        gameState.currentLevel = level;
+
+        const files = GET_LEVEL_FILES(level);
+        const filePromises = files.map(file =>
             fetch(file)
                 .then(res => res.ok ? res.json() : { curriculum: [] })
                 .catch(() => ({ curriculum: [] }))
         );
 
-        const weeks = await Promise.all(weekPromises);
+        const dataChunks = await Promise.all(filePromises);
 
         gameState.curriculum = [];
-        weeks.forEach(week => {
-            if (week.curriculum && week.curriculum.length > 0) {
-                gameState.curriculum = gameState.curriculum.concat(week.curriculum);
+        dataChunks.forEach(chunk => {
+            if (chunk.curriculum && chunk.curriculum.length > 0) {
+                gameState.curriculum = gameState.curriculum.concat(chunk.curriculum);
             }
         });
 
@@ -53,6 +62,8 @@ function initApp() {
         gameState.totalScore = saved.totalScore || 0;
         gameState.todayScore = saved.todayScore || 0;
         gameState.currentLevelGlobalIndex = saved.levelIndex || 0;
+        gameState.currentLevel = saved.currentLevel || 0;
+        gameState.chiliCount = saved.chiliCount || 0;
 
         // Show welcome with stats
         ui.showWelcomeModal(true, saved);

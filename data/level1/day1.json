@@ -1,0 +1,82 @@
+{
+    "curriculum": [
+        {
+            "id": "2-1-1",
+            "section": "Day 1",
+            "description": "Level 1: Adding Adjectives",
+            "question": "What do the bright stars do?",
+            "korean": "밝은 별들이 밤하늘에서 빛난다.",
+            "english": "Bright stars shine in the night sky.",
+            "chunks": [
+                {
+                    "text": "Bright stars",
+                    "role": "Subject",
+                    "color": "#FF0000"
+                },
+                {
+                    "text": "shine",
+                    "role": "Verb",
+                    "color": "#FF7F00"
+                },
+                {
+                    "text": "in the night sky",
+                    "role": "Modifier",
+                    "color": "#B0BEC5"
+                }
+            ],
+            "context": "Describing with more detail"
+        },
+        {
+            "id": "2-1-2",
+            "section": "Day 1",
+            "description": "Level 1: Adding Adverbs",
+            "question": "How do the small birds sing?",
+            "korean": "작은 새들이 즐겁게 노래한다.",
+            "english": "Small birds sing happily.",
+            "chunks": [
+                {
+                    "text": "Small birds",
+                    "role": "Subject",
+                    "color": "#FF0000"
+                },
+                {
+                    "text": "sing",
+                    "role": "Verb",
+                    "color": "#FF7F00"
+                },
+                {
+                    "text": "happily",
+                    "role": "Verb",
+                    "color": "#FF7F00"
+                }
+            ],
+            "context": "Adding emotion to the action"
+        },
+        {
+            "id": "2-1-3",
+            "section": "Day 1",
+            "description": "Level 1: Detailed Actions",
+            "question": "Why do the cute babies cry?",
+            "korean": "귀여운 아기들이 배가 고파서 운다.",
+            "english": "Cute babies cry because they are hungry.",
+            "chunks": [
+                {
+                    "text": "Cute babies",
+                    "role": "Subject",
+                    "color": "#FF0000"
+                },
+                {
+                    "text": "cry",
+                    "role": "Verb",
+                    "color": "#FF7F00"
+                },
+                {
+                    "text": "because they are hungry",
+                    "role": "Modifier",
+                    "color": "#B0BEC5"
+                }
+            ],
+            "context": "Explaining the reason"
+        }
+    ]
+}
