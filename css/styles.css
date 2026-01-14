@@ -1293,16 +1293,29 @@ body {
 
 .test-audio-btn {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    top: 25px;
+    right: 25px;
     background: white;
     border: 1px solid #CFD8DC;
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 48px;
+    height: 48px;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    font-size: 1.2rem;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.test-audio-btn:hover {
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    border-color: var(--primary);
+}
+
+.test-audio-btn:active {
+    transform: scale(0.95);
 }

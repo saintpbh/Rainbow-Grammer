@@ -165,17 +165,15 @@
         <div class="keyboard-hints" id="keyboard-hints">
             Tab: Navigate | Enter: Select | Backspace: Undo | Ctrl+Enter: Submit | R: Replay Audio
         </div>
+
+        <button class="test-audio-btn" onclick="testAudio()" title="Test Audio">🔊</button>
+
+        <!-- Save & Exit Button (Power Icon) -->
+        <button class="save-exit-btn icon-only" onclick="showExitModal()" title="학습 마치기">⏻</button>
+
+        <!-- Practice Mode Button (Book Icon) -->
+        <button class="practice-mode-btn icon-only" onclick="openPracticeMode()" title="Practice Mode">📚</button>
     </div>
-
-
-
-    <!-- Save & Exit Button (Power Icon) -->
-    <button class="save-exit-btn icon-only" onclick="showExitModal()" title="학습 마치기">⏻</button>
-
-    <!-- Practice Mode Button (Book Icon) -->
-    <button class="practice-mode-btn icon-only" onclick="openPracticeMode()" title="Practice Mode">
-        📚
-    </button>
 
     <!-- Practice Mode Modal -->
     <div class="practice-modal" id="practice-modal">
