@@ -1,8 +1,10 @@
 /* Lobby CSS */
 .lobby-container {
-    max-width: 800px;
+    max-width: 1000px;
+    /* Increased to fit 4 cards better */
     margin: 0 auto;
     padding: 2rem;
+    padding-top: 4rem;
     text-align: center;
     min-height: 100dvh;
     overscroll-behavior: contain;
@@ -16,10 +18,11 @@
 }
 
 .game-cards {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-items: center;
+    padding-bottom: 3rem;
 }
 
 .game-card {
