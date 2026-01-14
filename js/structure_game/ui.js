@@ -10,8 +10,7 @@ export function updateScoreHUD(today, total) {
 }
 
 export function updatePhase(text) {
-    const el = document.getElementById('phase-display');
-    if (el) el.textContent = text;
+    // Phase display removed as per user request
 }
 
 export function showFloatingScore(points) {
@@ -35,11 +34,17 @@ export function updateProgressHUD(levelIndex, currentItemCount) {
     const weekEl = document.getElementById('week-badge');
     const sentEl = document.getElementById('sentence-counter');
     const fillEl = document.getElementById('progress-fill');
+    const lvlBtn = document.getElementById('level-btn');
 
     if (dayEl) dayEl.textContent = `Day ${currentDay} of 28`;
     if (weekEl) weekEl.textContent = `Week ${currentWeek}`;
     if (sentEl) sentEl.textContent = `Sentence ${sentenceInDay} of 10`;
     if (fillEl) fillEl.style.width = `${progressPercent}%`;
+
+    // Ensure Level Badge reflects Practice Day or Regular Level correctly
+    if (lvlBtn && !lvlBtn.textContent.includes('Practice')) {
+        lvlBtn.textContent = `LEVEL ${currentDay}`;
+    }
 }
 
 export function createPill(chunk, idx, isSelected, onClick) {
@@ -387,7 +392,7 @@ export function showPracticeExitButton(day, onExit) {
     const lvlBtn = document.getElementById('level-btn');
     if (lvlBtn) {
         lvlBtn.textContent = `📚 Practice: Day ${day}`;
-        lvlBtn.style.background = '#9C27B0';
+        lvlBtn.style.background = 'linear-gradient(135deg, #9C27B0 0%, #7B1FA2 100%)';
     }
 }
 

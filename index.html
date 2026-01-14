@@ -90,27 +90,32 @@
                     <span id="day-number">Day 1 of 28</span>
                     <span id="week-badge">Week 1</span>
                 </div>
-                <!-- Integrated Level/Phase Badge -->
+                <!-- Practice Day / Level badge moves to right end -->
                 <div style="display: flex; gap: 6px; align-items: center;">
-                    <span id="level-btn" class="level-badge" style="font-size: 0.8rem; padding: 4px 8px;">LEVEL
+                    <span id="level-btn" class="level-badge" style="font-size: 0.8rem; padding: 4px 10px;">LEVEL
                         1-1</span>
-                    <span id="phase-display" style="font-size: 0.7rem; color: #999; font-weight: bold;">READY</span>
                 </div>
             </div>
             <div class="sentence-progress">
-                <span id="sentence-counter">Sentence 1 of 10</span>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+                    <span id="sentence-counter">Sentence 1 of 10</span>
+                    <!-- Move audio speed controls inside the HUD bar for better containment -->
+                    <div class="audio-controls-embedded" style="display: flex; gap: 4px;">
+                        <button class="speed-btn" onclick="changeSpeed(0.75)">0.75×</button>
+                        <button class="speed-btn active" onclick="changeSpeed(1.0)">1.0×</button>
+                        <button class="speed-btn" onclick="changeSpeed(1.25)">1.25×</button>
+                        <button class="speed-btn" onclick="changeSpeed(1.5)">1.5×</button>
+                    </div>
+                </div>
                 <div class="progress-bar">
                     <div class="progress-fill" id="progress-fill" style="width: 0%"></div>
                 </div>
             </div>
         </div>
 
-        <div class="audio-controls"
-            style="position: fixed; top: 20px; right: 20px; z-index: 999; display: flex; gap: 4px;">
-            <button class="speed-btn" onclick="changeSpeed(0.75)">0.75×</button>
-            <button class="speed-btn active" onclick="changeSpeed(1.0)">1.0×</button>
-            <button class="speed-btn" onclick="changeSpeed(1.25)">1.25×</button>
-            <button class="speed-btn" onclick="changeSpeed(1.5)">1.5×</button>
+        <!-- Remove old floating audio controls -->
+        <div style="display: none;">
+            <div class="audio-controls"></div>
         </div>
 
         <!-- Hidden Score Elements to prevent JS Errors -->
@@ -164,12 +169,12 @@
 
 
 
-    <!-- Save & Exit Button -->
-    <button class="save-exit-btn" onclick="showExitModal()">💾 학습 마치기</button>
+    <!-- Save & Exit Button (Power Icon) -->
+    <button class="save-exit-btn icon-only" onclick="showExitModal()" title="학습 마치기">⏻</button>
 
-    <!-- Practice Mode Button -->
-    <button class="practice-mode-btn" onclick="openPracticeMode()">
-        📚 Practice Mode
+    <!-- Practice Mode Button (Book Icon) -->
+    <button class="practice-mode-btn icon-only" onclick="openPracticeMode()" title="Practice Mode">
+        📚
     </button>
 
     <!-- Practice Mode Modal -->

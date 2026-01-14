@@ -347,42 +347,38 @@ function proceedToNextItemLogic() {
 
         // Check if we reached the end of the loaded curriculum
         if (gameState.currentLevelGlobalIndex >= gameState.curriculum.length) {
-            // CYCLE COMPLETE!
+            // LEVEL COMPLETE!
             utils.createEmojiFireworks();
 
-            // Slight delay for alert so fireworks can be seen
+            // Increment Level and Reward Chili
+            gameState.currentLevel++;
+            gameState.chiliCount++;
+            if (gameState.currentLevel > 6) gameState.currentLevel = 6;
+
+            // Save immediately
+            storage.saveProgress();
+
+            // Show level transition modal or alert
             setTimeout(() => {
-                alert("🎉 LEVEL UP! 🎉\nYou earned a Chili!");
+                alert(`🎉 GREAT JOB! 🎉\nYou completed Spicy Level ${gameState.currentLevel - 1}!\nYou earned a Chili 🌶️ and unlocked Spicy Level ${gameState.currentLevel}.\nLet's start the new level!`);
 
-                gameState.chiliCount++;
-                gameState.currentLevel++;
-
-                // Safety cap
-                if (gameState.currentLevel > 6) gameState.currentLevel = 6;
-
-                gameState.currentLevelGlobalIndex = 0; // Reset for next cycle
-
-                // Save updated level/chili
+                // Reset index for the new level and reload
+                gameState.currentLevelGlobalIndex = 0;
                 storage.saveProgress();
-
-                location.reload(); // Reload to fetch new Level data
-            }, 1500);
+                location.reload();
+            }, 1000);
             return;
         }
 
         const nextItem = gameState.curriculum[gameState.currentLevelGlobalIndex];
-
         if (nextItem && nextItem.section !== currentSection) {
-            // Day/Section Change
-            // Use the next item's grammar guide if available
+            // Section/Day Transition
             ui.showDayTransition(
                 currentSection,
                 nextItem.section,
-                nextItem.grammarGuide || { title: nextItem.description || "Next Step", structure: [] },
-                () => { } // Callback is handled by the button in modal calling proceedToNextLevel
+                nextItem.grammarGuide || { title: nextItem.description || "Next Step", structure: [] }
             );
         } else {
-            // Same section, next sentence
             loadLevel();
         }
     }
@@ -399,10 +395,10 @@ export function proceedToNextLevel() {
 let savedBeforePracticeIndex = 0;
 
 export function openPracticeMode() {
-    // Show modal with selector
-    // Current unlocked day calculation
+    // Determine the highest Day completed/unlocked
     const currentDay = Math.floor(gameState.currentLevelGlobalIndex / 10) + 1;
 
+    // Open modal allowing all days up to currentDay (or all 28 if currentDay reaches it)
     ui.openPracticeModal(currentDay, (selectedDay) => {
         startPracticeDay(selectedDay);
     });
