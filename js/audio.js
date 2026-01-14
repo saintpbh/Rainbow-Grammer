@@ -43,19 +43,25 @@ export function playFailureSound() {
     osc.stop(ctx.currentTime + 0.3);
 }
 
-export function speakText(text) {
+export function speakText(text, cancelCurrent = true) {
     if (!text) return Promise.resolve();
 
     return new Promise((resolve) => {
         // Fallback timeout in case TTS fails or hangs
         const timeout = setTimeout(() => {
-            console.warn('⚠️ TTS timeout, proceeding anyway');
             resolve();
         }, 5000);
 
         try {
-            // Cancel current speech before starting new one
-            window.speechSynthesis.cancel();
+            // Chrome bug fix: sometimes the speech engine gets stuck/paused
+            if (window.speechSynthesis.paused) {
+                window.speechSynthesis.resume();
+            }
+
+            // Only cancel if requested (usually for new user clicks)
+            if (cancelCurrent) {
+                window.speechSynthesis.cancel();
+            }
 
             const utterance = new SpeechSynthesisUtterance(text);
 
@@ -77,9 +83,8 @@ export function speakText(text) {
 
             utterance.onerror = (event) => {
                 clearTimeout(timeout);
-                // 'interrupted' happens when we call cancel() for a new bit of text. 
-                // No need to log it as a scary error.
-                if (event.error !== 'interrupted') {
+                // Silence common non-error interruptions
+                if (event.error !== 'interrupted' && event.error !== 'canceled') {
                     console.warn('TTS Notification:', event.error);
                 }
                 resolve();
@@ -96,17 +101,20 @@ export function speakText(text) {
 
 export async function speakSequence(text) {
     // Repeat 3 times for sensory loop
-    for (let i = 0; i < 3; i++) {
-        await speakText(text);
-        if (i < 2) await new Promise(r => setTimeout(r, 300));
+    await speakText(text, true);
+    for (let i = 0; i < 2; i++) {
+        await new Promise(r => setTimeout(r, 200));
+        await speakText(text, false);
     }
 }
 
 export async function speak3x(text) {
-    // Quick 3x loop
-    for (let i = 0; i < 3; i++) {
-        await speakText(text);
-        await new Promise(r => setTimeout(r, 400));
+    // Sequential 3x loop: First one cancels existing, next 2 append to queue
+    await speakText(text, true);
+    for (let i = 0; i < 2; i++) {
+        // Shorter delay between repeats for better rhythm
+        await new Promise(r => setTimeout(r, 300));
+        await speakText(text, false);
     }
 }
 

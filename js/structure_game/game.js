@@ -271,9 +271,9 @@ async function checkCompletion() {
             gameState.currentLevelGlobalIndex--; // revert for logic flow
         }
 
-        // Speak (single playback, non-blocking)
+        // Speak (3x playback, non-blocking)
         if (gameState.currentItem.english) {
-            audio.speakText(gameState.currentItem.english);
+            audio.speak3x(gameState.currentItem.english);
         }
 
         // Small delay for visual feedback before proceeding
@@ -312,9 +312,9 @@ async function checkCompletion() {
                 gameState.currentLevelGlobalIndex--;
             }
 
-            // Speak (single playback, non-blocking)
+            // Speak (3x playback, non-blocking)
             if (gameState.currentItem.english) {
-                audio.speakText(gameState.currentItem.english);
+                audio.speak3x(gameState.currentItem.english);
             }
 
             // Wait then auto-proceed
