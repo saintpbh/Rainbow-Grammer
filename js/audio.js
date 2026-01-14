@@ -44,16 +44,19 @@ export function playFailureSound() {
 }
 
 export function speakText(text) {
+    if (!text) return Promise.resolve();
+
     return new Promise((resolve) => {
         // Fallback timeout in case TTS fails or hangs
         const timeout = setTimeout(() => {
             console.warn('⚠️ TTS timeout, proceeding anyway');
-            window.speechSynthesis.cancel();
             resolve();
-        }, 5000); // 5 second timeout
+        }, 5000);
 
         try {
+            // Cancel current speech before starting new one
             window.speechSynthesis.cancel();
+
             const utterance = new SpeechSynthesisUtterance(text);
 
             // Try to use a better voice
@@ -63,23 +66,30 @@ export function speakText(text) {
 
             utterance.rate = gameState.speechRate || 1.0;
 
+            utterance.onstart = () => {
+                console.log('🔊 Speaking:', text);
+            };
+
             utterance.onend = () => {
                 clearTimeout(timeout);
                 resolve();
             };
 
-            utterance.onerror = (error) => {
-                console.error('TTS error:', error);
+            utterance.onerror = (event) => {
                 clearTimeout(timeout);
-                resolve(); // Resolve anyway to not block the game
+                // 'interrupted' happens when we call cancel() for a new bit of text. 
+                // No need to log it as a scary error.
+                if (event.error !== 'interrupted') {
+                    console.warn('TTS Notification:', event.error);
+                }
+                resolve();
             };
 
             window.speechSynthesis.speak(utterance);
-            console.log('🔊 Speaking:', text);
         } catch (error) {
             console.error('TTS exception:', error);
             clearTimeout(timeout);
-            resolve(); // Resolve anyway to not block the game
+            resolve();
         }
     });
 }
