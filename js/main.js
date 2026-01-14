@@ -76,12 +76,53 @@ function launchTowerGame() {
     TowerGame.initTowerGame();
 }
 
+// --- Fullscreen Functionality ---
+function toggleFullscreen() {
+    const elem = document.documentElement;
+    const icon = document.getElementById('fullscreen-icon');
+
+    if (!document.fullscreenElement) {
+        // Enter fullscreen
+        if (elem.requestFullscreen) {
+            elem.requestFullscreen();
+        } else if (elem.webkitRequestFullscreen) { // Safari
+            elem.webkitRequestFullscreen();
+        } else if (elem.msRequestFullscreen) { // IE11
+            elem.msRequestFullscreen();
+        }
+        if (icon) icon.textContent = '⛶'; // Exit fullscreen icon
+    } else {
+        // Exit fullscreen
+        if (document.exitFullscreen) {
+            document.exitFullscreen();
+        } else if (document.webkitExitFullscreen) {
+            document.webkitExitFullscreen();
+        } else if (document.msExitFullscreen) {
+            document.msExitFullscreen();
+        }
+        if (icon) icon.textContent = '⛶'; // Enter fullscreen icon
+    }
+}
+
+// Listen for fullscreen changes to update icon
+document.addEventListener('fullscreenchange', updateFullscreenIcon);
+document.addEventListener('webkitfullscreenchange', updateFullscreenIcon);
+document.addEventListener('msfullscreenchange', updateFullscreenIcon);
+
+function updateFullscreenIcon() {
+    const icon = document.getElementById('fullscreen-icon');
+    if (icon) {
+        icon.textContent = document.fullscreenElement ? '⛶' : '⛶';
+    }
+}
+
 // --- Global Exports for HTML ---
 // Lobby
 window.initLobby = initLobby;
 window.launchStructureGame = launchStructureGame;
 window.launchDropGame = launchDropGame;
 window.launchTowerGame = launchTowerGame;
+window.toggleFullscreen = toggleFullscreen;
 
 // Structure Game Bindings (legacy bindings for HTML buttons)
 window.startGame = StructureGame.startGame;

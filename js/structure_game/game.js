@@ -1,7 +1,7 @@
 import { GET_LEVEL_FILES, POINTS_PER_WIN, PRINCIPLES } from '../config.js';
 import { gameState } from '../state.js';
 import * as ui from './ui.js';
-import * as audio from '../audio.js';
+import * as audio from '../audio.js?v=2';  // Cache-bust to load TTS fix
 import * as storage from '../storage.js';
 import * as utils from '../utils.js';
 import * as analytics from '../analytics.js';
@@ -271,12 +271,13 @@ async function checkCompletion() {
             gameState.currentLevelGlobalIndex--; // revert for logic flow
         }
 
-        // Speak
+        // Speak (single playback, non-blocking)
         if (gameState.currentItem.english) {
-            await audio.speak3x(gameState.currentItem.english);
-        } else {
-            await new Promise(r => setTimeout(r, 1500));
+            audio.speakText(gameState.currentItem.english);
         }
+
+        // Small delay for visual feedback before proceeding
+        await new Promise(r => setTimeout(r, 800));
 
         // Logic for Next
         proceedToNextItemLogic();
@@ -294,35 +295,33 @@ async function checkCompletion() {
 
         // check if 3 strikes
         if (gameState.mistakeCount >= 3) {
-            // 3 Strikes Logic
+            // 3 Strikes Logic - Auto-proceed after showing correct answer
+            audio.playFailureSound(); // Extra sound for emphasis
+
+            // Show correct answer visually (fill slots)
+            const correctIndices = gameState.currentChunks.map((_, i) => i);
+            ui.renderAnswerSlot(gameState.currentChunks, correctIndices, () => { });
+
+            // Mark as correct styled
+            if (slot) slot.classList.add('correct');
+
+            // Proceed logic (without score)
+            if (!gameState.isPracticeMode) {
+                gameState.currentLevelGlobalIndex++;
+                storage.saveProgress();
+                gameState.currentLevelGlobalIndex--;
+            }
+
+            // Speak (single playback, non-blocking)
+            if (gameState.currentItem.english) {
+                audio.speakText(gameState.currentItem.english);
+            }
+
+            // Wait then auto-proceed
             setTimeout(() => {
-                alert("Three mistakes! Showing correct answer and moving on.");
+                proceedToNextItemLogic();
+            }, 2000);
 
-                // Show correct answer visually (fill slots)
-                const correctIndices = gameState.currentChunks.map((_, i) => i);
-                ui.renderAnswerSlot(gameState.currentChunks, correctIndices, () => { });
-
-                // Mark as correct styled (but maybe different color?)
-                if (slot) slot.classList.add('correct');
-
-                // Wait then proceed
-                setTimeout(async () => {
-                    // Proceed logic similar to success but without score
-                    if (!gameState.isPracticeMode) {
-                        gameState.currentLevelGlobalIndex++;
-                        storage.saveProgress();
-                        gameState.currentLevelGlobalIndex--;
-                    }
-
-                    // Speak
-                    if (gameState.currentItem.english) {
-                        await audio.speakText(gameState.currentItem.english); // simple speak
-                    }
-
-                    // Logic for Next (Duplicated from success block - should refactor but inline for now)
-                    proceedToNextItemLogic();
-                }, 2000);
-            }, 500);
             return;
         }
     }

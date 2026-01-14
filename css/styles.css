@@ -626,6 +626,180 @@ body {
     transform: translateY(0);
 }
 
+.test-audio-btn:active {
+    transform: scale(0.95);
+}
+
+/* iPhone Optimization - Main Game UI Elements */
+@media screen and (max-width: 430px) {
+    body {
+        padding: 10px;
+        padding-top: 20px;
+    }
+
+    #game-container {
+        padding: 1.5rem 1rem;
+        border-radius: 16px;
+        max-width: 100%;
+    }
+
+    /* Progress HUD */
+    .progress-hud {
+        padding: 0.75rem;
+        margin-bottom: 1rem;
+    }
+
+    #day-number {
+        font-size: 0.95rem;
+    }
+
+    #week-badge {
+        font-size: 0.75rem;
+        padding: 3px 8px;
+    }
+
+    .level-badge {
+        font-size: 0.75rem;
+        padding: 3px 8px;
+    }
+
+    #sentence-counter {
+        font-size: 0.8rem;
+    }
+
+    /* Question Area */
+    .korean-text {
+        font-size: 1.5rem;
+        margin: 1rem 0 1.5rem;
+    }
+
+    .english-question {
+        font-size: 0.85rem;
+    }
+
+    /* Answer Area */
+    .answer-area {
+        min-height: 100px;
+        padding: 15px;
+        margin-bottom: 1.5rem;
+        gap: 8px;
+    }
+
+    /* Word Pills - Larger touch targets */
+    .word-pill {
+        min-width: 70px;
+    }
+
+    .pill-text {
+        font-size: 1.1rem;
+        padding: 10px 14px;
+    }
+
+    .pill-tag {
+        font-size: 0.7rem;
+        padding: 3px 0;
+    }
+
+    /* Chunk Pool */
+    .chunk-pool {
+        gap: 10px;
+    }
+
+    /* Audio Controls - Touch-friendly */
+    .audio-controls {
+        top: 15px;
+        right: 15px;
+        gap: 3px;
+    }
+
+    .speed-btn {
+        padding: 6px 10px;
+        font-size: 0.7rem;
+        min-width: 44px;
+        min-height: 32px;
+    }
+
+    /* Fixed Buttons - Touch-friendly sizes */
+    .save-exit-btn,
+    .practice-mode-btn {
+        padding: 10px 20px;
+        font-size: 0.85rem;
+        bottom: 15px;
+    }
+
+    .save-exit-btn {
+        right: 15px;
+        display: block;
+        /* Override desktop media query */
+    }
+
+    .practice-mode-btn {
+        left: 15px;
+    }
+
+    .test-audio-btn {
+        width: 44px;
+        height: 44px;
+        bottom: 15px;
+        left: 15px;
+        font-size: 1.1rem;
+    }
+
+    /* Modals - Better mobile layout */
+    .grammar-modal-content,
+    .practice-modal-content,
+    .exit-modal-content {
+        padding: 1.5rem;
+        max-width: 95%;
+        border-radius: 16px;
+    }
+
+    .grammar-modal-content h2,
+    .practice-modal-content h2,
+    .exit-modal-content h2 {
+        font-size: 1.4rem;
+    }
+
+    /* Context Bubble */
+    .context-bubble {
+        padding: 10px 12px;
+        margin-bottom: 1rem;
+    }
+
+    .context-title {
+        font-size: 0.7rem;
+    }
+
+    .context-text {
+        font-size: 0.85rem;
+    }
+
+    /* Keyboard Hints - Hide on mobile */
+    .keyboard-hints {
+        display: none;
+    }
+
+    /* Error Feedback */
+    .error-feedback {
+        padding: 1.5rem;
+        max-width: 95%;
+    }
+
+    .feedback-message {
+        font-size: 1rem;
+    }
+
+    .feedback-hint {
+        font-size: 0.85rem;
+    }
+
+    .try-again-btn {
+        padding: 10px 24px;
+        font-size: 0.9rem;
+        min-height: 44px;
+    }
+}
+
 @media (max-width: 768px) {
     .save-exit-btn {
         display: none;

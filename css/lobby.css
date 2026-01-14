@@ -65,3 +65,85 @@
     font-weight: 700;
     font-size: 0.9rem;
 }
+
+/* Fullscreen Toggle Button */
+.fullscreen-btn {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+    z-index: 1000;
+}
+
+.fullscreen-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.5);
+    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+}
+
+.fullscreen-btn:active {
+    transform: scale(0.95);
+}
+
+/* iPhone Optimization - Standard iPhone sizes (390px width for iPhone 12/13/14) */
+@media screen and (max-width: 430px) {
+    .lobby-container {
+        padding: 1rem;
+    }
+
+    .lobby-title {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        padding-top: 0.5rem;
+    }
+
+    .game-cards {
+        gap: 1rem;
+    }
+
+    .game-card {
+        width: 100%;
+        max-width: 350px;
+        padding: 2rem;
+    }
+
+    .card-icon {
+        font-size: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    .card-title {
+        font-size: 1.3rem;
+    }
+
+    .card-desc {
+        font-size: 0.95rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .card-status {
+        font-size: 0.85rem;
+        padding: 0.6rem;
+    }
+
+    /* Fullscreen button - larger touch target for mobile */
+    .fullscreen-btn {
+        width: 44px;
+        height: 44px;
+        top: 1rem;
+        right: 1rem;
+        font-size: 1.3rem;
+    }
+}

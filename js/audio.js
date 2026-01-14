@@ -45,18 +45,42 @@ export function playFailureSound() {
 
 export function speakText(text) {
     return new Promise((resolve) => {
-        window.speechSynthesis.cancel();
-        const utterance = new SpeechSynthesisUtterance(text);
+        // Fallback timeout in case TTS fails or hangs
+        const timeout = setTimeout(() => {
+            console.warn('⚠️ TTS timeout, proceeding anyway');
+            window.speechSynthesis.cancel();
+            resolve();
+        }, 5000); // 5 second timeout
 
-        // Try to use a better voice
-        const voices = window.speechSynthesis.getVoices();
-        const enVoice = voices.find(v => v.lang.startsWith('en-US')) || voices.find(v => v.lang.startsWith('en'));
-        if (enVoice) utterance.voice = enVoice;
+        try {
+            window.speechSynthesis.cancel();
+            const utterance = new SpeechSynthesisUtterance(text);
 
-        utterance.rate = gameState.speechRate || 1.0;
-        utterance.onend = resolve;
-        utterance.onerror = resolve;
-        window.speechSynthesis.speak(utterance);
+            // Try to use a better voice
+            const voices = window.speechSynthesis.getVoices();
+            const enVoice = voices.find(v => v.lang.startsWith('en-US')) || voices.find(v => v.lang.startsWith('en'));
+            if (enVoice) utterance.voice = enVoice;
+
+            utterance.rate = gameState.speechRate || 1.0;
+
+            utterance.onend = () => {
+                clearTimeout(timeout);
+                resolve();
+            };
+
+            utterance.onerror = (error) => {
+                console.error('TTS error:', error);
+                clearTimeout(timeout);
+                resolve(); // Resolve anyway to not block the game
+            };
+
+            window.speechSynthesis.speak(utterance);
+            console.log('🔊 Speaking:', text);
+        } catch (error) {
+            console.error('TTS exception:', error);
+            clearTimeout(timeout);
+            resolve(); // Resolve anyway to not block the game
+        }
     });
 }
 

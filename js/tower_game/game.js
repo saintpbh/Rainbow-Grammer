@@ -66,6 +66,16 @@ export async function initTowerGame() {
 
     updateEnergyBar(); // Initialize energy bar
 
+    // Initialize audio system for TTS
+    if (window.initAudio) {
+        window.initAudio();
+    }
+
+    // Preload speech synthesis voices
+    if ('speechSynthesis' in window) {
+        window.speechSynthesis.getVoices();
+    }
+
     // Start Loop
     animationId = requestAnimationFrame(gameLoop);
 }
@@ -101,7 +111,9 @@ function update(dt) {
     const blocks = document.querySelectorAll('.falling-block');
     blocks.forEach(el => {
         let y = parseFloat(el.getAttribute('data-y'));
-        y += (currentSpeed * (dt / 16));
+        // Each block has its own speed multiplier
+        const blockSpeed = parseFloat(el.getAttribute('data-speed')) || 1;
+        y += (currentSpeed * blockSpeed * (dt / 16));
         el.style.top = y + 'px';
         el.setAttribute('data-y', y);
 
@@ -128,6 +140,10 @@ function spawnBlock() {
     const startY = -60;
     el.style.top = startY + 'px';
     el.setAttribute('data-y', startY);
+
+    // Random speed variation (0.7x to 1.3x of base speed)
+    const speedVariation = 0.7 + Math.random() * 0.6;
+    el.setAttribute('data-speed', speedVariation);
 
     // Interaction
     el.onmousedown = (e) => handleBlockClick(item, el);
@@ -241,7 +257,31 @@ function handleTowerCompletion() {
     if (window.playSuccessSound) window.playSuccessSound();
 
     // Speak Full Sentence with TTS
-    if (window.speakText) window.speakText(sentence);
+    console.log('🎉 Sentence completed:', sentence);
+    console.log('🔊 Calling TTS for sentence...');
+
+    if (window.speakText) {
+        // Ensure voices are loaded before speaking
+        if ('speechSynthesis' in window) {
+            const voices = window.speechSynthesis.getVoices();
+            if (voices.length === 0) {
+                // Wait for voices to load, then speak
+                console.log('⏳ Waiting for voices to load...');
+                window.speechSynthesis.addEventListener('voiceschanged', () => {
+                    console.log('✓ Voices loaded, speaking now');
+                    window.speakText(sentence);
+                }, { once: true });
+            } else {
+                console.log('✓ Voices ready, speaking:', sentence);
+                window.speakText(sentence);
+            }
+        } else {
+            console.log('✓ Using fallback TTS');
+            window.speakText(sentence);
+        }
+    } else {
+        console.error('✗ window.speakText is not available!');
+    }
 
     // Boost duration: 1 second with ease-in-out
     setTimeout(() => {
@@ -255,28 +295,31 @@ function handleTowerCompletion() {
             </div>
         `;
 
-    }, 1000);
+        // IMPORTANT: Reset stack and update goal display to continue game
+        TowerState.currentStack = [];
+        updateGoalDisplay();
 
-    TowerState.currentStack = [];
+        // Restore energy on completion
+        TowerState.energy = Math.min(100, TowerState.energy + 20);
+        updateEnergyBar();
 
-    // Restore energy on completion
-    TowerState.energy = Math.min(100, TowerState.energy + 20);
-    updateEnergyBar();
-
-    // Check for level progression
-    if (TowerState.sentencesCompleted >= TowerState.SENTENCES_PER_LEVEL) {
-        if (TowerState.currentLevel < 3) {
-            // Level up!
-            setTimeout(() => {
-                levelUp();
-            }, 2000);
-        } else {
-            // Game completed!
-            setTimeout(() => {
+        // Check for level progression
+        if (TowerState.sentencesCompleted >= TowerState.SENTENCES_PER_LEVEL) {
+            if (TowerState.currentLevel < 3) {
+                // Level up!
+                setTimeout(() => {
+                    levelUp();
+                }, 1000);
+            } else {
+                // Game completed!
                 setMonsterState('eating', "YOU'RE A MASTER! 🏆");
-            }, 2000);
+            }
+        } else {
+            // Continue with next sentence
+            setMonsterState('eating', `${TowerState.sentencesCompleted}/${TowerState.SENTENCES_PER_LEVEL} Complete! Keep going! 🎯`);
         }
-    }
+
+    }, 1000);
 }
 
 async function levelUp() {
