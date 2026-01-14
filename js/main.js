@@ -14,11 +14,13 @@ function initLobby() {
     const gameContainer = document.getElementById('game-container');
     const dropContainer = document.getElementById('drop-game-container');
     const towerContainer = document.getElementById('tower-game-container');
+    const dictContainer = document.getElementById('dictation-game-container');
 
     if (lobby) lobby.style.display = 'block';
     if (gameContainer) gameContainer.style.display = 'none';
     if (dropContainer) dropContainer.style.display = 'none';
     if (towerContainer) towerContainer.style.display = 'none';
+    if (dictContainer) dictContainer.style.display = 'none';
 }
 
 function launchStructureGame() {
@@ -76,6 +78,25 @@ function launchTowerGame() {
     TowerGame.initTowerGame();
 }
 
+function launchDictationGame() {
+    const lobby = document.getElementById('lobby-screen');
+    const dictContainer = document.getElementById('dictation-game-container');
+
+    if (!dictContainer.innerHTML.trim()) {
+        const link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = `css/dictation_game.css?v=${new Date().getTime()}`;
+        document.head.appendChild(link);
+    }
+
+    lobby.style.display = 'none';
+    dictContainer.style.display = 'flex';
+
+    import('./dictation_game/game.js').then(module => {
+        module.initGame();
+    });
+}
+
 // --- Fullscreen Functionality ---
 function toggleFullscreen() {
     const elem = document.documentElement;
@@ -122,6 +143,7 @@ window.initLobby = initLobby;
 window.launchStructureGame = launchStructureGame;
 window.launchDropGame = launchDropGame;
 window.launchTowerGame = launchTowerGame;
+window.launchDictationGame = launchDictationGame;
 window.toggleFullscreen = toggleFullscreen;
 
 // Structure Game Bindings (legacy bindings for HTML buttons)
