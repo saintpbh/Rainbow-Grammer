@@ -79,8 +79,14 @@ function launchTowerGame() {
 }
 
 function launchDictationGame() {
+    console.log("🚀 Launching Dictation Game...");
     const lobby = document.getElementById('lobby-screen');
     const dictContainer = document.getElementById('dictation-game-container');
+
+    if (!dictContainer) {
+        console.error("❌ Dictation container not found!");
+        return;
+    }
 
     if (!dictContainer.innerHTML.trim()) {
         const link = document.createElement('link');
@@ -92,9 +98,16 @@ function launchDictationGame() {
     lobby.style.display = 'none';
     dictContainer.style.display = 'flex';
 
-    import('./dictation_game/game.js').then(module => {
-        module.initGame();
-    });
+    import('./dictation_game/game.js')
+        .then(module => {
+            console.log("✅ Dictation module loaded");
+            module.initGame();
+        })
+        .catch(err => {
+            console.error("❌ Failed to load Dictation module:", err);
+            alert("Failed to load game module. Please check internet connection.");
+            initLobby();
+        });
 }
 
 // --- Fullscreen Functionality ---

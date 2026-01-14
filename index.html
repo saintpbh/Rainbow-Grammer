@@ -179,50 +179,50 @@
         <!-- Save & Exit Button (Power Icon) -->
         <button class="save-exit-btn icon-only" onclick="showExitModal()" title="학습 마치기">⏻</button>
 
-        <!-- Practice Mode Button (Book Icon) -->
         <button class="practice-mode-btn icon-only" onclick="openPracticeMode()" title="Practice Mode">📚</button>
-        <div id="dictation-game-container"
-            style="display: none; width: 100vw; height: 100dvh; position: fixed; top: 0; left: 0; z-index: 2000;">
-            <!-- UI Injected via JS -->
-        </div>
+    </div>
 
-        <!-- Practice Mode Modal -->
-        <div class="practice-modal" id="practice-modal">
-            <div class="practice-modal-content">
-                <h2>📚 Practice Mode</h2>
-                <p style="color: #666; margin-bottom: 1.5rem;">
-                    Choose a day to review. You can practice any completed day without affecting your progress.
-                </p>
-                <div class="day-selector" id="day-selector"></div>
-                <div class="practice-buttons">
-                    <button class="exit-cancel-btn" onclick="closePracticeMode()">Cancel</button>
-                </div>
+    <div id="dictation-game-container"
+        style="display: none; width: 100vw; height: 100dvh; position: fixed; top: 0; left: 0; z-index: 2000;">
+        <!-- UI Injected via JS -->
+    </div>
+
+    <!-- Practice Mode Modal -->
+    <div class="practice-modal" id="practice-modal">
+        <div class="practice-modal-content">
+            <h2>📚 Practice Mode</h2>
+            <p style="color: #666; margin-bottom: 1.5rem;">
+                Choose a day to review. You can practice any completed day without affecting your progress.
+            </p>
+            <div class="day-selector" id="day-selector"></div>
+            <div class="practice-buttons">
+                <button class="exit-cancel-btn" onclick="closePracticeMode()">Cancel</button>
             </div>
         </div>
+    </div>
 
-        <!-- Exit Confirmation Modal -->
-        <div class="exit-modal" id="exit-modal">
-            <div class="exit-modal-content">
-                <h2>✨ 좋은 학습이었어요!</h2>
-                <p>
-                    <strong>현재 진행 상황이 저장됩니다.</strong><br>
-                    다음에 접속하시면 바로 이어서 학습할 수 있습니다.
-                </p>
-                <div id="exit-info"
-                    style="background: #F5F5F5; padding: 1rem; border-radius: 12px; margin-bottom: 1.5rem;">
-                    <div style="font-size: 0.9rem; color: #666;">현재 위치</div>
-                    <div id="exit-progress" style="font-weight: 700; color: var(--primary); margin-top: 0.5rem;"></div>
-                </div>
-                <div class="exit-modal-buttons">
-                    <button class="exit-cancel-btn" onclick="closeExitModal()">계속 학습</button>
-                    <button class="exit-confirm-btn" onclick="confirmExit()">저장하고 나가기</button>
-                </div>
+    <!-- Exit Confirmation Modal -->
+    <div class="exit-modal" id="exit-modal">
+        <div class="exit-modal-content">
+            <h2>✨ 좋은 학습이었어요!</h2>
+            <p>
+                <strong>현재 진행 상황이 저장됩니다.</strong><br>
+                다음에 접속하시면 바로 이어서 학습할 수 있습니다.
+            </p>
+            <div id="exit-info" style="background: #F5F5F5; padding: 1rem; border-radius: 12px; margin-bottom: 1.5rem;">
+                <div style="font-size: 0.9rem; color: #666;">현재 위치</div>
+                <div id="exit-progress" style="font-weight: 700; color: var(--primary); margin-top: 0.5rem;"></div>
+            </div>
+            <div class="exit-modal-buttons">
+                <button class="exit-cancel-btn" onclick="closeExitModal()">계속 학습</button>
+                <button class="exit-confirm-btn" onclick="confirmExit()">저장하고 나가기</button>
             </div>
         </div>
+    </div>
 
-        <button class="test-audio-btn" onclick="testAudio()" title="Test Audio">🔊</button>
+    <button class="test-audio-btn" onclick="testAudio()" title="Test Audio">🔊</button>
 
-        <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/main.js"></script>
 </body>
 
 </html>
