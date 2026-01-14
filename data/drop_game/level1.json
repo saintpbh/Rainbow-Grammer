@@ -1,0 +1,120 @@
+{
+    "levelId": "drop_1",
+    "name": "Basics & Emojis",
+    "pool": [
+        {
+            "id": "s1",
+            "text": "I",
+            "emoji": "🙋",
+            "role": "Subject",
+            "color": "#FF5252"
+        },
+        {
+            "id": "s2",
+            "text": "You",
+            "emoji": "🫵",
+            "role": "Subject",
+            "color": "#FF5252"
+        },
+        {
+            "id": "s3",
+            "text": "We",
+            "emoji": "👥",
+            "role": "Subject",
+            "color": "#FF5252"
+        },
+        {
+            "id": "s4",
+            "text": "My dog",
+            "emoji": "🐕",
+            "role": "Subject",
+            "color": "#FF5252"
+        },
+        {
+            "id": "v1",
+            "text": "like",
+            "emoji": "👍",
+            "role": "Verb",
+            "color": "#FFAB40"
+        },
+        {
+            "id": "v2",
+            "text": "want",
+            "emoji": "🤲",
+            "role": "Verb",
+            "color": "#FFAB40"
+        },
+        {
+            "id": "v3",
+            "text": "eat",
+            "emoji": "🍽️",
+            "role": "Verb",
+            "color": "#FFAB40"
+        },
+        {
+            "id": "v4",
+            "text": "see",
+            "emoji": "👀",
+            "role": "Verb",
+            "color": "#FFAB40"
+        },
+        {
+            "id": "o1",
+            "text": "apples",
+            "emoji": "🍎",
+            "role": "Object",
+            "color": "#FFD740"
+        },
+        {
+            "id": "o2",
+            "text": "pizza",
+            "emoji": "🍕",
+            "role": "Object",
+            "color": "#FFD740"
+        },
+        {
+            "id": "o3",
+            "text": "books",
+            "emoji": "📚",
+            "role": "Object",
+            "color": "#FFD740"
+        },
+        {
+            "id": "o4",
+            "text": "water",
+            "emoji": "💧",
+            "role": "Object",
+            "color": "#FFD740"
+        }
+    ],
+    "waves": [
+        {
+            "name": "Warm Up",
+            "duration": 20,
+            "spawnRate": 3000,
+            "speed": 1.2,
+            "complexity": 1
+        },
+        {
+            "name": "Speed Up",
+            "duration": 30,
+            "spawnRate": 2000,
+            "speed": 1.8,
+            "complexity": 2
+        },
+        {
+            "name": "Rush Hour",
+            "duration": 40,
+            "spawnRate": 1200,
+            "speed": 2.5,
+            "complexity": 3
+        },
+        {
+            "name": "Rainbow Fever",
+            "duration": 999,
+            "spawnRate": 800,
+            "speed": 3.0,
+            "complexity": 4
+        }
+    ]
+}

@@ -1,0 +1,142 @@
+[
+    {
+        "id": "adjective_svo",
+        "name": "Rainbow Tower Expert",
+        "targetStructure": [
+            "adjective1",
+            "subject",
+            "verb",
+            "adjective2",
+            "object"
+        ],
+        "pool": [
+            {
+                "text": "Big",
+                "type": "adjective1",
+                "emoji": "📏"
+            },
+            {
+                "text": "Happy",
+                "type": "adjective1",
+                "emoji": "😊"
+            },
+            {
+                "text": "Smart",
+                "type": "adjective1",
+                "emoji": "🧠"
+            },
+            {
+                "text": "Brave",
+                "type": "adjective1",
+                "emoji": "🦸"
+            },
+            {
+                "text": "Tiny",
+                "type": "adjective1",
+                "emoji": "🔬"
+            },
+            {
+                "text": "cats",
+                "type": "subject",
+                "emoji": "🐱"
+            },
+            {
+                "text": "kids",
+                "type": "subject",
+                "emoji": "👧"
+            },
+            {
+                "text": "robots",
+                "type": "subject",
+                "emoji": "🤖"
+            },
+            {
+                "text": "wizards",
+                "type": "subject",
+                "emoji": "🧙"
+            },
+            {
+                "text": "bears",
+                "type": "subject",
+                "emoji": "🐻"
+            },
+            {
+                "text": "eat",
+                "type": "verb",
+                "emoji": "🍽️"
+            },
+            {
+                "text": "play",
+                "type": "verb",
+                "emoji": "⚽"
+            },
+            {
+                "text": "create",
+                "type": "verb",
+                "emoji": "✨"
+            },
+            {
+                "text": "explore",
+                "type": "verb",
+                "emoji": "🗺️"
+            },
+            {
+                "text": "discover",
+                "type": "verb",
+                "emoji": "🔍"
+            },
+            {
+                "text": "tasty",
+                "type": "adjective2",
+                "emoji": "😋"
+            },
+            {
+                "text": "fun",
+                "type": "adjective2",
+                "emoji": "🎉"
+            },
+            {
+                "text": "cool",
+                "type": "adjective2",
+                "emoji": "😎"
+            },
+            {
+                "text": "magic",
+                "type": "adjective2",
+                "emoji": "✨"
+            },
+            {
+                "text": "shiny",
+                "type": "adjective2",
+                "emoji": "💎"
+            },
+            {
+                "text": "fish",
+                "type": "object",
+                "emoji": "🐟"
+            },
+            {
+                "text": "games",
+                "type": "object",
+                "emoji": "🎮"
+            },
+            {
+                "text": "towers",
+                "type": "object",
+                "emoji": "🗼"
+            },
+            {
+                "text": "treasures",
+                "type": "object",
+                "emoji": "💰"
+            },
+            {
+                "text": "stars",
+                "type": "object",
+                "emoji": "⭐"
+            }
+        ],
+        "spawnRate": 1600,
+        "speed": 2.0
+    }
+]

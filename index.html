@@ -7,11 +7,42 @@
     <title>Grammar Rainbow Game</title>
     <link rel="icon" href="data:;base64,iVBORw0KGgo=">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/lobby.css">
 </head>
 
 <body>
 
-    <div id="game-container">
+    <!-- Lobby Screen -->
+    <div id="lobby-screen" class="lobby-container">
+        <h1 class="lobby-title">RAINBOW GRAMMAR ARCADE 🌈</h1>
+        <div class="game-cards">
+            <!-- Game 1: Structure -->
+            <div class="game-card" onclick="launchStructureGame()">
+                <div class="card-icon">🧩</div>
+                <div class="card-title">Pattern Builder</div>
+                <div class="card-desc">Master English sentence structures using colors and logic.</div>
+                <div class="card-status">Level 1-6 Ready</div>
+            </div>
+
+            <!-- Game 2: Drop -->
+            <div class="game-card" onclick="launchDropGame()">
+                <div class="card-icon">🚀</div>
+                <div class="card-title">Rainbow Drop</div>
+                <div class="card-desc">Defend your base from falling grammar chunks!</div>
+                <div class="card-status">Action Mode</div>
+            </div>
+
+            <!-- Game 3: Tower -->
+            <div class="game-card" onclick="launchTowerGame()">
+                <div class="card-icon">🏗️</div>
+                <div class="card-title">Sentence Tower</div>
+                <div class="card-desc">Stack chunks to build perfect sentence towers!</div>
+                <div class="card-status">Puzzle Mode</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="game-container" style="display: none;">
         <!-- Welcome Modal -->
         <div id="welcome-modal">
             <!-- Content Injected via JS -->
@@ -127,6 +158,9 @@
 
 
 
+    <!-- Save & Exit Button -->
+    <button class="save-exit-btn" onclick="showExitModal()">💾 학습 마치기</button>
+
     <!-- Practice Mode Button -->
     <button class="practice-mode-btn" onclick="openPracticeMode()">
         📚 Practice Mode
@@ -145,9 +179,6 @@
             </div>
         </div>
     </div>
-
-    <!-- Save & Exit Button -->
-    <button class="save-exit-btn" onclick="showExitModal()">💾 학습 마치기</button>
 
     <!-- Exit Confirmation Modal -->
     <div class="exit-modal" id="exit-modal">

@@ -1,0 +1,709 @@
+/* Tower Game - Arcade Theme */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+#tower-game-container {
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+    position: relative;
+    overflow: hidden;
+    font-family: 'Fredoka', sans-serif;
+    display: none;
+}
+
+/* Flowing Starfield - 3 Layers for Parallax Depth */
+
+/* Far Layer - Very small, very slow */
+#tower-game-container::before {
+    content: '';
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    background-image:
+        radial-gradient(1px 1px at 15% 10%, rgba(255, 255, 255, 0.4), transparent),
+        radial-gradient(1px 1px at 45% 20%, rgba(255, 255, 255, 0.3), transparent),
+        radial-gradient(1px 1px at 75% 15%, rgba(255, 255, 255, 0.4), transparent),
+        radial-gradient(1px 1px at 25% 40%, rgba(255, 255, 255, 0.3), transparent),
+        radial-gradient(1px 1px at 85% 50%, rgba(255, 255, 255, 0.4), transparent),
+        radial-gradient(1px 1px at 55% 65%, rgba(255, 255, 255, 0.3), transparent),
+        radial-gradient(1px 1px at 10% 80%, rgba(255, 255, 255, 0.4), transparent),
+        radial-gradient(1px 1px at 65% 90%, rgba(255, 255, 255, 0.3), transparent);
+    background-size: 400px 400px, 450px 450px;
+    animation: starsFlowFar 60s linear infinite;
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+/* Mid Layer - Medium size, medium speed */
+#tower-game-container::after {
+    content: '';
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    background-image:
+        radial-gradient(1.5px 1.5px at 20% 12%, rgba(255, 255, 255, 0.7), transparent),
+        radial-gradient(2px 2px at 60% 25%, rgba(255, 255, 255, 0.6), transparent),
+        radial-gradient(1.5px 1.5px at 35% 35%, rgba(255, 255, 255, 0.7), transparent),
+        radial-gradient(1.5px 1.5px at 80% 48%, rgba(255, 255, 255, 0.6), transparent),
+        radial-gradient(2px 2px at 50% 60%, rgba(255, 255, 255, 0.7), transparent),
+        radial-gradient(1.5px 1.5px at 15% 75%, rgba(255, 255, 255, 0.6), transparent),
+        radial-gradient(1.5px 1.5px at 70% 85%, rgba(255, 255, 255, 0.7), transparent);
+    background-size: 350px 350px;
+    animation: starsFlowMid 40s linear infinite;
+    opacity: 0.7;
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* Near Layer - Larger, faster (added via container class in JS) */
+#tower-game-container .stars-near {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    background-image:
+        radial-gradient(2px 2px at 25% 8%, white, transparent),
+        radial-gradient(3px 3px at 65% 18%, white, transparent),
+        radial-gradient(2px 2px at 45% 32%, white, transparent),
+        radial-gradient(2.5px 2.5px at 85% 45%, white, transparent),
+        radial-gradient(3px 3px at 30% 58%, white, transparent),
+        radial-gradient(2px 2px at 70% 70%, white, transparent),
+        radial-gradient(2.5px 2.5px at 50% 85%, white, transparent),
+        radial-gradient(3px 3px at 15% 95%, white, transparent);
+    background-size: 300px 300px, 280px 280px;
+    animation: starsFlowNear 30s linear infinite;
+    opacity: 0.9;
+    pointer-events: none;
+    z-index: 2;
+}
+
+@keyframes starsFlowFar {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(100%);
+    }
+}
+
+@keyframes starsFlowMid {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(100%);
+    }
+}
+
+@keyframes starsFlowNear {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(100%);
+    }
+}
+
+/* Boost mode - MUCH faster star animation for all layers */
+#tower-game-container.boost-mode::before {
+    animation: starsFlowFar 2s linear infinite;
+}
+
+#tower-game-container.boost-mode::after {
+    animation: starsFlowMid 1.5s linear infinite;
+}
+
+#tower-game-container.boost-mode .stars-near {
+    animation: starsFlowNear 1s linear infinite;
+}
+
+/* Spaceship/Tower Area - Centered */
+#tower-area {
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 280px;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: flex-start;
+    transition: transform 0.3s ease-out;
+}
+
+#tower-area.boosting {
+    animation: spaceshipBoost 1s ease-in-out;
+}
+
+@keyframes spaceshipBoost {
+
+    0%,
+    100% {
+        transform: translateX(-50%) translateY(0);
+    }
+
+    50% {
+        transform: translateX(-50%) translateY(-30px);
+    }
+}
+
+/* Spaceship Base - Rocket Design */
+#tower-base {
+    width: 140px;
+    height: 180px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 20px;
+    background: linear-gradient(135deg, #546E7A 0%, #37474F 50%, #263238 100%);
+    border-radius: 70px 70px 20px 20px;
+    box-shadow:
+        0 -5px 30px rgba(0, 217, 255, 0.4),
+        inset 0 0 20px rgba(0, 0, 0, 0.3);
+    z-index: 5;
+}
+
+/* Rocket Window */
+#tower-base::before {
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+    background: radial-gradient(circle, rgba(0, 217, 255, 0.8) 0%, rgba(0, 150, 200, 0.4) 100%);
+    border-radius: 50%;
+    border: 3px solid #00D9FF;
+    box-shadow:
+        0 0 20px rgba(0, 217, 255, 0.8),
+        inset 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+/* Rocket Fins */
+#tower-base::after {
+    content: '';
+    position: absolute;
+    bottom: 20px;
+    left: -25px;
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 40px solid #263238;
+    box-shadow: 165px 0 0 #263238;
+}
+
+/* Engine Flames */
+.spaceship-flames {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 50px;
+    background: linear-gradient(to bottom,
+            rgba(255, 200, 0, 0.9) 0%,
+            rgba(255, 100, 0, 0.7) 50%,
+            rgba(255, 50, 0, 0.3) 100%);
+    border-radius: 50% 50% 50% 50% / 20% 20% 80% 80%;
+    filter: blur(3px);
+    animation: flameFlicker 0.15s infinite alternate;
+}
+
+@keyframes flameFlicker {
+    0% {
+        transform: translateX(-50%) scaleY(1);
+        opacity: 0.9;
+    }
+
+    100% {
+        transform: translateX(-50%) scaleY(1.15);
+        opacity: 1;
+    }
+}
+
+/* Energy Bar Container */
+#energy-bar-container {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    z-index: 50;
+}
+
+.energy-label {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 0.5rem;
+    color: #00D9FF;
+    text-align: center;
+    margin-bottom: 5px;
+    text-shadow: 0 0 10px rgba(0, 217, 255, 0.8);
+}
+
+#energy-bar-bg {
+    width: 100%;
+    height: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border: 2px solid #00D9FF;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 217, 255, 0.6), inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#energy-bar-fill {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, #00FF88 0%, #00D9FF 50%, #00FF88 100%);
+    background-size: 200% 100%;
+    animation: energyPulse 2s linear infinite;
+    transition: width 0.3s ease-out;
+    box-shadow: 0 0 20px rgba(0, 255, 136, 0.8);
+}
+
+#energy-bar-fill.low {
+    background: linear-gradient(90deg, #FF006E 0%, #FF5252 50%, #FF006E 100%);
+    animation: energyPulseDanger 0.5s linear infinite;
+}
+
+@keyframes energyPulse {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 200% 50%;
+    }
+}
+
+@keyframes energyPulseDanger {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.6;
+    }
+}
+
+/* Exit Button - Top Left */
+.exit-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 12px 24px;
+    border: none;
+    background: rgba(0, 0, 0, 0.7);
+    border: 2px solid #FF006E;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 0.6rem;
+    color: white;
+    box-shadow: 0 0 15px rgba(255, 0, 110, 0.6);
+    transition: all 0.2s;
+    z-index: 100;
+}
+
+.exit-button:hover {
+    background: rgba(255, 0, 110, 0.2);
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(255, 0, 110, 0.9);
+}
+
+/* Arcade HUD */
+.arcade-hud {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    z-index: 50;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 0.65rem;
+    color: white;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+.hud-panel {
+    background: rgba(0, 0, 0, 0.7);
+    border: 2px solid #00D9FF;
+    border-radius: 8px;
+    padding: 8px 15px;
+    box-shadow: 0 0 15px rgba(0, 217, 255, 0.6), inset 0 0 10px rgba(0, 217, 255, 0.2);
+}
+
+.hud-label {
+    color: #00D9FF;
+    font-size: 0.5rem;
+    margin-bottom: 3px;
+}
+
+.hud-value {
+    color: #FFFFFF;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.combo-display {
+    color: #FFAA00;
+    animation: pulse 0.5s infinite;
+}
+
+/* Goals Display */
+#goal-display {
+    position: absolute;
+    top: 65px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.85);
+    padding: 12px 25px;
+    border-radius: 25px;
+    border: 2px solid #FF006E;
+    box-shadow: 0 0 20px rgba(255, 0, 110, 0.8);
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: white;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 0.7rem;
+    z-index: 50;
+}
+
+.needed-part {
+    color: #FF006E;
+    animation: pulseGlow 1s infinite;
+}
+
+@keyframes pulseGlow {
+
+    0%,
+    100% {
+        text-shadow: 0 0 10px #FF006E, 0 0 20px #FF006E;
+    }
+
+    50% {
+        text-shadow: 0 0 20px #FF006E, 0 0 30px #FF006E, 0 0 40px #FF006E;
+    }
+}
+
+.stacked-block {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 5px;
+    background: rgba(0, 0, 0, 0.9);
+    border: 3px solid;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    animation: land 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.stacked-block.type-subject {
+    border-color: #FF006E;
+    color: #FF006E;
+    box-shadow: 0 0 15px rgba(255, 0, 110, 0.8);
+}
+
+.stacked-block.type-verb {
+    border-color: #00D9FF;
+    color: #00D9FF;
+    box-shadow: 0 0 15px rgba(0, 217, 255, 0.8);
+}
+
+.stacked-block.type-object {
+    border-color: #00FF88;
+    color: #00FF88;
+    box-shadow: 0 0 15px rgba(0, 255, 136, 0.8);
+}
+
+.stacked-block.type-object1 {
+    border-color: #FFAA00;
+    color: #FFAA00;
+    box-shadow: 0 0 15px rgba(255, 170, 0, 0.8);
+}
+
+.stacked-block.type-object2 {
+    border-color: #AA00FF;
+    color: #AA00FF;
+    box-shadow: 0 0 15px rgba(170, 0, 255, 0.8);
+}
+
+.stacked-block.type-adjective1 {
+    border-color: #00FFFF;
+    color: #00FFFF;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.8);
+}
+
+.stacked-block.type-adjective2 {
+    border-color: #FFFF00;
+    color: #FFFF00;
+    box-shadow: 0 0 15px rgba(255, 255, 0, 0.8);
+}
+
+
+/* Falling Blocks - Neon Arcade Style */
+.falling-block {
+    position: absolute;
+    width: 110px;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.8);
+    border: 3px solid;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: all 0.15s;
+    user-select: none;
+    z-index: 10;
+    touch-action: manipulation;
+}
+
+.falling-block:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 0 rgba(0, 0, 0, 0.2), 0 6px 25px rgba(0, 0, 0, 0.2);
+}
+
+.falling-block:active {
+    transform: scale(0.92);
+}
+
+/* Type Colors - Neon Glow */
+.type-subject {
+    border-color: #FF006E;
+    color: #FF006E;
+    box-shadow: 0 0 10px #FF006E, 0 0 20px rgba(255, 0, 110, 0.5);
+}
+
+.type-verb {
+    border-color: #00D9FF;
+    color: #00D9FF;
+    box-shadow: 0 0 10px #00D9FF, 0 0 20px rgba(0, 217, 255, 0.5);
+}
+
+.type-object {
+    border-color: #00FF88;
+    color: #00FF88;
+    box-shadow: 0 0 10px #00FF88, 0 0 20px rgba(0, 255, 136, 0.5);
+}
+
+.type-object1 {
+    border-color: #FFAA00;
+    color: #FFAA00;
+    box-shadow: 0 0 10px #FFAA00, 0 0 20px rgba(255, 170, 0, 0.5);
+}
+
+.type-object2 {
+    border-color: #AA00FF;
+    color: #AA00FF;
+    box-shadow: 0 0 10px #AA00FF, 0 0 20px rgba(170, 0, 255, 0.5);
+}
+
+.type-adjective1 {
+    border-color: #00FFFF;
+    color: #00FFFF;
+    box-shadow: 0 0 10px #00FFFF, 0 0 20px rgba(0, 255, 255, 0.5);
+}
+
+.type-adjective2 {
+    border-color: #FFFF00;
+    color: #FFFF00;
+    box-shadow: 0 0 10px #FFFF00, 0 0 20px rgba(255, 255, 0, 0.5);
+}
+
+@keyframes land {
+    0% {
+        transform: scale(1.1);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* --- Nom-Nom Monster Styles --- */
+#monster-zone {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    pointer-events: none;
+    /* Let clicks pass through if needed */
+}
+
+#nom-nom {
+    width: 120px;
+    height: 100px;
+    background: #FF7043;
+    border-radius: 60px 60px 20px 20px;
+    position: relative;
+    box-shadow: 0 10px 0 #D84315;
+    animation: idleBounce 2s infinite ease-in-out;
+    transition: transform 0.2s;
+}
+
+#nom-nom.eating {
+    transform: scale(1.2);
+    background: #FFA726;
+}
+
+#nom-nom.angry {
+    background: #EF5350;
+    animation: shake 0.3s;
+}
+
+/* Eyes */
+#nom-nom::before {
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 25px;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 50px 0 0 white;
+    /* Right Eye */
+}
+
+/* Pupils */
+#nom-nom::after {
+    content: '';
+    position: absolute;
+    top: 36px;
+    left: 32px;
+    width: 8px;
+    height: 8px;
+    background: black;
+    border-radius: 50%;
+    box-shadow: 50px 0 0 black;
+    animation: blink 4s infinite;
+}
+
+/* Mouth */
+.monster-mouth {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 10px;
+    background: #3E2723;
+    border-radius: 20px;
+    transition: all 0.2s;
+}
+
+#nom-nom.eating .monster-mouth {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    bottom: 15px;
+}
+
+/* Speech Bubble */
+.speech-bubble {
+    position: absolute;
+    bottom: 140px;
+    right: 10px;
+    background: white;
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #37474F;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    white-space: nowrap;
+}
+
+.speech-bubble::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    right: 40px;
+    border-width: 10px 10px 0;
+    border-style: solid;
+    border-color: white transparent;
+}
+
+@keyframes idleBounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes blink {
+
+    0%,
+    96%,
+    100% {
+        transform: scaleY(1);
+    }
+
+    98% {
+        transform: scaleY(0.1);
+    }
+}
+
+@keyframes shake {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-5px);
+    }
+
+    75% {
+        transform: translateX(5px);
+    }
+}

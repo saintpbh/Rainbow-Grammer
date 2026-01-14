@@ -1,0 +1,105 @@
+[
+    {
+        "id": "intro_svo",
+        "name": "Tower Construction 101",
+        "targetStructure": [
+            "subject",
+            "verb",
+            "object"
+        ],
+        "pool": [
+            {
+                "text": "I",
+                "type": "subject",
+                "emoji": "🙋"
+            },
+            {
+                "text": "You",
+                "type": "subject",
+                "emoji": "👉"
+            },
+            {
+                "text": "We",
+                "type": "subject",
+                "emoji": "👨‍👩‍👧‍👦"
+            },
+            {
+                "text": "eat",
+                "type": "verb",
+                "emoji": "🍽️"
+            },
+            {
+                "text": "love",
+                "type": "verb",
+                "emoji": "❤️"
+            },
+            {
+                "text": "see",
+                "type": "verb",
+                "emoji": "👀"
+            },
+            {
+                "text": "pizza",
+                "type": "object",
+                "emoji": "🍕"
+            },
+            {
+                "text": "cats",
+                "type": "object",
+                "emoji": "🐱"
+            },
+            {
+                "text": "rainbows",
+                "type": "object",
+                "emoji": "🌈"
+            },
+            {
+                "text": "She",
+                "type": "subject",
+                "emoji": "👩"
+            },
+            {
+                "text": "He",
+                "type": "subject",
+                "emoji": "👨"
+            },
+            {
+                "text": "They",
+                "type": "subject",
+                "emoji": "👥"
+            },
+            {
+                "text": "like",
+                "type": "verb",
+                "emoji": "👍"
+            },
+            {
+                "text": "want",
+                "type": "verb",
+                "emoji": "🙏"
+            },
+            {
+                "text": "make",
+                "type": "verb",
+                "emoji": "🔨"
+            },
+            {
+                "text": "books",
+                "type": "object",
+                "emoji": "📚"
+            },
+            {
+                "text": "games",
+                "type": "object",
+                "emoji": "🎮"
+            },
+            {
+                "text": "cookies",
+                "type": "object",
+                "emoji": "🍪"
+            }
+        ],
+        "spawnRate": 2000,
+        "speed": 1.5
+    }
+]

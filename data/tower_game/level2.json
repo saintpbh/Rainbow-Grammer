@@ -1,0 +1,116 @@
+[
+    {
+        "id": "svoo_level",
+        "name": "Gift Tower Master",
+        "targetStructure": [
+            "subject",
+            "verb",
+            "object1",
+            "object2"
+        ],
+        "pool": [
+            {
+                "text": "I",
+                "type": "subject",
+                "emoji": "🙋"
+            },
+            {
+                "text": "You",
+                "type": "subject",
+                "emoji": "👉"
+            },
+            {
+                "text": "She",
+                "type": "subject",
+                "emoji": "👩"
+            },
+            {
+                "text": "He",
+                "type": "subject",
+                "emoji": "👨"
+            },
+            {
+                "text": "We",
+                "type": "subject",
+                "emoji": "👨‍👩‍👧‍👦"
+            },
+            {
+                "text": "give",
+                "type": "verb",
+                "emoji": "🎁"
+            },
+            {
+                "text": "show",
+                "type": "verb",
+                "emoji": "👀"
+            },
+            {
+                "text": "tell",
+                "type": "verb",
+                "emoji": "💬"
+            },
+            {
+                "text": "send",
+                "type": "verb",
+                "emoji": "📤"
+            },
+            {
+                "text": "teach",
+                "type": "verb",
+                "emoji": "👩‍🏫"
+            },
+            {
+                "text": "me",
+                "type": "object1",
+                "emoji": "🙋‍♂️"
+            },
+            {
+                "text": "you",
+                "type": "object1",
+                "emoji": "👤"
+            },
+            {
+                "text": "him",
+                "type": "object1",
+                "emoji": "👨"
+            },
+            {
+                "text": "her",
+                "type": "object1",
+                "emoji": "👩"
+            },
+            {
+                "text": "them",
+                "type": "object1",
+                "emoji": "👥"
+            },
+            {
+                "text": "flowers",
+                "type": "object2",
+                "emoji": "🌸"
+            },
+            {
+                "text": "pictures",
+                "type": "object2",
+                "emoji": "🖼️"
+            },
+            {
+                "text": "stories",
+                "type": "object2",
+                "emoji": "📖"
+            },
+            {
+                "text": "gifts",
+                "type": "object2",
+                "emoji": "🎁"
+            },
+            {
+                "text": "lessons",
+                "type": "object2",
+                "emoji": "📝"
+            }
+        ],
+        "spawnRate": 1800,
+        "speed": 1.7
+    }
+]
