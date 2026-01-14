@@ -11,6 +11,12 @@
     --shadow-deep: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
+html,
+body {
+    overscroll-behavior: none;
+    height: 100%;
+}
+
 body {
     font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
     background: linear-gradient(135deg, #e0f7fa 0%, #e8e4f6 100%);
@@ -18,11 +24,15 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    min-height: 100vh;
+    min-height: 100dvh;
+    /* Dynamic viewport height to prevent address bar jumps */
     margin: 0;
     padding: 20px;
     padding-top: 40px;
     color: #37474F;
+    overflow-x: hidden;
+    touch-action: manipulation;
+    /* Prevent double-tap zoom, allow scroll only where needed */
 }
 
 #game-container {
@@ -39,6 +49,7 @@ body {
     min-height: 500px;
     display: flex;
     flex-direction: column;
+    overscroll-behavior: contain;
 }
 
 /* --- HUD Area --- */
@@ -399,6 +410,8 @@ body {
     align-items: center;
     padding: 20px;
     transition: all 0.3s;
+    touch-action: none;
+    /* Prevent scrolling when interacting with answers */
 }
 
 .answer-area.correct {
@@ -458,6 +471,8 @@ body {
     box-shadow: 0 4px 0 #CFD8DC, 0 5px 10px rgba(0, 0, 0, 0.1);
     border: 1px solid #ECEFF1;
     min-width: 80px;
+    touch-action: none;
+    /* Prevent scrolling when dragging/tapping word pills */
 }
 
 .word-pill:active {

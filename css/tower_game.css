@@ -4,12 +4,15 @@
 
 #tower-game-container {
     width: 100%;
-    height: 100vh;
+    height: 100dvh;
+    /* Dynamic viewport height */
     background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
     position: relative;
     overflow: hidden;
     font-family: 'Fredoka', sans-serif;
     display: none;
+    touch-action: none;
+    /* Disable all browser touch actions for precise game control */
 }
 
 /* Flowing Starfield - 3 Layers for Parallax Depth */
