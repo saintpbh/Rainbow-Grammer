@@ -13,6 +13,37 @@ export function updatePhase(text) {
     // Phase display removed as per user request
 }
 
+export function updateQuestionDisplay(koreanText, promptText) {
+    const qEl = document.getElementById('question-text');
+    if (qEl) qEl.textContent = koreanText || "";
+
+    const qDisplay = document.getElementById('question-display');
+    if (qDisplay) qDisplay.textContent = promptText || "";
+}
+
+export function updateLevelBadge(text, isPractice) {
+    const badgeEl = document.getElementById('level-btn');
+    if (badgeEl && !isPractice) { // Only update if not practice mode override
+        badgeEl.textContent = text;
+        badgeEl.style.background = '';
+    }
+}
+
+export function updateChiliCount(count) {
+    const el = document.getElementById('chili-count');
+    if (el) el.textContent = `x ${count}`;
+}
+
+export function indicateSuccess() {
+    const slot = document.getElementById('answer-slot');
+    if (slot) slot.classList.add('correct');
+}
+
+export function indicateFailure() {
+    const slot = document.getElementById('answer-slot');
+    if (slot) slot.classList.add('shake');
+}
+
 export function showFloatingScore(points) {
     const container = document.getElementById('float-score-container');
     if (!container) return;

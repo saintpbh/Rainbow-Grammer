@@ -1,13 +1,17 @@
 import { TowerState, resetTowerState } from './state.js';
+import * as UI from './ui.js';
+import { speakText, playSuccessSound, playFailureSound } from '../audio.js';
 
 let animationId;
-let container;
 
 export async function initTowerGame() {
     console.log("Initializing Sentence Tower Game...");
 
-    container = document.getElementById('tower-game-container');
-    if (!container) return; // Should not happen if main.js is correct
+    const container = document.getElementById('tower-game-container');
+    if (!container) return;
+
+    // Initialize UI
+    UI.initTowerUI(container, exitTowerGame);
 
     // Load Data based on current level
     const levelFile = `data/tower_game/level${TowerState.currentLevel}.json`;
@@ -20,61 +24,13 @@ export async function initTowerGame() {
         return;
     }
 
-    // Build UI
-    container.innerHTML = `
-        <button onclick="exitTowerGame()" class="exit-button">✕ EXIT</button>
-        
-        <!-- Energy Bar -->
-        <div id="energy-bar-container">
-            <div class="energy-label">SPACESHIP ENERGY</div>
-            <div id="energy-bar-bg">
-                <div id="energy-bar-fill"></div>
-            </div>
-        </div>
-        
-        <div id="goal-display">
-            FEED: <span id="current-goal" class="needed-part">SUBJECT</span>
-        </div>
-
-        <div id="tower-area">
-            <div id="tower-base">
-                <div class="spaceship-flames"></div>
-            </div>
-            <!-- Stacked blocks go here -->
-        </div>
-        
-        <!-- Nom-Nom Character -->
-        <div id="monster-zone">
-            <div class="speech-bubble" id="monster-speech">Hungry!</div>
-            <div id="nom-nom">
-                <div class="monster-mouth"></div>
-            </div>
-        </div>
-
-        <!-- Falling blocks will be appended to container directly -->
-    `;
-
-    // Add third star layer for parallax
-    const starsNear = document.createElement('div');
-    starsNear.className = 'stars-near';
-    container.appendChild(starsNear);
-
     resetTowerState();
     TowerState.gameActive = true;
     TowerState.lastTime = performance.now();
     TowerState.gameStartTime = performance.now();
 
-    updateEnergyBar(); // Initialize energy bar
-
-    // Initialize audio system for TTS
-    if (window.initAudio) {
-        window.initAudio();
-    }
-
-    // Preload speech synthesis voices
-    if ('speechSynthesis' in window) {
-        window.speechSynthesis.getVoices();
-    }
+    UI.updateEnergyBar(TowerState.energy);
+    UI.updateGoalDisplay(0, TowerState.levelData.targetStructure);
 
     // Start Loop
     animationId = requestAnimationFrame(gameLoop);
@@ -107,87 +63,56 @@ function update(dt) {
         TowerState.spawnTimer = 0;
     }
 
-    // Move Blocks
-    const blocks = document.querySelectorAll('.falling-block');
-    blocks.forEach(el => {
-        let y = parseFloat(el.getAttribute('data-y'));
-        // Each block has its own speed multiplier
-        const blockSpeed = parseFloat(el.getAttribute('data-speed')) || 1;
-        y += (currentSpeed * blockSpeed * (dt / 16));
-        el.style.top = y + 'px';
-        el.setAttribute('data-y', y);
+    // Move Blocks (State-driven)
+    TowerState.fallingBlocks.forEach(block => {
+        block.y += (currentSpeed * block.speedVariation * (dt / 16));
+
+        // Sync Visuals
+        UI.updateBlockPosition(block.element, block.y);
 
         // Cleanup if off screen
-        if (y > window.innerHeight) {
-            el.remove();
+        if (block.y > window.innerHeight) {
+            block.markedForDeletion = true;
         }
     });
 
-    updateGoalDisplay();
+    // Cleanup Deletion Queue
+    TowerState.fallingBlocks = TowerState.fallingBlocks.filter(block => {
+        if (block.markedForDeletion) {
+            UI.removeElement(block.element);
+            return false;
+        }
+        return true;
+    });
 }
 
 function spawnBlock() {
     const pool = TowerState.levelData.pool;
     const item = pool[Math.floor(Math.random() * pool.length)];
 
-    const el = document.createElement('div');
-    el.className = `falling-block type-${item.type}`;
-    el.innerText = `${item.text} ${item.emoji}`;
-
-    // Random X position
     const x = Math.random() * (window.innerWidth - 150) + 25;
-    el.style.left = x + 'px';
     const startY = -60;
-    el.style.top = startY + 'px';
-    el.setAttribute('data-y', startY);
-
-    // Random speed variation (0.7x to 1.3x of base speed)
     const speedVariation = 0.7 + Math.random() * 0.6;
-    el.setAttribute('data-speed', speedVariation);
 
-    // Interaction
-    el.onmousedown = (e) => handleBlockClick(item, el);
-    el.ontouchstart = (e) => { e.preventDefault(); handleBlockClick(item, el); }; // Better mobile support
+    // Create State Object
+    const block = {
+        item: item,
+        x: x,
+        y: startY,
+        speedVariation: speedVariation,
+        element: null, // Filled by UI
+        markedForDeletion: false
+    };
 
-    container.appendChild(el);
+    // Create Visual Element
+    block.element = UI.createBlockElement(item, x, startY, (clickedItem, el) => {
+        handleBlockInteraction(block, clickedItem, el);
+    });
+
+    TowerState.fallingBlocks.push(block);
 }
 
-// Helper to animate monster
-function setMonsterState(state, speech = null) {
-    const monster = document.getElementById('nom-nom');
-    const bubble = document.getElementById('monster-speech');
-    if (!monster) return;
-
-    monster.className = '';
-
-    if (state === 'eating') {
-        monster.classList.add('eating');
-        setTimeout(() => monster.classList.remove('eating'), 500);
-    } else if (state === 'angry') {
-        monster.classList.add('angry');
-        setTimeout(() => monster.classList.remove('angry'), 500);
-    }
-
-    if (speech) {
-        bubble.innerText = speech;
-        bubble.style.opacity = 1;
-    }
-}
-
-// Update energy bar display
-function updateEnergyBar() {
-    const energyFill = document.getElementById('energy-bar-fill');
-    if (energyFill) {
-        energyFill.style.width = TowerState.energy + '%';
-        if (TowerState.energy < 30) {
-            energyFill.classList.add('low');
-        } else {
-            energyFill.classList.remove('low');
-        }
-    }
-}
-
-function handleBlockClick(item, element) {
+function handleBlockInteraction(blockObject, item, element) {
     // Check if this matches the needed part
     const stackLength = TowerState.currentStack.length;
     const neededType = TowerState.levelData.targetStructure[stackLength];
@@ -195,41 +120,46 @@ function handleBlockClick(item, element) {
     if (item.type === neededType) {
         // Correct match!
         addToStack(item);
-        element.remove();
 
-        setMonsterState('eating', "Yum! " + item.text);
+        // Mark for removal from falling list
+        blockObject.markedForDeletion = true; // Loop will clean it up next frame? 
+        // Actually interaction removes imediately usually
+        UI.removeElement(element);
 
-        // Play success sound
-        if (window.playSuccessSound) window.playSuccessSound();
+        // We also need to remove it from `fallingBlocks` array properly to avoid errors if loop runs
+        // Filter will handle markedForDeletion in next update, but we want instant removal visually (done above)
+        // Let's force mark it
+        blockObject.markedForDeletion = true;
 
-        if (window.speakText) window.speakText(item.text);
+        UI.setMonsterState('eating', "Yum! " + item.text);
+        playSuccessSound();
+        speakText(item.text);
 
     } else {
         // Wrong type!
-        element.style.background = '#FF5252';
-        element.style.color = 'white';
+        UI.indicateWrongBlock(element);
 
         // Reduce energy
         TowerState.energy = Math.max(0, TowerState.energy - 10);
-        updateEnergyBar();
+        UI.updateEnergyBar(TowerState.energy);
 
-        setMonsterState('angry', "Yuck! I want " + neededType + "!");
+        UI.setMonsterState('angry', "Yuck! I want " + neededType + "!");
+        playFailureSound();
 
-        // Play failure sound
-        if (window.playFailureSound) window.playFailureSound();
-
-        setTimeout(() => element.remove(), 200);
+        setTimeout(() => {
+            blockObject.markedForDeletion = true;
+            // element removal handled by loop or here? 
+            // Loop handles it if marked, but loop runs on frame.
+            // Let's rely on loop cleanup or explicit remove if we want it gone now.
+            // Previous logic kept it for 200ms then removed.
+        }, 200);
     }
 }
 
 function addToStack(item) {
     TowerState.currentStack.push(item);
-
-    const towerArea = document.getElementById('tower-area');
-    const block = document.createElement('div');
-    block.className = `stacked-block type-${item.type}`;
-    block.innerText = `${item.text} ${item.emoji}`;
-    towerArea.prepend(block); // Visual stack (flex-direction: column-reverse handles visual order)
+    UI.addStackedBlock(item);
+    UI.updateGoalDisplay(TowerState.currentStack.length, TowerState.levelData.targetStructure);
 
     // Check if sentence complete
     if (TowerState.currentStack.length >= TowerState.levelData.targetStructure.length) {
@@ -244,64 +174,27 @@ function handleTowerCompletion() {
     TowerState.sentencesCompleted++;
     TowerState.totalSentences++;
 
-    // Trigger boost animation
-    const container = document.getElementById('tower-game-container');
-    const towerArea = document.getElementById('tower-area');
-
-    towerArea.classList.add('boosting');
-    container.classList.add('boost-mode');
-
-    setMonsterState('eating', "DELICIOUS! 🚀");
-
-    // Play celebration sound
-    if (window.playSuccessSound) window.playSuccessSound();
+    UI.setMonsterState('eating', "DELICIOUS! 🚀");
+    playSuccessSound();
 
     // Speak Full Sentence with TTS
     console.log('🎉 Sentence completed:', sentence);
-    console.log('🔊 Calling TTS for sentence...');
+    speakText(sentence);
 
-    if (window.speakText) {
-        // Ensure voices are loaded before speaking
-        if ('speechSynthesis' in window) {
-            const voices = window.speechSynthesis.getVoices();
-            if (voices.length === 0) {
-                // Wait for voices to load, then speak
-                console.log('⏳ Waiting for voices to load...');
-                window.speechSynthesis.addEventListener('voiceschanged', () => {
-                    console.log('✓ Voices loaded, speaking now');
-                    window.speakText(sentence);
-                }, { once: true });
-            } else {
-                console.log('✓ Voices ready, speaking:', sentence);
-                window.speakText(sentence);
-            }
-        } else {
-            console.log('✓ Using fallback TTS');
-            window.speakText(sentence);
-        }
-    } else {
-        console.error('✗ window.speakText is not available!');
-    }
+    // Trigger boost animation
+    UI.triggerBoostAnimation(() => {
+        // Callback after animation (1s)
 
-    // Boost duration: 1 second with ease-in-out
-    setTimeout(() => {
-        container.classList.remove('boost-mode');
-        towerArea.classList.remove('boosting');
-
-        // Clear tower and reset
-        towerArea.innerHTML = `
-            <div id="tower-base">
-                <div class="spaceship-flames"></div>
-            </div>
-        `;
+        // Reset Visuals
+        UI.clearTower();
 
         // IMPORTANT: Reset stack and update goal display to continue game
         TowerState.currentStack = [];
-        updateGoalDisplay();
+        UI.updateGoalDisplay(0, TowerState.levelData.targetStructure);
 
         // Restore energy on completion
         TowerState.energy = Math.min(100, TowerState.energy + 20);
-        updateEnergyBar();
+        UI.updateEnergyBar(TowerState.energy);
 
         // Check for level progression
         if (TowerState.sentencesCompleted >= TowerState.SENTENCES_PER_LEVEL) {
@@ -309,17 +202,16 @@ function handleTowerCompletion() {
                 // Level up!
                 setTimeout(() => {
                     levelUp();
-                }, 1000);
+                }, 500);
             } else {
                 // Game completed!
-                setMonsterState('eating', "YOU'RE A MASTER! 🏆");
+                UI.setMonsterState('eating', "YOU'RE A MASTER! 🏆");
             }
         } else {
             // Continue with next sentence
-            setMonsterState('eating', `${TowerState.sentencesCompleted}/${TowerState.SENTENCES_PER_LEVEL} Complete! Keep going! 🎯`);
+            UI.setMonsterState('eating', `${TowerState.sentencesCompleted}/${TowerState.SENTENCES_PER_LEVEL} Complete! Keep going! 🎯`);
         }
-
-    }, 1000);
+    });
 }
 
 async function levelUp() {
@@ -330,9 +222,7 @@ async function levelUp() {
 
     // Clear existing blocks
     TowerState.fallingBlocks.forEach(block => {
-        if (block.element && block.element.parentNode) {
-            block.element.remove();
-        }
+        UI.removeElement(block.element);
     });
     TowerState.fallingBlocks = [];
 
@@ -343,28 +233,14 @@ async function levelUp() {
         const data = await res.json();
         TowerState.levelData = data[0];
 
-        setMonsterState('eating', `LEVEL ${TowerState.currentLevel}! 🎉`);
-        updateGoalDisplay();
+        UI.setMonsterState('eating', `LEVEL ${TowerState.currentLevel}! 🎉`);
+        UI.updateGoalDisplay(0, TowerState.levelData.targetStructure);
     } catch (e) {
         console.error("Failed to load level", e);
     }
 }
 
-function updateGoalDisplay() {
-    const goalEl = document.getElementById('current-goal');
-    if (goalEl) {
-        const stackLength = TowerState.currentStack.length;
-        const nextNeeded = TowerState.levelData.targetStructure[stackLength];
-        if (nextNeeded) {
-            goalEl.innerText = nextNeeded.toUpperCase() + ' Needed!';
-            goalEl.className = `needed-part type-${nextNeeded}`;
-        } else {
-            goalEl.innerText = "COMPLETE!";
-        }
-    }
-}
-
-// Window bindings
+// Window bindings (for Main.js compatibility if needed, though Main.js calls initTowerGame)
 window.exitTowerGame = function () {
     TowerState.gameActive = false;
     cancelAnimationFrame(animationId);

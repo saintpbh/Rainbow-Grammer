@@ -1,6 +1,3 @@
-
-import { GameState } from './state.js';
-
 export class Entity {
     constructor(x, y) {
         this.x = x;
@@ -34,8 +31,6 @@ export class Drop extends Entity {
         // Remove if off screen
         if (this.y > window.innerHeight + 50) {
             this.markedForDeletion = true;
-            // TODO: Penalize player
-            GameState.combo = 0;
         }
     }
 
