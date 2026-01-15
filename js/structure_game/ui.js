@@ -290,9 +290,12 @@ export function showWelcomeModal(hasStarted, data) {
                         <strong style="font-size:1.4rem; color:#00E676;">${data.todayScore}</strong>
                     </div>
                 </div>
-                 <div style="margin-bottom: 20px; font-weight:bold; color: #555;">Current Level: ${data.levelIndex + 1}</div>
+                <div style="margin-bottom: 20px; font-weight:bold; color: #555;">Current Level: ${data.levelIndex + 1}</div>
                 <button class="start-btn" onclick="startGame()">Resume Journey ▶</button>
-                <button class="start-btn" style="background:#546E7A; margin-top:10px" onclick="location.reload()">← Back to Lobby</button>
+                <div style="display: flex; gap: 10px; justify-content: center; margin-top: 10px;">
+                     <button class="start-btn" style="background: linear-gradient(135deg, #9C27B0 0%, #7B1FA2 100%); width: auto; padding: 12px 20px; font-size: 0.9rem;" onclick="openPracticeMode()">📚 Practice Mode</button>
+                     <button class="start-btn" style="background:#546E7A; width: auto; padding: 12px 20px; font-size: 0.9rem;" onclick="location.reload()">← Lobby</button>
+                </div>
             </div>
         `;
     } else {
@@ -319,7 +322,10 @@ export function showWelcomeModal(hasStarted, data) {
                 </div>
                 
                 <button class="start-btn" onclick="startGame()">Start Learning 🚀</button>
-                <button class="start-btn" style="background:#546E7A; margin-top:10px" onclick="location.reload()">← Back to Lobby</button>
+                <div style="display: flex; gap: 10px; justify-content: center; margin-top: 10px;">
+                     <button class="start-btn" style="background: linear-gradient(135deg, #9C27B0 0%, #7B1FA2 100%); width: auto; padding: 12px 20px; font-size: 0.9rem;" onclick="openPracticeMode()">📚 Practice Mode</button>
+                     <button class="start-btn" style="background:#546E7A; width: auto; padding: 12px 20px; font-size: 0.9rem;" onclick="location.reload()">← Lobby</button>
+                </div>
             </div>
         `;
     }
@@ -410,11 +416,12 @@ export function showPracticeExitButton(day, onExit) {
     btn.id = 'exit-practice-btn';
     btn.textContent = '← Return to Main';
     btn.style.cssText = `
-        position: fixed; top: 80px; right: 20px;
+        position: fixed; top: 20px; right: 20px;
         background: #424242; color: white;
         border: none; padding: 10px 20px;
         border-radius: 20px; cursor: pointer;
         z-index: 1000; font-weight: 700;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     `;
     btn.onclick = onExit;
     document.body.appendChild(btn);

@@ -673,6 +673,10 @@ body {
     transform: scale(0.95);
 }
 
+.test-audio-btn {
+    display: none !important;
+}
+
 /* iPhone Optimization - Main Game UI Elements */
 @media screen and (max-width: 430px) {
     body {
