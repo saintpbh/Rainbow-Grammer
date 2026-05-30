@@ -3,1891 +3,4342 @@
     {
       "id": "3-15-1",
       "section": "Day 15",
-      "description": "Core Lesson",
-      "question": "What is I doing right now?",
-      "korean": "나는 지금 먹고 있다.",
-      "english": "I am eating now.",
+      "description": "Irregular Common",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
       "chunks": [
         {
-          "text": "I",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "am eating",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "now",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": {
-        "title": "Core Lesson",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00"
-          },
-          {
-            "text": "Adverb",
-            "color": "#BA68C8"
-          }
-        ]
-      }
+      "context": "Irregular Common",
+      "question": "What do a do?"
     },
     {
       "id": "3-15-2",
       "section": "Day 15",
-      "description": "Core Lesson",
-      "question": "Situation: Give me a command.",
-      "korean": "그녀는 자고 있다.",
-      "english": "She is sleeping.",
+      "description": "Irregular Common",
+      "korean": "특별한 작업이 그는에 의해 완료되었다.",
+      "english": "A special task has been completed by he.",
       "chunks": [
         {
-          "text": "She",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "is sleeping",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by he.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Irregular Common",
+      "question": "What do a do?"
     },
     {
       "id": "3-15-3",
       "section": "Day 15",
-      "description": "Core Lesson",
-      "question": "What is He doing right now?",
-      "korean": "그는 열심히 일하고 있다.",
-      "english": "He is working hard.",
+      "description": "Irregular Common",
+      "korean": "특별한 작업이 그녀는에 의해 완료되었다.",
+      "english": "A special task has been completed by she.",
       "chunks": [
         {
-          "text": "He",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "is working",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "hard",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by she.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Irregular Common",
+      "question": "What do a do?"
     },
     {
       "id": "3-15-4",
       "section": "Day 15",
-      "description": "Core Lesson",
-      "question": "What is We doing right now?",
-      "korean": "우리는 게임을 하고 있다.",
-      "english": "We are playing games.",
+      "description": "Irregular Common",
+      "korean": "특별한 작업이 우리는에 의해 완료되었다.",
+      "english": "A special task has been completed by we.",
       "chunks": [
         {
-          "text": "We",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "are playing",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "games",
+          "text": "been completed",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "by we.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Irregular Common",
+      "question": "What do a do?"
     },
     {
       "id": "3-15-5",
       "section": "Day 15",
-      "description": "Core Lesson",
-      "question": "What is They doing right now?",
-      "korean": "그들은 TV를 보고 있다.",
-      "english": "They are watching TV.",
+      "description": "Irregular Common",
+      "korean": "특별한 작업이 그들은에 의해 완료되었다.",
+      "english": "A special task has been completed by they.",
       "chunks": [
         {
-          "text": "They",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "are watching",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "TV",
+          "text": "been completed",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "by they.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Irregular Common",
+      "question": "What do a do?"
     },
     {
       "id": "3-15-6",
       "section": "Day 15",
-      "description": "Core Lesson",
-      "question": "What is It doing right now?",
-      "korean": "밖에 비가 오고 있다.",
-      "english": "It is raining outside.",
+      "description": "Irregular Common",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
       "chunks": [
         {
-          "text": "It",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "is raining",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "outside",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Irregular Common",
+      "question": "What do a do?"
     },
     {
       "id": "3-15-7",
       "section": "Day 15",
-      "description": "Core Lesson",
-      "question": "Situation: You are curious. Ask me.",
-      "korean": "듣고 있니?",
-      "english": "Are you listening?",
+      "description": "Irregular Common",
+      "korean": "특별한 작업이 너는에 의해 완료되었다.",
+      "english": "A special task has been completed by you.",
       "chunks": [
         {
-          "text": "Are you listening",
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by you.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Irregular Common",
+      "question": "What do a do?"
     },
     {
       "id": "3-15-8",
       "section": "Day 15",
-      "description": "Core Lesson",
-      "question": "Situation: Give me a command.",
-      "korean": "농담하는 거 아냐.",
-      "english": "I am not joking.",
+      "description": "Irregular Common",
+      "korean": "특별한 작업이 그는에 의해 완료되었다.",
+      "english": "A special task has been completed by he.",
       "chunks": [
         {
-          "text": "I",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "am not joking",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by he.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Irregular Common",
+      "question": "What do a do?"
     },
     {
       "id": "3-15-9",
       "section": "Day 15",
-      "description": "Core Lesson",
-      "question": "Situation: You are curious. Ask me.",
-      "korean": "누가 전화하는 거야?",
-      "english": "Who is calling?",
+      "description": "Irregular Common",
+      "korean": "특별한 작업이 그녀는에 의해 완료되었다.",
+      "english": "A special task has been completed by she.",
       "chunks": [
         {
-          "text": "Who",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "is calling",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by she.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Irregular Common",
+      "question": "What do a do?"
     },
     {
       "id": "3-15-10",
       "section": "Day 15",
-      "description": "Core Lesson",
-      "question": "Situation: You are curious. Ask me.",
-      "korean": "왜 울고 있니?",
-      "english": "Why are you crying?",
+      "description": "Irregular Common",
+      "korean": "특별한 작업이 우리는에 의해 완료되었다.",
+      "english": "A special task has been completed by we.",
       "chunks": [
         {
-          "text": "Why",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "are you crying",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by we.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Irregular Common",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-15-11",
+      "section": "Day 15",
+      "description": "Irregular Common",
+      "korean": "특별한 작업이 그들은에 의해 완료되었다.",
+      "english": "A special task has been completed by they.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by they.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Common",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-15-12",
+      "section": "Day 15",
+      "description": "Irregular Common",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Common",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-15-13",
+      "section": "Day 15",
+      "description": "Irregular Common",
+      "korean": "특별한 작업이 그는에 의해 완료되었다.",
+      "english": "A special task has been completed by he.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by he.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Common",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-15-14",
+      "section": "Day 15",
+      "description": "Irregular Common",
+      "korean": "특별한 작업이 그녀는에 의해 완료되었다.",
+      "english": "A special task has been completed by she.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by she.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Common",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-15-15",
+      "section": "Day 15",
+      "description": "Irregular Common",
+      "korean": "특별한 작업이 우리는에 의해 완료되었다.",
+      "english": "A special task has been completed by we.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by we.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Common",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-15-16",
+      "section": "Day 15",
+      "description": "Irregular Common",
+      "korean": "특별한 작업이 어디에에 의해 완료되었다.",
+      "english": "A special task has been completed by where.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by where.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Common",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-15-17",
+      "section": "Day 15",
+      "description": "Irregular Common",
+      "korean": "특별한 작업이 무엇을에 의해 완료되었다.",
+      "english": "A special task has been completed by what.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by what.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Common",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-15-18",
+      "section": "Day 15",
+      "description": "Irregular Common",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Common",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-15-19",
+      "section": "Day 15",
+      "description": "Irregular Common",
+      "korean": "특별한 작업이 그들이에 의해 완료되었다.",
+      "english": "A special task has been completed by did.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by did.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Common",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-15-20",
+      "section": "Day 15",
+      "description": "Irregular Common",
+      "korean": "특별한 작업이 누가에 의해 완료되었다.",
+      "english": "A special task has been completed by who.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by who.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Common",
+      "question": "What do a do?"
     },
     {
       "id": "3-16-1",
       "section": "Day 16",
-      "description": "Core Lesson",
-      "question": "Tell me about I.",
-      "korean": "나는 책을 읽고 있었다.",
-      "english": "I was reading a book.",
+      "description": "Irregular Speech",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
       "chunks": [
         {
-          "text": "I",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "was reading",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "a book",
+          "text": "been completed",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": {
-        "title": "Core Lesson",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00"
-          },
-          {
-            "text": "Object",
-            "color": "#FFD700"
-          }
-        ]
-      }
+      "context": "Irregular Speech",
+      "question": "What do a do?"
     },
     {
       "id": "3-16-2",
       "section": "Day 16",
-      "description": "Core Lesson",
-      "question": "What happened yesterday?",
-      "korean": "그녀는 저녁을 요리하고 있었다.",
-      "english": "She was cooking dinner.",
+      "description": "Irregular Speech",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
       "chunks": [
         {
-          "text": "She",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "was cooking",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "dinner",
+          "text": "been completed",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Irregular Speech",
+      "question": "What do a do?"
     },
     {
       "id": "3-16-3",
       "section": "Day 16",
-      "description": "Core Lesson",
-      "question": "What happened yesterday?",
-      "korean": "그는 그때 자고 있었다.",
-      "english": "He was sleeping then.",
+      "description": "Irregular Speech",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
       "chunks": [
         {
-          "text": "He",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "was sleeping",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "then",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Irregular Speech",
+      "question": "What do a do?"
     },
     {
       "id": "3-16-4",
       "section": "Day 16",
-      "description": "Core Lesson",
-      "question": "What happened yesterday?",
-      "korean": "우리는 집으로 걸어가고 있었다.",
-      "english": "We were walking home.",
+      "description": "Irregular Speech",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
       "chunks": [
         {
-          "text": "We",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "were walking",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "home",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Irregular Speech",
+      "question": "What do a do?"
     },
     {
       "id": "3-16-5",
       "section": "Day 16",
-      "description": "Core Lesson",
-      "question": "What happened yesterday?",
-      "korean": "그들은 크게 말하고 있었다.",
-      "english": "They were talking loudly.",
+      "description": "Irregular Speech",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
       "chunks": [
         {
-          "text": "They",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "were talking",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "loudly",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Irregular Speech",
+      "question": "What do a do?"
     },
     {
       "id": "3-16-6",
       "section": "Day 16",
-      "description": "Core Lesson",
-      "question": "What happened yesterday?",
-      "korean": "밤새 눈이 내리고 있었다.",
-      "english": "It was snowing all night.",
+      "description": "Irregular Speech",
+      "korean": "특별한 작업이 그는에 의해 완료되었다.",
+      "english": "A special task has been completed by he.",
       "chunks": [
         {
-          "text": "It",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "was snowing",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "all night",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by he.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Irregular Speech",
+      "question": "What do a do?"
     },
     {
       "id": "3-16-7",
       "section": "Day 16",
-      "description": "Core Lesson",
-      "question": "What happened yesterday?",
-      "korean": "자고 있었니?",
-      "english": "Were you sleeping?",
+      "description": "Irregular Speech",
+      "korean": "특별한 작업이 그녀는에 의해 완료되었다.",
+      "english": "A special task has been completed by she.",
       "chunks": [
         {
-          "text": "Were you sleeping",
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by she.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Irregular Speech",
+      "question": "What do a do?"
     },
     {
       "id": "3-16-8",
       "section": "Day 16",
-      "description": "Core Lesson",
-      "question": "What happened yesterday?",
-      "korean": "나는 그것을 하고 있지 않았다.",
-      "english": "I wasn't doing it.",
+      "description": "Irregular Speech",
+      "korean": "특별한 작업이 우리는에 의해 완료되었다.",
+      "english": "A special task has been completed by we.",
       "chunks": [
         {
-          "text": "I",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "wasn't doing",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "it",
+          "text": "been completed",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "by we.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Irregular Speech",
+      "question": "What do a do?"
     },
     {
       "id": "3-16-9",
       "section": "Day 16",
-      "description": "Core Lesson",
-      "question": "What happened yesterday?",
-      "korean": "너 뭐 하고 있었니?",
-      "english": "What were you doing?",
+      "description": "Irregular Speech",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
       "chunks": [
         {
-          "text": "What",
-          "role": "Object",
-          "color": "#FFD700"
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "were you doing",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Irregular Speech",
+      "question": "What do a do?"
     },
     {
       "id": "3-16-10",
       "section": "Day 16",
-      "description": "Core Lesson",
-      "question": "What happened yesterday?",
-      "korean": "누가 노래하고 있었니?",
-      "english": "Who was singing?",
+      "description": "Irregular Speech",
+      "korean": "특별한 작업이 그들은에 의해 완료되었다.",
+      "english": "A special task has been completed by they.",
       "chunks": [
         {
-          "text": "Who",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "was singing",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by they.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Irregular Speech",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-16-11",
+      "section": "Day 16",
+      "description": "Irregular Speech",
+      "korean": "특별한 작업이 난에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Speech",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-16-12",
+      "section": "Day 16",
+      "description": "Irregular Speech",
+      "korean": "특별한 작업이 너는에 의해 완료되었다.",
+      "english": "A special task has been completed by you.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by you.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Speech",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-16-13",
+      "section": "Day 16",
+      "description": "Irregular Speech",
+      "korean": "특별한 작업이 그는에 의해 완료되었다.",
+      "english": "A special task has been completed by he.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by he.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Speech",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-16-14",
+      "section": "Day 16",
+      "description": "Irregular Speech",
+      "korean": "특별한 작업이 그녀는에 의해 완료되었다.",
+      "english": "A special task has been completed by she.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by she.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Speech",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-16-15",
+      "section": "Day 16",
+      "description": "Irregular Speech",
+      "korean": "특별한 작업이 우리는에 의해 완료되었다.",
+      "english": "A special task has been completed by we.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by we.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Speech",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-16-16",
+      "section": "Day 16",
+      "description": "Irregular Speech",
+      "korean": "특별한 작업이 너에 의해 완료되었다.",
+      "english": "A special task has been completed by did.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by did.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Speech",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-16-17",
+      "section": "Day 16",
+      "description": "Irregular Speech",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Speech",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-16-18",
+      "section": "Day 16",
+      "description": "Irregular Speech",
+      "korean": "특별한 작업이 누가에 의해 완료되었다.",
+      "english": "A special task has been completed by who.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by who.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Speech",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-16-19",
+      "section": "Day 16",
+      "description": "Irregular Speech",
+      "korean": "특별한 작업이 hear할에 의해 완료되었다.",
+      "english": "A special task has been completed by could.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by could.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Speech",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-16-20",
+      "section": "Day 16",
+      "description": "Irregular Speech",
+      "korean": "특별한 작업이 지금에 의해 완료되었다.",
+      "english": "A special task has been completed by read.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by read.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Speech",
+      "question": "What did she read?"
     },
     {
       "id": "3-17-1",
       "section": "Day 17",
-      "description": "Core Lesson",
-      "question": "What happened yesterday?",
-      "korean": "나는 일을 다 끝냈다.",
-      "english": "I have finished my work.",
+      "description": "Irregular Mental",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
       "chunks": [
         {
-          "text": "I",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "have finished",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "my work",
+          "text": "been completed",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": {
-        "title": "Core Lesson",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00"
-          },
-          {
-            "text": "Object",
-            "color": "#FFD700"
-          }
-        ]
-      }
+      "context": "Irregular Mental",
+      "question": "What do a do?"
     },
     {
       "id": "3-17-2",
       "section": "Day 17",
-      "description": "Core Lesson",
-      "question": "What happened yesterday?",
-      "korean": "그녀는 방금 도착했다.",
-      "english": "She has arrived just now.",
+      "description": "Irregular Mental",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
       "chunks": [
         {
-          "text": "She",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "has arrived",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "just now",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Irregular Mental",
+      "question": "What do a do?"
     },
     {
       "id": "3-17-3",
       "section": "Day 17",
-      "description": "Core Lesson",
-      "question": "Situation: Give me a command.",
-      "korean": "그는 열쇠를 잃어버렸다.",
-      "english": "He has lost his keys.",
+      "description": "Irregular Mental",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
       "chunks": [
         {
-          "text": "He",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "has lost",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "his keys",
+          "text": "been completed",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Irregular Mental",
+      "question": "What do a do?"
     },
     {
       "id": "3-17-4",
       "section": "Day 17",
-      "description": "Core Lesson",
-      "question": "Situation: Give me a command.",
-      "korean": "우리는 저 영화를 본 적이 있다.",
-      "english": "We have seen that movie.",
+      "description": "Irregular Mental",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
       "chunks": [
         {
-          "text": "We",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "have seen",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "that movie",
+          "text": "been completed",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Irregular Mental",
+      "question": "What do a do?"
     },
     {
       "id": "3-17-5",
       "section": "Day 17",
-      "description": "Core Lesson",
-      "question": "What happened yesterday?",
-      "korean": "그들은 여기서 10년 살았다.",
-      "english": "They have lived here for 10 years.",
+      "description": "Irregular Mental",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
       "chunks": [
         {
-          "text": "They",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "have lived",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "here",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
         },
         {
-          "text": "for 10 years",
+          "text": "by i.",
           "role": "Modifier",
-          "color": "#B0BEC5"
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Irregular Mental",
+      "question": "What do a do?"
     },
     {
       "id": "3-17-6",
       "section": "Day 17",
-      "description": "Core Lesson",
-      "question": "Situation: You are curious. Ask me.",
-      "korean": "점심 먹었니?",
-      "english": "Have you eaten lunch?",
+      "description": "Irregular Mental",
+      "korean": "특별한 작업이 그는에 의해 완료되었다.",
+      "english": "A special task has been completed by he.",
       "chunks": [
         {
-          "text": "Have you eaten",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "lunch",
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "by he.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Irregular Mental",
+      "question": "What do a do?"
     },
     {
       "id": "3-17-7",
       "section": "Day 17",
-      "description": "Core Lesson",
-      "question": "Situation: Give me a command.",
-      "korean": "나는 거기에 가본 적이 없다.",
-      "english": "I have never been there.",
+      "description": "Irregular Mental",
+      "korean": "특별한 작업이 그녀는에 의해 완료되었다.",
+      "english": "A special task has been completed by she.",
       "chunks": [
         {
-          "text": "I",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "have never been",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "there",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by she.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Irregular Mental",
+      "question": "What do a do?"
     },
     {
       "id": "3-17-8",
       "section": "Day 17",
-      "description": "Core Lesson",
-      "question": "What happened yesterday?",
-      "korean": "그녀는 아직 전화하지 않았다.",
-      "english": "She has not called yet.",
+      "description": "Irregular Mental",
+      "korean": "특별한 작업이 우리는에 의해 완료되었다.",
+      "english": "A special task has been completed by we.",
       "chunks": [
         {
-          "text": "She",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "has not called",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "yet",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by we.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Irregular Mental",
+      "question": "What do a do?"
     },
     {
       "id": "3-17-9",
       "section": "Day 17",
-      "description": "Core Lesson",
-      "question": "Situation: You are curious. Ask me.",
-      "korean": "어떻게 지냈니?",
-      "english": "How have you been?",
+      "description": "Irregular Mental",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
       "chunks": [
         {
-          "text": "How",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "have you been",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Irregular Mental",
+      "question": "What do a do?"
     },
     {
       "id": "3-17-10",
       "section": "Day 17",
-      "description": "Core Lesson",
-      "question": "What happened yesterday?",
-      "korean": "그는 많이 변했다.",
-      "english": "He has changed a lot.",
+      "description": "Irregular Mental",
+      "korean": "특별한 작업이 그들은에 의해 완료되었다.",
+      "english": "A special task has been completed by they.",
       "chunks": [
         {
-          "text": "He",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "has changed",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "a lot",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by they.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Irregular Mental",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-17-11",
+      "section": "Day 17",
+      "description": "Irregular Mental",
+      "korean": "특별한 작업이 난에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Mental",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-17-12",
+      "section": "Day 17",
+      "description": "Irregular Mental",
+      "korean": "특별한 작업이 너는에 의해 완료되었다.",
+      "english": "A special task has been completed by you.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by you.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Mental",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-17-13",
+      "section": "Day 17",
+      "description": "Irregular Mental",
+      "korean": "특별한 작업이 그는에 의해 완료되었다.",
+      "english": "A special task has been completed by he.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by he.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Mental",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-17-14",
+      "section": "Day 17",
+      "description": "Irregular Mental",
+      "korean": "특별한 작업이 그녀는에 의해 완료되었다.",
+      "english": "A special task has been completed by she.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by she.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Mental",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-17-15",
+      "section": "Day 17",
+      "description": "Irregular Mental",
+      "korean": "특별한 작업이 우리는에 의해 완료되었다.",
+      "english": "A special task has been completed by we.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by we.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Mental",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-17-16",
+      "section": "Day 17",
+      "description": "Irregular Mental",
+      "korean": "특별한 작업이 너에 의해 완료되었다.",
+      "english": "A special task has been completed by did.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by did.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Mental",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-17-17",
+      "section": "Day 17",
+      "description": "Irregular Mental",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Mental",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-17-18",
+      "section": "Day 17",
+      "description": "Irregular Mental",
+      "korean": "특별한 작업이 누가에 의해 완료되었다.",
+      "english": "A special task has been completed by who.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by who.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Mental",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-17-19",
+      "section": "Day 17",
+      "description": "Irregular Mental",
+      "korean": "특별한 작업이 find할에 의해 완료되었다.",
+      "english": "A special task has been completed by could.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by could.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Mental",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-17-20",
+      "section": "Day 17",
+      "description": "Irregular Mental",
+      "korean": "특별한 작업이 지금에 의해 완료되었다.",
+      "english": "A special task has been completed by met.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by met.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Mental",
+      "question": "What do a do?"
     },
     {
       "id": "3-18-1",
       "section": "Day 18",
-      "description": "Core Lesson",
-      "question": "Situation: Give me a command.",
-      "korean": "너를 계속 기다리고 있었다.",
-      "english": "I have been waiting for you.",
+      "description": "Irregular Action",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
       "chunks": [
         {
-          "text": "I",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "have been waiting",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "for you",
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
           "role": "Modifier",
-          "color": "#B0BEC5"
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": {
-        "title": "Core Lesson",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5"
-          }
-        ]
-      }
+      "context": "Irregular Action",
+      "question": "What do a do?"
     },
     {
       "id": "3-18-2",
       "section": "Day 18",
-      "description": "Core Lesson",
-      "question": "Situation: Give me a command.",
-      "korean": "그녀는 하루 종일 공부하고 있다.",
-      "english": "She has been studying all day.",
+      "description": "Irregular Action",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
       "chunks": [
         {
-          "text": "She",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "has been studying",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "all day",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Irregular Action",
+      "question": "What do a do?"
     },
     {
       "id": "3-18-3",
       "section": "Day 18",
-      "description": "Core Lesson",
-      "question": "Situation: Give me a command.",
-      "korean": "아침부터 비가 계속 오고 있다.",
-      "english": "It has been raining since morning.",
+      "description": "Irregular Action",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
       "chunks": [
         {
-          "text": "It",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "has been raining",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "since morning",
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
           "role": "Modifier",
-          "color": "#B0BEC5"
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Irregular Action",
+      "question": "What do a do?"
     },
     {
       "id": "3-18-4",
       "section": "Day 18",
-      "description": "Core Lesson",
-      "question": "Situation: Give me a command.",
-      "korean": "우리는 열심히 일해오고 있다.",
-      "english": "We have been working hard.",
+      "description": "Irregular Action",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
       "chunks": [
         {
-          "text": "We",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "have been working",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "hard",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Irregular Action",
+      "question": "What do a do?"
     },
     {
       "id": "3-18-5",
       "section": "Day 18",
-      "description": "Core Lesson",
-      "question": "Situation: Give me a command.",
-      "korean": "그는 12시간째 자고 있다.",
-      "english": "He has been sleeping for 12 hours.",
+      "description": "Irregular Action",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
       "chunks": [
         {
-          "text": "He",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "has been sleeping",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "for 12 hours",
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
           "role": "Modifier",
-          "color": "#B0BEC5"
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Irregular Action",
+      "question": "What do a do?"
     },
     {
       "id": "3-18-6",
       "section": "Day 18",
-      "description": "Core Lesson",
-      "question": "Situation: Give me a command.",
-      "korean": "그들은 계속 달리고 있다.",
-      "english": "They have been running.",
+      "description": "Irregular Action",
+      "korean": "특별한 작업이 그는에 의해 완료되었다.",
+      "english": "A special task has been completed by he.",
       "chunks": [
         {
-          "text": "They",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "have been running",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by he.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Irregular Action",
+      "question": "What do a do?"
     },
     {
       "id": "3-18-7",
       "section": "Day 18",
-      "description": "Core Lesson",
-      "question": "Situation: You are curious. Ask me.",
-      "korean": "여기 얼마나 오래 있었니?",
-      "english": "How long have you been here?",
+      "description": "Irregular Action",
+      "korean": "특별한 작업이 그녀는에 의해 완료되었다.",
+      "english": "A special task has been completed by she.",
       "chunks": [
         {
-          "text": "How long",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "have you been",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "here",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by she.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Irregular Action",
+      "question": "What do a do?"
     },
     {
       "id": "3-18-8",
       "section": "Day 18",
-      "description": "Core Lesson",
-      "question": "Situation: Give me a command.",
-      "korean": "나는 컨디션이 계속 좋지 않았다.",
-      "english": "I haven't been feeling well.",
+      "description": "Irregular Action",
+      "korean": "특별한 작업이 우리는에 의해 완료되었다.",
+      "english": "A special task has been completed by we.",
       "chunks": [
         {
-          "text": "I",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "haven't been feeling",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "well",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by we.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Irregular Action",
+      "question": "What do a do?"
     },
     {
       "id": "3-18-9",
       "section": "Day 18",
-      "description": "Core Lesson",
-      "question": "Situation: You are curious. Ask me.",
-      "korean": "너 뭐 하고 지냈니?",
-      "english": "What have you been doing?",
+      "description": "Irregular Action",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
       "chunks": [
         {
-          "text": "What",
-          "role": "Object",
-          "color": "#FFD700"
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "have you been doing",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Irregular Action",
+      "question": "What do a do?"
     },
     {
       "id": "3-18-10",
       "section": "Day 18",
-      "description": "Core Lesson",
-      "question": "Situation: Give me a command.",
-      "korean": "그녀는 계속 울고 있었다.",
-      "english": "She has been crying.",
+      "description": "Irregular Action",
+      "korean": "특별한 작업이 그들은에 의해 완료되었다.",
+      "english": "A special task has been completed by they.",
       "chunks": [
         {
-          "text": "She",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "has been crying",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by they.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Irregular Action",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-18-11",
+      "section": "Day 18",
+      "description": "Irregular Action",
+      "korean": "특별한 작업이 난에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Action",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-18-12",
+      "section": "Day 18",
+      "description": "Irregular Action",
+      "korean": "특별한 작업이 너는에 의해 완료되었다.",
+      "english": "A special task has been completed by you.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by you.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Action",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-18-13",
+      "section": "Day 18",
+      "description": "Irregular Action",
+      "korean": "특별한 작업이 그는에 의해 완료되었다.",
+      "english": "A special task has been completed by he.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by he.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Action",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-18-14",
+      "section": "Day 18",
+      "description": "Irregular Action",
+      "korean": "특별한 작업이 그녀는에 의해 완료되었다.",
+      "english": "A special task has been completed by she.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by she.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Action",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-18-15",
+      "section": "Day 18",
+      "description": "Irregular Action",
+      "korean": "특별한 작업이 우리는에 의해 완료되었다.",
+      "english": "A special task has been completed by we.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by we.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Action",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-18-16",
+      "section": "Day 18",
+      "description": "Irregular Action",
+      "korean": "특별한 작업이 너에 의해 완료되었다.",
+      "english": "A special task has been completed by did.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by did.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Action",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-18-17",
+      "section": "Day 18",
+      "description": "Irregular Action",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Action",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-18-18",
+      "section": "Day 18",
+      "description": "Irregular Action",
+      "korean": "특별한 작업이 누가에 의해 완료되었다.",
+      "english": "A special task has been completed by who.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by who.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Action",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-18-19",
+      "section": "Day 18",
+      "description": "Irregular Action",
+      "korean": "특별한 작업이 drive할에 의해 완료되었다.",
+      "english": "A special task has been completed by could.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by could.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Action",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-18-20",
+      "section": "Day 18",
+      "description": "Irregular Action",
+      "korean": "특별한 작업이 지금에 의해 완료되었다.",
+      "english": "A special task has been completed by rode.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by rode.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Action",
+      "question": "What do a do?"
     },
     {
       "id": "3-19-1",
       "section": "Day 19",
-      "description": "Review",
-      "question": "Situation: You are curious. Ask me.",
-      "korean": "너 뭐 하고 지냈니?",
-      "english": "What have you been doing?",
+      "description": "Irregular Acq",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
       "chunks": [
         {
-          "text": "What",
-          "role": "Object",
-          "color": "#FFD700"
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "have you been doing",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": {
-        "title": "Review",
-        "structure": [
-          {
-            "text": "Object",
-            "color": "#FFD700"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00"
-          }
-        ]
-      }
+      "context": "Irregular Acq",
+      "question": "What do a do?"
     },
     {
       "id": "3-19-2",
       "section": "Day 19",
-      "description": "Review",
-      "question": "What happened yesterday?",
-      "korean": "너 뭐 하고 있었니?",
-      "english": "What were you doing?",
+      "description": "Irregular Acq",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
       "chunks": [
         {
-          "text": "What",
-          "role": "Object",
-          "color": "#FFD700"
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "were you doing",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Irregular Acq",
+      "question": "What do a do?"
     },
     {
       "id": "3-19-3",
       "section": "Day 19",
-      "description": "Review",
-      "question": "Situation: Give me a command.",
-      "korean": "나는 거기에 가본 적이 없다.",
-      "english": "I have never been there.",
+      "description": "Irregular Acq",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
       "chunks": [
         {
-          "text": "I",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "have never been",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "there",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Irregular Acq",
+      "question": "What do a do?"
     },
     {
       "id": "3-19-4",
       "section": "Day 19",
-      "description": "Review",
-      "question": "Situation: Give me a command.",
-      "korean": "너를 계속 기다리고 있었다.",
-      "english": "I have been waiting for you.",
+      "description": "Irregular Acq",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
       "chunks": [
         {
-          "text": "I",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "have been waiting",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "for you",
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
           "role": "Modifier",
-          "color": "#B0BEC5"
+          "color": "#2979FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Irregular Acq",
+      "question": "What do a do?"
     },
     {
       "id": "3-19-5",
       "section": "Day 19",
-      "description": "Review",
-      "question": "What is We doing right now?",
-      "korean": "우리는 게임을 하고 있다.",
-      "english": "We are playing games.",
+      "description": "Irregular Acq",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
       "chunks": [
         {
-          "text": "We",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "are playing",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "games",
+          "text": "been completed",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Irregular Acq",
+      "question": "What do a do?"
     },
     {
       "id": "3-19-6",
       "section": "Day 19",
-      "description": "Review",
-      "question": "What happened yesterday?",
-      "korean": "그녀는 아직 전화하지 않았다.",
-      "english": "She has not called yet.",
+      "description": "Irregular Acq",
+      "korean": "특별한 작업이 그는에 의해 완료되었다.",
+      "english": "A special task has been completed by he.",
       "chunks": [
         {
-          "text": "She",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "has not called",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "yet",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by he.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Irregular Acq",
+      "question": "What do a do?"
     },
     {
       "id": "3-19-7",
       "section": "Day 19",
-      "description": "Review",
-      "question": "What happened yesterday?",
-      "korean": "밤새 눈이 내리고 있었다.",
-      "english": "It was snowing all night.",
+      "description": "Irregular Acq",
+      "korean": "특별한 작업이 그녀는에 의해 완료되었다.",
+      "english": "A special task has been completed by she.",
       "chunks": [
         {
-          "text": "It",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "was snowing",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "all night",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by she.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Irregular Acq",
+      "question": "What do a do?"
     },
     {
       "id": "3-19-8",
       "section": "Day 19",
-      "description": "Review",
-      "question": "What happened yesterday?",
-      "korean": "그녀는 방금 도착했다.",
-      "english": "She has arrived just now.",
+      "description": "Irregular Acq",
+      "korean": "특별한 작업이 우리는에 의해 완료되었다.",
+      "english": "A special task has been completed by we.",
       "chunks": [
         {
-          "text": "She",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "has arrived",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "just now",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by we.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Irregular Acq",
+      "question": "What do a do?"
     },
     {
       "id": "3-19-9",
       "section": "Day 19",
-      "description": "Review",
-      "question": "Situation: Give me a command.",
-      "korean": "농담하는 거 아냐.",
-      "english": "I am not joking.",
+      "description": "Irregular Acq",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
       "chunks": [
         {
-          "text": "I",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "am not joking",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Irregular Acq",
+      "question": "What do a do?"
     },
     {
       "id": "3-19-10",
       "section": "Day 19",
-      "description": "Review",
-      "question": "What happened yesterday?",
-      "korean": "그들은 여기서 10년 살았다.",
-      "english": "They have lived here for 10 years.",
+      "description": "Irregular Acq",
+      "korean": "특별한 작업이 그들은에 의해 완료되었다.",
+      "english": "A special task has been completed by they.",
       "chunks": [
         {
-          "text": "They",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "have lived",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "here",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
         },
         {
-          "text": "for 10 years",
+          "text": "by they.",
           "role": "Modifier",
-          "color": "#B0BEC5"
+          "color": "#2979FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Irregular Acq",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-19-11",
+      "section": "Day 19",
+      "description": "Irregular Acq",
+      "korean": "특별한 작업이 난에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Acq",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-19-12",
+      "section": "Day 19",
+      "description": "Irregular Acq",
+      "korean": "특별한 작업이 너는에 의해 완료되었다.",
+      "english": "A special task has been completed by you.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by you.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Acq",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-19-13",
+      "section": "Day 19",
+      "description": "Irregular Acq",
+      "korean": "특별한 작업이 그는에 의해 완료되었다.",
+      "english": "A special task has been completed by he.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by he.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Acq",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-19-14",
+      "section": "Day 19",
+      "description": "Irregular Acq",
+      "korean": "특별한 작업이 그녀는에 의해 완료되었다.",
+      "english": "A special task has been completed by she.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by she.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Acq",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-19-15",
+      "section": "Day 19",
+      "description": "Irregular Acq",
+      "korean": "특별한 작업이 우리는에 의해 완료되었다.",
+      "english": "A special task has been completed by we.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by we.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Acq",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-19-16",
+      "section": "Day 19",
+      "description": "Irregular Acq",
+      "korean": "특별한 작업이 너에 의해 완료되었다.",
+      "english": "A special task has been completed by did.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by did.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Acq",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-19-17",
+      "section": "Day 19",
+      "description": "Irregular Acq",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Acq",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-19-18",
+      "section": "Day 19",
+      "description": "Irregular Acq",
+      "korean": "특별한 작업이 누가에 의해 완료되었다.",
+      "english": "A special task has been completed by who.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by who.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Acq",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-19-19",
+      "section": "Day 19",
+      "description": "Irregular Acq",
+      "korean": "특별한 작업이 take할에 의해 완료되었다.",
+      "english": "A special task has been completed by could.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by could.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Acq",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-19-20",
+      "section": "Day 19",
+      "description": "Irregular Acq",
+      "korean": "특별한 작업이 지금에 의해 완료되었다.",
+      "english": "A special task has been completed by brought.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by brought.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Irregular Acq",
+      "question": "What do a do?"
     },
     {
       "id": "3-20-1",
       "section": "Day 20",
-      "description": "Review",
-      "question": "Situation: Give me a command.",
-      "korean": "그들은 계속 달리고 있다.",
-      "english": "They have been running.",
+      "description": "Was/Were",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
       "chunks": [
         {
-          "text": "They",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "have been running",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": {
-        "title": "Review",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00"
-          }
-        ]
-      }
+      "context": "Was/Were",
+      "question": "What do a do?"
     },
     {
       "id": "3-20-2",
       "section": "Day 20",
-      "description": "Review",
-      "question": "Situation: Give me a command.",
-      "korean": "그는 12시간째 자고 있다.",
-      "english": "He has been sleeping for 12 hours.",
+      "description": "Was/Were",
+      "korean": "특별한 작업이 그는에 의해 완료되었다.",
+      "english": "A special task has been completed by he.",
       "chunks": [
         {
-          "text": "He",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "has been sleeping",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "for 12 hours",
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by he.",
           "role": "Modifier",
-          "color": "#B0BEC5"
+          "color": "#2979FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Was/Were",
+      "question": "What do a do?"
     },
     {
       "id": "3-20-3",
       "section": "Day 20",
-      "description": "Review",
-      "question": "What happened yesterday?",
-      "korean": "나는 일을 다 끝냈다.",
-      "english": "I have finished my work.",
+      "description": "Was/Were",
+      "korean": "특별한 작업이 그녀는에 의해 완료되었다.",
+      "english": "A special task has been completed by she.",
       "chunks": [
         {
-          "text": "I",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "have finished",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "my work",
+          "text": "been completed",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "by she.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Was/Were",
+      "question": "What do a do?"
     },
     {
       "id": "3-20-4",
       "section": "Day 20",
-      "description": "Review",
-      "question": "Situation: Give me a command.",
-      "korean": "아침부터 비가 계속 오고 있다.",
-      "english": "It has been raining since morning.",
+      "description": "Was/Were",
+      "korean": "특별한 작업이 우리는에 의해 완료되었다.",
+      "english": "A special task has been completed by we.",
       "chunks": [
         {
-          "text": "It",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "has been raining",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "since morning",
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by we.",
           "role": "Modifier",
-          "color": "#B0BEC5"
+          "color": "#2979FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Was/Were",
+      "question": "What do a do?"
     },
     {
       "id": "3-20-5",
       "section": "Day 20",
-      "description": "Review",
-      "question": "Situation: Give me a command.",
-      "korean": "우리는 저 영화를 본 적이 있다.",
-      "english": "We have seen that movie.",
+      "description": "Was/Were",
+      "korean": "특별한 작업이 그들은에 의해 완료되었다.",
+      "english": "A special task has been completed by they.",
       "chunks": [
         {
-          "text": "We",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "have seen",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "that movie",
+          "text": "been completed",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "by they.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Was/Were",
+      "question": "What do a do?"
     },
     {
       "id": "3-20-6",
       "section": "Day 20",
-      "description": "Review",
-      "question": "What happened yesterday?",
-      "korean": "자고 있었니?",
-      "english": "Were you sleeping?",
+      "description": "Was/Were",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
       "chunks": [
         {
-          "text": "Were you sleeping",
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Was/Were",
+      "question": "What do a do?"
     },
     {
       "id": "3-20-7",
       "section": "Day 20",
-      "description": "Review",
-      "question": "Situation: Give me a command.",
-      "korean": "그녀는 계속 울고 있었다.",
-      "english": "She has been crying.",
+      "description": "Was/Were",
+      "korean": "특별한 작업이 네가에 의해 완료되었다.",
+      "english": "A special task has been completed by you.",
       "chunks": [
         {
-          "text": "She",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "has been crying",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by you.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Was/Were",
+      "question": "What do a do?"
     },
     {
       "id": "3-20-8",
       "section": "Day 20",
-      "description": "Review",
-      "question": "What happened yesterday?",
-      "korean": "그들은 여기서 10년 살았다.",
-      "english": "They have lived here for 10 years.",
+      "description": "Was/Were",
+      "korean": "특별한 작업이 어제는에 의해 완료되었다.",
+      "english": "A special task has been completed by it.",
       "chunks": [
         {
-          "text": "They",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "have lived",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "here",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
         },
         {
-          "text": "for 10 years",
+          "text": "by it.",
           "role": "Modifier",
-          "color": "#B0BEC5"
+          "color": "#2979FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Was/Were",
+      "question": "What do a do?"
     },
     {
       "id": "3-20-9",
       "section": "Day 20",
-      "description": "Review",
-      "question": "What is We doing right now?",
-      "korean": "우리는 게임을 하고 있다.",
-      "english": "We are playing games.",
+      "description": "Was/Were",
+      "korean": "특별한 작업이 영화는에 의해 완료되었다.",
+      "english": "A special task has been completed by the.",
       "chunks": [
         {
-          "text": "We",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "are playing",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "games",
+          "text": "been completed",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "by the.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Was/Were",
+      "question": "What do a do?"
     },
     {
       "id": "3-20-10",
       "section": "Day 20",
-      "description": "Review",
-      "question": "What happened yesterday?",
-      "korean": "그녀는 저녁을 요리하고 있었다.",
-      "english": "She was cooking dinner.",
+      "description": "Was/Were",
+      "korean": "특별한 작업이 우리는에 의해 완료되었다.",
+      "english": "A special task has been completed by we.",
       "chunks": [
         {
-          "text": "She",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "was cooking",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "dinner",
+          "text": "been completed",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "by we.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Was/Were",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-20-11",
+      "section": "Day 20",
+      "description": "Was/Were",
+      "korean": "특별한 작업이 그들은에 의해 완료되었다.",
+      "english": "A special task has been completed by they.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by they.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Was/Were",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-20-12",
+      "section": "Day 20",
+      "description": "Was/Were",
+      "korean": "특별한 작업이 그는에 의해 완료되었다.",
+      "english": "A special task has been completed by he.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by he.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Was/Were",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-20-13",
+      "section": "Day 20",
+      "description": "Was/Were",
+      "korean": "특별한 작업이 그녀는에 의해 완료되었다.",
+      "english": "A special task has been completed by she.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by she.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Was/Were",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-20-14",
+      "section": "Day 20",
+      "description": "Was/Were",
+      "korean": "특별한 작업이 재미있었다.에 의해 완료되었다.",
+      "english": "A special task has been completed by it.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by it.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Was/Were",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-20-15",
+      "section": "Day 20",
+      "description": "Was/Were",
+      "korean": "특별한 작업이 누구였니?에 의해 완료되었다.",
+      "english": "A special task has been completed by who.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by who.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Was/Were",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-20-16",
+      "section": "Day 20",
+      "description": "Was/Were",
+      "korean": "특별한 작업이 앞았니?에 의해 완료되었다.",
+      "english": "A special task has been completed by were.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by were.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Was/Were",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-20-17",
+      "section": "Day 20",
+      "description": "Was/Were",
+      "korean": "특별한 작업이 그녀가에 의해 완료되었다.",
+      "english": "A special task has been completed by was.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by was.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Was/Were",
+      "question": "What does a do?"
+    },
+    {
+      "id": "3-20-18",
+      "section": "Day 20",
+      "description": "Was/Were",
+      "korean": "특별한 작업이 문제가에 의해 완료되었다.",
+      "english": "A special task has been completed by there.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by there.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Was/Were",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-20-19",
+      "section": "Day 20",
+      "description": "Was/Were",
+      "korean": "특별한 작업이 어디에 의해 완료되었다.",
+      "english": "A special task has been completed by where.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by where.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Was/Were",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-20-20",
+      "section": "Day 20",
+      "description": "Was/Were",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Was/Were",
+      "question": "What do a do?"
     },
     {
       "id": "3-21-1",
       "section": "Day 21",
       "description": "Review",
-      "question": "Tell me about I.",
-      "korean": "나는 책을 읽고 있었다.",
-      "english": "I was reading a book.",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
       "chunks": [
         {
-          "text": "I",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "was reading",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "a book",
+          "text": "been completed",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
       "context": "Review",
-      "grammarGuide": {
-        "title": "Review",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00"
-          },
-          {
-            "text": "Object",
-            "color": "#FFD700"
-          }
-        ]
-      }
+      "question": "What do a do?"
     },
     {
       "id": "3-21-2",
       "section": "Day 21",
       "description": "Review",
-      "question": "Situation: Give me a command.",
-      "korean": "우리는 저 영화를 본 적이 있다.",
-      "english": "We have seen that movie.",
+      "korean": "특별한 작업이 그는에 의해 완료되었다.",
+      "english": "A special task has been completed by he.",
       "chunks": [
         {
-          "text": "We",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "have seen",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "that movie",
+          "text": "been completed",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "by he.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
       "context": "Review",
-      "grammarGuide": null
+      "question": "What do a do?"
     },
     {
       "id": "3-21-3",
       "section": "Day 21",
       "description": "Review",
-      "question": "Situation: You are curious. Ask me.",
-      "korean": "너 뭐 하고 지냈니?",
-      "english": "What have you been doing?",
+      "korean": "특별한 작업이 그녀는에 의해 완료되었다.",
+      "english": "A special task has been completed by she.",
       "chunks": [
         {
-          "text": "What",
-          "role": "Object",
-          "color": "#FFD700"
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "have you been doing",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by she.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
       "context": "Review",
-      "grammarGuide": null
+      "question": "What do a do?"
     },
     {
       "id": "3-21-4",
       "section": "Day 21",
       "description": "Review",
-      "question": "Situation: Give me a command.",
-      "korean": "아침부터 비가 계속 오고 있다.",
-      "english": "It has been raining since morning.",
+      "korean": "특별한 작업이 우리는에 의해 완료되었다.",
+      "english": "A special task has been completed by we.",
       "chunks": [
         {
-          "text": "It",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "has been raining",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "since morning",
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by we.",
           "role": "Modifier",
-          "color": "#B0BEC5"
+          "color": "#2979FF"
         }
       ],
       "context": "Review",
-      "grammarGuide": null
+      "question": "What do a do?"
     },
     {
       "id": "3-21-5",
       "section": "Day 21",
       "description": "Review",
-      "question": "What happened yesterday?",
-      "korean": "그는 많이 변했다.",
-      "english": "He has changed a lot.",
+      "korean": "특별한 작업이 그들은에 의해 완료되었다.",
+      "english": "A special task has been completed by they.",
       "chunks": [
         {
-          "text": "He",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "has changed",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "a lot",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by they.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
       "context": "Review",
-      "grammarGuide": null
+      "question": "What do a do?"
     },
     {
       "id": "3-21-6",
       "section": "Day 21",
       "description": "Review",
-      "question": "Situation: You are curious. Ask me.",
-      "korean": "점심 먹었니?",
-      "english": "Have you eaten lunch?",
+      "korean": "특별한 작업이 나는에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
       "chunks": [
         {
-          "text": "Have you eaten",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "lunch",
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
       "context": "Review",
-      "grammarGuide": null
+      "question": "What do a do?"
     },
     {
       "id": "3-21-7",
       "section": "Day 21",
       "description": "Review",
-      "question": "Situation: Give me a command.",
-      "korean": "그는 열쇠를 잃어버렸다.",
-      "english": "He has lost his keys.",
+      "korean": "특별한 작업이 너는에 의해 완료되었다.",
+      "english": "A special task has been completed by you.",
       "chunks": [
         {
-          "text": "He",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "has lost",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "his keys",
+          "text": "been completed",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "by you.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
       "context": "Review",
-      "grammarGuide": null
+      "question": "What do a do?"
     },
     {
       "id": "3-21-8",
       "section": "Day 21",
       "description": "Review",
-      "question": "What happened yesterday?",
-      "korean": "밤새 눈이 내리고 있었다.",
-      "english": "It was snowing all night.",
+      "korean": "특별한 작업이 놀라웠다.에 의해 완료되었다.",
+      "english": "A special task has been completed by it.",
       "chunks": [
         {
-          "text": "It",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "was snowing",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "all night",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by it.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
       "context": "Review",
-      "grammarGuide": null
+      "question": "What do a do?"
     },
     {
       "id": "3-21-9",
       "section": "Day 21",
       "description": "Review",
-      "question": "What is It doing right now?",
-      "korean": "밖에 비가 오고 있다.",
-      "english": "It is raining outside.",
+      "korean": "특별한 작업이 우리는에 의해 완료되었다.",
+      "english": "A special task has been completed by we.",
       "chunks": [
         {
-          "text": "It",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "is raining",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "outside",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by we.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
       "context": "Review",
-      "grammarGuide": null
+      "question": "What do a do?"
     },
     {
       "id": "3-21-10",
       "section": "Day 21",
       "description": "Review",
-      "question": "What happened yesterday?",
-      "korean": "나는 일을 다 끝냈다.",
-      "english": "I have finished my work.",
+      "korean": "특별한 작업이 그들은에 의해 완료되었다.",
+      "english": "A special task has been completed by they.",
       "chunks": [
         {
-          "text": "I",
+          "text": "A special",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "have finished",
+          "text": "task has",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "my work",
+          "text": "been completed",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "by they.",
+          "role": "Modifier",
+          "color": "#2979FF"
         }
       ],
       "context": "Review",
-      "grammarGuide": null
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-21-11",
+      "section": "Day 21",
+      "description": "Review",
+      "korean": "특별한 작업이 누가에 의해 완료되었다.",
+      "english": "A special task has been completed by who.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by who.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-21-12",
+      "section": "Day 21",
+      "description": "Review",
+      "korean": "특별한 작업이 그는에 의해 완료되었다.",
+      "english": "A special task has been completed by where.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by where.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-21-13",
+      "section": "Day 21",
+      "description": "Review",
+      "korean": "특별한 작업이 그거에 의해 완료되었다.",
+      "english": "A special task has been completed by did.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by did.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-21-14",
+      "section": "Day 21",
+      "description": "Review",
+      "korean": "특별한 작업이 난에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-21-15",
+      "section": "Day 21",
+      "description": "Review",
+      "korean": "특별한 작업이 그녀는에 의해 완료되었다.",
+      "english": "A special task has been completed by she.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by she.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-21-16",
+      "section": "Day 21",
+      "description": "Review",
+      "korean": "특별한 작업이 그는에 의해 완료되었다.",
+      "english": "A special task has been completed by he.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by he.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-21-17",
+      "section": "Day 21",
+      "description": "Review",
+      "korean": "특별한 작업이 우리는에 의해 완료되었다.",
+      "english": "A special task has been completed by we.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by we.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-21-18",
+      "section": "Day 21",
+      "description": "Review",
+      "korean": "특별한 작업이 그들은에 의해 완료되었다.",
+      "english": "A special task has been completed by they.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by they.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-21-19",
+      "section": "Day 21",
+      "description": "Review",
+      "korean": "특별한 작업이 잘에 의해 완료되었다.",
+      "english": "A special task has been completed by i.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by i.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What do a do?"
+    },
+    {
+      "id": "3-21-20",
+      "section": "Day 21",
+      "description": "Review",
+      "korean": "특별한 작업이 비가에 의해 완료되었다.",
+      "english": "A special task has been completed by it.",
+      "chunks": [
+        {
+          "text": "A special",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "task has",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "been completed",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "by it.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What do a do?"
     }
   ]
 }

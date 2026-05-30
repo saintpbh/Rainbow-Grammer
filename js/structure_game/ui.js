@@ -426,6 +426,9 @@ export function showPracticeExitButton(day, onExit) {
     btn.onclick = onExit;
     document.body.appendChild(btn);
 
+    const saveExitBtn = document.querySelector('.save-exit-btn');
+    if (saveExitBtn) saveExitBtn.style.display = 'none';
+
     // Update Level Badge Style
     const lvlBtn = document.getElementById('level-btn');
     if (lvlBtn) {
@@ -437,6 +440,9 @@ export function showPracticeExitButton(day, onExit) {
 export function removePracticeExitButton() {
     const btn = document.getElementById('exit-practice-btn');
     if (btn) btn.remove();
+
+    const saveExitBtn = document.querySelector('.save-exit-btn');
+    if (saveExitBtn) saveExitBtn.style.display = '';
 
     const lvlBtn = document.getElementById('level-btn');
     if (lvlBtn) {

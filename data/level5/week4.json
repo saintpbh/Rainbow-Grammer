@@ -1,859 +1,5044 @@
 {
   "curriculum": [
     {
-      "id": "6-4-1",
+      "id": "6-22-1",
       "section": "Day 22",
-      "description": "Complex News",
-      "question": "📺 Anchor: What are the headlines today?",
-      "korean": "전문가들은 곧 경제 회복을 예측한다.",
-      "english": "Experts predict economic recovery soon.",
+      "description": "Phrasal (Get/Take)",
+      "korean": "어떤 상황에서도 극복해라.이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how get works.",
       "chunks": [
         {
-          "text": "Experts",
-          "role": "Subj",
-          "color": "#FF0000"
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "predict",
+          "text": "circumstances should",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "economic recovery",
-          "role": "Obj",
-          "color": "#FFD700"
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
         },
         {
-          "text": "soon",
-          "role": "Adv",
-          "color": "#BA68C8"
+          "text": "how get",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Complex News",
-      "grammarGuide": {
-        "title": "Complex News",
-        "structure": [
-          {
-            "text": "Subj",
-            "color": "#FF0000"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00"
-          },
-          {
-            "text": "Obj",
-            "color": "#FFD700"
-          },
-          {
-            "text": "Adv",
-            "color": "#BA68C8"
-          }
-        ]
-      }
+      "context": "Phrasal (Get/Take)",
+      "question": "What is highly recommended to do?"
     },
     {
-      "id": "6-4-2",
+      "id": "6-22-2",
       "section": "Day 22",
-      "description": "Complex News",
-      "question": "📺 Anchor: What are the headlines today?",
-      "korean": "그 보고서는 건강 분야의 상당한 진전을 강조한다.",
-      "english": "The report highlights significant progress in health.",
+      "description": "Phrasal (Get/Take)",
+      "korean": "어떤 상황에서도 그럭저럭이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how get works.",
       "chunks": [
         {
-          "text": "The report",
-          "role": "Subj",
-          "color": "#FF0000"
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "highlights",
+          "text": "circumstances should",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "significant progress",
-          "role": "Obj",
-          "color": "#FFD700"
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
         },
         {
-          "text": "in health",
-          "role": "Mod",
-          "color": "#B0BEC5"
+          "text": "how get",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Complex News",
-      "grammarGuide": null
+      "context": "Phrasal (Get/Take)",
+      "question": "What is highly recommended to do?"
     },
     {
-      "id": "6-4-3",
+      "id": "6-22-3",
       "section": "Day 22",
-      "description": "Complex News",
-      "question": "📺 Anchor: What are the headlines today?",
-      "korean": "도전에도 불구하고, 팀은 성공했다.",
-      "english": "Despite challenges, the team succeeded.",
+      "description": "Phrasal (Get/Take)",
+      "korean": "어떤 상황에서도 그와이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how get works.",
       "chunks": [
         {
-          "text": "Despite challenges",
-          "role": "Mod",
-          "color": "#B0BEC5"
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "the team",
-          "role": "Subj",
-          "color": "#FF0000"
-        },
-        {
-          "text": "succeeded",
+          "text": "circumstances should",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how get",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Complex News",
-      "grammarGuide": null
+      "context": "Phrasal (Get/Take)",
+      "question": "What is highly recommended to do?"
     },
     {
-      "id": "6-4-4",
+      "id": "6-22-4",
       "section": "Day 22",
-      "description": "Complex News",
-      "question": "📺 Anchor: What are the headlines today?",
-      "korean": "협상은 오늘 중요한 단계에 도달했다.",
-      "english": "Negotiations reached a critical stage today.",
+      "description": "Phrasal (Get/Take)",
+      "korean": "어떤 상황에서도 코트이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how take works.",
       "chunks": [
         {
-          "text": "Negotiations",
-          "role": "Subj",
-          "color": "#FF0000"
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "reached",
+          "text": "circumstances should",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "a critical stage",
-          "role": "Obj",
-          "color": "#FFD700"
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
         },
         {
-          "text": "today",
-          "role": "Adv",
-          "color": "#BA68C8"
+          "text": "how take",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Complex News",
-      "grammarGuide": null
+      "context": "Phrasal (Get/Take)",
+      "question": "What is highly recommended to do?"
     },
     {
-      "id": "6-4-5",
+      "id": "6-22-5",
       "section": "Day 22",
-      "description": "Complex News",
-      "question": "📺 Anchor: What are the headlines today?",
-      "korean": "과학자들은 앞으로의 잠재적 위험을 경고한다.",
-      "english": "Scientists warn of potential risks ahead.",
+      "description": "Phrasal (Get/Take)",
+      "korean": "어떤 상황에서도 세계를이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how take works.",
       "chunks": [
         {
-          "text": "Scientists",
-          "role": "Subj",
-          "color": "#FF0000"
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "warn",
+          "text": "circumstances should",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "of potential risks ahead",
-          "role": "Obj",
-          "color": "#FFD700"
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how take",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Complex News",
-      "grammarGuide": null
+      "context": "Phrasal (Get/Take)",
+      "question": "What is highly recommended to do?"
     },
     {
-      "id": "6-4-6",
+      "id": "6-22-6",
       "section": "Day 22",
-      "description": "Complex News",
-      "question": "📺 Anchor: What are the headlines today?",
-      "korean": "새 정책은 빈곤을 줄이는 것을 목표로 한다.",
-      "english": "The new policy aims to reduce poverty.",
+      "description": "Phrasal (Get/Take)",
+      "korean": "어떤 상황에서도 충격에서이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how i works.",
       "chunks": [
         {
-          "text": "The new policy",
-          "role": "Subj",
-          "color": "#FF0000"
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "aims",
+          "text": "circumstances should",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "to reduce poverty",
-          "role": "Obj",
-          "color": "#FFD700"
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how i",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Complex News",
-      "grammarGuide": null
+      "context": "Phrasal (Get/Take)",
+      "question": "What is highly recommended to do?"
     },
     {
-      "id": "6-4-7",
+      "id": "6-22-7",
       "section": "Day 22",
-      "description": "Complex News",
-      "question": "📺 Anchor: What are the headlines today?",
-      "korean": "혁신은 전 세계적으로 시장 성장을 주도한다.",
-      "english": "Innovation drives market growth globally.",
+      "description": "Phrasal (Get/Take)",
+      "korean": "어떤 상황에서도 나에게서이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how get works.",
       "chunks": [
         {
-          "text": "Innovation",
-          "role": "Subj",
-          "color": "#FF0000"
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "drives",
+          "text": "circumstances should",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "market growth",
-          "role": "Obj",
-          "color": "#FFD700"
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
         },
         {
-          "text": "globally",
-          "role": "Adv",
-          "color": "#BA68C8"
+          "text": "how get",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Complex News",
-      "grammarGuide": null
+      "context": "Phrasal (Get/Take)",
+      "question": "What is highly recommended to do?"
     },
     {
-      "id": "6-4-8",
+      "id": "6-22-8",
       "section": "Day 22",
-      "description": "Complex News",
-      "question": "📺 Anchor: What are the headlines today?",
-      "korean": "교육은 우리에게 최우선 과제로 남아 있다.",
-      "english": "Education remains a top priority for us.",
+      "description": "Phrasal (Get/Take)",
+      "korean": "어떤 상황에서도 본론으로이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how let's works.",
       "chunks": [
         {
-          "text": "Education",
-          "role": "Subj",
-          "color": "#FF0000"
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "remains",
+          "text": "circumstances should",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "a top priority",
-          "role": "Comp",
-          "color": "#BA68C8"
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
         },
         {
-          "text": "for us",
-          "role": "Mod",
-          "color": "#B0BEC5"
+          "text": "how let's",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Complex News",
-      "grammarGuide": null
+      "context": "Phrasal (Get/Take)",
+      "question": "What is highly recommended to do?"
     },
     {
-      "id": "6-4-9",
+      "id": "6-22-9",
       "section": "Day 22",
-      "description": "Complex News",
-      "question": "📺 Anchor: What are the headlines today?",
-      "korean": "인프라 투자는 일자리를 창출한다.",
-      "english": "Investment in infrastructure creates jobs.",
+      "description": "Phrasal (Get/Take)",
+      "korean": "어떤 상황에서도 그는이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how he works.",
       "chunks": [
         {
-          "text": "Investment",
-          "role": "Subj",
-          "color": "#FF0000"
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "creates",
+          "text": "circumstances should",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "jobs",
-          "role": "Obj",
-          "color": "#FFD700"
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how he",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Complex News",
-      "grammarGuide": null
+      "context": "Phrasal (Get/Take)",
+      "question": "What is highly recommended to do?"
     },
     {
-      "id": "6-4-10",
+      "id": "6-22-10",
       "section": "Day 22",
-      "description": "Complex News",
-      "question": "📺 Anchor: What are the headlines today?",
-      "korean": "기후 변화는 긴급한 조치를 요구한다.",
-      "english": "Climate change demands urgent action.",
+      "description": "Phrasal (Get/Take)",
+      "korean": "어떤 상황에서도 취미를이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how take works.",
       "chunks": [
         {
-          "text": "Climate change",
-          "role": "Subj",
-          "color": "#FF0000"
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "demands",
+          "text": "circumstances should",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "urgent action",
-          "role": "Obj",
-          "color": "#FFD700"
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how take",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Complex News",
-      "grammarGuide": null
+      "context": "Phrasal (Get/Take)",
+      "question": "What is highly recommended to do?"
     },
     {
-      "id": "6-4-11",
+      "id": "6-22-11",
+      "section": "Day 22",
+      "description": "Phrasal (Get/Take)",
+      "korean": "어떤 상황에서도 오해하지이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how don't works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how don't",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Phrasal (Get/Take)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-22-12",
+      "section": "Day 22",
+      "description": "Phrasal (Get/Take)",
+      "korean": "어떤 상황에서도 현실적으로이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how get works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how get",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Phrasal (Get/Take)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-22-13",
+      "section": "Day 22",
+      "description": "Phrasal (Get/Take)",
+      "korean": "어떤 상황에서도 참여를이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how refuse works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how refuse",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Phrasal (Get/Take)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-22-14",
+      "section": "Day 22",
+      "description": "Phrasal (Get/Take)",
+      "korean": "어떤 상황에서도 진정해.이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how take works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how take",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Phrasal (Get/Take)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-22-15",
+      "section": "Day 22",
+      "description": "Phrasal (Get/Take)",
+      "korean": "어떤 상황에서도 시간이이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how it works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how it",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Phrasal (Get/Take)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-22-16",
+      "section": "Day 22",
+      "description": "Phrasal (Get/Take)",
+      "korean": "어떤 상황에서도 정신이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how get works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how get",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Phrasal (Get/Take)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-22-17",
+      "section": "Day 22",
+      "description": "Phrasal (Get/Take)",
+      "korean": "어떤 상황에서도 나가!이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how get works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how get",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Phrasal (Get/Take)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-22-18",
+      "section": "Day 22",
+      "description": "Phrasal (Get/Take)",
+      "korean": "어떤 상황에서도 5분이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how take works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how take",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Phrasal (Get/Take)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-22-19",
+      "section": "Day 22",
+      "description": "Phrasal (Get/Take)",
+      "korean": "어떤 상황에서도 싫으면이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how take works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how take",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Phrasal (Get/Take)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-22-20",
+      "section": "Day 22",
+      "description": "Phrasal (Get/Take)",
+      "korean": "어떤 상황에서도 철이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how get works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how get",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Phrasal (Get/Take)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-23-1",
+      "section": "Day 23",
+      "description": "Phrasal (Put/Bring)",
+      "korean": "어떤 상황에서도 회의를이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how put works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how put",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Phrasal (Put/Bring)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-23-2",
+      "section": "Day 23",
+      "description": "Phrasal (Put/Bring)",
+      "korean": "어떤 상황에서도 소음을이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how put works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how put",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Phrasal (Put/Bring)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-23-3",
+      "section": "Day 23",
+      "description": "Phrasal (Put/Bring)",
+      "korean": "어떤 상황에서도 쇼를이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how put works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how put",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Phrasal (Put/Bring)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-23-4",
+      "section": "Day 23",
+      "description": "Phrasal (Put/Bring)",
+      "korean": "어떤 상황에서도 아이를이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how bring works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how bring",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Phrasal (Put/Bring)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-23-5",
+      "section": "Day 23",
+      "description": "Phrasal (Put/Bring)",
+      "korean": "어떤 상황에서도 덤벼.이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how bring works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how bring",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Phrasal (Put/Bring)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-23-6",
+      "section": "Day 23",
+      "description": "Phrasal (Put/Bring)",
+      "korean": "어떤 상황에서도 날이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how don't works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how don't",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Phrasal (Put/Bring)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-23-7",
+      "section": "Day 23",
+      "description": "Phrasal (Put/Bring)",
+      "korean": "어떤 상황에서도 그거이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how put works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how put",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Phrasal (Put/Bring)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-23-8",
+      "section": "Day 23",
+      "description": "Phrasal (Put/Bring)",
+      "korean": "어떤 상황에서도 연결해이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how can works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how can",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Phrasal (Put/Bring)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-23-9",
+      "section": "Day 23",
+      "description": "Phrasal (Put/Bring)",
+      "korean": "어떤 상황에서도 추억을이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how bring works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how bring",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Phrasal (Put/Bring)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-23-10",
+      "section": "Day 23",
+      "description": "Phrasal (Put/Bring)",
+      "korean": "어떤 상황에서도 변화를이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how bring works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how bring",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Phrasal (Put/Bring)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-23-11",
+      "section": "Day 23",
+      "description": "Phrasal (Put/Bring)",
+      "korean": "어떤 상황에서도 노력을이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how put works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how put",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Phrasal (Put/Bring)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-23-12",
+      "section": "Day 23",
+      "description": "Phrasal (Put/Bring)",
+      "korean": "어떤 상황에서도 계산서이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how bring works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how bring",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Phrasal (Put/Bring)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-23-13",
+      "section": "Day 23",
+      "description": "Phrasal (Put/Bring)",
+      "korean": "어떤 상황에서도 간단히이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how put works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how put",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Phrasal (Put/Bring)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-23-14",
+      "section": "Day 23",
+      "description": "Phrasal (Put/Bring)",
+      "korean": "어떤 상황에서도 기쁨을이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how bring works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how bring",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Phrasal (Put/Bring)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-23-15",
+      "section": "Day 23",
+      "description": "Phrasal (Put/Bring)",
+      "korean": "어떤 상황에서도 중요한이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how put works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how put",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Phrasal (Put/Bring)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-23-16",
+      "section": "Day 23",
+      "description": "Phrasal (Put/Bring)",
+      "korean": "어떤 상황에서도 꼼짝이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how stay works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how stay",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Phrasal (Put/Bring)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-23-17",
+      "section": "Day 23",
+      "description": "Phrasal (Put/Bring)",
+      "korean": "어떤 상황에서도 조용히이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how put works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how put",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Phrasal (Put/Bring)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-23-18",
+      "section": "Day 23",
+      "description": "Phrasal (Put/Bring)",
+      "korean": "어떤 상황에서도 환호를이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how bring works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how bring",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Phrasal (Put/Bring)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-23-19",
+      "section": "Day 23",
+      "description": "Phrasal (Put/Bring)",
+      "korean": "어떤 상황에서도 잘난이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how put works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how put",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Phrasal (Put/Bring)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-23-20",
+      "section": "Day 23",
+      "description": "Phrasal (Put/Bring)",
+      "korean": "어떤 상황에서도 여긴이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how what works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how what",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Phrasal (Put/Bring)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-24-1",
       "section": "Day 24",
-      "description": "Business",
-      "question": "💼 Boss: What is the status update?",
-      "korean": "불편을 끼쳐 드려 죄송합니다.",
-      "english": "We apologize for the inconvenience caused.",
+      "description": "Idioms (Color/Animal)",
+      "korean": "어떤 상황에서도 갑자기.이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how out works.",
       "chunks": [
         {
-          "text": "We",
-          "role": "Subj",
-          "color": "#FF0000"
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "apologize for",
+          "text": "circumstances should",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "the inconvenience caused",
-          "role": "Obj",
-          "color": "#FFD700"
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how out",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Business",
-      "grammarGuide": null
+      "context": "Idioms (Color/Animal)",
+      "question": "What is highly recommended to do?"
     },
     {
-      "id": "6-4-12",
+      "id": "6-24-2",
       "section": "Day 24",
-      "description": "Business",
-      "question": "💼 Boss: What is the status update?",
-      "korean": "아래 첨부된 문서를 확인해 주세요.",
-      "english": "Please find the attached document below.",
+      "description": "Idioms (Color/Animal)",
+      "korean": "어떤 상황에서도 아주이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how once works.",
       "chunks": [
         {
-          "text": "Please find",
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "the attached document",
-          "role": "Obj",
-          "color": "#FFD700"
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
         },
         {
-          "text": "below",
-          "role": "Adv",
-          "color": "#BA68C8"
+          "text": "how once",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Business",
-      "grammarGuide": null
+      "context": "Idioms (Color/Animal)",
+      "question": "What is highly recommended to do?"
     },
     {
-      "id": "6-4-13",
+      "id": "6-24-3",
       "section": "Day 24",
-      "description": "Business",
-      "question": "💼 Boss: What is the status update?",
-      "korean": "당신의 소식을 듣기를 기대합니다.",
-      "english": "I look forward to hearing from you.",
+      "description": "Idioms (Color/Animal)",
+      "korean": "어떤 상황에서도 부러워서이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how green works.",
       "chunks": [
         {
-          "text": "I",
-          "role": "Subj",
-          "color": "#FF0000"
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "look forward to",
+          "text": "circumstances should",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "hearing from you",
-          "role": "Obj",
-          "color": "#FFD700"
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how green",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Business",
-      "grammarGuide": null
+      "context": "Idioms (Color/Animal)",
+      "question": "What is highly recommended to do?"
     },
     {
-      "id": "6-4-14",
+      "id": "6-24-4",
       "section": "Day 24",
-      "description": "Business",
-      "question": "💼 Boss: What is the status update?",
-      "korean": "신속한 답변에 감사드립니다.",
-      "english": "Thank you for your prompt response.",
+      "description": "Idioms (Color/Animal)",
+      "korean": "어떤 상황에서도 현행범으로이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how catch works.",
       "chunks": [
         {
-          "text": "Thank you",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "for your prompt response",
-          "role": "Mod",
-          "color": "#B0BEC5"
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how catch",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Business",
-      "grammarGuide": null
+      "context": "Idioms (Color/Animal)",
+      "question": "What is highly recommended to do?"
     },
     {
-      "id": "6-4-15",
+      "id": "6-24-5",
       "section": "Day 24",
-      "description": "Business",
-      "question": "💼 Boss: What is the status update?",
-      "korean": "귀하와의 비즈니스 파트너십에 감사드립니다.",
-      "english": "We appreciate your business partnership.",
+      "description": "Idioms (Color/Animal)",
+      "korean": "어떤 상황에서도 선의의이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how white works.",
       "chunks": [
         {
-          "text": "We",
-          "role": "Subj",
-          "color": "#FF0000"
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "appreciate",
+          "text": "circumstances should",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "your business partnership",
-          "role": "Obj",
-          "color": "#FFD700"
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how white",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Business",
-      "grammarGuide": null
+      "context": "Idioms (Color/Animal)",
+      "question": "What is highly recommended to do?"
     },
     {
-      "id": "6-4-16",
+      "id": "6-24-6",
       "section": "Day 24",
-      "description": "Business",
-      "question": "💼 Boss: What is the status update?",
-      "korean": "세부 사항을 명확히 해주실 수 있나요?",
-      "english": "Could you please clarify the details?",
+      "description": "Idioms (Color/Animal)",
+      "korean": "어떤 상황에서도 골칫덩어리.이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how black works.",
       "chunks": [
         {
-          "text": "Could you",
-          "role": "Subj",
-          "color": "#FF0000"
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "please clarify",
+          "text": "circumstances should",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "the details",
-          "role": "Obj",
-          "color": "#FFD700"
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how black",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Business",
-      "grammarGuide": null
+      "context": "Idioms (Color/Animal)",
+      "question": "What is highly recommended to do?"
     },
     {
-      "id": "6-4-17",
+      "id": "6-24-7",
       "section": "Day 24",
-      "description": "Business",
-      "question": "💼 Boss: What is the status update?",
-      "korean": "우리는 양질의 서비스에 전념하고 있습니다.",
-      "english": "We are committed to quality service.",
+      "description": "Idioms (Color/Animal)",
+      "korean": "어떤 상황에서도 비밀을이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how let works.",
       "chunks": [
         {
-          "text": "We",
-          "role": "Subj",
-          "color": "#FF0000"
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "are committed",
+          "text": "circumstances should",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "to quality service",
-          "role": "Obj",
-          "color": "#FFD700"
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how let",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Business",
-      "grammarGuide": null
+      "context": "Idioms (Color/Animal)",
+      "question": "What is highly recommended to do?"
     },
     {
-      "id": "6-4-18",
+      "id": "6-24-8",
       "section": "Day 24",
-      "description": "Business",
-      "question": "💼 Boss: What is the status update?",
-      "korean": "다음 주에 회의 일정을 잡읍시다.",
-      "english": "Let's schedule a meeting next week.",
+      "description": "Idioms (Color/Animal)",
+      "korean": "어떤 상황에서도 일석이조.이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how kill works.",
       "chunks": [
         {
-          "text": "Let's schedule",
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "a meeting",
-          "role": "Obj",
-          "color": "#FFD700"
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
         },
         {
-          "text": "next week",
-          "role": "Adv",
-          "color": "#BA68C8"
+          "text": "how kill",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Business",
-      "grammarGuide": null
+      "context": "Idioms (Color/Animal)",
+      "question": "What is highly recommended to do?"
     },
     {
-      "id": "6-4-19",
+      "id": "6-24-9",
       "section": "Day 24",
-      "description": "Business",
-      "question": "💼 Boss: What is the status update?",
-      "korean": "금요일까지 참석 여부를 확인해 주십시오.",
-      "english": "Please confirm your attendance by Friday.",
+      "description": "Idioms (Color/Animal)",
+      "korean": "어떤 상황에서도 수상한이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how smell works.",
       "chunks": [
         {
-          "text": "Please confirm",
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "your attendance",
-          "role": "Obj",
-          "color": "#FFD700"
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
         },
         {
-          "text": "by Friday",
-          "role": "Mod",
-          "color": "#B0BEC5"
+          "text": "how smell",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Business",
-      "grammarGuide": null
+      "context": "Idioms (Color/Animal)",
+      "question": "What is highly recommended to do?"
     },
     {
-      "id": "6-4-20",
+      "id": "6-24-10",
       "section": "Day 24",
-      "description": "Business",
-      "question": "💼 Boss: What is the status update?",
-      "korean": "언제든지 주저 말고 연락해 주십시오.",
-      "english": "Feel free to contact us anytime.",
+      "description": "Idioms (Color/Animal)",
+      "korean": "어떤 상황에서도 잠깐이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how hold works.",
       "chunks": [
         {
-          "text": "Feel free",
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "to contact us",
-          "role": "Obj",
-          "color": "#FFD700"
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
         },
         {
-          "text": "anytime",
-          "role": "Adv",
-          "color": "#BA68C8"
+          "text": "how hold",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Business",
-      "grammarGuide": null
+      "context": "Idioms (Color/Animal)",
+      "question": "What is highly recommended to do?"
     },
     {
-      "id": "6-4-21",
-      "section": "Day 28",
-      "description": "Grand Finale",
-      "question": "🗣️ Prompt: How would you express this idea?",
-      "korean": "당신의 꿈이 끝에서 기다리고 있다.",
-      "english": "Your dreams await at the end.",
+      "id": "6-24-11",
+      "section": "Day 24",
+      "description": "Idioms (Color/Animal)",
+      "korean": "어떤 상황에서도 대환영하다.이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how roll works.",
       "chunks": [
         {
-          "text": "Your dreams",
-          "role": "Subj",
-          "color": "#FF0000"
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "await",
+          "text": "circumstances should",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "at the end",
-          "role": "Mod",
-          "color": "#B0BEC5"
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how roll",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Grand Finale",
-      "grammarGuide": null
+      "context": "Idioms (Color/Animal)",
+      "question": "What is highly recommended to do?"
     },
     {
-      "id": "6-4-22",
-      "section": "Day 28",
-      "description": "Grand Finale",
-      "question": "🗣️ Prompt: How would you express this idea?",
-      "korean": "이것은 단지 시작일 뿐이다.",
-      "english": "This is just the beginning.",
+      "id": "6-24-12",
+      "section": "Day 24",
+      "description": "Idioms (Color/Animal)",
+      "korean": "어떤 상황에서도 황금이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how golden works.",
       "chunks": [
         {
-          "text": "This",
-          "role": "Subj",
-          "color": "#FF0000"
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "is",
+          "text": "circumstances should",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "just the beginning",
-          "role": "Comp",
-          "color": "#BA68C8"
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how golden",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Grand Finale",
-      "grammarGuide": null
+      "context": "Idioms (Color/Animal)",
+      "question": "What is highly recommended to do?"
     },
     {
-      "id": "6-4-23",
-      "section": "Day 28",
-      "description": "Grand Finale",
-      "question": "🗣️ Prompt: How would you express this idea?",
-      "korean": "당신은 문법의 기술을 마스터했다.",
-      "english": "You have mastered the art of grammar.",
+      "id": "6-24-13",
+      "section": "Day 24",
+      "description": "Idioms (Color/Animal)",
+      "korean": "어떤 상황에서도 예상이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how dark works.",
       "chunks": [
         {
-          "text": "You",
-          "role": "Subj",
-          "color": "#FF0000"
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "have mastered",
+          "text": "circumstances should",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "the art of grammar",
-          "role": "Obj",
-          "color": "#FFD700"
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how dark",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Grand Finale",
-      "grammarGuide": null
+      "context": "Idioms (Color/Animal)",
+      "question": "What is highly recommended to do?"
     },
     {
-      "id": "6-4-24",
-      "section": "Day 28",
-      "description": "Grand Finale",
-      "question": "🗣️ Prompt: How would you express this idea?",
-      "korean": "세상은 이제 당신의 것이다.",
-      "english": "The world is your oyster now.",
+      "id": "6-24-14",
+      "section": "Day 24",
+      "description": "Idioms (Color/Animal)",
+      "korean": "어떤 상황에서도 겁먹고이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how chicken works.",
       "chunks": [
         {
-          "text": "The world",
-          "role": "Subj",
-          "color": "#FF0000"
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "is",
+          "text": "circumstances should",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "your oyster",
-          "role": "Comp",
-          "color": "#BA68C8"
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
         },
         {
-          "text": "now",
-          "role": "Adv",
-          "color": "#BA68C8"
+          "text": "how chicken",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Grand Finale",
-      "grammarGuide": null
+      "context": "Idioms (Color/Animal)",
+      "question": "What is highly recommended to do?"
     },
     {
-      "id": "6-4-25",
-      "section": "Day 28",
-      "description": "Grand Finale",
-      "question": "🗣️ Prompt: How would you express this idea?",
-      "korean": "나가서 자신 있게 말하라.",
-      "english": "Go forth and speak with confidence.",
+      "id": "6-24-15",
+      "section": "Day 24",
+      "description": "Idioms (Color/Animal)",
+      "korean": "어떤 상황에서도 헛수고.이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how wild works.",
       "chunks": [
         {
-          "text": "Go forth",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "and speak",
+          "text": "circumstances should",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "with confidence",
-          "role": "Mod",
-          "color": "#B0BEC5"
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how wild",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Grand Finale",
-      "grammarGuide": null
+      "context": "Idioms (Color/Animal)",
+      "question": "What is highly recommended to do?"
     },
     {
-      "id": "6-4-26",
-      "section": "Day 28",
-      "description": "Grand Finale",
-      "question": "🗣️ Prompt: How would you express this idea?",
-      "korean": "배움은 결코 마음을 지치게 하지 않는다.",
-      "english": "Learning never exhausts the mind.",
+      "id": "6-24-16",
+      "section": "Day 24",
+      "description": "Idioms (Color/Animal)",
+      "korean": "어떤 상황에서도 신나게이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how paint works.",
       "chunks": [
         {
-          "text": "Learning",
-          "role": "Subj",
-          "color": "#FF0000"
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "never exhausts",
+          "text": "circumstances should",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "the mind",
-          "role": "Obj",
-          "color": "#FFD700"
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how paint",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Grand Finale",
-      "grammarGuide": null
+      "context": "Idioms (Color/Animal)",
+      "question": "What is highly recommended to do?"
     },
     {
-      "id": "6-4-27",
-      "section": "Day 28",
-      "description": "Grand Finale",
-      "question": "🗣️ Prompt: How would you express this idea?",
-      "korean": "당신은 세상을 향해 나아갈 준비가 되었다.",
-      "english": "You are ready for the world.",
+      "id": "6-24-17",
+      "section": "Day 24",
+      "description": "Idioms (Color/Animal)",
+      "korean": "어떤 상황에서도 정장이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how black works.",
       "chunks": [
         {
-          "text": "You",
-          "role": "Subj",
-          "color": "#FF0000"
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "are",
+          "text": "circumstances should",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "ready",
-          "role": "Comp",
-          "color": "#BA68C8"
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
         },
         {
-          "text": "for the world",
-          "role": "Mod",
-          "color": "#B0BEC5"
+          "text": "how black",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Grand Finale",
-      "grammarGuide": null
+      "context": "Idioms (Color/Animal)",
+      "question": "What is highly recommended to do?"
     },
     {
-      "id": "6-4-28",
-      "section": "Day 28",
-      "description": "Grand Finale",
-      "question": "🗣️ Prompt: How would you express this idea?",
-      "korean": "역사에 당신의 자취를 남겨라.",
-      "english": "Make your mark on history.",
+      "id": "6-24-18",
+      "section": "Day 24",
+      "description": "Idioms (Color/Animal)",
+      "korean": "어떤 상황에서도 모두가이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how elephant works.",
       "chunks": [
         {
-          "text": "Make",
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "your mark",
-          "role": "Obj",
-          "color": "#FFD700"
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
         },
         {
-          "text": "on history",
-          "role": "Mod",
-          "color": "#B0BEC5"
+          "text": "how elephant",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Grand Finale",
-      "grammarGuide": null
+      "context": "Idioms (Color/Animal)",
+      "question": "What is highly recommended to do?"
     },
     {
-      "id": "6-4-29",
-      "section": "Day 28",
-      "description": "Grand Finale",
-      "question": "🗣️ Prompt: How would you express this idea?",
-      "korean": "항상 자신을 믿어라.",
-      "english": "Believe in yourself always.",
+      "id": "6-24-19",
+      "section": "Day 24",
+      "description": "Idioms (Color/Animal)",
+      "korean": "어떤 상황에서도 좌충우돌하는이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how bull works.",
       "chunks": [
         {
-          "text": "Believe",
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "in yourself",
-          "role": "Mod",
-          "color": "#B0BEC5"
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
         },
         {
-          "text": "always",
-          "role": "Adv",
-          "color": "#BA68C8"
+          "text": "how bull",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Grand Finale",
-      "grammarGuide": null
+      "context": "Idioms (Color/Animal)",
+      "question": "What is highly recommended to do?"
     },
     {
-      "id": "6-4-30",
-      "section": "Day 28",
-      "description": "Grand Finale",
-      "question": "🗣️ Prompt: How would you express this idea?",
-      "korean": "잘 가요, 행운을 빕니다!",
-      "english": "Farewell and good luck!",
+      "id": "6-24-20",
+      "section": "Day 24",
+      "description": "Idioms (Color/Animal)",
+      "korean": "어떤 상황에서도 매우이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how tickled works.",
       "chunks": [
         {
-          "text": "Farewell",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "and good luck",
-          "role": "Obj",
-          "color": "#FFD700"
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how tickled",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Grand Finale",
-      "grammarGuide": null
+      "context": "Idioms (Color/Animal)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-25-1",
+      "section": "Day 25",
+      "description": "Collocations",
+      "korean": "어떤 상황에서도 폭우.이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how heavy works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how heavy",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Collocations",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-25-2",
+      "section": "Day 25",
+      "description": "Collocations",
+      "korean": "어떤 상황에서도 진한이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how strong works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how strong",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Collocations",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-25-3",
+      "section": "Day 25",
+      "description": "Collocations",
+      "korean": "어떤 상황에서도 깊은이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how deep works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how deep",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Collocations",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-25-4",
+      "section": "Day 25",
+      "description": "Collocations",
+      "korean": "어떤 상황에서도 실수하다.이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how make works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how make",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Collocations",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-25-5",
+      "section": "Day 25",
+      "description": "Collocations",
+      "korean": "어떤 상황에서도 숙제하다.이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how do works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how do",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Collocations",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-25-6",
+      "section": "Day 25",
+      "description": "Collocations",
+      "korean": "어떤 상황에서도 샤워하다.이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how take works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how take",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Collocations",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-25-7",
+      "section": "Day 25",
+      "description": "Collocations",
+      "korean": "어떤 상황에서도 파티하다.이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how have works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how have",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Collocations",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-25-8",
+      "section": "Day 25",
+      "description": "Collocations",
+      "korean": "어떤 상황에서도 주목하다.이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how pay works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how pay",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Collocations",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-25-9",
+      "section": "Day 25",
+      "description": "Collocations",
+      "korean": "어떤 상황에서도 약속을이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how keep works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how keep",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Collocations",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-25-10",
+      "section": "Day 25",
+      "description": "Collocations",
+      "korean": "어떤 상황에서도 습관을이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how break works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how break",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Collocations",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-25-11",
+      "section": "Day 25",
+      "description": "Collocations",
+      "korean": "어떤 상황에서도 감기이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how catch works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how catch",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Collocations",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-25-12",
+      "section": "Day 25",
+      "description": "Collocations",
+      "korean": "어떤 상황에서도 조언하다.이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how give works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how give",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Collocations",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-25-13",
+      "section": "Day 25",
+      "description": "Collocations",
+      "korean": "어떤 상황에서도 시간을이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how save works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how save",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Collocations",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-25-14",
+      "section": "Day 25",
+      "description": "Collocations",
+      "korean": "어떤 상황에서도 돈을이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how spend works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how spend",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Collocations",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-25-15",
+      "section": "Day 25",
+      "description": "Collocations",
+      "korean": "어떤 상황에서도 거짓말하다.이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how tell works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how tell",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Collocations",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-25-16",
+      "section": "Day 25",
+      "description": "Collocations",
+      "korean": "어떤 상황에서도 명심하다.이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how bear works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how bear",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Collocations",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-25-17",
+      "section": "Day 25",
+      "description": "Collocations",
+      "korean": "어떤 상황에서도 마음을이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how change works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how change",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Collocations",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-25-18",
+      "section": "Day 25",
+      "description": "Collocations",
+      "korean": "어떤 상황에서도 연락하고이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how keep works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how keep",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Collocations",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-25-19",
+      "section": "Day 25",
+      "description": "Collocations",
+      "korean": "어떤 상황에서도 말이이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how make works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how make",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Collocations",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-25-20",
+      "section": "Day 25",
+      "description": "Collocations",
+      "korean": "어떤 상황에서도 개최되다/일어나다.이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how take works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how take",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Collocations",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-26-1",
+      "section": "Day 26",
+      "description": "Formal/Informal",
+      "korean": "어떤 상황에서도 가고이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how i works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how i",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Formal/Informal",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-26-2",
+      "section": "Day 26",
+      "description": "Formal/Informal",
+      "korean": "어떤 상황에서도 가고이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how i works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how i",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Formal/Informal",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-26-3",
+      "section": "Day 26",
+      "description": "Formal/Informal",
+      "korean": "어떤 상황에서도 할이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how gonna works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how gonna",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Formal/Informal",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-26-4",
+      "section": "Day 26",
+      "description": "Formal/Informal",
+      "korean": "어떤 상황에서도 그것을이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how i works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how i",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Formal/Informal",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-26-5",
+      "section": "Day 26",
+      "description": "Formal/Informal",
+      "korean": "어떤 상황에서도 안녕.이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how hey. works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how hey.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Formal/Informal",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-26-6",
+      "section": "Day 26",
+      "description": "Formal/Informal",
+      "korean": "어떤 상황에서도 안녕하세요.이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how good works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how good",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Formal/Informal",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-26-7",
+      "section": "Day 26",
+      "description": "Formal/Informal",
+      "korean": "어떤 상황에서도 도와줘.이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how give works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how give",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Formal/Informal",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-26-8",
+      "section": "Day 26",
+      "description": "Formal/Informal",
+      "korean": "어떤 상황에서도 저를이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how assist works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how assist",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Formal/Informal",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-26-9",
+      "section": "Day 26",
+      "description": "Formal/Informal",
+      "korean": "어떤 상황에서도 오줌이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how i works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how i",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Formal/Informal",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-26-10",
+      "section": "Day 26",
+      "description": "Formal/Informal",
+      "korean": "어떤 상황에서도 화장실이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how i works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how i",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Formal/Informal",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-26-11",
+      "section": "Day 26",
+      "description": "Formal/Informal",
+      "korean": "어떤 상황에서도 고마워.이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how thanks. works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how thanks.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Formal/Informal",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-26-12",
+      "section": "Day 26",
+      "description": "Formal/Informal",
+      "korean": "어떤 상황에서도 감사합니다.이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how i works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how i",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Formal/Informal",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-26-13",
+      "section": "Day 26",
+      "description": "Formal/Informal",
+      "korean": "어떤 상황에서도 아니.이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how nope. works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how nope.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Formal/Informal",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-26-14",
+      "section": "Day 26",
+      "description": "Formal/Informal",
+      "korean": "어떤 상황에서도 아니요,이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how no, works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how no,",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Formal/Informal",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-26-15",
+      "section": "Day 26",
+      "description": "Formal/Informal",
+      "korean": "어떤 상황에서도 놀다.이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how hang works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how hang",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Formal/Informal",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-26-16",
+      "section": "Day 26",
+      "description": "Formal/Informal",
+      "korean": "어떤 상황에서도 교류하다(어울리다).이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how socialize. works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how socialize.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Formal/Informal",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-26-17",
+      "section": "Day 26",
+      "description": "Formal/Informal",
+      "korean": "어떤 상황에서도 무슨이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how what's works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how what's",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Formal/Informal",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-26-18",
+      "section": "Day 26",
+      "description": "Formal/Informal",
+      "korean": "어떤 상황에서도 처음이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how how works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how how",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Formal/Informal",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-26-19",
+      "section": "Day 26",
+      "description": "Formal/Informal",
+      "korean": "어떤 상황에서도 나중에이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how later. works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how later.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Formal/Informal",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-26-20",
+      "section": "Day 26",
+      "description": "Formal/Informal",
+      "korean": "어떤 상황에서도 곧이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how see works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how see",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Formal/Informal",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-27-1",
+      "section": "Day 27",
+      "description": "Nuance (Vocab)",
+      "korean": "어떤 상황에서도 그걸이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how look works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how look",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Nuance (Vocab)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-27-2",
+      "section": "Day 27",
+      "description": "Nuance (Vocab)",
+      "korean": "어떤 상황에서도 그게이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how i works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how i",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Nuance (Vocab)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-27-3",
+      "section": "Day 27",
+      "description": "Nuance (Vocab)",
+      "korean": "어떤 상황에서도 영화를이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how watch works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how watch",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Nuance (Vocab)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-27-4",
+      "section": "Day 27",
+      "description": "Nuance (Vocab)",
+      "korean": "어떤 상황에서도 뭔가이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how say works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how say",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Nuance (Vocab)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-27-5",
+      "section": "Day 27",
+      "description": "Nuance (Vocab)",
+      "korean": "어떤 상황에서도 나한테이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how tell works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how tell",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Nuance (Vocab)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-27-6",
+      "section": "Day 27",
+      "description": "Nuance (Vocab)",
+      "korean": "어떤 상황에서도 영어를이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how speak works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how speak",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Nuance (Vocab)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-27-7",
+      "section": "Day 27",
+      "description": "Nuance (Vocab)",
+      "korean": "어떤 상황에서도 나랑이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how talk works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how talk",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Nuance (Vocab)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-27-8",
+      "section": "Day 27",
+      "description": "Nuance (Vocab)",
+      "korean": "어떤 상황에서도 소리가이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how hear works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how hear",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Nuance (Vocab)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-27-9",
+      "section": "Day 27",
+      "description": "Nuance (Vocab)",
+      "korean": "어떤 상황에서도 음악을이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how listen works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how listen",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Nuance (Vocab)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-27-10",
+      "section": "Day 27",
+      "description": "Nuance (Vocab)",
+      "korean": "어떤 상황에서도 돈을이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how lend works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how lend",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Nuance (Vocab)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-27-11",
+      "section": "Day 27",
+      "description": "Nuance (Vocab)",
+      "korean": "어떤 상황에서도 돈을이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how borrow works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how borrow",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Nuance (Vocab)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-27-12",
+      "section": "Day 27",
+      "description": "Nuance (Vocab)",
+      "korean": "어떤 상황에서도 은행을이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how rob works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how rob",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Nuance (Vocab)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-27-13",
+      "section": "Day 27",
+      "description": "Nuance (Vocab)",
+      "korean": "어떤 상황에서도 돈을이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how steal works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how steal",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Nuance (Vocab)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-27-14",
+      "section": "Day 27",
+      "description": "Nuance (Vocab)",
+      "korean": "어떤 상황에서도 집(건물).이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how house. works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how house.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Nuance (Vocab)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-27-15",
+      "section": "Day 27",
+      "description": "Nuance (Vocab)",
+      "korean": "어떤 상황에서도 집(가정).이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how home. works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how home.",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Nuance (Vocab)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-27-16",
+      "section": "Day 27",
+      "description": "Nuance (Vocab)",
+      "korean": "어떤 상황에서도 들어봐!이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how listen! works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how listen!",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Nuance (Vocab)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-27-17",
+      "section": "Day 27",
+      "description": "Nuance (Vocab)",
+      "korean": "어떤 상황에서도 인사해.이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how say works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how say",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Nuance (Vocab)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-27-18",
+      "section": "Day 27",
+      "description": "Nuance (Vocab)",
+      "korean": "어떤 상황에서도 이야기를이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how tell works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how tell",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Nuance (Vocab)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-27-19",
+      "section": "Day 27",
+      "description": "Nuance (Vocab)",
+      "korean": "어떤 상황에서도 조심해.이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how watch works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how watch",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Nuance (Vocab)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-27-20",
+      "section": "Day 27",
+      "description": "Nuance (Vocab)",
+      "korean": "어떤 상황에서도 또이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how see works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how see",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Nuance (Vocab)",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-28-1",
+      "section": "Day 28",
+      "description": "Review",
+      "korean": "어떤 상황에서도 잘이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how take works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how take",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-28-2",
+      "section": "Day 28",
+      "description": "Review",
+      "korean": "어떤 상황에서도 꺼져.이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how get works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how get",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-28-3",
+      "section": "Day 28",
+      "description": "Review",
+      "korean": "어떤 상황에서도 미루다.이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how put works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how put",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-28-4",
+      "section": "Day 28",
+      "description": "Review",
+      "korean": "어떤 상황에서도 가져와.이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how bring works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how bring",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-28-5",
+      "section": "Day 28",
+      "description": "Review",
+      "korean": "어떤 상황에서도 어쩌다가.이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how once works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how once",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-28-6",
+      "section": "Day 28",
+      "description": "Review",
+      "korean": "어떤 상황에서도 교통이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how heavy works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how heavy",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-28-7",
+      "section": "Day 28",
+      "description": "Review",
+      "korean": "어떤 상황에서도 약속하다.이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how make works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how make",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-28-8",
+      "section": "Day 28",
+      "description": "Review",
+      "korean": "어떤 상황에서도 롹이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how i works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how i",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-28-9",
+      "section": "Day 28",
+      "description": "Review",
+      "korean": "어떤 상황에서도 날이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how look works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how look",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-28-10",
+      "section": "Day 28",
+      "description": "Review",
+      "korean": "어떤 상황에서도 그에게이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how tell works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how tell",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-28-11",
+      "section": "Day 28",
+      "description": "Review",
+      "korean": "어떤 상황에서도 잘이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how get works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how get",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-28-12",
+      "section": "Day 28",
+      "description": "Review",
+      "korean": "어떤 상황에서도 쉬다.이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how take works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how take",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-28-13",
+      "section": "Day 28",
+      "description": "Review",
+      "korean": "어떤 상황에서도 참다.이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how put works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how put",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-28-14",
+      "section": "Day 28",
+      "description": "Review",
+      "korean": "어떤 상황에서도 선의의이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how a works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how a",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-28-15",
+      "section": "Day 28",
+      "description": "Review",
+      "korean": "어떤 상황에서도 부탁을이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how do works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how do",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-28-16",
+      "section": "Day 28",
+      "description": "Review",
+      "korean": "어떤 상황에서도 잘이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how say works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how say",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-28-17",
+      "section": "Day 28",
+      "description": "Review",
+      "korean": "어떤 상황에서도 TV이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how watch works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how watch",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-28-18",
+      "section": "Day 28",
+      "description": "Review",
+      "korean": "어떤 상황에서도 내이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how hear works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how hear",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-28-19",
+      "section": "Day 28",
+      "description": "Review",
+      "korean": "어떤 상황에서도 어서/제발.이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how come works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how come",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What is highly recommended to do?"
+    },
+    {
+      "id": "6-28-20",
+      "section": "Day 28",
+      "description": "Review",
+      "korean": "어떤 상황에서도 어서이 어떻게 작용하는지 잊어서는 안 된다.",
+      "english": "Under no circumstances should you forget how go works.",
+      "chunks": [
+        {
+          "text": "Under no",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "circumstances should",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you forget",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "how go",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "works.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What is highly recommended to do?"
     }
   ]
 }

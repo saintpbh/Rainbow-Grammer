@@ -8,8 +8,27 @@ import { changeSpeed, testAudio, speakText, playSuccessSound, playFailureSound }
 import * as DropGame from './chunk_game/game.js';
 import * as TowerGame from './tower_game/game.js';
 
+// --- Global Loading Gate to Prevent Race Conditions ---
+let isGameLoading = false;
+
+// --- Safe CSS Loader ---
+function safeLoadCSS(href) {
+    const cleanHref = href.split('?')[0];
+    const existing = Array.from(document.querySelectorAll('link[rel="stylesheet"]'))
+        .find(link => link.getAttribute('href').split('?')[0] === cleanHref);
+    
+    if (!existing) {
+        const link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = href;
+        document.head.appendChild(link);
+        console.log(`✓ CSS loaded safely: ${cleanHref}`);
+    }
+}
+
 // --- Lobby Logic ---
 function initLobby() {
+    isGameLoading = false; // Reset lock when returning to lobby
     const lobby = document.getElementById('lobby-screen');
     const gameContainer = document.getElementById('game-container');
     const dropContainer = document.getElementById('drop-game-container');
@@ -24,6 +43,9 @@ function initLobby() {
 }
 
 function launchStructureGame() {
+    if (isGameLoading) return;
+    isGameLoading = true;
+
     const lobby = document.getElementById('lobby-screen');
     const gameContainer = document.getElementById('game-container');
 
@@ -31,10 +53,21 @@ function launchStructureGame() {
     gameContainer.style.display = 'block';
 
     // Load the structure game
-    StructureGame.loadGame();
+    StructureGame.loadGame()
+        .then(() => {
+            isGameLoading = false;
+        })
+        .catch(err => {
+            console.error("❌ Failed to load Structure game:", err);
+            isGameLoading = false;
+            initLobby();
+        });
 }
 
 function launchDropGame() {
+    if (isGameLoading) return;
+    isGameLoading = true;
+
     const lobby = document.getElementById('lobby-screen');
 
     // Create container if not exists
@@ -43,21 +76,26 @@ function launchDropGame() {
         dropContainer = document.createElement('div');
         dropContainer.id = 'drop-game-container';
         document.body.appendChild(dropContainer);
-
-        // Load CSS Dynamically with cache busting
-        const link = document.createElement('link');
-        link.rel = 'stylesheet';
-        link.href = `css/drop_game.css?v=${new Date().getTime()}`;
-        document.head.appendChild(link);
+        safeLoadCSS(`css/drop_game.css?v=${new Date().getTime()}`);
     }
 
     lobby.style.display = 'none';
     dropContainer.style.display = 'block';
 
-    DropGame.initGame();
+    try {
+        DropGame.initGame();
+        isGameLoading = false;
+    } catch (err) {
+        console.error("❌ Failed to initialize Drop Game:", err);
+        isGameLoading = false;
+        initLobby();
+    }
 }
 
 function launchTowerGame() {
+    if (isGameLoading) return;
+    isGameLoading = true;
+
     const lobby = document.getElementById('lobby-screen');
 
     let towerContainer = document.getElementById('tower-game-container');
@@ -65,35 +103,37 @@ function launchTowerGame() {
         towerContainer = document.createElement('div');
         towerContainer.id = 'tower-game-container';
         document.body.appendChild(towerContainer);
-
-        const link = document.createElement('link');
-        link.rel = 'stylesheet';
-        link.href = `css/tower_game.css?v=${new Date().getTime()}`;
-        document.head.appendChild(link);
+        safeLoadCSS(`css/tower_game.css?v=${new Date().getTime()}`);
     }
 
     lobby.style.display = 'none';
     towerContainer.style.display = 'block';
 
-    TowerGame.initTowerGame();
+    try {
+        TowerGame.initTowerGame();
+        isGameLoading = false;
+    } catch (err) {
+        console.error("❌ Failed to initialize Tower Game:", err);
+        isGameLoading = false;
+        initLobby();
+    }
 }
 
 function launchDictationGame() {
+    if (isGameLoading) return;
+    isGameLoading = true;
+
     console.log("🚀 Launching Dictation Game...");
     const lobby = document.getElementById('lobby-screen');
     const dictContainer = document.getElementById('dictation-game-container');
 
     if (!dictContainer) {
         console.error("❌ Dictation container not found!");
+        isGameLoading = false;
         return;
     }
 
-    if (!dictContainer.innerHTML.trim()) {
-        const link = document.createElement('link');
-        link.rel = 'stylesheet';
-        link.href = `css/dictation_game.css?v=${new Date().getTime()}`;
-        document.head.appendChild(link);
-    }
+    safeLoadCSS(`css/dictation_game.css?v=${new Date().getTime()}`);
 
     lobby.style.display = 'none';
     dictContainer.style.display = 'flex';
@@ -102,10 +142,12 @@ function launchDictationGame() {
         .then(module => {
             console.log("✅ Dictation module loaded");
             module.initGame();
+            isGameLoading = false;
         })
         .catch(err => {
             console.error("❌ Failed to load Dictation module:", err);
             alert("Failed to load game module. Please check internet connection.");
+            isGameLoading = false;
             initLobby();
         });
 }

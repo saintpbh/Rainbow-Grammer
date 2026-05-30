@@ -18,7 +18,7 @@
           "color": "#FF7F00"
         }
       ],
-      "context": "Use when describing what you see in the night sky",
+      "context": "Basic Action",
       "question": "What do stars do?"
     },
     {
@@ -39,7 +39,7 @@
           "color": "#FF7F00"
         }
       ],
-      "context": "Use when describing what you hear birds doing",
+      "context": "Basic Action",
       "question": "What do birds do?"
     },
     {
@@ -60,7 +60,7 @@
           "color": "#FF7F00"
         }
       ],
-      "context": "Use when describing what babies naturally do",
+      "context": "Basic Action",
       "question": "What do babies do?"
     },
     {
@@ -81,8 +81,8 @@
           "color": "#FF7F00"
         }
       ],
-      "context": "Use when talking about how time passes quickly",
-      "question": "What do dogs do?"
+      "context": "Basic Action",
+      "question": "What does time do?"
     },
     {
       "id": "1-1-5",
@@ -102,8 +102,8 @@
           "color": "#FF7F00"
         }
       ],
-      "context": "Use when describing weather or air movement",
-      "question": "What do fish do?"
+      "context": "Basic Action",
+      "question": "What does wind do?"
     },
     {
       "id": "1-1-6",
@@ -123,8 +123,8 @@
           "color": "#FF7F00"
         }
       ],
-      "context": "Use when describing sounds animals make",
-      "question": "What do you do?"
+      "context": "Basic Action",
+      "question": "What do dogs do?"
     },
     {
       "id": "1-1-7",
@@ -144,8 +144,8 @@
           "color": "#FF7F00"
         }
       ],
-      "context": "Use when describing what flowers do in spring",
-      "question": "What do you do?"
+      "context": "Basic Action",
+      "question": "What do flowers do?"
     },
     {
       "id": "1-1-8",
@@ -165,14 +165,14 @@
           "color": "#FF7F00"
         }
       ],
-      "context": "Use when describing how water or rivers move",
-      "question": "What do we do?"
+      "context": "Basic Action",
+      "question": "What does water do?"
     },
     {
       "id": "1-1-9",
       "section": "Day 1",
       "description": "Subject + Verb: The simplest complete sentence structure",
-      "korean": "태양이 뜬다.",
+      "korean": "해가 뜬다.",
       "english": "The sun rises.",
       "chunks": [
         {
@@ -186,8 +186,8 @@
           "color": "#FF7F00"
         }
       ],
-      "context": "Use when talking about what happens in the morning",
-      "question": "What do they do?"
+      "context": "Basic Action",
+      "question": "What does the sun do?"
     },
     {
       "id": "1-1-10",
@@ -207,13 +207,223 @@
           "color": "#FF7F00"
         }
       ],
-      "context": "Use when talking about what happens at night",
+      "context": "Basic Action",
+      "question": "What does the moon do?"
+    },
+    {
+      "id": "1-1-11",
+      "section": "Day 1",
+      "description": "Subject + Verb: The simplest complete sentence structure",
+      "korean": "물고기들이 헤엄친다.",
+      "english": "Fish swim.",
+      "chunks": [
+        {
+          "text": "Fish",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "swim",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Basic Action",
+      "question": "What do fish do?"
+    },
+    {
+      "id": "1-1-12",
+      "section": "Day 1",
+      "description": "Subject + Verb: The simplest complete sentence structure",
+      "korean": "사자들이 으르렁거린다.",
+      "english": "Lions roar.",
+      "chunks": [
+        {
+          "text": "Lions",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "roar",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Basic Action",
+      "question": "What do lions do?"
+    },
+    {
+      "id": "1-1-13",
+      "section": "Day 1",
+      "description": "Subject + Verb: The simplest complete sentence structure",
+      "korean": "자동차들이 움직인다.",
+      "english": "Cars move.",
+      "chunks": [
+        {
+          "text": "Cars",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "move",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Basic Action",
       "question": "What do cars do?"
+    },
+    {
+      "id": "1-1-14",
+      "section": "Day 1",
+      "description": "Subject + Verb: The simplest complete sentence structure",
+      "korean": "비가 내린다.",
+      "english": "Rain falls.",
+      "chunks": [
+        {
+          "text": "Rain",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "falls",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Basic Action",
+      "question": "What does rain do?"
+    },
+    {
+      "id": "1-1-15",
+      "section": "Day 1",
+      "description": "Subject + Verb: The simplest complete sentence structure",
+      "korean": "불이 타오른다.",
+      "english": "Fire burns.",
+      "chunks": [
+        {
+          "text": "Fire",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "burns",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Basic Action",
+      "question": "What does fire do?"
+    },
+    {
+      "id": "1-1-16",
+      "section": "Day 1",
+      "description": "Subject + Verb: The simplest complete sentence structure",
+      "korean": "말들이 달린다.",
+      "english": "Horses run.",
+      "chunks": [
+        {
+          "text": "Horses",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "run",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Basic Action",
+      "question": "What do horses do?"
+    },
+    {
+      "id": "1-1-17",
+      "section": "Day 1",
+      "description": "Subject + Verb: The simplest complete sentence structure",
+      "korean": "비행기들이 난다.",
+      "english": "Planes fly.",
+      "chunks": [
+        {
+          "text": "Planes",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "fly",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Basic Action",
+      "question": "What do planes do?"
+    },
+    {
+      "id": "1-1-18",
+      "section": "Day 1",
+      "description": "Subject + Verb: The simplest complete sentence structure",
+      "korean": "심장이 뛴다.",
+      "english": "Hearts beat.",
+      "chunks": [
+        {
+          "text": "Hearts",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "beat",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Basic Action",
+      "question": "What do hearts do?"
+    },
+    {
+      "id": "1-1-19",
+      "section": "Day 1",
+      "description": "Subject + Verb: The simplest complete sentence structure",
+      "korean": "종이 울린다.",
+      "english": "Bells ring.",
+      "chunks": [
+        {
+          "text": "Bells",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "ring",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Basic Action",
+      "question": "What do bells do?"
+    },
+    {
+      "id": "1-1-20",
+      "section": "Day 1",
+      "description": "Subject + Verb: The simplest complete sentence structure",
+      "korean": "나뭇잎들이 떨어진다.",
+      "english": "Leaves fall.",
+      "chunks": [
+        {
+          "text": "Leaves",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "fall",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Basic Action",
+      "question": "What do leaves do?"
     },
     {
       "id": "1-2-1",
       "section": "Day 2",
-      "description": "Subject + Verb: Expanding vocabulary with the same pattern",
+      "description": "Subject + Verb: People and Professions",
       "korean": "아이들이 논다.",
       "english": "Children play.",
       "chunks": [
@@ -227,107 +437,14 @@
           "role": "Verb",
           "color": "#FF7F00"
         }
-      ]
+      ],
+      "context": "Human Actions",
+      "question": "What do children do?"
     },
     {
       "id": "1-2-2",
       "section": "Day 2",
-      "description": "Subject + Verb: Expanding vocabulary with the same pattern",
-      "korean": "나무들이 자란다.",
-      "english": "Trees grow.",
-      "chunks": [
-        {
-          "text": "Trees",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "grow",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ]
-    },
-    {
-      "id": "1-2-3",
-      "section": "Day 2",
-      "description": "Subject + Verb: Expanding vocabulary with the same pattern",
-      "korean": "눈이 내린다.",
-      "english": "Snow falls.",
-      "chunks": [
-        {
-          "text": "Snow",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "falls",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ]
-    },
-    {
-      "id": "1-2-4",
-      "section": "Day 2",
-      "description": "Subject + Verb: Expanding vocabulary with the same pattern",
-      "korean": "비가 온다.",
-      "english": "Rain comes.",
-      "chunks": [
-        {
-          "text": "Rain",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "comes",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ]
-    },
-    {
-      "id": "1-2-5",
-      "section": "Day 2",
-      "description": "Subject + Verb: Expanding vocabulary with the same pattern",
-      "korean": "문이 열린다.",
-      "english": "The door opens.",
-      "chunks": [
-        {
-          "text": "The door",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "opens",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ]
-    },
-    {
-      "id": "1-2-6",
-      "section": "Day 2",
-      "description": "Subject + Verb: Expanding vocabulary with the same pattern",
-      "korean": "창문이 닫힌다.",
-      "english": "The window closes.",
-      "chunks": [
-        {
-          "text": "The window",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "closes",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ]
-    },
-    {
-      "id": "1-2-7",
-      "section": "Day 2",
-      "description": "Subject + Verb: Expanding vocabulary with the same pattern",
+      "description": "Subject + Verb: People and Professions",
       "korean": "학생들이 공부한다.",
       "english": "Students study.",
       "chunks": [
@@ -341,69 +458,418 @@
           "role": "Verb",
           "color": "#FF7F00"
         }
-      ]
+      ],
+      "context": "Human Actions",
+      "question": "What do students do?"
+    },
+    {
+      "id": "1-2-3",
+      "section": "Day 2",
+      "description": "Subject + Verb: People and Professions",
+      "korean": "선생님들이 가르친다.",
+      "english": "Teachers teach.",
+      "chunks": [
+        {
+          "text": "Teachers",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "teach",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Human Actions",
+      "question": "What do teachers do?"
+    },
+    {
+      "id": "1-2-4",
+      "section": "Day 2",
+      "description": "Subject + Verb: People and Professions",
+      "korean": "댄서들이 춤을 춘다.",
+      "english": "Dancers dance.",
+      "chunks": [
+        {
+          "text": "Dancers",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "dance",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Human Actions",
+      "question": "What do dancers do?"
+    },
+    {
+      "id": "1-2-5",
+      "section": "Day 2",
+      "description": "Subject + Verb: People and Professions",
+      "korean": "주자들이 달린다.",
+      "english": "Runners run.",
+      "chunks": [
+        {
+          "text": "Runners",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "run",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Human Actions",
+      "question": "What do runners do?"
+    },
+    {
+      "id": "1-2-6",
+      "section": "Day 2",
+      "description": "Subject + Verb: People and Professions",
+      "korean": "가수들이 노래한다.",
+      "english": "Singers sing.",
+      "chunks": [
+        {
+          "text": "Singers",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "sing",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Human Actions",
+      "question": "What do singers do?"
+    },
+    {
+      "id": "1-2-7",
+      "section": "Day 2",
+      "description": "Subject + Verb: People and Professions",
+      "korean": "화가들이 그림을 그린다.",
+      "english": "Painters paint.",
+      "chunks": [
+        {
+          "text": "Painters",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "paint",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Human Actions",
+      "question": "What do painters do?"
     },
     {
       "id": "1-2-8",
       "section": "Day 2",
-      "description": "Subject + Verb: Expanding vocabulary with the same pattern",
-      "korean": "고양이가 잔다.",
-      "english": "The cat sleeps.",
+      "description": "Subject + Verb: People and Professions",
+      "korean": "운전기사들이 운전한다.",
+      "english": "Drivers drive.",
       "chunks": [
         {
-          "text": "The cat",
+          "text": "Drivers",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "sleeps",
+          "text": "drive",
           "role": "Verb",
           "color": "#FF7F00"
         }
-      ]
+      ],
+      "context": "Human Actions",
+      "question": "What do drivers do?"
     },
     {
       "id": "1-2-9",
       "section": "Day 2",
-      "description": "Subject + Verb: Expanding vocabulary with the same pattern",
-      "korean": "강아지가 뛴다.",
-      "english": "The puppy runs.",
+      "description": "Subject + Verb: People and Professions",
+      "korean": "요리사들이 요리한다.",
+      "english": "Cooks cook.",
       "chunks": [
         {
-          "text": "The puppy",
+          "text": "Cooks",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "runs",
+          "text": "cook",
           "role": "Verb",
           "color": "#FF7F00"
         }
-      ]
+      ],
+      "context": "Human Actions",
+      "question": "What do cooks do?"
     },
     {
       "id": "1-2-10",
       "section": "Day 2",
-      "description": "Subject + Verb: Expanding vocabulary with the same pattern",
-      "korean": "전화벨이 울린다.",
-      "english": "The phone rings.",
+      "description": "Subject + Verb: People and Professions",
+      "korean": "작가들이 글을 쓴다.",
+      "english": "Writers write.",
       "chunks": [
         {
-          "text": "The phone",
+          "text": "Writers",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "rings",
+          "text": "write",
           "role": "Verb",
           "color": "#FF7F00"
         }
-      ]
+      ],
+      "context": "Human Actions",
+      "question": "What do writers do?"
+    },
+    {
+      "id": "1-2-11",
+      "section": "Day 2",
+      "description": "Subject + Verb: People and Professions",
+      "korean": "아기들이 잔다.",
+      "english": "Babies sleep.",
+      "chunks": [
+        {
+          "text": "Babies",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "sleep",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Human Actions",
+      "question": "What do babies do?"
+    },
+    {
+      "id": "1-2-12",
+      "section": "Day 2",
+      "description": "Subject + Verb: People and Professions",
+      "korean": "군인들이 행진한다.",
+      "english": "Soldiers march.",
+      "chunks": [
+        {
+          "text": "Soldiers",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "march",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Human Actions",
+      "question": "What do soldiers do?"
+    },
+    {
+      "id": "1-2-13",
+      "section": "Day 2",
+      "description": "Subject + Verb: People and Professions",
+      "korean": "노동자들이 일한다.",
+      "english": "Workers work.",
+      "chunks": [
+        {
+          "text": "Workers",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "work",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Human Actions",
+      "question": "What do workers do?"
+    },
+    {
+      "id": "1-2-14",
+      "section": "Day 2",
+      "description": "Subject + Verb: People and Professions",
+      "korean": "선수들이 연습한다.",
+      "english": "Players practice.",
+      "chunks": [
+        {
+          "text": "Players",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "practice",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Human Actions",
+      "question": "What do players do?"
+    },
+    {
+      "id": "1-2-15",
+      "section": "Day 2",
+      "description": "Subject + Verb: People and Professions",
+      "korean": "배우들이 연기한다.",
+      "english": "Actors act.",
+      "chunks": [
+        {
+          "text": "Actors",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "act",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Human Actions",
+      "question": "What do actors do?"
+    },
+    {
+      "id": "1-2-16",
+      "section": "Day 2",
+      "description": "Subject + Verb: People and Professions",
+      "korean": "리더들이 이끈다.",
+      "english": "Leaders lead.",
+      "chunks": [
+        {
+          "text": "Leaders",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "lead",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Human Actions",
+      "question": "What do leaders do?"
+    },
+    {
+      "id": "1-2-17",
+      "section": "Day 2",
+      "description": "Subject + Verb: People and Professions",
+      "korean": "건축가들이 짓는다.",
+      "english": "Builders build.",
+      "chunks": [
+        {
+          "text": "Builders",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "build",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Human Actions",
+      "question": "What do builders do?"
+    },
+    {
+      "id": "1-2-18",
+      "section": "Day 2",
+      "description": "Subject + Verb: People and Professions",
+      "korean": "사상가들이 생각한다.",
+      "english": "Thinkers think.",
+      "chunks": [
+        {
+          "text": "Thinkers",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "think",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Human Actions",
+      "question": "What do thinkers do?"
+    },
+    {
+      "id": "1-2-19",
+      "section": "Day 2",
+      "description": "Subject + Verb: People and Professions",
+      "korean": "몽상가들이 꿈을 꾼다.",
+      "english": "Dreamers dream.",
+      "chunks": [
+        {
+          "text": "Dreamers",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "dream",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Human Actions",
+      "question": "What do dreamers do?"
+    },
+    {
+      "id": "1-2-20",
+      "section": "Day 2",
+      "description": "Subject + Verb: People and Professions",
+      "korean": "연인들이 사랑한다.",
+      "english": "Lovers love.",
+      "chunks": [
+        {
+          "text": "Lovers",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "love",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "context": "Human Actions",
+      "question": "What do lovers do?"
     },
     {
       "id": "1-3-1",
       "section": "Day 3",
-      "description": "Subject + Verb + Complement (Noun): Linking verbs with noun complements",
+      "description": "Subject + Verb + Noun Complement",
+      "korean": "나는 학생이다.",
+      "english": "I am a student.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "am",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a student",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Identity",
+      "question": "Who are you?"
+    },
+    {
+      "id": "1-3-2",
+      "section": "Day 3",
+      "description": "Subject + Verb + Noun Complement",
       "korean": "그녀는 선생님이다.",
       "english": "She is a teacher.",
       "chunks": [
@@ -420,16 +886,18 @@
         {
           "text": "a teacher",
           "role": "Complement",
-          "color": "#00FF00"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Identity",
+      "question": "Who is she?"
     },
     {
-      "id": "1-3-2",
+      "id": "1-3-3",
       "section": "Day 3",
-      "description": "Subject + Verb + Complement (Noun): Linking verbs with noun complements",
-      "korean": "그는 의사가 되었다.",
-      "english": "He became a doctor.",
+      "description": "Subject + Verb + Noun Complement",
+      "korean": "그는 의사이다.",
+      "english": "He is a doctor.",
       "chunks": [
         {
           "text": "He",
@@ -437,47 +905,51 @@
           "color": "#FF0000"
         },
         {
-          "text": "became",
+          "text": "is",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
           "text": "a doctor",
           "role": "Complement",
-          "color": "#00FF00"
+          "color": "#BA68C8"
         }
-      ]
-    },
-    {
-      "id": "1-3-3",
-      "section": "Day 3",
-      "description": "Subject + Verb + Complement (Noun): Linking verbs with noun complements",
-      "korean": "나는 학생이다.",
-      "english": "I am a student.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "am",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a student",
-          "role": "Complement",
-          "color": "#00FF00"
-        }
-      ]
+      ],
+      "context": "Identity",
+      "question": "Who is he?"
     },
     {
       "id": "1-3-4",
       "section": "Day 3",
-      "description": "Subject + Verb + Complement (Noun): Linking verbs with noun complements",
-      "korean": "그들은 친구들이다.",
-      "english": "They are friends.",
+      "description": "Subject + Verb + Noun Complement",
+      "korean": "우리는 친구이다.",
+      "english": "We are friends.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "are",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "friends",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Identity",
+      "question": "Who are we?"
+    },
+    {
+      "id": "1-3-5",
+      "section": "Day 3",
+      "description": "Subject + Verb + Noun Complement",
+      "korean": "그들은 선수들이다.",
+      "english": "They are players.",
       "chunks": [
         {
           "text": "They",
@@ -490,16 +962,18 @@
           "color": "#FF7F00"
         },
         {
-          "text": "friends",
+          "text": "players",
           "role": "Complement",
-          "color": "#00FF00"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Identity",
+      "question": "Who are they?"
     },
     {
-      "id": "1-3-5",
+      "id": "1-3-6",
       "section": "Day 3",
-      "description": "Subject + Verb + Complement (Noun): Linking verbs with noun complements",
+      "description": "Subject + Verb + Noun Complement",
       "korean": "이것은 책이다.",
       "english": "This is a book.",
       "chunks": [
@@ -516,16 +990,18 @@
         {
           "text": "a book",
           "role": "Complement",
-          "color": "#00FF00"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Identity",
+      "question": "What is this?"
     },
     {
-      "id": "1-3-6",
+      "id": "1-3-7",
       "section": "Day 3",
-      "description": "Subject + Verb + Complement (Noun): Linking verbs with noun complements",
-      "korean": "그것은 연필이다.",
-      "english": "That is a pencil.",
+      "description": "Subject + Verb + Noun Complement",
+      "korean": "저것은 차이다.",
+      "english": "That is a car.",
       "chunks": [
         {
           "text": "That",
@@ -538,16 +1014,18 @@
           "color": "#FF7F00"
         },
         {
-          "text": "a pencil",
+          "text": "a car",
           "role": "Complement",
-          "color": "#00FF00"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Identity",
+      "question": "What is that?"
     },
     {
-      "id": "1-3-7",
+      "id": "1-3-8",
       "section": "Day 3",
-      "description": "Subject + Verb + Complement (Noun): Linking verbs with noun complements",
+      "description": "Subject + Verb + Noun Complement",
       "korean": "서울은 도시이다.",
       "english": "Seoul is a city.",
       "chunks": [
@@ -564,14 +1042,94 @@
         {
           "text": "a city",
           "role": "Complement",
-          "color": "#00FF00"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Identity",
+      "question": "What is Seoul?"
     },
     {
-      "id": "1-3-8",
+      "id": "1-3-9",
       "section": "Day 3",
-      "description": "Subject + Verb + Complement (Noun): Linking verbs with noun complements",
+      "description": "Subject + Verb + Noun Complement",
+      "korean": "그것은 고양이이다.",
+      "english": "It is a cat.",
+      "chunks": [
+        {
+          "text": "It",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a cat",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Identity",
+      "question": "What is it?"
+    },
+    {
+      "id": "1-3-10",
+      "section": "Day 3",
+      "description": "Subject + Verb + Noun Complement",
+      "korean": "너는 영웅이다.",
+      "english": "You are a hero.",
+      "chunks": [
+        {
+          "text": "You",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "are",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a hero",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Identity",
+      "question": "Who am I?"
+    },
+    {
+      "id": "1-3-11",
+      "section": "Day 3",
+      "description": "Subject + Verb + Noun Complement",
+      "korean": "톰은 요리사이다.",
+      "english": "Tom is a cook.",
+      "chunks": [
+        {
+          "text": "Tom",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a cook",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Identity",
+      "question": "Who is Tom?"
+    },
+    {
+      "id": "1-3-12",
+      "section": "Day 3",
+      "description": "Subject + Verb + Noun Complement",
       "korean": "제인은 간호사이다.",
       "english": "Jane is a nurse.",
       "chunks": [
@@ -588,38 +1146,16 @@
         {
           "text": "a nurse",
           "role": "Complement",
-          "color": "#00FF00"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Identity",
+      "question": "Who is Jane?"
     },
     {
-      "id": "1-3-9",
+      "id": "1-3-13",
       "section": "Day 3",
-      "description": "Subject + Verb + Complement (Noun): Linking verbs with noun complements",
-      "korean": "톰은 요리사가 되었다.",
-      "english": "Tom became a chef.",
-      "chunks": [
-        {
-          "text": "Tom",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "became",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a chef",
-          "role": "Complement",
-          "color": "#00FF00"
-        }
-      ]
-    },
-    {
-      "id": "1-3-10",
-      "section": "Day 3",
-      "description": "Subject + Verb + Complement (Noun): Linking verbs with noun complements",
+      "description": "Subject + Verb + Noun Complement",
       "korean": "우리는 팀이다.",
       "english": "We are a team.",
       "chunks": [
@@ -636,14 +1172,198 @@
         {
           "text": "a team",
           "role": "Complement",
-          "color": "#00FF00"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Identity",
+      "question": "Who are we?"
+    },
+    {
+      "id": "1-3-14",
+      "section": "Day 3",
+      "description": "Subject + Verb + Noun Complement",
+      "korean": "이것은 펜이다.",
+      "english": "This is a pen.",
+      "chunks": [
+        {
+          "text": "This",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a pen",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Identity",
+      "question": "What is this?"
+    },
+    {
+      "id": "1-3-15",
+      "section": "Day 3",
+      "description": "Subject + Verb + Noun Complement",
+      "korean": "저것은 별이다.",
+      "english": "That is a star.",
+      "chunks": [
+        {
+          "text": "That",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a star",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Identity",
+      "question": "What is that?"
+    },
+    {
+      "id": "1-3-16",
+      "section": "Day 3",
+      "description": "Subject + Verb + Noun Complement",
+      "korean": "그는 왕이 되었다.",
+      "english": "He became a king.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "became",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a king",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Identity",
+      "question": "What did he become?"
+    },
+    {
+      "id": "1-3-17",
+      "section": "Day 3",
+      "description": "Subject + Verb + Noun Complement",
+      "korean": "그녀는 엄마가 되었다.",
+      "english": "She became a mom.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "became",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a mom",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Identity",
+      "question": "What did she become?"
+    },
+    {
+      "id": "1-3-18",
+      "section": "Day 3",
+      "description": "Subject + Verb + Noun Complement",
+      "korean": "그것은 나비가 되었다.",
+      "english": "It became a butterfly.",
+      "chunks": [
+        {
+          "text": "It",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "became",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a butterfly",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Identity",
+      "question": "What did it become?"
+    },
+    {
+      "id": "1-3-19",
+      "section": "Day 3",
+      "description": "Subject + Verb + Noun Complement",
+      "korean": "그들은 친구로 남았다.",
+      "english": "They remain friends.",
+      "chunks": [
+        {
+          "text": "They",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "remain",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "friends",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Identity",
+      "question": "What do they remain?"
+    },
+    {
+      "id": "1-3-20",
+      "section": "Day 3",
+      "description": "Subject + Verb + Noun Complement",
+      "korean": "나는 승리자가 된 기분이다.",
+      "english": "I feel a winner.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "feel",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a winner",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Identity",
+      "question": "How do you feel?"
     },
     {
       "id": "1-4-1",
       "section": "Day 4",
-      "description": "Subject + Verb + Complement (Adjective): Linking verbs with adjective complements",
+      "description": "Subject + Verb + Adjective Complement",
       "korean": "하늘은 파랗다.",
       "english": "The sky is blue.",
       "chunks": [
@@ -660,14 +1380,16 @@
         {
           "text": "blue",
           "role": "Complement",
-          "color": "#00FF00"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Description",
+      "question": "How is the sky?"
     },
     {
       "id": "1-4-2",
       "section": "Day 4",
-      "description": "Subject + Verb + Complement (Adjective): Linking verbs with adjective complements",
+      "description": "Subject + Verb + Adjective Complement",
       "korean": "그녀는 행복해 보인다.",
       "english": "She looks happy.",
       "chunks": [
@@ -684,86 +1406,16 @@
         {
           "text": "happy",
           "role": "Complement",
-          "color": "#00FF00"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Description",
+      "question": "How does she look?"
     },
     {
       "id": "1-4-3",
       "section": "Day 4",
-      "description": "Subject + Verb + Complement (Adjective): Linking verbs with adjective complements",
-      "korean": "음식이 맛있다.",
-      "english": "The food tastes delicious.",
-      "chunks": [
-        {
-          "text": "The food",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "tastes",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "delicious",
-          "role": "Complement",
-          "color": "#00FF00"
-        }
-      ]
-    },
-    {
-      "id": "1-4-4",
-      "section": "Day 4",
-      "description": "Subject + Verb + Complement (Adjective): Linking verbs with adjective complements",
-      "korean": "날씨가 따듯하다.",
-      "english": "The weather feels warm.",
-      "chunks": [
-        {
-          "text": "The weather",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "feels",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "warm",
-          "role": "Complement",
-          "color": "#00FF00"
-        }
-      ]
-    },
-    {
-      "id": "1-4-5",
-      "section": "Day 4",
-      "description": "Subject + Verb + Complement (Adjective): Linking verbs with adjective complements",
-      "korean": "꽃이 아름답다.",
-      "english": "The flower smells beautiful.",
-      "chunks": [
-        {
-          "text": "The flower",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "smells",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "beautiful",
-          "role": "Complement",
-          "color": "#00FF00"
-        }
-      ]
-    },
-    {
-      "id": "1-4-6",
-      "section": "Day 4",
-      "description": "Subject + Verb + Complement (Adjective): Linking verbs with adjective complements",
+      "description": "Subject + Verb + Adjective Complement",
       "korean": "그는 피곤해 보인다.",
       "english": "He seems tired.",
       "chunks": [
@@ -780,14 +1432,146 @@
         {
           "text": "tired",
           "role": "Complement",
-          "color": "#00FF00"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Description",
+      "question": "How does he seem?"
+    },
+    {
+      "id": "1-4-4",
+      "section": "Day 4",
+      "description": "Subject + Verb + Adjective Complement",
+      "korean": "음식 맛이 좋다.",
+      "english": "The food tastes good.",
+      "chunks": [
+        {
+          "text": "The food",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "tastes",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "good",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Description",
+      "question": "How does the food taste?"
+    },
+    {
+      "id": "1-4-5",
+      "section": "Day 4",
+      "description": "Subject + Verb + Adjective Complement",
+      "korean": "꽃 향기가 좋다.",
+      "english": "The flower smells nice.",
+      "chunks": [
+        {
+          "text": "The flower",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "smells",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "nice",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Description",
+      "question": "How does the flower smell?"
+    },
+    {
+      "id": "1-4-6",
+      "section": "Day 4",
+      "description": "Subject + Verb + Adjective Complement",
+      "korean": "나는 기분이 좋다.",
+      "english": "I feel great.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "feel",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "great",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Description",
+      "question": "How do you feel?"
     },
     {
       "id": "1-4-7",
       "section": "Day 4",
-      "description": "Subject + Verb + Complement (Adjective): Linking verbs with adjective complements",
+      "description": "Subject + Verb + Adjective Complement",
+      "korean": "너는 아름다워 보인다.",
+      "english": "You look beautiful.",
+      "chunks": [
+        {
+          "text": "You",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "look",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "beautiful",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Description",
+      "question": "How do I look?"
+    },
+    {
+      "id": "1-4-8",
+      "section": "Day 4",
+      "description": "Subject + Verb + Adjective Complement",
+      "korean": "그것은 재미있게 들린다.",
+      "english": "It sounds fun.",
+      "chunks": [
+        {
+          "text": "It",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "sounds",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "fun",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Description",
+      "question": "How does it sound?"
+    },
+    {
+      "id": "1-4-9",
+      "section": "Day 4",
+      "description": "Subject + Verb + Adjective Complement",
       "korean": "방이 깨끗하다.",
       "english": "The room is clean.",
       "chunks": [
@@ -804,63 +1588,17 @@
         {
           "text": "clean",
           "role": "Complement",
-          "color": "#00FF00"
+          "color": "#BA68C8"
         }
-      ]
-    },
-    {
-      "id": "1-4-8",
-      "section": "Day 4",
-      "description": "Subject + Verb + Complement (Adjective): Linking verbs with adjective complements",
-      "korean": "차가 빠르다.",
-      "english": "The car is fast.",
-      "chunks": [
-        {
-          "text": "The car",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "fast",
-          "role": "Complement",
-          "color": "#00FF00"
-        }
-      ]
-    },
-    {
-      "id": "1-4-9",
-      "section": "Day 4",
-      "description": "Subject + Verb + Complement (Adjective): Linking verbs with adjective complements",
-      "korean": "이야기가 흥미롭다.",
-      "english": "The story sounds interesting.",
-      "chunks": [
-        {
-          "text": "The story",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sounds",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "interesting",
-          "role": "Complement",
-          "color": "#00FF00"
-        }
-      ]
+      ],
+      "context": "Description",
+      "question": "How is the room?"
     },
     {
       "id": "1-4-10",
       "section": "Day 4",
-      "description": "Subject + Verb + Complement (Adjective): Linking verbs with adjective complements",
-      "korean": "물이 차갑다.",
+      "description": "Subject + Verb + Adjective Complement",
+      "korean": "물은 차갑다.",
       "english": "The water is cold.",
       "chunks": [
         {
@@ -876,16 +1614,278 @@
         {
           "text": "cold",
           "role": "Complement",
-          "color": "#00FF00"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Description",
+      "question": "How is the water?"
+    },
+    {
+      "id": "1-4-11",
+      "section": "Day 4",
+      "description": "Subject + Verb + Adjective Complement",
+      "korean": "태양은 뜨겁다.",
+      "english": "The sun is hot.",
+      "chunks": [
+        {
+          "text": "The sun",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "hot",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Description",
+      "question": "How is the sun?"
+    },
+    {
+      "id": "1-4-12",
+      "section": "Day 4",
+      "description": "Subject + Verb + Adjective Complement",
+      "korean": "바람이 시원하게 느껴진다.",
+      "english": "The wind feels cool.",
+      "chunks": [
+        {
+          "text": "The wind",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "feels",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "cool",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Description",
+      "question": "How does the wind feel?"
+    },
+    {
+      "id": "1-4-13",
+      "section": "Day 4",
+      "description": "Subject + Verb + Adjective Complement",
+      "korean": "그들은 화가 났다.",
+      "english": "They become angry.",
+      "chunks": [
+        {
+          "text": "They",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "become",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "angry",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Description",
+      "question": "How do they become?"
+    },
+    {
+      "id": "1-4-14",
+      "section": "Day 4",
+      "description": "Subject + Verb + Adjective Complement",
+      "korean": "우리는 바쁘다.",
+      "english": "We are busy.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "are",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "busy",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Description",
+      "question": "How are we?"
+    },
+    {
+      "id": "1-4-15",
+      "section": "Day 4",
+      "description": "Subject + Verb + Adjective Complement",
+      "korean": "시험은 어려웠다.",
+      "english": "The test was hard.",
+      "chunks": [
+        {
+          "text": "The test",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "was",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "hard",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Description",
+      "question": "How was the test?"
+    },
+    {
+      "id": "1-4-16",
+      "section": "Day 4",
+      "description": "Subject + Verb + Adjective Complement",
+      "korean": "인생은 아름답다.",
+      "english": "Life is beautiful.",
+      "chunks": [
+        {
+          "text": "Life",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "beautiful",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Description",
+      "question": "How is life?"
+    },
+    {
+      "id": "1-4-17",
+      "section": "Day 4",
+      "description": "Subject + Verb + Adjective Complement",
+      "korean": "그는 침착했다.",
+      "english": "He stayed calm.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "stayed",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "calm",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Description",
+      "question": "How did he stay?"
+    },
+    {
+      "id": "1-4-18",
+      "section": "Day 4",
+      "description": "Subject + Verb + Adjective Complement",
+      "korean": "그녀는 아프게 되었다.",
+      "english": "She got sick.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "got",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "sick",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Description",
+      "question": "How did she get?"
+    },
+    {
+      "id": "1-4-19",
+      "section": "Day 4",
+      "description": "Subject + Verb + Adjective Complement",
+      "korean": "그 차는 빠르다.",
+      "english": "The car is fast.",
+      "chunks": [
+        {
+          "text": "The car",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "fast",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Description",
+      "question": "How is the car?"
+    },
+    {
+      "id": "1-4-20",
+      "section": "Day 4",
+      "description": "Subject + Verb + Adjective Complement",
+      "korean": "밤은 어둡다.",
+      "english": "The night is dark.",
+      "chunks": [
+        {
+          "text": "The night",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "dark",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Description",
+      "question": "How is the night?"
     },
     {
       "id": "1-5-1",
       "section": "Day 5",
-      "description": "Subject + Verb + Adverb: Adding manner, time, or place information",
+      "description": "Subject + Verb + Adverb",
       "korean": "그는 빨리 달린다.",
-      "english": "He runs quickly.",
+      "english": "He runs fast.",
       "chunks": [
         {
           "text": "He",
@@ -898,112 +1898,18 @@
           "color": "#FF7F00"
         },
         {
-          "text": "quickly",
-          "role": "Modifier",
-          "color": "#0000FF"
+          "text": "fast",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Manner",
+      "question": "How does he run?"
     },
     {
       "id": "1-5-2",
       "section": "Day 5",
-      "description": "Subject + Verb + Adverb: Adding manner, time, or place information",
-      "korean": "그녀는 명확하게 말한다.",
-      "english": "She speaks clearly.",
-      "chunks": [
-        {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "speaks",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "clearly",
-          "role": "Modifier",
-          "color": "#0000FF"
-        }
-      ]
-    },
-    {
-      "id": "1-5-3",
-      "section": "Day 5",
-      "description": "Subject + Verb + Adverb: Adding manner, time, or place information",
-      "korean": "그들은 열심히 일한다.",
-      "english": "They work hard.",
-      "chunks": [
-        {
-          "text": "They",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "work",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "hard",
-          "role": "Modifier",
-          "color": "#0000FF"
-        }
-      ]
-    },
-    {
-      "id": "1-5-4",
-      "section": "Day 5",
-      "description": "Subject + Verb + Adverb: Adding manner, time, or place information",
-      "korean": "아이가 조용히 잔다.",
-      "english": "The baby sleeps quietly.",
-      "chunks": [
-        {
-          "text": "The baby",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sleeps",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "quietly",
-          "role": "Modifier",
-          "color": "#0000FF"
-        }
-      ]
-    },
-    {
-      "id": "1-5-5",
-      "section": "Day 5",
-      "description": "Subject + Verb + Adverb: Adding manner, time, or place information",
-      "korean": "새가 높이 난다.",
-      "english": "The bird flies high.",
-      "chunks": [
-        {
-          "text": "The bird",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "flies",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "high",
-          "role": "Modifier",
-          "color": "#0000FF"
-        }
-      ]
-    },
-    {
-      "id": "1-5-6",
-      "section": "Day 5",
-      "description": "Subject + Verb + Adverb: Adding manner, time, or place information",
+      "description": "Subject + Verb + Adverb",
       "korean": "그녀는 아름답게 노래한다.",
       "english": "She sings beautifully.",
       "chunks": [
@@ -1019,17 +1925,97 @@
         },
         {
           "text": "beautifully",
-          "role": "Modifier",
-          "color": "#0000FF"
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Manner",
+      "question": "How does she sing?"
     },
     {
-      "id": "1-5-7",
+      "id": "1-5-3",
       "section": "Day 5",
-      "description": "Subject + Verb + Adverb: Adding manner, time, or place information",
-      "korean": "시간이 천천히 간다.",
-      "english": "Time passes slowly.",
+      "description": "Subject + Verb + Adverb",
+      "korean": "그들은 열심히 일한다.",
+      "english": "They work hard.",
+      "chunks": [
+        {
+          "text": "They",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "work",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "hard",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Manner",
+      "question": "How do they work?"
+    },
+    {
+      "id": "1-5-4",
+      "section": "Day 5",
+      "description": "Subject + Verb + Adverb",
+      "korean": "새들은 높이 난다.",
+      "english": "Birds fly high.",
+      "chunks": [
+        {
+          "text": "Birds",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "fly",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "high",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Manner",
+      "question": "How do birds fly?"
+    },
+    {
+      "id": "1-5-5",
+      "section": "Day 5",
+      "description": "Subject + Verb + Adverb",
+      "korean": "나는 열심히 공부한다.",
+      "english": "I study hard.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "study",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "hard",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Manner",
+      "question": "How do you study?"
+    },
+    {
+      "id": "1-5-6",
+      "section": "Day 5",
+      "description": "Subject + Verb + Adverb",
+      "korean": "시간은 빨리 흐른다.",
+      "english": "Time passes quickly.",
       "chunks": [
         {
           "text": "Time",
@@ -1042,45 +2028,101 @@
           "color": "#FF7F00"
         },
         {
-          "text": "slowly",
-          "role": "Modifier",
-          "color": "#0000FF"
+          "text": "quickly",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Manner",
+      "question": "How does time pass?"
     },
     {
-      "id": "1-5-8",
+      "id": "1-5-7",
       "section": "Day 5",
-      "description": "Subject + Verb + Adverb: Adding manner, time, or place information",
-      "korean": "학생들이 조용히 공부한다.",
-      "english": "Students study silently.",
+      "description": "Subject + Verb + Adverb",
+      "korean": "태양은 밝게 빛난다.",
+      "english": "The sun shines brightly.",
       "chunks": [
         {
-          "text": "Students",
+          "text": "The sun",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "study",
+          "text": "shines",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "silently",
-          "role": "Modifier",
-          "color": "#0000FF"
+          "text": "brightly",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Manner",
+      "question": "How does the sun shine?"
+    },
+    {
+      "id": "1-5-8",
+      "section": "Day 5",
+      "description": "Subject + Verb + Adverb",
+      "korean": "우리는 천천히 걷는다.",
+      "english": "We walk slowly.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "walk",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "slowly",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Manner",
+      "question": "How do we walk?"
     },
     {
       "id": "1-5-9",
       "section": "Day 5",
-      "description": "Subject + Verb + Adverb: Adding manner, time, or place information",
-      "korean": "그는 부드럽게 웃는다.",
-      "english": "He smiles gently.",
+      "description": "Subject + Verb + Adverb",
+      "korean": "그는 크게 말한다.",
+      "english": "He speaks loudly.",
       "chunks": [
         {
           "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "speaks",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "loudly",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Manner",
+      "question": "How does he speak?"
+    },
+    {
+      "id": "1-5-10",
+      "section": "Day 5",
+      "description": "Subject + Verb + Adverb",
+      "korean": "그녀는 달콤하게 미소 짓는다.",
+      "english": "She smiles sweetly.",
+      "chunks": [
+        {
+          "text": "She",
           "role": "Subject",
           "color": "#FF0000"
         },
@@ -1090,18 +2132,228 @@
           "color": "#FF7F00"
         },
         {
-          "text": "gently",
-          "role": "Modifier",
-          "color": "#0000FF"
+          "text": "sweetly",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Manner",
+      "question": "How does she smile?"
     },
     {
-      "id": "1-5-10",
+      "id": "1-5-11",
       "section": "Day 5",
-      "description": "Subject + Verb + Adverb: Adding manner, time, or place information",
-      "korean": "우리는 자주 만난다.",
-      "english": "We meet often.",
+      "description": "Subject + Verb + Adverb",
+      "korean": "기차는 빨리 움직인다.",
+      "english": "Trains move fast.",
+      "chunks": [
+        {
+          "text": "Trains",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "move",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "fast",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Manner",
+      "question": "How do trains move?"
+    },
+    {
+      "id": "1-5-12",
+      "section": "Day 5",
+      "description": "Subject + Verb + Adverb",
+      "korean": "비가 부드럽게 내린다.",
+      "english": "Rain falls softly.",
+      "chunks": [
+        {
+          "text": "Rain",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "falls",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "softly",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Manner",
+      "question": "How does rain fall?"
+    },
+    {
+      "id": "1-5-13",
+      "section": "Day 5",
+      "description": "Subject + Verb + Adverb",
+      "korean": "그들은 행복하게 논다.",
+      "english": "They play happily.",
+      "chunks": [
+        {
+          "text": "They",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "play",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "happily",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Manner",
+      "question": "How do they play?"
+    },
+    {
+      "id": "1-5-14",
+      "section": "Day 5",
+      "description": "Subject + Verb + Adverb",
+      "korean": "너는 잘했다.",
+      "english": "You did well.",
+      "chunks": [
+        {
+          "text": "You",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "did",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "well",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Manner",
+      "question": "How did I do?"
+    },
+    {
+      "id": "1-5-15",
+      "section": "Day 5",
+      "description": "Subject + Verb + Adverb",
+      "korean": "그것은 슬프게 끝난다.",
+      "english": "It ends sadly.",
+      "chunks": [
+        {
+          "text": "It",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "ends",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "sadly",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Manner",
+      "question": "How does it end?"
+    },
+    {
+      "id": "1-5-16",
+      "section": "Day 5",
+      "description": "Subject + Verb + Adverb",
+      "korean": "바람이 세게 분다.",
+      "english": "Wind blows hard.",
+      "chunks": [
+        {
+          "text": "Wind",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "blows",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "hard",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Manner",
+      "question": "How does wind blow?"
+    },
+    {
+      "id": "1-5-17",
+      "section": "Day 5",
+      "description": "Subject + Verb + Adverb",
+      "korean": "그는 조심스럽게 운전한다.",
+      "english": "He drives carefully.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "drives",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "carefully",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Manner",
+      "question": "How does he drive?"
+    },
+    {
+      "id": "1-5-18",
+      "section": "Day 5",
+      "description": "Subject + Verb + Adverb",
+      "korean": "그녀는 조용히 듣는다.",
+      "english": "She listens quietly.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "listens",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "quietly",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Manner",
+      "question": "How does she listen?"
+    },
+    {
+      "id": "1-5-19",
+      "section": "Day 5",
+      "description": "Subject + Verb + Adverb",
+      "korean": "우리는 행복하게 산다.",
+      "english": "We live happily.",
       "chunks": [
         {
           "text": "We",
@@ -1109,26 +2361,54 @@
           "color": "#FF0000"
         },
         {
-          "text": "meet",
+          "text": "live",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "often",
-          "role": "Modifier",
-          "color": "#0000FF"
+          "text": "happily",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Manner",
+      "question": "How do we live?"
+    },
+    {
+      "id": "1-5-20",
+      "section": "Day 5",
+      "description": "Subject + Verb + Adverb",
+      "korean": "별들은 항상 빛난다.",
+      "english": "Stars shine always.",
+      "chunks": [
+        {
+          "text": "Stars",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "shine",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "always",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Manner",
+      "question": "When do stars shine?"
     },
     {
       "id": "1-6-1",
       "section": "Day 6",
-      "description": "Subject + Verb + Prepositional Phrase: Adding location and time expressions",
-      "korean": "그들은 서울에 산다.",
-      "english": "They live in Seoul.",
+      "description": "Subject + Verb + Prepositional Phrase",
+      "korean": "나는 서울에 산다.",
+      "english": "I live in Seoul.",
       "chunks": [
         {
-          "text": "They",
+          "text": "I",
           "role": "Subject",
           "color": "#FF0000"
         },
@@ -1140,14 +2420,42 @@
         {
           "text": "in Seoul",
           "role": "Modifier",
-          "color": "#0000FF"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Place",
+      "question": "Where do you live?"
     },
     {
       "id": "1-6-2",
       "section": "Day 6",
-      "description": "Subject + Verb + Prepositional Phrase: Adding location and time expressions",
+      "description": "Subject + Verb + Prepositional Phrase",
+      "korean": "그는 집에 머문다.",
+      "english": "He stays at home.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "stays",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "at home",
+          "role": "Modifier",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Place",
+      "question": "Where does he stay?"
+    },
+    {
+      "id": "1-6-3",
+      "section": "Day 6",
+      "description": "Subject + Verb + Prepositional Phrase",
       "korean": "우리는 학교에서 공부한다.",
       "english": "We study at school.",
       "chunks": [
@@ -1164,39 +2472,69 @@
         {
           "text": "at school",
           "role": "Modifier",
-          "color": "#0000FF"
+          "color": "#BA68C8"
         }
-      ]
-    },
-    {
-      "id": "1-6-3",
-      "section": "Day 6",
-      "description": "Subject + Verb + Prepositional Phrase: Adding location and time expressions",
-      "korean": "그는 아침에 일어난다.",
-      "english": "He wakes up in the morning.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "wakes up",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "in the morning",
-          "role": "Modifier",
-          "color": "#0000FF"
-        }
-      ]
+      ],
+      "context": "Place",
+      "question": "Where do we study?"
     },
     {
       "id": "1-6-4",
       "section": "Day 6",
-      "description": "Subject + Verb + Prepositional Phrase: Adding location and time expressions",
-      "korean": "그녀는 공원에서 걷는다.",
+      "description": "Subject + Verb + Prepositional Phrase",
+      "korean": "새들은 하늘을 난다.",
+      "english": "Birds fly in the sky.",
+      "chunks": [
+        {
+          "text": "Birds",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "fly",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "in the sky",
+          "role": "Modifier",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Place",
+      "question": "Where do birds fly?"
+    },
+    {
+      "id": "1-6-5",
+      "section": "Day 6",
+      "description": "Subject + Verb + Prepositional Phrase",
+      "korean": "물고기는 바다에서 헤엄친다.",
+      "english": "Fish swim in the sea.",
+      "chunks": [
+        {
+          "text": "Fish",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "swim",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "in the sea",
+          "role": "Modifier",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Place",
+      "question": "Where do fish swim?"
+    },
+    {
+      "id": "1-6-6",
+      "section": "Day 6",
+      "description": "Subject + Verb + Prepositional Phrase",
+      "korean": "그녀는 공원을 걷는다.",
       "english": "She walks in the park.",
       "chunks": [
         {
@@ -1212,64 +2550,18 @@
         {
           "text": "in the park",
           "role": "Modifier",
-          "color": "#0000FF"
+          "color": "#BA68C8"
         }
-      ]
-    },
-    {
-      "id": "1-6-5",
-      "section": "Day 6",
-      "description": "Subject + Verb + Prepositional Phrase: Adding location and time expressions",
-      "korean": "학생들이 교실에 앉는다.",
-      "english": "Students sit in the classroom.",
-      "chunks": [
-        {
-          "text": "Students",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sit",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "in the classroom",
-          "role": "Modifier",
-          "color": "#0000FF"
-        }
-      ]
-    },
-    {
-      "id": "1-6-6",
-      "section": "Day 6",
-      "description": "Subject + Verb + Prepositional Phrase: Adding location and time expressions",
-      "korean": "나는 집에 산다.",
-      "english": "I live at home.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "live",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "at home",
-          "role": "Modifier",
-          "color": "#0000FF"
-        }
-      ]
+      ],
+      "context": "Place",
+      "question": "Where does she walk?"
     },
     {
       "id": "1-6-7",
       "section": "Day 6",
-      "description": "Subject + Verb + Prepositional Phrase: Adding location and time expressions",
-      "korean": "그들은 밤에 잔다.",
-      "english": "They sleep at night.",
+      "description": "Subject + Verb + Prepositional Phrase",
+      "korean": "그들은 침대에서 잔다.",
+      "english": "They sleep in the bed.",
       "chunks": [
         {
           "text": "They",
@@ -1282,41 +2574,71 @@
           "color": "#FF7F00"
         },
         {
-          "text": "at night",
+          "text": "in the bed",
           "role": "Modifier",
-          "color": "#0000FF"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Place",
+      "question": "Where do they sleep?"
     },
     {
       "id": "1-6-8",
       "section": "Day 6",
-      "description": "Subject + Verb + Prepositional Phrase: Adding location and time expressions",
-      "korean": "우리는 주말에 쉰다.",
-      "english": "We rest on weekends.",
+      "description": "Subject + Verb + Prepositional Phrase",
+      "korean": "아이들은 땅에서 논다.",
+      "english": "Kids play on the ground.",
       "chunks": [
         {
-          "text": "We",
+          "text": "Kids",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "rest",
+          "text": "play",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "on weekends",
+          "text": "on the ground",
           "role": "Modifier",
-          "color": "#0000FF"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Place",
+      "question": "Where do kids play?"
     },
     {
       "id": "1-6-9",
       "section": "Day 6",
-      "description": "Subject + Verb + Prepositional Phrase: Adding location and time expressions",
-      "korean": "책이 책상 위에 있다.",
+      "description": "Subject + Verb + Prepositional Phrase",
+      "korean": "해는 동쪽에서 뜬다.",
+      "english": "The sun rises in the east.",
+      "chunks": [
+        {
+          "text": "The sun",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "rises",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "in the east",
+          "role": "Modifier",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Place",
+      "question": "Where does the sun rise?"
+    },
+    {
+      "id": "1-6-10",
+      "section": "Day 6",
+      "description": "Subject + Verb + Prepositional Phrase",
+      "korean": "책은 책상 위에 있다.",
       "english": "The book is on the desk.",
       "chunks": [
         {
@@ -1332,131 +2654,70 @@
         {
           "text": "on the desk",
           "role": "Modifier",
-          "color": "#0000FF"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Place",
+      "question": "Where is the book?"
     },
     {
-      "id": "1-6-10",
+      "id": "1-6-11",
       "section": "Day 6",
-      "description": "Subject + Verb + Prepositional Phrase: Adding location and time expressions",
-      "korean": "그는 버스로 간다.",
-      "english": "He goes by bus.",
+      "description": "Subject + Verb + Prepositional Phrase",
+      "korean": "차들은 도로 위를 달린다.",
+      "english": "Cars run on the road.",
       "chunks": [
         {
-          "text": "He",
+          "text": "Cars",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "goes",
+          "text": "run",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "by bus",
+          "text": "on the road",
           "role": "Modifier",
-          "color": "#0000FF"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Place",
+      "question": "Where do cars run?"
     },
     {
-      "id": "1-7-1",
-      "section": "Day 7",
-      "description": "Week 1 Review: Mixed patterns from Days 1-6",
-      "korean": "해가 뜬다.",
-      "english": "The sun rises.",
+      "id": "1-6-12",
+      "section": "Day 6",
+      "description": "Subject + Verb + Prepositional Phrase",
+      "korean": "구름은 공중에 떠 있다.",
+      "english": "Clouds float in the air.",
       "chunks": [
         {
-          "text": "The sun",
+          "text": "Clouds",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "rises",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ]
-    },
-    {
-      "id": "1-7-2",
-      "section": "Day 7",
-      "description": "Week 1 Review: Mixed patterns from Days 1-6",
-      "korean": "나는 학생이다.",
-      "english": "I am a student.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "am",
+          "text": "float",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "a student",
-          "role": "Complement",
-          "color": "#00FF00"
-        }
-      ]
-    },
-    {
-      "id": "1-7-3",
-      "section": "Day 7",
-      "description": "Week 1 Review: Mixed patterns from Days 1-6",
-      "korean": "날씨가 좋다.",
-      "english": "The weather is nice.",
-      "chunks": [
-        {
-          "text": "The weather",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "nice",
-          "role": "Complement",
-          "color": "#00FF00"
-        }
-      ]
-    },
-    {
-      "id": "1-7-4",
-      "section": "Day 7",
-      "description": "Week 1 Review: Mixed patterns from Days 1-6",
-      "korean": "그녀는 빠르게 달린다.",
-      "english": "She runs fast.",
-      "chunks": [
-        {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "runs",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "fast",
+          "text": "in the air",
           "role": "Modifier",
-          "color": "#0000FF"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Place",
+      "question": "Where do clouds float?"
     },
     {
-      "id": "1-7-5",
-      "section": "Day 7",
-      "description": "Week 1 Review: Mixed patterns from Days 1-6",
-      "korean": "우리는 도서관에서 공부한다.",
-      "english": "We study in the library.",
+      "id": "1-6-13",
+      "section": "Day 6",
+      "description": "Subject + Verb + Prepositional Phrase",
+      "korean": "우리는 카페에서 만났다.",
+      "english": "We met at the cafe.",
       "chunks": [
         {
           "text": "We",
@@ -1464,23 +2725,207 @@
           "color": "#FF0000"
         },
         {
-          "text": "study",
+          "text": "met",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "in the library",
+          "text": "at the cafe",
           "role": "Modifier",
-          "color": "#0000FF"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Place",
+      "question": "Where did we meet?"
     },
     {
-      "id": "1-7-6",
+      "id": "1-6-14",
+      "section": "Day 6",
+      "description": "Subject + Verb + Prepositional Phrase",
+      "korean": "그는 사무실에서 일한다.",
+      "english": "He works in an office.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "works",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "in an office",
+          "role": "Modifier",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Place",
+      "question": "Where does he work?"
+    },
+    {
+      "id": "1-6-15",
+      "section": "Day 6",
+      "description": "Subject + Verb + Prepositional Phrase",
+      "korean": "그녀는 버스 정류장에서 기다렸다.",
+      "english": "She waited at the bus stop.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "waited",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "at the bus stop",
+          "role": "Modifier",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Place",
+      "question": "Where did she wait?"
+    },
+    {
+      "id": "1-6-16",
+      "section": "Day 6",
+      "description": "Subject + Verb + Prepositional Phrase",
+      "korean": "그들은 파리에 도착했다.",
+      "english": "They arrived in Paris.",
+      "chunks": [
+        {
+          "text": "They",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "arrived",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "in Paris",
+          "role": "Modifier",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Place",
+      "question": "Where did they arrive?"
+    },
+    {
+      "id": "1-6-17",
+      "section": "Day 6",
+      "description": "Subject + Verb + Prepositional Phrase",
+      "korean": "나는 의자에 앉는다.",
+      "english": "I sit on the chair.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "sit",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "on the chair",
+          "role": "Modifier",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Place",
+      "question": "Where do you sit?"
+    },
+    {
+      "id": "1-6-18",
+      "section": "Day 6",
+      "description": "Subject + Verb + Prepositional Phrase",
+      "korean": "그는 물에 빠졌다.",
+      "english": "He fell into the water.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "fell",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "into the water",
+          "role": "Modifier",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Place",
+      "question": "Where did he fall?"
+    },
+    {
+      "id": "1-6-19",
+      "section": "Day 6",
+      "description": "Subject + Verb + Prepositional Phrase",
+      "korean": "우리는 학교에 간다.",
+      "english": "We go to school.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "go",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "to school",
+          "role": "Modifier",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Place",
+      "question": "Where do we go?"
+    },
+    {
+      "id": "1-6-20",
+      "section": "Day 6",
+      "description": "Subject + Verb + Prepositional Phrase",
+      "korean": "그녀는 달을 보았다.",
+      "english": "She looked at the moon.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "looked",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "at the moon",
+          "role": "Modifier",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Place",
+      "question": "What did she look at?"
+    },
+    {
+      "id": "1-7-1",
       "section": "Day 7",
-      "description": "Week 1 Review: Mixed patterns from Days 1-6",
-      "korean": "별들이 반짝인다.",
-      "english": "Stars twinkle.",
+      "description": "Week 1 Review",
+      "korean": "별들은 밝게 빛난다.",
+      "english": "Stars shine brightly.",
       "chunks": [
         {
           "text": "Stars",
@@ -1488,21 +2933,54 @@
           "color": "#FF0000"
         },
         {
-          "text": "twinkle",
+          "text": "shine",
           "role": "Verb",
           "color": "#FF7F00"
+        },
+        {
+          "text": "brightly",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Review",
+      "question": "How do stars shine?"
     },
     {
-      "id": "1-7-7",
+      "id": "1-7-2",
       "section": "Day 7",
-      "description": "Week 1 Review: Mixed patterns from Days 1-6",
-      "korean": "톰은 행복하다.",
-      "english": "Tom is happy.",
+      "description": "Week 1 Review",
+      "korean": "새들은 아침에 노래한다.",
+      "english": "Birds sing in the morning.",
       "chunks": [
         {
-          "text": "Tom",
+          "text": "Birds",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "sing",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "in the morning",
+          "role": "Modifier",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "question": "When do birds sing?"
+    },
+    {
+      "id": "1-7-3",
+      "section": "Day 7",
+      "description": "Week 1 Review",
+      "korean": "그녀는 행복하다.",
+      "english": "She is happy.",
+      "chunks": [
+        {
+          "text": "She",
           "role": "Subject",
           "color": "#FF0000"
         },
@@ -1514,67 +2992,21 @@
         {
           "text": "happy",
           "role": "Complement",
-          "color": "#00FF00"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Review",
+      "question": "How is she?"
     },
     {
-      "id": "1-7-8",
+      "id": "1-7-4",
       "section": "Day 7",
-      "description": "Week 1 Review: Mixed patterns from Days 1-6",
-      "korean": "아이들이 즐겁게 논다.",
-      "english": "Children play joyfully.",
+      "description": "Week 1 Review",
+      "korean": "그는 학생이다.",
+      "english": "He is a student.",
       "chunks": [
         {
-          "text": "Children",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "play",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "joyfully",
-          "role": "Modifier",
-          "color": "#0000FF"
-        }
-      ]
-    },
-    {
-      "id": "1-7-9",
-      "section": "Day 7",
-      "description": "Week 1 Review: Mixed patterns from Days 1-6",
-      "korean": "그들은 병원에서 일한다.",
-      "english": "They work at the hospital.",
-      "chunks": [
-        {
-          "text": "They",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "work",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "at the hospital",
-          "role": "Modifier",
-          "color": "#0000FF"
-        }
-      ]
-    },
-    {
-      "id": "1-7-10",
-      "section": "Day 7",
-      "description": "Week 1 Review: Mixed patterns from Days 1-6",
-      "korean": "여름은 덥다.",
-      "english": "Summer is hot.",
-      "chunks": [
-        {
-          "text": "Summer",
+          "text": "He",
           "role": "Subject",
           "color": "#FF0000"
         },
@@ -1584,11 +3016,429 @@
           "color": "#FF7F00"
         },
         {
-          "text": "hot",
+          "text": "a student",
           "role": "Complement",
-          "color": "#00FF00"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Review",
+      "question": "Who is he?"
+    },
+    {
+      "id": "1-7-5",
+      "section": "Day 7",
+      "description": "Week 1 Review",
+      "korean": "우리는 함께 논다.",
+      "english": "We play together.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "play",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "together",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "question": "How do we play?"
+    },
+    {
+      "id": "1-7-6",
+      "section": "Day 7",
+      "description": "Week 1 Review",
+      "korean": "시간은 빨리 흐른다.",
+      "english": "Time flies fast.",
+      "chunks": [
+        {
+          "text": "Time",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "flies",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "fast",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "question": "How does time fly?"
+    },
+    {
+      "id": "1-7-7",
+      "section": "Day 7",
+      "description": "Week 1 Review",
+      "korean": "해는 동쪽에서 뜬다.",
+      "english": "The sun rises in the east.",
+      "chunks": [
+        {
+          "text": "The sun",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "rises",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "in the east",
+          "role": "Modifier",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "question": "Where does the sun rise?"
+    },
+    {
+      "id": "1-7-8",
+      "section": "Day 7",
+      "description": "Week 1 Review",
+      "korean": "꽃은 봄에 핀다.",
+      "english": "Flowers bloom in spring.",
+      "chunks": [
+        {
+          "text": "Flowers",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "bloom",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "in spring",
+          "role": "Modifier",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "question": "When do flowers bloom?"
+    },
+    {
+      "id": "1-7-9",
+      "section": "Day 7",
+      "description": "Week 1 Review",
+      "korean": "나는 너를 사랑한다.",
+      "english": "I love you.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "love",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "you",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "question": "Who do you love?"
+    },
+    {
+      "id": "1-7-10",
+      "section": "Day 7",
+      "description": "Week 1 Review",
+      "korean": "인생은 좋다.",
+      "english": "Life is good.",
+      "chunks": [
+        {
+          "text": "Life",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "good",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "question": "How is life?"
+    },
+    {
+      "id": "1-7-11",
+      "section": "Day 7",
+      "description": "Week 1 Review",
+      "korean": "개들은 크게 짖는다.",
+      "english": "Dogs bark loudly.",
+      "chunks": [
+        {
+          "text": "Dogs",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "bark",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "loudly",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "question": "How do dogs bark?"
+    },
+    {
+      "id": "1-7-12",
+      "section": "Day 7",
+      "description": "Week 1 Review",
+      "korean": "물은 아래로 흐른다.",
+      "english": "Water flows down.",
+      "chunks": [
+        {
+          "text": "Water",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "flows",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "down",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "question": "Where does water flow?"
+    },
+    {
+      "id": "1-7-13",
+      "section": "Day 7",
+      "description": "Week 1 Review",
+      "korean": "내일 비가 온다.",
+      "english": "It rains tomorrow.",
+      "chunks": [
+        {
+          "text": "It",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "rains",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "tomorrow",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "question": "When does it rain?"
+    },
+    {
+      "id": "1-7-14",
+      "section": "Day 7",
+      "description": "Week 1 Review",
+      "korean": "그녀는 나에게 미소 짓는다.",
+      "english": "She smiles at me.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "smiles",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "at me",
+          "role": "Modifier",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "question": "Where does she smile?"
+    },
+    {
+      "id": "1-7-15",
+      "section": "Day 7",
+      "description": "Week 1 Review",
+      "korean": "우리는 가족이다.",
+      "english": "We are family.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "are",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "family",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "question": "Who are we?"
+    },
+    {
+      "id": "1-7-16",
+      "section": "Day 7",
+      "description": "Week 1 Review",
+      "korean": "하늘은 높다.",
+      "english": "The sky is high.",
+      "chunks": [
+        {
+          "text": "The sky",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "high",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "question": "How is the sky?"
+    },
+    {
+      "id": "1-7-17",
+      "section": "Day 7",
+      "description": "Week 1 Review",
+      "korean": "그는 학교로 달린다.",
+      "english": "He runs to school.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "runs",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "to school",
+          "role": "Modifier",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "question": "Where does he run?"
+    },
+    {
+      "id": "1-7-18",
+      "section": "Day 7",
+      "description": "Week 1 Review",
+      "korean": "물고기는 빨리 헤엄친다.",
+      "english": "Fish swim fast.",
+      "chunks": [
+        {
+          "text": "Fish",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "swim",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "fast",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "question": "How do fish swim?"
+    },
+    {
+      "id": "1-7-19",
+      "section": "Day 7",
+      "description": "Week 1 Review",
+      "korean": "새들은 높이 난다.",
+      "english": "Birds fly high.",
+      "chunks": [
+        {
+          "text": "Birds",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "fly",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "high",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "question": "How do birds fly?"
+    },
+    {
+      "id": "1-7-20",
+      "section": "Day 7",
+      "description": "Week 1 Review",
+      "korean": "낮이 밤이 된다.",
+      "english": "Day becomes night.",
+      "chunks": [
+        {
+          "text": "Day",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "becomes",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "night",
+          "role": "Complement",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "question": "What does day become?"
     }
   ]
 }

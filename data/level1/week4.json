@@ -3,2034 +3,3642 @@
     {
       "id": "2-22-1",
       "section": "Day 22",
-      "description": "Core Lesson",
-      "question": "What happened yesterday?",
-      "korean": "나는 빨간 사과를 천천히 먹는다.",
-      "english": "I eat a red apple slowly.",
+      "description": "Wh- Questions",
+      "korean": "그 사랑스러운 이게은 항상 평화롭게 작동한다.",
+      "english": "The lovely what always it? peacefully.",
       "chunks": [
         {
-          "text": "I",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "eat",
+          "text": "what always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "a red apple",
+          "text": "it? peacefully.",
           "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "slowly",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": {
-        "title": "Core Lesson",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00"
-          },
-          {
-            "text": "Object",
-            "color": "#FFD700"
-          },
-          {
-            "text": "Adverb",
-            "color": "#BA68C8"
-          }
-        ]
-      }
+      "context": "Wh- Questions",
+      "question": "What do the do?"
     },
     {
       "id": "2-22-2",
       "section": "Day 22",
-      "description": "Core Lesson",
-      "question": "Situation: Give me a command.",
-      "korean": "행복한 개가 공원에서 달린다.",
-      "english": "The happy dog runs in the park.",
+      "description": "Wh- Questions",
+      "korean": "그 사랑스러운 그는은 항상 평화롭게 작동한다.",
+      "english": "The lovely who always he? peacefully.",
       "chunks": [
         {
-          "text": "The happy dog",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "runs",
+          "text": "who always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "in the park",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "he? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Wh- Questions",
+      "question": "What do the do?"
     },
     {
       "id": "2-22-3",
       "section": "Day 22",
-      "description": "Core Lesson",
-      "question": "Situation: Give me a command.",
-      "korean": "그녀는 집에서 두꺼운 책을 읽는다.",
-      "english": "She reads a thick book at home.",
+      "description": "Wh- Questions",
+      "korean": "그 사랑스러운 너은 항상 평화롭게 작동한다.",
+      "english": "The lovely where always you? peacefully.",
       "chunks": [
         {
-          "text": "She",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "reads",
+          "text": "where always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "a thick book",
+          "text": "you? peacefully.",
           "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "at home",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Wh- Questions",
+      "question": "What do the do?"
     },
     {
       "id": "2-22-4",
       "section": "Day 22",
-      "description": "Core Lesson",
-      "question": "Situation: Give me a command.",
-      "korean": "우리는 시원한 강에서 수영한다.",
-      "english": "We swim in the cool river.",
+      "description": "Wh- Questions",
+      "korean": "그 사랑스러운 원하는은 항상 평화롭게 작동한다.",
+      "english": "The lovely what always want? peacefully.",
       "chunks": [
         {
-          "text": "We",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "swim",
+          "text": "what always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "in the cool river",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "want? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Wh- Questions",
+      "question": "What do the do?"
     },
     {
       "id": "2-22-5",
       "section": "Day 22",
-      "description": "Core Lesson",
-      "question": "Situation: Give me a command.",
-      "korean": "작은 새가 달콤하게 노래한다.",
-      "english": "The small bird sings sweetly.",
+      "description": "Wh- Questions",
+      "korean": "그 사랑스러운 누가은 항상 평화롭게 작동한다.",
+      "english": "The lovely who always soccer? peacefully.",
       "chunks": [
         {
-          "text": "The small bird",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "sings",
+          "text": "who always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "sweetly",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "soccer? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Wh- Questions",
+      "question": "What do the do?"
     },
     {
       "id": "2-22-6",
       "section": "Day 22",
-      "description": "Core Lesson",
-      "question": "Situation: Give me a command.",
-      "korean": "그는 오늘 수학을 열심히 공부한다.",
-      "english": "He studies math hard today.",
+      "description": "Wh- Questions",
+      "korean": "그 사랑스러운 몇은 항상 평화롭게 작동한다.",
+      "english": "The lovely what always it? peacefully.",
       "chunks": [
         {
-          "text": "He",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "studies",
+          "text": "what always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "math",
+          "text": "it? peacefully.",
           "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "hard",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "today",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Wh- Questions",
+      "question": "What do the do?"
     },
     {
       "id": "2-22-7",
       "section": "Day 22",
-      "description": "Core Lesson",
-      "question": "Situation: Give me a command.",
-      "korean": "키 큰 남자가 문 근처에 서 있다.",
-      "english": "A tall man stands near the door.",
+      "description": "Wh- Questions",
+      "korean": "그 사랑스러운 내은 항상 평화롭게 작동한다.",
+      "english": "The lovely where always bag? peacefully.",
       "chunks": [
         {
-          "text": "A tall man",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "stands",
+          "text": "where always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "near the door",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "bag? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Wh- Questions",
+      "question": "What do the do?"
     },
     {
       "id": "2-22-8",
       "section": "Day 22",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "우리 엄마는 맛있는 음식을 요리한다.",
-      "english": "My mom cooks delicious food.",
+      "description": "Wh- Questions",
+      "korean": "그 사랑스러운 누가은 항상 평화롭게 작동한다.",
+      "english": "The lovely who always pizza? peacefully.",
       "chunks": [
         {
-          "text": "My mom",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "cooks",
+          "text": "who always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "delicious food",
+          "text": "pizza? peacefully.",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Wh- Questions",
+      "question": "What do the do?"
     },
     {
       "id": "2-22-9",
       "section": "Day 22",
-      "description": "Core Lesson",
-      "question": "Situation: Give me a command.",
-      "korean": "빠른 차가 갑자기 멈춘다.",
-      "english": "The fast car stops suddenly.",
+      "description": "Wh- Questions",
+      "korean": "그 사랑스러운 뭐가은 항상 평화롭게 작동한다.",
+      "english": "The lovely what always happy? peacefully.",
       "chunks": [
         {
-          "text": "The fast car",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "stops",
+          "text": "what always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "suddenly",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "happy? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Wh- Questions",
+      "question": "What do the do?"
     },
     {
       "id": "2-22-10",
       "section": "Day 22",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "파란 하늘이 아름다워 보인다.",
-      "english": "Blue sky looks beautiful.",
+      "description": "Wh- Questions",
+      "korean": "그 사랑스러운 그는은 항상 평화롭게 작동한다.",
+      "english": "The lovely where always live? peacefully.",
       "chunks": [
         {
-          "text": "Blue sky",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "looks",
+          "text": "where always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "beautiful",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "live? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Wh- Questions",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-22-11",
+      "section": "Day 22",
+      "description": "Wh- Questions",
+      "korean": "그 사랑스러운 무슨은 항상 평화롭게 작동한다.",
+      "english": "The lovely what always it? peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "what always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "it? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Wh- Questions",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-22-12",
+      "section": "Day 22",
+      "description": "Wh- Questions",
+      "korean": "그 사랑스러운 네은 항상 평화롭게 작동한다.",
+      "english": "The lovely who always teacher? peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "teacher? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Wh- Questions",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-22-13",
+      "section": "Day 22",
+      "description": "Wh- Questions",
+      "korean": "그 사랑스러운 그들은은 항상 평화롭게 작동한다.",
+      "english": "The lovely where always going? peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "where always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "going? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Wh- Questions",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-22-14",
+      "section": "Day 22",
+      "description": "Wh- Questions",
+      "korean": "그 사랑스러운 무슨은 항상 평화롭게 작동한다.",
+      "english": "The lovely what always happened? peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "what always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "happened? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Wh- Questions",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-22-15",
+      "section": "Day 22",
+      "description": "Wh- Questions",
+      "korean": "그 사랑스러운 누가은 항상 평화롭게 작동한다.",
+      "english": "The lovely who always it? peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "it? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Wh- Questions",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-22-16",
+      "section": "Day 22",
+      "description": "Wh- Questions",
+      "korean": "그 사랑스러운 화장실이은 항상 평화롭게 작동한다.",
+      "english": "The lovely where always bathroom? peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "where always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "bathroom? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Wh- Questions",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-22-17",
+      "section": "Day 22",
+      "description": "Wh- Questions",
+      "korean": "그 사랑스러운 이름이은 항상 평화롭게 작동한다.",
+      "english": "The lovely what always name? peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "what always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "name? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Wh- Questions",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-22-18",
+      "section": "Day 22",
+      "description": "Wh- Questions",
+      "korean": "그 사랑스러운 누가은 항상 평화롭게 작동한다.",
+      "english": "The lovely who always me? peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "me? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Wh- Questions",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-22-19",
+      "section": "Day 22",
+      "description": "Wh- Questions",
+      "korean": "그 사랑스러운 사랑은은 항상 평화롭게 작동한다.",
+      "english": "The lovely where always love? peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "where always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "love? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Wh- Questions",
+      "question": "What do you love?"
+    },
+    {
+      "id": "2-22-20",
+      "section": "Day 22",
+      "description": "Wh- Questions",
+      "korean": "그 사랑스러운 정말은 항상 평화롭게 작동한다.",
+      "english": "The lovely what always day! peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "what always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "day! peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Wh- Questions",
+      "question": "What do the do?"
     },
     {
       "id": "2-23-1",
       "section": "Day 23",
-      "description": "Core Lesson",
-      "question": "Situation: Give me a command.",
-      "korean": "나는 달콤한 케이크를 먹고 싶다.",
-      "english": "I want to eat a sweet cake.",
+      "description": "Wh- Questions 2",
+      "korean": "그 사랑스러운 너은 항상 평화롭게 작동한다.",
+      "english": "The lovely why always sad? peacefully.",
       "chunks": [
         {
-          "text": "I",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "want",
+          "text": "why always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "to eat a sweet cake",
+          "text": "sad? peacefully.",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": {
-        "title": "Core Lesson",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00"
-          },
-          {
-            "text": "Object",
-            "color": "#FFD700"
-          }
-        ]
-      }
+      "context": "Wh- Questions 2",
+      "question": "What do the do?"
     },
     {
       "id": "2-23-2",
       "section": "Day 23",
-      "description": "Core Lesson",
-      "question": "Situation: Give me a command.",
-      "korean": "그녀는 인형을 가지고 노는 것을 좋아한다.",
-      "english": "She likes to play with dolls.",
+      "description": "Wh- Questions 2",
+      "korean": "그 사랑스러운 점심은 항상 평화롭게 작동한다.",
+      "english": "The lovely when always lunch? peacefully.",
       "chunks": [
         {
-          "text": "She",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "likes",
+          "text": "when always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "to play with dolls",
+          "text": "lunch? peacefully.",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Wh- Questions 2",
+      "question": "At what time does this occur?"
     },
     {
       "id": "2-23-3",
       "section": "Day 23",
-      "description": "Core Lesson",
-      "question": "How is The boy?",
-      "korean": "차 안의 소년은 슬프다.",
-      "english": "The boy in the car is sad.",
+      "description": "Wh- Questions 2",
+      "korean": "그 사랑스러운 어떻게은 항상 평화롭게 작동한다.",
+      "english": "The lovely how always you? peacefully.",
       "chunks": [
         {
-          "text": "The boy",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "in the car",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "is",
+          "text": "how always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "sad",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "you? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Wh- Questions 2",
+      "question": "What do the do?"
     },
     {
       "id": "2-23-4",
       "section": "Day 23",
-      "description": "Core Lesson",
-      "question": "How is it?",
-      "korean": "버스 안의 사람들은 피곤하다.",
-      "english": "People on the bus are tired.",
+      "description": "Wh- Questions 2",
+      "korean": "그 사랑스러운 왜은 항상 평화롭게 작동한다.",
+      "english": "The lovely why always cry? peacefully.",
       "chunks": [
         {
-          "text": "People",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "on the bus",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "are",
+          "text": "why always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "tired",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "cry? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Wh- Questions 2",
+      "question": "What do the do?"
     },
     {
       "id": "2-23-5",
       "section": "Day 23",
-      "description": "Core Lesson",
-      "question": "Situation: Give me a command.",
-      "korean": "그는 버스를 잡으려고 빨리 달린다.",
-      "english": "He runs fast to catch the bus.",
+      "description": "Wh- Questions 2",
+      "korean": "그 사랑스러운 언제은 항상 평화롭게 작동한다.",
+      "english": "The lovely when always start? peacefully.",
       "chunks": [
         {
-          "text": "He",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "runs",
+          "text": "when always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "fast",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "to catch the bus",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "start? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Wh- Questions 2",
+      "question": "At what time does this occur?"
     },
     {
       "id": "2-23-6",
       "section": "Day 23",
-      "description": "Core Lesson",
-      "question": "Situation: Give me a command.",
-      "korean": "우리는 놀러 공원에 간다.",
-      "english": "We go to the park to play.",
+      "description": "Wh- Questions 2",
+      "korean": "그 사랑스러운 그거은 항상 평화롭게 작동한다.",
+      "english": "The lovely how always work? peacefully.",
       "chunks": [
         {
-          "text": "We",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "go",
+          "text": "how always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "to the park",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "to play",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "work? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Wh- Questions 2",
+      "question": "What do the do?"
     },
     {
       "id": "2-23-7",
       "section": "Day 23",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "저 위의 밝은 달을 봐라.",
-      "english": "Look at the bright moon above.",
+      "description": "Wh- Questions 2",
+      "korean": "그 사랑스러운 그는은 항상 평화롭게 작동한다.",
+      "english": "The lovely why always running? peacefully.",
       "chunks": [
         {
-          "text": "Look at",
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "why always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "the bright moon",
+          "text": "running? peacefully.",
           "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "above",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Wh- Questions 2",
+      "question": "What do the do?"
     },
     {
       "id": "2-23-8",
       "section": "Day 23",
-      "description": "Core Lesson",
-      "question": "Situation: Give me a command.",
-      "korean": "상자 안의 선물은 좋다.",
-      "english": "The gift inside the box is nice.",
+      "description": "Wh- Questions 2",
+      "korean": "그 사랑스러운 언제은 항상 평화롭게 작동한다.",
+      "english": "The lovely when always arrive? peacefully.",
       "chunks": [
         {
-          "text": "The gift",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "inside the box",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "is",
+          "text": "when always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "nice",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "arrive? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Wh- Questions 2",
+      "question": "At what time does this occur?"
     },
     {
       "id": "2-23-9",
       "section": "Day 23",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "얼음 위를 천천히 걸어라.",
-      "english": "Walk slowly on the ice.",
+      "description": "Wh- Questions 2",
+      "korean": "그 사랑스러운 얼마니?은 항상 평화롭게 작동한다.",
+      "english": "The lovely how always it? peacefully.",
       "chunks": [
         {
-          "text": "Walk",
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "how always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "slowly",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "on the ice",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "it? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Wh- Questions 2",
+      "question": "What do the do?"
     },
     {
       "id": "2-23-10",
       "section": "Day 23",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "학교를 위해 일찍 자라.",
-      "english": "Sleep early for school.",
+      "description": "Wh- Questions 2",
+      "korean": "그 사랑스러운 왜은 항상 평화롭게 작동한다.",
+      "english": "The lovely why always not? peacefully.",
       "chunks": [
         {
-          "text": "Sleep",
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "why always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "early",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "for school",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "not? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Wh- Questions 2",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-23-11",
+      "section": "Day 23",
+      "description": "Wh- Questions 2",
+      "korean": "그 사랑스러운 언제은 항상 평화롭게 작동한다.",
+      "english": "The lovely when always go? peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "when always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "go? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Wh- Questions 2",
+      "question": "At what time does this occur?"
+    },
+    {
+      "id": "2-23-12",
+      "section": "Day 23",
+      "description": "Wh- Questions 2",
+      "korean": "그 사랑스러운 몇은 항상 평화롭게 작동한다.",
+      "english": "The lovely how always you? peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "how always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Wh- Questions 2",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-23-13",
+      "section": "Day 23",
+      "description": "Wh- Questions 2",
+      "korean": "그 사랑스러운 하늘은은 항상 평화롭게 작동한다.",
+      "english": "The lovely why always blue? peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "why always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "blue? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Wh- Questions 2",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-23-14",
+      "section": "Day 23",
+      "description": "Wh- Questions 2",
+      "korean": "그 사랑스러운 언제은 항상 평화롭게 작동한다.",
+      "english": "The lovely when always you? peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "when always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Wh- Questions 2",
+      "question": "At what time does this occur?"
+    },
+    {
+      "id": "2-23-15",
+      "section": "Day 23",
+      "description": "Wh- Questions 2",
+      "korean": "그 사랑스러운 처음은 항상 평화롭게 작동한다.",
+      "english": "The lovely how always do? peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "how always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "do? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Wh- Questions 2",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-23-16",
+      "section": "Day 23",
+      "description": "Wh- Questions 2",
+      "korean": "그 사랑스러운 왜은 항상 평화롭게 작동한다.",
+      "english": "The lovely why always worry? peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "why always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "worry? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Wh- Questions 2",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-23-17",
+      "section": "Day 23",
+      "description": "Wh- Questions 2",
+      "korean": "그 사랑스러운 로마에은 항상 평화롭게 작동한다.",
+      "english": "The lovely when always rome. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "when always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "rome. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Wh- Questions 2",
+      "question": "At what time does this occur?"
+    },
+    {
+      "id": "2-23-18",
+      "section": "Day 23",
+      "description": "Wh- Questions 2",
+      "korean": "그 사랑스러운 그거은 항상 평화롭게 작동한다.",
+      "english": "The lovely how always it? peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "how always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "it? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Wh- Questions 2",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-23-19",
+      "section": "Day 23",
+      "description": "Wh- Questions 2",
+      "korean": "그 사랑스러운 왜은 항상 평화롭게 작동한다.",
+      "english": "The lovely why always wait? peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "why always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "wait? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Wh- Questions 2",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-23-20",
+      "section": "Day 23",
+      "description": "Wh- Questions 2",
+      "korean": "그 사랑스러운 얼마나은 항상 평화롭게 작동한다.",
+      "english": "The lovely how always many? peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "how always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "many? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Wh- Questions 2",
+      "question": "What do the do?"
     },
     {
       "id": "2-24-1",
       "section": "Day 24",
-      "description": "Core Lesson",
-      "question": "What happened yesterday?",
-      "korean": "빨간 가방 어디 있니?",
-      "english": "Where is the red bag?",
+      "description": "Infinitives",
+      "korean": "그 사랑스러운 나는은 항상 평화롭게 작동한다.",
+      "english": "The lovely i always swim. peacefully.",
       "chunks": [
         {
-          "text": "Where",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the red bag",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
+        },
+        {
+          "text": "i always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "swim. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": {
-        "title": "Core Lesson",
-        "structure": [
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00"
-          },
-          {
-            "text": "Subject",
-            "color": "#FF0000"
-          }
-        ]
-      }
+      "context": "Infinitives",
+      "question": "What do the do?"
     },
     {
       "id": "2-24-2",
       "section": "Day 24",
-      "description": "Core Lesson",
-      "question": "Situation: You are curious. Ask me.",
-      "korean": "저 키 큰 남자는 누구니?",
-      "english": "Who is the tall man?",
+      "description": "Infinitives",
+      "korean": "그 사랑스러운 그는은 항상 평화롭게 작동한다.",
+      "english": "The lovely he always eat. peacefully.",
       "chunks": [
         {
-          "text": "Who",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the tall man",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
+        },
+        {
+          "text": "he always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "eat. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Infinitives",
+      "question": "What do the do?"
     },
     {
       "id": "2-24-3",
       "section": "Day 24",
-      "description": "Core Lesson",
-      "question": "How is it?",
-      "korean": "너 왜 슬프니?",
-      "english": "Why are you sad?",
+      "description": "Infinitives",
+      "korean": "그 사랑스러운 우리는은 항상 평화롭게 작동한다.",
+      "english": "The lovely we always go. peacefully.",
       "chunks": [
         {
-          "text": "Why",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "are",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "you",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "sad",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "we always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "go. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Infinitives",
+      "question": "What do the do?"
     },
     {
       "id": "2-24-4",
       "section": "Day 24",
-      "description": "Core Lesson",
-      "question": "Situation: You are curious. Ask me.",
-      "korean": "학교에 어떻게 가니?",
-      "english": "How do you go to school?",
+      "description": "Infinitives",
+      "korean": "그 사랑스러운 그녀는은 항상 평화롭게 작동한다.",
+      "english": "The lovely she always dance. peacefully.",
       "chunks": [
         {
-          "text": "How",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "do you go",
+          "text": "she always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "to school",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "dance. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Infinitives",
+      "question": "What do the do?"
     },
     {
       "id": "2-24-5",
       "section": "Day 24",
-      "description": "Core Lesson",
-      "question": "Situation: You are curious. Ask me.",
-      "korean": "지금 몇 시니?",
-      "english": "What time is it now?",
+      "description": "Infinitives",
+      "korean": "그 사랑스러운 그들은은 항상 평화롭게 작동한다.",
+      "english": "The lovely they always learn. peacefully.",
       "chunks": [
         {
-          "text": "What time",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "it",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "now",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "they always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "learn. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Infinitives",
+      "question": "What do the do?"
     },
     {
       "id": "2-24-6",
       "section": "Day 24",
-      "description": "Core Lesson",
-      "question": "Situation: You are curious. Ask me.",
-      "korean": "너 빨리 달릴 수 있니?",
-      "english": "Can you run fast?",
+      "description": "Infinitives",
+      "korean": "그 사랑스러운 나는은 항상 평화롭게 작동한다.",
+      "english": "The lovely i always happy. peacefully.",
       "chunks": [
         {
-          "text": "Can you run",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "fast",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "i always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "happy. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Infinitives",
+      "question": "What do the do?"
     },
     {
       "id": "2-24-7",
       "section": "Day 24",
-      "description": "Core Lesson",
-      "question": "Situation: You are curious. Ask me.",
-      "korean": "매운 음식 좋아하니?",
-      "english": "Do you like spicy food?",
+      "description": "Infinitives",
+      "korean": "그 사랑스러운 그는은 항상 평화롭게 작동한다.",
+      "english": "The lovely he always win. peacefully.",
       "chunks": [
         {
-          "text": "Do you like",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "spicy food",
+          "text": "he always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "win. peacefully.",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Infinitives",
+      "question": "What do the do?"
     },
     {
       "id": "2-24-8",
       "section": "Day 24",
-      "description": "Core Lesson",
-      "question": "Situation: You are curious. Ask me.",
-      "korean": "물 차갑니?",
-      "english": "Is the water cold?",
+      "description": "Infinitives",
+      "korean": "그 사랑스러운 노는은 항상 평화롭게 작동한다.",
+      "english": "The lovely do always play? peacefully.",
       "chunks": [
         {
-          "text": "Is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the water",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "cold",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "do always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "play? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Infinitives",
+      "question": "What do the do?"
     },
     {
       "id": "2-24-9",
       "section": "Day 24",
-      "description": "Core Lesson",
-      "question": "How is it?",
-      "korean": "그들은 행복하니?",
-      "english": "Are they happy?",
+      "description": "Infinitives",
+      "korean": "그 사랑스러운 널은 항상 평화롭게 작동한다.",
+      "english": "The lovely i always you. peacefully.",
       "chunks": [
         {
-          "text": "Are",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "they",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "happy",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "i always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Infinitives",
+      "question": "What do the do?"
     },
     {
       "id": "2-24-10",
       "section": "Day 24",
-      "description": "Core Lesson",
-      "question": "Situation: You are curious. Ask me.",
-      "korean": "그는 어디에 사니?",
-      "english": "Where does he live?",
+      "description": "Infinitives",
+      "korean": "그 사랑스러운 잘은 항상 평화롭게 작동한다.",
+      "english": "The lovely time always sleep. peacefully.",
       "chunks": [
         {
-          "text": "Where",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "does he live",
+          "text": "time always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
+        },
+        {
+          "text": "sleep. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Infinitives",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-24-11",
+      "section": "Day 24",
+      "description": "Infinitives",
+      "korean": "그 사랑스러운 갈은 항상 평화롭게 작동한다.",
+      "english": "The lovely ready always go. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "ready always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "go. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Infinitives",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-24-12",
+      "section": "Day 24",
+      "description": "Infinitives",
+      "korean": "그 사랑스러운 만나서은 항상 평화롭게 작동한다.",
+      "english": "The lovely i always you. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "i always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Infinitives",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-24-13",
+      "section": "Day 24",
+      "description": "Infinitives",
+      "korean": "그 사랑스러운 그녀는은 항상 평화롭게 작동한다.",
+      "english": "The lovely she always stay. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "she always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "stay. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Infinitives",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-24-14",
+      "section": "Day 24",
+      "description": "Infinitives",
+      "korean": "그 사랑스러운 그는은 항상 평화롭게 작동한다.",
+      "english": "The lovely he always help. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "he always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "help. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Infinitives",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-24-15",
+      "section": "Day 24",
+      "description": "Infinitives",
+      "korean": "그 사랑스러운 묻는은 항상 평화롭게 작동한다.",
+      "english": "The lovely i always ask. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "i always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "ask. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Infinitives",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-24-16",
+      "section": "Day 24",
+      "description": "Infinitives",
+      "korean": "그 사랑스러운 만나서은 항상 평화롭게 작동한다.",
+      "english": "The lovely nice always you. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "nice always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Infinitives",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-24-17",
+      "section": "Day 24",
+      "description": "Infinitives",
+      "korean": "그 사랑스러운 사과하기엔은 항상 평화롭게 작동한다.",
+      "english": "The lovely too always apologize. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "too always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "apologize. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Infinitives",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-24-18",
+      "section": "Day 24",
+      "description": "Infinitives",
+      "korean": "그 사랑스러운 달리기은 항상 평화롭게 작동한다.",
+      "english": "The lovely born always run. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "born always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "run. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Infinitives",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-24-19",
+      "section": "Day 24",
+      "description": "Infinitives",
+      "korean": "그 사랑스러운 하기은 항상 평화롭게 작동한다.",
+      "english": "The lovely easy always do. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "easy always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "do. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Infinitives",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-24-20",
+      "section": "Day 24",
+      "description": "Infinitives",
+      "korean": "그 사랑스러운 말하기은 항상 평화롭게 작동한다.",
+      "english": "The lovely hard always say. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "hard always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "say. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Infinitives",
+      "question": "What do the do?"
     },
     {
       "id": "2-25-1",
       "section": "Day 25",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "뜨거운 냄비를 만지지 마라.",
-      "english": "Don't touch the hot pot.",
+      "description": "Gerunds",
+      "korean": "그 사랑스러운 나는은 항상 평화롭게 작동한다.",
+      "english": "The lovely i always swimming. peacefully.",
       "chunks": [
         {
-          "text": "Don't touch",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "the hot pot",
+          "text": "i always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "swimming. peacefully.",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": {
-        "title": "Core Lesson",
-        "structure": [
-          {
-            "text": "Verb",
-            "color": "#FF7F00"
-          },
-          {
-            "text": "Object",
-            "color": "#FFD700"
-          }
-        ]
-      }
+      "context": "Gerunds",
+      "question": "What do the do?"
     },
     {
       "id": "2-25-2",
       "section": "Day 25",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "푸른 들판을 가로질러 걸어라.",
-      "english": "Walk across the green field.",
+      "description": "Gerunds",
+      "korean": "그 사랑스러운 뛰는은 항상 평화롭게 작동한다.",
+      "english": "The lovely stop always running. peacefully.",
       "chunks": [
         {
-          "text": "Walk",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "across the green field",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "stop always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "running. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Gerunds",
+      "question": "What do the do?"
     },
     {
       "id": "2-25-3",
       "section": "Day 25",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "책을 책상 위에 두어라.",
-      "english": "Put the book on the desk.",
+      "description": "Gerunds",
+      "korean": "그 사랑스러운 그는은 항상 평화롭게 작동한다.",
+      "english": "The lovely he always playing. peacefully.",
       "chunks": [
         {
-          "text": "Put",
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "he always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "the book",
+          "text": "playing. peacefully.",
           "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "on the desk",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Gerunds",
+      "question": "What do the do?"
     },
     {
       "id": "2-25-4",
       "section": "Day 25",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "파란 펜을 나에게 줘.",
-      "english": "Give me the blue pen.",
+      "description": "Gerunds",
+      "korean": "그 사랑스러운 먹는은 항상 평화롭게 작동한다.",
+      "english": "The lovely eating always fun. peacefully.",
       "chunks": [
         {
-          "text": "Give",
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "eating always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "me",
+          "text": "fun. peacefully.",
           "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "the blue pen",
-          "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Gerunds",
+      "question": "What do the do?"
     },
     {
       "id": "2-25-5",
       "section": "Day 25",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "친구들에게 친절해라.",
-      "english": "Be nice to your friends.",
+      "description": "Gerunds",
+      "korean": "그 사랑스러운 자는은 항상 평화롭게 작동한다.",
+      "english": "The lovely sleeping always good. peacefully.",
       "chunks": [
         {
-          "text": "Be",
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "sleeping always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "nice",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "to your friends",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "good. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Gerunds",
+      "question": "What do the do?"
     },
     {
       "id": "2-25-6",
       "section": "Day 25",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "선생님 말을 주의 깊게 들어라.",
-      "english": "Listen to the teacher carefully.",
+      "description": "Gerunds",
+      "korean": "그 사랑스러운 그녀는은 항상 평화롭게 작동한다.",
+      "english": "The lovely she always working. peacefully.",
       "chunks": [
         {
-          "text": "Listen",
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "she always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "to the teacher",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "carefully",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "working. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Gerunds",
+      "question": "What do the do?"
     },
     {
       "id": "2-25-7",
       "section": "Day 25",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "복도에서 뛰어다니지 마.",
-      "english": "Don't run in the hall.",
+      "description": "Gerunds",
+      "korean": "그 사랑스러운 걷기은 항상 평화롭게 작동한다.",
+      "english": "The lovely start always walking. peacefully.",
       "chunks": [
         {
-          "text": "Don't run",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "in the hall",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "start always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "walking. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Gerunds",
+      "question": "What do the do?"
     },
     {
       "id": "2-25-8",
       "section": "Day 25",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "지금 네 방을 청소해.",
-      "english": "Clean your room now.",
+      "description": "Gerunds",
+      "korean": "그 사랑스러운 금연.은 항상 평화롭게 작동한다.",
+      "english": "The lovely no always smoking. peacefully.",
       "chunks": [
         {
-          "text": "Clean",
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "no always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "your room",
+          "text": "smoking. peacefully.",
           "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "now",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Gerunds",
+      "question": "What do the do?"
     },
     {
       "id": "2-25-9",
       "section": "Day 25",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "창문 좀 열어줘.",
-      "english": "Open the window please.",
+      "description": "Gerunds",
+      "korean": "그 사랑스러운 도와줘서은 항상 평화롭게 작동한다.",
+      "english": "The lovely thank always helping. peacefully.",
       "chunks": [
         {
-          "text": "Open",
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "thank always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "the window",
+          "text": "helping. peacefully.",
           "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "please",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Gerunds",
+      "question": "What do the do?"
     },
     {
       "id": "2-25-10",
       "section": "Day 25",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "할머니를 도와드려라.",
-      "english": "Help the old lady.",
+      "description": "Gerunds",
+      "korean": "그 사랑스러운 나는은 항상 평화롭게 작동한다.",
+      "english": "The lovely i always math. peacefully.",
       "chunks": [
         {
-          "text": "Help",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "the old lady",
+          "text": "i always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "math. peacefully.",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Gerunds",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-25-11",
+      "section": "Day 25",
+      "description": "Gerunds",
+      "korean": "그 사랑스러운 나는은 항상 평화롭게 작동한다.",
+      "english": "The lovely i always drawing. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "i always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "drawing. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Gerunds",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-25-12",
+      "section": "Day 25",
+      "description": "Gerunds",
+      "korean": "그 사랑스러운 보는은 항상 평화롭게 작동한다.",
+      "english": "The lovely seeing always believing. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "seeing always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "believing. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Gerunds",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-25-13",
+      "section": "Day 25",
+      "description": "Gerunds",
+      "korean": "그 사랑스러운 나는은 항상 평화롭게 작동한다.",
+      "english": "The lovely imagine always flying. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "imagine always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "flying. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Gerunds",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-25-14",
+      "section": "Day 25",
+      "description": "Gerunds",
+      "korean": "그 사랑스러운 계속은 항상 평화롭게 작동한다.",
+      "english": "The lovely keep always going. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "keep always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "going. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Gerunds",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-25-15",
+      "section": "Day 25",
+      "description": "Gerunds",
+      "korean": "그 사랑스러운 다은 항상 평화롭게 작동한다.",
+      "english": "The lovely i always reading. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "i always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "reading. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Gerunds",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-25-16",
+      "section": "Day 25",
+      "description": "Gerunds",
+      "korean": "그 사랑스러운 그림은 항상 평화롭게 작동한다.",
+      "english": "The lovely drawing always relaxing. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "drawing always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "relaxing. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Gerunds",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-25-17",
+      "section": "Day 25",
+      "description": "Gerunds",
+      "korean": "그 사랑스러운 늦게은 항상 평화롭게 작동한다.",
+      "english": "The lovely avoid always late. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "avoid always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "late. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Gerunds",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-25-18",
+      "section": "Day 25",
+      "description": "Gerunds",
+      "korean": "그 사랑스러운 살은 항상 평화롭게 작동한다.",
+      "english": "The lovely is always buying? peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "is always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "buying? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Gerunds",
+      "question": "Describe The or who they are."
+    },
+    {
+      "id": "2-25-19",
+      "section": "Day 25",
+      "description": "Gerunds",
+      "korean": "그 사랑스러운 농담이야.은 항상 평화롭게 작동한다.",
+      "english": "The lovely just always kidding. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "just always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "kidding. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Gerunds",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-25-20",
+      "section": "Day 25",
+      "description": "Gerunds",
+      "korean": "그 사랑스러운 낚시하러은 항상 평화롭게 작동한다.",
+      "english": "The lovely go always fishing. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "go always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "fishing. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Gerunds",
+      "question": "What do the do?"
     },
     {
       "id": "2-26-1",
       "section": "Day 26",
-      "description": "Review",
-      "question": "Situation: You are curious. Ask me.",
-      "korean": "지금 몇 시니?",
-      "english": "What time is it now?",
+      "description": "Imperatives",
+      "korean": "그 사랑스러운 조용히은 항상 평화롭게 작동한다.",
+      "english": "The lovely be always quiet. peacefully.",
       "chunks": [
         {
-          "text": "What time",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "it",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "now",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "be always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "quiet. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Review",
-      "grammarGuide": {
-        "title": "Review",
-        "structure": [
-          {
-            "text": "Complement",
-            "color": "#BA68C8"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00"
-          },
-          {
-            "text": "Subject",
-            "color": "#FF0000"
-          },
-          {
-            "text": "Adverb",
-            "color": "#BA68C8"
-          }
-        ]
-      }
+      "context": "Imperatives",
+      "question": "What do the do?"
     },
     {
       "id": "2-26-2",
       "section": "Day 26",
-      "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "파란 펜을 나에게 줘.",
-      "english": "Give me the blue pen.",
+      "description": "Imperatives",
+      "korean": "그 사랑스러운 만지지은 항상 평화롭게 작동한다.",
+      "english": "The lovely don't always touch. peacefully.",
       "chunks": [
         {
-          "text": "Give",
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "don't always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "me",
+          "text": "touch. peacefully.",
           "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "the blue pen",
-          "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Imperatives",
+      "question": "What do the do?"
     },
     {
       "id": "2-26-3",
       "section": "Day 26",
-      "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "친구들에게 친절해라.",
-      "english": "Be nice to your friends.",
+      "description": "Imperatives",
+      "korean": "그 사랑스러운 가자.은 항상 평화롭게 작동한다.",
+      "english": "The lovely let's always go. peacefully.",
       "chunks": [
         {
-          "text": "Be",
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "let's always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "nice",
-          "role": "Complement",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "to your friends",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "go. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Imperatives",
+      "question": "What do the do?"
     },
     {
       "id": "2-26-4",
       "section": "Day 26",
-      "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "얼음 위를 천천히 걸어라.",
-      "english": "Walk slowly on the ice.",
+      "description": "Imperatives",
+      "korean": "그 사랑스러운 도와주세요.은 항상 평화롭게 작동한다.",
+      "english": "The lovely please always help. peacefully.",
       "chunks": [
         {
-          "text": "Walk",
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "please always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "slowly",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "on the ice",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "help. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Imperatives",
+      "question": "What do the do?"
     },
     {
       "id": "2-26-5",
       "section": "Day 26",
-      "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "책을 책상 위에 두어라.",
-      "english": "Put the book on the desk.",
+      "description": "Imperatives",
+      "korean": "그 사랑스러운 일어서.은 항상 평화롭게 작동한다.",
+      "english": "The lovely stand always up. peacefully.",
       "chunks": [
         {
-          "text": "Put",
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "stand always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "the book",
+          "text": "up. peacefully.",
           "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "on the desk",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "color": "#00E676"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Imperatives",
+      "question": "What do the do?"
     },
     {
       "id": "2-26-6",
       "section": "Day 26",
-      "description": "Review",
-      "question": "Situation: Give me a command.",
-      "korean": "상자 안의 선물은 좋다.",
-      "english": "The gift inside the box is nice.",
+      "description": "Imperatives",
+      "korean": "그 사랑스러운 걱정하지은 항상 평화롭게 작동한다.",
+      "english": "The lovely don't always worry. peacefully.",
       "chunks": [
         {
-          "text": "The gift",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "inside the box",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "is",
+          "text": "don't always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "nice",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "worry. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Imperatives",
+      "question": "What do the do?"
     },
     {
       "id": "2-26-7",
       "section": "Day 26",
-      "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "학교를 위해 일찍 자라.",
-      "english": "Sleep early for school.",
+      "description": "Imperatives",
+      "korean": "그 사랑스러운 조심해.은 항상 평화롭게 작동한다.",
+      "english": "The lovely be always careful. peacefully.",
       "chunks": [
         {
-          "text": "Sleep",
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "be always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "early",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "for school",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "careful. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Imperatives",
+      "question": "What do the do?"
     },
     {
       "id": "2-26-8",
       "section": "Day 26",
-      "description": "Review",
-      "question": "How is The boy?",
-      "korean": "차 안의 소년은 슬프다.",
-      "english": "The boy in the car is sad.",
+      "description": "Imperatives",
+      "korean": "그 사랑스러운 내은 항상 평화롭게 작동한다.",
+      "english": "The lovely listen always me. peacefully.",
       "chunks": [
         {
-          "text": "The boy",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "in the car",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "is",
+          "text": "listen always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "sad",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "me. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Imperatives",
+      "question": "What do the do?"
     },
     {
       "id": "2-26-9",
       "section": "Day 26",
-      "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "할머니를 도와드려라.",
-      "english": "Help the old lady.",
+      "description": "Imperatives",
+      "korean": "그 사랑스러운 잠깐만은 항상 평화롭게 작동한다.",
+      "english": "The lovely wait always minute. peacefully.",
       "chunks": [
         {
-          "text": "Help",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "the old lady",
+          "text": "wait always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "minute. peacefully.",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Imperatives",
+      "question": "What do the do?"
     },
     {
       "id": "2-26-10",
       "section": "Day 26",
-      "description": "Review",
-      "question": "What happened yesterday?",
-      "korean": "빨간 가방 어디 있니?",
-      "english": "Where is the red bag?",
+      "description": "Imperatives",
+      "korean": "그 사랑스러운 따라와.은 항상 평화롭게 작동한다.",
+      "english": "The lovely follow always me. peacefully.",
       "chunks": [
         {
-          "text": "Where",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the red bag",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
+        },
+        {
+          "text": "follow always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "me. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Imperatives",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-26-11",
+      "section": "Day 26",
+      "description": "Imperatives",
+      "korean": "그 사랑스러운 포기하지은 항상 평화롭게 작동한다.",
+      "english": "The lovely don't always up. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "don't always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "up. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Imperatives",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-26-12",
+      "section": "Day 26",
+      "description": "Imperatives",
+      "korean": "그 사랑스러운 좀은 항상 평화롭게 작동한다.",
+      "english": "The lovely take always break. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "take always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "break. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Imperatives",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-26-13",
+      "section": "Day 26",
+      "description": "Imperatives",
+      "korean": "그 사랑스러운 소원을은 항상 평화롭게 작동한다.",
+      "english": "The lovely make always wish. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "make always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "wish. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Imperatives",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-26-14",
+      "section": "Day 26",
+      "description": "Imperatives",
+      "korean": "그 사랑스러운 숙제은 항상 평화롭게 작동한다.",
+      "english": "The lovely do always homework. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "do always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "homework. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Imperatives",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-26-15",
+      "section": "Day 26",
+      "description": "Imperatives",
+      "korean": "그 사랑스러운 방은 항상 평화롭게 작동한다.",
+      "english": "The lovely clean always room. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "clean always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "room. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Imperatives",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-26-16",
+      "section": "Day 26",
+      "description": "Imperatives",
+      "korean": "그 사랑스러운 문은 항상 평화롭게 작동한다.",
+      "english": "The lovely open always door. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "open always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "door. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Imperatives",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-26-17",
+      "section": "Day 26",
+      "description": "Imperatives",
+      "korean": "그 사랑스러운 눈을은 항상 평화롭게 작동한다.",
+      "english": "The lovely close always eyes. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "close always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "eyes. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Imperatives",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-26-18",
+      "section": "Day 26",
+      "description": "Imperatives",
+      "korean": "그 사랑스러운 손은 항상 평화롭게 작동한다.",
+      "english": "The lovely wash always hands. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "wash always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "hands. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Imperatives",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-26-19",
+      "section": "Day 26",
+      "description": "Imperatives",
+      "korean": "그 사랑스러운 맛있게은 항상 평화롭게 작동한다.",
+      "english": "The lovely enjoy always meal. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "enjoy always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "meal. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Imperatives",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-26-20",
+      "section": "Day 26",
+      "description": "Imperatives",
+      "korean": "그 사랑스러운 즐거운은 항상 평화롭게 작동한다.",
+      "english": "The lovely have always fun. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "have always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "fun. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Imperatives",
+      "question": "What do the do?"
     },
     {
       "id": "2-27-1",
       "section": "Day 27",
-      "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "푸른 들판을 가로질러 걸어라.",
-      "english": "Walk across the green field.",
+      "description": "Existence",
+      "korean": "그 사랑스러운 고양이은 항상 평화롭게 작동한다.",
+      "english": "The lovely there always cat. peacefully.",
       "chunks": [
         {
-          "text": "Walk",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "across the green field",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "there always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "cat. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Review",
-      "grammarGuide": {
-        "title": "Review",
-        "structure": [
-          {
-            "text": "Verb",
-            "color": "#FF7F00"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5"
-          }
-        ]
-      }
+      "context": "Existence",
+      "question": "What do the do?"
     },
     {
       "id": "2-27-2",
       "section": "Day 27",
-      "description": "Review",
-      "question": "Situation: Give me a command.",
-      "korean": "나는 달콤한 케이크를 먹고 싶다.",
-      "english": "I want to eat a sweet cake.",
+      "description": "Existence",
+      "korean": "그 사랑스러운 개은 항상 평화롭게 작동한다.",
+      "english": "The lovely there always dogs. peacefully.",
       "chunks": [
         {
-          "text": "I",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "want",
+          "text": "there always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "to eat a sweet cake",
+          "text": "dogs. peacefully.",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Existence",
+      "question": "What do the do?"
     },
     {
       "id": "2-27-3",
       "section": "Day 27",
-      "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "창문 좀 열어줘.",
-      "english": "Open the window please.",
+      "description": "Existence",
+      "korean": "그 사랑스러운 문제은 항상 평화롭게 작동한다.",
+      "english": "The lovely is always problem? peacefully.",
       "chunks": [
         {
-          "text": "Open",
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "is always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "the window",
+          "text": "problem? peacefully.",
           "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "please",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "color": "#00E676"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Existence",
+      "question": "Describe The or who they are."
     },
     {
       "id": "2-27-4",
       "section": "Day 27",
-      "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "파란 하늘이 아름다워 보인다.",
-      "english": "Blue sky looks beautiful.",
+      "description": "Existence",
+      "korean": "그 사랑스러운 시간이은 항상 평화롭게 작동한다.",
+      "english": "The lovely there always time. peacefully.",
       "chunks": [
         {
-          "text": "Blue sky",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "looks",
+          "text": "there always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "beautiful",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "time. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Existence",
+      "question": "What do the do?"
     },
     {
       "id": "2-27-5",
       "section": "Day 27",
-      "description": "Review",
-      "question": "Situation: Give me a command.",
-      "korean": "상자 안의 선물은 좋다.",
-      "english": "The gift inside the box is nice.",
+      "description": "Existence",
+      "korean": "그 사랑스러운 쿠키은 항상 평화롭게 작동한다.",
+      "english": "The lovely are always cookies? peacefully.",
       "chunks": [
         {
-          "text": "The gift",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "inside the box",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "is",
+          "text": "are always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "nice",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "cookies? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Existence",
+      "question": "Describe The or who they are."
     },
     {
       "id": "2-27-6",
       "section": "Day 27",
-      "description": "Review",
-      "question": "Situation: Give me a command.",
-      "korean": "그녀는 인형을 가지고 노는 것을 좋아한다.",
-      "english": "She likes to play with dolls.",
+      "description": "Existence",
+      "korean": "그 사랑스러운 책상은 항상 평화롭게 작동한다.",
+      "english": "The lovely there always desk. peacefully.",
       "chunks": [
         {
-          "text": "She",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "likes",
+          "text": "there always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "to play with dolls",
+          "text": "desk. peacefully.",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Existence",
+      "question": "What do the do?"
     },
     {
       "id": "2-27-7",
       "section": "Day 27",
-      "description": "Review",
-      "question": "Situation: You are curious. Ask me.",
-      "korean": "그는 어디에 사니?",
-      "english": "Where does he live?",
+      "description": "Existence",
+      "korean": "그 사랑스러운 하늘에은 항상 평화롭게 작동한다.",
+      "english": "The lovely there always sky. peacefully.",
       "chunks": [
         {
-          "text": "Where",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "does he live",
+          "text": "there always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
+        },
+        {
+          "text": "sky. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Existence",
+      "question": "What do the do?"
     },
     {
       "id": "2-27-8",
       "section": "Day 27",
-      "description": "Review",
-      "question": "Situation: Give me a command.",
-      "korean": "키 큰 남자가 문 근처에 서 있다.",
-      "english": "A tall man stands near the door.",
+      "description": "Existence",
+      "korean": "그 사랑스러운 냉장고에은 항상 평화롭게 작동한다.",
+      "english": "The lovely there always fridge. peacefully.",
       "chunks": [
         {
-          "text": "A tall man",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "stands",
+          "text": "there always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "near the door",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "fridge. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Existence",
+      "question": "What do the do?"
     },
     {
       "id": "2-27-9",
       "section": "Day 27",
-      "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "파란 펜을 나에게 줘.",
-      "english": "Give me the blue pen.",
+      "description": "Existence",
+      "korean": "그 사랑스러운 많은은 항상 평화롭게 작동한다.",
+      "english": "The lovely there always people. peacefully.",
       "chunks": [
         {
-          "text": "Give",
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "there always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "me",
+          "text": "people. peacefully.",
           "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "the blue pen",
-          "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Existence",
+      "question": "What do the do?"
     },
     {
       "id": "2-27-10",
       "section": "Day 27",
-      "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "얼음 위를 천천히 걸어라.",
-      "english": "Walk slowly on the ice.",
+      "description": "Existence",
+      "korean": "그 사랑스러운 왕이은 항상 평화롭게 작동한다.",
+      "english": "The lovely there always king. peacefully.",
       "chunks": [
         {
-          "text": "Walk",
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "there always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "slowly",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        },
-        {
-          "text": "on the ice",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "king. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Existence",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-27-11",
+      "section": "Day 27",
+      "description": "Existence",
+      "korean": "그 사랑스러운 용들이은 항상 평화롭게 작동한다.",
+      "english": "The lovely there always dragons. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "there always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "dragons. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Existence",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-27-12",
+      "section": "Day 27",
+      "description": "Existence",
+      "korean": "그 사랑스러운 희망이은 항상 평화롭게 작동한다.",
+      "english": "The lovely there always hope. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "there always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "hope. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Existence",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-27-13",
+      "section": "Day 27",
+      "description": "Existence",
+      "korean": "그 사랑스러운 집에은 항상 평화롭게 작동한다.",
+      "english": "The lovely is always home? peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "is always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "home? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Existence",
+      "question": "Describe The or who they are."
+    },
+    {
+      "id": "2-27-14",
+      "section": "Day 27",
+      "description": "Existence",
+      "korean": "그 사랑스러운 여긴은 항상 평화롭게 작동한다.",
+      "english": "The lovely there always here. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "there always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "here. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Existence",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-27-15",
+      "section": "Day 27",
+      "description": "Existence",
+      "korean": "그 사랑스러운 옛날은 항상 평화롭게 작동한다.",
+      "english": "The lovely once always time. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "once always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "time. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Existence",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-27-16",
+      "section": "Day 27",
+      "description": "Existence",
+      "korean": "그 사랑스러운 방법이은 항상 평화롭게 작동한다.",
+      "english": "The lovely there always way. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "there always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "way. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Existence",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-27-17",
+      "section": "Day 27",
+      "description": "Existence",
+      "korean": "그 사랑스러운 실수가은 항상 평화롭게 작동한다.",
+      "english": "The lovely there always mistake. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "there always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "mistake. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Existence",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-27-18",
+      "section": "Day 27",
+      "description": "Existence",
+      "korean": "그 사랑스러운 거기은 항상 평화롭게 작동한다.",
+      "english": "The lovely hello always there. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "hello always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "there. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Existence",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-27-19",
+      "section": "Day 27",
+      "description": "Existence",
+      "korean": "그 사랑스러운 거기은 항상 평화롭게 작동한다.",
+      "english": "The lovely who always there? peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "there? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Existence",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-27-20",
+      "section": "Day 27",
+      "description": "Existence",
+      "korean": "그 사랑스러운 내가은 항상 평화롭게 작동한다.",
+      "english": "The lovely i always there. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "i always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "there. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Existence",
+      "question": "What do the do?"
     },
     {
       "id": "2-28-1",
       "section": "Day 28",
-      "description": "Review",
-      "question": "Situation: Give me a command.",
-      "korean": "우리는 시원한 강에서 수영한다.",
-      "english": "We swim in the cool river.",
+      "description": "Final Review",
+      "korean": "그 사랑스러운 나는은 항상 평화롭게 작동한다.",
+      "english": "The lovely i always apple. peacefully.",
       "chunks": [
         {
-          "text": "We",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "swim",
+          "text": "i always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "in the cool river",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "apple. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Review",
-      "grammarGuide": {
-        "title": "Review",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5"
-          }
-        ]
-      }
+      "context": "Final Review",
+      "question": "What do the do?"
     },
     {
       "id": "2-28-2",
       "section": "Day 28",
-      "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "복도에서 뛰어다니지 마.",
-      "english": "Don't run in the hall.",
+      "description": "Final Review",
+      "korean": "그 사랑스러운 지금은 항상 평화롭게 작동한다.",
+      "english": "The lovely run always now. peacefully.",
       "chunks": [
         {
-          "text": "Don't run",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "in the hall",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "run always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "now. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Final Review",
+      "question": "What do the do?"
     },
     {
       "id": "2-28-3",
       "section": "Day 28",
-      "description": "Review",
-      "question": "How is it?",
-      "korean": "너 왜 슬프니?",
-      "english": "Why are you sad?",
+      "description": "Final Review",
+      "korean": "그 사랑스러운 고양이는은 항상 평화롭게 작동한다.",
+      "english": "The lovely the always bed. peacefully.",
       "chunks": [
         {
-          "text": "Why",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "are",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "you",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "sad",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "the always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "bed. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Final Review",
+      "question": "What do the do?"
     },
     {
       "id": "2-28-4",
       "section": "Day 28",
-      "description": "Review",
-      "question": "Situation: Give me a command.",
-      "korean": "상자 안의 선물은 좋다.",
-      "english": "The gift inside the box is nice.",
+      "description": "Final Review",
+      "korean": "그 사랑스러운 어디은 항상 평화롭게 작동한다.",
+      "english": "The lovely where always going? peacefully.",
       "chunks": [
         {
-          "text": "The gift",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "inside the box",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "is",
+          "text": "where always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "nice",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "going? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Final Review",
+      "question": "What do the do?"
     },
     {
       "id": "2-28-5",
       "section": "Day 28",
-      "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "지금 네 방을 청소해.",
-      "english": "Clean your room now.",
+      "description": "Final Review",
+      "korean": "그 사랑스러운 나는은 항상 평화롭게 작동한다.",
+      "english": "The lovely i always soccer. peacefully.",
       "chunks": [
         {
-          "text": "Clean",
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "i always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "your room",
+          "text": "soccer. peacefully.",
           "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "now",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "color": "#00E676"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Final Review",
+      "question": "What do the do?"
     },
     {
       "id": "2-28-6",
       "section": "Day 28",
-      "description": "Review",
-      "question": "Situation: Give me a command.",
-      "korean": "그녀는 인형을 가지고 노는 것을 좋아한다.",
-      "english": "She likes to play with dolls.",
+      "description": "Final Review",
+      "korean": "그 사랑스러운 이은 항상 평화롭게 작동한다.",
+      "english": "The lovely this always sweet. peacefully.",
       "chunks": [
         {
-          "text": "She",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "likes",
+          "text": "this always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "to play with dolls",
+          "text": "sweet. peacefully.",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Final Review",
+      "question": "What do the do?"
     },
     {
       "id": "2-28-7",
       "section": "Day 28",
-      "description": "Review",
-      "question": "How is it?",
-      "korean": "버스 안의 사람들은 피곤하다.",
-      "english": "People on the bus are tired.",
+      "description": "Final Review",
+      "korean": "그 사랑스러운 여름엔은 항상 평화롭게 작동한다.",
+      "english": "The lovely it always summer. peacefully.",
       "chunks": [
         {
-          "text": "People",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "on the bus",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "are",
+          "text": "it always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "tired",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "summer. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Final Review",
+      "question": "What do the do?"
     },
     {
       "id": "2-28-8",
       "section": "Day 28",
-      "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "파란 하늘이 아름다워 보인다.",
-      "english": "Blue sky looks beautiful.",
+      "description": "Final Review",
+      "korean": "그 사랑스러운 계속은 항상 평화롭게 작동한다.",
+      "english": "The lovely wait always constantly. peacefully.",
       "chunks": [
         {
-          "text": "Blue sky",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "looks",
+          "text": "wait always",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "beautiful",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "constantly. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Final Review",
+      "question": "What do the do?"
     },
     {
       "id": "2-28-9",
       "section": "Day 28",
-      "description": "Review",
-      "question": "What happened yesterday?",
-      "korean": "빨간 가방 어디 있니?",
-      "english": "Where is the red bag?",
+      "description": "Final Review",
+      "korean": "그 사랑스러운 밝은은 항상 평화롭게 작동한다.",
+      "english": "The lovely there always star. peacefully.",
       "chunks": [
         {
-          "text": "Where",
-          "role": "Modifier",
-          "color": "#B0BEC5"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the red bag",
+          "text": "The lovely",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
+        },
+        {
+          "text": "there always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "star. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Final Review",
+      "question": "What do the do?"
     },
     {
       "id": "2-28-10",
       "section": "Day 28",
-      "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "뜨거운 냄비를 만지지 마라.",
-      "english": "Don't touch the hot pot.",
+      "description": "Final Review",
+      "korean": "그 사랑스러운 슬퍼은 항상 평화롭게 작동한다.",
+      "english": "The lovely don't always happy. peacefully.",
       "chunks": [
         {
-          "text": "Don't touch",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "the hot pot",
+          "text": "don't always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "happy. peacefully.",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Final Review",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-28-11",
+      "section": "Day 28",
+      "description": "Final Review",
+      "korean": "그 사랑스러운 저은 항상 평화롭게 작동한다.",
+      "english": "The lovely who always girl? peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "girl? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Final Review",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-28-12",
+      "section": "Day 28",
+      "description": "Final Review",
+      "korean": "그 사랑스러운 나는은 항상 평화롭게 작동한다.",
+      "english": "The lovely i always york. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "i always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "york. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Final Review",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-28-13",
+      "section": "Day 28",
+      "description": "Final Review",
+      "korean": "그 사랑스러운 아름다운은 항상 평화롭게 작동한다.",
+      "english": "The lovely look always moon. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "look always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "moon. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Final Review",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-28-14",
+      "section": "Day 28",
+      "description": "Final Review",
+      "korean": "그 사랑스러운 제발은 항상 평화롭게 작동한다.",
+      "english": "The lovely please always carefully. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "please always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "carefully. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Final Review",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-28-15",
+      "section": "Day 28",
+      "description": "Final Review",
+      "korean": "그 사랑스러운 그는은 항상 평화롭게 작동한다.",
+      "english": "The lovely he always up. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "he always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "up. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Final Review",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-28-16",
+      "section": "Day 28",
+      "description": "Final Review",
+      "korean": "그 사랑스러운 아주은 항상 평화롭게 작동한다.",
+      "english": "The lovely is always far? peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "is always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "far? peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Final Review",
+      "question": "Describe The or who they are."
+    },
+    {
+      "id": "2-28-17",
+      "section": "Day 28",
+      "description": "Final Review",
+      "korean": "그 사랑스러운 우리은 항상 평화롭게 작동한다.",
+      "english": "The lovely my always well. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "my always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "well. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Final Review",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-28-18",
+      "section": "Day 28",
+      "description": "Final Review",
+      "korean": "그 사랑스러운 시간은은 항상 평화롭게 작동한다.",
+      "english": "The lovely time always fast. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "time always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "fast. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Final Review",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-28-19",
+      "section": "Day 28",
+      "description": "Final Review",
+      "korean": "그 사랑스러운 대단히은 항상 평화롭게 작동한다.",
+      "english": "The lovely thank always much. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "thank always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "much. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Final Review",
+      "question": "What do the do?"
+    },
+    {
+      "id": "2-28-20",
+      "section": "Day 28",
+      "description": "Final Review",
+      "korean": "그 사랑스러운 무지개은 항상 평화롭게 작동한다.",
+      "english": "The lovely rainbow always easy. peacefully.",
+      "chunks": [
+        {
+          "text": "The lovely",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "rainbow always",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "easy. peacefully.",
+          "role": "Object",
+          "color": "#00E676"
+        }
+      ],
+      "context": "Final Review",
+      "question": "What do the do?"
     }
   ]
 }

@@ -1,129 +1,9 @@
 {
   "curriculum": [
     {
-      "id": "2-1-1",
+      "id": "1-1-1",
       "section": "Day 8",
-      "description": "Subject + Verb + Object: Basic transitive verb pattern",
-      "korean": "나는 음악을 사랑한다.",
-      "english": "I love music.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "love",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "music",
-          "role": "Object",
-          "color": "#FFFF00"
-        }
-      ]
-    },
-    {
-      "id": "2-1-2",
-      "section": "Day 8",
-      "description": "Subject + Verb + Object: Basic transitive verb pattern",
-      "korean": "그녀는 책을 읽는다.",
-      "english": "She reads books.",
-      "chunks": [
-        {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "reads",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "books",
-          "role": "Object",
-          "color": "#FFFF00"
-        }
-      ]
-    },
-    {
-      "id": "2-1-3",
-      "section": "Day 8",
-      "description": "Subject + Verb + Object: Basic transitive verb pattern",
-      "korean": "그는 커피를 마신다.",
-      "english": "He drinks coffee.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "drinks",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "coffee",
-          "role": "Object",
-          "color": "#FFFF00"
-        }
-      ]
-    },
-    {
-      "id": "2-1-4",
-      "section": "Day 8",
-      "description": "Subject + Verb + Object: Basic transitive verb pattern",
-      "korean": "우리는 영화를 본다.",
-      "english": "We watch movies.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "watch",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "movies",
-          "role": "Object",
-          "color": "#FFFF00"
-        }
-      ]
-    },
-    {
-      "id": "2-1-5",
-      "section": "Day 8",
-      "description": "Subject + Verb + Object: Basic transitive verb pattern",
-      "korean": "그들은 노래를 부른다.",
-      "english": "They sing songs.",
-      "chunks": [
-        {
-          "text": "They",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sing",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "songs",
-          "role": "Object",
-          "color": "#FFFF00"
-        }
-      ]
-    },
-    {
-      "id": "2-1-6",
-      "section": "Day 8",
-      "description": "Subject + Verb + Object: Basic transitive verb pattern",
+      "description": "Subject + Verb + Object",
       "korean": "나는 사과를 먹는다.",
       "english": "I eat apples.",
       "chunks": [
@@ -140,14 +20,146 @@
         {
           "text": "apples",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         }
-      ]
+      ],
+      "context": "Simple Action",
+      "question": "What do you eat?"
     },
     {
-      "id": "2-1-7",
+      "id": "1-1-2",
       "section": "Day 8",
-      "description": "Subject + Verb + Object: Basic transitive verb pattern",
+      "description": "Subject + Verb + Object",
+      "korean": "그녀는 책을 읽는다.",
+      "english": "She reads books.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "reads",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "books",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Simple Action",
+      "question": "What does she read?"
+    },
+    {
+      "id": "1-1-3",
+      "section": "Day 8",
+      "description": "Subject + Verb + Object",
+      "korean": "그는 커피를 마신다.",
+      "english": "He drinks coffee.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "drinks",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "coffee",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Simple Action",
+      "question": "What does he drink?"
+    },
+    {
+      "id": "1-1-4",
+      "section": "Day 8",
+      "description": "Subject + Verb + Object",
+      "korean": "우리는 영화를 본다.",
+      "english": "We watch movies.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "watch",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "movies",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Simple Action",
+      "question": "What do we watch?"
+    },
+    {
+      "id": "1-1-5",
+      "section": "Day 8",
+      "description": "Subject + Verb + Object",
+      "korean": "그들은 노래를 부른다.",
+      "english": "They sing songs.",
+      "chunks": [
+        {
+          "text": "They",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "sing",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "songs",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Simple Action",
+      "question": "What do they sing?"
+    },
+    {
+      "id": "1-1-6",
+      "section": "Day 8",
+      "description": "Subject + Verb + Object",
+      "korean": "나는 음악을 사랑한다.",
+      "english": "I love music.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "love",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "music",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Simple Action",
+      "question": "What do you love?"
+    },
+    {
+      "id": "1-1-7",
+      "section": "Day 8",
+      "description": "Subject + Verb + Object",
       "korean": "그녀는 그림을 그린다.",
       "english": "She draws pictures.",
       "chunks": [
@@ -164,16 +176,18 @@
         {
           "text": "pictures",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         }
-      ]
+      ],
+      "context": "Simple Action",
+      "question": "What does she draw?"
     },
     {
-      "id": "2-1-8",
+      "id": "1-1-8",
       "section": "Day 8",
-      "description": "Subject + Verb + Object: Basic transitive verb pattern",
-      "korean": "그는 자전거를 탄다.",
-      "english": "He rides a bicycle.",
+      "description": "Subject + Verb + Object",
+      "korean": "그는 운전을 한다.",
+      "english": "He drives a car.",
       "chunks": [
         {
           "text": "He",
@@ -181,21 +195,23 @@
           "color": "#FF0000"
         },
         {
-          "text": "rides",
+          "text": "drives",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "a bicycle",
+          "text": "a car",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         }
-      ]
+      ],
+      "context": "Simple Action",
+      "question": "What does he drive?"
     },
     {
-      "id": "2-1-9",
+      "id": "1-1-9",
       "section": "Day 8",
-      "description": "Subject + Verb + Object: Basic transitive verb pattern",
+      "description": "Subject + Verb + Object",
       "korean": "아이들은 장난감을 좋아한다.",
       "english": "Children like toys.",
       "chunks": [
@@ -212,14 +228,16 @@
         {
           "text": "toys",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         }
-      ]
+      ],
+      "context": "Simple Action",
+      "question": "What do children like?"
     },
     {
-      "id": "2-1-10",
+      "id": "1-1-10",
       "section": "Day 8",
-      "description": "Subject + Verb + Object: Basic transitive verb pattern",
+      "description": "Subject + Verb + Object",
       "korean": "우리는 진실을 안다.",
       "english": "We know the truth.",
       "chunks": [
@@ -236,16 +254,278 @@
         {
           "text": "the truth",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         }
-      ]
+      ],
+      "context": "Simple Action",
+      "question": "What do we know?"
     },
     {
-      "id": "2-2-1",
+      "id": "1-1-11",
+      "section": "Day 8",
+      "description": "Subject + Verb + Object",
+      "korean": "너는 도움이 필요하다.",
+      "english": "You need help.",
+      "chunks": [
+        {
+          "text": "You",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "need",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "help",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Simple Action",
+      "question": "What do you need?"
+    },
+    {
+      "id": "1-1-12",
+      "section": "Day 8",
+      "description": "Subject + Verb + Object",
+      "korean": "나는 새를 본다.",
+      "english": "I see a bird.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "see",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a bird",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Simple Action",
+      "question": "What do you see?"
+    },
+    {
+      "id": "1-1-13",
+      "section": "Day 8",
+      "description": "Subject + Verb + Object",
+      "korean": "그녀는 물을 원한다.",
+      "english": "She wants water.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "wants",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "water",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Simple Action",
+      "question": "What does she want?"
+    },
+    {
+      "id": "1-1-14",
+      "section": "Day 8",
+      "description": "Subject + Verb + Object",
+      "korean": "그는 펜을 잡고 있다.",
+      "english": "He holds a pen.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "holds",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a pen",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Simple Action",
+      "question": "What does he hold?"
+    },
+    {
+      "id": "1-1-15",
+      "section": "Day 8",
+      "description": "Subject + Verb + Object",
+      "korean": "그들은 집을 짓는다.",
+      "english": "They build houses.",
+      "chunks": [
+        {
+          "text": "They",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "build",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "houses",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Simple Action",
+      "question": "What do they build?"
+    },
+    {
+      "id": "1-1-16",
+      "section": "Day 8",
+      "description": "Subject + Verb + Object",
+      "korean": "우리는 음식을 산다.",
+      "english": "We buy food.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "buy",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "food",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Simple Action",
+      "question": "What do we buy?"
+    },
+    {
+      "id": "1-1-17",
+      "section": "Day 8",
+      "description": "Subject + Verb + Object",
+      "korean": "농부들은 쌀을 재배한다.",
+      "english": "Farmers grow rice.",
+      "chunks": [
+        {
+          "text": "Farmers",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "grow",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "rice",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Simple Action",
+      "question": "What do farmers grow?"
+    },
+    {
+      "id": "1-1-18",
+      "section": "Day 8",
+      "description": "Subject + Verb + Object",
+      "korean": "예술가들은 예술을 만든다.",
+      "english": "Artists make art.",
+      "chunks": [
+        {
+          "text": "Artists",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "make",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "art",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Simple Action",
+      "question": "What do artists make?"
+    },
+    {
+      "id": "1-1-19",
+      "section": "Day 8",
+      "description": "Subject + Verb + Object",
+      "korean": "개들은 고양이를 쫓는다.",
+      "english": "Dogs chase cats.",
+      "chunks": [
+        {
+          "text": "Dogs",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "chase",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "cats",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Simple Action",
+      "question": "What do dogs chase?"
+    },
+    {
+      "id": "1-1-20",
+      "section": "Day 8",
+      "description": "Subject + Verb + Object",
+      "korean": "고양이들은 쥐를 잡는다.",
+      "english": "Cats catch mice.",
+      "chunks": [
+        {
+          "text": "Cats",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "catch",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "mice",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Simple Action",
+      "question": "What do cats catch?"
+    },
+    {
+      "id": "1-2-1",
       "section": "Day 9",
-      "description": "Subject + Verb + Object: Objects with modifiers",
-      "korean": "나는 아름다운 드레스를 샀다.",
-      "english": "I bought a beautiful dress.",
+      "description": "Subject + Verb + Adjective + Object",
+      "korean": "나는 빨간 드레스를 샀다.",
+      "english": "I bought a red dress.",
       "chunks": [
         {
           "text": "I",
@@ -258,42 +538,20 @@
           "color": "#FF7F00"
         },
         {
-          "text": "a beautiful dress",
+          "text": "a red dress",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         }
-      ]
+      ],
+      "context": "Description",
+      "question": "What did you buy?"
     },
     {
-      "id": "2-2-2",
+      "id": "1-2-2",
       "section": "Day 9",
-      "description": "Subject + Verb + Object: Objects with modifiers",
-      "korean": "그는 어려운 문제를 풀었다.",
-      "english": "He solved the difficult problem.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "solved",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the difficult problem",
-          "role": "Object",
-          "color": "#FFFF00"
-        }
-      ]
-    },
-    {
-      "id": "2-2-3",
-      "section": "Day 9",
-      "description": "Subject + Verb + Object: Objects with modifiers",
-      "korean": "그녀는 흥미로운 책을 읽었다.",
-      "english": "She read an interesting book.",
+      "description": "Subject + Verb + Adjective + Object",
+      "korean": "그녀는 긴 머리를 가지고 있다.",
+      "english": "She has long hair.",
       "chunks": [
         {
           "text": "She",
@@ -301,23 +559,51 @@
           "color": "#FF0000"
         },
         {
-          "text": "read",
+          "text": "has",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "an interesting book",
+          "text": "long hair",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         }
-      ]
+      ],
+      "context": "Description",
+      "question": "What does she have?"
     },
     {
-      "id": "2-2-4",
+      "id": "1-2-3",
       "section": "Day 9",
-      "description": "Subject + Verb + Object: Objects with modifiers",
-      "korean": "우리는 새로운 집을 지었다.",
-      "english": "We built a new house.",
+      "description": "Subject + Verb + Adjective + Object",
+      "korean": "그는 오래된 책을 읽는다.",
+      "english": "He reads old books.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "reads",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "old books",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Description",
+      "question": "What does he read?"
+    },
+    {
+      "id": "1-2-4",
+      "section": "Day 9",
+      "description": "Subject + Verb + Adjective + Object",
+      "korean": "우리는 큰 곰을 보았다.",
+      "english": "We saw a big bear.",
       "chunks": [
         {
           "text": "We",
@@ -325,23 +611,25 @@
           "color": "#FF0000"
         },
         {
-          "text": "built",
+          "text": "saw",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "a new house",
+          "text": "a big bear",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         }
-      ]
+      ],
+      "context": "Description",
+      "question": "What did we see?"
     },
     {
-      "id": "2-2-5",
+      "id": "1-2-5",
       "section": "Day 9",
-      "description": "Subject + Verb + Object: Objects with modifiers",
-      "korean": "그들은 맛있는 저녁을 요리했다.",
-      "english": "They cooked a delicious dinner.",
+      "description": "Subject + Verb + Adjective + Object",
+      "korean": "그들은 신선한 과일을 먹는다.",
+      "english": "They eat fresh fruit.",
       "chunks": [
         {
           "text": "They",
@@ -349,21 +637,23 @@
           "color": "#FF0000"
         },
         {
-          "text": "cooked",
+          "text": "eat",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "a delicious dinner",
+          "text": "fresh fruit",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         }
-      ]
+      ],
+      "context": "Description",
+      "question": "What do they eat?"
     },
     {
-      "id": "2-2-6",
+      "id": "1-2-6",
       "section": "Day 9",
-      "description": "Subject + Verb + Object: Objects with modifiers",
+      "description": "Subject + Verb + Adjective + Object",
       "korean": "나는 좋은 친구를 만났다.",
       "english": "I met a good friend.",
       "chunks": [
@@ -380,16 +670,18 @@
         {
           "text": "a good friend",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         }
-      ]
+      ],
+      "context": "Description",
+      "question": "Who did you meet?"
     },
     {
-      "id": "2-2-7",
+      "id": "1-2-7",
       "section": "Day 9",
-      "description": "Subject + Verb + Object: Objects with modifiers",
-      "korean": "그는 큰 차를 운전한다.",
-      "english": "He drives a big car.",
+      "description": "Subject + Verb + Adjective + Object",
+      "korean": "그는 빠른 차를 운전한다.",
+      "english": "He drives a fast car.",
       "chunks": [
         {
           "text": "He",
@@ -402,18 +694,20 @@
           "color": "#FF7F00"
         },
         {
-          "text": "a big car",
+          "text": "a fast car",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         }
-      ]
+      ],
+      "context": "Description",
+      "question": "What does he drive?"
     },
     {
-      "id": "2-2-8",
+      "id": "1-2-8",
       "section": "Day 9",
-      "description": "Subject + Verb + Object: Objects with modifiers",
-      "korean": "그녀는 예쁜 꽃을 심었다.",
-      "english": "She planted beautiful flowers.",
+      "description": "Subject + Verb + Adjective + Object",
+      "korean": "그녀는 파란 하늘을 좋아한다.",
+      "english": "She likes blue sky.",
       "chunks": [
         {
           "text": "She",
@@ -421,23 +715,25 @@
           "color": "#FF0000"
         },
         {
-          "text": "planted",
+          "text": "likes",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "beautiful flowers",
+          "text": "blue sky",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         }
-      ]
+      ],
+      "context": "Description",
+      "question": "What does she like?"
     },
     {
-      "id": "2-2-9",
+      "id": "1-2-9",
       "section": "Day 9",
-      "description": "Subject + Verb + Object: Objects with modifiers",
-      "korean": "학생들은 중요한 시험을 봤다.",
-      "english": "Students took an important exam.",
+      "description": "Subject + Verb + Adjective + Object",
+      "korean": "학생들은 어려운 시험을 치른다.",
+      "english": "Students take hard tests.",
       "chunks": [
         {
           "text": "Students",
@@ -445,23 +741,25 @@
           "color": "#FF0000"
         },
         {
-          "text": "took",
+          "text": "take",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "an important exam",
+          "text": "hard tests",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         }
-      ]
+      ],
+      "context": "Description",
+      "question": "What do students take?"
     },
     {
-      "id": "2-2-10",
+      "id": "1-2-10",
       "section": "Day 9",
-      "description": "Subject + Verb + Object: Objects with modifiers",
-      "korean": "우리는 특별한 선물을 받았다.",
-      "english": "We received a special gift.",
+      "description": "Subject + Verb + Adjective + Object",
+      "korean": "우리는 찬 물을 원한다.",
+      "english": "We want cold water.",
       "chunks": [
         {
           "text": "We",
@@ -469,23 +767,285 @@
           "color": "#FF0000"
         },
         {
-          "text": "received",
+          "text": "want",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "a special gift",
+          "text": "cold water",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         }
-      ]
+      ],
+      "context": "Description",
+      "question": "What do we want?"
     },
     {
-      "id": "2-3-1",
+      "id": "1-2-11",
+      "section": "Day 9",
+      "description": "Subject + Verb + Adjective + Object",
+      "korean": "나는 슬픈 이야기를 들었다.",
+      "english": "I heard a sad story.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "heard",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a sad story",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Description",
+      "question": "What did you hear?"
+    },
+    {
+      "id": "1-2-12",
+      "section": "Day 9",
+      "description": "Subject + Verb + Adjective + Object",
+      "korean": "그녀는 맛있는 식사를 요리했다.",
+      "english": "She cooked a delicious meal.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "cooked",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a delicious meal",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Description",
+      "question": "What did she cook?"
+    },
+    {
+      "id": "1-2-13",
+      "section": "Day 9",
+      "description": "Subject + Verb + Adjective + Object",
+      "korean": "그는 검은 모자를 쓴다.",
+      "english": "He wears a black hat.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "wears",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a black hat",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Description",
+      "question": "What does he wear?"
+    },
+    {
+      "id": "1-2-14",
+      "section": "Day 9",
+      "description": "Subject + Verb + Adjective + Object",
+      "korean": "그들은 새 전화기를 사용한다.",
+      "english": "They use new phones.",
+      "chunks": [
+        {
+          "text": "They",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "use",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "new phones",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Description",
+      "question": "What do they use?"
+    },
+    {
+      "id": "1-2-15",
+      "section": "Day 9",
+      "description": "Subject + Verb + Adjective + Object",
+      "korean": "우리는 따뜻한 옷이 필요하다.",
+      "english": "We need warm clothes.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "need",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "warm clothes",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Description",
+      "question": "What do we need?"
+    },
+    {
+      "id": "1-2-16",
+      "section": "Day 9",
+      "description": "Subject + Verb + Adjective + Object",
+      "korean": "새들은 작은 둥지를 짓는다.",
+      "english": "Birds build small nests.",
+      "chunks": [
+        {
+          "text": "Birds",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "build",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "small nests",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Description",
+      "question": "What do birds build?"
+    },
+    {
+      "id": "1-2-17",
+      "section": "Day 9",
+      "description": "Subject + Verb + Adjective + Object",
+      "korean": "그는 하얀 벽을 칠했다.",
+      "english": "He painted a white wall.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "painted",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a white wall",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Description",
+      "question": "What did he paint?"
+    },
+    {
+      "id": "1-2-18",
+      "section": "Day 9",
+      "description": "Subject + Verb + Adjective + Object",
+      "korean": "그녀는 짧은 편지를 쓴다.",
+      "english": "She writes short letters.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "writes",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "short letters",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Description",
+      "question": "What does she write?"
+    },
+    {
+      "id": "1-2-19",
+      "section": "Day 9",
+      "description": "Subject + Verb + Adjective + Object",
+      "korean": "나는 행운의 동전을 찾았다.",
+      "english": "I found a lucky coin.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "found",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a lucky coin",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Description",
+      "question": "What did you find?"
+    },
+    {
+      "id": "1-2-20",
+      "section": "Day 9",
+      "description": "Subject + Verb + Adjective + Object",
+      "korean": "사람들은 달콤한 사탕을 좋아한다.",
+      "english": "People love sweet candy.",
+      "chunks": [
+        {
+          "text": "People",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "love",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "sweet candy",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Description",
+      "question": "What do people love?"
+    },
+    {
+      "id": "1-3-1",
       "section": "Day 10",
-      "description": "Subject + Verb + Object + Adverb: Adding adverbs to transitive sentences",
-      "korean": "그녀는 피아노를 아름답게 연주한다.",
-      "english": "She plays piano beautifully.",
+      "description": "Subject + Verb + Object + Adverb",
+      "korean": "그녀는 피아노를 잘 친다.",
+      "english": "She plays piano well.",
       "chunks": [
         {
           "text": "She",
@@ -500,24 +1060,26 @@
         {
           "text": "piano",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         },
         {
-          "text": "beautifully",
-          "role": "Modifier",
-          "color": "#0000FF"
+          "text": "well",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Manner with Object",
+      "question": "How does she play?"
     },
     {
-      "id": "2-3-2",
+      "id": "1-3-2",
       "section": "Day 10",
-      "description": "Subject + Verb + Object + Adverb: Adding adverbs to transitive sentences",
-      "korean": "그들은 숙제를 빨리 끝냈다.",
-      "english": "They finished homework quickly.",
+      "description": "Subject + Verb + Object + Adverb",
+      "korean": "그는 일을 빨리 끝냈다.",
+      "english": "He finished work quickly.",
       "chunks": [
         {
-          "text": "They",
+          "text": "He",
           "role": "Subject",
           "color": "#FF0000"
         },
@@ -527,21 +1089,23 @@
           "color": "#FF7F00"
         },
         {
-          "text": "homework",
+          "text": "work",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         },
         {
           "text": "quickly",
-          "role": "Modifier",
-          "color": "#0000FF"
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Manner with Object",
+      "question": "How did he finish?"
     },
     {
-      "id": "2-3-3",
+      "id": "1-3-3",
       "section": "Day 10",
-      "description": "Subject + Verb + Object + Adverb: Adding adverbs to transitive sentences",
+      "description": "Subject + Verb + Object + Adverb",
       "korean": "나는 영어를 열심히 공부한다.",
       "english": "I study English hard.",
       "chunks": [
@@ -558,24 +1122,26 @@
         {
           "text": "English",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         },
         {
           "text": "hard",
-          "role": "Modifier",
-          "color": "#0000FF"
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Manner with Object",
+      "question": "How do you study?"
     },
     {
-      "id": "2-3-4",
+      "id": "1-3-4",
       "section": "Day 10",
-      "description": "Subject + Verb + Object + Adverb: Adding adverbs to transitive sentences",
-      "korean": "그는 문을 조용히 닫았다.",
-      "english": "He closed the door quietly.",
+      "description": "Subject + Verb + Object + Adverb",
+      "korean": "그들은 문을 조용히 닫았다.",
+      "english": "They closed the door quietly.",
       "chunks": [
         {
-          "text": "He",
+          "text": "They",
           "role": "Subject",
           "color": "#FF0000"
         },
@@ -587,19 +1153,21 @@
         {
           "text": "the door",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         },
         {
           "text": "quietly",
-          "role": "Modifier",
-          "color": "#0000FF"
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Manner with Object",
+      "question": "How did they close it?"
     },
     {
-      "id": "2-3-5",
+      "id": "1-3-5",
       "section": "Day 10",
-      "description": "Subject + Verb + Object + Adverb: Adding adverbs to transitive sentences",
+      "description": "Subject + Verb + Object + Adverb",
       "korean": "우리는 점심을 천천히 먹었다.",
       "english": "We ate lunch slowly.",
       "chunks": [
@@ -616,20 +1184,22 @@
         {
           "text": "lunch",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         },
         {
           "text": "slowly",
-          "role": "Modifier",
-          "color": "#0000FF"
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Manner with Object",
+      "question": "How did we eat?"
     },
     {
-      "id": "2-3-6",
+      "id": "1-3-6",
       "section": "Day 10",
-      "description": "Subject + Verb + Object + Adverb: Adding adverbs to transitive sentences",
-      "korean": "그녀는 편지를 신중하게 썼다.",
+      "description": "Subject + Verb + Object + Adverb",
+      "korean": "그녀는 편지를 조심스럽게 썼다.",
       "english": "She wrote the letter carefully.",
       "chunks": [
         {
@@ -645,50 +1215,23 @@
         {
           "text": "the letter",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         },
         {
           "text": "carefully",
-          "role": "Modifier",
-          "color": "#0000FF"
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Manner with Object",
+      "question": "How did she write?"
     },
     {
-      "id": "2-3-7",
+      "id": "1-3-7",
       "section": "Day 10",
-      "description": "Subject + Verb + Object + Adverb: Adding adverbs to transitive sentences",
-      "korean": "학생들은 프로젝트를 완벽하게 완성했다.",
-      "english": "Students completed the project perfectly.",
-      "chunks": [
-        {
-          "text": "Students",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "completed",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the project",
-          "role": "Object",
-          "color": "#FFFF00"
-        },
-        {
-          "text": "perfectly",
-          "role": "Modifier",
-          "color": "#0000FF"
-        }
-      ]
-    },
-    {
-      "id": "2-3-8",
-      "section": "Day 10",
-      "description": "Subject + Verb + Object + Adverb: Adding adverbs to transitive sentences",
-      "korean": "그는 질문에 정직하게 답했다.",
-      "english": "He answered the question honestly.",
+      "description": "Subject + Verb + Object + Adverb",
+      "korean": "그는 질문에 솔직하게 답했다.",
+      "english": "He answered questions honestly.",
       "chunks": [
         {
           "text": "He",
@@ -701,22 +1244,24 @@
           "color": "#FF7F00"
         },
         {
-          "text": "the question",
+          "text": "questions",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         },
         {
           "text": "honestly",
-          "role": "Modifier",
-          "color": "#0000FF"
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Manner with Object",
+      "question": "How did he answer?"
     },
     {
-      "id": "2-3-9",
+      "id": "1-3-8",
       "section": "Day 10",
-      "description": "Subject + Verb + Object + Adverb: Adding adverbs to transitive sentences",
-      "korean": "그녀는 노래를 크게 불렀다.",
+      "description": "Subject + Verb + Object + Adverb",
+      "korean": "그녀는 그 노래를 크게 불렀다.",
       "english": "She sang the song loudly.",
       "chunks": [
         {
@@ -732,21 +1277,23 @@
         {
           "text": "the song",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         },
         {
           "text": "loudly",
-          "role": "Modifier",
-          "color": "#0000FF"
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Manner with Object",
+      "question": "How did she sing?"
     },
     {
-      "id": "2-3-10",
+      "id": "1-3-9",
       "section": "Day 10",
-      "description": "Subject + Verb + Object + Adverb: Adding adverbs to transitive sentences",
-      "korean": "그들은 계획을 신중히 세웠다.",
-      "english": "They made the plan carefully.",
+      "description": "Subject + Verb + Object + Adverb",
+      "korean": "그들은 여행을 즐겁게 계획했다.",
+      "english": "They planned the trip happily.",
       "chunks": [
         {
           "text": "They",
@@ -754,26 +1301,369 @@
           "color": "#FF0000"
         },
         {
-          "text": "made",
+          "text": "planned",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "the plan",
+          "text": "the trip",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         },
         {
-          "text": "carefully",
-          "role": "Modifier",
-          "color": "#0000FF"
+          "text": "happily",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Manner with Object",
+      "question": "How did they plan?"
     },
     {
-      "id": "2-4-1",
+      "id": "1-3-10",
+      "section": "Day 10",
+      "description": "Subject + Verb + Object + Adverb",
+      "korean": "나는 너를 진심으로 사랑한다.",
+      "english": "I love you truly.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "love",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "you",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "truly",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Manner with Object",
+      "question": "How do I love you?"
+    },
+    {
+      "id": "1-3-11",
+      "section": "Day 10",
+      "description": "Subject + Verb + Object + Adverb",
+      "korean": "그는 공을 세게 쳤다.",
+      "english": "He hit the ball hard.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "hit",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the ball",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "hard",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Manner with Object",
+      "question": "How did he hit?"
+    },
+    {
+      "id": "1-3-12",
+      "section": "Day 10",
+      "description": "Subject + Verb + Object + Adverb",
+      "korean": "우리는 문제를 쉽게 풀었다.",
+      "english": "We solved the problem easily.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "solved",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the problem",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "easily",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Manner with Object",
+      "question": "How did we solve it?"
+    },
+    {
+      "id": "1-3-13",
+      "section": "Day 10",
+      "description": "Subject + Verb + Object + Adverb",
+      "korean": "그녀는 선물을 들떠서 열었다.",
+      "english": "She opened the gift excitedly.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "opened",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the gift",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "excitedly",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Manner with Object",
+      "question": "How did she open it?"
+    },
+    {
+      "id": "1-3-14",
+      "section": "Day 10",
+      "description": "Subject + Verb + Object + Adverb",
+      "korean": "그들은 길을 안전하게 건넜다.",
+      "english": "They crossed the street safely.",
+      "chunks": [
+        {
+          "text": "They",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "crossed",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the street",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "safely",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Manner with Object",
+      "question": "How did they cross?"
+    },
+    {
+      "id": "1-3-15",
+      "section": "Day 10",
+      "description": "Subject + Verb + Object + Adverb",
+      "korean": "나는 책을 빨리 읽었다.",
+      "english": "I read the book quickly.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "read",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the book",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "quickly",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Manner with Object",
+      "question": "How did you read?"
+    },
+    {
+      "id": "1-3-16",
+      "section": "Day 10",
+      "description": "Subject + Verb + Object + Adverb",
+      "korean": "그는 아기를 부드럽게 안았다.",
+      "english": "He held the baby gently.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "held",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the baby",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "gently",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Manner with Object",
+      "question": "How did he hold it?"
+    },
+    {
+      "id": "1-3-17",
+      "section": "Day 10",
+      "description": "Subject + Verb + Object + Adverb",
+      "korean": "우리는 경기를 열렬히 지켜봤다.",
+      "english": "We watched the game eagerly.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "watched",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the game",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "eagerly",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Manner with Object",
+      "question": "How did we watch?"
+    },
+    {
+      "id": "1-3-18",
+      "section": "Day 10",
+      "description": "Subject + Verb + Object + Adverb",
+      "korean": "그녀는 방을 완전히 청소했다.",
+      "english": "She cleaned the room completely.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "cleaned",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the room",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "completely",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Manner with Object",
+      "question": "How did she clean?"
+    },
+    {
+      "id": "1-3-19",
+      "section": "Day 10",
+      "description": "Subject + Verb + Object + Adverb",
+      "korean": "그들은 차를 완벽하게 고쳤다.",
+      "english": "They fixed the car perfectly.",
+      "chunks": [
+        {
+          "text": "They",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "fixed",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the car",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "perfectly",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Manner with Object",
+      "question": "How did they fix it?"
+    },
+    {
+      "id": "1-3-20",
+      "section": "Day 10",
+      "description": "Subject + Verb + Object + Adverb",
+      "korean": "나는 슬프게도 버스를 놓쳤다.",
+      "english": "I missed the bus sadly.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "missed",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the bus",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "sadly",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Manner with Object",
+      "question": "How did you miss it?"
+    },
+    {
+      "id": "1-4-1",
       "section": "Day 11",
-      "description": "Subject + Verb + Object + Prepositional Phrase: Location and time with objects",
+      "description": "SVO + Prepositional Phrase",
       "korean": "나는 공원에서 그를 만났다.",
       "english": "I met him at the park.",
       "chunks": [
@@ -790,20 +1680,22 @@
         {
           "text": "him",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         },
         {
           "text": "at the park",
           "role": "Modifier",
-          "color": "#0000FF"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Contextual Detail",
+      "question": "Where did you meet?"
     },
     {
-      "id": "2-4-2",
+      "id": "1-4-2",
       "section": "Day 11",
-      "description": "Subject + Verb + Object + Prepositional Phrase: Location and time with objects",
-      "korean": "그녀는 책을 선반에 놓는다.",
+      "description": "SVO + Prepositional Phrase",
+      "korean": "그녀는 책을 선반에 둔다.",
       "english": "She puts books on the shelf.",
       "chunks": [
         {
@@ -819,21 +1711,23 @@
         {
           "text": "books",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         },
         {
           "text": "on the shelf",
           "role": "Modifier",
-          "color": "#0000FF"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Contextual Detail",
+      "question": "Where does she put them?"
     },
     {
-      "id": "2-4-3",
+      "id": "1-4-3",
       "section": "Day 11",
-      "description": "Subject + Verb + Object + Prepositional Phrase: Location and time with objects",
-      "korean": "우리는 아침에 신문을 읽는다.",
-      "english": "We read the newspaper in the morning.",
+      "description": "SVO + Prepositional Phrase",
+      "korean": "우리는 아침에 뉴스를 읽는다.",
+      "english": "We read news in the morning.",
       "chunks": [
         {
           "text": "We",
@@ -846,23 +1740,25 @@
           "color": "#FF7F00"
         },
         {
-          "text": "the newspaper",
+          "text": "news",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         },
         {
           "text": "in the morning",
           "role": "Modifier",
-          "color": "#0000FF"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Contextual Detail",
+      "question": "When do we read?"
     },
     {
-      "id": "2-4-4",
+      "id": "1-4-4",
       "section": "Day 11",
-      "description": "Subject + Verb + Object + Prepositional Phrase: Location and time with objects",
-      "korean": "그는 테이블 위에 열쇠를 놓았다.",
-      "english": "He left the keys on the table.",
+      "description": "SVO + Prepositional Phrase",
+      "korean": "그는 열쇠를 탁자에 두었다.",
+      "english": "He left keys on the table.",
       "chunks": [
         {
           "text": "He",
@@ -875,23 +1771,25 @@
           "color": "#FF7F00"
         },
         {
-          "text": "the keys",
+          "text": "keys",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         },
         {
           "text": "on the table",
           "role": "Modifier",
-          "color": "#0000FF"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Contextual Detail",
+      "question": "Where did he leave them?"
     },
     {
-      "id": "2-4-5",
+      "id": "1-4-5",
       "section": "Day 11",
-      "description": "Subject + Verb + Object + Prepositional Phrase: Location and time with objects",
-      "korean": "그들은 해변에서 사진을 찍었다.",
-      "english": "They took photos at the beach.",
+      "description": "SVO + Prepositional Phrase",
+      "korean": "그들은 해변에서 사진을 찍는다.",
+      "english": "They take photos at the beach.",
       "chunks": [
         {
           "text": "They",
@@ -899,26 +1797,28 @@
           "color": "#FF0000"
         },
         {
-          "text": "took",
+          "text": "take",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
           "text": "photos",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         },
         {
           "text": "at the beach",
           "role": "Modifier",
-          "color": "#0000FF"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Contextual Detail",
+      "question": "Where do they take photos?"
     },
     {
-      "id": "2-4-6",
+      "id": "1-4-6",
       "section": "Day 11",
-      "description": "Subject + Verb + Object + Prepositional Phrase: Location and time with objects",
+      "description": "SVO + Prepositional Phrase",
       "korean": "나는 저녁에 친구를 만난다.",
       "english": "I meet friends in the evening.",
       "chunks": [
@@ -935,21 +1835,23 @@
         {
           "text": "friends",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         },
         {
           "text": "in the evening",
           "role": "Modifier",
-          "color": "#0000FF"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Contextual Detail",
+      "question": "When do you meet?"
     },
     {
-      "id": "2-4-7",
+      "id": "1-4-7",
       "section": "Day 11",
-      "description": "Subject + Verb + Object + Prepositional Phrase: Location and time with objects",
-      "korean": "그녀는 가방에 책을 넣는다.",
-      "english": "She puts books in the bag.",
+      "description": "SVO + Prepositional Phrase",
+      "korean": "그녀는 정원에서 꽃을 키운다.",
+      "english": "She grows flowers in the garden.",
       "chunks": [
         {
           "text": "She",
@@ -957,55 +1859,28 @@
           "color": "#FF0000"
         },
         {
-          "text": "puts",
+          "text": "grows",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "books",
+          "text": "flowers",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         },
         {
-          "text": "in the bag",
+          "text": "in the garden",
           "role": "Modifier",
-          "color": "#0000FF"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Contextual Detail",
+      "question": "Where does she grow them?"
     },
     {
-      "id": "2-4-8",
+      "id": "1-4-8",
       "section": "Day 11",
-      "description": "Subject + Verb + Object + Prepositional Phrase: Location and time with objects",
-      "korean": "우리는 주말에 영화를 본다.",
-      "english": "We watch movies on weekends.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "watch",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "movies",
-          "role": "Object",
-          "color": "#FFFF00"
-        },
-        {
-          "text": "on weekends",
-          "role": "Modifier",
-          "color": "#0000FF"
-        }
-      ]
-    },
-    {
-      "id": "2-4-9",
-      "section": "Day 11",
-      "description": "Subject + Verb + Object + Prepositional Phrase: Location and time with objects",
+      "description": "SVO + Prepositional Phrase",
       "korean": "그는 학교에서 과학을 가르친다.",
       "english": "He teaches science at school.",
       "chunks": [
@@ -1022,21 +1897,116 @@
         {
           "text": "science",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         },
         {
           "text": "at school",
           "role": "Modifier",
-          "color": "#0000FF"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Contextual Detail",
+      "question": "Where does he teach?"
     },
     {
-      "id": "2-4-10",
+      "id": "1-4-9",
       "section": "Day 11",
-      "description": "Subject + Verb + Object + Prepositional Phrase: Location and time with objects",
-      "korean": "그녀는 정원에서 꽃을 기른다.",
-      "english": "She grows flowers in the garden.",
+      "description": "SVO + Prepositional Phrase",
+      "korean": "우리는 주말에 영화를 본다.",
+      "english": "We watch movies on weekends.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "watch",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "movies",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "on weekends",
+          "role": "Modifier",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Contextual Detail",
+      "question": "When do we watch?"
+    },
+    {
+      "id": "1-4-10",
+      "section": "Day 11",
+      "description": "SVO + Prepositional Phrase",
+      "korean": "그들은 동굴에서 금을 찾았다.",
+      "english": "They found gold in the cave.",
+      "chunks": [
+        {
+          "text": "They",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "found",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "gold",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "in the cave",
+          "role": "Modifier",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Contextual Detail",
+      "question": "Where did they find it?"
+    },
+    {
+      "id": "1-4-11",
+      "section": "Day 11",
+      "description": "SVO + Prepositional Phrase",
+      "korean": "나는 하늘에서 별을 보았다.",
+      "english": "I saw stars in the sky.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "saw",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "stars",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "in the sky",
+          "role": "Modifier",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Contextual Detail",
+      "question": "Where did you see stars?"
+    },
+    {
+      "id": "1-4-12",
+      "section": "Day 11",
+      "description": "SVO + Prepositional Phrase",
+      "korean": "그녀는 가게에서 빵을 산다.",
+      "english": "She buys bread at the store.",
       "chunks": [
         {
           "text": "She",
@@ -1044,26 +2014,276 @@
           "color": "#FF0000"
         },
         {
-          "text": "grows",
+          "text": "buys",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "flowers",
+          "text": "bread",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         },
         {
-          "text": "in the garden",
+          "text": "at the store",
           "role": "Modifier",
-          "color": "#0000FF"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Contextual Detail",
+      "question": "Where does she buy bread?"
     },
     {
-      "id": "2-5-1",
+      "id": "1-4-13",
+      "section": "Day 11",
+      "description": "SVO + Prepositional Phrase",
+      "korean": "그는 일요일에 축구를 한다.",
+      "english": "He plays soccer on Sunday.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "plays",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "soccer",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "on Sunday",
+          "role": "Modifier",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Contextual Detail",
+      "question": "When does he play?"
+    },
+    {
+      "id": "1-4-14",
+      "section": "Day 11",
+      "description": "SVO + Prepositional Phrase",
+      "korean": "우리는 집에서 저녁을 먹는다.",
+      "english": "We eat dinner at home.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "eat",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "dinner",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "at home",
+          "role": "Modifier",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Contextual Detail",
+      "question": "Where do we eat?"
+    },
+    {
+      "id": "1-4-15",
+      "section": "Day 11",
+      "description": "SVO + Prepositional Phrase",
+      "korean": "그들은 마당에 나무를 심었다.",
+      "english": "They planted trees in the yard.",
+      "chunks": [
+        {
+          "text": "They",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "planted",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "trees",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "in the yard",
+          "role": "Modifier",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Contextual Detail",
+      "question": "Where did they plant trees?"
+    },
+    {
+      "id": "1-4-16",
+      "section": "Day 11",
+      "description": "SVO + Prepositional Phrase",
+      "korean": "출입 카드는 밤에 문을 연다.",
+      "english": "Access cards open the door at night.",
+      "chunks": [
+        {
+          "text": "Access cards",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "open",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the door",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "at night",
+          "role": "Modifier",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Contextual Detail",
+      "question": "When do they open?"
+    },
+    {
+      "id": "1-4-17",
+      "section": "Day 11",
+      "description": "SVO + Prepositional Phrase",
+      "korean": "나는 손에 가방을 들고 있다.",
+      "english": "I hold the bag in my hand.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "hold",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the bag",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "in my hand",
+          "role": "Modifier",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Contextual Detail",
+      "question": "Where do you hold it?"
+    },
+    {
+      "id": "1-4-18",
+      "section": "Day 11",
+      "description": "SVO + Prepositional Phrase",
+      "korean": "그녀는 책에 메모를 썼다.",
+      "english": "She wrote a note in the book.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "wrote",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a note",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "in the book",
+          "role": "Modifier",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Contextual Detail",
+      "question": "Where did she write?"
+    },
+    {
+      "id": "1-4-19",
+      "section": "Day 11",
+      "description": "SVO + Prepositional Phrase",
+      "korean": "그는 직장에 정장을 입고 간다.",
+      "english": "He wears a suit to work.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "wears",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a suit",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "to work",
+          "role": "Modifier",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Contextual Detail",
+      "question": "Where does he wear it?"
+    },
+    {
+      "id": "1-4-20",
+      "section": "Day 11",
+      "description": "SVO + Prepositional Phrase",
+      "korean": "우리는 오후에 차를 마신다.",
+      "english": "We drink tea in the afternoon.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "drink",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "tea",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "in the afternoon",
+          "role": "Modifier",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Contextual Detail",
+      "question": "When do we drink tea?"
+    },
+    {
+      "id": "1-5-1",
       "section": "Day 12",
-      "description": "S + V + IO + DO: Pattern 4 - Double object verbs",
+      "description": "Subject + Verb + Indirect Object + Direct Object",
       "korean": "나는 그녀에게 선물을 주었다.",
       "english": "I gave her a gift.",
       "chunks": [
@@ -1079,21 +2299,23 @@
         },
         {
           "text": "her",
-          "role": "Object",
-          "color": "#9C27B0"
+          "role": "Indirect Object",
+          "color": "#FFD700"
         },
         {
           "text": "a gift",
-          "role": "Object",
-          "color": "#FFFF00"
+          "role": "Direct Object",
+          "color": "#FFD700"
         }
-      ]
+      ],
+      "context": "Transfer",
+      "question": "What did you give?"
     },
     {
-      "id": "2-5-2",
+      "id": "1-5-2",
       "section": "Day 12",
-      "description": "S + V + IO + DO: Pattern 4 - Double object verbs",
-      "korean": "그는 나에게 이야기를 말했다.",
+      "description": "Subject + Verb + Indirect Object + Direct Object",
+      "korean": "그는 나에게 이야기를 해주었다.",
       "english": "He told me a story.",
       "chunks": [
         {
@@ -1108,20 +2330,22 @@
         },
         {
           "text": "me",
-          "role": "Object",
-          "color": "#9C27B0"
+          "role": "Indirect Object",
+          "color": "#FFD700"
         },
         {
           "text": "a story",
-          "role": "Object",
-          "color": "#FFFF00"
+          "role": "Direct Object",
+          "color": "#FFD700"
         }
-      ]
+      ],
+      "context": "Transfer",
+      "question": "What did he tell?"
     },
     {
-      "id": "2-5-3",
+      "id": "1-5-3",
       "section": "Day 12",
-      "description": "S + V + IO + DO: Pattern 4 - Double object verbs",
+      "description": "Subject + Verb + Indirect Object + Direct Object",
       "korean": "그녀는 그에게 편지를 보냈다.",
       "english": "She sent him a letter.",
       "chunks": [
@@ -1137,25 +2361,27 @@
         },
         {
           "text": "him",
-          "role": "Object",
-          "color": "#9C27B0"
+          "role": "Indirect Object",
+          "color": "#FFD700"
         },
         {
           "text": "a letter",
-          "role": "Object",
-          "color": "#FFFF00"
+          "role": "Direct Object",
+          "color": "#FFD700"
         }
-      ]
+      ],
+      "context": "Transfer",
+      "question": "What did she send?"
     },
     {
-      "id": "2-5-4",
+      "id": "1-5-4",
       "section": "Day 12",
-      "description": "S + V + IO + DO: Pattern 4 - Double object verbs",
-      "korean": "선생님은 우리에게 질문을 물었다.",
-      "english": "The teacher asked us a question.",
+      "description": "Subject + Verb + Indirect Object + Direct Object",
+      "korean": "선생님은 우리에게 질문을 했다.",
+      "english": "Teacher asked us a question.",
       "chunks": [
         {
-          "text": "The teacher",
+          "text": "Teacher",
           "role": "Subject",
           "color": "#FF0000"
         },
@@ -1166,22 +2392,24 @@
         },
         {
           "text": "us",
-          "role": "Object",
-          "color": "#9C27B0"
+          "role": "Indirect Object",
+          "color": "#FFD700"
         },
         {
           "text": "a question",
-          "role": "Object",
-          "color": "#FFFF00"
+          "role": "Direct Object",
+          "color": "#FFD700"
         }
-      ]
+      ],
+      "context": "Transfer",
+      "question": "What did teacher ask?"
     },
     {
-      "id": "2-5-5",
+      "id": "1-5-5",
       "section": "Day 12",
-      "description": "S + V + IO + DO: Pattern 4 - Double object verbs",
-      "korean": "아빠는 나에게 자전거를 사주었다.",
-      "english": "Dad bought me a bicycle.",
+      "description": "Subject + Verb + Indirect Object + Direct Object",
+      "korean": "아빠는 나에게 자전거를 사주셨다.",
+      "english": "Dad bought me a bike.",
       "chunks": [
         {
           "text": "Dad",
@@ -1195,21 +2423,23 @@
         },
         {
           "text": "me",
-          "role": "Object",
-          "color": "#9C27B0"
+          "role": "Indirect Object",
+          "color": "#FFD700"
         },
         {
-          "text": "a bicycle",
-          "role": "Object",
-          "color": "#FFFF00"
+          "text": "a bike",
+          "role": "Direct Object",
+          "color": "#FFD700"
         }
-      ]
+      ],
+      "context": "Transfer",
+      "question": "What did Dad buy?"
     },
     {
-      "id": "2-5-6",
+      "id": "1-5-6",
       "section": "Day 12",
-      "description": "S + V + IO + DO: Pattern 4 - Double object verbs",
-      "korean": "그는 그녀에게 꽃을 가져다주었다.",
+      "description": "Subject + Verb + Indirect Object + Direct Object",
+      "korean": "그는 그녀에게 꽃을 가져왔다.",
       "english": "He brought her flowers.",
       "chunks": [
         {
@@ -1224,22 +2454,24 @@
         },
         {
           "text": "her",
-          "role": "Object",
-          "color": "#9C27B0"
+          "role": "Indirect Object",
+          "color": "#FFD700"
         },
         {
           "text": "flowers",
-          "role": "Object",
-          "color": "#FFFF00"
+          "role": "Direct Object",
+          "color": "#FFD700"
         }
-      ]
+      ],
+      "context": "Transfer",
+      "question": "What did he bring?"
     },
     {
-      "id": "2-5-7",
+      "id": "1-5-7",
       "section": "Day 12",
-      "description": "S + V + IO + DO: Pattern 4 - Double object verbs",
-      "korean": "엄마는 우리에게 케이크를 구워주었다.",
-      "english": "Mom baked us a cake.",
+      "description": "Subject + Verb + Indirect Object + Direct Object",
+      "korean": "엄마는 우리에게 케이크를 만들어 주셨다.",
+      "english": "Mom made us a cake.",
       "chunks": [
         {
           "text": "Mom",
@@ -1247,28 +2479,30 @@
           "color": "#FF0000"
         },
         {
-          "text": "baked",
+          "text": "made",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
           "text": "us",
-          "role": "Object",
-          "color": "#9C27B0"
+          "role": "Indirect Object",
+          "color": "#FFD700"
         },
         {
           "text": "a cake",
-          "role": "Object",
-          "color": "#FFFF00"
+          "role": "Direct Object",
+          "color": "#FFD700"
         }
-      ]
+      ],
+      "context": "Transfer",
+      "question": "What did Mom make?"
     },
     {
-      "id": "2-5-8",
+      "id": "1-5-8",
       "section": "Day 12",
-      "description": "S + V + IO + DO: Pattern 4 - Double object verbs",
-      "korean": "그녀는 나에게 비밀을 말해주었다.",
-      "english": "She told me a secret.",
+      "description": "Subject + Verb + Indirect Object + Direct Object",
+      "korean": "그녀는 나에게 사진을 보여주었다.",
+      "english": "She showed me a photo.",
       "chunks": [
         {
           "text": "She",
@@ -1276,27 +2510,29 @@
           "color": "#FF0000"
         },
         {
-          "text": "told",
+          "text": "showed",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
           "text": "me",
-          "role": "Object",
-          "color": "#9C27B0"
+          "role": "Indirect Object",
+          "color": "#FFD700"
         },
         {
-          "text": "a secret",
-          "role": "Object",
-          "color": "#FFFF00"
+          "text": "a photo",
+          "role": "Direct Object",
+          "color": "#FFD700"
         }
-      ]
+      ],
+      "context": "Transfer",
+      "question": "What did she show?"
     },
     {
-      "id": "2-5-9",
+      "id": "1-5-9",
       "section": "Day 12",
-      "description": "S + V + IO + DO: Pattern 4 - Double object verbs",
-      "korean": "친구는 나에게 조언을 해주었다.",
+      "description": "Subject + Verb + Indirect Object + Direct Object",
+      "korean": "친구는 나에게 충고를 해주었다.",
       "english": "My friend gave me advice.",
       "chunks": [
         {
@@ -1311,22 +2547,24 @@
         },
         {
           "text": "me",
-          "role": "Object",
-          "color": "#9C27B0"
+          "role": "Indirect Object",
+          "color": "#FFD700"
         },
         {
           "text": "advice",
-          "role": "Object",
-          "color": "#FFFF00"
+          "role": "Direct Object",
+          "color": "#FFD700"
         }
-      ]
+      ],
+      "context": "Transfer",
+      "question": "What did friend give?"
     },
     {
-      "id": "2-5-10",
+      "id": "1-5-10",
       "section": "Day 12",
-      "description": "S + V + IO + DO: Pattern 4 - Double object verbs",
-      "korean": "그는 그들에게 기회를 주었다.",
-      "english": "He offered them an opportunity.",
+      "description": "Subject + Verb + Indirect Object + Direct Object",
+      "korean": "그는 그들에게 일자리를 제안했다.",
+      "english": "He offered them a job.",
       "chunks": [
         {
           "text": "He",
@@ -1340,20 +2578,332 @@
         },
         {
           "text": "them",
-          "role": "Object",
-          "color": "#9C27B0"
+          "role": "Indirect Object",
+          "color": "#FFD700"
         },
         {
-          "text": "an opportunity",
-          "role": "Object",
-          "color": "#FFFF00"
+          "text": "a job",
+          "role": "Direct Object",
+          "color": "#FFD700"
         }
-      ]
+      ],
+      "context": "Transfer",
+      "question": "What did he offer?"
     },
     {
-      "id": "2-6-1",
+      "id": "1-5-11",
+      "section": "Day 12",
+      "description": "Subject + Verb + Indirect Object + Direct Object",
+      "korean": "나는 그에게 열쇠를 건네주었다.",
+      "english": "I handed him the key.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "handed",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "him",
+          "role": "Indirect Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "the key",
+          "role": "Direct Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Transfer",
+      "question": "What did you hand?"
+    },
+    {
+      "id": "1-5-12",
+      "section": "Day 12",
+      "description": "Subject + Verb + Indirect Object + Direct Object",
+      "korean": "그녀는 나에게 책을 읽어주었다.",
+      "english": "She read me a book.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "read",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "me",
+          "role": "Indirect Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "a book",
+          "role": "Direct Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Transfer",
+      "question": "What did she read?"
+    },
+    {
+      "id": "1-5-13",
+      "section": "Day 12",
+      "description": "Subject + Verb + Indirect Object + Direct Object",
+      "korean": "그는 우리에게 영어를 가르쳤다.",
+      "english": "He taught us English.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "taught",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "us",
+          "role": "Indirect Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "English",
+          "role": "Direct Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Transfer",
+      "question": "What did he teach?"
+    },
+    {
+      "id": "1-5-14",
+      "section": "Day 12",
+      "description": "Subject + Verb + Indirect Object + Direct Object",
+      "korean": "그들은 그에게 돈을 지불했다.",
+      "english": "They paid him money.",
+      "chunks": [
+        {
+          "text": "They",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "paid",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "him",
+          "role": "Indirect Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "money",
+          "role": "Direct Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Transfer",
+      "question": "What did they pay?"
+    },
+    {
+      "id": "1-5-15",
+      "section": "Day 12",
+      "description": "Subject + Verb + Indirect Object + Direct Object",
+      "korean": "우리는 그녀에게 행운을 빌었다.",
+      "english": "We wished her luck.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "wished",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "her",
+          "role": "Indirect Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "luck",
+          "role": "Direct Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Transfer",
+      "question": "What did we wish?"
+    },
+    {
+      "id": "1-5-16",
+      "section": "Day 12",
+      "description": "Subject + Verb + Indirect Object + Direct Object",
+      "korean": "나는 그에게 쪽지를 썼다.",
+      "english": "I wrote him a note.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "wrote",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "him",
+          "role": "Indirect Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "a note",
+          "role": "Direct Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Transfer",
+      "question": "What did you write?"
+    },
+    {
+      "id": "1-5-17",
+      "section": "Day 12",
+      "description": "Subject + Verb + Indirect Object + Direct Object",
+      "korean": "그녀는 그에게 저녁을 요리해 주었다.",
+      "english": "She cooked him dinner.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "cooked",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "him",
+          "role": "Indirect Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "dinner",
+          "role": "Direct Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Transfer",
+      "question": "What did she cook?"
+    },
+    {
+      "id": "1-5-18",
+      "section": "Day 12",
+      "description": "Subject + Verb + Indirect Object + Direct Object",
+      "korean": "그는 나에게 공을 던졌다.",
+      "english": "He threw me the ball.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "threw",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "me",
+          "role": "Indirect Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "the ball",
+          "role": "Direct Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Transfer",
+      "question": "What did he throw?"
+    },
+    {
+      "id": "1-5-19",
+      "section": "Day 12",
+      "description": "Subject + Verb + Indirect Object + Direct Object",
+      "korean": "그들은 우리에게 그 차를 팔았다.",
+      "english": "They sold us the car.",
+      "chunks": [
+        {
+          "text": "They",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "sold",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "us",
+          "role": "Indirect Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "the car",
+          "role": "Direct Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Transfer",
+      "question": "What did they sell?"
+    },
+    {
+      "id": "1-5-20",
+      "section": "Day 12",
+      "description": "Subject + Verb + Indirect Object + Direct Object",
+      "korean": "너는 나에게 도움을 약속했다.",
+      "english": "You promised me help.",
+      "chunks": [
+        {
+          "text": "You",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "promised",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "me",
+          "role": "Indirect Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "help",
+          "role": "Direct Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Transfer",
+      "question": "What did you promise?"
+    },
+    {
+      "id": "1-6-1",
       "section": "Day 13",
-      "description": "S + V + O + to/for + IO: Alternative Pattern 4 structure",
+      "description": "SVO + To/For Phrase",
       "korean": "나는 그에게 편지를 보냈다.",
       "english": "I sent a letter to him.",
       "chunks": [
@@ -1370,20 +2920,22 @@
         {
           "text": "a letter",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         },
         {
           "text": "to him",
           "role": "Modifier",
-          "color": "#0000FF"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Transfer with Preposition",
+      "question": "Who did you send to?"
     },
     {
-      "id": "2-6-2",
+      "id": "1-6-2",
       "section": "Day 13",
-      "description": "S + V + O + to/for + IO: Alternative Pattern 4 structure",
-      "korean": "그녀는 우리에게 저녁을 만들어주었다.",
+      "description": "SVO + To/For Phrase",
+      "korean": "그녀는 우리를 위해 저녁을 만들었다.",
       "english": "She made dinner for us.",
       "chunks": [
         {
@@ -1399,21 +2951,23 @@
         {
           "text": "dinner",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         },
         {
           "text": "for us",
           "role": "Modifier",
-          "color": "#0000FF"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Transfer with Preposition",
+      "question": "Who did she make for?"
     },
     {
-      "id": "2-6-3",
+      "id": "1-6-3",
       "section": "Day 13",
-      "description": "S + V + O + to/for + IO: Alternative Pattern 4 structure",
-      "korean": "그는 그녀에게 선물을 샀다.",
-      "english": "He bought a present for her.",
+      "description": "SVO + To/For Phrase",
+      "korean": "그는 그녀를 위해 선물을 샀다.",
+      "english": "He bought a gift for her.",
       "chunks": [
         {
           "text": "He",
@@ -1426,23 +2980,25 @@
           "color": "#FF7F00"
         },
         {
-          "text": "a present",
+          "text": "a gift",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         },
         {
           "text": "for her",
           "role": "Modifier",
-          "color": "#0000FF"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Transfer with Preposition",
+      "question": "Who did he buy for?"
     },
     {
-      "id": "2-6-4",
+      "id": "1-6-4",
       "section": "Day 13",
-      "description": "S + V + O + to/for + IO: Alternative Pattern 4 structure",
-      "korean": "우리는 그들에게 초대장을 보냈다.",
-      "english": "We sent invitations to them.",
+      "description": "SVO + To/For Phrase",
+      "korean": "우리는 그들에게 돈을 주었다.",
+      "english": "We gave money to them.",
       "chunks": [
         {
           "text": "We",
@@ -1450,31 +3006,33 @@
           "color": "#FF0000"
         },
         {
-          "text": "sent",
+          "text": "gave",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "invitations",
+          "text": "money",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         },
         {
           "text": "to them",
           "role": "Modifier",
-          "color": "#0000FF"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Transfer with Preposition",
+      "question": "Who did we give to?"
     },
     {
-      "id": "2-6-5",
+      "id": "1-6-5",
       "section": "Day 13",
-      "description": "S + V + O + to/for + IO: Alternative Pattern 4 structure",
-      "korean": "선생님은 학생들에게 설명을 해주었다.",
-      "english": "The teacher explained the lesson to students.",
+      "description": "SVO + To/For Phrase",
+      "korean": "선생님은 우리에게 그것을 설명했다.",
+      "english": "Teacher explained it to us.",
       "chunks": [
         {
-          "text": "The teacher",
+          "text": "Teacher",
           "role": "Subject",
           "color": "#FF0000"
         },
@@ -1484,23 +3042,25 @@
           "color": "#FF7F00"
         },
         {
-          "text": "the lesson",
+          "text": "it",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         },
         {
-          "text": "to students",
+          "text": "to us",
           "role": "Modifier",
-          "color": "#0000FF"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Transfer with Preposition",
+      "question": "Who did teacher explain to?"
     },
     {
-      "id": "2-6-6",
+      "id": "1-6-6",
       "section": "Day 13",
-      "description": "S + V + O + to/for + IO: Alternative Pattern 4 structure",
+      "description": "SVO + To/For Phrase",
       "korean": "그녀는 아이들에게 책을 읽어주었다.",
-      "english": "She read a book to children.",
+      "english": "She read a book to kids.",
       "chunks": [
         {
           "text": "She",
@@ -1515,21 +3075,23 @@
         {
           "text": "a book",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         },
         {
-          "text": "to children",
+          "text": "to kids",
           "role": "Modifier",
-          "color": "#0000FF"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Transfer with Preposition",
+      "question": "Who did she read to?"
     },
     {
-      "id": "2-6-7",
+      "id": "1-6-7",
       "section": "Day 13",
-      "description": "S + V + O + to/for + IO: Alternative Pattern 4 structure",
-      "korean": "나는 친구에게 메시지를 보냈다.",
-      "english": "I sent a message to my friend.",
+      "description": "SVO + To/For Phrase",
+      "korean": "나는 엄마를 위해 점심을 요리했다.",
+      "english": "I cooked lunch for Mom.",
       "chunks": [
         {
           "text": "I",
@@ -1537,28 +3099,30 @@
           "color": "#FF0000"
         },
         {
-          "text": "sent",
+          "text": "cooked",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "a message",
+          "text": "lunch",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         },
         {
-          "text": "to my friend",
+          "text": "for Mom",
           "role": "Modifier",
-          "color": "#0000FF"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Transfer with Preposition",
+      "question": "Who did you cook for?"
     },
     {
-      "id": "2-6-8",
+      "id": "1-6-8",
       "section": "Day 13",
-      "description": "S + V + O + to/for + IO: Alternative Pattern 4 structure",
-      "korean": "그는 가족에게 점심을 준비했다.",
-      "english": "He prepared lunch for his family.",
+      "description": "SVO + To/For Phrase",
+      "korean": "그는 그들을 위해 집을 지었다.",
+      "english": "He built a house for them.",
       "chunks": [
         {
           "text": "He",
@@ -1566,28 +3130,30 @@
           "color": "#FF0000"
         },
         {
-          "text": "prepared",
+          "text": "built",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "lunch",
+          "text": "a house",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         },
         {
-          "text": "for his family",
+          "text": "for them",
           "role": "Modifier",
-          "color": "#0000FF"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Transfer with Preposition",
+      "question": "Who did he build for?"
     },
     {
-      "id": "2-6-9",
+      "id": "1-6-9",
       "section": "Day 13",
-      "description": "S + V + O + to/for + IO: Alternative Pattern 4 structure",
-      "korean": "그들은 손님들에게 음료를 제공했다.",
-      "english": "They offered drinks to guests.",
+      "description": "SVO + To/For Phrase",
+      "korean": "그들은 손님에게 물을 권했다.",
+      "english": "They offered water to guests.",
       "chunks": [
         {
           "text": "They",
@@ -1600,23 +3166,25 @@
           "color": "#FF7F00"
         },
         {
-          "text": "drinks",
+          "text": "water",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         },
         {
           "text": "to guests",
           "role": "Modifier",
-          "color": "#0000FF"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Transfer with Preposition",
+      "question": "Who did they offer to?"
     },
     {
-      "id": "2-6-10",
+      "id": "1-6-10",
       "section": "Day 13",
-      "description": "S + V + O + to/for + IO: Alternative Pattern 4 structure",
-      "korean": "엄마는 나에게 스웨터를 뜨개질했다.",
-      "english": "Mom knitted a sweater for me.",
+      "description": "SVO + To/For Phrase",
+      "korean": "엄마는 나를 위해 모자를 떴다.",
+      "english": "Mom knitted a hat for me.",
       "chunks": [
         {
           "text": "Mom",
@@ -1629,23 +3197,25 @@
           "color": "#FF7F00"
         },
         {
-          "text": "a sweater",
+          "text": "a hat",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         },
         {
           "text": "for me",
           "role": "Modifier",
-          "color": "#0000FF"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Transfer with Preposition",
+      "question": "Who did Mom knit for?"
     },
     {
-      "id": "2-7-1",
-      "section": "Day 14",
-      "description": "Week 2 Review: Mixed S+V+O patterns",
-      "korean": "나는 음악을 듣는다.",
-      "english": "I listen to music.",
+      "id": "1-6-11",
+      "section": "Day 13",
+      "description": "SVO + To/For Phrase",
+      "korean": "나는 그에게 지도를 보여주었다.",
+      "english": "I showed the map to him.",
       "chunks": [
         {
           "text": "I",
@@ -1653,23 +3223,30 @@
           "color": "#FF0000"
         },
         {
-          "text": "listen to",
+          "text": "showed",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "music",
+          "text": "the map",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
+        },
+        {
+          "text": "to him",
+          "role": "Modifier",
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Transfer with Preposition",
+      "question": "Who did you show?"
     },
     {
-      "id": "2-7-2",
-      "section": "Day 14",
-      "description": "Week 2 Review: Mixed S+V+O patterns",
-      "korean": "그녀는 흥미로운 영화를 봤다.",
-      "english": "She watched an interesting movie.",
+      "id": "1-6-12",
+      "section": "Day 13",
+      "description": "SVO + To/For Phrase",
+      "korean": "그녀는 우리를 위해 노래를 불렀다.",
+      "english": "She sang a song for us.",
       "chunks": [
         {
           "text": "She",
@@ -1677,23 +3254,30 @@
           "color": "#FF0000"
         },
         {
-          "text": "watched",
+          "text": "sang",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "an interesting movie",
+          "text": "a song",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
+        },
+        {
+          "text": "for us",
+          "role": "Modifier",
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Transfer with Preposition",
+      "question": "Who did she sing for?"
     },
     {
-      "id": "2-7-3",
-      "section": "Day 14",
-      "description": "Week 2 Review: Mixed S+V+O patterns",
-      "korean": "그는 숙제를 빨리 했다.",
-      "english": "He did homework quickly.",
+      "id": "1-6-13",
+      "section": "Day 13",
+      "description": "SVO + To/For Phrase",
+      "korean": "그는 나에게 자전거를 팔았다.",
+      "english": "He sold the bike to me.",
       "chunks": [
         {
           "text": "He",
@@ -1701,28 +3285,30 @@
           "color": "#FF0000"
         },
         {
-          "text": "did",
+          "text": "sold",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "homework",
+          "text": "the bike",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         },
         {
-          "text": "quickly",
+          "text": "to me",
           "role": "Modifier",
-          "color": "#0000FF"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Transfer with Preposition",
+      "question": "Who did he sell to?"
     },
     {
-      "id": "2-7-4",
-      "section": "Day 14",
-      "description": "Week 2 Review: Mixed S+V+O patterns",
-      "korean": "우리는 도서관에서 책을 빌렸다.",
-      "english": "We borrowed books from the library.",
+      "id": "1-6-14",
+      "section": "Day 13",
+      "description": "SVO + To/For Phrase",
+      "korean": "우리는 모두를 위해 간식을 가져왔다.",
+      "english": "We brought snacks for everyone.",
       "chunks": [
         {
           "text": "We",
@@ -1730,28 +3316,92 @@
           "color": "#FF0000"
         },
         {
-          "text": "borrowed",
+          "text": "brought",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "books",
+          "text": "snacks",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         },
         {
-          "text": "from the library",
+          "text": "for everyone",
           "role": "Modifier",
-          "color": "#0000FF"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Transfer with Preposition",
+      "question": "Who did we bring for?"
     },
     {
-      "id": "2-7-5",
-      "section": "Day 14",
-      "description": "Week 2 Review: Mixed S+V+O patterns",
-      "korean": "그녀는 나에게 전화를 했다.",
-      "english": "She called me.",
+      "id": "1-6-15",
+      "section": "Day 13",
+      "description": "SVO + To/For Phrase",
+      "korean": "그들은 사람들에게 소식을 전했다.",
+      "english": "They told the news to people.",
+      "chunks": [
+        {
+          "text": "They",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "told",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the news",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "to people",
+          "role": "Modifier",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Transfer with Preposition",
+      "question": "Who did they tell?"
+    },
+    {
+      "id": "1-6-16",
+      "section": "Day 13",
+      "description": "SVO + To/For Phrase",
+      "korean": "나는 너를 위해 시를 썼다.",
+      "english": "I wrote a poem for you.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "wrote",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a poem",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "for you",
+          "role": "Modifier",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Transfer with Preposition",
+      "question": "Who did you write for?"
+    },
+    {
+      "id": "1-6-17",
+      "section": "Day 13",
+      "description": "SVO + To/For Phrase",
+      "korean": "그녀는 아빠에게 컵을 건넸다.",
+      "english": "She handed the cup to Dad.",
       "chunks": [
         {
           "text": "She",
@@ -1759,26 +3409,235 @@
           "color": "#FF0000"
         },
         {
-          "text": "called",
+          "text": "handed",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "me",
+          "text": "the cup",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
+        },
+        {
+          "text": "to Dad",
+          "role": "Modifier",
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Transfer with Preposition",
+      "question": "Who did she hand to?"
     },
     {
-      "id": "2-7-6",
-      "section": "Day 14",
-      "description": "Week 2 Review: Mixed S+V+O patterns",
-      "korean": "아버지는 나에게 시계를 주었다.",
-      "english": "Father gave me a watch.",
+      "id": "1-6-18",
+      "section": "Day 13",
+      "description": "SVO + To/For Phrase",
+      "korean": "그는 그녀를 위해 문을 열었다.",
+      "english": "He opened the door for her.",
       "chunks": [
         {
-          "text": "Father",
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "opened",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the door",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "for her",
+          "role": "Modifier",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Transfer with Preposition",
+      "question": "Who did he open for?"
+    },
+    {
+      "id": "1-6-19",
+      "section": "Day 13",
+      "description": "SVO + To/For Phrase",
+      "korean": "우리는 공연을 위해 티켓을 샀다.",
+      "english": "We bought tickets for the show.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "bought",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "tickets",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "for the show",
+          "role": "Modifier",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Transfer with Preposition",
+      "question": "What did we buy for?"
+    },
+    {
+      "id": "1-6-20",
+      "section": "Day 13",
+      "description": "SVO + To/For Phrase",
+      "korean": "나는 그에게 펜을 빌려주었다.",
+      "english": "I lent my pen to him.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "lent",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "my pen",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "to him",
+          "role": "Modifier",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Transfer with Preposition",
+      "question": "Who did you lend to?"
+    },
+    {
+      "id": "1-7-1",
+      "section": "Day 14",
+      "description": "Week 2 Review",
+      "korean": "나는 사과를 먹는다.",
+      "english": "I eat apples.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "eat",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "apples",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "question": "What do you eat?"
+    },
+    {
+      "id": "1-7-2",
+      "section": "Day 14",
+      "description": "Week 2 Review",
+      "korean": "그녀는 새 가방을 샀다.",
+      "english": "She bought a new bag.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "bought",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a new bag",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "question": "What did she buy?"
+    },
+    {
+      "id": "1-7-3",
+      "section": "Day 14",
+      "description": "Week 2 Review",
+      "korean": "그는 빨리 달린다.",
+      "english": "He runs fast.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "runs",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "fast",
+          "role": "Adverb",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "question": "How does he run?"
+    },
+    {
+      "id": "1-7-4",
+      "section": "Day 14",
+      "description": "Week 2 Review",
+      "korean": "우리는 학교에서 그를 만났다.",
+      "english": "We met him at school.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "met",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "him",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "at school",
+          "role": "Modifier",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "question": "Where did we meet?"
+    },
+    {
+      "id": "1-7-5",
+      "section": "Day 14",
+      "description": "Week 2 Review",
+      "korean": "아빠는 나에게 장난감을 주셨다.",
+      "english": "Dad gave me a toy.",
+      "chunks": [
+        {
+          "text": "Dad",
           "role": "Subject",
           "color": "#FF0000"
         },
@@ -1789,25 +3648,27 @@
         },
         {
           "text": "me",
-          "role": "Object",
-          "color": "#9C27B0"
+          "role": "Indirect Object",
+          "color": "#FFD700"
         },
         {
-          "text": "a watch",
-          "role": "Object",
-          "color": "#FFFF00"
+          "text": "a toy",
+          "role": "Direct Object",
+          "color": "#FFD700"
         }
-      ]
+      ],
+      "context": "Review",
+      "question": "What did Dad give?"
     },
     {
-      "id": "2-7-7",
+      "id": "1-7-6",
       "section": "Day 14",
-      "description": "Week 2 Review: Mixed S+V+O patterns",
-      "korean": "그는 친구에게 편지를 보냈다.",
-      "english": "He sent a letter to his friend.",
+      "description": "Week 2 Review",
+      "korean": "나는 엄마에게 카드를 보냈다.",
+      "english": "I sent a card to Mom.",
       "chunks": [
         {
-          "text": "He",
+          "text": "I",
           "role": "Subject",
           "color": "#FF0000"
         },
@@ -1817,76 +3678,25 @@
           "color": "#FF7F00"
         },
         {
-          "text": "a letter",
+          "text": "a card",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         },
         {
-          "text": "to his friend",
+          "text": "to Mom",
           "role": "Modifier",
-          "color": "#0000FF"
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Review",
+      "question": "Who did you send to?"
     },
     {
-      "id": "2-7-8",
+      "id": "1-7-7",
       "section": "Day 14",
-      "description": "Week 2 Review: Mixed S+V+O patterns",
-      "korean": "학생들은 선생님을 존경한다.",
-      "english": "Students respect the teacher.",
-      "chunks": [
-        {
-          "text": "Students",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "respect",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the teacher",
-          "role": "Object",
-          "color": "#FFFF00"
-        }
-      ]
-    },
-    {
-      "id": "2-7-9",
-      "section": "Day 14",
-      "description": "Week 2 Review: Mixed S+V+O patterns",
-      "korean": "그녀는 아침에 커피를 마신다.",
-      "english": "She drinks coffee in the morning.",
-      "chunks": [
-        {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "drinks",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "coffee",
-          "role": "Object",
-          "color": "#FFFF00"
-        },
-        {
-          "text": "in the morning",
-          "role": "Modifier",
-          "color": "#0000FF"
-        }
-      ]
-    },
-    {
-      "id": "2-7-10",
-      "section": "Day 14",
-      "description": "Week 2 Review: Mixed S+V+O patterns",
-      "korean": "그들은 우리에게 도움을 제공했다.",
-      "english": "They offered help to us.",
+      "description": "Week 2 Review",
+      "korean": "그들은 영어를 잘한다.",
+      "english": "They speak English well.",
       "chunks": [
         {
           "text": "They",
@@ -1894,21 +3704,381 @@
           "color": "#FF0000"
         },
         {
-          "text": "offered",
+          "text": "speak",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "help",
+          "text": "English",
           "role": "Object",
-          "color": "#FFFF00"
+          "color": "#FFD700"
         },
         {
-          "text": "to us",
-          "role": "Modifier",
-          "color": "#0000FF"
+          "text": "well",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
-      ]
+      ],
+      "context": "Review",
+      "question": "How do they speak?"
+    },
+    {
+      "id": "1-7-8",
+      "section": "Day 14",
+      "description": "Week 2 Review",
+      "korean": "그녀는 재미있는 이야기를 한다.",
+      "english": "She tells funny stories.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "tells",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "funny stories",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "question": "What does she tell?"
+    },
+    {
+      "id": "1-7-9",
+      "section": "Day 14",
+      "description": "Week 2 Review",
+      "korean": "그는 빨간 버스를 운전한다.",
+      "english": "He drives a red bus.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "drives",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a red bus",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "question": "What does he drive?"
+    },
+    {
+      "id": "1-7-10",
+      "section": "Day 14",
+      "description": "Week 2 Review",
+      "korean": "우리는 손을 잡는다.",
+      "english": "We hold hands.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "hold",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "hands",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "question": "What do we hold?"
+    },
+    {
+      "id": "1-7-11",
+      "section": "Day 14",
+      "description": "Week 2 Review",
+      "korean": "새들은 나무에 둥지를 짓는다.",
+      "english": "Birds build nests in trees.",
+      "chunks": [
+        {
+          "text": "Birds",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "build",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "nests",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "in trees",
+          "role": "Modifier",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "question": "Where do birds build?"
+    },
+    {
+      "id": "1-7-12",
+      "section": "Day 14",
+      "description": "Week 2 Review",
+      "korean": "나는 너를 위해 커피를 만들었다.",
+      "english": "I made coffee for you.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "made",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "coffee",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "for you",
+          "role": "Modifier",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "question": "Who did you make for?"
+    },
+    {
+      "id": "1-7-13",
+      "section": "Day 14",
+      "description": "Week 2 Review",
+      "korean": "그녀는 그에게 수학을 가르친다.",
+      "english": "She teaches him math.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "teaches",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "him",
+          "role": "Indirect Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "math",
+          "role": "Direct Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "question": "What does she teach?"
+    },
+    {
+      "id": "1-7-14",
+      "section": "Day 14",
+      "description": "Week 2 Review",
+      "korean": "그는 바닥에서 열쇠를 발견했다.",
+      "english": "He found a key on the floor.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "found",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a key",
+          "role": "Object",
+          "color": "#FFD700"
+        },
+        {
+          "text": "on the floor",
+          "role": "Modifier",
+          "color": "#BA68C8"
+        }
+      ],
+      "context": "Review",
+      "question": "Where did he find it?"
+    },
+    {
+      "id": "1-7-15",
+      "section": "Day 14",
+      "description": "Week 2 Review",
+      "korean": "우리는 별을 본다.",
+      "english": "We watch the stars.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "watch",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the stars",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "question": "What do we watch?"
+    },
+    {
+      "id": "1-7-16",
+      "section": "Day 14",
+      "description": "Week 2 Review",
+      "korean": "너는 훌륭한 일을 했다.",
+      "english": "You did a great job.",
+      "chunks": [
+        {
+          "text": "You",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "did",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a great job",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "question": "What did you do?"
+    },
+    {
+      "id": "1-7-17",
+      "section": "Day 14",
+      "description": "Week 2 Review",
+      "korean": "그것은 소음을 낸다.",
+      "english": "It makes noise.",
+      "chunks": [
+        {
+          "text": "It",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "makes",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "noise",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "question": "What does it make?"
+    },
+    {
+      "id": "1-7-18",
+      "section": "Day 14",
+      "description": "Week 2 Review",
+      "korean": "그들은 맑은 날을 사랑한다.",
+      "english": "They love sunny days.",
+      "chunks": [
+        {
+          "text": "They",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "love",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "sunny days",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "question": "What do they love?"
+    },
+    {
+      "id": "1-7-19",
+      "section": "Day 14",
+      "description": "Week 2 Review",
+      "korean": "나는 날짜를 썼다.",
+      "english": "I wrote the date.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "wrote",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the date",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "question": "What did you write?"
+    },
+    {
+      "id": "1-7-20",
+      "section": "Day 14",
+      "description": "Week 2 Review",
+      "korean": "그녀는 눈을 떴다.",
+      "english": "She opened her eyes.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "opened",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "her eyes",
+          "role": "Object",
+          "color": "#FFD700"
+        }
+      ],
+      "context": "Review",
+      "question": "What did she open?"
     }
   ]
 }

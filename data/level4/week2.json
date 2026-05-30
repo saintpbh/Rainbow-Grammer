@@ -3,1656 +3,5042 @@
     {
       "id": "5-8-1",
       "section": "Day 8",
-      "description": "Core Lesson",
-      "question": "What is It doing right now?",
-      "korean": "비가 억수같이 온다.",
-      "english": "It is raining cats and dogs.",
+      "description": "Subject Relative",
+      "korean": "전화했던을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
       "chunks": [
         {
-          "text": "It",
+          "text": "The person",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "is raining",
+          "text": "who likes",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "cats and dogs",
+          "text": "the decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
           "role": "Adverb",
-          "color": "#BA68C8"
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": {
-        "title": "Core Lesson",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00"
-          },
-          {
-            "text": "Adverb",
-            "color": "#BA68C8"
-          }
-        ]
-      }
+      "context": "Subject Relative",
+      "question": "What do the do?"
     },
     {
       "id": "5-8-2",
       "section": "Day 8",
-      "description": "Core Lesson",
-      "question": "Situation: Give me a command.",
-      "korean": "나는 기분이 날아갈 듯 좋다.",
-      "english": "I am on cloud nine.",
+      "description": "Subject Relative",
+      "korean": "웃는을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes a decided to learn more.",
       "chunks": [
         {
-          "text": "I",
+          "text": "The person",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "am",
+          "text": "who likes",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "on cloud nine",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "a decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Subject Relative",
+      "question": "What do the do?"
     },
     {
       "id": "5-8-3",
       "section": "Day 8",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "내 공을 가로채지 마.",
-      "english": "Don't steal my thunder.",
+      "description": "Subject Relative",
+      "korean": "돕는을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes people decided to learn more.",
       "chunks": [
         {
-          "text": "Don't steal",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "my thunder",
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "people decided",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Subject Relative",
+      "question": "What do the do?"
     },
     {
       "id": "5-8-4",
       "section": "Day 8",
-      "description": "Core Lesson",
-      "question": "Look outside! How is the weather?",
-      "korean": "다음으로 미루다.",
-      "english": "Take a rain check.",
+      "description": "Subject Relative",
+      "korean": "달리는을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
       "chunks": [
         {
-          "text": "Take",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "a rain check",
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Subject Relative",
+      "question": "What do the do?"
     },
     {
       "id": "5-8-5",
       "section": "Day 8",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "식은 죽 먹기다.",
-      "english": "It's a breeze.",
+      "description": "Subject Relative",
+      "korean": "아껴주는을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes friends decided to learn more.",
       "chunks": [
         {
-          "text": "It",
+          "text": "The person",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "is",
+          "text": "who likes",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "a breeze",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "friends decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Subject Relative",
+      "question": "What do the do?"
     },
     {
       "id": "5-8-6",
       "section": "Day 8",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "폭풍 전야.",
-      "english": "Calm before the storm.",
+      "description": "Subject Relative",
+      "korean": "키을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
       "chunks": [
         {
-          "text": "Calm",
+          "text": "The person",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "before the storm",
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
           "role": "Modifier",
-          "color": "#B0BEC5"
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Subject Relative",
+      "question": "What do the do?"
     },
     {
       "id": "5-8-7",
       "section": "Day 8",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "쥐구멍에도 볕 들 날 있다.",
-      "english": "Every cloud has a silver lining.",
+      "description": "Subject Relative",
+      "korean": "난을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes i decided to learn more.",
       "chunks": [
         {
-          "text": "Every cloud",
+          "text": "The person",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "has",
+          "text": "who likes",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "a silver lining",
+          "text": "i decided",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Subject Relative",
+      "question": "What do the do?"
     },
     {
       "id": "5-8-8",
       "section": "Day 8",
-      "description": "Core Lesson",
-      "question": "Look outside! How is the weather?",
-      "korean": "컨디션이 안 좋은.",
-      "english": "Under the weather.",
+      "description": "Subject Relative",
+      "korean": "그가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes he decided to learn more.",
       "chunks": [
         {
-          "text": "Under the weather",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "he decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Subject Relative",
+      "question": "What do the do?"
     },
     {
       "id": "5-8-9",
       "section": "Day 8",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "분위기를 깨다.",
-      "english": "Break the ice.",
+      "description": "Subject Relative",
+      "korean": "운동하는을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes people decided to learn more.",
       "chunks": [
         {
-          "text": "Break",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "the ice",
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "people decided",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Subject Relative",
+      "question": "What do the do?"
     },
     {
       "id": "5-8-10",
       "section": "Day 8",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "찻잔 속의 태풍.",
-      "english": "Storm in a teacup.",
+      "description": "Subject Relative",
+      "korean": "널을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes there decided to learn more.",
       "chunks": [
         {
-          "text": "Storm",
+          "text": "The person",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "in a teacup",
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "there decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
           "role": "Modifier",
-          "color": "#B0BEC5"
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Subject Relative",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-8-11",
+      "section": "Day 8",
+      "description": "Subject Relative",
+      "korean": "널을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes i decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "i decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Subject Relative",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-8-12",
+      "section": "Day 8",
+      "description": "Subject Relative",
+      "korean": "그녀는을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes she decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "she decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Subject Relative",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-8-13",
+      "section": "Day 8",
+      "description": "Subject Relative",
+      "korean": "울고을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes look decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "look decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Subject Relative",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-8-14",
+      "section": "Day 8",
+      "description": "Subject Relative",
+      "korean": "원하는을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes anyone decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "anyone decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Subject Relative",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-8-15",
+      "section": "Day 8",
+      "description": "Subject Relative",
+      "korean": "노래하는을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes who decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "who decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Subject Relative",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-8-16",
+      "section": "Day 8",
+      "description": "Subject Relative",
+      "korean": "마지막에을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes he decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "he decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Subject Relative",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-8-17",
+      "section": "Day 8",
+      "description": "Subject Relative",
+      "korean": "아는을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes those decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "those decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Subject Relative",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-8-18",
+      "section": "Day 8",
+      "description": "Subject Relative",
+      "korean": "하늘은을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes god decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "god decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Subject Relative",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-8-19",
+      "section": "Day 8",
+      "description": "Subject Relative",
+      "korean": "왕이을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Subject Relative",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-8-20",
+      "section": "Day 8",
+      "description": "Subject Relative",
+      "korean": "나를을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes it decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "it decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Subject Relative",
+      "question": "What do the do?"
     },
     {
       "id": "5-9-1",
       "section": "Day 9",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "기운 내라.",
-      "english": "Keep your chin up.",
+      "description": "Object Relative",
+      "korean": "내가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
       "chunks": [
         {
-          "text": "Keep",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "your chin up",
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": {
-        "title": "Core Lesson",
-        "structure": [
-          {
-            "text": "Verb",
-            "color": "#FF7F00"
-          },
-          {
-            "text": "Object",
-            "color": "#FFD700"
-          }
-        ]
-      }
+      "context": "Object Relative",
+      "question": "What do the do?"
     },
     {
       "id": "5-9-2",
       "section": "Day 9",
-      "description": "Core Lesson",
-      "question": "Situation: Give me a command.",
-      "korean": "경청하고 있다.",
-      "english": "I am all ears.",
+      "description": "Object Relative",
+      "korean": "내가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
       "chunks": [
         {
-          "text": "I",
+          "text": "The person",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "am",
+          "text": "who likes",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "all ears",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "the decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Object Relative",
+      "question": "What do the do?"
     },
     {
       "id": "5-9-3",
       "section": "Day 9",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "겁먹다.",
-      "english": "Cold feet.",
+      "description": "Object Relative",
+      "korean": "내가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
       "chunks": [
         {
-          "text": "Cold feet",
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Object Relative",
+      "question": "What do the do?"
     },
     {
       "id": "5-9-4",
       "section": "Day 9",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "행운을 빌어!",
-      "english": "Break a leg!",
+      "description": "Object Relative",
+      "korean": "내가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
       "chunks": [
         {
-          "text": "Break",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "a leg",
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Object Relative",
+      "question": "What do the do?"
     },
     {
       "id": "5-9-5",
       "section": "Day 9",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "현실을 직시해라.",
-      "english": "Face the music.",
+      "description": "Object Relative",
+      "korean": "네가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
       "chunks": [
         {
-          "text": "Face",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "the music",
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Object Relative",
+      "question": "What do the do?"
     },
     {
       "id": "5-9-6",
       "section": "Day 9",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "손이 꽉 찼다 (바쁘다).",
-      "english": "Hands exist full.",
+      "description": "Object Relative",
+      "korean": "우리가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes people decided to learn more.",
       "chunks": [
         {
-          "text": "Hands",
+          "text": "The person",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "exist",
+          "text": "who likes",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "full",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "people decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Object Relative",
+      "question": "What do the do?"
     },
     {
       "id": "5-9-7",
       "section": "Day 9",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "의견이 일치하다.",
-      "english": "Eye to eye.",
+      "description": "Object Relative",
+      "korean": "내가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
       "chunks": [
         {
-          "text": "Eye to eye",
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
           "role": "Modifier",
-          "color": "#B0BEC5"
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Object Relative",
+      "question": "What do the do?"
     },
     {
       "id": "5-9-8",
       "section": "Day 9",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "그를 지켜봐라.",
-      "english": "Keep an eye on him.",
+      "description": "Object Relative",
+      "korean": "그녀는을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes she decided to learn more.",
       "chunks": [
         {
-          "text": "Keep an eye",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "on him",
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "she decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
           "role": "Modifier",
-          "color": "#B0BEC5"
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Object Relative",
+      "question": "What do the do?"
     },
     {
       "id": "5-9-9",
       "section": "Day 9",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "비밀 지킬게.",
-      "english": "My lips are sealed.",
+      "description": "Object Relative",
+      "korean": "그는을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes he decided to learn more.",
       "chunks": [
         {
-          "text": "My lips",
+          "text": "The person",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "are sealed",
+          "text": "who likes",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
+        },
+        {
+          "text": "he decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Object Relative",
+      "question": "What do the do?"
     },
     {
       "id": "5-9-10",
       "section": "Day 9",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "따뜻한 마음.",
-      "english": "Heart of gold.",
+      "description": "Object Relative",
+      "korean": "이분이을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes this decided to learn more.",
       "chunks": [
         {
-          "text": "Heart",
+          "text": "The person",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "of gold",
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "this decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
           "role": "Modifier",
-          "color": "#B0BEC5"
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Object Relative",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-9-11",
+      "section": "Day 9",
+      "description": "Object Relative",
+      "korean": "네가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Object Relative",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-9-12",
+      "section": "Day 9",
+      "description": "Object Relative",
+      "korean": "그녀가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes do decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "do decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Object Relative",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-9-13",
+      "section": "Day 9",
+      "description": "Object Relative",
+      "korean": "저을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes that decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "that decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Object Relative",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-9-14",
+      "section": "Day 9",
+      "description": "Object Relative",
+      "korean": "내가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes i decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "i decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Object Relative",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-9-15",
+      "section": "Day 9",
+      "description": "Object Relative",
+      "korean": "네가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes bring decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "bring decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Object Relative",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-9-16",
+      "section": "Day 9",
+      "description": "Object Relative",
+      "korean": "내가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes whom decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "whom decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Object Relative",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-9-17",
+      "section": "Day 9",
+      "description": "Object Relative",
+      "korean": "관계자을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes to decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "to decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Object Relative",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-9-18",
+      "section": "Day 9",
+      "description": "Object Relative",
+      "korean": "놓친을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Object Relative",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-9-19",
+      "section": "Day 9",
+      "description": "Object Relative",
+      "korean": "인맥보단을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes it's decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "it's decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Object Relative",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-9-20",
+      "section": "Day 9",
+      "description": "Object Relative",
+      "korean": "내가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes guess decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "guess decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Object Relative",
+      "question": "What do the do?"
     },
     {
       "id": "5-10-1",
       "section": "Day 10",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "누워서 떡 먹기.",
-      "english": "Piece of cake.",
+      "description": "Which/That (Things)",
+      "korean": "날을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
       "chunks": [
         {
-          "text": "Piece of cake",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": {
-        "title": "Core Lesson",
-        "structure": [
-          {
-            "text": "Complement",
-            "color": "#BA68C8"
-          }
-        ]
-      }
+      "context": "Which/That (Things)",
+      "question": "What do the do?"
     },
     {
       "id": "5-10-2",
       "section": "Day 10",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "비밀을 누설해라.",
-      "english": "Spill the beans.",
+      "description": "Which/That (Things)",
+      "korean": "빨간을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
       "chunks": [
         {
-          "text": "Spill",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "the beans",
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Which/That (Things)",
+      "question": "What do the do?"
     },
     {
       "id": "5-10-3",
       "section": "Day 10",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "내 취향이 아니다.",
-      "english": "Not my cup of tea.",
+      "description": "Which/That (Things)",
+      "korean": "내가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
       "chunks": [
         {
-          "text": "Not",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "my cup of tea",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Which/That (Things)",
+      "question": "What do the do?"
     },
     {
       "id": "5-10-4",
       "section": "Day 10",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "눈에 넣어도 안 아픈 존재.",
-      "english": "Apple of my eye.",
+      "description": "Which/That (Things)",
+      "korean": "네가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
       "chunks": [
         {
-          "text": "Apple",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "of my eye",
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
           "role": "Modifier",
-          "color": "#B0BEC5"
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Which/That (Things)",
+      "question": "What do the do?"
     },
     {
       "id": "5-10-5",
       "section": "Day 10",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "미쳐 날뛰다.",
-      "english": "Go bananas.",
+      "description": "Which/That (Things)",
+      "korean": "수영장이을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes a decided to learn more.",
       "chunks": [
         {
-          "text": "Go",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "bananas",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "a decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Which/That (Things)",
+      "question": "What do the do?"
     },
     {
       "id": "5-10-6",
       "section": "Day 10",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "중요한 인물.",
-      "english": "Big cheese.",
+      "description": "Which/That (Things)",
+      "korean": "우리가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
       "chunks": [
         {
-          "text": "Big cheese",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Which/That (Things)",
+      "question": "What do the do?"
     },
     {
       "id": "5-10-7",
       "section": "Day 10",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "물건을 잘 떨어뜨리는 사람.",
-      "english": "Butter fingers.",
+      "description": "Which/That (Things)",
+      "korean": "도움이을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes i decided to learn more.",
       "chunks": [
         {
-          "text": "Butter fingers",
+          "text": "The person",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "i decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Which/That (Things)",
+      "question": "What do the do?"
     },
     {
       "id": "5-10-8",
       "section": "Day 10",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "침착한.",
-      "english": "Cool as a cucumber.",
+      "description": "Which/That (Things)",
+      "korean": "이게을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes this decided to learn more.",
       "chunks": [
         {
-          "text": "Cool",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "as a cucumber",
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "this decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
           "role": "Modifier",
-          "color": "#B0BEC5"
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Which/That (Things)",
+      "question": "What do the do?"
     },
     {
       "id": "5-10-9",
       "section": "Day 10",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "간단히 말해서.",
-      "english": "In a nutshell.",
+      "description": "Which/That (Things)",
+      "korean": "그녀가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
       "chunks": [
         {
-          "text": "In a nutshell",
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
           "role": "Modifier",
-          "color": "#B0BEC5"
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Which/That (Things)",
+      "question": "What do the do?"
     },
     {
       "id": "5-10-10",
       "section": "Day 10",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "머리를 써라.",
-      "english": "Use your noodle.",
+      "description": "Which/That (Things)",
+      "korean": "그는을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes he decided to learn more.",
       "chunks": [
         {
-          "text": "Use",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "your noodle",
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "he decided",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Which/That (Things)",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-10-11",
+      "section": "Day 10",
+      "description": "Which/That (Things)",
+      "korean": "내가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes where decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "where decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Which/That (Things)",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-10-12",
+      "section": "Day 10",
+      "description": "Which/That (Things)",
+      "korean": "고기를을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes animals decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "animals decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Which/That (Things)",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-10-13",
+      "section": "Day 10",
+      "description": "Which/That (Things)",
+      "korean": "네가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes i decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "i decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Which/That (Things)",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-10-14",
+      "section": "Day 10",
+      "description": "Which/That (Things)",
+      "korean": "잘못될을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes anything decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "anything decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Which/That (Things)",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-10-15",
+      "section": "Day 10",
+      "description": "Which/That (Things)",
+      "korean": "열려을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Which/That (Things)",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-10-16",
+      "section": "Day 10",
+      "description": "Which/That (Things)",
+      "korean": "시련은을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes that decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "that decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Which/That (Things)",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-10-17",
+      "section": "Day 10",
+      "description": "Which/That (Things)",
+      "korean": "반짝인다고을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes all decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "all decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Which/That (Things)",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-10-18",
+      "section": "Day 10",
+      "description": "Which/That (Things)",
+      "korean": "결정적인을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Which/That (Things)",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-10-19",
+      "section": "Day 10",
+      "description": "Which/That (Things)",
+      "korean": "은혜를을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes bite decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "bite decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Which/That (Things)",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-10-20",
+      "section": "Day 10",
+      "description": "Which/That (Things)",
+      "korean": "아낀을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes a decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "a decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Which/That (Things)",
+      "question": "What do the do?"
     },
     {
       "id": "5-11-1",
       "section": "Day 11",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "진정해라.",
-      "english": "Hold your horses.",
+      "description": "Whose (Possession)",
+      "korean": "이름이을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes a decided to learn more.",
       "chunks": [
         {
-          "text": "Hold",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "your horses",
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "a decided",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": {
-        "title": "Core Lesson",
-        "structure": [
-          {
-            "text": "Verb",
-            "color": "#FF7F00"
-          },
-          {
-            "text": "Object",
-            "color": "#FFD700"
-          }
-        ]
-      }
+      "context": "Whose (Possession)",
+      "question": "What do the do?"
     },
     {
       "id": "5-11-2",
       "section": "Day 11",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "무심코 비밀을 말하다.",
-      "english": "Let the cat out of the bag.",
+      "description": "Whose (Possession)",
+      "korean": "색이을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes a decided to learn more.",
       "chunks": [
         {
-          "text": "Let",
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "the cat",
+          "text": "a decided",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
         },
         {
-          "text": "out of the bag",
+          "text": "to learn",
           "role": "Modifier",
-          "color": "#B0BEC5"
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Whose (Possession)",
+      "question": "What do the do?"
     },
     {
       "id": "5-11-3",
       "section": "Day 11",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "일석이조.",
-      "english": "Kill two birds with one stone.",
+      "description": "Whose (Possession)",
+      "korean": "머리가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
       "chunks": [
         {
-          "text": "Kill",
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "two birds",
+          "text": "the decided",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
         },
         {
-          "text": "with one stone",
+          "text": "to learn",
           "role": "Modifier",
-          "color": "#B0BEC5"
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Whose (Possession)",
+      "question": "What do the do?"
     },
     {
       "id": "5-11-4",
       "section": "Day 11",
-      "description": "Core Lesson",
-      "question": "What happened yesterday?",
-      "korean": "지나친 호기심은 화를 부른다.",
-      "english": "Curiosity killed the cat.",
+      "description": "Whose (Possession)",
+      "korean": "지붕이을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes a decided to learn more.",
       "chunks": [
         {
-          "text": "Curiosity",
+          "text": "The person",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "killed",
+          "text": "who likes",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "the cat",
+          "text": "a decided",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Whose (Possession)",
+      "question": "What do the do?"
     },
     {
       "id": "5-11-5",
       "section": "Day 11",
-      "description": "Core Lesson",
-      "question": "What are your interests?",
-      "korean": "매의 눈으로 감시하다.",
-      "english": "Watch like a hawk.",
+      "description": "Whose (Possession)",
+      "korean": "개가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
       "chunks": [
         {
-          "text": "Watch",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "like a hawk",
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
           "role": "Modifier",
-          "color": "#B0BEC5"
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Whose (Possession)",
+      "question": "What do the do?"
     },
     {
       "id": "5-11-6",
       "section": "Day 11",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "벌처럼 바쁜.",
-      "english": "Busy as a bee.",
+      "description": "Whose (Possession)",
+      "korean": "아빠가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes i decided to learn more.",
       "chunks": [
         {
-          "text": "Busy",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "as a bee",
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "i decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
           "role": "Modifier",
-          "color": "#B0BEC5"
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Whose (Possession)",
+      "question": "What do the do?"
     },
     {
       "id": "5-11-7",
       "section": "Day 11",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "다들 알지만 말 안 하는 문제.",
-      "english": "Elephant in the room.",
+      "description": "Whose (Possession)",
+      "korean": "그는을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes he decided to learn more.",
       "chunks": [
         {
-          "text": "Elephant",
+          "text": "The person",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "in the room",
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "he decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
           "role": "Modifier",
-          "color": "#B0BEC5"
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Whose (Possession)",
+      "question": "What do the do?"
     },
     {
       "id": "5-11-8",
       "section": "Day 11",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "겁먹고 꽁무니 빼다.",
-      "english": "Chicken out.",
+      "description": "Whose (Possession)",
+      "korean": "가방을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
       "chunks": [
         {
-          "text": "Chicken out",
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Whose (Possession)",
+      "question": "What do the do?"
     },
     {
       "id": "5-11-9",
       "section": "Day 11",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "낯선 환경에 처한 사람.",
-      "english": "Fish out of water.",
+      "description": "Whose (Possession)",
+      "korean": "꼭대기가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes i decided to learn more.",
       "chunks": [
         {
-          "text": "Fish",
+          "text": "The person",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "out of water",
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "i decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
           "role": "Modifier",
-          "color": "#B0BEC5"
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Whose (Possession)",
+      "question": "What do the do?"
     },
     {
       "id": "5-11-10",
       "section": "Day 11",
-      "description": "Core Lesson",
-      "question": "What can you tell me about it?",
-      "korean": "부질없는 시도.",
-      "english": "Wild goose chase.",
+      "description": "Whose (Possession)",
+      "korean": "자전거을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes do decided to learn more.",
       "chunks": [
         {
-          "text": "Wild goose chase",
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "do decided",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Core Lesson",
-      "grammarGuide": null
+      "context": "Whose (Possession)",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-11-11",
+      "section": "Day 11",
+      "description": "Whose (Possession)",
+      "korean": "이을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes this decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "this decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Whose (Possession)",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-11-12",
+      "section": "Day 11",
+      "description": "Whose (Possession)",
+      "korean": "잎이을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes look decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "look decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Whose (Possession)",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-11-13",
+      "section": "Day 11",
+      "description": "Whose (Possession)",
+      "korean": "지도를을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes i decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "i decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Whose (Possession)",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-11-14",
+      "section": "Day 11",
+      "description": "Whose (Possession)",
+      "korean": "그녀는을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes she decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "she decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Whose (Possession)",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-11-15",
+      "section": "Day 11",
+      "description": "Whose (Possession)",
+      "korean": "힘을을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes a decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "a decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Whose (Possession)",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-11-16",
+      "section": "Day 11",
+      "description": "Whose (Possession)",
+      "korean": "누구을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes whose decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "whose decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Whose (Possession)",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-11-17",
+      "section": "Day 11",
+      "description": "Whose (Possession)",
+      "korean": "이건을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes whose decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "whose decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Whose (Possession)",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-11-18",
+      "section": "Day 11",
+      "description": "Whose (Possession)",
+      "korean": "역사가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes a decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "a decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Whose (Possession)",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-11-19",
+      "section": "Day 11",
+      "description": "Whose (Possession)",
+      "korean": "우리를을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Whose (Possession)",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-11-20",
+      "section": "Day 11",
+      "description": "Whose (Possession)",
+      "korean": "누구을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes whose decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "whose decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Whose (Possession)",
+      "question": "What do the do?"
     },
     {
       "id": "5-12-1",
       "section": "Day 12",
-      "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "찻잔 속의 태풍.",
-      "english": "Storm in a teacup.",
+      "description": "Relative Adverbs",
+      "korean": "우리가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
       "chunks": [
         {
-          "text": "Storm",
+          "text": "The person",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "in a teacup",
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
           "role": "Modifier",
-          "color": "#B0BEC5"
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": {
-        "title": "Review",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000"
-          },
-          {
-            "text": "Modifier",
-            "color": "#B0BEC5"
-          }
-        ]
-      }
+      "context": "Relative Adverbs",
+      "question": "What do the do?"
     },
     {
       "id": "5-12-2",
       "section": "Day 12",
-      "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "내 공을 가로채지 마.",
-      "english": "Don't steal my thunder.",
+      "description": "Relative Adverbs",
+      "korean": "내가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
       "chunks": [
         {
-          "text": "Don't steal",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "my thunder",
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Relative Adverbs",
+      "question": "What do the do?"
     },
     {
       "id": "5-12-3",
       "section": "Day 12",
-      "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "현실을 직시해라.",
-      "english": "Face the music.",
+      "description": "Relative Adverbs",
+      "korean": "내가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
       "chunks": [
         {
-          "text": "Face",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "the music",
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Relative Adverbs",
+      "question": "What do the do?"
     },
     {
       "id": "5-12-4",
       "section": "Day 12",
-      "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "그를 지켜봐라.",
-      "english": "Keep an eye on him.",
+      "description": "Relative Adverbs",
+      "korean": "내가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
       "chunks": [
         {
-          "text": "Keep an eye",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "on him",
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
           "role": "Modifier",
-          "color": "#B0BEC5"
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Relative Adverbs",
+      "question": "What do the do?"
     },
     {
       "id": "5-12-5",
       "section": "Day 12",
-      "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "중요한 인물.",
-      "english": "Big cheese.",
+      "description": "Relative Adverbs",
+      "korean": "네가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
       "chunks": [
         {
-          "text": "Big cheese",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Relative Adverbs",
+      "question": "What do the do?"
     },
     {
       "id": "5-12-6",
       "section": "Day 12",
-      "description": "Review",
-      "question": "Situation: Give me a command.",
-      "korean": "나는 기분이 날아갈 듯 좋다.",
-      "english": "I am on cloud nine.",
+      "description": "Relative Adverbs",
+      "korean": "여기가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes this decided to learn more.",
       "chunks": [
         {
-          "text": "I",
+          "text": "The person",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "am",
+          "text": "who likes",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "on cloud nine",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "this decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Relative Adverbs",
+      "question": "What do the do?"
     },
     {
       "id": "5-12-7",
       "section": "Day 12",
-      "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "내 취향이 아니다.",
-      "english": "Not my cup of tea.",
+      "description": "Relative Adverbs",
+      "korean": "난을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes i decided to learn more.",
       "chunks": [
         {
-          "text": "Not",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "my cup of tea",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "i decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Relative Adverbs",
+      "question": "What do the do?"
     },
     {
       "id": "5-12-8",
       "section": "Day 12",
-      "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "기운 내라.",
-      "english": "Keep your chin up.",
+      "description": "Relative Adverbs",
+      "korean": "늦은을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes tell decided to learn more.",
       "chunks": [
         {
-          "text": "Keep",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "your chin up",
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "tell decided",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Relative Adverbs",
+      "question": "What do the do?"
     },
     {
       "id": "5-12-9",
       "section": "Day 12",
-      "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "무심코 비밀을 말하다.",
-      "english": "Let the cat out of the bag.",
+      "description": "Relative Adverbs",
+      "korean": "저기가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes that decided to learn more.",
       "chunks": [
         {
-          "text": "Let",
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "the cat",
+          "text": "that decided",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
         },
         {
-          "text": "out of the bag",
+          "text": "to learn",
           "role": "Modifier",
-          "color": "#B0BEC5"
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Relative Adverbs",
+      "question": "What do the do?"
     },
     {
       "id": "5-12-10",
       "section": "Day 12",
-      "description": "Review",
-      "question": "Situation: Give me a command.",
-      "korean": "경청하고 있다.",
-      "english": "I am all ears.",
+      "description": "Relative Adverbs",
+      "korean": "여름은을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes summer decided to learn more.",
       "chunks": [
         {
-          "text": "I",
+          "text": "The person",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "am",
+          "text": "who likes",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "all ears",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "summer decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Relative Adverbs",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-12-11",
+      "section": "Day 12",
+      "description": "Relative Adverbs",
+      "korean": "우리을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes do decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "do decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Relative Adverbs",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-12-12",
+      "section": "Day 12",
+      "description": "Relative Adverbs",
+      "korean": "금요일은을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes friday decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "friday decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Relative Adverbs",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-12-13",
+      "section": "Day 12",
+      "description": "Relative Adverbs",
+      "korean": "우리가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes there decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "there decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Relative Adverbs",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-12-14",
+      "section": "Day 12",
+      "description": "Relative Adverbs",
+      "korean": "새가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes look decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "look decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Relative Adverbs",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-12-15",
+      "section": "Day 12",
+      "description": "Relative Adverbs",
+      "korean": "우리가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Relative Adverbs",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-12-16",
+      "section": "Day 12",
+      "description": "Relative Adverbs",
+      "korean": "집은을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes home decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "home decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Relative Adverbs",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-12-17",
+      "section": "Day 12",
+      "description": "Relative Adverbs",
+      "korean": "그래서을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes that's decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "that's decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Relative Adverbs",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-12-18",
+      "section": "Day 12",
+      "description": "Relative Adverbs",
+      "korean": "하는을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Relative Adverbs",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-12-19",
+      "section": "Day 12",
+      "description": "Relative Adverbs",
+      "korean": "뜻이을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes where decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "where decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Relative Adverbs",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-12-20",
+      "section": "Day 12",
+      "description": "Relative Adverbs",
+      "korean": "I을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes i decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "i decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Relative Adverbs",
+      "question": "What do the do?"
     },
     {
       "id": "5-13-1",
       "section": "Day 13",
-      "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "비밀 지킬게.",
-      "english": "My lips are sealed.",
+      "description": "Omission",
+      "korean": "내가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
       "chunks": [
         {
-          "text": "My lips",
+          "text": "The person",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "are sealed",
+          "text": "who likes",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": {
-        "title": "Review",
-        "structure": [
-          {
-            "text": "Subject",
-            "color": "#FF0000"
-          },
-          {
-            "text": "Verb",
-            "color": "#FF7F00"
-          }
-        ]
-      }
+      "context": "Omission",
+      "question": "What do the do?"
     },
     {
       "id": "5-13-2",
       "section": "Day 13",
-      "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "내 공을 가로채지 마.",
-      "english": "Don't steal my thunder.",
+      "description": "Omission",
+      "korean": "네가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
       "chunks": [
         {
-          "text": "Don't steal",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "my thunder",
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Omission",
+      "question": "What do the do?"
     },
     {
       "id": "5-13-3",
       "section": "Day 13",
-      "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "일석이조.",
-      "english": "Kill two birds with one stone.",
+      "description": "Omission",
+      "korean": "그녀가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
       "chunks": [
         {
-          "text": "Kill",
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "two birds",
+          "text": "the decided",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
         },
         {
-          "text": "with one stone",
+          "text": "to learn",
           "role": "Modifier",
-          "color": "#B0BEC5"
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Omission",
+      "question": "What do the do?"
     },
     {
       "id": "5-13-4",
       "section": "Day 13",
-      "description": "Review",
-      "question": "What happened yesterday?",
-      "korean": "지나친 호기심은 화를 부른다.",
-      "english": "Curiosity killed the cat.",
+      "description": "Omission",
+      "korean": "그가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
       "chunks": [
         {
-          "text": "Curiosity",
+          "text": "The person",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "killed",
+          "text": "who likes",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "the cat",
+          "text": "the decided",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Omission",
+      "question": "What do the do?"
     },
     {
       "id": "5-13-5",
       "section": "Day 13",
-      "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "현실을 직시해라.",
-      "english": "Face the music.",
+      "description": "Omission",
+      "korean": "우리가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
       "chunks": [
         {
-          "text": "Face",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "the music",
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Omission",
+      "question": "What do the do?"
     },
     {
       "id": "5-13-6",
       "section": "Day 13",
-      "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "물건을 잘 떨어뜨리는 사람.",
-      "english": "Butter fingers.",
+      "description": "Omission",
+      "korean": "이게을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes this decided to learn more.",
       "chunks": [
         {
-          "text": "Butter fingers",
+          "text": "The person",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "this decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Omission",
+      "question": "What do the do?"
     },
     {
       "id": "5-13-7",
       "section": "Day 13",
-      "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "비밀을 누설해라.",
-      "english": "Spill the beans.",
+      "description": "Omission",
+      "korean": "너는을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes you decided to learn more.",
       "chunks": [
         {
-          "text": "Spill",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "the beans",
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "you decided",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Omission",
+      "question": "What do the do?"
     },
     {
       "id": "5-13-8",
       "section": "Day 13",
-      "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "내 취향이 아니다.",
-      "english": "Not my cup of tea.",
+      "description": "Omission",
+      "korean": "네가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
       "chunks": [
         {
-          "text": "Not",
-          "role": "Modifier",
-          "color": "#B0BEC5"
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "my cup of tea",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Omission",
+      "question": "What do the do?"
     },
     {
       "id": "5-13-9",
       "section": "Day 13",
-      "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "중요한 인물.",
-      "english": "Big cheese.",
+      "description": "Omission",
+      "korean": "이게을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes is decided to learn more.",
       "chunks": [
         {
-          "text": "Big cheese",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "is decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Omission",
+      "question": "Describe The or who they are."
     },
     {
       "id": "5-13-10",
       "section": "Day 13",
-      "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "손이 꽉 찼다 (바쁘다).",
-      "english": "Hands exist full.",
+      "description": "Omission",
+      "korean": "내가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes there decided to learn more.",
       "chunks": [
         {
-          "text": "Hands",
+          "text": "The person",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "exist",
+          "text": "who likes",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "full",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "there decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
-      "context": "Review",
-      "grammarGuide": null
+      "context": "Omission",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-13-11",
+      "section": "Day 13",
+      "description": "Omission",
+      "korean": "내가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes where decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "where decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Omission",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-13-12",
+      "section": "Day 13",
+      "description": "Omission",
+      "korean": "그는을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes he decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "he decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Omission",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-13-13",
+      "section": "Day 13",
+      "description": "Omission",
+      "korean": "네가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes show decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "show decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Omission",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-13-14",
+      "section": "Day 13",
+      "description": "Omission",
+      "korean": "내가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes review: decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "review: decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Omission",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-13-15",
+      "section": "Day 13",
+      "description": "Omission",
+      "korean": "우리가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Omission",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-13-16",
+      "section": "Day 13",
+      "description": "Omission",
+      "korean": "크리스마스에을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes all decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "all decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Omission",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-13-17",
+      "section": "Day 13",
+      "description": "Omission",
+      "korean": "내을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes everything decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "everything decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Omission",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-13-18",
+      "section": "Day 13",
+      "description": "Omission",
+      "korean": "니을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Omission",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-13-19",
+      "section": "Day 13",
+      "description": "Omission",
+      "korean": "내을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes what decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "what decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Omission",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-13-20",
+      "section": "Day 13",
+      "description": "Omission",
+      "korean": "널을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Omission",
+      "question": "What do the do?"
     },
     {
       "id": "5-14-1",
       "section": "Day 14",
       "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "현실을 직시해라.",
-      "english": "Face the music.",
+      "korean": "노래하는을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
       "chunks": [
         {
-          "text": "Face",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "the music",
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
       "context": "Review",
-      "grammarGuide": {
-        "title": "Review",
-        "structure": [
-          {
-            "text": "Verb",
-            "color": "#FF7F00"
-          },
-          {
-            "text": "Object",
-            "color": "#FFD700"
-          }
-        ]
-      }
+      "question": "What do the do?"
     },
     {
       "id": "5-14-2",
       "section": "Day 14",
       "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "분위기를 깨다.",
-      "english": "Break the ice.",
+      "korean": "난을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes i decided to learn more.",
       "chunks": [
         {
-          "text": "Break",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "the ice",
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "i decided",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
       "context": "Review",
-      "grammarGuide": null
+      "question": "What do the do?"
     },
     {
       "id": "5-14-3",
       "section": "Day 14",
       "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "비밀 지킬게.",
-      "english": "My lips are sealed.",
+      "korean": "여기가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes this decided to learn more.",
       "chunks": [
         {
-          "text": "My lips",
+          "text": "The person",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "are sealed",
+          "text": "who likes",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
+        },
+        {
+          "text": "this decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
       "context": "Review",
-      "grammarGuide": null
+      "question": "What do the do?"
     },
     {
       "id": "5-14-4",
       "section": "Day 14",
       "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "미쳐 날뛰다.",
-      "english": "Go bananas.",
+      "korean": "눈이을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
       "chunks": [
         {
-          "text": "Go",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "bananas",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
       "context": "Review",
-      "grammarGuide": null
+      "question": "What do the do?"
     },
     {
       "id": "5-14-5",
       "section": "Day 14",
       "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "기운 내라.",
-      "english": "Keep your chin up.",
+      "korean": "내가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes where decided to learn more.",
       "chunks": [
         {
-          "text": "Keep",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "your chin up",
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "where decided",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
       "context": "Review",
-      "grammarGuide": null
+      "question": "What do the do?"
     },
     {
       "id": "5-14-6",
       "section": "Day 14",
       "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "비밀을 누설해라.",
-      "english": "Spill the beans.",
+      "korean": "그는을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes he decided to learn more.",
       "chunks": [
         {
-          "text": "Spill",
-          "role": "Verb",
-          "color": "#FF7F00"
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "the beans",
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "he decided",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
       "context": "Review",
-      "grammarGuide": null
+      "question": "What do the do?"
     },
     {
       "id": "5-14-7",
       "section": "Day 14",
       "description": "Review",
-      "question": "What is It doing right now?",
-      "korean": "비가 억수같이 온다.",
-      "english": "It is raining cats and dogs.",
+      "korean": "난을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes i decided to learn more.",
       "chunks": [
         {
-          "text": "It",
+          "text": "The person",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "is raining",
+          "text": "who likes",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "cats and dogs",
+          "text": "i decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
           "role": "Adverb",
-          "color": "#BA68C8"
+          "color": "#AA00FF"
         }
       ],
       "context": "Review",
-      "grammarGuide": null
+      "question": "What do the do?"
     },
     {
       "id": "5-14-8",
       "section": "Day 14",
       "description": "Review",
-      "question": "What can you tell me about it?",
-      "korean": "벌처럼 바쁜.",
-      "english": "Busy as a bee.",
+      "korean": "네가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes anything decided to learn more.",
       "chunks": [
         {
-          "text": "Busy",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
         },
         {
-          "text": "as a bee",
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "anything decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
           "role": "Modifier",
-          "color": "#B0BEC5"
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
       "context": "Review",
-      "grammarGuide": null
+      "question": "What do the do?"
     },
     {
       "id": "5-14-9",
       "section": "Day 14",
       "description": "Review",
-      "question": "What happened yesterday?",
-      "korean": "지나친 호기심은 화를 부른다.",
-      "english": "Curiosity killed the cat.",
+      "korean": "짖던을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
       "chunks": [
         {
-          "text": "Curiosity",
+          "text": "The person",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "killed",
+          "text": "who likes",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "the cat",
+          "text": "the decided",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
       "context": "Review",
-      "grammarGuide": null
+      "question": "What do the do?"
     },
     {
       "id": "5-14-10",
       "section": "Day 14",
       "description": "Review",
-      "question": "Situation: Give me a command.",
-      "korean": "나는 기분이 날아갈 듯 좋다.",
-      "english": "I am on cloud nine.",
+      "korean": "유리을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes people decided to learn more.",
       "chunks": [
         {
-          "text": "I",
+          "text": "The person",
           "role": "Subject",
-          "color": "#FF0000"
+          "color": "#FF1744"
         },
         {
-          "text": "am",
+          "text": "who likes",
           "role": "Verb",
-          "color": "#FF7F00"
+          "color": "#FF9100"
         },
         {
-          "text": "on cloud nine",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "people decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
         }
       ],
       "context": "Review",
-      "grammarGuide": null
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-14-11",
+      "section": "Day 14",
+      "description": "Review",
+      "korean": "그게을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes that decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "that decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-14-12",
+      "section": "Day 14",
+      "description": "Review",
+      "korean": "우리가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes the decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "the decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-14-13",
+      "section": "Day 14",
+      "description": "Review",
+      "korean": "내가을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes someone decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "someone decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-14-14",
+      "section": "Day 14",
+      "description": "Review",
+      "korean": "망설이는을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes he decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "he decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-14-15",
+      "section": "Day 14",
+      "description": "Review",
+      "korean": "할을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes do decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "do decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-14-16",
+      "section": "Day 14",
+      "description": "Review",
+      "korean": "누구냐?을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes review: decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "review: decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-14-17",
+      "section": "Day 14",
+      "description": "Review",
+      "korean": "난을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes review: decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "review: decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-14-18",
+      "section": "Day 14",
+      "description": "Review",
+      "korean": "양치기을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes review: decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "review: decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-14-19",
+      "section": "Day 14",
+      "description": "Review",
+      "korean": "어려울을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes review: decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "review: decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What do the do?"
+    },
+    {
+      "id": "5-14-20",
+      "section": "Day 14",
+      "description": "Review",
+      "korean": "최고는을 좋아하는 사람은 더 많이 배우기로 결정했다.",
+      "english": "The person who likes review: decided to learn more.",
+      "chunks": [
+        {
+          "text": "The person",
+          "role": "Subject",
+          "color": "#FF1744"
+        },
+        {
+          "text": "who likes",
+          "role": "Verb",
+          "color": "#FF9100"
+        },
+        {
+          "text": "review: decided",
+          "role": "Object",
+          "color": "#00E676"
+        },
+        {
+          "text": "to learn",
+          "role": "Modifier",
+          "color": "#2979FF"
+        },
+        {
+          "text": "more.",
+          "role": "Adverb",
+          "color": "#AA00FF"
+        }
+      ],
+      "context": "Review",
+      "question": "What do the do?"
     }
   ]
 }
