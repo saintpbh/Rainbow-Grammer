@@ -1,5 +1,5 @@
 import { gameState } from './state.js';
-import { saveAudioPreference } from './storage.js';
+import { saveAudioPreference, saveVoicePreference, loadVoicePreference } from './storage.js';
 
 export function initAudio() {
     if (gameState.audioContext && gameState.audioContext.state === 'suspended') {
@@ -65,10 +65,15 @@ export function speakText(text, cancelCurrent = true) {
 
             const utterance = new SpeechSynthesisUtterance(text);
 
-            // Try to use a better voice
+            // Try to use selected voice or fallback to default English voice
             const voices = window.speechSynthesis.getVoices();
-            const enVoice = voices.find(v => v.lang.startsWith('en-US')) || voices.find(v => v.lang.startsWith('en'));
-            if (enVoice) utterance.voice = enVoice;
+            let chosenVoice = voices.find(v => v.voiceURI === gameState.selectedVoiceURI);
+            if (!chosenVoice) {
+                chosenVoice = voices.find(v => v.lang.startsWith('en-US')) || voices.find(v => v.lang.startsWith('en'));
+            }
+            if (chosenVoice) {
+                utterance.voice = chosenVoice;
+            }
 
             utterance.rate = gameState.speechRate || 1.0;
 
@@ -137,4 +142,55 @@ export function changeSpeed(rate) {
 export function testAudio() {
     playSuccessSound();
     speakText("Ready");
+}
+
+export function changeVoice(voiceURI) {
+    gameState.selectedVoiceURI = voiceURI;
+    saveVoicePreference(voiceURI);
+    
+    // Quick test play to provide instant feedback
+    const voices = window.speechSynthesis.getVoices();
+    const chosen = voices.find(v => v.voiceURI === voiceURI);
+    const displayName = chosen ? chosen.name : "Selected Voice";
+    console.log(`✓ Voice changed to: ${displayName}`);
+    
+    speakText("Voice selected");
+}
+
+export function populateVoiceSelector() {
+    const selector = document.getElementById('voice-select');
+    if (!selector) return;
+
+    const voices = window.speechSynthesis.getVoices();
+    const enVoices = voices.filter(v => v.lang.startsWith('en'));
+
+    // Clear existing
+    selector.innerHTML = '';
+
+    if (enVoices.length === 0) {
+        const opt = document.createElement('option');
+        opt.textContent = "No English voices found";
+        selector.appendChild(opt);
+        return;
+    }
+
+    // Load saved URI if any
+    const savedURI = loadVoicePreference();
+    if (savedURI && voices.some(v => v.voiceURI === savedURI)) {
+        gameState.selectedVoiceURI = savedURI;
+    } else {
+        const defaultUS = enVoices.find(v => v.lang.startsWith('en-US')) || enVoices[0];
+        gameState.selectedVoiceURI = defaultUS.voiceURI;
+    }
+
+    enVoices.forEach(v => {
+        const opt = document.createElement('option');
+        opt.value = v.voiceURI;
+        // Clean display name (e.g., Google US English)
+        opt.textContent = `${v.name} (${v.lang})`;
+        if (v.voiceURI === gameState.selectedVoiceURI) {
+            opt.selected = true;
+        }
+        selector.appendChild(opt);
+    });
 }

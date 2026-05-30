@@ -2,7 +2,7 @@
 // Main Entry Point
 import * as StructureGame from './structure_game/game.js';
 import * as StructureUI from './structure_game/ui.js';
-import { changeSpeed, testAudio, speakText, playSuccessSound, playFailureSound } from './audio.js'; // Global audio remains
+import { changeSpeed, testAudio, speakText, playSuccessSound, playFailureSound, changeVoice, populateVoiceSelector } from './audio.js'; // Global audio remains
 
 
 import * as DropGame from './chunk_game/game.js';
@@ -220,8 +220,19 @@ window.playFailureSound = playFailureSound;
 window.closeGrammarModal = StructureUI.closeGrammarModal;
 window.hideContext = StructureUI.hideContext;
 window.resetAfterError = StructureUI.hideErrorFeedback;
+window.changeVoice = changeVoice;
 
 // Start
 document.addEventListener('DOMContentLoaded', () => {
     initLobby();
+    
+    // Warm up voice selector
+    populateVoiceSelector();
+    
+    // Hook asynchronous voice loading for browser compatibility
+    if (window.speechSynthesis) {
+        window.speechSynthesis.onvoiceschanged = () => {
+            populateVoiceSelector();
+        };
+    }
 });

@@ -108,7 +108,10 @@
                 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
                     <span id="sentence-counter">Sentence 1 of 10</span>
                     <!-- Move audio speed controls inside the HUD bar for better containment -->
-                    <div class="audio-controls-embedded" style="display: flex; gap: 4px;">
+                    <div class="audio-controls-embedded" style="display: flex; gap: 6px; align-items: center;">
+                        <select id="voice-select" class="voice-select" onchange="changeVoice(this.value)" title="Choose English Voice" style="background: rgba(255, 255, 255, 0.15); border: 1px solid rgba(255, 255, 255, 0.3); color: white; border-radius: 20px; padding: 4px 10px; font-size: 0.75rem; outline: none; cursor: pointer; max-width: 130px; font-weight: 600; text-overflow: ellipsis; white-space: nowrap; overflow: hidden;">
+                            <option value="" style="color: black;">Loading Voices...</option>
+                        </select>
                         <button class="speed-btn" onclick="changeSpeed(0.75)">0.75×</button>
                         <button class="speed-btn active" onclick="changeSpeed(1.0)">1.0×</button>
                         <button class="speed-btn" onclick="changeSpeed(1.25)">1.25×</button>

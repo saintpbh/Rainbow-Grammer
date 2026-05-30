@@ -9,6 +9,7 @@ export const gameState = {
     isPracticeMode: false,
     speechRate: 1.0,
     voices: [],
+    selectedVoiceURI: '',
     audioContext: null,
 
     // Level System

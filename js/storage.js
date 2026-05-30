@@ -35,3 +35,12 @@ export function loadAudioPreference() {
     }
     return 1.0;
 }
+
+export function saveVoicePreference(voiceURI) {
+    localStorage.setItem('audio_voice_uri', voiceURI);
+}
+
+export function loadVoicePreference() {
+    return localStorage.getItem('audio_voice_uri') || '';
+}
+
