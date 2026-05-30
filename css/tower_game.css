@@ -710,3 +710,113 @@
         transform: translateX(5px);
     }
 }
+
+/* iPhone Optimization - Sentence Tower Game */
+@media screen and (max-width: 430px) {
+    .exit-button {
+        top: calc(15px + env(safe-area-inset-top));
+        left: calc(15px + env(safe-area-inset-left));
+        padding: 8px 16px;
+        font-size: 0.55rem;
+    }
+
+    #energy-bar-container {
+        top: calc(15px + env(safe-area-inset-top));
+        width: 180px;
+    }
+
+    #goal-display {
+        top: calc(55px + env(safe-area-inset-top));
+        padding: 8px 16px;
+        font-size: 0.6rem;
+    }
+
+    #tower-area {
+        width: 240px;
+        bottom: 70px;
+    }
+
+    #tower-base {
+        width: 110px;
+        height: 140px;
+        border-radius: 55px 55px 15px 15px;
+    }
+
+    #tower-base::before {
+        top: 25px;
+        width: 35px;
+        height: 35px;
+        border-width: 2px;
+    }
+
+    #tower-base::after {
+        bottom: 15px;
+        left: -20px;
+        border-left-width: 20px;
+        border-bottom-width: 30px;
+        box-shadow: 130px 0 0 #263238;
+    }
+
+    .stacked-block {
+        font-size: 0.95rem;
+        padding: 8px;
+    }
+
+    .falling-block {
+        width: 90px;
+        padding: 8px;
+        font-size: 0.8rem;
+    }
+
+    #monster-zone {
+        width: 90px;
+        height: 90px;
+        bottom: 10px;
+        right: 10px;
+    }
+
+    #nom-nom {
+        width: 80px;
+        height: 70px;
+        box-shadow: 0 6px 0 #D84315;
+    }
+
+    #nom-nom::before {
+        top: 20px;
+        left: 15px;
+        width: 12px;
+        height: 12px;
+        box-shadow: 35px 0 0 white;
+    }
+
+    #nom-nom::after {
+        top: 24px;
+        left: 19px;
+        width: 5px;
+        height: 5px;
+        box-shadow: 35px 0 0 black;
+    }
+
+    .monster-mouth {
+        bottom: 15px;
+        width: 25px;
+        height: 6px;
+    }
+
+    #nom-nom.eating .monster-mouth {
+        height: 25px;
+        width: 25px;
+        bottom: 10px;
+    }
+
+    .speech-bubble {
+        bottom: 95px;
+        right: 5px;
+        padding: 8px 15px;
+        font-size: 0.85rem;
+    }
+
+    .speech-bubble::after {
+        right: 25px;
+    }
+}

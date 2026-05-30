@@ -93,23 +93,22 @@
                 <span id="chili-count">x 0</span>
             </div>
 
-            <div class="day-info" style="justify-content: space-between; align-items: center; width: 100%;">
-                <div style="display: flex; gap: 8px; align-items: center;">
+            <div class="day-info">
+                <div class="day-info-left">
                     <span id="day-number">Day 1 of 28</span>
                     <span id="week-badge">Week 1</span>
                 </div>
                 <!-- Practice Day / Level badge moves to right end -->
-                <div style="display: flex; gap: 6px; align-items: center;">
-                    <span id="level-btn" class="level-badge" style="font-size: 0.8rem; padding: 4px 10px;">LEVEL
-                        1-1</span>
+                <div class="day-info-right">
+                    <span id="level-btn" class="level-badge level-badge-hud">LEVEL 1-1</span>
                 </div>
             </div>
             <div class="sentence-progress">
-                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+                <div class="sentence-progress-header">
                     <span id="sentence-counter">Sentence 1 of 10</span>
                     <!-- Move audio speed controls inside the HUD bar for better containment -->
-                    <div class="audio-controls-embedded" style="display: flex; gap: 6px; align-items: center;">
-                        <select id="voice-select" class="voice-select" onchange="changeVoice(this.value)" title="Choose English Voice" style="background: rgba(255, 255, 255, 0.15); border: 1px solid rgba(255, 255, 255, 0.3); color: white; border-radius: 20px; padding: 4px 10px; font-size: 0.75rem; outline: none; cursor: pointer; max-width: 130px; font-weight: 600; text-overflow: ellipsis; white-space: nowrap; overflow: hidden;">
+                    <div class="audio-controls-embedded">
+                        <select id="voice-select" class="voice-select" onchange="changeVoice(this.value)" title="Choose English Voice">
                             <option value="" style="color: black;">Loading Voices...</option>
                         </select>
                         <button class="speed-btn" onclick="changeSpeed(0.75)">0.75×</button>

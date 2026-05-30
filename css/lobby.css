@@ -108,6 +108,8 @@
 @media screen and (max-width: 430px) {
     .lobby-container {
         padding: 1rem;
+        padding-top: calc(1rem + env(safe-area-inset-top));
+        padding-bottom: calc(1rem + env(safe-area-inset-bottom));
     }
 
     .lobby-title {
@@ -149,8 +151,8 @@
     .fullscreen-btn {
         width: 44px;
         height: 44px;
-        top: 1rem;
-        right: 1rem;
+        top: calc(1rem + env(safe-area-inset-top));
+        right: calc(1rem + env(safe-area-inset-right));
         font-size: 1.3rem;
     }
 }

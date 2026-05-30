@@ -4,7 +4,7 @@
 /* Main Game Container */
 #drop-game-container {
     width: 100%;
-    height: 100vh;
+    height: 100dvh;
     /* Sky Background */
     background: #87CEEB;
     background: linear-gradient(180deg, #4FC3F7 0%, #B3E5FC 80%, #E1F5FE 100%);
@@ -105,6 +105,9 @@
     justify-content: space-between;
     align-items: flex-start;
     padding: 24px;
+    padding-top: calc(20px + env(safe-area-inset-top));
+    padding-left: calc(24px + env(safe-area-inset-left));
+    padding-right: calc(24px + env(safe-area-inset-right));
 }
 
 .score-group {
@@ -179,7 +182,7 @@
 /* Bottom Controls Area */
 #player-controls {
     padding: 20px;
-    padding-bottom: 40px;
+    padding-bottom: calc(20px + env(safe-area-inset-bottom));
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
@@ -242,8 +245,8 @@
 /* Exit Button */
 #exit-game-btn {
     position: absolute;
-    top: 24px;
-    left: 24px;
+    top: calc(20px + env(safe-area-inset-top));
+    left: calc(24px + env(safe-area-inset-left));
     z-index: 10;
     background: white;
     border: none;
