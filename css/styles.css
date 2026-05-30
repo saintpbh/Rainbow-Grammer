@@ -2,13 +2,18 @@
 @import url('chili.css');
 
 :root {
-    /* Palette */
-    --bg-color: #E0F7FA;
-    --card-bg: #FFFFFF;
+    /* Dynamic Theme Overrides */
     --primary: #6200EA;
     --accent: #00BFA5;
-    --shadow-light: 0 4px 6px rgba(0, 0, 0, 0.1);
-    --shadow-deep: 0 10px 30px rgba(0, 0, 0, 0.15);
+    --theme-glow: rgba(98, 0, 234, 0.2);
+    --bg-gradient-start: #E0F7FA;
+    --bg-gradient-end: #E8E4F6;
+    --card-bg: rgba(255, 255, 255, 0.85);
+    
+    /* Standard Palette */
+    --shadow-light: 0 4px 10px rgba(0, 0, 0, 0.05);
+    --shadow-deep: 0 20px 50px rgba(0, 0, 0, 0.1);
+    --border-glass: 1px solid rgba(255, 255, 255, 0.4);
 }
 
 html,
@@ -18,38 +23,40 @@ body {
 }
 
 body {
-    font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
-    background: linear-gradient(135deg, #e0f7fa 0%, #e8e4f6 100%);
+    font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, 'Outfit', sans-serif;
+    background: linear-gradient(135deg, var(--bg-gradient-start) 0%, var(--bg-gradient-end) 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     min-height: 100dvh;
-    /* Dynamic viewport height to prevent address bar jumps */
     margin: 0;
     padding: 20px;
     padding-top: 40px;
-    color: #37474F;
+    color: #2C3E50;
     overflow-x: hidden;
     touch-action: manipulation;
-    /* Prevent double-tap zoom, allow scroll only where needed */
+    transition: background 0.8s ease-in-out;
 }
 
 #game-container {
     width: 100%;
     max-width: 700px;
     background: var(--card-bg);
-    border-radius: 24px;
-    box-shadow: var(--shadow-deep);
-    padding: 2rem 1.5rem;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 30px;
+    box-shadow: var(--shadow-deep), 0 0 40px var(--theme-glow);
+    padding: 2.2rem 1.8rem;
     text-align: center;
     position: relative;
     overflow: hidden;
-    border: 1px solid rgba(255, 255, 255, 0.8);
-    min-height: 500px;
+    border: var(--border-glass);
+    min-height: 520px;
     display: flex;
     flex-direction: column;
     overscroll-behavior: contain;
+    transition: box-shadow 0.6s ease, border-color 0.6s ease;
 }
 
 /* --- HUD Area --- */
@@ -384,56 +391,43 @@ body {
 
 /* --- Answer Slot --- */
 .answer-area {
-    min-height: 120px;
-    background: #FAFAFA;
-    border: 2px dashed #B0BEC5;
-    border-radius: 16px;
-    margin-bottom: 2.5rem;
+    min-height: 125px;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 2px dashed rgba(98, 0, 234, 0.3);
+    border-radius: 20px;
+    margin-bottom: 2.2rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 14px;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    transition: all 0.3s;
+    padding: 24px;
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    box-shadow: inset 0 2px 10px rgba(0,0,0,0.03);
     touch-action: none;
-    /* Prevent scrolling when interacting with answers */
 }
 
 .answer-area.correct {
     border-style: solid;
     border-color: #00C853;
-    background-color: #E8F5E9;
+    background-color: rgba(232, 245, 233, 0.7);
+    box-shadow: inset 0 2px 15px rgba(0, 200, 83, 0.1), 0 0 20px rgba(0, 200, 83, 0.2);
 }
 
 .answer-area.shake {
     animation: shake 0.4s cubic-bezier(.36, .07, .19, .97) both;
     border-color: #FF1744;
-    background-color: #FFEBEE;
+    background-color: rgba(255, 235, 238, 0.7);
+    box-shadow: inset 0 2px 15px rgba(255, 23, 68, 0.1), 0 0 20px rgba(255, 23, 68, 0.2);
 }
 
 @keyframes shake {
-
-    10%,
-    90% {
-        transform: translate3d(-2px, 0, 0);
-    }
-
-    20%,
-    80% {
-        transform: translate3d(4px, 0, 0);
-    }
-
-    30%,
-    50%,
-    70% {
-        transform: translate3d(-8px, 0, 0);
-    }
-
-    40%,
-    60% {
-        transform: translate3d(8px, 0, 0);
-    }
+    10%, 90% { transform: translate3d(-2px, 0, 0); }
+    20%, 80% { transform: translate3d(4px, 0, 0); }
+    30%, 50%, 70% { transform: translate3d(-8px, 0, 0); }
+    40%, 60% { transform: translate3d(8px, 0, 0); }
 }
 
 /* --- Chunk Pillars (Cards) --- */
@@ -442,6 +436,7 @@ body {
     flex-wrap: wrap;
     gap: 14px;
     justify-content: center;
+    perspective: 1000px;
 }
 
 .word-pill {
@@ -449,48 +444,48 @@ body {
     flex-direction: column;
     align-items: center;
     background: white;
-    border-radius: 12px;
+    border-radius: 16px;
     padding: 0;
     cursor: pointer;
-    transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
     user-select: none;
-    box-shadow: 0 4px 0 #CFD8DC, 0 5px 10px rgba(0, 0, 0, 0.1);
-    border: 1px solid #ECEFF1;
-    min-width: 80px;
+    box-shadow: 0 6px 0 rgba(0,0,0,0.06), 0 10px 20px rgba(0,0,0,0.05);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    min-width: 85px;
     touch-action: none;
-    /* Prevent scrolling when dragging/tapping word pills */
 }
 
 .word-pill:active {
-    transform: translateY(4px);
-    box-shadow: 0 0 0 #CFD8DC, inset 0 2px 5px rgba(0, 0, 0, 0.1);
+    transform: translateY(2px) scale(0.97);
+    box-shadow: 0 2px 0 rgba(0,0,0,0.06), 0 4px 10px rgba(0,0,0,0.05);
 }
 
 .pill-text {
-    padding: 12px 16px;
-    font-size: 1.3rem;
-    font-weight: 700;
-    color: #455A64;
+    padding: 12px 18px;
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #2C3E50;
     width: 100%;
     text-align: center;
     box-sizing: border-box;
 }
 
 .pill-tag {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     font-weight: 800;
     text-transform: uppercase;
     padding: 4px 0;
     width: 100%;
     text-align: center;
-    border-radius: 0 0 12px 12px;
+    border-radius: 0 0 16px 16px;
     color: rgba(255, 255, 255, 0.9);
     display: none;
 }
 
 .word-pill.pool-item:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 0 #CFD8DC, 0 8px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-4px) rotateX(4deg) rotateY(-4deg);
+    box-shadow: 0 10px 0 rgba(0,0,0,0.04), 0 15px 25px rgba(0,0,0,0.08);
+    border-color: var(--primary);
 }
 
 .word-pill.pool-item.used {

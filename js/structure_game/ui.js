@@ -29,9 +29,30 @@ export function updateLevelBadge(text, isPractice) {
     }
 }
 
+const SPICY_THEME_COLORS = [
+    { start: "#E0F7FA", end: "#E8E4F6", glow: "rgba(98, 0, 234, 0.2)", primary: "#6200EA" }, // Level 0
+    { start: "#FFF3E0", end: "#FFE0B2", glow: "rgba(255, 145, 0, 0.25)", primary: "#FF9100" }, // Level 1
+    { start: "#FFE0B2", end: "#FFCC80", glow: "rgba(255, 109, 0, 0.3)", primary: "#FF6D00" }, // Level 2
+    { start: "#FFEBEE", end: "#FFCDD2", glow: "rgba(255, 23, 68, 0.35)", primary: "#FF1744" }, // Level 3
+    { start: "#FFCDD2", end: "#EF9A9A", glow: "rgba(213, 0, 0, 0.4)", primary: "#D50000" }, // Level 4
+    { start: "#EF9A9A", end: "#E57373", glow: "rgba(183, 28, 28, 0.45)", primary: "#B71C1C" }, // Level 5
+    { start: "#263238", end: "#1A237E", glow: "rgba(229, 57, 53, 0.5)", primary: "#E53935" }  // Level 6
+];
+
 export function updateChiliCount(count) {
     const el = document.getElementById('chili-count');
     if (el) el.textContent = `x ${count}`;
+
+    // Apply Dynamic Spicy Theme
+    const themeIdx = Math.min(Math.max(0, count), SPICY_THEME_COLORS.length - 1);
+    const theme = SPICY_THEME_COLORS[themeIdx];
+    
+    document.documentElement.style.setProperty('--bg-gradient-start', theme.start);
+    document.documentElement.style.setProperty('--bg-gradient-end', theme.end);
+    document.documentElement.style.setProperty('--theme-glow', theme.glow);
+    document.documentElement.style.setProperty('--primary', theme.primary);
+    
+    console.log(`🔥 Dynamic theme transition applied for Spicy Level ${count}`);
 }
 
 export function indicateSuccess() {
