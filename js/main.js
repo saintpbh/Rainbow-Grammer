@@ -226,6 +226,13 @@ window.changeVoice = changeVoice;
 document.addEventListener('DOMContentLoaded', () => {
     initLobby();
     
+    // Register Service Worker for PWA Installation
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('./sw.js')
+            .then(reg => console.log('✓ PWA Service Worker registered:', reg.scope))
+            .catch(err => console.error('❌ PWA Service Worker failed:', err));
+    }
+    
     // Warm up voice selector
     populateVoiceSelector();
     

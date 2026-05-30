@@ -1431,3 +1431,63 @@ body {
 .test-audio-btn:active {
     transform: scale(0.95);
 }
+
+/* --- High-Fidelity 5-Form Native Grammar Upgrades --- */
+
+/* 1. Core Native Verbs Glowing Aura */
+.word-pill.core-native-verb.pool-item {
+    border: 2px solid transparent !important;
+    background-image: linear-gradient(white, white), linear-gradient(135deg, #6200EA, #FFD54F, #00E676, #00BFA5) !important;
+    background-origin: border-box !important;
+    background-clip: padding-box, border-box !important;
+    animation: rainbowGlowBorder 3s infinite alternate !important;
+    box-shadow: 0 4px 15px rgba(98, 0, 234, 0.2) !important;
+}
+
+@keyframes rainbowGlowBorder {
+    0% { filter: hue-rotate(0deg); }
+    100% { filter: hue-rotate(180deg); }
+}
+
+/* 2. Gold Edition Context Bubble */
+.context-bubble.gold-edition {
+    background: linear-gradient(135deg, #263238 0%, #1A237E 100%) !important;
+    border-left: 5px solid #FFD54F !important;
+    border-right: 2px solid rgba(255, 213, 79, 0.4) !important;
+    box-shadow: 0 4px 20px rgba(255, 213, 79, 0.4), 0 0 30px rgba(255, 213, 79, 0.2) !important;
+    animation: goldGlowPulse 2.5s infinite alternate !important;
+}
+
+@keyframes goldGlowPulse {
+    0% { box-shadow: 0 4px 15px rgba(255, 213, 79, 0.3); }
+    100% { box-shadow: 0 4px 25px rgba(255, 213, 79, 0.6); }
+}
+
+/* 3. Object-Complement Flow Match Glows */
+.word-pill.glow-object {
+    box-shadow: 0 0 20px #00BFA5, inset 0 0 10px rgba(0, 191, 165, 0.5) !important;
+    animation: pulseObject 1.5s infinite alternate !important;
+}
+
+.word-pill.glow-complement {
+    box-shadow: 0 0 20px #FFD54F, inset 0 0 10px rgba(255, 213, 79, 0.5) !important;
+    animation: pulseComplement 1.5s infinite alternate !important;
+}
+
+@keyframes pulseObject {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.05); }
+}
+
+@keyframes pulseComplement {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.05); }
+}
+
+/* 4. Glow Flow Connector inside Answer Area */
+.answer-area.glow-flow-active {
+    border-style: solid !important;
+    border-color: #FFD54F !important;
+    background-color: rgba(255, 253, 231, 0.1) !important;
+    box-shadow: 0 0 30px rgba(255, 213, 79, 0.25), inset 0 0 20px rgba(255, 213, 79, 0.15) !important;
+}

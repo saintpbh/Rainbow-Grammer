@@ -1,6 +1,7 @@
 import { ROLE_MAP, PRINCIPLES } from '../config.js';
 import { isLightColor } from '../utils.js';
 import { startGame } from './game.js';
+import { gameState } from '../state.js';
 
 export function updateScoreHUD(today, total) {
     const todayEl = document.getElementById('score-today');
@@ -57,7 +58,19 @@ export function updateChiliCount(count) {
 
 export function indicateSuccess() {
     const slot = document.getElementById('answer-slot');
-    if (slot) slot.classList.add('correct');
+    if (slot) {
+        slot.classList.add('correct');
+        
+        // Upgrade: Glow-Through Flow visual matching for Object & Complement
+        const objPill = slot.querySelector('.word-pill.role-object');
+        const compPill = slot.querySelector('.word-pill.role-complement');
+        
+        if (objPill && compPill) {
+            objPill.classList.add('glow-object');
+            compPill.classList.add('glow-complement');
+            slot.classList.add('glow-flow-active');
+        }
+    }
 }
 
 export function indicateFailure() {
@@ -102,6 +115,18 @@ export function updateProgressHUD(levelIndex, currentItemCount) {
 export function createPill(chunk, idx, isSelected, onClick) {
     const pill = document.createElement('div');
     pill.className = `word-pill ${isSelected ? 'selected' : 'pool-item'}`;
+    
+    // Add role class
+    const roleClass = chunk.role ? chunk.role.toLowerCase() : '';
+    if (roleClass) pill.classList.add(`role-${roleClass}`);
+
+    // Highlight core 5-form native verbs inside the pool
+    if (chunk.role === 'Verb' && !isSelected) {
+        const text = chunk.text.toLowerCase();
+        if (['keep', 'leave', 'have', 'want', 'kept', 'left', 'had', 'wanted', 'make', 'made', 'find', 'found'].includes(text)) {
+            pill.classList.add('core-native-verb');
+        }
+    }
 
     if (isSelected) {
         pill.style.backgroundColor = chunk.color;
@@ -117,7 +142,23 @@ export function createPill(chunk, idx, isSelected, onClick) {
 
     const tagDiv = document.createElement('div');
     tagDiv.className = 'pill-tag';
-    tagDiv.textContent = ROLE_MAP[chunk.role] || chunk.role;
+    
+    // Map English roles to Korean
+    let tagText = ROLE_MAP[chunk.role] || chunk.role;
+    
+    // Upgrade: Semantic Sub-Tags for Complement cards
+    if (chunk.role === 'Complement') {
+        const text = chunk.text.toLowerCase();
+        if (text.includes('to ')) {
+            tagText += ' [미래]';
+        } else if (text.endsWith('ing') || text.endsWith('ed')) {
+            tagText += ' [동작]';
+        } else {
+            tagText += ' [상태]';
+        }
+    }
+    
+    tagDiv.textContent = tagText;
     tagDiv.style.backgroundColor = "rgba(0,0,0,0.1)";
 
     pill.appendChild(textDiv);
@@ -151,6 +192,8 @@ export function renderAnswerSlot(chunks, selectedIndices, onUndo) {
     if (!slot) return;
     slot.innerHTML = '';
     slot.classList.remove('shake');
+    slot.classList.remove('correct');
+    slot.classList.remove('glow-flow-active');
 
     if (selectedIndices.length === 0) {
         slot.innerHTML = '<div style="color: #CFD8DC; font-weight: 500; font-size: 0.9rem;">( Tap words to build )</div>';
@@ -540,25 +583,65 @@ export function showMiniDialogueBubble(english, korean) {
         };
     }
     
+    // Check if current sentence is a 5-form sentence
+    let is5Form = false;
+    let nuanceHtml = '';
+    
+    if (gameState && gameState.currentItem && gameState.currentItem.chunks) {
+        const roles = gameState.currentItem.chunks.map(c => c.role);
+        is5Form = roles.includes('Object') && roles.includes('Complement');
+        
+        if (is5Form) {
+            const lowerEng = english.toLowerCase();
+            let verbTip = "주어 + 동사 + 목적어 + 목적격 보어 구조는 접속사 없이 대상의 상태나 결과를 콤팩트하게 전달하는 원어민 치트키 표현입니다!";
+            
+            if (lowerEng.includes('keep') || lowerEng.includes('kept')) {
+                verbTip = "keep + 목적어 + 보어는 목적어가 계속 특정 상태를 유지하도록 제어하는 원어민의 매우 빈번한 화법입니다.";
+            } else if (lowerEng.includes('leave') || lowerEng.includes('left')) {
+                verbTip = "leave + 목적어 + 보어는 목적어를 특정한 상태로 내버려두거나 방치하는 원어민식 뉘앙스를 대변합니다.";
+            } else if (lowerEng.includes('want') || lowerEng.includes('wanted')) {
+                verbTip = "want + 목적어 + 보어는 소유를 넘어 목적어가 그 특정 상태이기를 바라는 결합적인 원어민적 표현입니다.";
+            } else if (lowerEng.includes('have') || lowerEng.includes('had')) {
+                verbTip = "have + 목적어 + 보어는 목적어의 상태를 나타내거나 그런 일이 벌어지게 조치했음을 세련되게 전달합니다.";
+            } else if (lowerEng.includes('make') || lowerEng.includes('made')) {
+                verbTip = "make + 목적어 + 보어는 목적어를 강제로 혹은 확실히 그 상태로 변화시키는 강한 원인-결과 표현입니다.";
+            }
+            
+            nuanceHtml = `
+                <div style="border-top: 2px dashed rgba(255, 213, 79, 0.4); padding-top: 8px; margin-top: 8px; text-align: left;">
+                    <div style="color: #FFD54F; font-size: 0.75rem; font-weight: 800; letter-spacing: 1px; margin-bottom: 2px;">💡 NATIVE NUANCE (원어민 5형식 팁)</div>
+                    <div style="font-size: 0.75rem; line-height: 1.3; color: #FFFDE7; font-weight: 600;">${verbTip}</div>
+                </div>
+            `;
+            bubble.classList.add('gold-edition');
+        } else {
+            bubble.classList.remove('gold-edition');
+        }
+    }
+    
     // Inject dynamic HTML with a stunning glassmorphism style
     bubble.innerHTML = `
-        <div class="context-icon" style="font-size: 1.4rem; padding: 4px; border-radius: 50%; background: rgba(0,229,255,0.2);">💬</div>
+        <div class="context-icon" style="font-size: 1.4rem; padding: 4px; border-radius: 50%; background: ${is5Form ? 'rgba(255,213,79,0.2)' : 'rgba(0,229,255,0.2)'};">${is5Form ? '⭐' : '💬'}</div>
         <div class="context-content" style="text-align: left; width: 100%; display: flex; flex-direction: column; gap: 4px;">
-            <div class="context-title" style="color: #00E676; font-size: 0.75rem; letter-spacing: 1px; font-weight: 800; margin-bottom: 2px;">PRACTICAL DIALOGUE (실생활 회화)</div>
+            <div class="context-title" style="color: ${is5Form ? '#FFD54F' : '#00E676'}; font-size: 0.75rem; letter-spacing: 1px; font-weight: 800; margin-bottom: 2px;">
+                ${is5Form ? 'GOLDEN 5-FORM DIALOGUE' : 'PRACTICAL DIALOGUE (실생활 회화)'}
+            </div>
             <div style="font-size: 0.8rem; line-height: 1.3; color: #ECEFF1;">
                 <strong style="color: #FFEA00; font-weight: 800;">A:</strong> ${diag.speakerA} <br><span style="font-size: 0.7rem; color: #CFD8DC; font-style: italic;">(${diag.korA})</span>
             </div>
             <div style="font-size: 0.8rem; line-height: 1.3; color: #ECEFF1; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 4px; margin-top: 2px;">
                 <strong style="color: #00E5FF; font-weight: 800;">B:</strong> ${diag.speakerB} <br><span style="font-size: 0.7rem; color: #CFD8DC; font-style: italic;">(${diag.korB})</span>
             </div>
+            ${nuanceHtml}
         </div>
         <div class="context-close" onclick="hideContext()" style="cursor: pointer; font-size: 1.1rem; align-self: flex-start;">×</div>
     `;
     
     bubble.classList.add('active');
     
-    // Keep visible for a comfortable reading period (8 seconds)
+    // Keep visible for a comfortable reading period (10 seconds for gold)
     setTimeout(() => {
         bubble.classList.remove('active');
-    }, 8500);
+        bubble.classList.remove('gold-edition');
+    }, is5Form ? 12000 : 8500);
 }

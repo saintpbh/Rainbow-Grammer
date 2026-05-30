@@ -162,32 +162,97 @@ export function populateVoiceSelector() {
     if (!selector) return;
 
     const voices = window.speechSynthesis.getVoices();
-    const enVoices = voices.filter(v => v.lang.startsWith('en'));
+    
+    // 1. Filter: Strictly US English (en-US or en_US) to keep it native
+    let usVoices = voices.filter(v => {
+        const lang = v.lang.replace('_', '-').toLowerCase();
+        return lang === 'en-us';
+    });
 
-    // Clear existing
+    // Fallback: If no strict en-US, take any en voice
+    if (usVoices.length === 0) {
+        usVoices = voices.filter(v => v.lang.toLowerCase().startsWith('en'));
+    }
+
+    // 2. High-Quality Professional Voice Filter Keywords
+    const premiumKeywords = ['google', 'samantha', 'premium', 'enhanced', 'natural', 'ava', 'allison', 'susan', 'zoe', 'david', 'zira', 'karen', 'nathan', 'en-us-x-sfg'];
+    
+    let filteredVoices = usVoices.filter(v => {
+        const name = v.name.toLowerCase();
+        return premiumKeywords.some(kw => name.includes(kw));
+    });
+
+    // Fallback: If filtering left us empty, use all US voices
+    if (filteredVoices.length === 0) {
+        filteredVoices = usVoices;
+    }
+
+    // 3. Sort: Google US English and Apple Samantha/Ava/Premium at the top!
+    filteredVoices.sort((a, b) => {
+        const nameA = a.name.toLowerCase();
+        const nameB = b.name.toLowerCase();
+        
+        // Google high-quality US English first
+        const isGoogleA = nameA.includes('google');
+        const isGoogleB = nameB.includes('google');
+        if (isGoogleA && !isGoogleB) return -1;
+        if (!isGoogleA && isGoogleB) return 1;
+        
+        // Apple Samantha/Ava second
+        const isSamanthaA = nameA.includes('samantha') || nameA.includes('ava');
+        const isSamanthaB = nameB.includes('samantha') || nameB.includes('ava');
+        if (isSamanthaA && !isSamanthaB) return -1;
+        if (!isSamanthaA && isSamanthaB) return 1;
+        
+        // Enhanced / Premium / Natural third
+        const isPremiumA = nameA.includes('premium') || nameA.includes('enhanced') || nameA.includes('natural');
+        const isPremiumB = nameB.includes('premium') || nameB.includes('enhanced') || nameB.includes('natural');
+        if (isPremiumA && !isPremiumB) return -1;
+        if (!isPremiumA && isPremiumB) return 1;
+
+        return a.name.localeCompare(b.name);
+    });
+
+    // Clear existing options
     selector.innerHTML = '';
 
-    if (enVoices.length === 0) {
+    if (filteredVoices.length === 0) {
         const opt = document.createElement('option');
-        opt.textContent = "No English voices found";
+        opt.textContent = "No US voices found";
         selector.appendChild(opt);
         return;
     }
 
-    // Load saved URI if any
+    // 4. Load saved URI if valid, else take the top premium option
     const savedURI = loadVoicePreference();
-    if (savedURI && voices.some(v => v.voiceURI === savedURI)) {
+    if (savedURI && filteredVoices.some(v => v.voiceURI === savedURI)) {
         gameState.selectedVoiceURI = savedURI;
     } else {
-        const defaultUS = enVoices.find(v => v.lang.startsWith('en-US')) || enVoices[0];
-        gameState.selectedVoiceURI = defaultUS.voiceURI;
+        gameState.selectedVoiceURI = filteredVoices[0].voiceURI;
     }
 
-    enVoices.forEach(v => {
+    // 5. Populate and beautify display names
+    filteredVoices.forEach(v => {
         const opt = document.createElement('option');
         opt.value = v.voiceURI;
-        // Clean display name (e.g., Google US English)
-        opt.textContent = `${v.name} (${v.lang})`;
+        
+        let cleanName = v.name;
+        if (cleanName.includes('Google') || cleanName.includes('en-US-x-sfg')) {
+            cleanName = 'Google US English (High Quality)';
+        } else if (cleanName.includes('Samantha')) {
+            cleanName = 'Apple Samantha (Enhanced)';
+        } else if (cleanName.includes('Ava')) {
+            cleanName = 'Apple Ava (Premium)';
+        } else if (cleanName.includes('David')) {
+            cleanName = 'Microsoft David (US)';
+        } else if (cleanName.includes('Zira')) {
+            cleanName = 'Microsoft Zira (US)';
+        } else {
+            cleanName = cleanName.replace(/english/i, '').replace(/united states/i, '').replace(/\(enhanced\)/i, 'Premium').trim();
+            cleanName = `${cleanName} (US)`;
+        }
+        
+        opt.textContent = cleanName;
         if (v.voiceURI === gameState.selectedVoiceURI) {
             opt.selected = true;
         }
