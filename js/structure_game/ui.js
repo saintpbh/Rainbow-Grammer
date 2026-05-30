@@ -449,3 +449,94 @@ export function removePracticeExitButton() {
         lvlBtn.style.background = '';
     }
 }
+
+// --- Next-Gen SLA Dialogue Engine ---
+const DIALOGUE_TEMPLATES = [
+    {
+        trigger: (eng) => eng.includes("rises") || eng.includes("sets") || eng.includes("shine") || eng.includes("night") || eng.includes("star") || eng.includes("sky"),
+        dialogue: (eng, kor) => ({
+            speakerA: "Look at the beautiful sky!",
+            speakerB: `Indeed. ${eng} It's absolute peace.`,
+            korA: "아름다운 하늘을 좀 봐!",
+            korB: `정말 그래. ${kor} 완벽한 평화야.`
+        })
+    },
+    {
+        trigger: (eng) => eng.includes("teacher") || eng.includes("doctor") || eng.includes("chef") || eng.includes("student") || eng.includes("friend") || eng.includes("profession"),
+        dialogue: (eng, kor) => ({
+            speakerA: "What do you know about that person?",
+            speakerB: `Well, ${eng.replace(".", "")} in our town.`,
+            korA: "그 사람에 대해 아는 게 있니?",
+            korB: `음, 내가 알기로는 우리 마을에서 ${kor}`
+        })
+    },
+    {
+        trigger: (eng) => eng.includes("cry") || eng.includes("laugh") || eng.includes("happy") || eng.includes("sad") || eng.includes("smile"),
+        dialogue: (eng, kor) => ({
+            speakerA: "Why are they showing such emotions?",
+            speakerB: `Ah, ${eng} That explains it.`,
+            korA: "그들은 왜 저런 감정을 보이는 걸까?",
+            korB: `아, ${kor} 그걸 보니 이해가 되네.`
+        })
+    },
+    {
+        trigger: (eng) => eng.includes("because") || eng.includes("since") || eng.includes("why"),
+        dialogue: (eng, kor) => ({
+            speakerA: "What is the reason behind this?",
+            speakerB: `Honestly, it is because ${eng.replace("because", "")}`,
+            korA: "이것의 배후에 있는 이유는 무엇인가요?",
+            korB: `솔직히 말해서, ${kor} 때문이야.`
+        })
+    },
+    {
+        trigger: (eng) => eng.includes("where") || eng.includes("park") || eng.includes("school") || eng.includes("home") || eng.includes("beach") || eng.includes("in the"),
+        dialogue: (eng, kor) => ({
+            speakerA: "Where did this beautiful story happen?",
+            speakerB: `Actually, ${eng}`,
+            korA: "이 아름다운 이야기가 어디서 일어났나요?",
+            korB: `사실, ${kor}`
+        })
+    }
+];
+
+export function showMiniDialogueBubble(english, korean) {
+    const bubble = document.getElementById('context-bubble');
+    if (!bubble) return;
+    
+    // Find matching template or fallback
+    const matched = DIALOGUE_TEMPLATES.find(t => t.trigger(english.lower ? english.lower() : english.toLowerCase()));
+    let diag;
+    if (matched) {
+        diag = matched.dialogue(english, korean);
+    } else {
+        // Intelligent generic fallback
+        diag = {
+            speakerA: `Tell me, what is going on here?`,
+            speakerB: `Look: ${english}`,
+            korA: `나에게 말해줘, 여기서 무슨 일이 일어나고 있니?`,
+            korB: `봐봐: ${korean}`
+        };
+    }
+    
+    // Inject dynamic HTML with a stunning glassmorphism style
+    bubble.innerHTML = `
+        <div class="context-icon" style="font-size: 1.4rem; padding: 4px; border-radius: 50%; background: rgba(0,229,255,0.2);">💬</div>
+        <div class="context-content" style="text-align: left; width: 100%; display: flex; flex-direction: column; gap: 4px;">
+            <div class="context-title" style="color: #00E676; font-size: 0.75rem; letter-spacing: 1px; font-weight: 800; margin-bottom: 2px;">PRACTICAL DIALOGUE (실생활 회화)</div>
+            <div style="font-size: 0.8rem; line-height: 1.3; color: #ECEFF1;">
+                <strong style="color: #FFEA00; font-weight: 800;">A:</strong> ${diag.speakerA} <br><span style="font-size: 0.7rem; color: #CFD8DC; font-style: italic;">(${diag.korA})</span>
+            </div>
+            <div style="font-size: 0.8rem; line-height: 1.3; color: #ECEFF1; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 4px; margin-top: 2px;">
+                <strong style="color: #00E5FF; font-weight: 800;">B:</strong> ${diag.speakerB} <br><span style="font-size: 0.7rem; color: #CFD8DC; font-style: italic;">(${diag.korB})</span>
+            </div>
+        </div>
+        <div class="context-close" onclick="hideContext()" style="cursor: pointer; font-size: 1.1rem; align-self: flex-start;">×</div>
+    `;
+    
+    bubble.classList.add('active');
+    
+    // Keep visible for a comfortable reading period (8 seconds)
+    setTimeout(() => {
+        bubble.classList.remove('active');
+    }, 8500);
+}

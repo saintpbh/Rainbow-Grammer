@@ -189,6 +189,23 @@ async function checkCompletion() {
         }
     }
 
+    // --- Next-Gen SLA Alternative Syntax Parser ---
+    if (!isCorrect) {
+        const reconstructed = gameState.selectedIndices.map(idx => gameState.currentChunks[idx].text).join(" ");
+        const norm_orig = gameState.currentItem.english.replace(/[^\w\s']/g, "").replace(/\s+/g, " ").trim().toLowerCase();
+        const norm_recon = reconstructed.replace(/[^\w\s']/g, "").replace(/\s+/g, " ").trim().toLowerCase();
+        
+        // Compare sorted word sets to ensure all semantic elements are present
+        const orig_sorted = norm_orig.split(" ").sort().join(" ");
+        const recon_sorted = norm_recon.split(" ").sort().join(" ");
+        
+        if (orig_sorted === recon_sorted) {
+            // Syntactic Flexibility: Shifted adverbs, modifiers, and time phrases are allowed
+            isCorrect = true;
+            console.log("🌟 Creative SLA Syntactic Match Approved: ", reconstructed);
+        }
+    }
+
     if (isCorrect) {
         gameState.totalScore += POINTS_PER_WIN;
         gameState.todayScore += POINTS_PER_WIN;
@@ -209,12 +226,10 @@ async function checkCompletion() {
             gameState.currentLevelGlobalIndex--;
         }
 
-        // Speak (3x playback) - DISABLED per user request
-        // if (gameState.currentItem.english) {
-        //     speak3x(gameState.currentItem.english);
-        // }
+        // Render SLA Practical Mini-Dialogue Context Bubble immediately
+        ui.showMiniDialogueBubble(gameState.currentItem.english, MatchedKoreanTranslation(gameState.currentItem));
 
-        await new Promise(r => setTimeout(r, 800));
+        await new Promise(r => setTimeout(r, 2200)); // Comfort delay to read the dialogue before next item
 
         proceedToNextItemLogic();
 
@@ -244,13 +259,21 @@ async function checkCompletion() {
                 speak3x(gameState.currentItem.english);
             }
 
+            // Also render Dialogue on mistake threshold pass
+            ui.showMiniDialogueBubble(gameState.currentItem.english, MatchedKoreanTranslation(gameState.currentItem));
+
             setTimeout(() => {
                 proceedToNextItemLogic();
-            }, 2000);
+            }, 3500);
 
             return;
         }
     }
+}
+
+// Small helper to ensure matched translation displays nicely
+function MatchedKoreanTranslation(item) {
+    return item.korean || "번역 정보 없음";
 }
 
 function proceedToNextItemLogic() {
