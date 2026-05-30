@@ -180,6 +180,35 @@ body {
     color: black;
 }
 
+.tts-toggle-btn {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    border-radius: 20px;
+    padding: 4px 12px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    box-sizing: border-box;
+}
+
+.tts-toggle-btn.active {
+    background: var(--accent);
+    color: white;
+    border-color: var(--accent);
+    box-shadow: 0 0 10px rgba(0, 191, 165, 0.4);
+}
+
+.tts-toggle-btn:hover {
+    background: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
 #sentence-counter {
     font-size: 0.9rem;
     color: #546E7A;
@@ -755,17 +784,24 @@ body {
     }
 
     .audio-controls-embedded {
+        display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         width: 100%;
+        gap: 6px;
     }
 
+    .tts-toggle-btn,
     .voice-select {
-        max-width: 45%;
-        flex-grow: 1;
+        flex: 1 1 calc(50% - 4px);
+        max-width: 49%;
+        min-height: 30px;
+        font-size: 0.7rem;
+        box-sizing: border-box;
     }
 
     .audio-controls-embedded .speed-btn {
-        flex-grow: 1;
+        flex: 1 1 calc(25% - 5px);
         text-align: center;
         padding: 4px 0;
         min-height: 30px;

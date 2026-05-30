@@ -11,6 +11,7 @@ export const gameState = {
     voices: [],
     selectedVoiceURI: '',
     audioContext: null,
+    ttsEnabled: false, // Default TTS state is OFF!
 
     // Level System
     currentLevel: 0, // 0: Mild, 1: Spicy 1, ...

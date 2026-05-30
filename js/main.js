@@ -2,7 +2,7 @@
 // Main Entry Point
 import * as StructureGame from './structure_game/game.js';
 import * as StructureUI from './structure_game/ui.js';
-import { changeSpeed, testAudio, speakText, playSuccessSound, playFailureSound, changeVoice, populateVoiceSelector } from './audio.js'; // Global audio remains
+import { changeSpeed, testAudio, speakText, playSuccessSound, playFailureSound, changeVoice, populateVoiceSelector, toggleTTS, initTTSState } from './audio.js'; // Global audio remains
 
 
 import * as DropGame from './chunk_game/game.js';
@@ -221,6 +221,7 @@ window.closeGrammarModal = StructureUI.closeGrammarModal;
 window.hideContext = StructureUI.hideContext;
 window.resetAfterError = StructureUI.hideErrorFeedback;
 window.changeVoice = changeVoice;
+window.toggleTTS = toggleTTS;
 
 // Start
 document.addEventListener('DOMContentLoaded', () => {
@@ -235,11 +236,13 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Warm up voice selector
     populateVoiceSelector();
+    initTTSState();
     
     // Hook asynchronous voice loading for browser compatibility
     if (window.speechSynthesis) {
         window.speechSynthesis.onvoiceschanged = () => {
             populateVoiceSelector();
+            initTTSState();
         };
     }
 });

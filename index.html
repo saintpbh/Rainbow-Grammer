@@ -117,6 +117,7 @@
                     <span id="sentence-counter">Sentence 1 of 10</span>
                     <!-- Move audio speed controls inside the HUD bar for better containment -->
                     <div class="audio-controls-embedded">
+                        <button id="tts-toggle-btn" class="tts-toggle-btn" onclick="toggleTTS()" title="TTS On/Off">🔇 Voice Off</button>
                         <select id="voice-select" class="voice-select" onchange="changeVoice(this.value)" title="Choose English Voice">
                             <option value="" style="color: black;">Loading Voices...</option>
                         </select>

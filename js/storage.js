@@ -44,3 +44,13 @@ export function loadVoicePreference() {
     return localStorage.getItem('audio_voice_uri') || '';
 }
 
+export function saveTTSPreference(enabled) {
+    localStorage.setItem('audio_tts_enabled', enabled ? 'true' : 'false');
+}
+
+export function loadTTSPreference() {
+    const saved = localStorage.getItem('audio_tts_enabled');
+    if (saved === null) return false; // Default to OFF!
+    return saved === 'true';
+}
+

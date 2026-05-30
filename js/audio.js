@@ -1,5 +1,5 @@
 import { gameState } from './state.js';
-import { saveAudioPreference, saveVoicePreference, loadVoicePreference } from './storage.js';
+import { saveAudioPreference, saveVoicePreference, loadVoicePreference, saveTTSPreference, loadTTSPreference } from './storage.js';
 
 export function initAudio() {
     if (gameState.audioContext && gameState.audioContext.state === 'suspended') {
@@ -45,6 +45,10 @@ export function playFailureSound() {
 
 export function speakText(text, cancelCurrent = true) {
     if (!text) return Promise.resolve();
+
+    if (!gameState.ttsEnabled) {
+        return Promise.resolve(); // TTS Muted by default / user setting
+    }
 
     return new Promise((resolve) => {
         // Fallback timeout in case TTS fails or hangs
@@ -258,4 +262,35 @@ export function populateVoiceSelector() {
         }
         selector.appendChild(opt);
     });
+}
+
+export function initTTSState() {
+    const enabled = loadTTSPreference();
+    gameState.ttsEnabled = enabled;
+    updateTTSButtonUI(enabled);
+    console.log(`✓ TTS initialized: ${enabled ? 'ON' : 'OFF'}`);
+}
+
+export function toggleTTS() {
+    const nextState = !gameState.ttsEnabled;
+    gameState.ttsEnabled = nextState;
+    saveTTSPreference(nextState);
+    updateTTSButtonUI(nextState);
+    
+    if (nextState) {
+        speakText("Voice enabled");
+    }
+}
+
+export function updateTTSButtonUI(enabled) {
+    const btn = document.getElementById('tts-toggle-btn');
+    if (btn) {
+        if (enabled) {
+            btn.textContent = "🔊 Voice On";
+            btn.classList.add('active');
+        } else {
+            btn.textContent = "🔇 Voice Off";
+            btn.classList.remove('active');
+        }
+    }
 }
