@@ -3,4342 +3,1760 @@
     {
       "id": "5-1-1",
       "section": "Day 1",
-      "description": "That-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 난을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What does this phrasal verb mean?",
+      "korean": "나는 오전 7시에 일어난다.",
+      "english": "I get up at 7 AM.",
       "chunks": [
         {
-          "text": "The the which",
+          "text": "I",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we observed closely",
+          "text": "get up",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "at 7 AM",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "That-Clauses",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": {
+        "title": "Core Lesson",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Adverb",
+            "color": "#BA68C8"
+          }
+        ]
+      }
     },
     {
       "id": "5-1-2",
       "section": "Day 1",
-      "description": "That-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 그녀는을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What does this phrasal verb mean?",
+      "korean": "불 좀 켜주세요.",
+      "english": "Please turn on the light.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
+          "text": "Please",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "turn on",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the light",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "That-Clauses",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "5-1-3",
       "section": "Day 1",
-      "description": "That-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 네가을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What is the key expression?",
+      "korean": "그는 일찍 일어난다.",
+      "english": "He gets up early.",
       "chunks": [
         {
-          "text": "The the which",
+          "text": "He",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we observed closely",
+          "text": "gets up",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "early",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "That-Clauses",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "5-1-4",
       "section": "Day 1",
-      "description": "That-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 그는을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "Answer this question.",
+      "korean": "TV 켰니?",
+      "english": "Did you turn on the TV?",
       "chunks": [
         {
-          "text": "The the which",
+          "text": "Did you",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we observed closely",
+          "text": "turn on",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "the TV",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "That-Clauses",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "5-1-5",
       "section": "Day 1",
-      "description": "That-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 우리가을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What does this phrasal verb mean?",
+      "korean": "포기하지 마!",
+      "english": "Don't give up!",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
+          "text": "Don't",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "give up",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "That-Clauses",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "5-1-6",
       "section": "Day 1",
-      "description": "That-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 난을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What does this phrasal verb mean?",
+      "korean": "라디오를 꺼라.",
+      "english": "Turn off the radio.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Turn off",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "the radio",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "That-Clauses",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "5-1-7",
       "section": "Day 1",
-      "description": "That-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 저거을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What is the key expression?",
+      "korean": "그녀는 행복하게 깬다.",
+      "english": "She wakes up happy.",
       "chunks": [
         {
-          "text": "The the which",
+          "text": "She",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we observed closely",
+          "text": "wakes up",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "happy",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "That-Clauses",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "5-1-8",
       "section": "Day 1",
-      "description": "That-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 그가을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What does this phrasal verb mean?",
+      "korean": "쓰레기를 주워라.",
+      "english": "Pick up the trash.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Pick up",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "the trash",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "That-Clauses",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "5-1-9",
       "section": "Day 1",
-      "description": "That-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 그녀는을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What does this phrasal verb mean?",
+      "korean": "신발을 신어라.",
+      "english": "Put on your shoes.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Put on",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "your shoes",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "That-Clauses",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "5-1-10",
       "section": "Day 1",
-      "description": "That-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 그가을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What does this phrasal verb mean?",
+      "korean": "모자를 벗어라.",
+      "english": "Take off your hat.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Take off",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "your hat",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "That-Clauses",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-1-11",
-      "section": "Day 1",
-      "description": "That-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 그게을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "That-Clauses",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-1-12",
-      "section": "Day 1",
-      "description": "That-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 X가을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "That-Clauses",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-1-13",
-      "section": "Day 1",
-      "description": "That-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 그가을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "That-Clauses",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-1-14",
-      "section": "Day 1",
-      "description": "That-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 그가을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "That-Clauses",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-1-15",
-      "section": "Day 1",
-      "description": "That-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 비가을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "That-Clauses",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-1-16",
-      "section": "Day 1",
-      "description": "That-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 There을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "That-Clauses",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-1-17",
-      "section": "Day 1",
-      "description": "That-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 Did을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "That-Clauses",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-1-18",
-      "section": "Day 1",
-      "description": "That-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 I을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "That-Clauses",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-1-19",
-      "section": "Day 1",
-      "description": "That-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 Rumor을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "That-Clauses",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-1-20",
-      "section": "Day 1",
-      "description": "That-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 그건을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "That-Clauses",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "5-2-1",
       "section": "Day 2",
-      "description": "What-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 네가을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What does this phrasal verb mean?",
+      "korean": "차에 타라.",
+      "english": "Get in the car.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Get in",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "the car",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "What-Clauses",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": {
+        "title": "Core Lesson",
+        "structure": [
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Object",
+            "color": "#FFD700"
+          }
+        ]
+      }
     },
     {
       "id": "5-2-2",
       "section": "Day 2",
-      "description": "What-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 원하는을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What does this phrasal verb mean?",
+      "korean": "여기서 나가!",
+      "english": "Get out of here!",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Get out",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "of here",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "What-Clauses",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "5-2-3",
       "section": "Day 2",
-      "description": "What-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 이게을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What does this phrasal verb mean?",
+      "korean": "들어오세요.",
+      "english": "Come in please.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Come in",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
+          "text": "please",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "What-Clauses",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "5-2-4",
       "section": "Day 2",
-      "description": "What-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 가진을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What does this phrasal verb mean?",
+      "korean": "나가서 놀아라.",
+      "english": "Go out and play.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Go out",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "and play",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "What-Clauses",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "5-2-5",
       "section": "Day 2",
-      "description": "What-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 무슨을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What is the key expression?",
+      "korean": "사이트에 로그인해라.",
+      "english": "Log in to the site.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Log in",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
+          "text": "to the site",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "What-Clauses",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "5-2-6",
       "section": "Day 2",
-      "description": "What-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 그가을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What does this phrasal verb mean?",
+      "korean": "이 책 좀 봐.",
+      "english": "Check out this book.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Check out",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "this book",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "What-Clauses",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "5-2-7",
       "section": "Day 2",
-      "description": "What-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 보이는을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What does this phrasal verb mean?",
+      "korean": "새 신발을 길들여라.",
+      "english": "Break in the new shoes.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Break in",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "the new shoes",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "What-Clauses",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "5-2-8",
       "section": "Day 2",
-      "description": "What-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 행복하게을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What is the key expression?",
+      "korean": "언제든 들러라.",
+      "english": "Drop in anytime.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Drop in",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "anytime",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "What-Clauses",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "5-2-9",
       "section": "Day 2",
-      "description": "What-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 듣는을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What does this phrasal verb mean?",
+      "korean": "서식에 기입해라.",
+      "english": "Fill out the form.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Fill out",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "the form",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "What-Clauses",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "5-2-10",
       "section": "Day 2",
-      "description": "What-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 그게을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What is the key expression?",
+      "korean": "숙제를 제출해라.",
+      "english": "Hand in your homework.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Hand in",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "your homework",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "What-Clauses",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-2-11",
-      "section": "Day 2",
-      "description": "What-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 무슨을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "What-Clauses",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-2-12",
-      "section": "Day 2",
-      "description": "What-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 내가을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "What-Clauses",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-2-13",
-      "section": "Day 2",
-      "description": "What-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 그는을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "What-Clauses",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-2-14",
-      "section": "Day 2",
-      "description": "What-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 중요한을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "What-Clauses",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-2-15",
-      "section": "Day 2",
-      "description": "What-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 내가을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "What-Clauses",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-2-16",
-      "section": "Day 2",
-      "description": "What-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 식습관이을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "What-Clauses",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-2-17",
-      "section": "Day 2",
-      "description": "What-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 어쩔을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "What-Clauses",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-2-18",
-      "section": "Day 2",
-      "description": "What-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 뭔지을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "What-Clauses",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-2-19",
-      "section": "Day 2",
-      "description": "What-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 뭐라고(되물음)?을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "What-Clauses",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-2-20",
-      "section": "Day 2",
-      "description": "What-Clauses",
-      "korean": "우리가 밀착 관찰했던 그 뭐든지/상관없어.을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "What-Clauses",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "5-3-1",
       "section": "Day 3",
-      "description": "Whether/If",
-      "korean": "우리가 밀착 관찰했던 그 비가을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What does this phrasal verb mean?",
+      "korean": "우리는 잘 지낸다.",
+      "english": "We get along well.",
       "chunks": [
         {
-          "text": "The the which",
+          "text": "We",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we observed closely",
+          "text": "get along",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "well",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Whether/If",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": {
+        "title": "Core Lesson",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Adverb",
+            "color": "#BA68C8"
+          }
+        ]
+      }
     },
     {
       "id": "5-3-2",
       "section": "Day 3",
-      "description": "Whether/If",
-      "korean": "우리가 밀착 관찰했던 그 그에게을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What is the key expression?",
+      "korean": "그들은 어제 헤어졌다.",
+      "english": "They broke up yesterday.",
       "chunks": [
         {
-          "text": "The the which",
+          "text": "They",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we observed closely",
+          "text": "broke up",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "yesterday",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Whether/If",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "5-3-3",
       "section": "Day 3",
-      "description": "Whether/If",
-      "korean": "우리가 밀착 관찰했던 그 이게을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What is the key expression?",
+      "korean": "그는 이야기를 지어냈다.",
+      "english": "He made up a story.",
       "chunks": [
         {
-          "text": "The the which",
+          "text": "He",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we observed closely",
+          "text": "made up",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "a story",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Whether/If",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "5-3-4",
       "section": "Day 3",
-      "description": "Whether/If",
-      "korean": "우리가 밀착 관찰했던 그 우유을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What does this phrasal verb mean?",
+      "korean": "우리 화해하자.",
+      "english": "Let's make up.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
+          "text": "Let's",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "make up",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Whether/If",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "5-3-5",
       "section": "Day 3",
-      "description": "Whether/If",
-      "korean": "우리가 밀착 관찰했던 그 그는을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What is the key expression?",
+      "korean": "그녀는 그를 존경한다.",
+      "english": "She looks up to him.",
       "chunks": [
         {
-          "text": "The the which",
+          "text": "She",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we observed closely",
+          "text": "looks up to",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "him",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Whether/If",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "5-3-6",
       "section": "Day 3",
-      "description": "Whether/If",
-      "korean": "우리가 밀착 관찰했던 그 가야을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What does this phrasal verb mean?",
+      "korean": "나를 무시하지 마라.",
+      "english": "Don't look down on me.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
+          "text": "Don't",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "look down on",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "me",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Whether/If",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "5-3-7",
       "section": "Day 3",
-      "description": "Whether/If",
-      "korean": "우리가 밀착 관찰했던 그 그가을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What is the key expression?",
+      "korean": "나를 믿어.",
+      "english": "Count on me.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Count on",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "me",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Whether/If",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "5-3-8",
       "section": "Day 3",
-      "description": "Whether/If",
-      "korean": "우리가 밀착 관찰했던 그 사실인지을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What is the key expression?",
+      "korean": "그는 제안을 거절했다.",
+      "english": "He turned down the offer.",
       "chunks": [
         {
-          "text": "The the which",
+          "text": "He",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we observed closely",
+          "text": "turned down",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "the offer",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Whether/If",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "5-3-9",
       "section": "Day 3",
-      "description": "Whether/If",
-      "korean": "우리가 밀착 관찰했던 그 찾을을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What is the key expression?",
+      "korean": "나에게 다시 전화해.",
+      "english": "Call me back.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Call",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "me",
           "role": "Object",
-          "color": "#00E676"
+          "color": "#FFD700"
         },
         {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "back",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Whether/If",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "5-3-10",
       "section": "Day 3",
-      "description": "Whether/If",
-      "korean": "우리가 밀착 관찰했던 그 문제는을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What does this phrasal verb mean?",
+      "korean": "친구들과 어울리다.",
+      "english": "Hang out with friends.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Hang out",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
+          "text": "with friends",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Whether/If",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-3-11",
-      "section": "Day 3",
-      "description": "Whether/If",
-      "korean": "우리가 밀착 관찰했던 그 남을지을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Whether/If",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-3-12",
-      "section": "Day 3",
-      "description": "Whether/If",
-      "korean": "우리가 밀착 관찰했던 그 네가을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Whether/If",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-3-13",
-      "section": "Day 3",
-      "description": "Whether/If",
-      "korean": "우리가 밀착 관찰했던 그 네가을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Whether/If",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-3-14",
-      "section": "Day 3",
-      "description": "Whether/If",
-      "korean": "우리가 밀착 관찰했던 그 그가을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Whether/If",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-3-15",
-      "section": "Day 3",
-      "description": "Whether/If",
-      "korean": "우리가 밀착 관찰했던 그 그들이을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Whether/If",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-3-16",
-      "section": "Day 3",
-      "description": "Whether/If",
-      "korean": "우리가 밀착 관찰했던 그 좋든을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Whether/If",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-3-17",
-      "section": "Day 3",
-      "description": "Whether/If",
-      "korean": "우리가 밀착 관찰했던 그 마치을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Whether/If",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-3-18",
-      "section": "Day 3",
-      "description": "Whether/If",
-      "korean": "우리가 밀착 관찰했던 그 Determine을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Whether/If",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-3-19",
-      "section": "Day 3",
-      "description": "Whether/If",
-      "korean": "우리가 밀착 관찰했던 그 ~인지에을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Whether/If",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-3-20",
-      "section": "Day 3",
-      "description": "Whether/If",
-      "korean": "우리가 밀착 관찰했던 그 ~라면을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Whether/If",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "5-4-1",
       "section": "Day 4",
-      "description": "Reported Statements",
-      "korean": "우리가 밀착 관찰했던 그 그는을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What does this sentence express?",
+      "korean": "나는 열쇠를 찾고 있다.",
+      "english": "I am looking for my keys.",
       "chunks": [
         {
-          "text": "The the which",
+          "text": "I",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we observed closely",
+          "text": "am looking for",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "my keys",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Reported Statements",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": {
+        "title": "Core Lesson",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Object",
+            "color": "#FFD700"
+          }
+        ]
+      }
     },
     {
       "id": "5-4-2",
       "section": "Day 4",
-      "description": "Reported Statements",
-      "korean": "우리가 밀착 관찰했던 그 그녀는을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What does this phrasal verb mean?",
+      "korean": "이 사진을 봐라.",
+      "english": "Look at this picture.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Look at",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "this picture",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Reported Statements",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "5-4-3",
       "section": "Day 4",
-      "description": "Reported Statements",
-      "korean": "우리가 밀착 관찰했던 그 그들은을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What does this phrasal verb mean?",
+      "korean": "차 조심해라.",
+      "english": "Watch out for cars.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Watch out",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
+          "text": "for cars",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Reported Statements",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "5-4-4",
       "section": "Day 4",
-      "description": "Reported Statements",
-      "korean": "우리가 밀착 관찰했던 그 난을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What does this phrasal verb mean?",
+      "korean": "진실을 알아내라.",
+      "english": "Find out the truth.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Find out",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "the truth",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Reported Statements",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "5-4-5",
       "section": "Day 4",
-      "description": "Reported Statements",
-      "korean": "우리가 밀착 관찰했던 그 그는을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What does this phrasal verb mean?",
+      "korean": "문제를 해결해라.",
+      "english": "Figure out the problem.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Figure out",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "the problem",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Reported Statements",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "5-4-6",
       "section": "Day 4",
-      "description": "Reported Statements",
-      "korean": "우리가 밀착 관찰했던 그 직접:을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What is the key expression?",
+      "korean": "실수를 지적해라.",
+      "english": "Point out the mistake.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Point out",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "the mistake",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Reported Statements",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "5-4-7",
       "section": "Day 4",
-      "description": "Reported Statements",
-      "korean": "우리가 밀착 관찰했던 그 간접:을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What does this phrasal verb mean?",
+      "korean": "그 주제를 꺼내라.",
+      "english": "Bring up the topic.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Bring up",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "the topic",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Reported Statements",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "5-4-8",
       "section": "Day 4",
-      "description": "Reported Statements",
-      "korean": "우리가 밀착 관찰했던 그 직접:을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What does this phrasal verb mean?",
+      "korean": "너의 기술을 뽐내라.",
+      "english": "Show off your skills.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Show off",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "your skills",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Reported Statements",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "5-4-9",
       "section": "Day 4",
-      "description": "Reported Statements",
-      "korean": "우리가 밀착 관찰했던 그 간접:을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What advice is given?",
+      "korean": "계획을 심사숙고해라.",
+      "english": "Think over the plan.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Think over",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "the plan",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Reported Statements",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "5-4-10",
       "section": "Day 4",
-      "description": "Reported Statements",
-      "korean": "우리가 밀착 관찰했던 그 네가을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Core Lesson",
+      "question": "What feeling is expressed?",
+      "korean": "성공을 꿈꿔라.",
+      "english": "Dream of success.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Dream of",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "success",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Reported Statements",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-4-11",
-      "section": "Day 4",
-      "description": "Reported Statements",
-      "korean": "우리가 밀착 관찰했던 그 그는을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Reported Statements",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-4-12",
-      "section": "Day 4",
-      "description": "Reported Statements",
-      "korean": "우리가 밀착 관찰했던 그 그녀는을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Reported Statements",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-4-13",
-      "section": "Day 4",
-      "description": "Reported Statements",
-      "korean": "우리가 밀착 관찰했던 그 그들은을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Reported Statements",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-4-14",
-      "section": "Day 4",
-      "description": "Reported Statements",
-      "korean": "우리가 밀착 관찰했던 그 모두가을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Reported Statements",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-4-15",
-      "section": "Day 4",
-      "description": "Reported Statements",
-      "korean": "우리가 밀착 관찰했던 그 그는을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Reported Statements",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-4-16",
-      "section": "Day 4",
-      "description": "Reported Statements",
-      "korean": "우리가 밀착 관찰했던 그 말을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Reported Statements",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-4-17",
-      "section": "Day 4",
-      "description": "Reported Statements",
-      "korean": "우리가 밀착 관찰했던 그 소문에을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Reported Statements",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-4-18",
-      "section": "Day 4",
-      "description": "Reported Statements",
-      "korean": "우리가 밀착 관찰했던 그 그에을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Reported Statements",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-4-19",
-      "section": "Day 4",
-      "description": "Reported Statements",
-      "korean": "우리가 밀착 관찰했던 그 그는을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Reported Statements",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-4-20",
-      "section": "Day 4",
-      "description": "Reported Statements",
-      "korean": "우리가 밀착 관찰했던 그 그가을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Reported Statements",
-      "question": "What do the do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "5-5-1",
       "section": "Day 5",
-      "description": "Reported Questions",
-      "korean": "우리가 밀착 관찰했던 그 그는을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Review",
+      "question": "What does this phrasal verb mean?",
+      "korean": "불 좀 켜주세요.",
+      "english": "Please turn on the light.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
+          "text": "Please",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "turn on",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the light",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Reported Questions",
-      "question": "What do the do?"
+      "context": "Review",
+      "grammarGuide": {
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Object",
+            "color": "#FFD700"
+          }
+        ]
+      }
     },
     {
       "id": "5-5-2",
       "section": "Day 5",
-      "description": "Reported Questions",
-      "korean": "우리가 밀착 관찰했던 그 그녀는을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Review",
+      "question": "What does this phrasal verb mean?",
+      "korean": "차 조심해라.",
+      "english": "Watch out for cars.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Watch out",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
+          "text": "for cars",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Reported Questions",
-      "question": "What do the do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "5-5-3",
       "section": "Day 5",
-      "description": "Reported Questions",
-      "korean": "우리가 밀착 관찰했던 그 그가을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Review",
+      "question": "What is the key expression?",
+      "korean": "사이트에 로그인해라.",
+      "english": "Log in to the site.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Log in",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
+          "text": "to the site",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Reported Questions",
-      "question": "What do the do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "5-5-4",
       "section": "Day 5",
-      "description": "Reported Questions",
-      "korean": "우리가 밀착 관찰했던 그 왜을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Review",
+      "question": "What does this phrasal verb mean?",
+      "korean": "들어오세요.",
+      "english": "Come in please.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Come in",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
+          "text": "please",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Reported Questions",
-      "question": "What do the do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "5-5-5",
       "section": "Day 5",
-      "description": "Reported Questions",
-      "korean": "우리가 밀착 관찰했던 그 어떻게을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Review",
+      "question": "What is the key expression?",
+      "korean": "숙제를 제출해라.",
+      "english": "Hand in your homework.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Hand in",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "your homework",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Reported Questions",
-      "question": "What do the do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "5-5-6",
       "section": "Day 5",
-      "description": "Reported Questions",
-      "korean": "우리가 밀착 관찰했던 그 직접:을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Review",
+      "question": "What does this phrasal verb mean?",
+      "korean": "우리는 잘 지낸다.",
+      "english": "We get along well.",
       "chunks": [
         {
-          "text": "The the which",
+          "text": "We",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we observed closely",
+          "text": "get along",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "well",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Reported Questions",
-      "question": "What do the do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "5-5-7",
       "section": "Day 5",
-      "description": "Reported Questions",
-      "korean": "우리가 밀착 관찰했던 그 간접:을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Review",
+      "question": "What does this phrasal verb mean?",
+      "korean": "너의 기술을 뽐내라.",
+      "english": "Show off your skills.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Show off",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "your skills",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Reported Questions",
-      "question": "What do the do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "5-5-8",
       "section": "Day 5",
-      "description": "Reported Questions",
-      "korean": "우리가 밀착 관찰했던 그 어딘지을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Review",
+      "question": "What does this phrasal verb mean?",
+      "korean": "나는 오전 7시에 일어난다.",
+      "english": "I get up at 7 AM.",
       "chunks": [
         {
-          "text": "The the which",
+          "text": "I",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we observed closely",
+          "text": "get up",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "at 7 AM",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Reported Questions",
-      "question": "What do the do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "5-5-9",
       "section": "Day 5",
-      "description": "Reported Questions",
-      "korean": "우리가 밀착 관찰했던 그 그는을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Review",
+      "question": "What is the key expression?",
+      "korean": "그들은 어제 헤어졌다.",
+      "english": "They broke up yesterday.",
       "chunks": [
         {
-          "text": "The the which",
+          "text": "They",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we observed closely",
+          "text": "broke up",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "yesterday",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Reported Questions",
-      "question": "What do the do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "5-5-10",
       "section": "Day 5",
-      "description": "Reported Questions",
-      "korean": "우리가 밀착 관찰했던 그 그가을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Review",
+      "question": "What does this phrasal verb mean?",
+      "korean": "그 주제를 꺼내라.",
+      "english": "Bring up the topic.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Bring up",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "the topic",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Reported Questions",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-5-11",
-      "section": "Day 5",
-      "description": "Reported Questions",
-      "korean": "우리가 밀착 관찰했던 그 그녀는을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Reported Questions",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-5-12",
-      "section": "Day 5",
-      "description": "Reported Questions",
-      "korean": "우리가 밀착 관찰했던 그 우리을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Reported Questions",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-5-13",
-      "section": "Day 5",
-      "description": "Reported Questions",
-      "korean": "우리가 밀착 관찰했던 그 그는을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Reported Questions",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-5-14",
-      "section": "Day 5",
-      "description": "Reported Questions",
-      "korean": "우리가 밀착 관찰했던 그 그녀에게을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Reported Questions",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-5-15",
-      "section": "Day 5",
-      "description": "Reported Questions",
-      "korean": "우리가 밀착 관찰했던 그 그들은을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Reported Questions",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-5-16",
-      "section": "Day 5",
-      "description": "Reported Questions",
-      "korean": "우리가 밀착 관찰했던 그 묻지을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Reported Questions",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-5-17",
-      "section": "Day 5",
-      "description": "Reported Questions",
-      "korean": "우리가 밀착 관찰했던 그 거짓말을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Reported Questions",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-5-18",
-      "section": "Day 5",
-      "description": "Reported Questions",
-      "korean": "우리가 밀착 관찰했던 그 누가을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Reported Questions",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-5-19",
-      "section": "Day 5",
-      "description": "Reported Questions",
-      "korean": "우리가 밀착 관찰했던 그 질문.을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Reported Questions",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-5-20",
-      "section": "Day 5",
-      "description": "Reported Questions",
-      "korean": "우리가 밀착 관찰했던 그 심문.을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Reported Questions",
-      "question": "What do the do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "5-6-1",
       "section": "Day 6",
-      "description": "Reported Commands",
-      "korean": "우리가 밀착 관찰했던 그 그는을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Review",
+      "question": "What is the key expression?",
+      "korean": "그들은 어제 헤어졌다.",
+      "english": "They broke up yesterday.",
       "chunks": [
         {
-          "text": "The the which",
+          "text": "They",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we observed closely",
+          "text": "broke up",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "yesterday",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Reported Commands",
-      "question": "What do the do?"
+      "context": "Review",
+      "grammarGuide": {
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Adverb",
+            "color": "#BA68C8"
+          }
+        ]
+      }
     },
     {
       "id": "5-6-2",
       "section": "Day 6",
-      "description": "Reported Commands",
-      "korean": "우리가 밀착 관찰했던 그 그녀는을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Review",
+      "question": "What does this phrasal verb mean?",
+      "korean": "나는 오전 7시에 일어난다.",
+      "english": "I get up at 7 AM.",
       "chunks": [
         {
-          "text": "The the which",
+          "text": "I",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we observed closely",
+          "text": "get up",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "at 7 AM",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Reported Commands",
-      "question": "What do the do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "5-6-3",
       "section": "Day 6",
-      "description": "Reported Commands",
-      "korean": "우리가 밀착 관찰했던 그 나는을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Review",
+      "question": "What does this phrasal verb mean?",
+      "korean": "서식에 기입해라.",
+      "english": "Fill out the form.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Fill out",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "the form",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Reported Commands",
-      "question": "What do the do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "5-6-4",
       "section": "Day 6",
-      "description": "Reported Commands",
-      "korean": "우리가 밀착 관찰했던 그 그들은을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Review",
+      "question": "What does this phrasal verb mean?",
+      "korean": "친구들과 어울리다.",
+      "english": "Hang out with friends.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Hang out",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
+          "text": "with friends",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Reported Commands",
-      "question": "What do the do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "5-6-5",
       "section": "Day 6",
-      "description": "Reported Commands",
-      "korean": "우리가 밀착 관찰했던 그 그는을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Review",
+      "question": "What is the key expression?",
+      "korean": "사이트에 로그인해라.",
+      "english": "Log in to the site.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Log in",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
+          "text": "to the site",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Reported Commands",
-      "question": "What do the do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "5-6-6",
       "section": "Day 6",
-      "description": "Reported Commands",
-      "korean": "우리가 밀착 관찰했던 그 직접:을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Review",
+      "question": "What does this phrasal verb mean?",
+      "korean": "여기서 나가!",
+      "english": "Get out of here!",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Get out",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "of here",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Reported Commands",
-      "question": "What do the do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "5-6-7",
       "section": "Day 6",
-      "description": "Reported Commands",
-      "korean": "우리가 밀착 관찰했던 그 간접:을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Review",
+      "question": "What is the key expression?",
+      "korean": "그녀는 그를 존경한다.",
+      "english": "She looks up to him.",
       "chunks": [
         {
-          "text": "The the which",
+          "text": "She",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we observed closely",
+          "text": "looks up to",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "him",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Reported Commands",
-      "question": "What do the do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "5-6-8",
       "section": "Day 6",
-      "description": "Reported Commands",
-      "korean": "우리가 밀착 관찰했던 그 직접:을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Review",
+      "question": "What does this phrasal verb mean?",
+      "korean": "쓰레기를 주워라.",
+      "english": "Pick up the trash.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Pick up",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "the trash",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Reported Commands",
-      "question": "What do the do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "5-6-9",
       "section": "Day 6",
-      "description": "Reported Commands",
-      "korean": "우리가 밀착 관찰했던 그 간접:을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Review",
+      "question": "What does this phrasal verb mean?",
+      "korean": "모자를 벗어라.",
+      "english": "Take off your hat.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Take off",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "your hat",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Reported Commands",
-      "question": "What do the do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "5-6-10",
       "section": "Day 6",
-      "description": "Reported Commands",
-      "korean": "우리가 밀착 관찰했던 그 엄마는을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "description": "Review",
+      "question": "What does this phrasal verb mean?",
+      "korean": "들어오세요.",
+      "english": "Come in please.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Come in",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
+          "text": "please",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Reported Commands",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-6-11",
-      "section": "Day 6",
-      "description": "Reported Commands",
-      "korean": "우리가 밀착 관찰했던 그 그는을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Reported Commands",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-6-12",
-      "section": "Day 6",
-      "description": "Reported Commands",
-      "korean": "우리가 밀착 관찰했던 그 난을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Reported Commands",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-6-13",
-      "section": "Day 6",
-      "description": "Reported Commands",
-      "korean": "우리가 밀착 관찰했던 그 의사는을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Reported Commands",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-6-14",
-      "section": "Day 6",
-      "description": "Reported Commands",
-      "korean": "우리가 밀착 관찰했던 그 그는을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Reported Commands",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-6-15",
-      "section": "Day 6",
-      "description": "Reported Commands",
-      "korean": "우리가 밀착 관찰했던 그 그녀는을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Reported Commands",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-6-16",
-      "section": "Day 6",
-      "description": "Reported Commands",
-      "korean": "우리가 밀착 관찰했던 그 명령대로.을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Reported Commands",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-6-17",
-      "section": "Day 6",
-      "description": "Reported Commands",
-      "korean": "우리가 밀착 관찰했던 그 시키는을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Reported Commands",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-6-18",
-      "section": "Day 6",
-      "description": "Reported Commands",
-      "korean": "우리가 밀착 관찰했던 그 강요/주장하다.을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Reported Commands",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-6-19",
-      "section": "Day 6",
-      "description": "Reported Commands",
-      "korean": "우리가 밀착 관찰했던 그 이래라저래라을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Reported Commands",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-6-20",
-      "section": "Day 6",
-      "description": "Reported Commands",
-      "korean": "우리가 밀착 관찰했던 그 말만을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Reported Commands",
-      "question": "What do the do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "5-7-1",
       "section": "Day 7",
       "description": "Review",
-      "korean": "우리가 밀착 관찰했던 그 난을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "question": "What does this phrasal verb mean?",
+      "korean": "우리는 잘 지낸다.",
+      "english": "We get along well.",
       "chunks": [
         {
-          "text": "The the which",
+          "text": "We",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we observed closely",
+          "text": "get along",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "well",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
       "context": "Review",
-      "question": "What do the do?"
+      "grammarGuide": {
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Adverb",
+            "color": "#BA68C8"
+          }
+        ]
+      }
     },
     {
       "id": "5-7-2",
       "section": "Day 7",
       "description": "Review",
-      "korean": "우리가 밀착 관찰했던 그 필요한을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "question": "What does this phrasal verb mean?",
+      "korean": "나가서 놀아라.",
+      "english": "Go out and play.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Go out",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "and play",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
       "context": "Review",
-      "question": "What do the do?"
+      "grammarGuide": null
     },
     {
       "id": "5-7-3",
       "section": "Day 7",
       "description": "Review",
-      "korean": "우리가 밀착 관찰했던 그 그는을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "question": "What does this phrasal verb mean?",
+      "korean": "라디오를 꺼라.",
+      "english": "Turn off the radio.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Turn off",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "the radio",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
       "context": "Review",
-      "question": "What do the do?"
+      "grammarGuide": null
     },
     {
       "id": "5-7-4",
       "section": "Day 7",
       "description": "Review",
-      "korean": "우리가 밀착 관찰했던 그 그녀는을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "question": "What does this phrasal verb mean?",
+      "korean": "차에 타라.",
+      "english": "Get in the car.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Get in",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "the car",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
       "context": "Review",
-      "question": "What do the do?"
+      "grammarGuide": null
     },
     {
       "id": "5-7-5",
       "section": "Day 7",
       "description": "Review",
-      "korean": "우리가 밀착 관찰했던 그 그가을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "question": "What is the key expression?",
+      "korean": "나를 믿어.",
+      "english": "Count on me.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Count on",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "me",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
       "context": "Review",
-      "question": "What do the do?"
+      "grammarGuide": null
     },
     {
       "id": "5-7-6",
       "section": "Day 7",
       "description": "Review",
-      "korean": "우리가 밀착 관찰했던 그 가능하다고을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "question": "What is the key expression?",
+      "korean": "그는 이야기를 지어냈다.",
+      "english": "He made up a story.",
       "chunks": [
         {
-          "text": "The the which",
+          "text": "He",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we observed closely",
+          "text": "made up",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "a story",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
       "context": "Review",
-      "question": "What do the do?"
+      "grammarGuide": null
     },
     {
       "id": "5-7-7",
       "section": "Day 7",
       "description": "Review",
-      "korean": "우리가 밀착 관찰했던 그 그는을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "question": "What is the key expression?",
+      "korean": "실수를 지적해라.",
+      "english": "Point out the mistake.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Point out",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "the mistake",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
       "context": "Review",
-      "question": "What do the do?"
+      "grammarGuide": null
     },
     {
       "id": "5-7-8",
       "section": "Day 7",
       "description": "Review",
-      "korean": "우리가 밀착 관찰했던 그 우리을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "question": "What does this phrasal verb mean?",
+      "korean": "이 사진을 봐라.",
+      "english": "Look at this picture.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Look at",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "this picture",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
       "context": "Review",
-      "question": "What do the do?"
+      "grammarGuide": null
     },
     {
       "id": "5-7-9",
       "section": "Day 7",
       "description": "Review",
-      "korean": "우리가 밀착 관찰했던 그 같이을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "question": "What does this phrasal verb mean?",
+      "korean": "우리 화해하자.",
+      "english": "Let's make up.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
+          "text": "Let's",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "make up",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
       "context": "Review",
-      "question": "What do the do?"
+      "grammarGuide": null
     },
     {
       "id": "5-7-10",
       "section": "Day 7",
       "description": "Review",
-      "korean": "우리가 밀착 관찰했던 그 내가을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
+      "question": "What does this phrasal verb mean?",
+      "korean": "신발을 신어라.",
+      "english": "Put on your shoes.",
       "chunks": [
         {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
+          "text": "Put on",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "did not change",
+          "text": "your shoes",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
       "context": "Review",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-7-11",
-      "section": "Day 7",
-      "description": "Review",
-      "korean": "우리가 밀착 관찰했던 그 내가을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Review",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-7-12",
-      "section": "Day 7",
-      "description": "Review",
-      "korean": "우리가 밀착 관찰했던 그 내가을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Review",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-7-13",
-      "section": "Day 7",
-      "description": "Review",
-      "korean": "우리가 밀착 관찰했던 그 열었나을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Review",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-7-14",
-      "section": "Day 7",
-      "description": "Review",
-      "korean": "우리가 밀착 관찰했던 그 그는을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Review",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-7-15",
-      "section": "Day 7",
-      "description": "Review",
-      "korean": "우리가 밀착 관찰했던 그 그게을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Review",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-7-16",
-      "section": "Day 7",
-      "description": "Review",
-      "korean": "우리가 밀착 관찰했던 그 의심스러워.을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Review",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-7-17",
-      "section": "Day 7",
-      "description": "Review",
-      "korean": "우리가 밀착 관찰했던 그 누가을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Review",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-7-18",
-      "section": "Day 7",
-      "description": "Review",
-      "korean": "우리가 밀착 관찰했던 그 싫다고을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Review",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-7-19",
-      "section": "Day 7",
-      "description": "Review",
-      "korean": "우리가 밀착 관찰했던 그 상황에을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Review",
-      "question": "What do the do?"
-    },
-    {
-      "id": "5-7-20",
-      "section": "Day 7",
-      "description": "Review",
-      "korean": "우리가 밀착 관찰했던 그 나도을은 전혀 변하지 않았다.",
-      "english": "The the which we observed closely did not change at all.",
-      "chunks": [
-        {
-          "text": "The the which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we observed closely",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "did not change",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "at all.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Review",
-      "question": "What do the do?"
+      "grammarGuide": null
     }
   ]
 }

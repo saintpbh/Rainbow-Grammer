@@ -3,4862 +3,2101 @@
     {
       "id": "4-15-1",
       "section": "Day 15",
-      "description": "Superlatives (-est)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 가장 빠른. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "The fastest but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "What is the condition?",
+      "korean": "얼음을 데우면 녹는다.",
+      "english": "If you heat ice it melts.",
       "chunks": [
         {
-          "text": "The fastest but we",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
+          "text": "If you heat ice",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "it",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "melts",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Superlatives (-est)",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": {
+        "title": "Core Lesson",
+        "structure": [
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          },
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          }
+        ]
+      }
     },
     {
       "id": "4-15-2",
       "section": "Day 15",
-      "description": "Superlatives (-est)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 가장 큰. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "The biggest but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "What is the condition?",
+      "korean": "비가 오면 땅이 젖는다.",
+      "english": "If it rains the ground gets wet.",
       "chunks": [
         {
-          "text": "The biggest but we",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
+          "text": "If it rains",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "the ground",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "gets",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "wet",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Superlatives (-est)",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-15-3",
       "section": "Day 15",
-      "description": "Superlatives (-est)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 가장 강한. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "The strongest but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "What is the condition?",
+      "korean": "빨강과 파랑을 섞으면 보라색이 된다.",
+      "english": "If you mix red and blue you get purple.",
       "chunks": [
         {
-          "text": "The strongest but we",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
+          "text": "If you mix red and blue",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "you",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "get",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "purple",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Superlatives (-est)",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-15-4",
       "section": "Day 15",
-      "description": "Superlatives (-est)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 가장 작은. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "The smallest but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "What is the condition?",
+      "korean": "물을 못 받으면 식물은 죽는다.",
+      "english": "Plants die if they don't get water.",
       "chunks": [
         {
-          "text": "The smallest but we",
+          "text": "Plants",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "must stay focused on",
+          "text": "die",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
+          "text": "if they don't get water",
           "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Superlatives (-est)",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-15-5",
       "section": "Day 15",
-      "description": "Superlatives (-est)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 가장 키 큰. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "The tallest but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "What is the condition?",
+      "korean": "나는 늦으면 뛴다.",
+      "english": "If I am late I run.",
       "chunks": [
         {
-          "text": "The tallest but we",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
+          "text": "If I am late",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "run",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Superlatives (-est)",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-15-6",
       "section": "Day 15",
-      "description": "Superlatives (-est)",
-      "korean": "분위기가 대단히 긍정적이기 때문에 그는 가장 빠른 주자다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "He is the fastest runner but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Core Lesson",
+      "question": "What is the condition?",
+      "korean": "불을 만지면 덴다.",
+      "english": "If you touch fire it burns.",
       "chunks": [
         {
-          "text": "He is the fastest",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "runner but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "goal because the atmosphere",
+          "text": "If you touch fire",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "is very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "it",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "burns",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Superlatives (-est)",
-      "question": "Describe he or their status."
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-15-7",
       "section": "Day 15",
-      "description": "Superlatives (-est)",
-      "korean": "분위기가 대단히 긍정적이기 때문에 이것은 가장 큰 집이다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "This is the biggest house but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Core Lesson",
+      "question": "What is the condition?",
+      "korean": "버튼을 누르면 시작한다.",
+      "english": "If you press the button it starts.",
       "chunks": [
         {
-          "text": "This is the biggest",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "house but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "goal because the atmosphere",
+          "text": "If you press the button",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "is very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "it",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "starts",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Superlatives (-est)",
-      "question": "Describe this or their status."
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-15-8",
       "section": "Day 15",
-      "description": "Superlatives (-est)",
-      "korean": "분위기가 대단히 긍정적이기 때문에 그녀는 가장 똑똑한 학생이다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "She is the smartest student but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Core Lesson",
+      "question": "What is the condition?",
+      "korean": "100도가 되면 물이 끓는다.",
+      "english": "Water boils if it reaches 100 degrees.",
       "chunks": [
         {
-          "text": "She is the smartest",
+          "text": "Water",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "student but we must",
+          "text": "boils",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "stay focused on our",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "goal because the atmosphere",
+          "text": "if it reaches 100 degrees",
           "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "is very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Superlatives (-est)",
-      "question": "What is your role?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-15-9",
       "section": "Day 15",
-      "description": "Superlatives (-est)",
-      "korean": "분위기가 대단히 긍정적이기 때문에 에베레스트는 가장 높은 산이다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Everest is the highest mountain but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Core Lesson",
+      "question": "What is the condition?",
+      "korean": "피곤하면 자라.",
+      "english": "If you are tired sleep.",
       "chunks": [
         {
-          "text": "Everest is the highest",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "mountain but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "goal because the atmosphere",
+          "text": "If you are tired",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "is very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "sleep",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Superlatives (-est)",
-      "question": "Describe everest or their status."
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-15-10",
       "section": "Day 15",
-      "description": "Superlatives (-est)",
-      "korean": "분위기가 대단히 긍정적이기 때문에 가장 추운 날이다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "It is the coldest day but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Core Lesson",
+      "question": "What is the condition?",
+      "korean": "커피를 마시면 잠을 못 잔다.",
+      "english": "If I drink coffee I can't sleep.",
       "chunks": [
         {
-          "text": "It is the coldest",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "day but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "goal because the atmosphere",
+          "text": "If I drink coffee",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "is very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "can't sleep",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Superlatives (-est)",
-      "question": "Describe it or their status."
-    },
-    {
-      "id": "4-15-11",
-      "section": "Day 15",
-      "description": "Superlatives (-est)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 내가 가장 어리다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "I am the youngest but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "I am the youngest but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Superlatives (-est)",
-      "question": "Describe i or their status."
-    },
-    {
-      "id": "4-15-12",
-      "section": "Day 15",
-      "description": "Superlatives (-est)",
-      "korean": "분위기가 대단히 긍정적이기 때문에 그는 가장 부자다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "He is the richest but we must stay focused on our goal because the atmosphere is very positive.",
-      "chunks": [
-        {
-          "text": "He is the richest",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "because the atmosphere is",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Superlatives (-est)",
-      "question": "Describe he or their status."
-    },
-    {
-      "id": "4-15-13",
-      "section": "Day 15",
-      "description": "Superlatives (-est)",
-      "korean": "분위기가 대단히 긍정적이기 때문에 여름은 가장 더운 계절이다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Summer is the hottest season but we must stay focused on our goal because the atmosphere is very positive.",
-      "chunks": [
-        {
-          "text": "Summer is the hottest",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "season but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "goal because the atmosphere",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "is very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Superlatives (-est)",
-      "question": "Describe summer or their status."
-    },
-    {
-      "id": "4-15-14",
-      "section": "Day 15",
-      "description": "Superlatives (-est)",
-      "korean": "분위기가 대단히 긍정적이기 때문에 너는 가장 친절한 사람이다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "You are the kindest person but we must stay focused on our goal because the atmosphere is very positive.",
-      "chunks": [
-        {
-          "text": "You are the kindest",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "person but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "goal because the atmosphere",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "is very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Superlatives (-est)",
-      "question": "Describe you or their status."
-    },
-    {
-      "id": "4-15-15",
-      "section": "Day 15",
-      "description": "Superlatives (-est)",
-      "korean": "분위기가 대단히 긍정적이기 때문에 누가 가장 강하니? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Who is the strongest? but we must stay focused on our goal because the atmosphere is very positive.",
-      "chunks": [
-        {
-          "text": "Who is the strongest?",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "because the atmosphere is",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Superlatives (-est)",
-      "question": "Describe who or their status."
-    },
-    {
-      "id": "4-15-16",
-      "section": "Day 15",
-      "description": "Superlatives (-est)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 그날은 최고의 날이었다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "That was the best day but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "That was the best day",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "but we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a passionate",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Superlatives (-est)",
-      "question": "Describe that or their status."
-    },
-    {
-      "id": "4-15-17",
-      "section": "Day 15",
-      "description": "Superlatives (-est)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 그건 가장 힘든 일이다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "It's the hardest thing but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "It's the hardest thing but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Superlatives (-est)",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-15-18",
-      "section": "Day 15",
-      "description": "Superlatives (-est)",
-      "korean": "분위기가 대단히 긍정적이기 때문에 네가 최고야. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "You are the greatest but we must stay focused on our goal because the atmosphere is very positive.",
-      "chunks": [
-        {
-          "text": "You are the greatest",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "because the atmosphere is",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Superlatives (-est)",
-      "question": "Describe you or their status."
-    },
-    {
-      "id": "4-15-19",
-      "section": "Day 15",
-      "description": "Superlatives (-est)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 가장 어두운 밤. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "The darkest night but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "The darkest night but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Superlatives (-est)",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-15-20",
-      "section": "Day 15",
-      "description": "Superlatives (-est)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 늦어도. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "At the latest but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "At the latest but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Superlatives (-est)",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-16-1",
       "section": "Day 16",
-      "description": "Superlatives (Most)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 가장 아름다운. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "The most beautiful but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "What is the condition?",
+      "korean": "비가 오면 집에 있을 것이다.",
+      "english": "If it rains I will stay home.",
       "chunks": [
         {
-          "text": "The most beautiful but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
+          "text": "If it rains",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "a passionate team.",
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will stay",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "home",
           "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#BA68C8"
         }
       ],
-      "context": "Superlatives (Most)",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": {
+        "title": "Core Lesson",
+        "structure": [
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          },
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Adverb",
+            "color": "#BA68C8"
+          }
+        ]
+      }
     },
     {
       "id": "4-16-2",
       "section": "Day 16",
-      "description": "Superlatives (Most)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 가장 비싼. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "The most expensive but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "What is the condition?",
+      "korean": "공부하면 합격할 것이다.",
+      "english": "If you study you will pass.",
       "chunks": [
         {
-          "text": "The most expensive but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
+          "text": "If you study",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "you",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will pass",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Superlatives (Most)",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-16-3",
       "section": "Day 16",
-      "description": "Superlatives (Most)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 가장 중요한. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "The most important but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "What is the condition?",
+      "korean": "도착하면 전화할게.",
+      "english": "I will call you if I arrive.",
       "chunks": [
         {
-          "text": "The most important but",
+          "text": "I",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we must stay focused",
+          "text": "will call",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "on our goal when",
+          "text": "you",
           "role": "Object",
-          "color": "#00E676"
+          "color": "#FFD700"
         },
         {
-          "text": "we work together as",
+          "text": "if I arrive",
           "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Superlatives (Most)",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-16-4",
       "section": "Day 16",
-      "description": "Superlatives (Most)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 가장 유명한. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "The most famous but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "What is the condition?",
+      "korean": "서두르면 버스를 잡을 것이다.",
+      "english": "If we hurry we will catch the bus.",
       "chunks": [
         {
-          "text": "The most famous but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
+          "text": "If we hurry",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "we",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will catch",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the bus",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Superlatives (Most)",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-16-5",
       "section": "Day 16",
-      "description": "Superlatives (Most)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 가장 어려운. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "The most difficult but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "What is the condition?",
+      "korean": "거짓말하면 그는 화낼 것이다.",
+      "english": "He will be angry if you lie.",
       "chunks": [
         {
-          "text": "The most difficult but",
+          "text": "He",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we must stay focused",
+          "text": "will be",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
+          "text": "angry",
+          "role": "Complement",
+          "color": "#BA68C8"
         },
         {
-          "text": "we work together as",
+          "text": "if you lie",
           "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Superlatives (Most)",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-16-6",
       "section": "Day 16",
-      "description": "Superlatives (Most)",
-      "korean": "분위기가 대단히 긍정적이기 때문에 그녀는 가장 아름다운 소녀다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "She is the most beautiful girl but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Core Lesson",
+      "question": "What is the condition?",
+      "korean": "네가 날 도우면 나도 널 도울게.",
+      "english": "If you help me I will help you.",
       "chunks": [
         {
-          "text": "She is the most beautiful",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "girl but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal because",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "the atmosphere is very positive.",
+          "text": "If you help me",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will help",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "you",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Superlatives (Most)",
-      "question": "Describe she or their status."
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-16-7",
       "section": "Day 16",
-      "description": "Superlatives (Most)",
-      "korean": "분위기가 대단히 긍정적이기 때문에 이건 가장 비싼 차다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "This is the most expensive car but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Core Lesson",
+      "question": "What is the condition?",
+      "korean": "시간이 있으면 그녀는 올 것이다.",
+      "english": "She will come if she has time.",
       "chunks": [
         {
-          "text": "This is the most expensive",
+          "text": "She",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "car but we must stay",
+          "text": "will come",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "focused on our goal because",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "the atmosphere is very positive.",
+          "text": "if she has time",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Superlatives (Most)",
-      "question": "Describe this or their status."
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-16-8",
       "section": "Day 16",
-      "description": "Superlatives (Most)",
-      "korean": "분위기가 대단히 긍정적이기 때문에 사랑은 가장 중요한 것이다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Love is the most important thing but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Core Lesson",
+      "question": "What is the condition?",
+      "korean": "추우면 코트를 입어라.",
+      "english": "If it is cold wear a coat.",
       "chunks": [
         {
-          "text": "Love is the most important",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "thing but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal because",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "the atmosphere is very positive.",
+          "text": "If it is cold",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "wear",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a coat",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Superlatives (Most)",
-      "question": "Describe love or their status."
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-16-9",
       "section": "Day 16",
-      "description": "Superlatives (Most)",
-      "korean": "분위기가 대단히 긍정적이기 때문에 그는 가장 유명한 배우다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "He is the most famous actor but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Core Lesson",
+      "question": "Answer this question.",
+      "korean": "이기면 뭐 할 거야?",
+      "english": "What will you do if you win?",
       "chunks": [
         {
-          "text": "He is the most famous",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "actor but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal because",
+          "text": "What",
           "role": "Object",
-          "color": "#00E676"
+          "color": "#FFD700"
         },
         {
-          "text": "the atmosphere is very positive.",
+          "text": "will you do",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "if you win",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Superlatives (Most)",
-      "question": "Describe he or their status."
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-16-10",
       "section": "Day 16",
-      "description": "Superlatives (Most)",
-      "korean": "분위기가 대단히 긍정적이기 때문에 수학은 가장 어려운 과목이다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Math is the most difficult subject but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Core Lesson",
+      "question": "What is the condition?",
+      "korean": "그를 보면 말해줄게.",
+      "english": "If I see him I will tell him.",
       "chunks": [
         {
-          "text": "Math is the most difficult",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "subject but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal because",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "the atmosphere is very positive.",
+          "text": "If I see him",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will tell",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "him",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Superlatives (Most)",
-      "question": "Describe math or their status."
-    },
-    {
-      "id": "4-16-11",
-      "section": "Day 16",
-      "description": "Superlatives (Most)",
-      "korean": "분위기가 대단히 긍정적이기 때문에 그건 가장 인기 있는 노래다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "It is the most popular song but we must stay focused on our goal because the atmosphere is very positive.",
-      "chunks": [
-        {
-          "text": "It is the most popular",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "song but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal because",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "the atmosphere is very positive.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Superlatives (Most)",
-      "question": "Describe it or their status."
-    },
-    {
-      "id": "4-16-12",
-      "section": "Day 16",
-      "description": "Superlatives (Most)",
-      "korean": "분위기가 대단히 긍정적이기 때문에 누가 가장 흥미로우니? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Who is the most interesting? but we must stay focused on our goal because the atmosphere is very positive.",
-      "chunks": [
-        {
-          "text": "Who is the most",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "interesting? but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "goal because the atmosphere",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "is very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Superlatives (Most)",
-      "question": "Describe who or their status."
-    },
-    {
-      "id": "4-16-13",
-      "section": "Day 16",
-      "description": "Superlatives (Most)",
-      "korean": "분위기가 대단히 긍정적이기 때문에 이곳은 가장 위험한 장소다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "This is the most dangerous place but we must stay focused on our goal because the atmosphere is very positive.",
-      "chunks": [
-        {
-          "text": "This is the most dangerous",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "place but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal because",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "the atmosphere is very positive.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Superlatives (Most)",
-      "question": "Describe this or their status."
-    },
-    {
-      "id": "4-16-14",
-      "section": "Day 16",
-      "description": "Superlatives (Most)",
-      "korean": "분위기가 대단히 긍정적이기 때문에 너는 가장 소중하다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "You are the most precious but we must stay focused on our goal because the atmosphere is very positive.",
-      "chunks": [
-        {
-          "text": "You are the most",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "precious but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "goal because the atmosphere",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "is very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Superlatives (Most)",
-      "question": "Describe you or their status."
-    },
-    {
-      "id": "4-16-15",
-      "section": "Day 16",
-      "description": "Superlatives (Most)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 가장 지루한 영화였다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "It was the most boring movie but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "It was the most boring",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "movie but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Superlatives (Most)",
-      "question": "Describe it or their status."
-    },
-    {
-      "id": "4-16-16",
-      "section": "Day 16",
-      "description": "Superlatives (Most)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 가장 수배된/원하는. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "The most wanted but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "The most wanted but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Superlatives (Most)",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-16-17",
-      "section": "Day 16",
-      "description": "Superlatives (Most)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 그것을 최대한 활용하기 위해. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "To make the most of it but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "To make the most of",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "it but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Superlatives (Most)",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-16-18",
-      "section": "Day 16",
-      "description": "Superlatives (Most)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 누굴 가장 사랑하니? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Who do you love the most? but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Who do you love the",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "most? but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Superlatives (Most)",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-16-19",
-      "section": "Day 16",
-      "description": "Superlatives (Most)",
-      "korean": "분위기가 대단히 긍정적이기 때문에 이게 가장 아프다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "This hurts the most but we must stay focused on our goal because the atmosphere is very positive.",
-      "chunks": [
-        {
-          "text": "This hurts the most",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "because the atmosphere is",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Superlatives (Most)",
-      "question": "Describe this or their status."
-    },
-    {
-      "id": "4-16-20",
-      "section": "Day 16",
-      "description": "Superlatives (Most)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 아마도(가장 그럴듯한). 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Most likely but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Most likely but we",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Superlatives (Most)",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-17-1",
       "section": "Day 17",
-      "description": "Irregular Superlatives",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 최고의. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "The best but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "What is the condition?",
+      "korean": "내가 새라면 날아갈 텐데.",
+      "english": "If I were a bird I would fly.",
       "chunks": [
         {
-          "text": "The best but we",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
+          "text": "If I were a bird",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "would fly",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Irregular Superlatives",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": {
+        "title": "Core Lesson",
+        "structure": [
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          },
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          }
+        ]
+      }
     },
     {
       "id": "4-17-2",
       "section": "Day 17",
-      "description": "Irregular Superlatives",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 최악의. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "The worst but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "What is the condition?",
+      "korean": "돈이 있다면 살 텐데.",
+      "english": "If I had money I would buy it.",
       "chunks": [
         {
-          "text": "The worst but we",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
+          "text": "If I had money",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "would buy",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "it",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Irregular Superlatives",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-17-3",
       "section": "Day 17",
-      "description": "Irregular Superlatives",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 가장 먼. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "The farthest but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "What is the condition?",
+      "korean": "알았다면 말해줬을 텐데.",
+      "english": "If I knew I would tell you.",
       "chunks": [
         {
-          "text": "The farthest but we",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
+          "text": "If I knew",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "would tell",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "you",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Irregular Superlatives",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-17-4",
       "section": "Day 17",
-      "description": "Irregular Superlatives",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 가장 많은. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "The most but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "What is the condition?",
+      "korean": "그가 여기 있다면 도왔을 텐데.",
+      "english": "If he were here he would help.",
       "chunks": [
         {
-          "text": "The most but we",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
+          "text": "If he were here",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "he",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "would help",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Irregular Superlatives",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-17-5",
       "section": "Day 17",
-      "description": "Irregular Superlatives",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 가장 적은. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "The least but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "What is the condition?",
+      "korean": "내가 너라면 갈 텐데.",
+      "english": "I would go if I were you.",
       "chunks": [
         {
-          "text": "The least but we",
+          "text": "I",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "must stay focused on",
+          "text": "would go",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
+          "text": "if I were you",
           "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Irregular Superlatives",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-17-6",
       "section": "Day 17",
-      "description": "Irregular Superlatives",
-      "korean": "분위기가 대단히 긍정적이기 때문에 네가 최고다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "You are the best but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Core Lesson",
+      "question": "What is the condition?",
+      "korean": "파리에 산다면 행복할 텐데.",
+      "english": "If I lived in Paris I would be happy.",
       "chunks": [
         {
-          "text": "You are the best",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "because the atmosphere is",
+          "text": "If I lived in Paris",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "would be",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "happy",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Irregular Superlatives",
-      "question": "Describe you or their status."
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-17-7",
       "section": "Day 17",
-      "description": "Irregular Superlatives",
-      "korean": "분위기가 대단히 긍정적이기 때문에 오늘은 최악의 날이다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "This is the worst day but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Core Lesson",
+      "question": "Answer this question.",
+      "korean": "부자라면 뭐 할 거야?",
+      "english": "What would you do if you were rich?",
       "chunks": [
         {
-          "text": "This is the worst",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "day but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our",
+          "text": "What",
           "role": "Object",
-          "color": "#00E676"
+          "color": "#FFD700"
         },
         {
-          "text": "goal because the atmosphere",
+          "text": "would you do",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "if you were rich",
           "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "is very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Irregular Superlatives",
-      "question": "Describe this or their status."
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-17-8",
       "section": "Day 17",
-      "description": "Irregular Superlatives",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 그는 여기서 가장 멀리 산다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "He lives farthest from here but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "What is the condition?",
+      "korean": "노래를 잘하면 스타가 될 텐데.",
+      "english": "If I could sing I would become a star.",
       "chunks": [
         {
-          "text": "He lives farthest from here",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "but we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a passionate",
+          "text": "If I could sing",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "would become",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a star",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Irregular Superlatives",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-17-9",
       "section": "Day 17",
-      "description": "Irregular Superlatives",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 누가 사과를 가장 많이 가졌니? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Who has the most apples? but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "What is the condition?",
+      "korean": "오늘 눈이 온다면 스키를 탈 텐데.",
+      "english": "If it snowed today we could ski.",
       "chunks": [
         {
-          "text": "Who has the most apples?",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "but we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a passionate",
+          "text": "If it snowed today",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "we",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "could ski",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Irregular Superlatives",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-17-10",
       "section": "Day 17",
-      "description": "Irregular Superlatives",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 비용이 가장 적게 든다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "It costs the least but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "What is the condition?",
+      "korean": "키가 더 컸다면 농구를 했을 텐데.",
+      "english": "If I were taller I would play basketball.",
       "chunks": [
         {
-          "text": "It costs the least but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
+          "text": "If I were taller",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "would play",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "basketball",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Irregular Superlatives",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-17-11",
-      "section": "Day 17",
-      "description": "Irregular Superlatives",
-      "korean": "분위기가 대단히 긍정적이기 때문에 그녀는 내 가장 친한 친구다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "She is my best friend but we must stay focused on our goal because the atmosphere is very positive.",
-      "chunks": [
-        {
-          "text": "She is my best",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "friend but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "goal because the atmosphere",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "is very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Irregular Superlatives",
-      "question": "Describe she or their status."
-    },
-    {
-      "id": "4-17-12",
-      "section": "Day 17",
-      "description": "Irregular Superlatives",
-      "korean": "분위기가 대단히 긍정적이기 때문에 그건 그의 최악의 실수였다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "That was his worst mistake but we must stay focused on our goal because the atmosphere is very positive.",
-      "chunks": [
-        {
-          "text": "That was his worst",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "mistake but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "goal because the atmosphere",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "is very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Irregular Superlatives",
-      "question": "Describe that or their status."
-    },
-    {
-      "id": "4-17-13",
-      "section": "Day 17",
-      "description": "Irregular Superlatives",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 나는 최선을 다했다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "I did my best but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "I did my best but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Irregular Superlatives",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-17-14",
-      "section": "Day 17",
-      "description": "Irregular Superlatives",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 내가 할 수 있는 최소한. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "The least I can do but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "The least I can do",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "but we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a passionate",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Irregular Superlatives",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-17-15",
-      "section": "Day 17",
-      "description": "Irregular Superlatives",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 적어도. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "At least but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "At least but we",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Irregular Superlatives",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-17-16",
-      "section": "Day 17",
-      "description": "Irregular Superlatives",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 행운을 빈다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Best of luck but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Best of luck but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Irregular Superlatives",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-17-17",
-      "section": "Day 17",
-      "description": "Irregular Superlatives",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 최악의 시나리오. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Worst case scenario but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Worst case scenario but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Irregular Superlatives",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-17-18",
-      "section": "Day 17",
-      "description": "Irregular Superlatives",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 마지막으로, 그러나 역시 중요한. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Last but not least but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Last but not least but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Irregular Superlatives",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-17-19",
-      "section": "Day 17",
-      "description": "Irregular Superlatives",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 최선을 위해(결국엔 좋은). 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "For the best but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "For the best but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Irregular Superlatives",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-17-20",
-      "section": "Day 17",
-      "description": "Irregular Superlatives",
-      "korean": "분위기가 대단히 긍정적이기 때문에 최고의 순간은 아직 오지 않았다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "The best is yet to come but we must stay focused on our goal because the atmosphere is very positive.",
-      "chunks": [
-        {
-          "text": "The best is yet to",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "come but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal because",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "the atmosphere is very positive.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Irregular Superlatives",
-      "question": "Describe the or their status."
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-18-1",
       "section": "Day 18",
-      "description": "Superlative Scope",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 세상에서. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "In the world but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "What is the condition?",
+      "korean": "노랑과 파랑을 섞으면 초록이 된다.",
+      "english": "If you mix yellow and blue you get green.",
       "chunks": [
         {
-          "text": "In the world but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
+          "text": "If you mix yellow and blue",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "you",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "get",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "green",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Superlative Scope",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": {
+        "title": "Core Lesson",
+        "structure": [
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          },
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Object",
+            "color": "#FFD700"
+          }
+        ]
+      }
     },
     {
       "id": "4-18-2",
       "section": "Day 18",
-      "description": "Superlative Scope",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 모든 것 중에. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Of all but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "What is the condition?",
+      "korean": "일찍 끝나면 갈게.",
+      "english": "If I finish early I will go.",
       "chunks": [
         {
-          "text": "Of all but we",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
+          "text": "If I finish early",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will go",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Superlative Scope",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-18-3",
       "section": "Day 18",
-      "description": "Superlative Scope",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 내 인생에서. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "In my life but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "What is the condition?",
+      "korean": "내가 너라면 멈출 거야.",
+      "english": "If I were you I would stop.",
       "chunks": [
         {
-          "text": "In my life but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
+          "text": "If I were you",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "would stop",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Superlative Scope",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-18-4",
       "section": "Day 18",
-      "description": "Superlative Scope",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 반에서. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "In the class but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "What is the main idea?",
+      "korean": "뛰지 않으면 늦을 거야.",
+      "english": "Unless you run you will be late.",
       "chunks": [
         {
-          "text": "In the class but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
+          "text": "Unless you run",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "you",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will be",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "late",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Superlative Scope",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-18-5",
       "section": "Day 18",
-      "description": "Superlative Scope",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 셋 중에서. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Of the three but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "What is the main idea?",
+      "korean": "네가 행복하다면 나도 행복해.",
+      "english": "As long as you are happy I am happy.",
       "chunks": [
         {
-          "text": "Of the three but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
+          "text": "As long as you are happy",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "am",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "happy",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Superlative Scope",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-18-6",
       "section": "Day 18",
-      "description": "Superlative Scope",
-      "korean": "분위기가 대단히 긍정적이기 때문에 그는 반에서 가장 키가 크다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "He is the tallest in the class but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Core Lesson",
+      "question": "What is the condition?",
+      "korean": "비가 와도 나는 갈 거야.",
+      "english": "Even if it rains I will go.",
       "chunks": [
         {
-          "text": "He is the tallest in",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "the class but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our goal",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "because the atmosphere is very",
+          "text": "Even if it rains",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will go",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Superlative Scope",
-      "question": "Describe he or their status."
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-18-7",
       "section": "Day 18",
-      "description": "Superlative Scope",
-      "korean": "분위기가 대단히 긍정적이기 때문에 이건 세상에서 제일 맛있는 피자다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "This is the best pizza in the world but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Core Lesson",
+      "question": "What is the condition?",
+      "korean": "내가 알기만 했어도.",
+      "english": "If only I knew.",
       "chunks": [
         {
-          "text": "This is the best pizza",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "in the world but we",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "must stay focused on our",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "goal because the atmosphere is",
+          "text": "If only I knew",
           "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Superlative Scope",
-      "question": "Describe this or their status."
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-18-8",
       "section": "Day 18",
-      "description": "Superlative Scope",
-      "korean": "분위기가 대단히 긍정적이기 때문에 그녀는 모두 중에 가장 똑똑하다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "She is the smartest of all but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Core Lesson",
+      "question": "Answer this question.",
+      "korean": "실패하면 어쩌지?",
+      "english": "What if we fail?",
       "chunks": [
         {
-          "text": "She is the smartest of",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "all but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal because",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "the atmosphere is very positive.",
+          "text": "What if we fail",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Superlative Scope",
-      "question": "Describe she or their status."
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-18-9",
       "section": "Day 18",
-      "description": "Superlative Scope",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 내 인생에서 가장 행복한 날이었다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "It was the happiest day in my life but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "What is the condition?",
+      "korean": "가능하면 일찍 와.",
+      "english": "If possible come early.",
       "chunks": [
         {
-          "text": "It was the happiest day in",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "my life but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a passionate team.",
+          "text": "If possible",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "come",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "early",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Superlative Scope",
-      "question": "Describe it or their status."
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-18-10",
       "section": "Day 18",
-      "description": "Superlative Scope",
-      "korean": "분위기가 대단히 긍정적이기 때문에 넌 여기서 가장 웃긴 녀석이야. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "You are the funniest guy here but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Core Lesson",
+      "question": "What is the condition?",
+      "korean": "아니면 나에게 알려줘.",
+      "english": "If not let me know.",
       "chunks": [
         {
-          "text": "You are the funniest guy",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "here but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal because",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "the atmosphere is very positive.",
+          "text": "If not",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "let",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "me know",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Superlative Scope",
-      "question": "Describe you or their status."
-    },
-    {
-      "id": "4-18-11",
-      "section": "Day 18",
-      "description": "Superlative Scope",
-      "korean": "분위기가 대단히 긍정적이기 때문에 이것들 중 어느 게 가장 싸니? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Which is the cheapest of these? but we must stay focused on our goal because the atmosphere is very positive.",
-      "chunks": [
-        {
-          "text": "Which is the cheapest of",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "these? but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal because",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "the atmosphere is very positive.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Superlative Scope",
-      "question": "Describe which or their status."
-    },
-    {
-      "id": "4-18-12",
-      "section": "Day 18",
-      "description": "Superlative Scope",
-      "korean": "분위기가 대단히 긍정적이기 때문에 에베레스트는 지구상에서 가장 높다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Mt Everest is the highest on Earth but we must stay focused on our goal because the atmosphere is very positive.",
-      "chunks": [
-        {
-          "text": "Mt Everest is the highest",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "on Earth but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our goal",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "because the atmosphere is very",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Superlative Scope",
-      "question": "Describe mt or their status."
-    },
-    {
-      "id": "4-18-13",
-      "section": "Day 18",
-      "description": "Superlative Scope",
-      "korean": "분위기가 대단히 긍정적이기 때문에 팀에서 최고의 선수는 누구니? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Who is the best player on the team? but we must stay focused on our goal because the atmosphere is very positive.",
-      "chunks": [
-        {
-          "text": "Who is the best player",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "on the team? but we",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "must stay focused on our",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "goal because the atmosphere is",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Superlative Scope",
-      "question": "Describe who or their status."
-    },
-    {
-      "id": "4-18-14",
-      "section": "Day 18",
-      "description": "Superlative Scope",
-      "korean": "분위기가 대단히 긍정적이기 때문에 이건 역대급으로 지루한 책이다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "This is the dullest book ever but we must stay focused on our goal because the atmosphere is very positive.",
-      "chunks": [
-        {
-          "text": "This is the dullest book",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "ever but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal because",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "the atmosphere is very positive.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Superlative Scope",
-      "question": "Describe this or their status."
-    },
-    {
-      "id": "4-18-15",
-      "section": "Day 18",
-      "description": "Superlative Scope",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 그는 사무실에서 가장 열심히 일한다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "He works the hardest in the office but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "He works the hardest in",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "the office but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our goal",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "when we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Superlative Scope",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-18-16",
-      "section": "Day 18",
-      "description": "Superlative Scope",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 최고 중 하나. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "One of the best but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "One of the best but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Superlative Scope",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-18-17",
-      "section": "Day 18",
-      "description": "Superlative Scope",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 역대 최악의 날. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "The worst day ever but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "The worst day ever but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Superlative Scope",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-18-18",
-      "section": "Day 18",
-      "description": "Superlative Scope",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 쇼의 최고상. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Best in show but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Best in show but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Superlative Scope",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-18-19",
-      "section": "Day 18",
-      "description": "Superlative Scope",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 세상의 정상. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Top of the world but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Top of the world but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Superlative Scope",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-18-20",
-      "section": "Day 18",
-      "description": "Superlative Scope",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 골목대장. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "King of the hill but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "King of the hill but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Superlative Scope",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-19-1",
       "section": "Day 19",
-      "description": "Ordinals",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 첫 번째. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "The first but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Review",
+      "question": "What is the condition?",
+      "korean": "서두르면 버스를 잡을 것이다.",
+      "english": "If we hurry we will catch the bus.",
       "chunks": [
         {
-          "text": "The first but we",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
+          "text": "If we hurry",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "we",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will catch",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the bus",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Ordinals",
-      "question": "At what time does this occur?"
+      "context": "Review",
+      "grammarGuide": {
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          },
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Object",
+            "color": "#FFD700"
+          }
+        ]
+      }
     },
     {
       "id": "4-19-2",
       "section": "Day 19",
-      "description": "Ordinals",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 두 번째. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "The second but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Review",
+      "question": "What is the condition?",
+      "korean": "내가 새라면 날아갈 텐데.",
+      "english": "If I were a bird I would fly.",
       "chunks": [
         {
-          "text": "The second but we",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
+          "text": "If I were a bird",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "would fly",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Ordinals",
-      "question": "At what time does this occur?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "4-19-3",
       "section": "Day 19",
-      "description": "Ordinals",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 세 번째. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "The third but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Review",
+      "question": "What is the condition?",
+      "korean": "파리에 산다면 행복할 텐데.",
+      "english": "If I lived in Paris I would be happy.",
       "chunks": [
         {
-          "text": "The third but we",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
+          "text": "If I lived in Paris",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "would be",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "happy",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Ordinals",
-      "question": "At what time does this occur?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "4-19-4",
       "section": "Day 19",
-      "description": "Ordinals",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 마지막. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "The last but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Review",
+      "question": "What is the condition?",
+      "korean": "거짓말하면 그는 화낼 것이다.",
+      "english": "He will be angry if you lie.",
       "chunks": [
         {
-          "text": "The last but we",
+          "text": "He",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "must stay focused on",
+          "text": "will be",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal when we",
-          "role": "Object",
-          "color": "#00E676"
+          "text": "angry",
+          "role": "Complement",
+          "color": "#BA68C8"
         },
         {
-          "text": "work together as a",
+          "text": "if you lie",
           "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Ordinals",
-      "question": "At what time does this occur?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "4-19-5",
       "section": "Day 19",
-      "description": "Ordinals",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 다음. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "The next but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Review",
+      "question": "What is the condition?",
+      "korean": "키가 더 컸다면 농구를 했을 텐데.",
+      "english": "If I were taller I would play basketball.",
       "chunks": [
         {
-          "text": "The next but we",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
+          "text": "If I were taller",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "would play",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "basketball",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Ordinals",
-      "question": "At what time does this occur?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "4-19-6",
       "section": "Day 19",
-      "description": "Ordinals",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 그는 첫 번째였다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "He was the first but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Review",
+      "question": "What is the condition?",
+      "korean": "공부하면 합격할 것이다.",
+      "english": "If you study you will pass.",
       "chunks": [
         {
-          "text": "He was the first but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
+          "text": "If you study",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "you",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will pass",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Ordinals",
-      "question": "Describe he or their status."
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "4-19-7",
       "section": "Day 19",
-      "description": "Ordinals",
-      "korean": "분위기가 대단히 긍정적이기 때문에 이건 내 두 번째 차다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "This is my second car but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Review",
+      "question": "What is the condition?",
+      "korean": "나는 늦으면 뛴다.",
+      "english": "If I am late I run.",
       "chunks": [
         {
-          "text": "This is my second",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "car but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "goal because the atmosphere",
+          "text": "If I am late",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "is very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "run",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Ordinals",
-      "question": "Describe this or their status."
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "4-19-8",
       "section": "Day 19",
-      "description": "Ordinals",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 그녀는 3등을 했다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "She took the third place but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Review",
+      "question": "What is the condition?",
+      "korean": "아니면 나에게 알려줘.",
+      "english": "If not let me know.",
       "chunks": [
         {
-          "text": "She took the third place",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "but we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a passionate",
+          "text": "If not",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "let",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "me know",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Ordinals",
-      "question": "At what time does this occur?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "4-19-9",
       "section": "Day 19",
-      "description": "Ordinals",
-      "korean": "분위기가 대단히 긍정적이기 때문에 마지막 기회다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "It is the last chance but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Review",
+      "question": "What is the condition?",
+      "korean": "내가 너라면 갈 텐데.",
+      "english": "I would go if I were you.",
       "chunks": [
         {
-          "text": "It is the last",
+          "text": "I",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "chance but we must",
+          "text": "would go",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "stay focused on our",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "goal because the atmosphere",
+          "text": "if I were you",
           "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "is very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Ordinals",
-      "question": "Describe it or their status."
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "4-19-10",
       "section": "Day 19",
-      "description": "Ordinals",
-      "korean": "분위기가 대단히 긍정적이기 때문에 다음은 누구니? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Who is the next? but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Review",
+      "question": "Answer this question.",
+      "korean": "부자라면 뭐 할 거야?",
+      "english": "What would you do if you were rich?",
       "chunks": [
         {
-          "text": "Who is the next?",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal",
+          "text": "What",
           "role": "Object",
-          "color": "#00E676"
+          "color": "#FFD700"
         },
         {
-          "text": "because the atmosphere is",
+          "text": "would you do",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "if you were rich",
           "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Ordinals",
-      "question": "Describe who or their status."
-    },
-    {
-      "id": "4-19-11",
-      "section": "Day 19",
-      "description": "Ordinals",
-      "korean": "분위기가 대단히 긍정적이기 때문에 첫걸음은 어렵다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "The first step is hard but we must stay focused on our goal because the atmosphere is very positive.",
-      "chunks": [
-        {
-          "text": "The first step is",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "hard but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "goal because the atmosphere",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "is very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Ordinals",
-      "question": "Describe the or their status."
-    },
-    {
-      "id": "4-19-12",
-      "section": "Day 19",
-      "description": "Ordinals",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 첫 페이지를 읽어라. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Read the first page but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Read the first page but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Ordinals",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-19-13",
-      "section": "Day 19",
-      "description": "Ordinals",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 두 번째 질문에 답해라. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Answer the second question but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Answer the second question but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Ordinals",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-19-14",
-      "section": "Day 19",
-      "description": "Ordinals",
-      "korean": "분위기가 대단히 긍정적이기 때문에 마지막 것은 내 것이다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "The last one is mine but we must stay focused on our goal because the atmosphere is very positive.",
-      "chunks": [
-        {
-          "text": "The last one is",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "mine but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "goal because the atmosphere",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "is very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Ordinals",
-      "question": "Describe the or their status."
-    },
-    {
-      "id": "4-19-15",
-      "section": "Day 19",
-      "description": "Ordinals",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 다음에 보자. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "See you next time but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "See you next time but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Ordinals",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-19-16",
-      "section": "Day 19",
-      "description": "Ordinals",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 첫 번째는 사랑. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "First comes love but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "First comes love but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Ordinals",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-19-17",
-      "section": "Day 19",
-      "description": "Ordinals",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 누구에게도 뒤지지 않는. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Second to none but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Second to none but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Ordinals",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-19-18",
-      "section": "Day 19",
-      "description": "Ordinals",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 최후의 결정타. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "The last straw but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "The last straw but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Ordinals",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-19-19",
-      "section": "Day 19",
-      "description": "Ordinals",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 다음 차례. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Next in line but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Next in line but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Ordinals",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-19-20",
-      "section": "Day 19",
-      "description": "Ordinals",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 첫눈에 반한 사랑. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Love at first sight but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Love at first sight but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Ordinals",
-      "question": "At what time does this occur?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "4-20-1",
       "section": "Day 20",
-      "description": "Superlative Questions",
-      "korean": "분위기가 대단히 긍정적이기 때문에 뭐가 최고니? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "What is the best? but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Review",
+      "question": "What is the condition?",
+      "korean": "오늘 눈이 온다면 스키를 탈 텐데.",
+      "english": "If it snowed today we could ski.",
       "chunks": [
         {
-          "text": "What is the best?",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "because the atmosphere is",
+          "text": "If it snowed today",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "we",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "could ski",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Superlative Questions",
-      "question": "Describe what or their status."
+      "context": "Review",
+      "grammarGuide": {
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          },
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          }
+        ]
+      }
     },
     {
       "id": "4-20-2",
       "section": "Day 20",
-      "description": "Superlative Questions",
-      "korean": "분위기가 대단히 긍정적이기 때문에 누가 제일 빠르니? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Who is the fastest? but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Review",
+      "question": "What is the condition?",
+      "korean": "가능하면 일찍 와.",
+      "english": "If possible come early.",
       "chunks": [
         {
-          "text": "Who is the fastest?",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "because the atmosphere is",
+          "text": "If possible",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "very positive.",
+          "text": "come",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "early",
           "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#BA68C8"
         }
       ],
-      "context": "Superlative Questions",
-      "question": "Describe who or their status."
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "4-20-3",
       "section": "Day 20",
-      "description": "Superlative Questions",
-      "korean": "분위기가 대단히 긍정적이기 때문에 가장 가까운 은행이 어디니? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Where is the nearest bank? but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Review",
+      "question": "What is the main idea?",
+      "korean": "뛰지 않으면 늦을 거야.",
+      "english": "Unless you run you will be late.",
       "chunks": [
         {
-          "text": "Where is the nearest",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "bank? but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "goal because the atmosphere",
+          "text": "Unless you run",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "is very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "you",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will be",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "late",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Superlative Questions",
-      "question": "Describe where or their status."
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "4-20-4",
       "section": "Day 20",
-      "description": "Superlative Questions",
-      "korean": "분위기가 대단히 긍정적이기 때문에 어느 게 제일 싸니? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Which is the cheapest? but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Review",
+      "question": "What is the condition?",
+      "korean": "얼음을 데우면 녹는다.",
+      "english": "If you heat ice it melts.",
       "chunks": [
         {
-          "text": "Which is the cheapest?",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "because the atmosphere is",
+          "text": "If you heat ice",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "it",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "melts",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Superlative Questions",
-      "question": "Describe which or their status."
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "4-20-5",
       "section": "Day 20",
-      "description": "Superlative Questions",
-      "korean": "분위기가 대단히 긍정적이기 때문에 가장 좋은 때가 언제니? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "When is the best time? but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Review",
+      "question": "What is the condition?",
+      "korean": "불을 만지면 덴다.",
+      "english": "If you touch fire it burns.",
       "chunks": [
         {
-          "text": "When is the best",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "time? but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "goal because the atmosphere",
+          "text": "If you touch fire",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "is very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "it",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "burns",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Superlative Questions",
-      "question": "Describe when or their status."
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "4-20-6",
       "section": "Day 20",
-      "description": "Superlative Questions",
-      "korean": "분위기가 대단히 긍정적이기 때문에 가장 중요한 게 뭐니? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "What is the most important thing? but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Review",
+      "question": "What is the condition?",
+      "korean": "파리에 산다면 행복할 텐데.",
+      "english": "If I lived in Paris I would be happy.",
       "chunks": [
         {
-          "text": "What is the most important",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "thing? but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal because",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "the atmosphere is very positive.",
+          "text": "If I lived in Paris",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "would be",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "happy",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Superlative Questions",
-      "question": "Describe what or their status."
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "4-20-7",
       "section": "Day 20",
-      "description": "Superlative Questions",
-      "korean": "분위기가 대단히 긍정적이기 때문에 가장 힘 센 남자는 누구니? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Who is the strongest man? but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Review",
+      "question": "What is the condition?",
+      "korean": "일찍 끝나면 갈게.",
+      "english": "If I finish early I will go.",
       "chunks": [
         {
-          "text": "Who is the strongest",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "man? but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "goal because the atmosphere",
+          "text": "If I finish early",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "is very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will go",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Superlative Questions",
-      "question": "Describe who or their status."
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "4-20-8",
       "section": "Day 20",
-      "description": "Superlative Questions",
-      "korean": "분위기가 대단히 긍정적이기 때문에 어떤 산이 가장 높니? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Which mountain is the highest? but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Review",
+      "question": "Answer this question.",
+      "korean": "실패하면 어쩌지?",
+      "english": "What if we fail?",
       "chunks": [
         {
-          "text": "Which mountain is the",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "highest? but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "goal because the atmosphere",
+          "text": "What if we fail",
           "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "is very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Superlative Questions",
-      "question": "Describe which or their status."
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "4-20-9",
       "section": "Day 20",
-      "description": "Superlative Questions",
-      "korean": "분위기가 대단히 긍정적이기 때문에 네 최고의 기억은 뭐니? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "What is your best memory? but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Review",
+      "question": "What is the condition?",
+      "korean": "빨강과 파랑을 섞으면 보라색이 된다.",
+      "english": "If you mix red and blue you get purple.",
       "chunks": [
         {
-          "text": "What is your best",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "memory? but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "goal because the atmosphere",
+          "text": "If you mix red and blue",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "is very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "you",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "get",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "purple",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Superlative Questions",
-      "question": "Describe what or their status."
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "4-20-10",
       "section": "Day 20",
-      "description": "Superlative Questions",
-      "korean": "분위기가 대단히 긍정적이기 때문에 네 가장 친한 친구는 누구니? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Who is your best friend? but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Review",
+      "question": "What is the condition?",
+      "korean": "내가 새라면 날아갈 텐데.",
+      "english": "If I were a bird I would fly.",
       "chunks": [
         {
-          "text": "Who is your best",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "friend? but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "goal because the atmosphere",
+          "text": "If I were a bird",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "is very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "would fly",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Superlative Questions",
-      "question": "Describe who or their status."
-    },
-    {
-      "id": "4-20-11",
-      "section": "Day 20",
-      "description": "Superlative Questions",
-      "korean": "분위기가 대단히 긍정적이기 때문에 먹기 제일 좋은 곳이 어디니? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Where is the best place to eat? but we must stay focused on our goal because the atmosphere is very positive.",
-      "chunks": [
-        {
-          "text": "Where is the best place",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "to eat? but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our goal",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "because the atmosphere is very",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Superlative Questions",
-      "question": "Describe where or their status."
-    },
-    {
-      "id": "4-20-12",
-      "section": "Day 20",
-      "description": "Superlative Questions",
-      "korean": "분위기가 대단히 긍정적이기 때문에 왜 그가 가장 유명하니? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Why is he the most famous? but we must stay focused on our goal because the atmosphere is very positive.",
-      "chunks": [
-        {
-          "text": "Why is he the most",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "famous? but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal because",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "the atmosphere is very positive.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Superlative Questions",
-      "question": "Describe why or their status."
-    },
-    {
-      "id": "4-20-13",
-      "section": "Day 20",
-      "description": "Superlative Questions",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 어떻게 최고의 것을 찾았니? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "How did you find the best one? but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "How did you find the",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "best one? but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our goal",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "when we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Superlative Questions",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-20-14",
-      "section": "Day 20",
-      "description": "Superlative Questions",
-      "korean": "분위기가 대단히 긍정적이기 때문에 이게 네 최선이니? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Is this the best you can do? but we must stay focused on our goal because the atmosphere is very positive.",
-      "chunks": [
-        {
-          "text": "Is this the best you",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "can do? but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our goal",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "because the atmosphere is very",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Superlative Questions",
-      "question": "Describe is or their status."
-    },
-    {
-      "id": "4-20-15",
-      "section": "Day 20",
-      "description": "Superlative Questions",
-      "korean": "분위기가 대단히 긍정적이기 때문에 네가 가장 나이 많니? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Are you the oldest? but we must stay focused on our goal because the atmosphere is very positive.",
-      "chunks": [
-        {
-          "text": "Are you the oldest?",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "because the atmosphere is",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Superlative Questions",
-      "question": "Describe are or their status."
-    },
-    {
-      "id": "4-20-16",
-      "section": "Day 20",
-      "description": "Superlative Questions",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 일어날 수 있는 최악의 일은? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "What's the worst that can happen? but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "What's the worst that can",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "happen? but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Superlative Questions",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-20-17",
-      "section": "Day 20",
-      "description": "Superlative Questions",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 누가 널 가장 사랑하니? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Who loves you most? but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Who loves you most? but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Superlative Questions",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-20-18",
-      "section": "Day 20",
-      "description": "Superlative Questions",
-      "korean": "분위기가 대단히 긍정적이기 때문에 가장 쿨한 장소가 어디야? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Where is the coolest spot? but we must stay focused on our goal because the atmosphere is very positive.",
-      "chunks": [
-        {
-          "text": "Where is the coolest",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "spot? but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "goal because the atmosphere",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "is very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Superlative Questions",
-      "question": "Describe where or their status."
-    },
-    {
-      "id": "4-20-19",
-      "section": "Day 20",
-      "description": "Superlative Questions",
-      "korean": "분위기가 대단히 긍정적이기 때문에 어느 게 가성비 최고야? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Which one is the best value? but we must stay focused on our goal because the atmosphere is very positive.",
-      "chunks": [
-        {
-          "text": "Which one is the best",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "value? but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal because",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "the atmosphere is very positive.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Superlative Questions",
-      "question": "Describe which or their status."
-    },
-    {
-      "id": "4-20-20",
-      "section": "Day 20",
-      "description": "Superlative Questions",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 가장 행복했던 순간은 언제였니? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "When was your happiest moment? but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "When was your happiest moment?",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "but we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a passionate",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Superlative Questions",
-      "question": "Describe when or their status."
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "4-21-1",
       "section": "Day 21",
       "description": "Review",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 난 최고다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "I am the best but we must stay focused on our goal when we work together as a passionate team.",
+      "question": "What is the condition?",
+      "korean": "일찍 끝나면 갈게.",
+      "english": "If I finish early I will go.",
       "chunks": [
         {
-          "text": "I am the best but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
+          "text": "If I finish early",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will go",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
       "context": "Review",
-      "question": "Describe i or their status."
+      "grammarGuide": {
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          },
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          }
+        ]
+      }
     },
     {
       "id": "4-21-2",
       "section": "Day 21",
       "description": "Review",
-      "korean": "분위기가 대단히 긍정적이기 때문에 그녀가 제일 빠르다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "She is the fastest but we must stay focused on our goal because the atmosphere is very positive.",
+      "question": "What is the main idea?",
+      "korean": "뛰지 않으면 늦을 거야.",
+      "english": "Unless you run you will be late.",
       "chunks": [
         {
-          "text": "She is the fastest",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "because the atmosphere is",
+          "text": "Unless you run",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "you",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will be",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "late",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
       "context": "Review",
-      "question": "Describe she or their status."
+      "grammarGuide": null
     },
     {
       "id": "4-21-3",
       "section": "Day 21",
       "description": "Review",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 그건 최악이었다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "It was the worst but we must stay focused on our goal when we work together as a passionate team.",
+      "question": "What is the condition?",
+      "korean": "100도가 되면 물이 끓는다.",
+      "english": "Water boils if it reaches 100 degrees.",
       "chunks": [
         {
-          "text": "It was the worst but",
+          "text": "Water",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we must stay focused on",
+          "text": "boils",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
+          "text": "if it reaches 100 degrees",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         }
       ],
       "context": "Review",
-      "question": "Describe it or their status."
+      "grammarGuide": null
     },
     {
       "id": "4-21-4",
       "section": "Day 21",
       "description": "Review",
-      "korean": "분위기가 대단히 긍정적이기 때문에 이게 제일 비싸다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "This is the most expensive but we must stay focused on our goal because the atmosphere is very positive.",
+      "question": "What is the condition?",
+      "korean": "내가 너라면 멈출 거야.",
+      "english": "If I were you I would stop.",
       "chunks": [
         {
-          "text": "This is the most",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "expensive but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "goal because the atmosphere",
+          "text": "If I were you",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "is very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "would stop",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
       "context": "Review",
-      "question": "Describe this or their status."
+      "grammarGuide": null
     },
     {
       "id": "4-21-5",
       "section": "Day 21",
       "description": "Review",
-      "korean": "분위기가 대단히 긍정적이기 때문에 그는 내 절친이다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "He is my best friend but we must stay focused on our goal because the atmosphere is very positive.",
+      "question": "Answer this question.",
+      "korean": "실패하면 어쩌지?",
+      "english": "What if we fail?",
       "chunks": [
         {
-          "text": "He is my best",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "friend but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "goal because the atmosphere",
+          "text": "What if we fail",
           "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "is very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#B0BEC5"
         }
       ],
       "context": "Review",
-      "question": "Describe he or their status."
+      "grammarGuide": null
     },
     {
       "id": "4-21-6",
       "section": "Day 21",
       "description": "Review",
-      "korean": "분위기가 대단히 긍정적이기 때문에 누가 승자니? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Who is the winner? but we must stay focused on our goal because the atmosphere is very positive.",
+      "question": "What is the condition?",
+      "korean": "얼음을 데우면 녹는다.",
+      "english": "If you heat ice it melts.",
       "chunks": [
         {
-          "text": "Who is the winner?",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "because the atmosphere is",
+          "text": "If you heat ice",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "it",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "melts",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
       "context": "Review",
-      "question": "Describe who or their status."
+      "grammarGuide": null
     },
     {
       "id": "4-21-7",
       "section": "Day 21",
       "description": "Review",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 첫 번째 것. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "The first one but we must stay focused on our goal when we work together as a passionate team.",
+      "question": "What is the condition?",
+      "korean": "노랑과 파랑을 섞으면 초록이 된다.",
+      "english": "If you mix yellow and blue you get green.",
       "chunks": [
         {
-          "text": "The first one but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
+          "text": "If you mix yellow and blue",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "you",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "get",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "green",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
       "context": "Review",
-      "question": "At what time does this occur?"
+      "grammarGuide": null
     },
     {
       "id": "4-21-8",
       "section": "Day 21",
       "description": "Review",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 마지막 것. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "The last one but we must stay focused on our goal when we work together as a passionate team.",
+      "question": "What is the condition?",
+      "korean": "서두르면 버스를 잡을 것이다.",
+      "english": "If we hurry we will catch the bus.",
       "chunks": [
         {
-          "text": "The last one but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
+          "text": "If we hurry",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "we",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "will catch",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the bus",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
       "context": "Review",
-      "question": "At what time does this occur?"
+      "grammarGuide": null
     },
     {
       "id": "4-21-9",
       "section": "Day 21",
       "description": "Review",
-      "korean": "분위기가 대단히 긍정적이기 때문에 넌 가장 아름다워. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "You are the most beautiful but we must stay focused on our goal because the atmosphere is very positive.",
+      "question": "What is the condition?",
+      "korean": "아니면 나에게 알려줘.",
+      "english": "If not let me know.",
       "chunks": [
         {
-          "text": "You are the most",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "beautiful but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "goal because the atmosphere",
+          "text": "If not",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "is very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "let",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "me know",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
       "context": "Review",
-      "question": "Describe you or their status."
+      "grammarGuide": null
     },
     {
       "id": "4-21-10",
       "section": "Day 21",
       "description": "Review",
-      "korean": "분위기가 대단히 긍정적이기 때문에 작은 게 최고야. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "The small one is the best but we must stay focused on our goal because the atmosphere is very positive.",
+      "question": "What is the condition?",
+      "korean": "나는 늦으면 뛴다.",
+      "english": "If I am late I run.",
       "chunks": [
         {
-          "text": "The small one is the",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "best but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal because",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "the atmosphere is very positive.",
+          "text": "If I am late",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "run",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
       "context": "Review",
-      "question": "Describe the or their status."
-    },
-    {
-      "id": "4-21-11",
-      "section": "Day 21",
-      "description": "Review",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 난 가장 큰 걸 원해. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "I want the biggest one but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "I want the biggest one",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "but we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a passionate",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Review",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-21-12",
-      "section": "Day 21",
-      "description": "Review",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 그는 가장 빨리 달렸다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "He ran the fastest but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "He ran the fastest but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Review",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-21-13",
-      "section": "Day 21",
-      "description": "Review",
-      "korean": "분위기가 대단히 긍정적이기 때문에 그게 제일 쉬운 길이다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "It is the easiest way but we must stay focused on our goal because the atmosphere is very positive.",
-      "chunks": [
-        {
-          "text": "It is the easiest",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "way but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "goal because the atmosphere",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "is very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Review",
-      "question": "Describe it or their status."
-    },
-    {
-      "id": "4-21-14",
-      "section": "Day 21",
-      "description": "Review",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 최선을 다해라. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Try your best but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Try your best but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Review",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-21-15",
-      "section": "Day 21",
-      "description": "Review",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 마침내. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "At last but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "At last but we",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Review",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-21-16",
-      "section": "Day 21",
-      "description": "Review",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 많을수록 더 즐겁지. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "The more, the merrier but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "The more, the merrier but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Review",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-21-17",
-      "section": "Day 21",
-      "description": "Review",
-      "korean": "분위기가 대단히 긍정적이기 때문에 정직이 최선의 방책이다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Honesty is the best policy but we must stay focused on our goal because the atmosphere is very positive.",
-      "chunks": [
-        {
-          "text": "Honesty is the best",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "policy but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "goal because the atmosphere",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "is very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Review",
-      "question": "Describe honesty or their status."
-    },
-    {
-      "id": "4-21-18",
-      "section": "Day 21",
-      "description": "Review",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 최대한으로. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "To the fullest but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "To the fullest but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Review",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-21-19",
-      "section": "Day 21",
-      "description": "Review",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 중요한 것부터 먼저. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "First things first but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "First things first but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Review",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-21-20",
-      "section": "Day 21",
-      "description": "Review",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 마지막 기회. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Last chance but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Last chance but we",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Review",
-      "question": "At what time does this occur?"
+      "grammarGuide": null
     }
   ]
 }

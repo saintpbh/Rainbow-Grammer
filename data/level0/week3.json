@@ -1,40 +1,99 @@
 {
   "curriculum": [
     {
-      "id": "1-1-1",
+      "id": "3-1-1",
       "section": "Day 15",
-      "description": "Subject + Verb + Object + Complement (Adjective)",
-      "korean": "너는 나를 행복하게 만든다.",
-      "english": "You make me happy.",
+      "description": "S + V + O + OC (Adjective): Pattern 5 - Object complements",
+      "korean": "그들은 나를 행복하게 만들었다.",
+      "english": "They made me happy.",
       "chunks": [
         {
-          "text": "You",
+          "text": "They",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "make",
+          "text": "made",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
           "text": "me",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#FFFF00"
         },
         {
           "text": "happy",
           "role": "Complement",
-          "color": "#BA68C8"
+          "color": "#E91E63"
         }
       ],
-      "context": "Result/State",
-      "question": "How do you make me?"
+      "question": "How does someone feel?"
     },
     {
-      "id": "1-1-2",
+      "id": "3-1-2",
       "section": "Day 15",
-      "description": "Subject + Verb + Object + Complement (Adjective)",
+      "description": "S + V + O + OC (Adjective): Pattern 5 - Object complements",
+      "korean": "우리는 그것을 흥미롭다고 생각했다.",
+      "english": "We found it interesting.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "found",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "it",
+          "role": "Object",
+          "color": "#FFFF00"
+        },
+        {
+          "text": "interesting",
+          "role": "Complement",
+          "color": "#E91E63"
+        }
+      ],
+      "question": "What do we do?"
+    },
+    {
+      "id": "3-1-3",
+      "section": "Day 15",
+      "description": "S + V + O + OC (Adjective): Pattern 5 - Object complements",
+      "korean": "그 소식은 나를 슬프게 했다.",
+      "english": "The news made me sad.",
+      "chunks": [
+        {
+          "text": "The news",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "made",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "me",
+          "role": "Object",
+          "color": "#FFFF00"
+        },
+        {
+          "text": "sad",
+          "role": "Complement",
+          "color": "#E91E63"
+        }
+      ],
+      "question": "How does someone feel?"
+    },
+    {
+      "id": "3-1-4",
+      "section": "Day 15",
+      "description": "S + V + O + OC (Adjective): Pattern 5 - Object complements",
       "korean": "그는 방을 깨끗하게 유지한다.",
       "english": "He keeps the room clean.",
       "chunks": [
@@ -51,119 +110,25 @@
         {
           "text": "the room",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#FFFF00"
         },
         {
           "text": "clean",
           "role": "Complement",
-          "color": "#BA68C8"
+          "color": "#E91E63"
         }
       ],
-      "context": "Result/State",
-      "question": "How does he keep the room?"
+      "question": "Where does this happen?"
     },
     {
-      "id": "1-1-3",
+      "id": "3-1-5",
       "section": "Day 15",
-      "description": "Subject + Verb + Object + Complement (Adjective)",
-      "korean": "그녀는 그 책이 쉽다는 것을 알았다.",
-      "english": "She found the book easy.",
+      "description": "S + V + O + OC (Adjective): Pattern 5 - Object complements",
+      "korean": "그녀는 문을 열어두었다.",
+      "english": "She left the door open.",
       "chunks": [
         {
           "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "found",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the book",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "easy",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Result/State",
-      "question": "How did she find it?"
-    },
-    {
-      "id": "1-1-4",
-      "section": "Day 15",
-      "description": "Subject + Verb + Object + Complement (Adjective)",
-      "korean": "그 음악은 우리를 슬프게 했다.",
-      "english": "The music made us sad.",
-      "chunks": [
-        {
-          "text": "The music",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "made",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "us",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "sad",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Result/State",
-      "question": "How did it make us?"
-    },
-    {
-      "id": "1-1-5",
-      "section": "Day 15",
-      "description": "Subject + Verb + Object + Complement (Adjective)",
-      "korean": "나는 그가 똑똑하다고 생각한다.",
-      "english": "I consider him smart.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "consider",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "him",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "smart",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Result/State",
-      "question": "How do you consider him?"
-    },
-    {
-      "id": "1-1-6",
-      "section": "Day 15",
-      "description": "Subject + Verb + Object + Complement (Adjective)",
-      "korean": "우리는 문을 열어 두었다.",
-      "english": "We left the door open.",
-      "chunks": [
-        {
-          "text": "We",
           "role": "Subject",
           "color": "#FF0000"
         },
@@ -175,23 +140,112 @@
         {
           "text": "the door",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#FFFF00"
         },
         {
           "text": "open",
           "role": "Complement",
-          "color": "#BA68C8"
+          "color": "#E91E63"
         }
       ],
-      "context": "Result/State",
-      "question": "How did we leave it?"
+      "question": "What does she do?"
     },
     {
-      "id": "1-1-7",
+      "id": "3-1-6",
       "section": "Day 15",
-      "description": "Subject + Verb + Object + Complement (Adjective)",
-      "korean": "그들은 벽을 파랗게 칠했다.",
-      "english": "They painted the wall blue.",
+      "description": "S + V + O + OC (Adjective): Pattern 5 - Object complements",
+      "korean": "우리는 그를 신뢰할 수 있다고 생각한다.",
+      "english": "We consider him reliable.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "consider",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "him",
+          "role": "Object",
+          "color": "#FFFF00"
+        },
+        {
+          "text": "reliable",
+          "role": "Complement",
+          "color": "#E91E63"
+        }
+      ],
+      "question": "What do we do?"
+    },
+    {
+      "id": "3-1-7",
+      "section": "Day 15",
+      "description": "S + V + O + OC (Adjective): Pattern 5 - Object complements",
+      "korean": "그 영화는 나를 지루하게 만들었다.",
+      "english": "The movie made me bored.",
+      "chunks": [
+        {
+          "text": "The movie",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "made",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "me",
+          "role": "Object",
+          "color": "#FFFF00"
+        },
+        {
+          "text": "bored",
+          "role": "Complement",
+          "color": "#E91E63"
+        }
+      ],
+      "question": "What is being described?"
+    },
+    {
+      "id": "3-1-8",
+      "section": "Day 15",
+      "description": "S + V + O + OC (Adjective): Pattern 5 - Object complements",
+      "korean": "음악은 나를 편안하게 한다.",
+      "english": "Music makes me relaxed.",
+      "chunks": [
+        {
+          "text": "Music",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "makes",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "me",
+          "role": "Object",
+          "color": "#FFFF00"
+        },
+        {
+          "text": "relaxed",
+          "role": "Complement",
+          "color": "#E91E63"
+        }
+      ],
+      "question": "What is this sentence about?"
+    },
+    {
+      "id": "3-1-9",
+      "section": "Day 15",
+      "description": "S + V + O + OC (Adjective): Pattern 5 - Object complements",
+      "korean": "그들은 우리를 환영받는다고 느끼게 했다.",
+      "english": "They made us feel welcome.",
       "chunks": [
         {
           "text": "They",
@@ -199,278 +253,29 @@
           "color": "#FF0000"
         },
         {
-          "text": "painted",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the wall",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "blue",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Result/State",
-      "question": "What color did they paint?"
-    },
-    {
-      "id": "1-1-8",
-      "section": "Day 15",
-      "description": "Subject + Verb + Object + Complement (Adjective)",
-      "korean": "커피는 나를 깨어있게 한다.",
-      "english": "Coffee keeps me awake.",
-      "chunks": [
-        {
-          "text": "Coffee",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "keeps",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "me",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "awake",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Result/State",
-      "question": "How does coffee keep you?"
-    },
-    {
-      "id": "1-1-9",
-      "section": "Day 15",
-      "description": "Subject + Verb + Object + Complement (Adjective)",
-      "korean": "그녀는 팀을 강하게 만든다.",
-      "english": "She makes the team strong.",
-      "chunks": [
-        {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "makes",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the team",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "strong",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Result/State",
-      "question": "How does she make the team?"
-    },
-    {
-      "id": "1-1-10",
-      "section": "Day 15",
-      "description": "Subject + Verb + Object + Complement (Adjective)",
-      "korean": "그는 그 개를 귀엽다고 부른다.",
-      "english": "He calls the dog cute.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "calls",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the dog",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "cute",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Result/State",
-      "question": "What does he call the dog?"
-    },
-    {
-      "id": "1-1-11",
-      "section": "Day 15",
-      "description": "Subject + Verb + Object + Complement (Adjective)",
-      "korean": "사랑은 우리를 눈멀게 한다.",
-      "english": "Love makes us blind.",
-      "chunks": [
-        {
-          "text": "Love",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "makes",
+          "text": "made",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
           "text": "us",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#FFFF00"
         },
         {
-          "text": "blind",
+          "text": "feel welcome",
           "role": "Complement",
-          "color": "#BA68C8"
+          "color": "#E91E63"
         }
       ],
-      "context": "Result/State",
-      "question": "How does love make us?"
+      "question": "How does someone feel?"
     },
     {
-      "id": "1-1-12",
+      "id": "3-1-10",
       "section": "Day 15",
-      "description": "Subject + Verb + Object + Complement (Adjective)",
-      "korean": "두려움은 그를 약하게 만들었다.",
-      "english": "Fear made him weak.",
-      "chunks": [
-        {
-          "text": "Fear",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "made",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "him",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "weak",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Result/State",
-      "question": "How did fear make him?"
-    },
-    {
-      "id": "1-1-13",
-      "section": "Day 15",
-      "description": "Subject + Verb + Object + Complement (Adjective)",
-      "korean": "우리는 집이 깨끗하기를 원한다.",
-      "english": "We want the house clean.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "want",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the house",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "clean",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Result/State",
-      "question": "How do we want the house?"
-    },
-    {
-      "id": "1-1-14",
-      "section": "Day 15",
-      "description": "Subject + Verb + Object + Complement (Adjective)",
-      "korean": "그녀는 그가 정직하다고 믿는다.",
-      "english": "She believes him honest.",
-      "chunks": [
-        {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "believes",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "him",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "honest",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Result/State",
-      "question": "How does she believe him?"
-    },
-    {
-      "id": "1-1-15",
-      "section": "Day 15",
-      "description": "Subject + Verb + Object + Complement (Adjective)",
-      "korean": "태양은 날씨를 덥게 만든다.",
-      "english": "The sun makes it hot.",
-      "chunks": [
-        {
-          "text": "The sun",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "makes",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "it",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "hot",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Result/State",
-      "question": "How does the sun make it?"
-    },
-    {
-      "id": "1-1-16",
-      "section": "Day 15",
-      "description": "Subject + Verb + Object + Complement (Adjective)",
-      "korean": "그는 커피를 블랙으로 선호한다.",
-      "english": "He prefers his coffee black.",
+      "description": "S + V + O + OC (Adjective): Pattern 5 - Object complements",
+      "korean": "그는 차를 따듯하게 유지했다.",
+      "english": "He kept the tea warm.",
       "chunks": [
         {
           "text": "He",
@@ -478,250 +283,32 @@
           "color": "#FF0000"
         },
         {
-          "text": "prefers",
+          "text": "kept",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "his coffee",
+          "text": "the tea",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#FFFF00"
         },
         {
-          "text": "black",
+          "text": "warm",
           "role": "Complement",
-          "color": "#BA68C8"
+          "color": "#E91E63"
         }
       ],
-      "context": "Result/State",
-      "question": "How does he prefer his coffee?"
+      "question": "What does he do?"
     },
     {
-      "id": "1-1-17",
-      "section": "Day 15",
-      "description": "Subject + Verb + Object + Complement (Adjective)",
-      "korean": "그 소식은 그들을 화나게 했다.",
-      "english": "The news made them angry.",
-      "chunks": [
-        {
-          "text": "The news",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "made",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "them",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "angry",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Result/State",
-      "question": "How did the news make them?"
-    },
-    {
-      "id": "1-1-18",
-      "section": "Day 15",
-      "description": "Subject + Verb + Object + Complement (Adjective)",
-      "korean": "나는 시험이 어렵다는 것을 알았다.",
-      "english": "I found the test hard.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "found",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the test",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "hard",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Result/State",
-      "question": "How did you find the test?"
-    },
-    {
-      "id": "1-1-19",
-      "section": "Day 15",
-      "description": "Subject + Verb + Object + Complement (Adjective)",
-      "korean": "그들은 도시를 안전하게 지킨다.",
-      "english": "They keep the city safe.",
+      "id": "3-2-1",
+      "section": "Day 16",
+      "description": "S + V + O + OC (Noun): Pattern 5 - Object complements with nouns",
+      "korean": "그들은 그를 회장으로 선출했다.",
+      "english": "They elected him president.",
       "chunks": [
         {
           "text": "They",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "keep",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the city",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "safe",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Result/State",
-      "question": "How do they keep the city?"
-    },
-    {
-      "id": "1-1-20",
-      "section": "Day 15",
-      "description": "Subject + Verb + Object + Complement (Adjective)",
-      "korean": "너는 나를 말문이 막히게 한다.",
-      "english": "You render me speechless.",
-      "chunks": [
-        {
-          "text": "You",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "render",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "me",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "speechless",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Result/State",
-      "question": "How do you render me?"
-    },
-    {
-      "id": "1-2-1",
-      "section": "Day 16",
-      "description": "Subject + Verb + Object + Complement (Noun)",
-      "korean": "우리는 그를 톰이라고 부른다.",
-      "english": "We call him Tom.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "call",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "him",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "Tom",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Designation",
-      "question": "What do we call him?"
-    },
-    {
-      "id": "1-2-2",
-      "section": "Day 16",
-      "description": "Subject + Verb + Object + Complement (Noun)",
-      "korean": "그들은 아기 이름을 조이라고 지었다.",
-      "english": "They named the baby Joy.",
-      "chunks": [
-        {
-          "text": "They",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "named",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the baby",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "Joy",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Designation",
-      "question": "What did they name the baby?"
-    },
-    {
-      "id": "1-2-3",
-      "section": "Day 16",
-      "description": "Subject + Verb + Object + Complement (Noun)",
-      "korean": "나는 그를 리더로 만들었다.",
-      "english": "I made him a leader.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "made",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "him",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "a leader",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Designation",
-      "question": "What did you make him?"
-    },
-    {
-      "id": "1-2-4",
-      "section": "Day 16",
-      "description": "Subject + Verb + Object + Complement (Noun)",
-      "korean": "그녀는 그를 회장으로 선출했다.",
-      "english": "She elected him president.",
-      "chunks": [
-        {
-          "text": "She",
           "role": "Subject",
           "color": "#FF0000"
         },
@@ -733,26 +320,25 @@
         {
           "text": "him",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#FFFF00"
         },
         {
           "text": "president",
           "role": "Complement",
-          "color": "#BA68C8"
+          "color": "#E91E63"
         }
       ],
-      "context": "Designation",
-      "question": "What did she elect him?"
+      "question": "What do they do?"
     },
     {
-      "id": "1-2-5",
+      "id": "3-2-2",
       "section": "Day 16",
-      "description": "Subject + Verb + Object + Complement (Noun)",
-      "korean": "사람들은 그것을 마법이라고 부른다.",
-      "english": "People call it magic.",
+      "description": "S + V + O + OC (Noun): Pattern 5 - Object complements with nouns",
+      "korean": "우리는 그녀를 리더라고 부른다.",
+      "english": "We call her leader.",
       "chunks": [
         {
-          "text": "People",
+          "text": "We",
           "role": "Subject",
           "color": "#FF0000"
         },
@@ -762,87 +348,24 @@
           "color": "#FF7F00"
         },
         {
-          "text": "it",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "magic",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Designation",
-      "question": "What do people call it?"
-    },
-    {
-      "id": "1-2-6",
-      "section": "Day 16",
-      "description": "Subject + Verb + Object + Complement (Noun)",
-      "korean": "우리는 그녀를 매니저로 임명했다.",
-      "english": "We appointed her manager.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "appointed",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
           "text": "her",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#FFFF00"
         },
         {
-          "text": "manager",
+          "text": "leader",
           "role": "Complement",
-          "color": "#BA68C8"
+          "color": "#E91E63"
         }
       ],
-      "context": "Designation",
-      "question": "What did we appoint her?"
+      "question": "What do we do?"
     },
     {
-      "id": "1-2-7",
+      "id": "3-2-3",
       "section": "Day 16",
-      "description": "Subject + Verb + Object + Complement (Noun)",
-      "korean": "그는 나를 친구로 생각한다.",
-      "english": "He considers me a friend.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "considers",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "me",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "a friend",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Designation",
-      "question": "What does he consider you?"
-    },
-    {
-      "id": "1-2-8",
-      "section": "Day 16",
-      "description": "Subject + Verb + Object + Complement (Noun)",
-      "korean": "그들은 그 도시를 수도로 만들었다.",
-      "english": "They made the city a capital.",
+      "description": "S + V + O + OC (Noun): Pattern 5 - Object complements with nouns",
+      "korean": "그들은 그를 영웅으로 만들었다.",
+      "english": "They made him a hero.",
       "chunks": [
         {
           "text": "They",
@@ -855,87 +378,84 @@
           "color": "#FF7F00"
         },
         {
-          "text": "the city",
+          "text": "him",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#FFFF00"
         },
         {
-          "text": "a capital",
+          "text": "a hero",
           "role": "Complement",
-          "color": "#BA68C8"
+          "color": "#E91E63"
         }
       ],
-      "context": "Designation",
-      "question": "What did they make the city?"
+      "question": "What do they do?"
     },
     {
-      "id": "1-2-9",
+      "id": "3-2-4",
       "section": "Day 16",
-      "description": "Subject + Verb + Object + Complement (Noun)",
-      "korean": "나는 이 배를 희망이라고 이름 짓는다.",
-      "english": "I name this ship Hope.",
+      "description": "S + V + O + OC (Noun): Pattern 5 - Object complements with nouns",
+      "korean": "그는 개를 맥스라고 이름지었다.",
+      "english": "He named the dog Max.",
       "chunks": [
         {
-          "text": "I",
+          "text": "He",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "name",
+          "text": "named",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "this ship",
+          "text": "the dog",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#FFFF00"
         },
         {
-          "text": "Hope",
+          "text": "Max",
           "role": "Complement",
-          "color": "#BA68C8"
+          "color": "#E91E63"
         }
       ],
-      "context": "Designation",
-      "question": "What do you name this ship?"
+      "question": "What does he do?"
     },
     {
-      "id": "1-2-10",
+      "id": "3-2-5",
       "section": "Day 16",
-      "description": "Subject + Verb + Object + Complement (Noun)",
-      "korean": "우리는 그가 천재라는 것을 알았다.",
-      "english": "We found him a genius.",
+      "description": "S + V + O + OC (Noun): Pattern 5 - Object complements with nouns",
+      "korean": "회사는 그를 매니저로 임명했다.",
+      "english": "The company appointed him manager.",
       "chunks": [
         {
-          "text": "We",
+          "text": "The company",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "found",
+          "text": "appointed",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
           "text": "him",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#FFFF00"
         },
         {
-          "text": "a genius",
+          "text": "manager",
           "role": "Complement",
-          "color": "#BA68C8"
+          "color": "#E91E63"
         }
       ],
-      "context": "Designation",
-      "question": "What did we find him?"
+      "question": "What is being described?"
     },
     {
-      "id": "1-2-11",
+      "id": "3-2-6",
       "section": "Day 16",
-      "description": "Subject + Verb + Object + Complement (Noun)",
-      "korean": "그들은 그를 영웅이라고 칭했다.",
-      "english": "They labeled him a hero.",
+      "description": "S + V + O + OC (Noun): Pattern 5 - Object complements with nouns",
+      "korean": "그들은 그녀를 챔피언이라 생각한다.",
+      "english": "They consider her a champion.",
       "chunks": [
         {
           "text": "They",
@@ -943,30 +463,59 @@
           "color": "#FF0000"
         },
         {
-          "text": "labeled",
+          "text": "consider",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "her",
+          "role": "Object",
+          "color": "#FFFF00"
+        },
+        {
+          "text": "a champion",
+          "role": "Complement",
+          "color": "#E91E63"
+        }
+      ],
+      "question": "What do they do?"
+    },
+    {
+      "id": "3-2-7",
+      "section": "Day 16",
+      "description": "S + V + O + OC (Noun): Pattern 5 - Object complements with nouns",
+      "korean": "우리는 그를 친구라고 부른다.",
+      "english": "We call him friend.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "call",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
           "text": "him",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#FFFF00"
         },
         {
-          "text": "a hero",
+          "text": "friend",
           "role": "Complement",
-          "color": "#BA68C8"
+          "color": "#E91E63"
         }
       ],
-      "context": "Designation",
-      "question": "What did they label him?"
+      "question": "What do we do?"
     },
     {
-      "id": "1-2-12",
+      "id": "3-2-8",
       "section": "Day 16",
-      "description": "Subject + Verb + Object + Complement (Noun)",
-      "korean": "그녀는 고양이를 키티라고 부른다.",
-      "english": "She calls her cat Kitty.",
+      "description": "S + V + O + OC (Noun): Pattern 5 - Object complements with nouns",
+      "korean": "그녀는 딸을 수잔이라 이름지었다.",
+      "english": "She named her daughter Susan.",
       "chunks": [
         {
           "text": "She",
@@ -974,33 +523,32 @@
           "color": "#FF0000"
         },
         {
-          "text": "calls",
+          "text": "named",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "her cat",
+          "text": "her daughter",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#FFFF00"
         },
         {
-          "text": "Kitty",
+          "text": "Susan",
           "role": "Complement",
-          "color": "#BA68C8"
+          "color": "#E91E63"
         }
       ],
-      "context": "Designation",
-      "question": "What does she call her cat?"
+      "question": "What does she do?"
     },
     {
-      "id": "1-2-13",
+      "id": "3-2-9",
       "section": "Day 16",
-      "description": "Subject + Verb + Object + Complement (Noun)",
-      "korean": "팀은 그를 주장으로 뽑았다.",
-      "english": "The team chose him captain.",
+      "description": "S + V + O + OC (Noun): Pattern 5 - Object complements with nouns",
+      "korean": "국민들은 그를 대통령으로 선택했다.",
+      "english": "The people chose him president.",
       "chunks": [
         {
-          "text": "The team",
+          "text": "The people",
           "role": "Subject",
           "color": "#FF0000"
         },
@@ -1012,181 +560,25 @@
         {
           "text": "him",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#FFFF00"
         },
         {
-          "text": "captain",
+          "text": "president",
           "role": "Complement",
-          "color": "#BA68C8"
+          "color": "#E91E63"
         }
       ],
-      "context": "Designation",
-      "question": "What did the team choose him?"
+      "question": "What is being described?"
     },
     {
-      "id": "1-2-14",
+      "id": "3-2-10",
       "section": "Day 16",
-      "description": "Subject + Verb + Object + Complement (Noun)",
-      "korean": "역사는 그를 왕이라고 부른다.",
-      "english": "History calls him a king.",
+      "description": "S + V + O + OC (Noun): Pattern 5 - Object complements with nouns",
+      "korean": "학교는 그를 교장으로 임명했다.",
+      "english": "The school made him principal.",
       "chunks": [
         {
-          "text": "History",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "calls",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "him",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "a king",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Designation",
-      "question": "What does history call him?"
-    },
-    {
-      "id": "1-2-15",
-      "section": "Day 16",
-      "description": "Subject + Verb + Object + Complement (Noun)",
-      "korean": "나는 이것을 성공이라고 생각한다.",
-      "english": "I consider this a success.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "consider",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "this",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "a success",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Designation",
-      "question": "What do you consider this?"
-    },
-    {
-      "id": "1-2-16",
-      "section": "Day 16",
-      "description": "Subject + Verb + Object + Complement (Noun)",
-      "korean": "그는 자신을 승자라고 선언했다.",
-      "english": "He declared himself winner.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "declared",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "himself",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "winner",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Designation",
-      "question": "What did he declare himself?"
-    },
-    {
-      "id": "1-2-17",
-      "section": "Day 16",
-      "description": "Subject + Verb + Object + Complement (Noun)",
-      "korean": "우리는 그녀를 여왕으로 옹립했다.",
-      "english": "We crowned her queen.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "crowned",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "her",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "queen",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Designation",
-      "question": "What did we crown her?"
-    },
-    {
-      "id": "1-2-18",
-      "section": "Day 16",
-      "description": "Subject + Verb + Object + Complement (Noun)",
-      "korean": "그들은 그것을 재앙이라고 불렀다.",
-      "english": "They termed it a disaster.",
-      "chunks": [
-        {
-          "text": "They",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "termed",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "it",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "a disaster",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Designation",
-      "question": "What did they term it?"
-    },
-    {
-      "id": "1-2-19",
-      "section": "Day 16",
-      "description": "Subject + Verb + Object + Complement (Noun)",
-      "korean": "그녀는 방을 스튜디오로 만들었다.",
-      "english": "She made the room a studio.",
-      "chunks": [
-        {
-          "text": "She",
+          "text": "The school",
           "role": "Subject",
           "color": "#FF0000"
         },
@@ -1196,55 +588,23 @@
           "color": "#FF7F00"
         },
         {
-          "text": "the room",
+          "text": "him",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#FFFF00"
         },
         {
-          "text": "a studio",
+          "text": "principal",
           "role": "Complement",
-          "color": "#BA68C8"
+          "color": "#E91E63"
         }
       ],
-      "context": "Designation",
-      "question": "What did she make the room?"
+      "question": "Where does this happen?"
     },
     {
-      "id": "1-2-20",
-      "section": "Day 16",
-      "description": "Subject + Verb + Object + Complement (Noun)",
-      "korean": "그는 포커를 게임이라고 생각한다.",
-      "english": "He finds poker a game.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "finds",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "poker",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "a game",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Designation",
-      "question": "What does he find poker?"
-    },
-    {
-      "id": "1-3-1",
+      "id": "3-3-1",
       "section": "Day 17",
-      "description": "Yes/No Questions",
-      "korean": "너는 사과를 좋아하니?",
+      "description": "Questions: Yes/No questions with do/does/did",
+      "korean": "당신은 사과를 좋아하나요?",
       "english": "Do you like apples?",
       "chunks": [
         {
@@ -1265,21 +625,20 @@
         {
           "text": "apples",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#FFFF00"
         }
       ],
-      "context": "Question",
-      "question": "Answer: Yes/No"
+      "question": "Answer this question."
     },
     {
-      "id": "1-3-2",
+      "id": "3-3-2",
       "section": "Day 17",
-      "description": "Yes/No Questions",
-      "korean": "그녀는 그를 아니?",
-      "english": "Does she know him?",
+      "description": "Questions: Yes/No questions with do/does/did",
+      "korean": "그녀는 숙제를 끝냈나요?",
+      "english": "Did she finish homework?",
       "chunks": [
         {
-          "text": "Does",
+          "text": "Did",
           "role": "Verb",
           "color": "#FF7F00"
         },
@@ -1289,199 +648,32 @@
           "color": "#FF0000"
         },
         {
-          "text": "know",
+          "text": "finish",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "him",
+          "text": "homework",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#FFFF00"
         }
       ],
-      "context": "Question",
-      "question": "Answer: Yes/No"
+      "question": "Answer this question."
     },
     {
-      "id": "1-3-3",
+      "id": "3-3-3",
       "section": "Day 17",
-      "description": "Yes/No Questions",
-      "korean": "그는 집에 갔니?",
-      "english": "Did he go home?",
+      "description": "Questions: Yes/No questions with do/does/did",
+      "korean": "그는 피아노를 연주하나요?",
+      "english": "Does he play piano?",
       "chunks": [
         {
-          "text": "Did",
+          "text": "Does",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
           "text": "he",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "home",
-          "role": "Modifier",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Question",
-      "question": "Answer: Yes/No"
-    },
-    {
-      "id": "1-3-4",
-      "section": "Day 17",
-      "description": "Yes/No Questions",
-      "korean": "너는 학생이니?",
-      "english": "Are you a student?",
-      "chunks": [
-        {
-          "text": "Are",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "you",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "a student",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Question",
-      "question": "Answer: Yes/No"
-    },
-    {
-      "id": "1-3-5",
-      "section": "Day 17",
-      "description": "Yes/No Questions",
-      "korean": "춥니?",
-      "english": "Is it cold?",
-      "chunks": [
-        {
-          "text": "Is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "it",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "cold",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Question",
-      "question": "Answer: Yes/No"
-    },
-    {
-      "id": "1-3-6",
-      "section": "Day 17",
-      "description": "Yes/No Questions",
-      "korean": "너 수영할 수 있니?",
-      "english": "Can you swim?",
-      "chunks": [
-        {
-          "text": "Can",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "you",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "swim",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Question",
-      "question": "Answer: Yes/No"
-    },
-    {
-      "id": "1-3-7",
-      "section": "Day 17",
-      "description": "Yes/No Questions",
-      "korean": "그들이 올까?",
-      "english": "Will they come?",
-      "chunks": [
-        {
-          "text": "Will",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "they",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "come",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Question",
-      "question": "Answer: Yes/No"
-    },
-    {
-      "id": "1-3-8",
-      "section": "Day 17",
-      "description": "Yes/No Questions",
-      "korean": "그것을 본 적 있니?",
-      "english": "Have you seen it?",
-      "chunks": [
-        {
-          "text": "Have",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "you",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "seen",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "it",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Question",
-      "question": "Answer: Yes/No"
-    },
-    {
-      "id": "1-3-9",
-      "section": "Day 17",
-      "description": "Yes/No Questions",
-      "korean": "그들은 축구를 하니?",
-      "english": "Do they play soccer?",
-      "chunks": [
-        {
-          "text": "Do",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "they",
           "role": "Subject",
           "color": "#FF0000"
         },
@@ -1491,142 +683,22 @@
           "color": "#FF7F00"
         },
         {
-          "text": "soccer",
+          "text": "piano",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#FFFF00"
         }
       ],
-      "context": "Question",
-      "question": "Answer: Yes/No"
+      "question": "Answer this question."
     },
     {
-      "id": "1-3-10",
+      "id": "3-3-4",
       "section": "Day 17",
-      "description": "Yes/No Questions",
-      "korean": "점심 먹었니?",
-      "english": "Did you eat lunch?",
+      "description": "Questions: Yes/No questions with do/does/did",
+      "korean": "그들은 영화를 봤나요?",
+      "english": "Did they watch the movie?",
       "chunks": [
         {
           "text": "Did",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "you",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "eat",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "lunch",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Question",
-      "question": "Answer: Yes/No"
-    },
-    {
-      "id": "1-3-11",
-      "section": "Day 17",
-      "description": "Yes/No Questions",
-      "korean": "그것이 작동하니?",
-      "english": "Does it work?",
-      "chunks": [
-        {
-          "text": "Does",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "it",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "work",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Question",
-      "question": "Answer: Yes/No"
-    },
-    {
-      "id": "1-3-12",
-      "section": "Day 17",
-      "description": "Yes/No Questions",
-      "korean": "우리가 이것이 필요하니?",
-      "english": "Do we need this?",
-      "chunks": [
-        {
-          "text": "Do",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "we",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "need",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "this",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Question",
-      "question": "Answer: Yes/No"
-    },
-    {
-      "id": "1-3-13",
-      "section": "Day 17",
-      "description": "Yes/No Questions",
-      "korean": "그녀가 너에게 전화했니?",
-      "english": "Did she call you?",
-      "chunks": [
-        {
-          "text": "Did",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "she",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "call",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "you",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Question",
-      "question": "Answer: Yes/No"
-    },
-    {
-      "id": "1-3-14",
-      "section": "Day 17",
-      "description": "Yes/No Questions",
-      "korean": "그들은 친구니?",
-      "english": "Are they friends?",
-      "chunks": [
-        {
-          "text": "Are",
           "role": "Verb",
           "color": "#FF7F00"
         },
@@ -1636,215 +708,27 @@
           "color": "#FF0000"
         },
         {
-          "text": "friends",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "watch",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the movie",
+          "role": "Object",
+          "color": "#FFFF00"
         }
       ],
-      "context": "Question",
-      "question": "Answer: Yes/No"
+      "question": "Answer this question."
     },
     {
-      "id": "1-3-15",
+      "id": "3-3-5",
       "section": "Day 17",
-      "description": "Yes/No Questions",
-      "korean": "그는 자고 있니?",
-      "english": "Is he sleeping?",
+      "description": "Questions: Yes/No questions with do/does/did",
+      "korean": "당신은 커피를 마시나요?",
+      "english": "Do you drink coffee?",
       "chunks": [
         {
-          "text": "Is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "he",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "sleeping",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Question",
-      "question": "Answer: Yes/No"
-    },
-    {
-      "id": "1-3-16",
-      "section": "Day 17",
-      "description": "Yes/No Questions",
-      "korean": "우리 지금 가도 되니?",
-      "english": "Can we go now?",
-      "chunks": [
-        {
-          "text": "Can",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "we",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "now",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Question",
-      "question": "Answer: Yes/No"
-    },
-    {
-      "id": "1-3-17",
-      "section": "Day 17",
-      "description": "Yes/No Questions",
-      "korean": "내가 머물러야 하니?",
-      "english": "Should I stay?",
-      "chunks": [
-        {
-          "text": "Should",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "stay",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Question",
-      "question": "Answer: Yes/No"
-    },
-    {
-      "id": "1-3-18",
-      "section": "Day 17",
-      "description": "Yes/No Questions",
-      "korean": "우리가 끝내야만 하니?",
-      "english": "Must we finish?",
-      "chunks": [
-        {
-          "text": "Must",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "we",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "finish",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Question",
-      "question": "Answer: Yes/No"
-    },
-    {
-      "id": "1-3-19",
-      "section": "Day 17",
-      "description": "Yes/No Questions",
-      "korean": "그가 도착했니?",
-      "english": "Has he arrived?",
-      "chunks": [
-        {
-          "text": "Has",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "he",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "arrived",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Question",
-      "question": "Answer: Yes/No"
-    },
-    {
-      "id": "1-3-20",
-      "section": "Day 17",
-      "description": "Yes/No Questions",
-      "korean": "재미있었니?",
-      "english": "Was it fun?",
-      "chunks": [
-        {
-          "text": "Was",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "it",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "fun",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Question",
-      "question": "Answer: Yes/No"
-    },
-    {
-      "id": "1-4-1",
-      "section": "Day 18",
-      "description": "Wh- Questions",
-      "korean": "이건 뭐니?",
-      "english": "What is this?",
-      "chunks": [
-        {
-          "text": "What",
-          "role": "Wh-Word",
-          "color": "#9C27B0"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "this",
-          "role": "Subject",
-          "color": "#FF0000"
-        }
-      ],
-      "context": "Information Question",
-      "question": "Ask for info"
-    },
-    {
-      "id": "1-4-2",
-      "section": "Day 18",
-      "description": "Wh- Questions",
-      "korean": "넌 누구니?",
-      "english": "Who are you?",
-      "chunks": [
-        {
-          "text": "Who",
-          "role": "Wh-Word",
-          "color": "#9C27B0"
-        },
-        {
-          "text": "are",
+          "text": "Do",
           "role": "Verb",
           "color": "#FF7F00"
         },
@@ -1852,56 +736,34 @@
           "text": "you",
           "role": "Subject",
           "color": "#FF0000"
-        }
-      ],
-      "context": "Information Question",
-      "question": "Ask for info"
-    },
-    {
-      "id": "1-4-3",
-      "section": "Day 18",
-      "description": "Wh- Questions",
-      "korean": "그는 어디에 있니?",
-      "english": "Where is he?",
-      "chunks": [
-        {
-          "text": "Where",
-          "role": "Wh-Word",
-          "color": "#9C27B0"
         },
         {
-          "text": "is",
+          "text": "drink",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "he",
-          "role": "Subject",
-          "color": "#FF0000"
+          "text": "coffee",
+          "role": "Object",
+          "color": "#FFFF00"
         }
       ],
-      "context": "Information Question",
-      "question": "Ask for info"
+      "question": "Answer this question."
     },
     {
-      "id": "1-4-4",
-      "section": "Day 18",
-      "description": "Wh- Questions",
-      "korean": "넌 언제 공부하니?",
-      "english": "When do you study?",
+      "id": "3-3-6",
+      "section": "Day 17",
+      "description": "Questions: Yes/No questions with do/does/did",
+      "korean": "그녀는 영어를 공부하나요?",
+      "english": "Does she study English?",
       "chunks": [
         {
-          "text": "When",
-          "role": "Wh-Word",
-          "color": "#9C27B0"
-        },
-        {
-          "text": "do",
+          "text": "Does",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "you",
+          "text": "she",
           "role": "Subject",
           "color": "#FF0000"
         },
@@ -1909,25 +771,84 @@
           "text": "study",
           "role": "Verb",
           "color": "#FF7F00"
-        }
-      ],
-      "context": "Information Question",
-      "question": "Ask for info"
-    },
-    {
-      "id": "1-4-5",
-      "section": "Day 18",
-      "description": "Wh- Questions",
-      "korean": "넌 왜 우니?",
-      "english": "Why do you cry?",
-      "chunks": [
-        {
-          "text": "Why",
-          "role": "Wh-Word",
-          "color": "#9C27B0"
         },
         {
-          "text": "do",
+          "text": "English",
+          "role": "Object",
+          "color": "#FFFF00"
+        }
+      ],
+      "question": "Answer this question."
+    },
+    {
+      "id": "3-3-7",
+      "section": "Day 17",
+      "description": "Questions: Yes/No questions with do/does/did",
+      "korean": "그들은 서울에 사나요?",
+      "english": "Do they live in Seoul?",
+      "chunks": [
+        {
+          "text": "Do",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "they",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "live",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "in Seoul",
+          "role": "Modifier",
+          "color": "#0000FF"
+        }
+      ],
+      "question": "Answer this question."
+    },
+    {
+      "id": "3-3-8",
+      "section": "Day 17",
+      "description": "Questions: Yes/No questions with do/does/did",
+      "korean": "그는 아침을 먹었나요?",
+      "english": "Did he eat breakfast?",
+      "chunks": [
+        {
+          "text": "Did",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "he",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "eat",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "breakfast",
+          "role": "Object",
+          "color": "#FFFF00"
+        }
+      ],
+      "question": "Answer this question."
+    },
+    {
+      "id": "3-3-9",
+      "section": "Day 17",
+      "description": "Questions: Yes/No questions with do/does/did",
+      "korean": "당신은 그 책을 읽었나요?",
+      "english": "Did you read that book?",
+      "chunks": [
+        {
+          "text": "Did",
           "role": "Verb",
           "color": "#FF7F00"
         },
@@ -1937,51 +858,59 @@
           "color": "#FF0000"
         },
         {
-          "text": "cry",
+          "text": "read",
           "role": "Verb",
           "color": "#FF7F00"
+        },
+        {
+          "text": "that book",
+          "role": "Object",
+          "color": "#FFFF00"
         }
       ],
-      "context": "Information Question",
-      "question": "Ask for info"
+      "question": "Answer this question."
     },
     {
-      "id": "1-4-6",
-      "section": "Day 18",
-      "description": "Wh- Questions",
-      "korean": "잘 지내니?",
-      "english": "How are you?",
+      "id": "3-3-10",
+      "section": "Day 17",
+      "description": "Questions: Yes/No questions with do/does/did",
+      "korean": "그녀는 노래를 부르나요?",
+      "english": "Does she sing songs?",
       "chunks": [
         {
-          "text": "How",
-          "role": "Wh-Word",
-          "color": "#9C27B0"
-        },
-        {
-          "text": "are",
+          "text": "Does",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "you",
+          "text": "she",
           "role": "Subject",
           "color": "#FF0000"
+        },
+        {
+          "text": "sing",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "songs",
+          "role": "Object",
+          "color": "#FFFF00"
         }
       ],
-      "context": "Information Question",
-      "question": "Ask for info"
+      "question": "Answer this question."
     },
     {
-      "id": "1-4-7",
+      "id": "3-4-1",
       "section": "Day 18",
-      "description": "Wh- Questions",
-      "korean": "넌 무엇을 원하니?",
+      "description": "Questions: WH- information questions",
+      "korean": "당신은 무엇을 원하나요?",
       "english": "What do you want?",
       "chunks": [
         {
           "text": "What",
-          "role": "Wh-Word",
-          "color": "#9C27B0"
+          "role": "Modifier",
+          "color": "#0000FF"
         },
         {
           "text": "do",
@@ -1999,23 +928,52 @@
           "color": "#FF7F00"
         }
       ],
-      "context": "Information Question",
-      "question": "Ask for info"
+      "question": "Answer this question."
     },
     {
-      "id": "1-4-8",
+      "id": "3-4-2",
       "section": "Day 18",
-      "description": "Wh- Questions",
-      "korean": "넌 누구를 만났니?",
-      "english": "Who did you meet?",
+      "description": "Questions: WH- information questions",
+      "korean": "그는 어디로 갔나요?",
+      "english": "Where did he go?",
       "chunks": [
         {
-          "text": "Who",
-          "role": "Wh-Word",
-          "color": "#9C27B0"
+          "text": "Where",
+          "role": "Modifier",
+          "color": "#0000FF"
         },
         {
           "text": "did",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "he",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "go",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "question": "Answer this question."
+    },
+    {
+      "id": "3-4-3",
+      "section": "Day 18",
+      "description": "Questions: WH- information questions",
+      "korean": "당신은 언제 공부하나요?",
+      "english": "When do you study?",
+      "chunks": [
+        {
+          "text": "When",
+          "role": "Modifier",
+          "color": "#0000FF"
+        },
+        {
+          "text": "do",
           "role": "Verb",
           "color": "#FF7F00"
         },
@@ -2025,87 +983,24 @@
           "color": "#FF0000"
         },
         {
-          "text": "meet",
+          "text": "study",
           "role": "Verb",
           "color": "#FF7F00"
         }
       ],
-      "context": "Information Question",
-      "question": "Ask for info"
+      "question": "Answer this question."
     },
     {
-      "id": "1-4-9",
+      "id": "3-4-4",
       "section": "Day 18",
-      "description": "Wh- Questions",
-      "korean": "그들은 어디에 사니?",
-      "english": "Where do they live?",
+      "description": "Questions: WH- information questions",
+      "korean": "그녀는 왜 울었나요?",
+      "english": "Why did she cry?",
       "chunks": [
         {
-          "text": "Where",
-          "role": "Wh-Word",
-          "color": "#9C27B0"
-        },
-        {
-          "text": "do",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "they",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "live",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Information Question",
-      "question": "Ask for info"
-    },
-    {
-      "id": "1-4-10",
-      "section": "Day 18",
-      "description": "Wh- Questions",
-      "korean": "그건 어떻게 작동하니?",
-      "english": "How does it work?",
-      "chunks": [
-        {
-          "text": "How",
-          "role": "Wh-Word",
-          "color": "#9C27B0"
-        },
-        {
-          "text": "does",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "it",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "work",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Information Question",
-      "question": "Ask for info"
-    },
-    {
-      "id": "1-4-11",
-      "section": "Day 18",
-      "description": "Wh- Questions",
-      "korean": "그녀는 뭐라고 했니?",
-      "english": "What did she say?",
-      "chunks": [
-        {
-          "text": "What",
-          "role": "Wh-Word",
-          "color": "#9C27B0"
+          "text": "Why",
+          "role": "Modifier",
+          "color": "#0000FF"
         },
         {
           "text": "did",
@@ -2118,20 +1013,49 @@
           "color": "#FF0000"
         },
         {
-          "text": "say",
+          "text": "cry",
           "role": "Verb",
           "color": "#FF7F00"
         }
       ],
-      "context": "Information Question",
-      "question": "Ask for info"
+      "question": "Answer this question."
     },
     {
-      "id": "1-4-12",
+      "id": "3-4-5",
       "section": "Day 18",
-      "description": "Wh- Questions",
-      "korean": "누가 나를 부르니?",
-      "english": "Who calls me?",
+      "description": "Questions: WH- information questions",
+      "korean": "그들은 어떻게 여행하나요?",
+      "english": "How do they travel?",
+      "chunks": [
+        {
+          "text": "How",
+          "role": "Modifier",
+          "color": "#0000FF"
+        },
+        {
+          "text": "do",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "they",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "travel",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "question": "Answer this question."
+    },
+    {
+      "id": "3-4-6",
+      "section": "Day 18",
+      "description": "Questions: WH- information questions",
+      "korean": "누가 문을 열었나요?",
+      "english": "Who opened the door?",
       "chunks": [
         {
           "text": "Who",
@@ -2139,90 +1063,62 @@
           "color": "#FF0000"
         },
         {
-          "text": "calls",
+          "text": "opened",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "me",
+          "text": "the door",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#FFFF00"
         }
       ],
-      "context": "Information Question",
-      "question": "Ask for info"
+      "question": "Answer this question."
     },
     {
-      "id": "1-4-13",
+      "id": "3-4-7",
       "section": "Day 18",
-      "description": "Wh- Questions",
-      "korean": "고양이는 어디에 있었니?",
-      "english": "Where was the cat?",
+      "description": "Questions: WH- information questions",
+      "korean": "당신은 무엇을 먹었나요?",
+      "english": "What did you eat?",
+      "chunks": [
+        {
+          "text": "What",
+          "role": "Object",
+          "color": "#FFFF00"
+        },
+        {
+          "text": "did",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "you",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "eat",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "question": "Answer this question."
+    },
+    {
+      "id": "3-4-8",
+      "section": "Day 18",
+      "description": "Questions: WH- information questions",
+      "korean": "그는 어디서 일하나요?",
+      "english": "Where does he work?",
       "chunks": [
         {
           "text": "Where",
-          "role": "Wh-Word",
-          "color": "#9C27B0"
+          "role": "Modifier",
+          "color": "#0000FF"
         },
         {
-          "text": "was",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the cat",
-          "role": "Subject",
-          "color": "#FF0000"
-        }
-      ],
-      "context": "Information Question",
-      "question": "Ask for info"
-    },
-    {
-      "id": "1-4-14",
-      "section": "Day 18",
-      "description": "Wh- Questions",
-      "korean": "그건 언제 끝나니?",
-      "english": "When will it end?",
-      "chunks": [
-        {
-          "text": "When",
-          "role": "Wh-Word",
-          "color": "#9C27B0"
-        },
-        {
-          "text": "will",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "it",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "end",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Information Question",
-      "question": "Ask for info"
-    },
-    {
-      "id": "1-4-15",
-      "section": "Day 18",
-      "description": "Wh- Questions",
-      "korean": "그는 왜 늦었니?",
-      "english": "Why is he late?",
-      "chunks": [
-        {
-          "text": "Why",
-          "role": "Wh-Word",
-          "color": "#9C27B0"
-        },
-        {
-          "text": "is",
+          "text": "does",
           "role": "Verb",
           "color": "#FF7F00"
         },
@@ -2232,425 +1128,79 @@
           "color": "#FF0000"
         },
         {
-          "text": "late",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Information Question",
-      "question": "Ask for info"
-    },
-    {
-      "id": "1-4-16",
-      "section": "Day 18",
-      "description": "Wh- Questions",
-      "korean": "그건 얼마니?",
-      "english": "How much is it?",
-      "chunks": [
-        {
-          "text": "How much",
-          "role": "Wh-Word",
-          "color": "#9C27B0"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "it",
-          "role": "Subject",
-          "color": "#FF0000"
-        }
-      ],
-      "context": "Information Question",
-      "question": "Ask for info"
-    },
-    {
-      "id": "1-4-17",
-      "section": "Day 18",
-      "description": "Wh- Questions",
-      "korean": "무슨 일이 일어났니?",
-      "english": "What happened?",
-      "chunks": [
-        {
-          "text": "What",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "happened",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Information Question",
-      "question": "Ask for info"
-    },
-    {
-      "id": "1-4-18",
-      "section": "Day 18",
-      "description": "Wh- Questions",
-      "korean": "누가 이걸 깼니?",
-      "english": "Who broke this?",
-      "chunks": [
-        {
-          "text": "Who",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "broke",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "this",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Information Question",
-      "question": "Ask for info"
-    },
-    {
-      "id": "1-4-19",
-      "section": "Day 18",
-      "description": "Wh- Questions",
-      "korean": "내 열쇠는 어디에 있니?",
-      "english": "Where are my keys?",
-      "chunks": [
-        {
-          "text": "Where",
-          "role": "Wh-Word",
-          "color": "#9C27B0"
-        },
-        {
-          "text": "are",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "my keys",
-          "role": "Subject",
-          "color": "#FF0000"
-        }
-      ],
-      "context": "Information Question",
-      "question": "Ask for info"
-    },
-    {
-      "id": "1-4-20",
-      "section": "Day 18",
-      "description": "Wh- Questions",
-      "korean": "비는 왜 내리니?",
-      "english": "Why does rain fall?",
-      "chunks": [
-        {
-          "text": "Why",
-          "role": "Wh-Word",
-          "color": "#9C27B0"
-        },
-        {
-          "text": "does",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "rain",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "fall",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Information Question",
-      "question": "Ask for info"
-    },
-    {
-      "id": "1-5-1",
-      "section": "Day 19",
-      "description": "Negative Sentences",
-      "korean": "나는 그것을 좋아하지 않는다.",
-      "english": "I do not like it.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "do not",
-          "role": "Negative",
-          "color": "#D32F2F"
-        },
-        {
-          "text": "like",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "it",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Negation",
-      "question": "Say no"
-    },
-    {
-      "id": "1-5-2",
-      "section": "Day 19",
-      "description": "Negative Sentences",
-      "korean": "그녀는 모른다.",
-      "english": "She does not know.",
-      "chunks": [
-        {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "does not",
-          "role": "Negative",
-          "color": "#D32F2F"
-        },
-        {
-          "text": "know",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Negation",
-      "question": "Say no"
-    },
-    {
-      "id": "1-5-3",
-      "section": "Day 19",
-      "description": "Negative Sentences",
-      "korean": "그는 가지 않았다.",
-      "english": "He did not go.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "did not",
-          "role": "Negative",
-          "color": "#D32F2F"
-        },
-        {
-          "text": "go",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Negation",
-      "question": "Say no"
-    },
-    {
-      "id": "1-5-4",
-      "section": "Day 19",
-      "description": "Negative Sentences",
-      "korean": "우리는 바쁘지 않다.",
-      "english": "We are not busy.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "are not",
-          "role": "Negative",
-          "color": "#D32F2F"
-        },
-        {
-          "text": "busy",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Negation",
-      "question": "Say no"
-    },
-    {
-      "id": "1-5-5",
-      "section": "Day 19",
-      "description": "Negative Sentences",
-      "korean": "그들은 수영을 못한다.",
-      "english": "They cannot swim.",
-      "chunks": [
-        {
-          "text": "They",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "cannot",
-          "role": "Negative",
-          "color": "#D32F2F"
-        },
-        {
-          "text": "swim",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Negation",
-      "question": "Say no"
-    },
-    {
-      "id": "1-5-6",
-      "section": "Day 19",
-      "description": "Negative Sentences",
-      "korean": "너는 먹으면 안 된다.",
-      "english": "You should not eat.",
-      "chunks": [
-        {
-          "text": "You",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "should not",
-          "role": "Negative",
-          "color": "#D32F2F"
-        },
-        {
-          "text": "eat",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Negation",
-      "question": "Say no"
-    },
-    {
-      "id": "1-5-7",
-      "section": "Day 19",
-      "description": "Negative Sentences",
-      "korean": "그것은 사실이 아니다.",
-      "english": "It is not true.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "is not",
-          "role": "Negative",
-          "color": "#D32F2F"
-        },
-        {
-          "text": "true",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Negation",
-      "question": "Say no"
-    },
-    {
-      "id": "1-5-8",
-      "section": "Day 19",
-      "description": "Negative Sentences",
-      "korean": "나는 돈이 없다.",
-      "english": "I don't have money.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "don't",
-          "role": "Negative",
-          "color": "#D32F2F"
-        },
-        {
-          "text": "have",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "money",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Negation",
-      "question": "Say no"
-    },
-    {
-      "id": "1-5-9",
-      "section": "Day 19",
-      "description": "Negative Sentences",
-      "korean": "그는 일하지 않는다.",
-      "english": "He doesn't work.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "doesn't",
-          "role": "Negative",
-          "color": "#D32F2F"
-        },
-        {
           "text": "work",
           "role": "Verb",
           "color": "#FF7F00"
         }
       ],
-      "context": "Negation",
-      "question": "Say no"
+      "question": "Answer this question."
     },
     {
-      "id": "1-5-10",
-      "section": "Day 19",
-      "description": "Negative Sentences",
-      "korean": "그녀는 나를 보지 못했다.",
-      "english": "She didn't see me.",
+      "id": "3-4-9",
+      "section": "Day 18",
+      "description": "Questions: WH- information questions",
+      "korean": "그들은 누구를 만났나요?",
+      "english": "Who did they meet?",
       "chunks": [
         {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
+          "text": "Who",
+          "role": "Object",
+          "color": "#FFFF00"
         },
         {
-          "text": "didn't",
-          "role": "Negative",
-          "color": "#D32F2F"
-        },
-        {
-          "text": "see",
+          "text": "did",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "me",
-          "role": "Object",
-          "color": "#FFD700"
+          "text": "they",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "meet",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Negation",
-      "question": "Say no"
+      "question": "Answer this question."
     },
     {
-      "id": "1-5-11",
+      "id": "3-4-10",
+      "section": "Day 18",
+      "description": "Questions: WH- information questions",
+      "korean": "그녀는 왜 웃었나요?",
+      "english": "Why did she smile?",
+      "chunks": [
+        {
+          "text": "Why",
+          "role": "Modifier",
+          "color": "#0000FF"
+        },
+        {
+          "text": "did",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "she",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "smile",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "question": "Answer this question."
+    },
+    {
+      "id": "3-5-1",
       "section": "Day 19",
-      "description": "Negative Sentences",
-      "korean": "나는 의사가 아니다.",
-      "english": "I am not a doctor.",
+      "description": "Negative Sentences: Using do/does/did + not",
+      "korean": "나는 커피를 좋아하지 않는다.",
+      "english": "I don't like coffee.",
       "chunks": [
         {
           "text": "I",
@@ -2658,25 +1208,49 @@
           "color": "#FF0000"
         },
         {
-          "text": "am not",
-          "role": "Negative",
-          "color": "#D32F2F"
+          "text": "don't like",
+          "role": "Verb",
+          "color": "#FF7F00"
         },
         {
-          "text": "a doctor",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "coffee",
+          "role": "Object",
+          "color": "#FFFF00"
         }
       ],
-      "context": "Negation",
-      "question": "Say no"
+      "question": "How does someone feel?"
     },
     {
-      "id": "1-5-12",
+      "id": "3-5-2",
       "section": "Day 19",
-      "description": "Negative Sentences",
-      "korean": "그는 준비되지 않았다.",
-      "english": "He wasn't ready.",
+      "description": "Negative Sentences: Using do/does/did + not",
+      "korean": "그녀는 어제 오지 않았다.",
+      "english": "She didn't come yesterday.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "didn't come",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "yesterday",
+          "role": "Modifier",
+          "color": "#0000FF"
+        }
+      ],
+      "question": "When does this happen?"
+    },
+    {
+      "id": "3-5-3",
+      "section": "Day 19",
+      "description": "Negative Sentences: Using do/does/did + not",
+      "korean": "그는 영어를 말하지 않는다.",
+      "english": "He doesn't speak English.",
       "chunks": [
         {
           "text": "He",
@@ -2684,51 +1258,24 @@
           "color": "#FF0000"
         },
         {
-          "text": "wasn't",
-          "role": "Negative",
-          "color": "#D32F2F"
-        },
-        {
-          "text": "ready",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Negation",
-      "question": "Say no"
-    },
-    {
-      "id": "1-5-13",
-      "section": "Day 19",
-      "description": "Negative Sentences",
-      "korean": "우리는 떠나지 않을 것이다.",
-      "english": "We won't leave.",
-      "chunks": [
-        {
-          "text": "We",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "won't",
-          "role": "Negative",
-          "color": "#D32F2F"
-        },
-        {
-          "text": "leave",
+          "text": "doesn't speak",
           "role": "Verb",
           "color": "#FF7F00"
+        },
+        {
+          "text": "English",
+          "role": "Object",
+          "color": "#FFFF00"
         }
       ],
-      "context": "Negation",
-      "question": "Say no"
+      "question": "What does he do?"
     },
     {
-      "id": "1-5-14",
+      "id": "3-5-4",
       "section": "Day 19",
-      "description": "Negative Sentences",
-      "korean": "그들은 먹지 않았다.",
-      "english": "They haven't eaten.",
+      "description": "Negative Sentences: Using do/does/did + not",
+      "korean": "그들은 거짓말을 하지 않는다.",
+      "english": "They don't tell lies.",
       "chunks": [
         {
           "text": "They",
@@ -2736,165 +1283,24 @@
           "color": "#FF0000"
         },
         {
-          "text": "haven't",
-          "role": "Negative",
-          "color": "#D32F2F"
-        },
-        {
-          "text": "eaten",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Negation",
-      "question": "Say no"
-    },
-    {
-      "id": "1-5-15",
-      "section": "Day 19",
-      "description": "Negative Sentences",
-      "korean": "너는 만지면 안 된다.",
-      "english": "You mustn't touch.",
-      "chunks": [
-        {
-          "text": "You",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "mustn't",
-          "role": "Negative",
-          "color": "#D32F2F"
-        },
-        {
-          "text": "touch",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Negation",
-      "question": "Say no"
-    },
-    {
-      "id": "1-5-16",
-      "section": "Day 19",
-      "description": "Negative Sentences",
-      "korean": "그것은 중요하지 않다.",
-      "english": "It doesn't matter.",
-      "chunks": [
-        {
-          "text": "It",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "doesn't",
-          "role": "Negative",
-          "color": "#D32F2F"
-        },
-        {
-          "text": "matter",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Negation",
-      "question": "Say no"
-    },
-    {
-      "id": "1-5-17",
-      "section": "Day 19",
-      "description": "Negative Sentences",
-      "korean": "그녀는 울지 않았다.",
-      "english": "She didn't cry.",
-      "chunks": [
-        {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "didn't",
-          "role": "Negative",
-          "color": "#D32F2F"
-        },
-        {
-          "text": "cry",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Negation",
-      "question": "Say no"
-    },
-    {
-      "id": "1-5-18",
-      "section": "Day 19",
-      "description": "Negative Sentences",
-      "korean": "그는 차를 좋아하지 않는다.",
-      "english": "He doesn't like tea.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "doesn't",
-          "role": "Negative",
-          "color": "#D32F2F"
-        },
-        {
-          "text": "like",
+          "text": "don't tell",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "tea",
+          "text": "lies",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#FFFF00"
         }
       ],
-      "context": "Negation",
-      "question": "Say no"
+      "question": "What do they do?"
     },
     {
-      "id": "1-5-19",
+      "id": "3-5-5",
       "section": "Day 19",
-      "description": "Negative Sentences",
-      "korean": "나는 그것을 하지 않았다.",
-      "english": "I didn't do it.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "didn't",
-          "role": "Negative",
-          "color": "#D32F2F"
-        },
-        {
-          "text": "do",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "it",
-          "role": "Object",
-          "color": "#FFD700"
-        }
-      ],
-      "context": "Negation",
-      "question": "Say no"
-    },
-    {
-      "id": "1-5-20",
-      "section": "Day 19",
-      "description": "Negative Sentences",
-      "korean": "우리는 혼자가 아니다.",
-      "english": "We are not alone.",
+      "description": "Negative Sentences: Using do/does/did + not",
+      "korean": "우리는 그 영화를 보지 않았다.",
+      "english": "We didn't watch that movie.",
       "chunks": [
         {
           "text": "We",
@@ -2902,24 +1308,148 @@
           "color": "#FF0000"
         },
         {
-          "text": "are not",
-          "role": "Negative",
-          "color": "#D32F2F"
+          "text": "didn't watch",
+          "role": "Verb",
+          "color": "#FF7F00"
         },
         {
-          "text": "alone",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "that movie",
+          "role": "Object",
+          "color": "#FFFF00"
         }
       ],
-      "context": "Negation",
-      "question": "Say no"
+      "question": "What do we do?"
     },
     {
-      "id": "1-6-1",
+      "id": "3-5-6",
+      "section": "Day 19",
+      "description": "Negative Sentences: Using do/does/did + not",
+      "korean": "나는 그 대답을 알지 못한다.",
+      "english": "I don't know the answer.",
+      "chunks": [
+        {
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "don't know",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the answer",
+          "role": "Object",
+          "color": "#FFFF00"
+        }
+      ],
+      "question": "What do I do?"
+    },
+    {
+      "id": "3-5-7",
+      "section": "Day 19",
+      "description": "Negative Sentences: Using do/does/did + not",
+      "korean": "그녀는 고기를 먹지 않는다.",
+      "english": "She doesn't eat meat.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "doesn't eat",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "meat",
+          "role": "Object",
+          "color": "#FFFF00"
+        }
+      ],
+      "question": "What does she do?"
+    },
+    {
+      "id": "3-5-8",
+      "section": "Day 19",
+      "description": "Negative Sentences: Using do/does/did + not",
+      "korean": "그는 거기에 가지 않았다.",
+      "english": "He didn't go there.",
+      "chunks": [
+        {
+          "text": "He",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "didn't go",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "there",
+          "role": "Modifier",
+          "color": "#0000FF"
+        }
+      ],
+      "question": "Where does this happen?"
+    },
+    {
+      "id": "3-5-9",
+      "section": "Day 19",
+      "description": "Negative Sentences: Using do/does/did + not",
+      "korean": "그들은 숙제를 하지 않았다.",
+      "english": "They didn't do homework.",
+      "chunks": [
+        {
+          "text": "They",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "didn't do",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "homework",
+          "role": "Object",
+          "color": "#FFFF00"
+        }
+      ],
+      "question": "What do they do?"
+    },
+    {
+      "id": "3-5-10",
+      "section": "Day 19",
+      "description": "Negative Sentences: Using do/does/did + not",
+      "korean": "우리는 그를 믿지 않는다.",
+      "english": "We don't trust him.",
+      "chunks": [
+        {
+          "text": "We",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "don't trust",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "him",
+          "role": "Object",
+          "color": "#FFFF00"
+        }
+      ],
+      "question": "What do we do?"
+    },
+    {
+      "id": "3-6-1",
       "section": "Day 20",
-      "description": "Existence (There is/are)",
-      "korean": "책이 한 권 있다.",
+      "description": "There is/are: Existential sentences",
+      "korean": "테이블 위에 책이 있다.",
       "english": "There is a book on the table.",
       "chunks": [
         {
@@ -2934,18 +1464,17 @@
         },
         {
           "text": "on the table",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "role": "Modifier",
+          "color": "#0000FF"
         }
       ],
-      "context": "Existence",
-      "question": "What is there?"
+      "question": "Where does this happen?"
     },
     {
-      "id": "1-6-2",
+      "id": "3-6-2",
       "section": "Day 20",
-      "description": "Existence (There is/are)",
-      "korean": "많은 사람들이 있다.",
+      "description": "There is/are: Existential sentences",
+      "korean": "여기에 많은 사람들이 있다.",
       "english": "There are many people here.",
       "chunks": [
         {
@@ -2960,343 +1489,18 @@
         },
         {
           "text": "here",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "role": "Modifier",
+          "color": "#0000FF"
         }
       ],
-      "context": "Existence",
-      "question": "What is there?"
+      "question": "Where does this happen?"
     },
     {
-      "id": "1-6-3",
+      "id": "3-6-3",
       "section": "Day 20",
-      "description": "Existence (There is/are)",
-      "korean": "문제가 있다.",
-      "english": "There is a problem.",
-      "chunks": [
-        {
-          "text": "There is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a problem",
-          "role": "Subject",
-          "color": "#FF0000"
-        }
-      ],
-      "context": "Existence",
-      "question": "What is there?"
-    },
-    {
-      "id": "1-6-4",
-      "section": "Day 20",
-      "description": "Existence (There is/are)",
-      "korean": "고양이가 두 마리 있다.",
-      "english": "There are two cats.",
-      "chunks": [
-        {
-          "text": "There are",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "two cats",
-          "role": "Subject",
-          "color": "#FF0000"
-        }
-      ],
-      "context": "Existence",
-      "question": "What is there?"
-    },
-    {
-      "id": "1-6-5",
-      "section": "Day 20",
-      "description": "Existence (There is/are)",
-      "korean": "왕이 있었다.",
-      "english": "There was a king.",
-      "chunks": [
-        {
-          "text": "There was",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a king",
-          "role": "Subject",
-          "color": "#FF0000"
-        }
-      ],
-      "context": "Existence",
-      "question": "What is there?"
-    },
-    {
-      "id": "1-6-6",
-      "section": "Day 20",
-      "description": "Existence (There is/are)",
-      "korean": "별들이 있었다.",
-      "english": "There were stars.",
-      "chunks": [
-        {
-          "text": "There were",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "stars",
-          "role": "Subject",
-          "color": "#FF0000"
-        }
-      ],
-      "context": "Existence",
-      "question": "What is there?"
-    },
-    {
-      "id": "1-6-7",
-      "section": "Day 20",
-      "description": "Existence (There is/are)",
-      "korean": "시간이 없다.",
-      "english": "There is no time.",
-      "chunks": [
-        {
-          "text": "There is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "no time",
-          "role": "Subject",
-          "color": "#FF0000"
-        }
-      ],
-      "context": "Existence",
-      "question": "What is there?"
-    },
-    {
-      "id": "1-6-8",
-      "section": "Day 20",
-      "description": "Existence (There is/are)",
-      "korean": "질문들이 있다.",
-      "english": "There are questions.",
-      "chunks": [
-        {
-          "text": "There are",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "questions",
-          "role": "Subject",
-          "color": "#FF0000"
-        }
-      ],
-      "context": "Existence",
-      "question": "What is there?"
-    },
-    {
-      "id": "1-6-9",
-      "section": "Day 20",
-      "description": "Existence (There is/are)",
-      "korean": "희망이 있다.",
-      "english": "There is hope.",
-      "chunks": [
-        {
-          "text": "There is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "hope",
-          "role": "Subject",
-          "color": "#FF0000"
-        }
-      ],
-      "context": "Existence",
-      "question": "What is there?"
-    },
-    {
-      "id": "1-6-10",
-      "section": "Day 20",
-      "description": "Existence (There is/are)",
-      "korean": "방법이 있다.",
-      "english": "There is a way.",
-      "chunks": [
-        {
-          "text": "There is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a way",
-          "role": "Subject",
-          "color": "#FF0000"
-        }
-      ],
-      "context": "Existence",
-      "question": "What is there?"
-    },
-    {
-      "id": "1-6-11",
-      "section": "Day 20",
-      "description": "Existence (There is/are)",
-      "korean": "밖에 차가 있다.",
-      "english": "There is a car outside.",
-      "chunks": [
-        {
-          "text": "There is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a car",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "outside",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Existence",
-      "question": "What is there?"
-    },
-    {
-      "id": "1-6-12",
-      "section": "Day 20",
-      "description": "Existence (There is/are)",
-      "korean": "하늘에 새들이 있다.",
-      "english": "There are birds in the sky.",
-      "chunks": [
-        {
-          "text": "There are",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "birds",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "in the sky",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Existence",
-      "question": "What is there?"
-    },
-    {
-      "id": "1-6-13",
-      "section": "Day 20",
-      "description": "Existence (There is/are)",
-      "korean": "어제 비가 왔다.",
-      "english": "There was rain yesterday.",
-      "chunks": [
-        {
-          "text": "There was",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "rain",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "yesterday",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Existence",
-      "question": "What is there?"
-    },
-    {
-      "id": "1-6-14",
-      "section": "Day 20",
-      "description": "Existence (There is/are)",
-      "korean": "우리를 위한 선물이 있었다.",
-      "english": "There were gifts for us.",
-      "chunks": [
-        {
-          "text": "There were",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "gifts",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "for us",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Existence",
-      "question": "What is there?"
-    },
-    {
-      "id": "1-6-15",
-      "section": "Day 20",
-      "description": "Existence (There is/are)",
-      "korean": "여기엔 아무것도 없다.",
-      "english": "There is nothing here.",
-      "chunks": [
-        {
-          "text": "There is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "nothing",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "here",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Existence",
-      "question": "What is there?"
-    },
-    {
-      "id": "1-6-16",
-      "section": "Day 20",
-      "description": "Existence (There is/are)",
-      "korean": "누군가 기다리고 있다.",
-      "english": "There is someone waiting.",
-      "chunks": [
-        {
-          "text": "There is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "someone",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "waiting",
-          "role": "Adverb",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Existence",
-      "question": "What is there?"
-    },
-    {
-      "id": "1-6-17",
-      "section": "Day 20",
-      "description": "Existence (There is/are)",
-      "korean": "주변에 나무들이 있다.",
-      "english": "There are trees around.",
+      "description": "There is/are: Existential sentences",
+      "korean": "공원에 나무들이 있다.",
+      "english": "There are trees in the park.",
       "chunks": [
         {
           "text": "There are",
@@ -3309,20 +1513,119 @@
           "color": "#FF0000"
         },
         {
-          "text": "around",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "in the park",
+          "role": "Modifier",
+          "color": "#0000FF"
         }
       ],
-      "context": "Existence",
-      "question": "What is there?"
+      "question": "Where does this happen?"
     },
     {
-      "id": "1-6-18",
+      "id": "3-6-4",
       "section": "Day 20",
-      "description": "Existence (There is/are)",
+      "description": "There is/are: Existential sentences",
+      "korean": "하늘에 별이 있다.",
+      "english": "There is a star in the sky.",
+      "chunks": [
+        {
+          "text": "There is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a star",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "in the sky",
+          "role": "Modifier",
+          "color": "#0000FF"
+        }
+      ],
+      "question": "Where does this happen?"
+    },
+    {
+      "id": "3-6-5",
+      "section": "Day 20",
+      "description": "There is/are: Existential sentences",
+      "korean": "교실에 학생들이 있다.",
+      "english": "There are students in the classroom.",
+      "chunks": [
+        {
+          "text": "There are",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "students",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "in the classroom",
+          "role": "Modifier",
+          "color": "#0000FF"
+        }
+      ],
+      "question": "Where does this happen?"
+    },
+    {
+      "id": "3-6-6",
+      "section": "Day 20",
+      "description": "There is/are: Existential sentences",
+      "korean": "가방 안에 연필이 있다.",
+      "english": "There is a pencil in the bag.",
+      "chunks": [
+        {
+          "text": "There is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a pencil",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "in the bag",
+          "role": "Modifier",
+          "color": "#0000FF"
+        }
+      ],
+      "question": "Where does this happen?"
+    },
+    {
+      "id": "3-6-7",
+      "section": "Day 20",
+      "description": "There is/are: Existential sentences",
+      "korean": "정원에 꽃들이 있다.",
+      "english": "There are flowers in the garden.",
+      "chunks": [
+        {
+          "text": "There are",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "flowers",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "in the garden",
+          "role": "Modifier",
+          "color": "#0000FF"
+        }
+      ],
+      "question": "Where does this happen?"
+    },
+    {
+      "id": "3-6-8",
+      "section": "Day 20",
+      "description": "There is/are: Existential sentences",
       "korean": "냉장고에 우유가 있다.",
-      "english": "There is milk in the fridge.",
+      "english": "There is milk in the refrigerator.",
       "chunks": [
         {
           "text": "There is",
@@ -3335,65 +1638,72 @@
           "color": "#FF0000"
         },
         {
-          "text": "in the fridge",
-          "role": "Adverb",
-          "color": "#BA68C8"
+          "text": "in the refrigerator",
+          "role": "Modifier",
+          "color": "#0000FF"
         }
       ],
-      "context": "Existence",
-      "question": "What is there?"
+      "question": "Where does this happen?"
     },
     {
-      "id": "1-6-19",
+      "id": "3-6-9",
       "section": "Day 20",
-      "description": "Existence (There is/are)",
-      "korean": "음식이 전혀 없다.",
-      "english": "There isn't any food.",
+      "description": "There is/are: Existential sentences",
+      "korean": "길에 차들이 있다.",
+      "english": "There are cars on the street.",
       "chunks": [
         {
-          "text": "There isn't",
+          "text": "There are",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "any food",
+          "text": "cars",
           "role": "Subject",
           "color": "#FF0000"
+        },
+        {
+          "text": "on the street",
+          "role": "Modifier",
+          "color": "#0000FF"
         }
       ],
-      "context": "Existence",
-      "question": "What is there?"
+      "question": "Where does this happen?"
     },
     {
-      "id": "1-6-20",
+      "id": "3-6-10",
       "section": "Day 20",
-      "description": "Existence (There is/are)",
-      "korean": "날이 얼마 남지 않았다.",
-      "english": "There aren't many days.",
+      "description": "There is/are: Existential sentences",
+      "korean": "책상 위에 컴퓨터가 있다.",
+      "english": "There is a computer on the desk.",
       "chunks": [
         {
-          "text": "There aren't",
+          "text": "There is",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "many days",
+          "text": "a computer",
           "role": "Subject",
           "color": "#FF0000"
+        },
+        {
+          "text": "on the desk",
+          "role": "Modifier",
+          "color": "#0000FF"
         }
       ],
-      "context": "Existence",
-      "question": "What is there?"
+      "question": "Where does this happen?"
     },
     {
-      "id": "1-7-1",
+      "id": "3-7-1",
       "section": "Day 21",
-      "description": "Week 3 Review",
-      "korean": "너는 나를 미소 짓게 한다.",
-      "english": "You make me smile.",
+      "description": "Week 3 Review: Mixed complex patterns",
+      "korean": "그들은 나를 행복하게 만든다.",
+      "english": "They make me happy.",
       "chunks": [
         {
-          "text": "You",
+          "text": "They",
           "role": "Subject",
           "color": "#FF0000"
         },
@@ -3405,23 +1715,22 @@
         {
           "text": "me",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#FFFF00"
         },
         {
-          "text": "smile",
+          "text": "happy",
           "role": "Complement",
-          "color": "#BA68C8"
+          "color": "#E91E63"
         }
       ],
-      "context": "Review",
-      "question": "Mixed Review"
+      "question": "How does someone feel?"
     },
     {
-      "id": "1-7-2",
+      "id": "3-7-2",
       "section": "Day 21",
-      "description": "Week 3 Review",
-      "korean": "우리는 그것을 사랑이라 부른다.",
-      "english": "We name it Love.",
+      "description": "Week 3 Review: Mixed complex patterns",
+      "korean": "우리는 그를 리더라고 부른다.",
+      "english": "We call him leader.",
       "chunks": [
         {
           "text": "We",
@@ -3429,30 +1738,29 @@
           "color": "#FF0000"
         },
         {
-          "text": "name",
+          "text": "call",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "it",
+          "text": "him",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#FFFF00"
         },
         {
-          "text": "Love",
+          "text": "leader",
           "role": "Complement",
-          "color": "#BA68C8"
+          "color": "#E91E63"
         }
       ],
-      "context": "Review",
-      "question": "Mixed Review"
+      "question": "What do we do?"
     },
     {
-      "id": "1-7-3",
+      "id": "3-7-3",
       "section": "Day 21",
-      "description": "Week 3 Review",
-      "korean": "동의하니?",
-      "english": "Do you agree?",
+      "description": "Week 3 Review: Mixed complex patterns",
+      "korean": "당신은 책을 읽나요?",
+      "english": "Do you read books?",
       "chunks": [
         {
           "text": "Do",
@@ -3465,119 +1773,29 @@
           "color": "#FF0000"
         },
         {
-          "text": "agree",
+          "text": "read",
           "role": "Verb",
           "color": "#FF7F00"
+        },
+        {
+          "text": "books",
+          "role": "Object",
+          "color": "#FFFF00"
         }
       ],
-      "context": "Review",
-      "question": "Mixed Review"
+      "question": "Answer this question."
     },
     {
-      "id": "1-7-4",
+      "id": "3-7-4",
       "section": "Day 21",
-      "description": "Week 3 Review",
-      "korean": "누가 아니?",
-      "english": "Who knows?",
+      "description": "Week 3 Review: Mixed complex patterns",
+      "korean": "그는 어디로 갔나요?",
+      "english": "Where did he go?",
       "chunks": [
         {
-          "text": "Who",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "knows",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Review",
-      "question": "Mixed Review"
-    },
-    {
-      "id": "1-7-5",
-      "section": "Day 21",
-      "description": "Week 3 Review",
-      "korean": "난 상관없다.",
-      "english": "I don't care.",
-      "chunks": [
-        {
-          "text": "I",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "don't",
-          "role": "Negative",
-          "color": "#D32F2F"
-        },
-        {
-          "text": "care",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Review",
-      "question": "Mixed Review"
-    },
-    {
-      "id": "1-7-6",
-      "section": "Day 21",
-      "description": "Week 3 Review",
-      "korean": "기회가 있다.",
-      "english": "There is a chance.",
-      "chunks": [
-        {
-          "text": "There is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "a chance",
-          "role": "Subject",
-          "color": "#FF0000"
-        }
-      ],
-      "context": "Review",
-      "question": "Mixed Review"
-    },
-    {
-      "id": "1-7-7",
-      "section": "Day 21",
-      "description": "Week 3 Review",
-      "korean": "도와줄 수 있니?",
-      "english": "Can you help?",
-      "chunks": [
-        {
-          "text": "Can",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "you",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "help",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Review",
-      "question": "Mixed Review"
-    },
-    {
-      "id": "1-7-8",
-      "section": "Day 21",
-      "description": "Week 3 Review",
-      "korean": "뭐라고 했니?",
-      "english": "What did you say?",
-      "chunks": [
-        {
-          "text": "What",
-          "role": "Wh-Word",
-          "color": "#9C27B0"
+          "text": "Where",
+          "role": "Modifier",
+          "color": "#0000FF"
         },
         {
           "text": "did",
@@ -3585,108 +1803,24 @@
           "color": "#FF7F00"
         },
         {
-          "text": "you",
+          "text": "he",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "say",
+          "text": "go",
           "role": "Verb",
           "color": "#FF7F00"
         }
       ],
-      "context": "Review",
-      "question": "Mixed Review"
+      "question": "Answer this question."
     },
     {
-      "id": "1-7-9",
+      "id": "3-7-5",
       "section": "Day 21",
-      "description": "Week 3 Review",
-      "korean": "그녀는 여기에 없다.",
-      "english": "She isn't here.",
-      "chunks": [
-        {
-          "text": "She",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "isn't",
-          "role": "Negative",
-          "color": "#D32F2F"
-        },
-        {
-          "text": "here",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Review",
-      "question": "Mixed Review"
-    },
-    {
-      "id": "1-7-10",
-      "section": "Day 21",
-      "description": "Week 3 Review",
-      "korean": "그들은 그를 리더로 뽑았다.",
-      "english": "They elected him leader.",
-      "chunks": [
-        {
-          "text": "They",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "elected",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "him",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "leader",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Review",
-      "question": "Mixed Review"
-    },
-    {
-      "id": "1-7-11",
-      "section": "Day 21",
-      "description": "Week 3 Review",
-      "korean": "깨끗하게 유지해라.",
-      "english": "Keep it clean.",
-      "chunks": [
-        {
-          "text": "Keep",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "it",
-          "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "clean",
-          "role": "Complement",
-          "color": "#BA68C8"
-        }
-      ],
-      "context": "Review",
-      "question": "Mixed Review"
-    },
-    {
-      "id": "1-7-12",
-      "section": "Day 21",
-      "description": "Week 3 Review",
-      "korean": "나는 이것을 개회 선언한다.",
-      "english": "I declare this open.",
+      "description": "Week 3 Review: Mixed complex patterns",
+      "korean": "나는 고기를 먹지 않는다.",
+      "english": "I don't eat meat.",
       "chunks": [
         {
           "text": "I",
@@ -3694,108 +1828,24 @@
           "color": "#FF0000"
         },
         {
-          "text": "declare",
+          "text": "don't eat",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
-          "text": "this",
+          "text": "meat",
           "role": "Object",
-          "color": "#FFD700"
-        },
-        {
-          "text": "open",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "color": "#FFFF00"
         }
       ],
-      "context": "Review",
-      "question": "Mixed Review"
+      "question": "What do I do?"
     },
     {
-      "id": "1-7-13",
+      "id": "3-7-6",
       "section": "Day 21",
-      "description": "Week 3 Review",
-      "korean": "아팠니?",
-      "english": "Did it hurt?",
-      "chunks": [
-        {
-          "text": "Did",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "it",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "hurt",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Review",
-      "question": "Mixed Review"
-    },
-    {
-      "id": "1-7-14",
-      "section": "Day 21",
-      "description": "Week 3 Review",
-      "korean": "사랑은 어디에 있니?",
-      "english": "Where is the love?",
-      "chunks": [
-        {
-          "text": "Where",
-          "role": "Wh-Word",
-          "color": "#9C27B0"
-        },
-        {
-          "text": "is",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "the love",
-          "role": "Subject",
-          "color": "#FF0000"
-        }
-      ],
-      "context": "Review",
-      "question": "Mixed Review"
-    },
-    {
-      "id": "1-7-15",
-      "section": "Day 21",
-      "description": "Week 3 Review",
-      "korean": "그는 멈추지 않을 것이다.",
-      "english": "He will not stop.",
-      "chunks": [
-        {
-          "text": "He",
-          "role": "Subject",
-          "color": "#FF0000"
-        },
-        {
-          "text": "will not",
-          "role": "Negative",
-          "color": "#D32F2F"
-        },
-        {
-          "text": "stop",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Review",
-      "question": "Mixed Review"
-    },
-    {
-      "id": "1-7-16",
-      "section": "Day 21",
-      "description": "Week 3 Review",
-      "korean": "비밀은 없다.",
-      "english": "There are no secrets.",
+      "description": "Week 3 Review: Mixed complex patterns",
+      "korean": "공원에 아이들이 있다.",
+      "english": "There are children in the park.",
       "chunks": [
         {
           "text": "There are",
@@ -3803,117 +1853,127 @@
           "color": "#FF7F00"
         },
         {
-          "text": "no secrets",
-          "role": "Subject",
-          "color": "#FF0000"
-        }
-      ],
-      "context": "Review",
-      "question": "Mixed Review"
-    },
-    {
-      "id": "1-7-17",
-      "section": "Day 21",
-      "description": "Week 3 Review",
-      "korean": "너는 왜 슬프니?",
-      "english": "Why are you sad?",
-      "chunks": [
-        {
-          "text": "Why",
-          "role": "Wh-Word",
-          "color": "#9C27B0"
-        },
-        {
-          "text": "are",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "you",
+          "text": "children",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "sad",
-          "role": "Complement",
-          "color": "#BA68C8"
+          "text": "in the park",
+          "role": "Modifier",
+          "color": "#0000FF"
         }
       ],
-      "context": "Review",
-      "question": "Mixed Review"
+      "question": "Where does this happen?"
     },
     {
-      "id": "1-7-18",
+      "id": "3-7-7",
       "section": "Day 21",
-      "description": "Week 3 Review",
-      "korean": "걱정하지 마라.",
-      "english": "Don't worry.",
+      "description": "Week 3 Review: Mixed complex patterns",
+      "korean": "그 소식은 나를 슬프게 했다.",
+      "english": "The news made me sad.",
       "chunks": [
         {
-          "text": "Don't",
-          "role": "Negative",
-          "color": "#D32F2F"
-        },
-        {
-          "text": "worry",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Review",
-      "question": "Mixed Review"
-    },
-    {
-      "id": "1-7-19",
-      "section": "Day 21",
-      "description": "Week 3 Review",
-      "korean": "다 끝냈니?",
-      "english": "Have you finished?",
-      "chunks": [
-        {
-          "text": "Have",
-          "role": "Verb",
-          "color": "#FF7F00"
-        },
-        {
-          "text": "you",
+          "text": "The news",
           "role": "Subject",
           "color": "#FF0000"
         },
         {
-          "text": "finished",
-          "role": "Verb",
-          "color": "#FF7F00"
-        }
-      ],
-      "context": "Review",
-      "question": "Mixed Review"
-    },
-    {
-      "id": "1-7-20",
-      "section": "Day 21",
-      "description": "Week 3 Review",
-      "korean": "나를 자랑스럽게 만들어라.",
-      "english": "Make me proud.",
-      "chunks": [
-        {
-          "text": "Make",
+          "text": "made",
           "role": "Verb",
           "color": "#FF7F00"
         },
         {
           "text": "me",
           "role": "Object",
-          "color": "#FFD700"
+          "color": "#FFFF00"
         },
         {
-          "text": "proud",
+          "text": "sad",
           "role": "Complement",
-          "color": "#BA68C8"
+          "color": "#E91E63"
         }
       ],
-      "context": "Review",
-      "question": "Mixed Review"
+      "question": "How does someone feel?"
+    },
+    {
+      "id": "3-7-8",
+      "section": "Day 21",
+      "description": "Week 3 Review: Mixed complex patterns",
+      "korean": "당신은 무엇을 원하나요?",
+      "english": "What do you want?",
+      "chunks": [
+        {
+          "text": "What",
+          "role": "Modifier",
+          "color": "#0000FF"
+        },
+        {
+          "text": "do",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "you",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "want",
+          "role": "Verb",
+          "color": "#FF7F00"
+        }
+      ],
+      "question": "Answer this question."
+    },
+    {
+      "id": "3-7-9",
+      "section": "Day 21",
+      "description": "Week 3 Review: Mixed complex patterns",
+      "korean": "그녀는 어제 오지 않았다.",
+      "english": "She didn't come yesterday.",
+      "chunks": [
+        {
+          "text": "She",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "didn't come",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "yesterday",
+          "role": "Modifier",
+          "color": "#0000FF"
+        }
+      ],
+      "question": "When does this happen?"
+    },
+    {
+      "id": "3-7-10",
+      "section": "Day 21",
+      "description": "Week 3 Review: Mixed complex patterns",
+      "korean": "테이블 위에 책이 있다.",
+      "english": "There is a book on the table.",
+      "chunks": [
+        {
+          "text": "There is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "a book",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "on the table",
+          "role": "Modifier",
+          "color": "#0000FF"
+        }
+      ],
+      "question": "Where does this happen?"
     }
   ]
 }

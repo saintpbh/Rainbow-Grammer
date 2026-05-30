@@ -1,5044 +1,789 @@
 {
   "curriculum": [
     {
-      "id": "6-8-1",
+      "id": "6-2-1",
       "section": "Day 8",
-      "description": "Negative Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 이런이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how never works operates.",
+      "description": "Steve Jobs",
+      "question": "Quote: Jobs",
+      "korean": "항상 갈망하라, 항상 우직하라.",
+      "english": "Stay hungry stay foolish.",
       "chunks": [
         {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
+          "text": "Stay",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
+          "text": "hungry",
+          "role": "Comp",
+          "color": "#BA68C8"
         },
         {
-          "text": "forget how never works",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "stay",
+          "role": "Verb",
+          "color": "#FF7F00"
         },
         {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "foolish",
+          "role": "Comp",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Negative Inversion",
-      "question": "What is recommended to do?"
+      "context": "Steve Jobs",
+      "grammarGuide": {
+        "title": "Steve Jobs",
+        "structure": [
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Comp",
+            "color": "#BA68C8"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Comp",
+            "color": "#BA68C8"
+          }
+        ]
+      }
     },
     {
-      "id": "6-8-2",
+      "id": "6-2-2",
       "section": "Day 8",
-      "description": "Negative Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 난이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how little works operates.",
+      "description": "Steve Jobs",
+      "question": "Quote: Jobs",
+      "korean": "과거를 돌아보며 점들을 연결하라.",
+      "english": "Connect the dots looking backward.",
       "chunks": [
         {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
+          "text": "Connect",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
+          "text": "the dots",
+          "role": "Obj",
+          "color": "#FFD700"
         },
         {
-          "text": "forget how little works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "looking backward",
+          "role": "Mod",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Negative Inversion",
-      "question": "What is recommended to do?"
+      "context": "Steve Jobs",
+      "grammarGuide": null
     },
     {
-      "id": "6-8-3",
+      "id": "6-2-3",
       "section": "Day 8",
-      "description": "Negative Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 그는이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how seldom works operates.",
+      "description": "Steve Jobs",
+      "question": "Quote: Jobs",
+      "korean": "당신이 하는 일을 사랑하라.",
+      "english": "Love what you do.",
       "chunks": [
         {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
+          "text": "Love",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how seldom works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "what you do",
+          "role": "Obj",
+          "color": "#FFD700"
         }
       ],
-      "context": "Negative Inversion",
-      "question": "What is recommended to do?"
+      "context": "Steve Jobs",
+      "grammarGuide": null
     },
     {
-      "id": "6-8-4",
+      "id": "6-2-4",
       "section": "Day 8",
-      "description": "Negative Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 우린이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how rarely works operates.",
+      "description": "Steve Jobs",
+      "question": "Quote: Jobs",
+      "korean": "당신의 시간은 제한되어 있다.",
+      "english": "Your time is limited.",
       "chunks": [
         {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
+          "text": "Your time",
+          "role": "Subj",
+          "color": "#FF0000"
         },
         {
-          "text": "you forget how under",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how rarely works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "limited",
+          "role": "Comp",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Negative Inversion",
-      "question": "What is recommended to do?"
+      "context": "Steve Jobs",
+      "grammarGuide": null
     },
     {
-      "id": "6-8-5",
+      "id": "6-2-5",
       "section": "Day 8",
-      "description": "Negative Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 어디서도이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how nowhere works operates.",
+      "description": "Steve Jobs",
+      "question": "Quote: Jobs",
+      "korean": "소음이 당신의 목소리를 덮게 하지 마라.",
+      "english": "Don't let the noise drown your voice.",
       "chunks": [
         {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
+          "text": "Don't let",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
+          "text": "the noise",
+          "role": "Obj",
+          "color": "#FFD700"
         },
         {
-          "text": "forget how nowhere works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "drown your voice",
+          "role": "Mod",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Negative Inversion",
-      "question": "What is recommended to do?"
+      "context": "Steve Jobs",
+      "grammarGuide": null
     },
     {
-      "id": "6-8-6",
+      "id": "6-2-6",
       "section": "Day 8",
-      "description": "Negative Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 절대이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how never works operates.",
+      "description": "Steve Jobs",
+      "question": "Quote: Jobs",
+      "korean": "당신의 마음을 따를 용기를 가져라.",
+      "english": "Have the courage to follow your heart.",
       "chunks": [
         {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
+          "text": "Have",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "no circumstances should you",
+          "text": "the courage",
           "role": "Object",
-          "color": "#00E676"
+          "color": "#FFD700"
         },
         {
-          "text": "forget how never works",
+          "text": "to follow",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#0000FF"
         },
         {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "your heart",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Negative Inversion",
-      "question": "What is recommended to do?"
+      "context": "Steve Jobs",
+      "grammarGuide": null
     },
     {
-      "id": "6-8-7",
+      "id": "6-2-7",
       "section": "Day 8",
-      "description": "Negative Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 도착하자마자이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how hardly works operates.",
+      "description": "Steve Jobs",
+      "question": "Quote: Jobs",
+      "korean": "죽음은 삶의 최고의 발명품이다.",
+      "english": "Death is the single best invention of life.",
       "chunks": [
         {
-          "text": "Under no circumstances should",
+          "text": "Death",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "you forget how under",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
+          "text": "the single best invention",
+          "role": "Complement",
+          "color": "#00FF00"
         },
         {
-          "text": "forget how hardly works",
+          "text": "of life",
           "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#0000FF"
         }
       ],
-      "context": "Negative Inversion",
-      "question": "What is recommended to do?"
+      "context": "Steve Jobs",
+      "grammarGuide": null
     },
     {
-      "id": "6-8-8",
+      "id": "6-2-8",
       "section": "Day 8",
-      "description": "Negative Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 그녀가이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how scarcely works operates.",
+      "description": "Steve Jobs",
+      "question": "Quote: Jobs",
+      "korean": "마치 마지막 날인 것처럼 하루를 살아라.",
+      "english": "Live each day as if it was your last.",
       "chunks": [
         {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
+          "text": "Live",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
+          "text": "each day",
+          "role": "Obj",
+          "color": "#FFD700"
         },
         {
-          "text": "forget how scarcely works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "as if it was your last",
+          "role": "Mod",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Negative Inversion",
-      "question": "What is recommended to do?"
+      "context": "Steve Jobs",
+      "grammarGuide": null
     },
     {
-      "id": "6-8-9",
+      "id": "6-2-9",
       "section": "Day 8",
-      "description": "Negative Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 그는이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how not works operates.",
+      "description": "Steve Jobs",
+      "question": "Quote: Jobs",
+      "korean": "나는 사랑하는 일을 찾아서 운이 좋았다.",
+      "english": "I was lucky I found what I loved.",
       "chunks": [
         {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
+          "text": "I",
+          "role": "Subj",
+          "color": "#FF0000"
         },
         {
-          "text": "you forget how under",
+          "text": "was",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
+          "text": "lucky",
+          "role": "Comp",
+          "color": "#BA68C8"
         },
         {
-          "text": "forget how not works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "I found what I loved",
+          "role": "Mod",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Negative Inversion",
-      "question": "What is recommended to do?"
+      "context": "Steve Jobs",
+      "grammarGuide": null
     },
     {
-      "id": "6-8-10",
+      "id": "6-2-10",
       "section": "Day 8",
-      "description": "Negative Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 나가자마자이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how no works operates.",
+      "description": "Steve Jobs",
+      "question": "Quote: Jobs",
+      "korean": "계속 찾아라, 안주하지 마라.",
+      "english": "Keep looking don't settle.",
       "chunks": [
         {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
+          "text": "Keep looking",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how no works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "don't settle",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Negative Inversion",
-      "question": "What is recommended to do?"
+      "context": "Steve Jobs",
+      "grammarGuide": null
     },
     {
-      "id": "6-8-11",
-      "section": "Day 8",
-      "description": "Negative Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 어떤이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how under works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how under works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Negative Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-8-12",
-      "section": "Day 8",
-      "description": "Negative Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 난이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how in works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how in works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Negative Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-8-13",
-      "section": "Day 8",
-      "description": "Negative Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 오늘이이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how not works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how not works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Negative Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-8-14",
-      "section": "Day 8",
-      "description": "Negative Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 내이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how never works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how never works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Negative Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-8-15",
-      "section": "Day 8",
-      "description": "Negative Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 그는이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how at works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how at works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Negative Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-8-16",
-      "section": "Day 8",
-      "description": "Negative Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 여기저기이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how here, works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how here, works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Negative Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-8-17",
-      "section": "Day 8",
-      "description": "Negative Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 중요하지이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how neither works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how neither works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Negative Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-8-18",
-      "section": "Day 8",
-      "description": "Negative Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 절대란이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how never works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how never works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Negative Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-8-19",
-      "section": "Day 8",
-      "description": "Negative Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 조금씩.이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how little works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how little works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Negative Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-8-20",
-      "section": "Day 8",
-      "description": "Negative Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 좀처럼이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how hardly works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how hardly works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Negative Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-9-1",
+      "id": "6-2-11",
       "section": "Day 9",
-      "description": "Only Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 그제서야이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how only works operates.",
+      "description": "Martin Luther King Jr.",
+      "question": "Quote: MLK",
+      "korean": "나에게는 꿈이 있습니다.",
+      "english": "I have a dream.",
       "chunks": [
         {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
+          "text": "I",
+          "role": "Subj",
+          "color": "#FF0000"
         },
         {
-          "text": "you forget how under",
+          "text": "have",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how only works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "a dream",
+          "role": "Obj",
+          "color": "#FFD700"
         }
       ],
-      "context": "Only Inversion",
-      "question": "What is recommended to do?"
+      "context": "Martin Luther King Jr.",
+      "grammarGuide": null
     },
     {
-      "id": "6-9-2",
+      "id": "6-2-12",
       "section": "Day 9",
-      "description": "Only Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 이제야이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how only works operates.",
+      "description": "Martin Luther King Jr.",
+      "question": "Quote: MLK",
+      "korean": "모든 산에서 자유가 울려 퍼지게 하라.",
+      "english": "Let freedom ring from every mountain.",
       "chunks": [
         {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
+          "text": "Let",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
+          "text": "freedom",
+          "role": "Obj",
+          "color": "#FFD700"
         },
         {
-          "text": "forget how only works",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "ring",
+          "role": "Verb",
+          "color": "#FF7F00"
         },
         {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "from every mountain",
+          "role": "Mod",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Only Inversion",
-      "question": "What is recommended to do?"
+      "context": "Martin Luther King Jr.",
+      "grammarGuide": null
     },
     {
-      "id": "6-9-3",
+      "id": "6-2-13",
       "section": "Day 9",
-      "description": "Only Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 일해야만이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how only works operates.",
+      "description": "Martin Luther King Jr.",
+      "question": "Quote: MLK",
+      "korean": "마침내 자유다!",
+      "english": "Free at last!",
       "chunks": [
         {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
+          "text": "Free",
+          "role": "Comp",
+          "color": "#BA68C8"
         },
         {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how only works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "at last",
+          "role": "Mod",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Only Inversion",
-      "question": "What is recommended to do?"
+      "context": "Martin Luther King Jr.",
+      "grammarGuide": null
     },
     {
-      "id": "6-9-4",
+      "id": "6-2-14",
       "section": "Day 9",
-      "description": "Only Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 나중에서야이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how only works operates.",
+      "description": "Martin Luther King Jr.",
+      "question": "Quote: MLK",
+      "korean": "피부색으로 판단하지 말라.",
+      "english": "Judge not by the color of skin.",
       "chunks": [
         {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
+          "text": "Judge not",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how only works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "by the color of skin",
+          "role": "Mod",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Only Inversion",
-      "question": "What is recommended to do?"
+      "context": "Martin Luther King Jr.",
+      "grammarGuide": null
     },
     {
-      "id": "6-9-5",
+      "id": "6-2-15",
       "section": "Day 9",
-      "description": "Only Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 꿈속에서만이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how only works operates.",
+      "description": "Martin Luther King Jr.",
+      "question": "Quote: MLK",
+      "korean": "그들의 인격 수준이 중요하다.",
+      "english": "Content of their character matters.",
       "chunks": [
         {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
+          "text": "Content of their character",
+          "role": "Subj",
+          "color": "#FF0000"
         },
         {
-          "text": "you forget how under",
+          "text": "matters",
           "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how only works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#FF7F00"
         }
       ],
-      "context": "Only Inversion",
-      "question": "What is recommended to do?"
+      "context": "Martin Luther King Jr.",
+      "grammarGuide": null
     },
     {
-      "id": "6-9-6",
+      "id": "6-2-16",
       "section": "Day 9",
-      "description": "Only Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 네가이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how only works operates.",
+      "description": "Martin Luther King Jr.",
+      "question": "Quote: MLK",
+      "korean": "우리는 홀로 걸을 수 없다.",
+      "english": "We cannot walk alone.",
       "chunks": [
         {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
+          "text": "We",
+          "role": "Subj",
+          "color": "#FF0000"
         },
         {
-          "text": "you forget how under",
+          "text": "cannot walk",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how only works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "alone",
+          "role": "Mod",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Only Inversion",
-      "question": "What is recommended to do?"
+      "context": "Martin Luther King Jr.",
+      "grammarGuide": null
     },
     {
-      "id": "6-9-7",
+      "id": "6-2-17",
       "section": "Day 9",
-      "description": "Only Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 시도해야이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how only works operates.",
+      "description": "Martin Luther King Jr.",
+      "question": "Quote: MLK",
+      "korean": "어디서든 불의는 모든 곳의 정의에 대한 위협이다.",
+      "english": "Injustice anywhere is a threat to justice everywhere.",
       "chunks": [
         {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
+          "text": "Injustice anywhere",
+          "role": "Subj",
+          "color": "#FF0000"
         },
         {
-          "text": "you forget how under",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
+          "text": "a threat",
+          "role": "Comp",
+          "color": "#BA68C8"
         },
         {
-          "text": "forget how only works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "to justice everywhere",
+          "role": "Mod",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Only Inversion",
-      "question": "What is recommended to do?"
+      "context": "Martin Luther King Jr.",
+      "grammarGuide": null
     },
     {
-      "id": "6-9-8",
+      "id": "6-2-18",
       "section": "Day 9",
-      "description": "Only Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 시도해야이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how only works operates.",
+      "description": "Martin Luther King Jr.",
+      "question": "Quote: MLK",
+      "korean": "어둠은 어둠을 몰아낼 수 없다.",
+      "english": "Darkness cannot drive out darkness.",
       "chunks": [
         {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
+          "text": "Darkness",
+          "role": "Subj",
+          "color": "#FF0000"
         },
         {
-          "text": "you forget how under",
+          "text": "cannot drive out",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how only works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "darkness",
+          "role": "Obj",
+          "color": "#FFD700"
         }
       ],
-      "context": "Only Inversion",
-      "question": "What is recommended to do?"
+      "context": "Martin Luther King Jr.",
+      "grammarGuide": null
     },
     {
-      "id": "6-9-9",
+      "id": "6-2-19",
       "section": "Day 9",
-      "description": "Only Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 딱이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how only works operates.",
+      "description": "Martin Luther King Jr.",
+      "question": "Quote: MLK",
+      "korean": "오직 빛만이 그것을 할 수 있다.",
+      "english": "Only light can do that.",
       "chunks": [
         {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
+          "text": "Only light",
+          "role": "Subj",
+          "color": "#FF0000"
         },
         {
-          "text": "you forget how under",
+          "text": "can do",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how only works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "that",
+          "role": "Obj",
+          "color": "#FFD700"
         }
       ],
-      "context": "Only Inversion",
-      "question": "What is recommended to do?"
+      "context": "Martin Luther King Jr.",
+      "grammarGuide": null
     },
     {
-      "id": "6-9-10",
+      "id": "6-2-20",
       "section": "Day 9",
-      "description": "Only Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 점심이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how only works operates.",
+      "description": "Martin Luther King Jr.",
+      "question": "Quote: MLK",
+      "korean": "사랑만이 유일한 힘이다.",
+      "english": "Love is the only force.",
       "chunks": [
         {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
+          "text": "Love",
+          "role": "Subj",
+          "color": "#FF0000"
         },
         {
-          "text": "you forget how under",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how only works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "the only force",
+          "role": "Comp",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Only Inversion",
-      "question": "What is recommended to do?"
+      "context": "Martin Luther King Jr.",
+      "grammarGuide": null
     },
     {
-      "id": "6-9-11",
-      "section": "Day 9",
-      "description": "Only Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 사랑으로만이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how only works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how only works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Only Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-9-12",
-      "section": "Day 9",
-      "description": "Only Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 고독한/유일한.이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how solitary works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how solitary works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Only Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-9-13",
-      "section": "Day 9",
-      "description": "Only Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 오직이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how only works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how only works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Only Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-9-14",
-      "section": "Day 9",
-      "description": "Only Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 널이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how only works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how only works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Only Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-9-15",
-      "section": "Day 9",
-      "description": "Only Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 ~라면이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how if works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how if works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Only Inversion",
-      "question": "Under what condition will this happen?"
-    },
-    {
-      "id": "6-9-16",
-      "section": "Day 9",
-      "description": "Only Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 유일무이한.이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how one works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how one works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Only Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-9-17",
-      "section": "Day 9",
-      "description": "Only Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 회원이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how members works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how members works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Only Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-9-18",
-      "section": "Day 9",
-      "description": "Only Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 읽기이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how read works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how read works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Only Inversion",
-      "question": "What was read?"
-    },
-    {
-      "id": "6-9-19",
-      "section": "Day 9",
-      "description": "Only Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 시간만이이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how only works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how only works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Only Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-9-20",
-      "section": "Day 9",
-      "description": "Only Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 시간문제일이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how it works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how it works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Only Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-10-1",
+      "id": "6-2-21",
       "section": "Day 10",
-      "description": "Place Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 버스이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how here works operates.",
+      "description": "Lincoln",
+      "question": "Quote: Lincoln",
+      "korean": "국민의 정부.",
+      "english": "Government of the people.",
       "chunks": [
         {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
+          "text": "Government",
+          "role": "Subj",
+          "color": "#FF0000"
         },
         {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how here works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "of the people",
+          "role": "Mod",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Place Inversion",
-      "question": "What is recommended to do?"
+      "context": "Lincoln",
+      "grammarGuide": null
     },
     {
-      "id": "6-10-2",
+      "id": "6-2-22",
       "section": "Day 10",
-      "description": "Place Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 내이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how there works operates.",
+      "description": "Lincoln",
+      "question": "Quote: Lincoln",
+      "korean": "국민에 의한, 국민을 위한.",
+      "english": "By the people for the people.",
       "chunks": [
         {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
+          "text": "By the people",
+          "role": "Mod",
+          "color": "#B0BEC5"
         },
         {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how there works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "for the people",
+          "role": "Mod",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Place Inversion",
-      "question": "What is recommended to do?"
+      "context": "Lincoln",
+      "grammarGuide": null
     },
     {
-      "id": "6-10-3",
+      "id": "6-2-23",
       "section": "Day 10",
-      "description": "Place Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 언덕이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how on works operates.",
+      "description": "Lincoln",
+      "question": "Quote: Lincoln",
+      "korean": "이 땅에서 사라지지 않을 것이다.",
+      "english": "Shall not perish from the earth.",
       "chunks": [
         {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
+          "text": "Shall not perish",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how on works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "from the earth",
+          "role": "Mod",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Place Inversion",
-      "question": "What is recommended to do?"
+      "context": "Lincoln",
+      "grammarGuide": null
     },
     {
-      "id": "6-10-4",
+      "id": "6-2-24",
       "section": "Day 10",
-      "description": "Place Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 비가이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how down works operates.",
+      "description": "Lincoln",
+      "question": "Quote: Lincoln",
+      "korean": "87년 전에.",
+      "english": "Four score and seven years ago.",
       "chunks": [
         {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how down works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
+          "text": "Four score and seven years ago",
           "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#BA68C8"
         }
       ],
-      "context": "Place Inversion",
-      "question": "What is recommended to do?"
+      "context": "Lincoln",
+      "grammarGuide": null
     },
     {
-      "id": "6-10-5",
+      "id": "6-2-25",
       "section": "Day 10",
-      "description": "Place Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 새가이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how away works operates.",
+      "description": "Lincoln",
+      "question": "Quote: Lincoln",
+      "korean": "모든 인간은 평등하게 창조되었다.",
+      "english": "All men are created equal.",
       "chunks": [
         {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
+          "text": "All men",
+          "role": "Subj",
+          "color": "#FF0000"
         },
         {
-          "text": "you forget how under",
+          "text": "are created",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how away works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "equal",
+          "role": "Comp",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Place Inversion",
-      "question": "What is recommended to do?"
+      "context": "Lincoln",
+      "grammarGuide": null
     },
     {
-      "id": "6-10-6",
+      "id": "6-2-26",
       "section": "Day 10",
-      "description": "Place Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 상자이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how in works operates.",
+      "description": "Lincoln",
+      "question": "Quote: Lincoln",
+      "korean": "분열된 집안은 바로 설 수 없다.",
+      "english": "A house divided cannot stand.",
       "chunks": [
         {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
+          "text": "A house divided",
+          "role": "Subj",
+          "color": "#FF0000"
         },
         {
-          "text": "you forget how under",
+          "text": "cannot stand",
           "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how in works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#FF7F00"
         }
       ],
-      "context": "Place Inversion",
-      "question": "What is recommended to do?"
+      "context": "Lincoln",
+      "grammarGuide": null
     },
     {
-      "id": "6-10-7",
+      "id": "6-2-27",
       "section": "Day 10",
-      "description": "Place Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 나무이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how under works operates.",
+      "description": "Lincoln",
+      "question": "Quote: Lincoln",
+      "korean": "누구에게도 악의를 품지 않고.",
+      "english": "With malice toward none.",
       "chunks": [
         {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
+          "text": "With malice",
+          "role": "Mod",
+          "color": "#B0BEC5"
         },
         {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how under works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "toward none",
+          "role": "Mod",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Place Inversion",
-      "question": "What is recommended to do?"
+      "context": "Lincoln",
+      "grammarGuide": null
     },
     {
-      "id": "6-10-8",
+      "id": "6-2-28",
       "section": "Day 10",
-      "description": "Place Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 그가이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how here works operates.",
+      "description": "Lincoln",
+      "question": "Quote: Lincoln",
+      "korean": "모두에게 자비를 베풀며.",
+      "english": "With charity for all.",
       "chunks": [
         {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
+          "text": "With charity",
+          "role": "Mod",
+          "color": "#B0BEC5"
         },
         {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how here works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "for all",
+          "role": "Mod",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Place Inversion",
-      "question": "What is recommended to do?"
+      "context": "Lincoln",
+      "grammarGuide": null
     },
     {
-      "id": "6-10-9",
+      "id": "6-2-29",
       "section": "Day 10",
-      "description": "Place Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 출발이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how off works operates.",
+      "description": "Lincoln",
+      "question": "Quote: Lincoln",
+      "korean": "우리가 그 일을 끝내도록 노력합시다.",
+      "english": "Let us strive to finish the work.",
       "chunks": [
         {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
+          "text": "Let us strive",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how off works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "to finish the work",
+          "role": "Obj",
+          "color": "#FFD700"
         }
       ],
-      "context": "Place Inversion",
-      "question": "What is recommended to do?"
+      "context": "Lincoln",
+      "grammarGuide": null
     },
     {
-      "id": "6-10-10",
+      "id": "6-2-30",
       "section": "Day 10",
-      "description": "Place Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 내이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how next works operates.",
+      "description": "Lincoln",
+      "question": "Quote: Lincoln",
+      "korean": "세상은 별로 기억하지 않을 것이다.",
+      "english": "The world will little note.",
       "chunks": [
         {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
+          "text": "The world",
+          "role": "Subj",
+          "color": "#FF0000"
         },
         {
-          "text": "you forget how under",
+          "text": "will little note",
           "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how next works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Place Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-10-11",
-      "section": "Day 10",
-      "description": "Place Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 방으로이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how into works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how into works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Place Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-10-12",
-      "section": "Day 10",
-      "description": "Place Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 여기이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how here works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how here works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Place Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-10-13",
-      "section": "Day 10",
-      "description": "Place Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 펑이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how pop works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how pop works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Place Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-10-14",
-      "section": "Day 10",
-      "description": "Place Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 풍선이이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how up works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how up works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Place Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-10-15",
-      "section": "Day 10",
-      "description": "Place Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 그가이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how there works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how there works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Place Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-10-16",
-      "section": "Day 10",
-      "description": "Place Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 빙글빙글.이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how round works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how round works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Place Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-10-17",
-      "section": "Day 10",
-      "description": "Place Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 여기저기.이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how here works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how here works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Place Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-10-18",
-      "section": "Day 10",
-      "description": "Place Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 무한이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how to works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how to works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Place Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-10-19",
-      "section": "Day 10",
-      "description": "Place Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 인생무상(오늘이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how here works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how here works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Place Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-10-20",
-      "section": "Day 10",
-      "description": "Place Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 아니이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how where works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how where works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Place Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-11-1",
-      "section": "Day 11",
-      "description": "Agreement Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 나도이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how so works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how so works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Agreement Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-11-2",
-      "section": "Day 11",
-      "description": "Agreement Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 나도이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how so works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how so works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Agreement Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-11-3",
-      "section": "Day 11",
-      "description": "Agreement Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 나도이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how neither works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how neither works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Agreement Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-11-4",
-      "section": "Day 11",
-      "description": "Agreement Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 나도이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how nor works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how nor works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Agreement Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-11-5",
-      "section": "Day 11",
-      "description": "Agreement Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 정말이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how so works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how so works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Agreement Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-11-6",
-      "section": "Day 11",
-      "description": "Agreement Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 그는이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how he works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how he works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Agreement Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-11-7",
-      "section": "Day 11",
-      "description": "Agreement Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 그녀는이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how she works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how she works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Agreement Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-11-8",
-      "section": "Day 11",
-      "description": "Agreement Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 난이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how i works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how i works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Agreement Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-11-9",
-      "section": "Day 11",
-      "description": "Agreement Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 난이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how i works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how i works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Agreement Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-11-10",
-      "section": "Day 11",
-      "description": "Agreement Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 네가이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how just works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how just works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Agreement Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-11-11",
-      "section": "Day 11",
-      "description": "Agreement Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 어디도이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how neither works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how neither works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Agreement Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-11-12",
-      "section": "Day 11",
-      "description": "Agreement Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 나도.이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how me works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how me works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Agreement Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-11-13",
-      "section": "Day 11",
-      "description": "Agreement Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 나도이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how me works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how me works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Agreement Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-11-14",
-      "section": "Day 11",
-      "description": "Agreement Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 그럴이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how so works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how so works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Agreement Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-11-15",
-      "section": "Day 11",
-      "description": "Agreement Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 관습이이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how as works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how as works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Agreement Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-11-16",
-      "section": "Day 11",
-      "description": "Agreement Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 그렇다.이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how it works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how it works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Agreement Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-11-17",
-      "section": "Day 11",
-      "description": "Agreement Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 내가이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how i works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how i works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Agreement Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-11-18",
-      "section": "Day 11",
-      "description": "Agreement Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 그래서이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how so works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how so works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Agreement Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-11-19",
-      "section": "Day 11",
-      "description": "Agreement Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 기타이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how and works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how and works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Agreement Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-11-20",
-      "section": "Day 11",
-      "description": "Agreement Inversion",
-      "korean": "어떤 상황에서도 어떤 상황에서도 그렇게이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how think works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how think works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Agreement Inversion",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-12-1",
-      "section": "Day 12",
-      "description": "Inversion Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 알았더라면.이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how had works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how had works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Inversion Review",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-12-2",
-      "section": "Day 12",
-      "description": "Inversion Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 내가이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how were works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how were works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Inversion Review",
-      "question": "Describe under or their status."
-    },
-    {
-      "id": "6-12-3",
-      "section": "Day 12",
-      "description": "Inversion Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 필요하다면.이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how should works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how should works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Inversion Review",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-12-4",
-      "section": "Day 12",
-      "description": "Inversion Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 그는이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how he works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how he works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Inversion Review",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-12-5",
-      "section": "Day 12",
-      "description": "Inversion Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 그녀는이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how she works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how she works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Inversion Review",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-12-6",
-      "section": "Day 12",
-      "description": "Inversion Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 그는이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how he works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how he works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Inversion Review",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-12-7",
-      "section": "Day 12",
-      "description": "Inversion Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 난이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how i works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how i works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Inversion Review",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-12-8",
-      "section": "Day 12",
-      "description": "Inversion Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 비가이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how had works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how had works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Inversion Review",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-12-9",
-      "section": "Day 12",
-      "description": "Inversion Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 비이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how should works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how should works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Inversion Review",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-12-10",
-      "section": "Day 12",
-      "description": "Inversion Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 공기가이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how were works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how were works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Inversion Review",
-      "question": "Describe under or their status."
-    },
-    {
-      "id": "6-12-11",
-      "section": "Day 12",
-      "description": "Inversion Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 그는이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how he works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how he works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Inversion Review",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-12-12",
-      "section": "Day 12",
-      "description": "Inversion Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 난이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how i works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how i works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Inversion Review",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-12-13",
-      "section": "Day 12",
-      "description": "Inversion Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 우리가이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how had works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how had works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Inversion Review",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-12-14",
-      "section": "Day 12",
-      "description": "Inversion Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 내가이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how were works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how were works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Inversion Review",
-      "question": "Describe under or their status."
-    },
-    {
-      "id": "6-12-15",
-      "section": "Day 12",
-      "description": "Inversion Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 혹시라도이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how should works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how should works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Inversion Review",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-12-16",
-      "section": "Day 12",
-      "description": "Inversion Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 눈에이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how more works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how more works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Inversion Review",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-12-17",
-      "section": "Day 12",
-      "description": "Inversion Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 말이이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how easier works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how easier works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Inversion Review",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-12-18",
-      "section": "Day 12",
-      "description": "Inversion Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 거룩한이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how holier works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how holier works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Inversion Review",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-12-19",
-      "section": "Day 12",
-      "description": "Inversion Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 다름이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how none works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how none works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Inversion Review",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-12-20",
-      "section": "Day 12",
-      "description": "Inversion Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 ~보다는.이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how rather works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how rather works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Inversion Review",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-13-1",
-      "section": "Day 13",
-      "description": "Fronting",
-      "korean": "어떤 상황에서도 어떤 상황에서도 똑똑하긴이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how smart works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how smart works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Fronting",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-13-2",
-      "section": "Day 13",
-      "description": "Fronting",
-      "korean": "어떤 상황에서도 어떤 상황에서도 빠르게이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how fast works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how fast works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Fronting",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-13-3",
-      "section": "Day 13",
-      "description": "Fronting",
-      "korean": "어떤 상황에서도 어떤 상황에서도 행복한이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how happy works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how happy works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Fronting",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-13-4",
-      "section": "Day 13",
-      "description": "Fronting",
-      "korean": "어떤 상황에서도 어떤 상황에서도 가난한이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how blessed works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how blessed works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Fronting",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-13-5",
-      "section": "Day 13",
-      "description": "Fronting",
-      "korean": "어떤 상황에서도 어떤 상황에서도 그이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how gone works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how gone works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Fronting",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-13-6",
-      "section": "Day 13",
-      "description": "Fronting",
-      "korean": "어떤 상황에서도 어떤 상황에서도 맛이이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how sweet works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how sweet works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Fronting",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-13-7",
-      "section": "Day 13",
-      "description": "Fronting",
-      "korean": "어떤 상황에서도 어떤 상황에서도 그의이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how great works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how great works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Fronting",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-13-8",
-      "section": "Day 13",
-      "description": "Fronting",
-      "korean": "어떤 상황에서도 어떤 상황에서도 계획은이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how many works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how many works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Fronting",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-13-9",
-      "section": "Day 13",
-      "description": "Fronting",
-      "korean": "어떤 상황에서도 어떤 상황에서도 탕!이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how bang! works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how bang! works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Fronting",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-13-10",
-      "section": "Day 13",
-      "description": "Fronting",
-      "korean": "어떤 상황에서도 어떤 상황에서도 우두둑!이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how crunch! works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how crunch! works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Fronting",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-13-11",
-      "section": "Day 13",
-      "description": "Fronting",
-      "korean": "어떤 상황에서도 어떤 상황에서도 파일이이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how attached works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how attached works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Fronting",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-13-12",
-      "section": "Day 13",
-      "description": "Fronting",
-      "korean": "어떤 상황에서도 어떤 상황에서도 세금이이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how included works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how included works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Fronting",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-13-13",
-      "section": "Day 13",
-      "description": "Fronting",
-      "korean": "어떤 상황에서도 어떤 상황에서도 이상해이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how strange works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how strange works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Fronting",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-13-14",
-      "section": "Day 13",
-      "description": "Fronting",
-      "korean": "어떤 상황에서도 어떤 상황에서도 그는이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how rich works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how rich works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Fronting",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-13-15",
-      "section": "Day 13",
-      "description": "Fronting",
-      "korean": "어떤 상황에서도 어떤 상황에서도 아무리이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how try works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how try works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Fronting",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-13-16",
-      "section": "Day 13",
-      "description": "Fronting",
-      "korean": "어떤 상황에서도 어떤 상황에서도 믿거나이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how believe works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how believe works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Fronting",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-13-17",
-      "section": "Day 13",
-      "description": "Fronting",
-      "korean": "어떤 상황에서도 어떤 상황에서도 사실대로이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how truth works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how truth works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Fronting",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-13-18",
-      "section": "Day 13",
-      "description": "Fronting",
-      "korean": "어떤 상황에서도 어떤 상황에서도 그건이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how be works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how be works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Fronting",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-13-19",
-      "section": "Day 13",
-      "description": "Fronting",
-      "korean": "어떤 상황에서도 어떤 상황에서도 무슨이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how come works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how come works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Fronting",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-13-20",
-      "section": "Day 13",
-      "description": "Fronting",
-      "korean": "어떤 상황에서도 어떤 상황에서도 그럴이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how far works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how far works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Fronting",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-14-1",
-      "section": "Day 14",
-      "description": "Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 난이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how never works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how never works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Review",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-14-2",
-      "section": "Day 14",
-      "description": "Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 비가이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how here works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how here works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Review",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-14-3",
-      "section": "Day 14",
-      "description": "Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 나도이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how so works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how so works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Review",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-14-4",
-      "section": "Day 14",
-      "description": "Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 그는이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how little works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how little works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Review",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-14-5",
-      "section": "Day 14",
-      "description": "Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 알았더라면.이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how had works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how had works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Review",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-14-6",
-      "section": "Day 14",
-      "description": "Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 그때서야이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how only works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how only works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Review",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-14-7",
-      "section": "Day 14",
-      "description": "Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 X뿐만이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how not works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how not works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Review",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-14-8",
-      "section": "Day 14",
-      "description": "Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 차가이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how away works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how away works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Review",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-14-9",
-      "section": "Day 14",
-      "description": "Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 나도이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how neither works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how neither works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Review",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-14-10",
-      "section": "Day 14",
-      "description": "Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 가격이이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how up works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how up works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Review",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-14-11",
-      "section": "Day 14",
-      "description": "Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 거의이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how scarcely works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how scarcely works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Review",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-14-12",
-      "section": "Day 14",
-      "description": "Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 우린이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how seldom works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how seldom works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Review",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-14-13",
-      "section": "Day 14",
-      "description": "Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 거의이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how hardly works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how hardly works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Review",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-14-14",
-      "section": "Day 14",
-      "description": "Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 여기이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how here works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how here works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Review",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-14-15",
-      "section": "Day 14",
-      "description": "Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 바람과이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how gone works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how gone works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Review",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-14-16",
-      "section": "Day 14",
-      "description": "Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 그는이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how blessed works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how blessed works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Review",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-14-17",
-      "section": "Day 14",
-      "description": "Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 부자임에도이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how rich works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how rich works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Review",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-14-18",
-      "section": "Day 14",
-      "description": "Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 그걸이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how should works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how should works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Review",
-      "question": "What is recommended to do?"
-    },
-    {
-      "id": "6-14-19",
-      "section": "Day 14",
-      "description": "Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 너이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how were works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how were works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Review",
-      "question": "Describe under or their status."
-    },
-    {
-      "id": "6-14-20",
-      "section": "Day 14",
-      "description": "Review",
-      "korean": "어떤 상황에서도 어떤 상황에서도 쾅!이 어떻게 작용하는지 잊어서는 안 된다.이 어떻게 운영되는지 잊어서는 안 된다.",
-      "english": "Under no circumstances should you forget how under no circumstances should you forget how bang! works operates.",
-      "chunks": [
-        {
-          "text": "Under no circumstances should",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you forget how under",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "no circumstances should you",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "forget how bang! works",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "operates.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#FF7F00"
         }
       ],
-      "context": "Review",
-      "question": "What is recommended to do?"
+      "context": "Lincoln",
+      "grammarGuide": null
     }
   ]
 }

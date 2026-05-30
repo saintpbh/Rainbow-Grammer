@@ -3,4512 +3,1910 @@
     {
       "id": "3-1-1",
       "section": "Day 1",
-      "description": "Basic Progressive",
-      "korean": "특별한 작업이 나는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by i has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "What happened in the past?",
+      "korean": "나는 어제 할머니 댁을 방문했다.",
+      "english": "I visited my grandma yesterday.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "I",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "visited",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by i has",
+          "text": "my grandma",
           "role": "Object",
-          "color": "#00E676"
+          "color": "#FFD700"
         },
         {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "yesterday",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Basic Progressive",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": {
+        "title": "Core Lesson",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Object",
+            "color": "#FFD700"
+          },
+          {
+            "text": "Adverb",
+            "color": "#BA68C8"
+          }
+        ]
+      }
     },
     {
       "id": "3-1-2",
       "section": "Day 1",
-      "description": "Basic Progressive",
-      "korean": "특별한 작업이 그는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by he has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "What happened in the past?",
+      "korean": "그녀는 지난주에 축구를 했다.",
+      "english": "She played soccer last week.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "She",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "played",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by he has",
+          "text": "soccer",
           "role": "Object",
-          "color": "#00E676"
+          "color": "#FFD700"
         },
         {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "last week",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Basic Progressive",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "3-1-3",
       "section": "Day 1",
-      "description": "Basic Progressive",
-      "korean": "특별한 작업이 그녀는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by she has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "What happened?",
+      "korean": "우리는 함께 영화를 보았다.",
+      "english": "We watched a movie together.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "We",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "watched",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by she has",
+          "text": "a movie",
           "role": "Object",
-          "color": "#00E676"
+          "color": "#FFD700"
         },
         {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "together",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Basic Progressive",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "3-1-4",
       "section": "Day 1",
-      "description": "Basic Progressive",
-      "korean": "특별한 작업이 우리는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by we has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "What happened?",
+      "korean": "그는 그의 방을 청소했다.",
+      "english": "He cleaned his room.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "He",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "cleaned",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by we has",
+          "text": "his room",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Basic Progressive",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "3-1-5",
       "section": "Day 1",
-      "description": "Basic Progressive",
-      "korean": "특별한 작업이 그들은에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by they has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "What happened?",
+      "korean": "그들은 파티에서 춤을 췄다.",
+      "english": "They danced at the party.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "They",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "danced",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by they has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
+          "text": "at the party",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Basic Progressive",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "3-1-6",
       "section": "Day 1",
-      "description": "Basic Progressive",
-      "korean": "특별한 작업이 나는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by i has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "What happened?",
+      "korean": "하루 종일 비가 왔다.",
+      "english": "It rained all day.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "It",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "rained",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by i has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "all day",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Basic Progressive",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "3-1-7",
       "section": "Day 1",
-      "description": "Basic Progressive",
-      "korean": "특별한 작업이 너는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by you has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "What happened?",
+      "korean": "나는 그들을 위해 저녁을 요리했다.",
+      "english": "I cooked dinner for them.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "I",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "cooked",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by you has",
+          "text": "dinner",
           "role": "Object",
-          "color": "#00E676"
+          "color": "#FFD700"
         },
         {
-          "text": "been accomplished successfully.",
+          "text": "for them",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Basic Progressive",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "3-1-8",
       "section": "Day 1",
-      "description": "Basic Progressive",
-      "korean": "특별한 작업이 그는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by he has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "What happened?",
+      "korean": "너는 열심히 공부했다.",
+      "english": "You studied hard.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "You",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "studied",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by he has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "hard",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Basic Progressive",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "3-1-9",
       "section": "Day 1",
-      "description": "Basic Progressive",
-      "korean": "사랑스러운 멜로디가 새들에 의해 불려져 왔다. 성공적으로 이행되어 왔다.",
-      "english": "A lovely melody has been sung by the birds has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "What happened?",
+      "korean": "버스가 늦게 도착했다.",
+      "english": "The bus arrived late.",
       "chunks": [
         {
-          "text": "A lovely melody",
+          "text": "The bus",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been sung",
+          "text": "arrived",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by the birds",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "has been accomplished",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "successfully.",
+          "text": "late",
           "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#BA68C8"
         }
       ],
-      "context": "Basic Progressive",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "3-1-10",
       "section": "Day 1",
-      "description": "Basic Progressive",
-      "korean": "특별한 작업이 비가에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by it has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "What happened?",
+      "korean": "그녀는 저 노래를 좋아했다.",
+      "english": "She loved that song.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "She",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "loved",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by it has",
+          "text": "that song",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Basic Progressive",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-1-11",
-      "section": "Day 1",
-      "description": "Basic Progressive",
-      "korean": "특별한 작업이 우리는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by we has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by we has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Basic Progressive",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-1-12",
-      "section": "Day 1",
-      "description": "Basic Progressive",
-      "korean": "특별한 작업이 그들은에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by they has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by they has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Basic Progressive",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-1-13",
-      "section": "Day 1",
-      "description": "Basic Progressive",
-      "korean": "특별한 작업이 개가에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by the has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by the has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Basic Progressive",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-1-14",
-      "section": "Day 1",
-      "description": "Basic Progressive",
-      "korean": "특별한 작업이 새들이에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by the has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by the has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Basic Progressive",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-1-15",
-      "section": "Day 1",
-      "description": "Basic Progressive",
-      "korean": "특별한 작업이 우리에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by my has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by my has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Basic Progressive",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-1-16",
-      "section": "Day 1",
-      "description": "Basic Progressive",
-      "korean": "특별한 작업이 듣고에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by are has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by are has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Basic Progressive",
-      "question": "Describe a or their status."
-    },
-    {
-      "id": "3-1-17",
-      "section": "Day 1",
-      "description": "Basic Progressive",
-      "korean": "특별한 작업이 뭐에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by what has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by what has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Basic Progressive",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-1-18",
-      "section": "Day 1",
-      "description": "Basic Progressive",
-      "korean": "특별한 작업이 그는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by he has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by he has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Basic Progressive",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-1-19",
-      "section": "Day 1",
-      "description": "Basic Progressive",
-      "korean": "아기들은 잠들기 전에 소리쳐 울었었다. 성공적으로 이행되어 왔다.",
-      "english": "The babies had cried before they fell asleep has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "The babies had",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "cried before they",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "fell asleep has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Basic Progressive",
-      "question": "What do the do?"
-    },
-    {
-      "id": "3-1-20",
-      "section": "Day 1",
-      "description": "Basic Progressive",
-      "korean": "특별한 작업이 그냥에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by i has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by i has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Basic Progressive",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "3-2-1",
       "section": "Day 2",
-      "description": "Action Progressive",
-      "korean": "특별한 작업이 그녀는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by she has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "What happened?",
+      "korean": "나는 공원에 갔다.",
+      "english": "I went to the park.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "I",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "went",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by she has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
+          "text": "to the park",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Action Progressive",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": {
+        "title": "Core Lesson",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          }
+        ]
+      }
     },
     {
       "id": "3-2-2",
       "section": "Day 2",
-      "description": "Action Progressive",
-      "korean": "특별한 작업이 그는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by he has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "What happened?",
+      "korean": "그는 큰 피자를 먹었다.",
+      "english": "He ate a big pizza.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "He",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "ate",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by he has",
+          "text": "a big pizza",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Action Progressive",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "3-2-3",
       "section": "Day 2",
-      "description": "Action Progressive",
-      "korean": "특별한 작업이 나는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by i has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "What happened?",
+      "korean": "그녀는 새 가방을 샀다.",
+      "english": "She bought a new bag.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "She",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "bought",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by i has",
+          "text": "a new bag",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Action Progressive",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "3-2-4",
       "section": "Day 2",
-      "description": "Action Progressive",
-      "korean": "특별한 작업이 그들은에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by they has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "What happened?",
+      "korean": "우리는 웃긴 광대를 보았다.",
+      "english": "We saw a funny clown.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "We",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "saw",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by they has",
+          "text": "a funny clown",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Action Progressive",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "3-2-5",
       "section": "Day 2",
-      "description": "Action Progressive",
-      "korean": "특별한 작업이 우리는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by we has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "What happened?",
+      "korean": "그들은 매우 빨리 달렸다.",
+      "english": "They ran very fast.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "They",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "ran",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by we has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "very fast",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Action Progressive",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "3-2-6",
       "section": "Day 2",
-      "description": "Action Progressive",
-      "korean": "특별한 작업이 물고기는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by the has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "What happened?",
+      "korean": "나는 실수를 했다.",
+      "english": "I made a mistake.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "I",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "made",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by the has",
+          "text": "a mistake",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Action Progressive",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "3-2-7",
       "section": "Day 2",
-      "description": "Action Progressive",
-      "korean": "특별한 작업이 그녀는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by she has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "What happened?",
+      "korean": "그는 찬물을 마셨다.",
+      "english": "He drank cold water.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "He",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "drank",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by she has",
+          "text": "cold water",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Action Progressive",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "3-2-8",
       "section": "Day 2",
-      "description": "Action Progressive",
-      "korean": "특별한 작업이 그는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by he has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "What happened?",
+      "korean": "그녀는 편지를 썼다.",
+      "english": "She wrote a letter.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "She",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "wrote",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by he has",
+          "text": "a letter",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Action Progressive",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "3-2-9",
       "section": "Day 2",
-      "description": "Action Progressive",
-      "korean": "특별한 작업이 나는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by i has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "What happened?",
+      "korean": "새가 날아갔다.",
+      "english": "The bird flew away.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "The bird",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "flew",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by i has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "away",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Action Progressive",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "3-2-10",
       "section": "Day 2",
-      "description": "Action Progressive",
-      "korean": "특별한 작업이 그들은에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by they has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "What happened?",
+      "korean": "우리는 일찍 잤다.",
+      "english": "We slept early.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "We",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "slept",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by they has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Action Progressive",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-2-11",
-      "section": "Day 2",
-      "description": "Action Progressive",
-      "korean": "특별한 작업이 우리는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by we has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by we has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Action Progressive",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-2-12",
-      "section": "Day 2",
-      "description": "Action Progressive",
-      "korean": "특별한 작업이 아기가에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by the has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by the has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Action Progressive",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-2-13",
-      "section": "Day 2",
-      "description": "Action Progressive",
-      "korean": "특별한 작업이 학생들은에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by students has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by students has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Action Progressive",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-2-14",
-      "section": "Day 2",
-      "description": "Action Progressive",
-      "korean": "특별한 작업이 그는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by he has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by he has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Action Progressive",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-2-15",
-      "section": "Day 2",
-      "description": "Action Progressive",
-      "korean": "특별한 작업이 그녀는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by she has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by she has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Action Progressive",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-2-16",
-      "section": "Day 2",
-      "description": "Action Progressive",
-      "korean": "특별한 작업이 그가에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by is has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by is has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Action Progressive",
-      "question": "Describe a or their status."
-    },
-    {
-      "id": "3-2-17",
-      "section": "Day 2",
-      "description": "Action Progressive",
-      "korean": "특별한 작업이 우리에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by where has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by where has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Action Progressive",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-2-18",
-      "section": "Day 2",
-      "description": "Action Progressive",
-      "korean": "특별한 작업이 그들은에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by they has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by they has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Action Progressive",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-2-19",
-      "section": "Day 2",
-      "description": "Action Progressive",
-      "korean": "특별한 작업이 떠드는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by stop has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by stop has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Action Progressive",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-2-20",
-      "section": "Day 2",
-      "description": "Action Progressive",
-      "korean": "사랑스러운 멜로디가 새들에 의해 불려져 왔다. 성공적으로 이행되어 왔다.",
-      "english": "A lovely melody has been sung by the birds has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A lovely melody",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been sung",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by the birds",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "has been accomplished",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "successfully.",
+          "text": "early",
           "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#BA68C8"
         }
       ],
-      "context": "Action Progressive",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "3-3-1",
       "section": "Day 3",
-      "description": "Ongoing State",
-      "korean": "특별한 작업이 나는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by i has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "What is NOT the case?",
+      "korean": "나는 거기에 가지 않았다.",
+      "english": "I did not go there.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "I",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "did not go",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by i has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
+          "text": "there",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Ongoing State",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": {
+        "title": "Core Lesson",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          }
+        ]
+      }
     },
     {
       "id": "3-3-2",
       "section": "Day 3",
-      "description": "Ongoing State",
-      "korean": "특별한 작업이 그는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by he has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "What is NOT the case?",
+      "korean": "그녀는 점심을 먹지 않았다.",
+      "english": "She did not eat lunch.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "She",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "did not eat",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by he has",
+          "text": "lunch",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Ongoing State",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "3-3-3",
       "section": "Day 3",
-      "description": "Ongoing State",
-      "korean": "특별한 작업이 일하기에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by start has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "What is this sentence about?",
+      "korean": "그는 나를 보지 못했다.",
+      "english": "He didn't see me.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "He",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "didn't see",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by start has",
+          "text": "me",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Ongoing State",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "3-3-4",
       "section": "Day 3",
-      "description": "Ongoing State",
-      "korean": "특별한 작업이 그녀는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by she has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "What is this sentence about?",
+      "korean": "우리는 게임을 하지 않았다.",
+      "english": "We didn't play games.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "We",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "didn't play",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by she has",
+          "text": "games",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Ongoing State",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "3-3-5",
       "section": "Day 3",
-      "description": "Ongoing State",
-      "korean": "특별한 작업이 우리는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by we has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "What is this sentence about?",
+      "korean": "그들은 오늘 오지 않았다.",
+      "english": "They didn't come today.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "They",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "didn't come",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by we has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "today",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Ongoing State",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "3-3-6",
       "section": "Day 3",
-      "description": "Ongoing State",
-      "korean": "특별한 작업이 나는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by i has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "What happened in the past?",
+      "korean": "어제는 비가 오지 않았다.",
+      "english": "It didn't rain yesterday.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "It",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "didn't rain",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by i has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "yesterday",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Ongoing State",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "3-3-7",
       "section": "Day 3",
-      "description": "Ongoing State",
-      "korean": "특별한 작업이 너는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by you has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "What is this sentence about?",
+      "korean": "너는 대답하지 않았다.",
+      "english": "You didn't answer.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "You",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "didn't answer",
           "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by you has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FF7F00"
         }
       ],
-      "context": "Ongoing State",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "3-3-8",
       "section": "Day 3",
-      "description": "Ongoing State",
-      "korean": "특별한 작업이 눈이에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by it has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "What is this sentence about?",
+      "korean": "나는 아무것도 사지 않았다.",
+      "english": "I didn't buy anything.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "I",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "didn't buy",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by it has",
+          "text": "anything",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Ongoing State",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "3-3-9",
       "section": "Day 3",
-      "description": "Ongoing State",
-      "korean": "특별한 작업이 그는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by he has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "What is this sentence about?",
+      "korean": "그녀는 정답을 몰랐다.",
+      "english": "She didn't know the answer.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "She",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "didn't know",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by he has",
+          "text": "the answer",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Ongoing State",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "3-3-10",
       "section": "Day 3",
-      "description": "Ongoing State",
-      "korean": "특별한 작업이 그녀는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by she has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "What is this sentence about?",
+      "korean": "그는 일을 끝내지 못했다.",
+      "english": "He didn't finish his work.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "He",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "didn't finish",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by she has",
+          "text": "his work",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Ongoing State",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-3-11",
-      "section": "Day 3",
-      "description": "Ongoing State",
-      "korean": "특별한 작업이 나는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by i has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by i has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Ongoing State",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-3-12",
-      "section": "Day 3",
-      "description": "Ongoing State",
-      "korean": "특별한 작업이 우리는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by we has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by we has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Ongoing State",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-3-13",
-      "section": "Day 3",
-      "description": "Ongoing State",
-      "korean": "특별한 작업이 그들은에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by they has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by they has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Ongoing State",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-3-14",
-      "section": "Day 3",
-      "description": "Ongoing State",
-      "korean": "특별한 작업이 그는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by he has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by he has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Ongoing State",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-3-15",
-      "section": "Day 3",
-      "description": "Ongoing State",
-      "korean": "특별한 작업이 그녀는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by she has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by she has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Ongoing State",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-3-16",
-      "section": "Day 3",
-      "description": "Ongoing State",
-      "korean": "특별한 작업이 전화가에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by the has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by the has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Ongoing State",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-3-17",
-      "section": "Day 3",
-      "description": "Ongoing State",
-      "korean": "사랑스러운 멜로디가 새들에 의해 불려져 왔다. 성공적으로 이행되어 왔다.",
-      "english": "A lovely melody has been sung by the birds has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A lovely melody",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been sung",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by the birds",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "has been accomplished",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "successfully.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Ongoing State",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-3-18",
-      "section": "Day 3",
-      "description": "Ongoing State",
-      "korean": "특별한 작업이 바람이에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by the has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by the has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Ongoing State",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-3-19",
-      "section": "Day 3",
-      "description": "Ongoing State",
-      "korean": "특별한 작업이 사람들이에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by people has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by people has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Ongoing State",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-3-20",
-      "section": "Day 3",
-      "description": "Ongoing State",
-      "korean": "특별한 작업이 나는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by i has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by i has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Ongoing State",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-3-21",
-      "section": "Day 3",
-      "description": "Ongoing State",
-      "korean": "특별한 작업이 농담하니?에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by are has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by are has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Ongoing State",
-      "question": "Describe a or their status."
-    },
-    {
-      "id": "3-3-22",
-      "section": "Day 3",
-      "description": "Ongoing State",
-      "korean": "특별한 작업이 그는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by he has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by he has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Ongoing State",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-3-23",
-      "section": "Day 3",
-      "description": "Ongoing State",
-      "korean": "특별한 작업이 나는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by i has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by i has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Ongoing State",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-3-24",
-      "section": "Day 3",
-      "description": "Ongoing State",
-      "korean": "특별한 작업이 어두워지고에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by it has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by it has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Ongoing State",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-3-25",
-      "section": "Day 3",
-      "description": "Ongoing State",
-      "korean": "특별한 작업이 무슨에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by what has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by what has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Ongoing State",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "3-4-1",
       "section": "Day 4",
-      "description": "Postures",
-      "korean": "특별한 작업이 나는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by i has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "Answer this question.",
+      "korean": "너 저거 봤니?",
+      "english": "Did you see that?",
       "chunks": [
         {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
+          "text": "Did you see",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by i has",
+          "text": "that",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Postures",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": {
+        "title": "Core Lesson",
+        "structure": [
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Object",
+            "color": "#FFD700"
+          }
+        ]
+      }
     },
     {
       "id": "3-4-2",
       "section": "Day 4",
-      "description": "Postures",
-      "korean": "특별한 작업이 너는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by you has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "Answer this question.",
+      "korean": "그가 집에 왔니?",
+      "english": "Did he come home?",
       "chunks": [
         {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
+          "text": "Did he come",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by you has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "home",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Postures",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "3-4-3",
       "section": "Day 4",
-      "description": "Postures",
-      "korean": "특별한 작업이 그는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by he has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "Answer this question.",
+      "korean": "그녀가 선물을 좋아했니?",
+      "english": "Did she like the gift?",
       "chunks": [
         {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
+          "text": "Did she like",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by he has",
+          "text": "the gift",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Postures",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "3-4-4",
       "section": "Day 4",
-      "description": "Postures",
-      "korean": "특별한 작업이 그녀는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by she has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "Answer this question.",
+      "korean": "그들이 벌써 떠났니?",
+      "english": "Did they leave already?",
       "chunks": [
         {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
+          "text": "Did they leave",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by she has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "already",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Postures",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "3-4-5",
       "section": "Day 4",
-      "description": "Postures",
-      "korean": "특별한 작업이 우리는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by we has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "Answer this question.",
+      "korean": "어젯밤에 눈이 왔니?",
+      "english": "Did it snow last night?",
       "chunks": [
         {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
+          "text": "Did it snow",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by we has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "last night",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Postures",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "3-4-6",
       "section": "Day 4",
-      "description": "Postures",
-      "korean": "특별한 작업이 나는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by i has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "Answer this question.",
+      "korean": "너 어디 갔었니?",
+      "english": "Where did you go?",
       "chunks": [
         {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
+          "text": "Where",
+          "role": "Adverb",
+          "color": "#BA68C8"
         },
         {
-          "text": "has been completed",
+          "text": "did you go",
           "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by i has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FF7F00"
         }
       ],
-      "context": "Postures",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "3-4-7",
       "section": "Day 4",
-      "description": "Postures",
-      "korean": "특별한 작업이 너에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by are has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "Answer this question.",
+      "korean": "그가 뭐라고 했니?",
+      "english": "What did he say?",
       "chunks": [
         {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by are has",
+          "text": "What",
           "role": "Object",
-          "color": "#00E676"
+          "color": "#FFD700"
         },
         {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "did he say",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Postures",
-      "question": "Describe a or their status."
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "3-4-8",
       "section": "Day 4",
-      "description": "Postures",
-      "korean": "특별한 작업이 그는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by he has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "Answer this question.",
+      "korean": "그들이 언제 도착했니?",
+      "english": "When did they arrive?",
       "chunks": [
         {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
+          "text": "When",
+          "role": "Adverb",
+          "color": "#BA68C8"
         },
         {
-          "text": "has been completed",
+          "text": "did they arrive",
           "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by he has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FF7F00"
         }
       ],
-      "context": "Postures",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "3-4-9",
       "section": "Day 4",
-      "description": "Postures",
-      "korean": "특별한 작업이 그녀는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by she has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "Answer this question.",
+      "korean": "그녀가 왜 울었니?",
+      "english": "Why did she cry?",
       "chunks": [
         {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
+          "text": "Why",
+          "role": "Adverb",
+          "color": "#BA68C8"
         },
         {
-          "text": "has been completed",
+          "text": "did she cry",
           "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by she has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FF7F00"
         }
       ],
-      "context": "Postures",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "3-4-10",
       "section": "Day 4",
-      "description": "Postures",
-      "korean": "특별한 작업이 우리는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by we has been accomplished successfully.",
+      "description": "Core Lesson",
+      "question": "Answer this question.",
+      "korean": "너 그거 어떻게 했니?",
+      "english": "How did you do it?",
       "chunks": [
         {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
+          "text": "How",
+          "role": "Adverb",
+          "color": "#BA68C8"
         },
         {
-          "text": "has been completed",
+          "text": "did you do",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by we has",
+          "text": "it",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Postures",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-4-11",
-      "section": "Day 4",
-      "description": "Postures",
-      "korean": "특별한 작업이 그들은에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by they has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by they has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Postures",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-4-12",
-      "section": "Day 4",
-      "description": "Postures",
-      "korean": "특별한 작업이 서에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by stop has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by stop has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Postures",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-4-13",
-      "section": "Day 4",
-      "description": "Postures",
-      "korean": "특별한 작업이 계속에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by keep has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by keep has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Postures",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-4-14",
-      "section": "Day 4",
-      "description": "Postures",
-      "korean": "특별한 작업이 기다리는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by start has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by start has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Postures",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-4-15",
-      "section": "Day 4",
-      "description": "Postures",
-      "korean": "특별한 작업이 머무는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by enjoy has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by enjoy has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Postures",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-4-16",
-      "section": "Day 4",
-      "description": "Postures",
-      "korean": "특별한 작업이 왜에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by why has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by why has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Postures",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-4-17",
-      "section": "Day 4",
-      "description": "Postures",
-      "korean": "특별한 작업이 나는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by i has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by i has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Postures",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-4-18",
-      "section": "Day 4",
-      "description": "Postures",
-      "korean": "특별한 작업이 그는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by he has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by he has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Postures",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-4-19",
-      "section": "Day 4",
-      "description": "Postures",
-      "korean": "특별한 작업이 기다리는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by imagine has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by imagine has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Postures",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-4-20",
-      "section": "Day 4",
-      "description": "Postures",
-      "korean": "특별한 작업이 머무는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by staying has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by staying has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Postures",
-      "question": "What do a do?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "3-5-1",
       "section": "Day 5",
-      "description": "Communication",
-      "korean": "특별한 작업이 나는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by i has been accomplished successfully.",
+      "description": "Review",
+      "question": "What happened?",
+      "korean": "그녀는 저 노래를 좋아했다.",
+      "english": "She loved that song.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "She",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "loved",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by i has",
+          "text": "that song",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Communication",
-      "question": "What do a do?"
+      "context": "Review",
+      "grammarGuide": {
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Object",
+            "color": "#FFD700"
+          }
+        ]
+      }
     },
     {
       "id": "3-5-2",
       "section": "Day 5",
-      "description": "Communication",
-      "korean": "특별한 작업이 너는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by you has been accomplished successfully.",
+      "description": "Review",
+      "question": "What happened?",
+      "korean": "너는 열심히 공부했다.",
+      "english": "You studied hard.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "You",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "studied",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by you has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "hard",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Communication",
-      "question": "What do a do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "3-5-3",
       "section": "Day 5",
-      "description": "Communication",
-      "korean": "특별한 작업이 그는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by he has been accomplished successfully.",
+      "description": "Review",
+      "question": "Answer this question.",
+      "korean": "너 저거 봤니?",
+      "english": "Did you see that?",
       "chunks": [
         {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
+          "text": "Did you see",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by he has",
+          "text": "that",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Communication",
-      "question": "What do a do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "3-5-4",
       "section": "Day 5",
-      "description": "Communication",
-      "korean": "특별한 작업이 그녀는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by she has been accomplished successfully.",
+      "description": "Review",
+      "question": "What happened?",
+      "korean": "나는 실수를 했다.",
+      "english": "I made a mistake.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "I",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "made",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by she has",
+          "text": "a mistake",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Communication",
-      "question": "What do a do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "3-5-5",
       "section": "Day 5",
-      "description": "Communication",
-      "korean": "특별한 작업이 우리는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by we has been accomplished successfully.",
+      "description": "Review",
+      "question": "What is this sentence about?",
+      "korean": "그녀는 정답을 몰랐다.",
+      "english": "She didn't know the answer.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "She",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "didn't know",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by we has",
+          "text": "the answer",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Communication",
-      "question": "What do a do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "3-5-6",
       "section": "Day 5",
-      "description": "Communication",
-      "korean": "특별한 작업이 나는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by i has been accomplished successfully.",
+      "description": "Review",
+      "question": "What is this sentence about?",
+      "korean": "나는 아무것도 사지 않았다.",
+      "english": "I didn't buy anything.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "I",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "didn't buy",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by i has",
+          "text": "anything",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Communication",
-      "question": "What do a do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "3-5-7",
       "section": "Day 5",
-      "description": "Communication",
-      "korean": "특별한 작업이 너에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by are has been accomplished successfully.",
+      "description": "Review",
+      "question": "What happened?",
+      "korean": "나는 공원에 갔다.",
+      "english": "I went to the park.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "I",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "went",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by are has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
+          "text": "to the park",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Communication",
-      "question": "Describe a or their status."
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "3-5-8",
       "section": "Day 5",
-      "description": "Communication",
-      "korean": "특별한 작업이 그는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by he has been accomplished successfully.",
+      "description": "Review",
+      "question": "Answer this question.",
+      "korean": "너 어디 갔었니?",
+      "english": "Where did you go?",
       "chunks": [
         {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
+          "text": "Where",
+          "role": "Adverb",
+          "color": "#BA68C8"
         },
         {
-          "text": "has been completed",
+          "text": "did you go",
           "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by he has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FF7F00"
         }
       ],
-      "context": "Communication",
-      "question": "What do a do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "3-5-9",
       "section": "Day 5",
-      "description": "Communication",
-      "korean": "특별한 작업이 그녀는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by she has been accomplished successfully.",
+      "description": "Review",
+      "question": "What is NOT the case?",
+      "korean": "나는 거기에 가지 않았다.",
+      "english": "I did not go there.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "I",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "did not go",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by she has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
+          "text": "there",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Communication",
-      "question": "What do a do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "3-5-10",
       "section": "Day 5",
-      "description": "Communication",
-      "korean": "특별한 작업이 우리는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by we has been accomplished successfully.",
+      "description": "Review",
+      "question": "Answer this question.",
+      "korean": "그녀가 선물을 좋아했니?",
+      "english": "Did she like the gift?",
       "chunks": [
         {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
+          "text": "Did she like",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by we has",
+          "text": "the gift",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Communication",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-5-11",
-      "section": "Day 5",
-      "description": "Communication",
-      "korean": "특별한 작업이 그들은에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by they has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by they has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Communication",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-5-12",
-      "section": "Day 5",
-      "description": "Communication",
-      "korean": "특별한 작업이 말하는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by stop has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by stop has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Communication",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-5-13",
-      "section": "Day 5",
-      "description": "Communication",
-      "korean": "특별한 작업이 계속에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by keep has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by keep has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Communication",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-5-14",
-      "section": "Day 5",
-      "description": "Communication",
-      "korean": "특별한 작업이 말하는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by start has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by start has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Communication",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-5-15",
-      "section": "Day 5",
-      "description": "Communication",
-      "korean": "특별한 작업이 묻는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by enjoy has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by enjoy has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Communication",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-5-16",
-      "section": "Day 5",
-      "description": "Communication",
-      "korean": "특별한 작업이 왜에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by why has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by why has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Communication",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-5-17",
-      "section": "Day 5",
-      "description": "Communication",
-      "korean": "특별한 작업이 나는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by i has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by i has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Communication",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-5-18",
-      "section": "Day 5",
-      "description": "Communication",
-      "korean": "특별한 작업이 그는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by he has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by he has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Communication",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-5-19",
-      "section": "Day 5",
-      "description": "Communication",
-      "korean": "특별한 작업이 말하는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by imagine has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by imagine has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Communication",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-5-20",
-      "section": "Day 5",
-      "description": "Communication",
-      "korean": "특별한 작업이 묻는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by asking has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by asking has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Communication",
-      "question": "What do a do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "3-6-1",
       "section": "Day 6",
-      "description": "Mental State",
-      "korean": "특별한 작업이 나는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by i has been accomplished successfully.",
+      "description": "Review",
+      "question": "Answer this question.",
+      "korean": "그들이 벌써 떠났니?",
+      "english": "Did they leave already?",
       "chunks": [
         {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
+          "text": "Did they leave",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by i has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "already",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Mental State",
-      "question": "What do a do?"
+      "context": "Review",
+      "grammarGuide": {
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Adverb",
+            "color": "#BA68C8"
+          }
+        ]
+      }
     },
     {
       "id": "3-6-2",
       "section": "Day 6",
-      "description": "Mental State",
-      "korean": "특별한 작업이 너는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by you has been accomplished successfully.",
+      "description": "Review",
+      "question": "Answer this question.",
+      "korean": "그들이 언제 도착했니?",
+      "english": "When did they arrive?",
       "chunks": [
         {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
+          "text": "When",
+          "role": "Adverb",
+          "color": "#BA68C8"
         },
         {
-          "text": "has been completed",
+          "text": "did they arrive",
           "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by you has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FF7F00"
         }
       ],
-      "context": "Mental State",
-      "question": "What do a do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "3-6-3",
       "section": "Day 6",
-      "description": "Mental State",
-      "korean": "특별한 작업이 그는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by he has been accomplished successfully.",
+      "description": "Review",
+      "question": "What is this sentence about?",
+      "korean": "우리는 게임을 하지 않았다.",
+      "english": "We didn't play games.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "We",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "didn't play",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by he has",
+          "text": "games",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Mental State",
-      "question": "What do a do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "3-6-4",
       "section": "Day 6",
-      "description": "Mental State",
-      "korean": "특별한 작업이 그녀는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by she has been accomplished successfully.",
+      "description": "Review",
+      "question": "What happened?",
+      "korean": "그는 그의 방을 청소했다.",
+      "english": "He cleaned his room.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "He",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "cleaned",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by she has",
+          "text": "his room",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Mental State",
-      "question": "What do a do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "3-6-5",
       "section": "Day 6",
-      "description": "Mental State",
-      "korean": "특별한 작업이 우리는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by we has been accomplished successfully.",
+      "description": "Review",
+      "question": "What happened?",
+      "korean": "그들은 매우 빨리 달렸다.",
+      "english": "They ran very fast.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "They",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "ran",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by we has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "very fast",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Mental State",
-      "question": "What do a do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "3-6-6",
       "section": "Day 6",
-      "description": "Mental State",
-      "korean": "특별한 작업이 나는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by i has been accomplished successfully.",
+      "description": "Review",
+      "question": "What happened?",
+      "korean": "하루 종일 비가 왔다.",
+      "english": "It rained all day.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "It",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "rained",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by i has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "all day",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Mental State",
-      "question": "What do a do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "3-6-7",
       "section": "Day 6",
-      "description": "Mental State",
-      "korean": "특별한 작업이 너에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by are has been accomplished successfully.",
+      "description": "Review",
+      "question": "Answer this question.",
+      "korean": "그가 집에 왔니?",
+      "english": "Did he come home?",
       "chunks": [
         {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
+          "text": "Did he come",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by are has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "home",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Mental State",
-      "question": "Describe a or their status."
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "3-6-8",
       "section": "Day 6",
-      "description": "Mental State",
-      "korean": "특별한 작업이 그는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by he has been accomplished successfully.",
+      "description": "Review",
+      "question": "What happened?",
+      "korean": "버스가 늦게 도착했다.",
+      "english": "The bus arrived late.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "The bus",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "arrived",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by he has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "late",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Mental State",
-      "question": "What do a do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "3-6-9",
       "section": "Day 6",
-      "description": "Mental State",
-      "korean": "특별한 작업이 그녀는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by she has been accomplished successfully.",
+      "description": "Review",
+      "question": "What is NOT the case?",
+      "korean": "나는 거기에 가지 않았다.",
+      "english": "I did not go there.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "I",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "did not go",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by she has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
+          "text": "there",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Mental State",
-      "question": "What do a do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "3-6-10",
       "section": "Day 6",
-      "description": "Mental State",
-      "korean": "특별한 작업이 우리는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by we has been accomplished successfully.",
+      "description": "Review",
+      "question": "What is this sentence about?",
+      "korean": "너는 대답하지 않았다.",
+      "english": "You didn't answer.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "You",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "didn't answer",
           "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by we has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FF7F00"
         }
       ],
-      "context": "Mental State",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-6-11",
-      "section": "Day 6",
-      "description": "Mental State",
-      "korean": "특별한 작업이 그들은에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by they has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by they has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Mental State",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-6-12",
-      "section": "Day 6",
-      "description": "Mental State",
-      "korean": "특별한 작업이 꿈꾸는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by stop has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by stop has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Mental State",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-6-13",
-      "section": "Day 6",
-      "description": "Mental State",
-      "korean": "특별한 작업이 계속에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by keep has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by keep has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Mental State",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-6-14",
-      "section": "Day 6",
-      "description": "Mental State",
-      "korean": "특별한 작업이 희망하는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by start has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by start has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Mental State",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-6-15",
-      "section": "Day 6",
-      "description": "Mental State",
-      "korean": "특별한 작업이 소망하는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by enjoy has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by enjoy has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Mental State",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-6-16",
-      "section": "Day 6",
-      "description": "Mental State",
-      "korean": "특별한 작업이 왜에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by why has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by why has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Mental State",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-6-17",
-      "section": "Day 6",
-      "description": "Mental State",
-      "korean": "특별한 작업이 나는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by i has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by i has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Mental State",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-6-18",
-      "section": "Day 6",
-      "description": "Mental State",
-      "korean": "특별한 작업이 그는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by he has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by he has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Mental State",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-6-19",
-      "section": "Day 6",
-      "description": "Mental State",
-      "korean": "특별한 작업이 희망하는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by imagine has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by imagine has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Mental State",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-6-20",
-      "section": "Day 6",
-      "description": "Mental State",
-      "korean": "특별한 작업이 소망하는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by wishing has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by wishing has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Mental State",
-      "question": "What do a do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "3-7-1",
       "section": "Day 7",
-      "description": "Senses",
-      "korean": "특별한 작업이 나는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by i has been accomplished successfully.",
+      "description": "Review",
+      "question": "What happened?",
+      "korean": "우리는 일찍 잤다.",
+      "english": "We slept early.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "We",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "slept",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by i has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "early",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Senses",
-      "question": "What do a do?"
+      "context": "Review",
+      "grammarGuide": {
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Adverb",
+            "color": "#BA68C8"
+          }
+        ]
+      }
     },
     {
       "id": "3-7-2",
       "section": "Day 7",
-      "description": "Senses",
-      "korean": "특별한 작업이 너는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by you has been accomplished successfully.",
+      "description": "Review",
+      "question": "Answer this question.",
+      "korean": "너 저거 봤니?",
+      "english": "Did you see that?",
       "chunks": [
         {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
+          "text": "Did you see",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by you has",
+          "text": "that",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Senses",
-      "question": "What do a do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "3-7-3",
       "section": "Day 7",
-      "description": "Senses",
-      "korean": "특별한 작업이 그는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by he has been accomplished successfully.",
+      "description": "Review",
+      "question": "What happened?",
+      "korean": "그들은 매우 빨리 달렸다.",
+      "english": "They ran very fast.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "They",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "ran",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by he has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "very fast",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Senses",
-      "question": "What do a do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "3-7-4",
       "section": "Day 7",
-      "description": "Senses",
-      "korean": "특별한 작업이 그녀는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by she has been accomplished successfully.",
+      "description": "Review",
+      "question": "What happened?",
+      "korean": "새가 날아갔다.",
+      "english": "The bird flew away.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "The bird",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "flew",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by she has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "away",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Senses",
-      "question": "What do a do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "3-7-5",
       "section": "Day 7",
-      "description": "Senses",
-      "korean": "특별한 작업이 우리는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by we has been accomplished successfully.",
+      "description": "Review",
+      "question": "Answer this question.",
+      "korean": "그녀가 선물을 좋아했니?",
+      "english": "Did she like the gift?",
       "chunks": [
         {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
+          "text": "Did she like",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by we has",
+          "text": "the gift",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Senses",
-      "question": "What do a do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "3-7-6",
       "section": "Day 7",
-      "description": "Senses",
-      "korean": "특별한 작업이 나는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by i has been accomplished successfully.",
+      "description": "Review",
+      "question": "Answer this question.",
+      "korean": "너 어디 갔었니?",
+      "english": "Where did you go?",
       "chunks": [
         {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
+          "text": "Where",
+          "role": "Adverb",
+          "color": "#BA68C8"
         },
         {
-          "text": "has been completed",
+          "text": "did you go",
           "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by i has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FF7F00"
         }
       ],
-      "context": "Senses",
-      "question": "What do a do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "3-7-7",
       "section": "Day 7",
-      "description": "Senses",
-      "korean": "특별한 작업이 너에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by are has been accomplished successfully.",
+      "description": "Review",
+      "question": "Answer this question.",
+      "korean": "그들이 언제 도착했니?",
+      "english": "When did they arrive?",
       "chunks": [
         {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
+          "text": "When",
+          "role": "Adverb",
+          "color": "#BA68C8"
         },
         {
-          "text": "has been completed",
+          "text": "did they arrive",
           "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by are has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FF7F00"
         }
       ],
-      "context": "Senses",
-      "question": "Describe a or their status."
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "3-7-8",
       "section": "Day 7",
-      "description": "Senses",
-      "korean": "특별한 작업이 그는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by he has been accomplished successfully.",
+      "description": "Review",
+      "question": "What happened?",
+      "korean": "버스가 늦게 도착했다.",
+      "english": "The bus arrived late.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "The bus",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "arrived",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by he has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "late",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Senses",
-      "question": "What do a do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "3-7-9",
       "section": "Day 7",
-      "description": "Senses",
-      "korean": "특별한 작업이 그녀는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by she has been accomplished successfully.",
+      "description": "Review",
+      "question": "What happened?",
+      "korean": "그는 그의 방을 청소했다.",
+      "english": "He cleaned his room.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "He",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "cleaned",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "by she has",
+          "text": "his room",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Senses",
-      "question": "What do a do?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "3-7-10",
       "section": "Day 7",
-      "description": "Senses",
-      "korean": "특별한 작업이 우리는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by we has been accomplished successfully.",
+      "description": "Review",
+      "question": "What is this sentence about?",
+      "korean": "너는 대답하지 않았다.",
+      "english": "You didn't answer.",
       "chunks": [
         {
-          "text": "A special task",
+          "text": "You",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "has been completed",
+          "text": "didn't answer",
           "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by we has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FF7F00"
         }
       ],
-      "context": "Senses",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-7-11",
-      "section": "Day 7",
-      "description": "Senses",
-      "korean": "특별한 작업이 그들은에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by they has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by they has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Senses",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-7-12",
-      "section": "Day 7",
-      "description": "Senses",
-      "korean": "특별한 작업이 듣는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by stop has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by stop has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Senses",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-7-13",
-      "section": "Day 7",
-      "description": "Senses",
-      "korean": "특별한 작업이 계속에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by keep has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by keep has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Senses",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-7-14",
-      "section": "Day 7",
-      "description": "Senses",
-      "korean": "특별한 작업이 만지는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by start has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by start has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Senses",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-7-15",
-      "section": "Day 7",
-      "description": "Senses",
-      "korean": "특별한 작업이 맛보는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by enjoy has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by enjoy has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Senses",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-7-16",
-      "section": "Day 7",
-      "description": "Senses",
-      "korean": "특별한 작업이 왜에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by why has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by why has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Senses",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-7-17",
-      "section": "Day 7",
-      "description": "Senses",
-      "korean": "특별한 작업이 나는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by i has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by i has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Senses",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-7-18",
-      "section": "Day 7",
-      "description": "Senses",
-      "korean": "특별한 작업이 그는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by he has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by he has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Senses",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-7-19",
-      "section": "Day 7",
-      "description": "Senses",
-      "korean": "특별한 작업이 만지는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by imagine has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by imagine has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Senses",
-      "question": "What do a do?"
-    },
-    {
-      "id": "3-7-20",
-      "section": "Day 7",
-      "description": "Senses",
-      "korean": "특별한 작업이 맛보는에 의해 완료되었다. 성공적으로 이행되어 왔다.",
-      "english": "A special task has been completed by tasting has been accomplished successfully.",
-      "chunks": [
-        {
-          "text": "A special task",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "has been completed",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "by tasting has",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "been accomplished successfully.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Senses",
-      "question": "What do a do?"
+      "context": "Review",
+      "grammarGuide": null
     }
   ]
 }

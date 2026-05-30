@@ -167,7 +167,8 @@ export function renderAnswerSlot(chunks, selectedIndices, onUndo) {
 export function showContext(context, onHide) {
     const bubble = document.getElementById('context-bubble');
     if (context && bubble) {
-        document.getElementById('context-text').textContent = context;
+        const ctxEl = document.getElementById('context-text');
+        if (ctxEl) ctxEl.textContent = context;
         bubble.classList.add('active');
         setTimeout(() => {
             bubble.classList.remove('active');

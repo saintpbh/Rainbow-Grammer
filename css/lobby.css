@@ -35,6 +35,8 @@
     cursor: pointer;
     text-align: center;
     border: 2px solid transparent;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .game-card:hover {

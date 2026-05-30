@@ -3,4792 +3,1974 @@
     {
       "id": "4-22-1",
       "section": "Day 22",
-      "description": "When (Time)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 내가 어렸을 때. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "When I was young but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "Who or what is described?",
+      "korean": "나는 노래하는 남자를 안다.",
+      "english": "I know the man who is singing.",
       "chunks": [
         {
-          "text": "When I was young but",
+          "text": "I",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we must stay focused on",
+          "text": "know",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal when we work",
+          "text": "the man who is singing",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "When (Time)",
-      "question": "Describe when or their status."
+      "context": "Core Lesson",
+      "grammarGuide": {
+        "title": "Core Lesson",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Object",
+            "color": "#FFD700"
+          }
+        ]
+      }
     },
     {
       "id": "4-22-2",
       "section": "Day 22",
-      "description": "When (Time)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 그가 잘 때. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "When he sleeps but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "Who or what is described?",
+      "korean": "고양이를 좋아하는 소녀가 여기 있다.",
+      "english": "The girl who likes cats is here.",
       "chunks": [
         {
-          "text": "When he sleeps but",
+          "text": "The girl who likes cats",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we must stay focused",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
+          "text": "here",
           "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#BA68C8"
         }
       ],
-      "context": "When (Time)",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-22-3",
       "section": "Day 22",
-      "description": "When (Time)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 비가 올 때. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "When it rains but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "Who or what is described?",
+      "korean": "과속하는 운전자들은 위험하다.",
+      "english": "Drivers who speed are dangerous.",
       "chunks": [
         {
-          "text": "When it rains but",
+          "text": "Drivers who speed",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we must stay focused",
+          "text": "are",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "dangerous",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "When (Time)",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-22-4",
       "section": "Day 22",
-      "description": "When (Time)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 네가 전화할 때. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "When you call but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "Who or what is described?",
+      "korean": "그가 나를 도와준 사람이다.",
+      "english": "He is the one who helped me.",
       "chunks": [
         {
-          "text": "When you call but",
+          "text": "He",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we must stay focused",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "the one who helped me",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "When (Time)",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-22-5",
       "section": "Day 22",
-      "description": "When (Time)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 우리가 만났을 때. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "When we met but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "Who or what is described?",
+      "korean": "공부하는 학생들은 합격한다.",
+      "english": "Students who study pass.",
       "chunks": [
         {
-          "text": "When we met but",
+          "text": "Students who study",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we must stay focused",
+          "text": "pass",
           "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#FF7F00"
         }
       ],
-      "context": "When (Time)",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-22-6",
       "section": "Day 22",
-      "description": "When (Time)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 나는 슬플 때 운다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "I cry when I am sad but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "Answer this question.",
+      "korean": "프랑스어 할 줄 아는 사람 아니?",
+      "english": "Do you know anyone who speaks French?",
       "chunks": [
         {
-          "text": "I cry when I am",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "sad but we must stay",
+          "text": "Do you know",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "focused on our goal when",
+          "text": "anyone who speaks French",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "When (Time)",
-      "question": "Describe i or their status."
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-22-7",
       "section": "Day 22",
-      "description": "When (Time)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 도착하면 전화해. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Call me when you arrive but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "Who or what is described?",
+      "korean": "나는 조종사인 여자를 만났다.",
+      "english": "I met a woman who is a pilot.",
       "chunks": [
         {
-          "text": "Call me when you arrive",
+          "text": "I",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "but we must stay focused",
+          "text": "met",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "on our goal when we",
+          "text": "a woman who is a pilot",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a passionate",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "When (Time)",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-22-8",
       "section": "Day 22",
-      "description": "When (Time)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 그녀를 보면 그는 웃는다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "He smiles when he sees her but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "Who or what is described?",
+      "korean": "운 소년은 내 동생이다.",
+      "english": "The boy who cried is my brother.",
       "chunks": [
         {
-          "text": "He smiles when he sees",
+          "text": "The boy who cried",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "her but we must stay",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "focused on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "my brother",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "When (Time)",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-22-9",
       "section": "Day 22",
-      "description": "When (Time)",
-      "korean": "분위기가 대단히 긍정적이기 때문에 조용할 때 우리는 공부한다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "We study when it is quiet but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Core Lesson",
+      "question": "Who or what is described?",
+      "korean": "거짓말하는 사람들은 신뢰를 잃는다.",
+      "english": "People who lie lose trust.",
       "chunks": [
         {
-          "text": "We study when it is",
+          "text": "People who lie",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "quiet but we must stay",
+          "text": "lose",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "focused on our goal because",
+          "text": "trust",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "the atmosphere is very positive.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "When (Time)",
-      "question": "Describe we or their status."
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-22-10",
       "section": "Day 22",
-      "description": "When (Time)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 영화가 끝나자 그녀는 떠났다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "She left when the movie ended but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "Who or what is described?",
+      "korean": "그녀는 나를 가르친 선생님이다.",
+      "english": "She is the teacher who taught me.",
       "chunks": [
         {
-          "text": "She left when the movie",
+          "text": "She",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "ended but we must stay",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "focused on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "the teacher who taught me",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "When (Time)",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-22-11",
-      "section": "Day 22",
-      "description": "When (Time)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 자라면 파일럿이 될 거야. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "When I grow up, I will be a pilot but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "When I grow up, I will",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "be a pilot but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as a passionate",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "When (Time)",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-22-12",
-      "section": "Day 22",
-      "description": "When (Time)",
-      "korean": "분위기가 대단히 긍정적이기 때문에 준비되면 시작해. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "When you are ready, start but we must stay focused on our goal because the atmosphere is very positive.",
-      "chunks": [
-        {
-          "text": "When you are ready,",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "start but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "goal because the atmosphere",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "is very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "When (Time)",
-      "question": "Describe when or their status."
-    },
-    {
-      "id": "4-22-13",
-      "section": "Day 22",
-      "description": "When (Time)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 네가 전화했을 때 자고 있었다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "I was sleeping when you called but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "I was sleeping when you",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "called but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "When (Time)",
-      "question": "Describe i or their status."
-    },
-    {
-      "id": "4-22-14",
-      "section": "Day 22",
-      "description": "When (Time)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 시간 있을 때 해. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Do it when you have time but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Do it when you have",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "time but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "When (Time)",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-22-15",
-      "section": "Day 22",
-      "description": "When (Time)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 언제 일어났니? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "When did it happen? but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "When did it happen? but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "When (Time)",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-22-16",
-      "section": "Day 22",
-      "description": "When (Time)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 로마에 가면 로마 법을 따라라. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "When in Rome, do as Romans do but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "When in Rome, do as",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "Romans do but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our goal",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "when we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "When (Time)",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-22-17",
-      "section": "Day 22",
-      "description": "When (Time)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 보면 믿을게. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "I'll believe it when I see it but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "I'll believe it when I",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "see it but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our goal",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "when we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "When (Time)",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-22-18",
-      "section": "Day 22",
-      "description": "When (Time)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 돼지가 날면(절대 안 일어날 일). 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "When pigs fly but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "When pigs fly but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "When (Time)",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-22-19",
-      "section": "Day 22",
-      "description": "When (Time)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 언제부터? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Since when? but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Since when? but we",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "When (Time)",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-22-20",
-      "section": "Day 22",
-      "description": "When (Time)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 다른 모든 게 실패할 때. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "When all else fails but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "When all else fails but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "When (Time)",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-23-1",
       "section": "Day 23",
-      "description": "Before/After",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 점심 전에. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Before lunch but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "Who or what is described?",
+      "korean": "이것은 그녀가 만든 케이크다.",
+      "english": "This is the cake which she made.",
       "chunks": [
         {
-          "text": "Before lunch but we",
+          "text": "This",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "must stay focused on",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "the cake which she made",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Before/After",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": {
+        "title": "Core Lesson",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Complement",
+            "color": "#BA68C8"
+          }
+        ]
+      }
     },
     {
       "id": "4-23-2",
       "section": "Day 23",
-      "description": "Before/After",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 방과 후에. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "After school but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "Who or what is described?",
+      "korean": "내가 읽은 책은 재미있다.",
+      "english": "The book which I read is fun.",
       "chunks": [
         {
-          "text": "After school but we",
+          "text": "The book which I read",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "must stay focused on",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "fun",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Before/After",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-23-3",
       "section": "Day 23",
-      "description": "Before/After",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 가기 전에. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Before you go but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "Who or what is described?",
+      "korean": "나는 빠른 차를 가지고 있다.",
+      "english": "I have a car which is fast.",
       "chunks": [
         {
-          "text": "Before you go but",
+          "text": "I",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we must stay focused",
+          "text": "have",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "on our goal when",
+          "text": "a car which is fast",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Before/After",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-23-4",
       "section": "Day 23",
-      "description": "Before/After",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 먹은 후에. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "After I eat but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "Who or what is described?",
+      "korean": "거기 서 있는 집은 낡았다.",
+      "english": "The house which stands there is old.",
       "chunks": [
         {
-          "text": "After I eat but",
+          "text": "The house which stands there",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we must stay focused",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "old",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Before/After",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-23-5",
       "section": "Day 23",
-      "description": "Before/After",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 해지기 전에. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Before sunset but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "Answer this question.",
+      "korean": "나오는 펜 있니?",
+      "english": "Do you have a pen which works?",
       "chunks": [
         {
-          "text": "Before sunset but we",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "must stay focused on",
+          "text": "Do you have",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal when we",
+          "text": "a pen which works",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Before/After",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-23-6",
       "section": "Day 23",
-      "description": "Before/After",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 먹기 전에 손 씻어라. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Wash hands before you eat but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "Who or what is described?",
+      "korean": "우리가 본 영화는 슬펐다.",
+      "english": "The movie which we watched was sad.",
       "chunks": [
         {
-          "text": "Wash hands before you eat",
+          "text": "The movie which we watched",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "but we must stay focused",
+          "text": "was",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "on our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a passionate",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "sad",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Before/After",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-23-7",
       "section": "Day 23",
-      "description": "Before/After",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 먹은 후에 양치해라. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Brush teeth after you eat but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "Who or what is described?",
+      "korean": "나는 이 문을 여는 열쇠를 잃어버렸다.",
+      "english": "I lost the key which opens this door.",
       "chunks": [
         {
-          "text": "Brush teeth after you eat",
+          "text": "I",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "but we must stay focused",
+          "text": "lost",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "on our goal when we",
+          "text": "the key which opens this door",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a passionate",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Before/After",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-23-8",
       "section": "Day 23",
-      "description": "Before/After",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 그는 나보다 먼저 도착했다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "He arrived before me but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "Who or what is described?",
+      "korean": "그녀는 빨간 드레스를 입고 있다.",
+      "english": "She wears a dress which is red.",
       "chunks": [
         {
-          "text": "He arrived before me but",
+          "text": "She",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we must stay focused on",
+          "text": "wears",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal when we work",
+          "text": "a dress which is red",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Before/After",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-23-9",
       "section": "Day 23",
-      "description": "Before/After",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 그녀는 파티 후에 떠났다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "She left after the party but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "Who or what is described?",
+      "korean": "이것은 내가 산 선물이다.",
+      "english": "This is the gift which I bought.",
       "chunks": [
         {
-          "text": "She left after the party",
+          "text": "This",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "but we must stay focused",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "on our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a passionate",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "the gift which I bought",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Before/After",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-23-10",
       "section": "Day 23",
-      "description": "Before/After",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 돌다리도 두들겨 보고 건너라. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Look before you leap but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "Who or what is described?",
+      "korean": "개들은 맛있는 뼈다귀를 좋아한다.",
+      "english": "Dogs like bones which are tasty.",
       "chunks": [
         {
-          "text": "Look before you leap but",
+          "text": "Dogs",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we must stay focused on",
+          "text": "like",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal when we work",
+          "text": "bones which are tasty",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Before/After",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-23-11",
-      "section": "Day 23",
-      "description": "Before/After",
-      "korean": "분위기가 대단히 긍정적이기 때문에 그에게 전화한 뒤 끝낼게. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "I will finish after calling him but we must stay focused on our goal because the atmosphere is very positive.",
-      "chunks": [
-        {
-          "text": "I will finish after calling",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "him but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal because",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "the atmosphere is very positive.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Before/After",
-      "question": "Describe i or their status."
-    },
-    {
-      "id": "4-23-12",
-      "section": "Day 23",
-      "description": "Before/After",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 떠나기 전에 치워라. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Clean up before you leave but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Clean up before you leave",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "but we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a passionate",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Before/After",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-23-13",
-      "section": "Day 23",
-      "description": "Before/After",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 비 온 뒤에 맑음. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "After rain comes sunshine but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "After rain comes sunshine but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Before/After",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-23-14",
-      "section": "Day 23",
-      "description": "Before/After",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 우리는 수업 전에 만났다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "We met before the class but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "We met before the class",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "but we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a passionate",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Before/After",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-23-15",
-      "section": "Day 23",
-      "description": "Before/After",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 나는 독서 후에 잔다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "I sleep after reading but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "I sleep after reading but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Before/After",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-23-16",
-      "section": "Day 23",
-      "description": "Before/After",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 모레. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Day after tomorrow but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Day after tomorrow but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Before/After",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-23-17",
-      "section": "Day 23",
-      "description": "Before/After",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 너무 늦기 전에. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Before it's too late but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Before it's too late but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Before/After",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-23-18",
-      "section": "Day 23",
-      "description": "Before/After",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 그 후로 행복하게. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Happily ever after but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Happily ever after but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Before/After",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-23-19",
-      "section": "Day 23",
-      "description": "Before/After",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 레이디 퍼스트. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Ladies first, men after but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Ladies first, men after but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Before/After",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-23-20",
-      "section": "Day 23",
-      "description": "Before/After",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 태초 이전에. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Before time began but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Before time began but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Before/After",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-24-1",
       "section": "Day 24",
-      "description": "While (Duration)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 기다리는 동안. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "While I wait but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "Who or what is described?",
+      "korean": "나는 빨리 나는 새를 보았다.",
+      "english": "I saw the bird that flies fast.",
       "chunks": [
         {
-          "text": "While I wait but",
+          "text": "I",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we must stay focused",
+          "text": "saw",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "on our goal when",
+          "text": "the bird that flies fast",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "While (Duration)",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": {
+        "title": "Core Lesson",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Object",
+            "color": "#FFD700"
+          }
+        ]
+      }
     },
     {
       "id": "4-24-2",
       "section": "Day 24",
-      "description": "While (Duration)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 네가 자는 동안. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "While you sleep but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "Who or what is described?",
+      "korean": "네가 요리한 음식은 맛있다.",
+      "english": "The food that you cooked is good.",
       "chunks": [
         {
-          "text": "While you sleep but",
+          "text": "The food that you cooked",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we must stay focused",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "good",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "While (Duration)",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-24-3",
       "section": "Day 24",
-      "description": "While (Duration)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 비 오는 동안. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "While raining but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "Who or what is described?",
+      "korean": "이게 내가 가진 전부다.",
+      "english": "This is all that I have.",
       "chunks": [
         {
-          "text": "While raining but we",
+          "text": "This",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "must stay focused on",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "all that I have",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "While (Duration)",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-24-4",
       "section": "Day 24",
-      "description": "While (Duration)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 걷는 동안. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "While walking but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "Who or what is described?",
+      "korean": "반짝이는 모든 것이 금은 아니다.",
+      "english": "Everything that glitters is not gold.",
       "chunks": [
         {
-          "text": "While walking but we",
+          "text": "Everything that glitters",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "must stay focused on",
+          "text": "is not",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "gold",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "While (Duration)",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-24-5",
       "section": "Day 24",
-      "description": "While (Duration)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 어릴 때. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "While young but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "Who or what is described?",
+      "korean": "내가 만난 남자는 친절하다.",
+      "english": "The man that I met is nice.",
       "chunks": [
         {
-          "text": "While young but we",
+          "text": "The man that I met",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "must stay focused on",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "nice",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "While (Duration)",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-24-6",
       "section": "Day 24",
-      "description": "While (Duration)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 그는 먹으면서 읽는다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "He reads while he eats but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "Who or what is described?",
+      "korean": "나는 작동하는 폰이 필요하다.",
+      "english": "I need a phone that works.",
       "chunks": [
         {
-          "text": "He reads while he eats",
+          "text": "I",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "but we must stay focused",
+          "text": "need",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "on our goal when we",
+          "text": "a phone that works",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a passionate",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "While (Duration)",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-24-7",
       "section": "Day 24",
-      "description": "While (Duration)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 먹을 때 말하지 마. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Don't talk while eating but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "Who or what is described?",
+      "korean": "나를 문 개가 도망갔다.",
+      "english": "The dog that bit me ran away.",
       "chunks": [
         {
-          "text": "Don't talk while eating but",
+          "text": "The dog that bit me",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we must stay focused on",
+          "text": "ran",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "away",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
-      "context": "While (Duration)",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-24-8",
       "section": "Day 24",
-      "description": "While (Duration)",
-      "korean": "분위기가 대단히 긍정적이기 때문에 달리면서 음악을 듣는다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "I listen to music while running but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Core Lesson",
+      "question": "Answer this question.",
+      "korean": "원하는 거 있니?",
+      "english": "Is there anything that you want?",
       "chunks": [
         {
-          "text": "I listen to music while",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "running but we must stay",
+          "text": "Is there",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "focused on our goal because",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "the atmosphere is very positive.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "anything that you want",
+          "role": "Subject",
+          "color": "#FF0000"
         }
       ],
-      "context": "While (Duration)",
-      "question": "Describe i or their status."
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-24-9",
       "section": "Day 24",
-      "description": "While (Duration)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 일하면서 노래했다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "She sang while working but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "Who or what is described?",
+      "korean": "내가 들은 뉴스는 충격적이다.",
+      "english": "The news that I heard is shocking.",
       "chunks": [
         {
-          "text": "She sang while working but",
+          "text": "The news that I heard",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we must stay focused on",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "shocking",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "While (Duration)",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-24-10",
       "section": "Day 24",
-      "description": "While (Duration)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 할 수 있을 때 웃어라. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Smile while you can but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "Who or what is described?",
+      "korean": "그게 내가 할 수 있는 최선이다.",
+      "english": "It is the best that I can do.",
       "chunks": [
         {
-          "text": "Smile while you can but",
+          "text": "It",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we must stay focused on",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "the best that I can do",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "While (Duration)",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-24-11",
-      "section": "Day 24",
-      "description": "While (Duration)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 TV 보다가 잠들었다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "I fell asleep while watching TV but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "I fell asleep while watching",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "TV but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "While (Duration)",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-24-12",
-      "section": "Day 24",
-      "description": "While (Duration)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 거기 있을 때 그를 봤다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "While I was there, I saw him but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "While I was there, I",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "saw him but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our goal",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "when we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "While (Duration)",
-      "question": "Describe while or their status."
-    },
-    {
-      "id": "4-24-13",
-      "section": "Day 24",
-      "description": "While (Duration)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 기회를 놓치지 마라(해 날 때 건초 말려라). 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Make hay while the sun shines but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Make hay while the sun",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "shines but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "While (Duration)",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-24-14",
-      "section": "Day 24",
-      "description": "While (Duration)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 확인하는 동안 기다려. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Wait while I check but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Wait while I check but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "While (Duration)",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-24-15",
-      "section": "Day 24",
-      "description": "While (Duration)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 남들 잘 때 우린 일한다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "While others sleep, we work but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "While others sleep, we work",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "but we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a passionate",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "While (Duration)",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-24-16",
-      "section": "Day 24",
-      "description": "While (Duration)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 시간 낼 가치가 있는. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Worth your while but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Worth your while but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "While (Duration)",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-24-17",
-      "section": "Day 24",
-      "description": "While (Duration)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 가끔. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Once in a while but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Once in a while but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "While (Duration)",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-24-18",
-      "section": "Day 24",
-      "description": "While (Duration)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 시간을 때우다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "While away the time but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "While away the time but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "While (Duration)",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-24-19",
-      "section": "Day 24",
-      "description": "While (Duration)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 그동안 내내. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "All the while but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "All the while but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "While (Duration)",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-24-20",
-      "section": "Day 24",
-      "description": "While (Duration)",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 그동안. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Mean while but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Mean while but we",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "While (Duration)",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-25-1",
       "section": "Day 25",
-      "description": "Advanced If",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 실패한다 해도. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Even if I fail but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "Who or what is described?",
+      "korean": "아빠가 조종사인 친구가 있다.",
+      "english": "I have a friend whose father is a pilot.",
       "chunks": [
         {
-          "text": "Even if I fail but",
+          "text": "I",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we must stay focused on",
+          "text": "have",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal when we work",
+          "text": "a friend whose father is a pilot",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Advanced If",
-      "question": "Under what condition will this happen?"
+      "context": "Core Lesson",
+      "grammarGuide": {
+        "title": "Core Lesson",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Object",
+            "color": "#FFD700"
+          }
+        ]
+      }
     },
     {
       "id": "4-25-2",
       "section": "Day 25",
-      "description": "Advanced If",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 시도하지 않는다면. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Unless you try but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "Who or what is described?",
+      "korean": "이것은 지붕이 빨간 집이다.",
+      "english": "This is the house whose roof is red.",
       "chunks": [
         {
-          "text": "Unless you try but",
+          "text": "This",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we must stay focused",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "the house whose roof is red",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Advanced If",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-25-3",
       "section": "Day 25",
-      "description": "Advanced If",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 네가 원할 때만. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Only if you want but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "Who or what is described?",
+      "korean": "나는 눈이 파란 소년을 안다.",
+      "english": "I know a boy whose eyes are blue.",
       "chunks": [
         {
-          "text": "Only if you want but",
+          "text": "I",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we must stay focused on",
+          "text": "know",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal when we work",
+          "text": "a boy whose eyes are blue",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Advanced If",
-      "question": "Under what condition will this happen?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-25-4",
       "section": "Day 25",
-      "description": "Advanced If",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 그가 아는 것처럼. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "As if he knows but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "Who or what is described?",
+      "korean": "여기가 우리가 만난 공원이다.",
+      "english": "This is the park where we met.",
       "chunks": [
         {
-          "text": "As if he knows but",
+          "text": "This",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we must stay focused on",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "the park where we met",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Advanced If",
-      "question": "Under what condition will this happen?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-25-5",
       "section": "Day 25",
-      "description": "Advanced If",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 비 오면 어쩌지? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "What if it rains? but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "When does this happen?",
+      "korean": "우리가 시작한 날을 기억한다.",
+      "english": "I remember the day when we started.",
       "chunks": [
         {
-          "text": "What if it rains? but",
+          "text": "I",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we must stay focused on",
+          "text": "remember",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal when we work",
+          "text": "the day when we started",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Advanced If",
-      "question": "Under what condition will this happen?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-25-6",
       "section": "Day 25",
-      "description": "Advanced If",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 비가 와도 갈 것이다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "I will go even if it rains but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "Answer this question.",
+      "korean": "그가 언제 오는지 아니?",
+      "english": "Do you know the time when he comes?",
       "chunks": [
         {
-          "text": "I will go even if",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "it rains but we must",
+          "text": "Do you know",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "stay focused on our goal",
+          "text": "the time when he comes",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "when we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Advanced If",
-      "question": "Under what condition will this happen?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-25-7",
       "section": "Day 25",
-      "description": "Advanced If",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 마음에 안 들면 돈 내지 마. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Don't pay unless you like it but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "Who or what is described?",
+      "korean": "저기가 내가 사탕 사는 가게다.",
+      "english": "That is the shop where I buy candy.",
       "chunks": [
         {
-          "text": "Don't pay unless you like",
+          "text": "That",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "it but we must stay",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "focused on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "the shop where I buy candy",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Advanced If",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-25-8",
       "section": "Day 25",
-      "description": "Advanced If",
-      "korean": "분위기가 대단히 긍정적이기 때문에 그는 부자인 척한다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "He acts as if he is rich but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Core Lesson",
+      "question": "When does this happen?",
+      "korean": "봄은 꽃이 피는 계절이다.",
+      "english": "Spring is the season when flowers bloom.",
       "chunks": [
         {
-          "text": "He acts as if he",
+          "text": "Spring",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is rich but we must",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "stay focused on our goal",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "because the atmosphere is very",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "the season when flowers bloom",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Advanced If",
-      "question": "Describe he or their status."
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-25-9",
       "section": "Day 25",
-      "description": "Advanced If",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 말 안 하면 못 도와. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "I can't help unless you tell me but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Core Lesson",
+      "question": "What is the main idea?",
+      "korean": "네가 운 이유를 말해줘.",
+      "english": "Tell me the reason why you cried.",
       "chunks": [
         {
-          "text": "I can't help unless you",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "tell me but we must",
+          "text": "Tell",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "stay focused on our goal",
+          "text": "me",
           "role": "Object",
-          "color": "#00E676"
+          "color": "#FFD700"
         },
         {
-          "text": "when we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "the reason why you cried",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Advanced If",
-      "question": "At what time does this occur?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-25-10",
       "section": "Day 25",
-      "description": "Advanced If",
-      "korean": "분위기가 대단히 긍정적이기 때문에 준비됐을 때만 와라. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Come only if you are ready but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Core Lesson",
+      "question": "Who or what is described?",
+      "korean": "그게 내가 하는 방식이야.",
+      "english": "That is the way how I do it.",
       "chunks": [
         {
-          "text": "Come only if you are",
+          "text": "That",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "ready but we must stay",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "focused on our goal because",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "the atmosphere is very positive.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "the way how I do it",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Advanced If",
-      "question": "Describe come or their status."
-    },
-    {
-      "id": "4-25-11",
-      "section": "Day 25",
-      "description": "Advanced If",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 내가 틀린 게 아니라면. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Unless I am wrong but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Unless I am wrong but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Advanced If",
-      "question": "Describe unless or their status."
-    },
-    {
-      "id": "4-25-12",
-      "section": "Day 25",
-      "description": "Advanced If",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 뛰어도 못 도망가. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Even if you run, you can't escape but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Even if you run, you",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "can't escape but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our goal",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "when we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Advanced If",
-      "question": "Under what condition will this happen?"
-    },
-    {
-      "id": "4-25-13",
-      "section": "Day 25",
-      "description": "Advanced If",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 눈 올 것 같다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "It looks as if it will snow but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "It looks as if it",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "will snow but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our goal",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "when we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Advanced If",
-      "question": "Under what condition will this happen?"
-    },
-    {
-      "id": "4-25-14",
-      "section": "Day 25",
-      "description": "Advanced If",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 아무도 안 오면 어쩌지? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "What if nobody comes? but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "What if nobody comes? but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Advanced If",
-      "question": "Under what condition will this happen?"
-    },
-    {
-      "id": "4-25-15",
-      "section": "Day 25",
-      "description": "Advanced If",
-      "korean": "분위기가 대단히 긍정적이기 때문에 가든 말든 상관 안 해. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "I don't care if you go but we must stay focused on our goal because the atmosphere is very positive.",
-      "chunks": [
-        {
-          "text": "I don't care if you",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "go but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal because",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "the atmosphere is very positive.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Advanced If",
-      "question": "Describe i or their status."
-    },
-    {
-      "id": "4-25-16",
-      "section": "Day 25",
-      "description": "Advanced If",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 웃기시네(말도 안 돼)! 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "As if! but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "As if! but we",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Advanced If",
-      "question": "Under what condition will this happen?"
-    },
-    {
-      "id": "4-25-17",
-      "section": "Day 25",
-      "description": "Advanced If",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 내가 너라면. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "If I were you but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "If I were you but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Advanced If",
-      "question": "Describe if or their status."
-    },
-    {
-      "id": "4-25-18",
-      "section": "Day 25",
-      "description": "Advanced If",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 아니면...(망설임). 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Unless but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Unless but we must",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "stay focused on our",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Advanced If",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-25-19",
-      "section": "Day 25",
-      "description": "Advanced If",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 아프더라도. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Even if it hurts but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Even if it hurts but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Advanced If",
-      "question": "Under what condition will this happen?"
-    },
-    {
-      "id": "4-25-20",
-      "section": "Day 25",
-      "description": "Advanced If",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 만약에? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "What if? but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "What if? but we",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Advanced If",
-      "question": "Under what condition will this happen?"
+      "context": "Core Lesson",
+      "grammarGuide": null
     },
     {
       "id": "4-26-1",
       "section": "Day 26",
-      "description": "Because/Since",
-      "korean": "분위기가 대단히 긍정적이기 때문에 네가 여기 있으니까. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Since you are here but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Review",
+      "question": "Who or what is described?",
+      "korean": "네가 요리한 음식은 맛있다.",
+      "english": "The food that you cooked is good.",
       "chunks": [
         {
-          "text": "Since you are here",
+          "text": "The food that you cooked",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "but we must stay",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "focused on our goal",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "because the atmosphere is",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "good",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Because/Since",
-      "question": "Describe since or their status."
+      "context": "Review",
+      "grammarGuide": {
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Complement",
+            "color": "#BA68C8"
+          }
+        ]
+      }
     },
     {
       "id": "4-26-2",
       "section": "Day 26",
-      "description": "Because/Since",
-      "korean": "분위기가 대단히 긍정적이기 때문에 늦었으니까. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "As it is late but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Review",
+      "question": "Answer this question.",
+      "korean": "그가 언제 오는지 아니?",
+      "english": "Do you know the time when he comes?",
       "chunks": [
         {
-          "text": "As it is late",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "but we must stay",
+          "text": "Do you know",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "focused on our goal",
+          "text": "the time when he comes",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "because the atmosphere is",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Because/Since",
-      "question": "Describe as or their status."
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "4-26-3",
       "section": "Day 26",
-      "description": "Because/Since",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 널 사랑하니까. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Because I love you but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Review",
+      "question": "Who or what is described?",
+      "korean": "그게 내가 하는 방식이야.",
+      "english": "That is the way how I do it.",
       "chunks": [
         {
-          "text": "Because I love you but",
+          "text": "That",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we must stay focused on",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "the way how I do it",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Because/Since",
-      "question": "What is the primary reason?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "4-26-4",
       "section": "Day 26",
-      "description": "Because/Since",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 어제부터. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Since yesterday but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Review",
+      "question": "Who or what is described?",
+      "korean": "아빠가 조종사인 친구가 있다.",
+      "english": "I have a friend whose father is a pilot.",
       "chunks": [
         {
-          "text": "Since yesterday but we",
+          "text": "I",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "must stay focused on",
+          "text": "have",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal when we",
+          "text": "a friend whose father is a pilot",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Because/Since",
-      "question": "At what time does this occur?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "4-26-5",
       "section": "Day 26",
-      "description": "Because/Since",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 친구로서. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "As a friend but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Review",
+      "question": "Who or what is described?",
+      "korean": "나는 눈이 파란 소년을 안다.",
+      "english": "I know a boy whose eyes are blue.",
       "chunks": [
         {
-          "text": "As a friend but",
+          "text": "I",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we must stay focused",
+          "text": "know",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "on our goal when",
+          "text": "a boy whose eyes are blue",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Because/Since",
-      "question": "At what time does this occur?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "4-26-6",
       "section": "Day 26",
-      "description": "Because/Since",
-      "korean": "분위기가 대단히 긍정적이기 때문에 더우니까 수영하자. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Since it is hot, let's swim but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Review",
+      "question": "Who or what is described?",
+      "korean": "그게 내가 할 수 있는 최선이다.",
+      "english": "It is the best that I can do.",
       "chunks": [
         {
-          "text": "Since it is hot, let's",
+          "text": "It",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "swim but we must stay",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "focused on our goal because",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "the atmosphere is very positive.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "the best that I can do",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Because/Since",
-      "question": "Describe since or their status."
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "4-26-7",
       "section": "Day 26",
-      "description": "Because/Since",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 알다시피 난 바빠. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "As you know, I am busy but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Review",
+      "question": "Who or what is described?",
+      "korean": "그가 나를 도와준 사람이다.",
+      "english": "He is the one who helped me.",
       "chunks": [
         {
-          "text": "As you know, I am",
+          "text": "He",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "busy but we must stay",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "focused on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "the one who helped me",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Because/Since",
-      "question": "Describe as or their status."
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "4-26-8",
       "section": "Day 26",
-      "description": "Because/Since",
-      "korean": "분위기가 대단히 긍정적이기 때문에 친절해서 그를 돕는다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "I help him because he is kind but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Review",
+      "question": "Who or what is described?",
+      "korean": "나는 노래하는 남자를 안다.",
+      "english": "I know the man who is singing.",
       "chunks": [
         {
-          "text": "I help him because he",
+          "text": "I",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is kind but we must",
+          "text": "know",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "stay focused on our goal",
+          "text": "the man who is singing",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "because the atmosphere is very",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Because/Since",
-      "question": "Describe i or their status."
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "4-26-9",
       "section": "Day 26",
-      "description": "Because/Since",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 물었으니 대답하지. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Since you asked, I will answer but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Review",
+      "question": "Who or what is described?",
+      "korean": "그녀는 빨간 드레스를 입고 있다.",
+      "english": "She wears a dress which is red.",
       "chunks": [
         {
-          "text": "Since you asked, I will",
+          "text": "She",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "answer but we must stay",
+          "text": "wears",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "focused on our goal when",
+          "text": "a dress which is red",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Because/Since",
-      "question": "At what time does this occur?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "4-26-10",
       "section": "Day 26",
-      "description": "Because/Since",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 네 맘대로 해. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Do as you please but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Review",
+      "question": "Who or what is described?",
+      "korean": "이것은 그녀가 만든 케이크다.",
+      "english": "This is the cake which she made.",
       "chunks": [
         {
-          "text": "Do as you please but",
+          "text": "This",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we must stay focused on",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "the cake which she made",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Because/Since",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-26-11",
-      "section": "Day 26",
-      "description": "Because/Since",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 월요일 이후로 그를 못 봤다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "I haven't seen him since Monday but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "I haven't seen him since",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "Monday but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Because/Since",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-26-12",
-      "section": "Day 26",
-      "description": "Because/Since",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 할 수 있다고 해서 해야 하는 건 아냐. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Just because you can, doesn't mean you should but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Just because you can, doesn't mean",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you should but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Because/Since",
-      "question": "What is the primary reason?"
-    },
-    {
-      "id": "4-26-13",
-      "section": "Day 26",
-      "description": "Because/Since",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 시간이 흐르면서. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "As time goes by but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "As time goes by but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Because/Since",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-26-14",
-      "section": "Day 26",
-      "description": "Because/Since",
-      "korean": "분위기가 대단히 긍정적이기 때문에 언제부터 신경 썼니? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Since when do you care? but we must stay focused on our goal because the atmosphere is very positive.",
-      "chunks": [
-        {
-          "text": "Since when do you",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "care? but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "goal because the atmosphere",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "is very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Because/Since",
-      "question": "Describe since or their status."
-    },
-    {
-      "id": "4-26-15",
-      "section": "Day 26",
-      "description": "Because/Since",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 비 때문에 멈췄다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Because of the rain, we stopped but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Because of the rain, we",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "stopped but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Because/Since",
-      "question": "What is the primary reason?"
-    },
-    {
-      "id": "4-26-16",
-      "section": "Day 26",
-      "description": "Because/Since",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 그 이후로 줄곧. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Ever since but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Ever since but we",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Because/Since",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-26-17",
-      "section": "Day 26",
-      "description": "Because/Since",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 오랜만이다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Long time since but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Long time since but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Because/Since",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-26-18",
-      "section": "Day 26",
-      "description": "Because/Since",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 내가 그렇다니 그런 줄 알아. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Because I said so but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Because I said so but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Because/Since",
-      "question": "What is the primary reason?"
-    },
-    {
-      "id": "4-26-19",
-      "section": "Day 26",
-      "description": "Because/Since",
-      "korean": "분위기가 대단히 긍정적이기 때문에 알 게 뭐람(신경 안 씀). 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "As if I care but we must stay focused on our goal because the atmosphere is very positive.",
-      "chunks": [
-        {
-          "text": "As if I care",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "because the atmosphere is",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Because/Since",
-      "question": "Describe as or their status."
-    },
-    {
-      "id": "4-26-20",
-      "section": "Day 26",
-      "description": "Because/Since",
-      "korean": "분위기가 대단히 긍정적이기 때문에 우린 친구니까. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Since we are friends but we must stay focused on our goal because the atmosphere is very positive.",
-      "chunks": [
-        {
-          "text": "Since we are friends",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "because the atmosphere is",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Because/Since",
-      "question": "Describe since or their status."
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "4-27-1",
       "section": "Day 27",
-      "description": "Sequence logic",
-      "korean": "분위기가 대단히 긍정적이기 때문에 먼저 들어라. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "First, Listen but we must stay focused on our goal because the atmosphere is very positive.",
+      "description": "Review",
+      "question": "When does this happen?",
+      "korean": "봄은 꽃이 피는 계절이다.",
+      "english": "Spring is the season when flowers bloom.",
       "chunks": [
         {
-          "text": "First, Listen but we",
+          "text": "Spring",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "must stay focused on",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal because the",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "atmosphere is very positive.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "the season when flowers bloom",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Sequence logic",
-      "question": "Describe first or their status."
+      "context": "Review",
+      "grammarGuide": {
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Complement",
+            "color": "#BA68C8"
+          }
+        ]
+      }
     },
     {
       "id": "4-27-2",
       "section": "Day 27",
-      "description": "Sequence logic",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 그 다음 말해라. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Then, Speak but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Review",
+      "question": "Who or what is described?",
+      "korean": "저기가 내가 사탕 사는 가게다.",
+      "english": "That is the shop where I buy candy.",
       "chunks": [
         {
-          "text": "Then, Speak but we",
+          "text": "That",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "must stay focused on",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "the shop where I buy candy",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Sequence logic",
-      "question": "At what time does this occur?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "4-27-3",
       "section": "Day 27",
-      "description": "Sequence logic",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 마침내 끝. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Finally, Done but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Review",
+      "question": "When does this happen?",
+      "korean": "우리가 시작한 날을 기억한다.",
+      "english": "I remember the day when we started.",
       "chunks": [
         {
-          "text": "Finally, Done but we",
+          "text": "I",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "must stay focused on",
+          "text": "remember",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal when we",
+          "text": "the day when we started",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Sequence logic",
-      "question": "At what time does this occur?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "4-27-4",
       "section": "Day 27",
-      "description": "Sequence logic",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 다음 분. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Next, Please but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Review",
+      "question": "Who or what is described?",
+      "korean": "우리가 본 영화는 슬펐다.",
+      "english": "The movie which we watched was sad.",
       "chunks": [
         {
-          "text": "Next, Please but we",
+          "text": "The movie which we watched",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "must stay focused on",
+          "text": "was",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "sad",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Sequence logic",
-      "question": "At what time does this occur?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "4-27-5",
       "section": "Day 27",
-      "description": "Sequence logic",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 드디어. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "At last but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Review",
+      "question": "Who or what is described?",
+      "korean": "나는 작동하는 폰이 필요하다.",
+      "english": "I need a phone that works.",
       "chunks": [
         {
-          "text": "At last but we",
+          "text": "I",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "must stay focused on",
+          "text": "need",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal when we",
+          "text": "a phone that works",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Sequence logic",
-      "question": "At what time does this occur?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "4-27-6",
       "section": "Day 27",
-      "description": "Sequence logic",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 먼저 손 씻어. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "First, wash your hands but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Review",
+      "question": "Who or what is described?",
+      "korean": "내가 들은 뉴스는 충격적이다.",
+      "english": "The news that I heard is shocking.",
       "chunks": [
         {
-          "text": "First, wash your hands but",
+          "text": "The news that I heard",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we must stay focused on",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "shocking",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Sequence logic",
-      "question": "At what time does this occur?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "4-27-7",
       "section": "Day 27",
-      "description": "Sequence logic",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 그리고 밥 먹어. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Then, eat your food but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Review",
+      "question": "Who or what is described?",
+      "korean": "내가 읽은 책은 재미있다.",
+      "english": "The book which I read is fun.",
       "chunks": [
         {
-          "text": "Then, eat your food but",
+          "text": "The book which I read",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we must stay focused on",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "fun",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Sequence logic",
-      "question": "At what time does this occur?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "4-27-8",
       "section": "Day 27",
-      "description": "Sequence logic",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 다음엔 이 닦아. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Next, brush your teeth but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Review",
+      "question": "Who or what is described?",
+      "korean": "이것은 그녀가 만든 케이크다.",
+      "english": "This is the cake which she made.",
       "chunks": [
         {
-          "text": "Next, brush your teeth but",
+          "text": "This",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we must stay focused on",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "the cake which she made",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Sequence logic",
-      "question": "At what time does this occur?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "4-27-9",
       "section": "Day 27",
-      "description": "Sequence logic",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 마지막으로 자러 가. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Finally, go to bed but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Review",
+      "question": "Who or what is described?",
+      "korean": "반짝이는 모든 것이 금은 아니다.",
+      "english": "Everything that glitters is not gold.",
       "chunks": [
         {
-          "text": "Finally, go to bed but",
+          "text": "Everything that glitters",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we must stay focused on",
+          "text": "is not",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "gold",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Sequence logic",
-      "question": "At what time does this occur?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "4-27-10",
       "section": "Day 27",
-      "description": "Sequence logic",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 선착순. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "First come, first served but we must stay focused on our goal when we work together as a passionate team.",
+      "description": "Review",
+      "question": "Who or what is described?",
+      "korean": "과속하는 운전자들은 위험하다.",
+      "english": "Drivers who speed are dangerous.",
       "chunks": [
         {
-          "text": "First come, first served but",
+          "text": "Drivers who speed",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we must stay focused on",
+          "text": "are",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "dangerous",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Sequence logic",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-27-11",
-      "section": "Day 27",
-      "description": "Sequence logic",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 공부했고 합격했다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "I studied, then I passed but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "I studied, then I passed",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "but we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a passionate",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Sequence logic",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-27-12",
-      "section": "Day 27",
-      "description": "Sequence logic",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 무엇보다 난 널 사랑해. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "First of all, I love you but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "First of all, I love",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Sequence logic",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-27-13",
-      "section": "Day 27",
-      "description": "Sequence logic",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 그래서 그다음은? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "And then what? but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "And then what? but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Sequence logic",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-27-14",
-      "section": "Day 27",
-      "description": "Sequence logic",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 마침내 그가 도착했다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Finally, he arrived but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Finally, he arrived but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Sequence logic",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-27-15",
-      "section": "Day 27",
-      "description": "Sequence logic",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 마지막으로 행복해라. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Lastly, be happy but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Lastly, be happy but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Sequence logic",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-27-16",
-      "section": "Day 27",
-      "description": "Sequence logic",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 중요한 것부터. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "First things first but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "First things first but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Sequence logic",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-27-17",
-      "section": "Day 27",
-      "description": "Sequence logic",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 가끔. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Now and then but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Now and then but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Sequence logic",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-27-18",
-      "section": "Day 27",
-      "description": "Sequence logic",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 처음부터 끝까지. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "From first to last but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "From first to last but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Sequence logic",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-27-19",
-      "section": "Day 27",
-      "description": "Sequence logic",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 끝. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "The end but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "The end but we",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Sequence logic",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-27-20",
-      "section": "Day 27",
-      "description": "Sequence logic",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 우선. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "To begin with but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "To begin with but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Sequence logic",
-      "question": "At what time does this occur?"
+      "context": "Review",
+      "grammarGuide": null
     },
     {
       "id": "4-28-1",
       "section": "Day 28",
       "description": "Review",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 널 보면 웃음이 나. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "When I see you, I smile but we must stay focused on our goal when we work together as a passionate team.",
+      "question": "Who or what is described?",
+      "korean": "저기가 내가 사탕 사는 가게다.",
+      "english": "That is the shop where I buy candy.",
       "chunks": [
         {
-          "text": "When I see you, I",
+          "text": "That",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "smile but we must stay",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "focused on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "the shop where I buy candy",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
       "context": "Review",
-      "question": "At what time does this occur?"
+      "grammarGuide": {
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Complement",
+            "color": "#BA68C8"
+          }
+        ]
+      }
     },
     {
       "id": "4-28-2",
       "section": "Day 28",
       "description": "Review",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 판단하기 전에 이해해라. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Before you judge, understand but we must stay focused on our goal when we work together as a passionate team.",
+      "question": "Who or what is described?",
+      "korean": "그가 나를 도와준 사람이다.",
+      "english": "He is the one who helped me.",
       "chunks": [
         {
-          "text": "Before you judge, understand but",
+          "text": "He",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we must stay focused on",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "the one who helped me",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
       "context": "Review",
-      "question": "At what time does this occur?"
+      "grammarGuide": null
     },
     {
       "id": "4-28-3",
       "section": "Day 28",
       "description": "Review",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 비 오는 동안 난 잔다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "While it rains, I sleep but we must stay focused on our goal when we work together as a passionate team.",
+      "question": "Who or what is described?",
+      "korean": "네가 요리한 음식은 맛있다.",
+      "english": "The food that you cooked is good.",
       "chunks": [
         {
-          "text": "While it rains, I sleep",
+          "text": "The food that you cooked",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "but we must stay focused",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "on our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a passionate",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "good",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
       "context": "Review",
-      "question": "At what time does this occur?"
+      "grammarGuide": null
     },
     {
       "id": "4-28-4",
       "section": "Day 28",
       "description": "Review",
-      "korean": "분위기가 대단히 긍정적이기 때문에 넘어져도 일어난다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Even if I fall, I rise but we must stay focused on our goal because the atmosphere is very positive.",
+      "question": "Who or what is described?",
+      "korean": "나를 문 개가 도망갔다.",
+      "english": "The dog that bit me ran away.",
       "chunks": [
         {
-          "text": "Even if I fall, I",
+          "text": "The dog that bit me",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "rise but we must stay",
+          "text": "ran",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "focused on our goal because",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "the atmosphere is very positive.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "away",
+          "role": "Adverb",
+          "color": "#BA68C8"
         }
       ],
       "context": "Review",
-      "question": "Describe even or their status."
+      "grammarGuide": null
     },
     {
       "id": "4-28-5",
       "section": "Day 28",
       "description": "Review",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 아니까 말해줘. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Since you know, tell me but we must stay focused on our goal when we work together as a passionate team.",
+      "question": "Who or what is described?",
+      "korean": "이것은 그녀가 만든 케이크다.",
+      "english": "This is the cake which she made.",
       "chunks": [
         {
-          "text": "Since you know, tell me",
+          "text": "This",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "but we must stay focused",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "on our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a passionate",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "the cake which she made",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
       "context": "Review",
-      "question": "At what time does this occur?"
+      "grammarGuide": null
     },
     {
       "id": "4-28-6",
       "section": "Day 28",
       "description": "Review",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 먼저 생각하고 행동해라. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "First think, then act but we must stay focused on our goal when we work together as a passionate team.",
+      "question": "Who or what is described?",
+      "korean": "과속하는 운전자들은 위험하다.",
+      "english": "Drivers who speed are dangerous.",
       "chunks": [
         {
-          "text": "First think, then act but",
+          "text": "Drivers who speed",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we must stay focused on",
+          "text": "are",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "dangerous",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
       "context": "Review",
-      "question": "At what time does this occur?"
+      "grammarGuide": null
     },
     {
       "id": "4-28-7",
       "section": "Day 28",
       "description": "Review",
-      "korean": "분위기가 대단히 긍정적이기 때문에 마침내 우린 여기 있다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Finally, we are here but we must stay focused on our goal because the atmosphere is very positive.",
+      "question": "Who or what is described?",
+      "korean": "고양이를 좋아하는 소녀가 여기 있다.",
+      "english": "The girl who likes cats is here.",
       "chunks": [
         {
-          "text": "Finally, we are here",
+          "text": "The girl who likes cats",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "but we must stay",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "focused on our goal",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "because the atmosphere is",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "very positive.",
+          "text": "here",
           "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#BA68C8"
         }
       ],
       "context": "Review",
-      "question": "Describe finally or their status."
+      "grammarGuide": null
     },
     {
       "id": "4-28-8",
       "section": "Day 28",
       "description": "Review",
-      "korean": "분위기가 대단히 긍정적이기 때문에 사실이니까. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Because it is true but we must stay focused on our goal because the atmosphere is very positive.",
+      "question": "What is the main idea?",
+      "korean": "네가 운 이유를 말해줘.",
+      "english": "Tell me the reason why you cried.",
       "chunks": [
         {
-          "text": "Because it is true",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "but we must stay",
+          "text": "Tell",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "focused on our goal",
+          "text": "me",
           "role": "Object",
-          "color": "#00E676"
+          "color": "#FFD700"
         },
         {
-          "text": "because the atmosphere is",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "the reason why you cried",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
       "context": "Review",
-      "question": "Describe because or their status."
+      "grammarGuide": null
     },
     {
       "id": "4-28-9",
       "section": "Day 28",
       "description": "Review",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 네가 원하지 않는다면. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Unless you want to but we must stay focused on our goal when we work together as a passionate team.",
+      "question": "Who or what is described?",
+      "korean": "운 소년은 내 동생이다.",
+      "english": "The boy who cried is my brother.",
       "chunks": [
         {
-          "text": "Unless you want to but",
+          "text": "The boy who cried",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we must stay focused on",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "my brother",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
       "context": "Review",
-      "question": "At what time does this occur?"
+      "grammarGuide": null
     },
     {
       "id": "4-28-10",
       "section": "Day 28",
       "description": "Review",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 어두워지면 집에 있어. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "After dark, stay home but we must stay focused on our goal when we work together as a passionate team.",
+      "question": "Who or what is described?",
+      "korean": "나는 빨리 나는 새를 보았다.",
+      "english": "I saw the bird that flies fast.",
       "chunks": [
         {
-          "text": "After dark, stay home but",
+          "text": "I",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "we must stay focused on",
+          "text": "saw",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "our goal when we work",
+          "text": "the bird that flies fast",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#FFD700"
         }
       ],
       "context": "Review",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-28-11",
-      "section": "Day 28",
-      "description": "Review",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 가능한 한 빨리. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "As soon as you can but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "As soon as you can",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "but we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a passionate",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Review",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-28-12",
-      "section": "Day 28",
-      "description": "Review",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 내가 날면 어쩌지? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "What if I fly? but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "What if I fly? but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Review",
-      "question": "Under what condition will this happen?"
-    },
-    {
-      "id": "4-28-13",
-      "section": "Day 28",
-      "description": "Review",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 그냥. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Just because but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Just because but we",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Review",
-      "question": "What is the primary reason?"
-    },
-    {
-      "id": "4-28-14",
-      "section": "Day 28",
-      "description": "Review",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 내가 올 때까지 기다려. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Wait until I come but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Wait until I come but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Review",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-28-15",
-      "section": "Day 28",
-      "description": "Review",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 아니라면 왜? 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "If not, why? but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "If not, why? but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Review",
-      "question": "Under what condition will this happen?"
-    },
-    {
-      "id": "4-28-16",
-      "section": "Day 28",
-      "description": "Review",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 가장 아름다운 시간. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "The most beautiful time but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "The most beautiful time but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Review",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-28-17",
-      "section": "Day 28",
-      "description": "Review",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 늦더라도 하는 게 낫다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "Better late than never but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "Better late than never but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused on",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "our goal when we work",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "together as a passionate team.",
-          "role": "Modifier",
-          "color": "#2979FF"
-        }
-      ],
-      "context": "Review",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-28-18",
-      "section": "Day 28",
-      "description": "Review",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 전부 아니면 전무. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "All or nothing but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "All or nothing but",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "we must stay focused",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "a passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Review",
-      "question": "At what time does this occur?"
-    },
-    {
-      "id": "4-28-19",
-      "section": "Day 28",
-      "description": "Review",
-      "korean": "분위기가 대단히 긍정적이기 때문에 그는 더 빠르고 강하다. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "He is faster and stronger but we must stay focused on our goal because the atmosphere is very positive.",
-      "chunks": [
-        {
-          "text": "He is faster and",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "stronger but we must",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "stay focused on our",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "goal because the atmosphere",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "is very positive.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Review",
-      "question": "Describe he or their status."
-    },
-    {
-      "id": "4-28-20",
-      "section": "Day 28",
-      "description": "Review",
-      "korean": "우리가 열정적인 팀으로서 함께 협력할 때 너 때문에 행복해. 하지만 우리는 우리의 목표에 계속 집중해야 한다..",
-      "english": "I am happy because of you but we must stay focused on our goal when we work together as a passionate team.",
-      "chunks": [
-        {
-          "text": "I am happy because of",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "you but we must stay",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "focused on our goal when",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "we work together as a",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "passionate team.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Review",
-      "question": "How does she feel?"
+      "grammarGuide": null
     }
   ]
 }

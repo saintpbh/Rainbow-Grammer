@@ -6,6 +6,8 @@ import * as storage from '../storage.js';
 import * as utils from '../utils.js';
 import * as analytics from '../analytics.js';
 
+let isProcessing = false;
+
 // --- Initialization ---
 
 export async function loadGame() {
@@ -146,6 +148,7 @@ export function loadLevel() {
 }
 
 function handleInput(idx, element) {
+    if (isProcessing) return;
     if (element.classList.contains('used')) return;
 
     const chunk = gameState.currentChunks[idx];
@@ -161,6 +164,7 @@ function handleInput(idx, element) {
 }
 
 function undoSelection(chunkIdx) {
+    if (isProcessing) return;
     const pos = gameState.selectedIndices.indexOf(chunkIdx);
     if (pos === -1) return;
 
@@ -189,24 +193,10 @@ async function checkCompletion() {
         }
     }
 
-    // --- Next-Gen SLA Alternative Syntax Parser ---
-    if (!isCorrect) {
-        const reconstructed = gameState.selectedIndices.map(idx => gameState.currentChunks[idx].text).join(" ");
-        const norm_orig = gameState.currentItem.english.replace(/[^\w\s']/g, "").replace(/\s+/g, " ").trim().toLowerCase();
-        const norm_recon = reconstructed.replace(/[^\w\s']/g, "").replace(/\s+/g, " ").trim().toLowerCase();
-        
-        // Compare sorted word sets to ensure all semantic elements are present
-        const orig_sorted = norm_orig.split(" ").sort().join(" ");
-        const recon_sorted = norm_recon.split(" ").sort().join(" ");
-        
-        if (orig_sorted === recon_sorted) {
-            // Syntactic Flexibility: Shifted adverbs, modifiers, and time phrases are allowed
-            isCorrect = true;
-            console.log("🌟 Creative SLA Syntactic Match Approved: ", reconstructed);
-        }
-    }
+    // Strict order check only — word order IS the learning objective
 
     if (isCorrect) {
+        isProcessing = true;
         gameState.totalScore += POINTS_PER_WIN;
         gameState.todayScore += POINTS_PER_WIN;
 
@@ -231,6 +221,7 @@ async function checkCompletion() {
 
         await new Promise(r => setTimeout(r, 2200)); // Comfort delay to read the dialogue before next item
 
+        isProcessing = false;
         proceedToNextItemLogic();
 
     } else {
@@ -263,6 +254,7 @@ async function checkCompletion() {
             ui.showMiniDialogueBubble(gameState.currentItem.english, MatchedKoreanTranslation(gameState.currentItem));
 
             setTimeout(() => {
+                isProcessing = false;
                 proceedToNextItemLogic();
             }, 3500);
 

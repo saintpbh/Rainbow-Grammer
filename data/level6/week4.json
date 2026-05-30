@@ -1,5044 +1,2278 @@
 {
   "curriculum": [
     {
-      "id": "7-22-1",
+      "id": "6-22-1",
       "section": "Day 22",
-      "description": "Longest Sentences",
-      "korean": "날쌘을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand the is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "성찰하지 않는 삶은 살 가치가 없다.",
+      "english": "The unexamined life is not worth living.",
       "chunks": [
         {
-          "text": "To understand to understand the",
+          "text": "The unexamined life",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "is not",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "worth living",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Longest Sentences",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": {
+        "title": "The Philosopher",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Complement",
+            "color": "#BA68C8"
+          }
+        ]
+      },
+      "grammarTip": {
+        "title": "Philosophical Truths",
+        "explanation": "추상적인 개념을 정의하거나 삶의 이치를 논할 때 사용하는 문장 구조입니다. 'A is B', 'To do is to be' 등을 사용합니다.",
+        "examples": [
+          "Knowledge is power.",
+          "To live is to suffer."
+        ]
+      }
     },
     {
-      "id": "7-22-2",
+      "id": "6-22-2",
       "section": "Day 22",
-      "description": "Longest Sentences",
-      "korean": "그가을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand considering is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "나는 생각한다, 고로 나는 존재한다.",
+      "english": "I think therefore I am.",
       "chunks": [
         {
-          "text": "To understand to understand considering",
+          "text": "I",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "think",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
+          "text": "therefore",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "am",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Longest Sentences",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-22-3",
+      "id": "6-22-3",
       "section": "Day 22",
-      "description": "Longest Sentences",
-      "korean": "사느냐을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand to is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "인생이란 당신이 다른 계획을 세우느라 바쁠 때 일어나는 것이다.",
+      "english": "Life is what happens when you're busy making other plans.",
       "chunks": [
         {
-          "text": "To understand to understand to",
+          "text": "Life",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
+          "text": "what happens",
+          "role": "Complement",
+          "color": "#BA68C8"
         },
         {
-          "text": "grasp the very core of",
+          "text": "when you're busy making other plans",
           "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Longest Sentences",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-22-4",
+      "id": "6-22-4",
       "section": "Day 22",
-      "description": "Longest Sentences",
-      "korean": "나는을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand i is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "산다는 것은 고통받는 것이다.",
+      "english": "To live is to suffer.",
       "chunks": [
         {
-          "text": "To understand to understand i",
+          "text": "To live",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "to suffer",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Longest Sentences",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-22-5",
+      "id": "6-22-5",
       "section": "Day 22",
-      "description": "Longest Sentences",
-      "korean": "비에도을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand despite is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "행복은 우리 자신에게 달려 있다.",
+      "english": "Happiness depends upon ourselves.",
       "chunks": [
         {
-          "text": "To understand to understand despite",
+          "text": "Happiness",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "depends",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
+          "text": "upon ourselves",
           "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Longest Sentences",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-22-6",
+      "id": "6-22-6",
       "section": "Day 22",
-      "description": "Longest Sentences",
-      "korean": "그는을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand he is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "우리가 반복적으로 하는 것이 곧 우리 자신이다.",
+      "english": "We are what we repeatedly do.",
       "chunks": [
         {
-          "text": "To understand to understand he",
+          "text": "We",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "are",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "what we repeatedly do",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Longest Sentences",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-22-7",
+      "id": "6-22-7",
       "section": "Day 22",
-      "description": "Longest Sentences",
-      "korean": "그는을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand not is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "인간은 자유롭게 태어났으나 도처에 사슬에 묶여 있다.",
+      "english": "Man is born free and everywhere he is in chains.",
       "chunks": [
         {
-          "text": "To understand to understand not",
+          "text": "Man",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "is born",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
+          "text": "free",
+          "role": "Complement",
+          "color": "#BA68C8"
         },
         {
-          "text": "grasp the very core of",
+          "text": "and",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "everywhere",
+          "role": "Modifier",
+          "color": "#B0BEC5"
+        },
+        {
+          "text": "he",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "in chains",
+          "role": "Modifier",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Longest Sentences",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-22-8",
+      "id": "6-22-8",
       "section": "Day 22",
-      "description": "Longest Sentences",
-      "korean": "내을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand the is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "너 자신을 알라.",
+      "english": "Know thyself.",
       "chunks": [
         {
-          "text": "To understand to understand the",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
+          "text": "Know",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
+          "text": "thyself",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Longest Sentences",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-22-9",
+      "id": "6-22-9",
       "section": "Day 22",
-      "description": "Longest Sentences",
-      "korean": "뭘을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand whatever is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "우리 삶의 목적은 행복해지는 것이다.",
+      "english": "The purpose of our lives is to be happy.",
       "chunks": [
         {
-          "text": "To understand to understand whatever",
+          "text": "The purpose of our lives",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "to be happy",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Longest Sentences",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-22-10",
+      "id": "6-22-10",
       "section": "Day 22",
-      "description": "Longest Sentences",
-      "korean": "이상적으로는을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand ideally, is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "결국, 우리는 잡지 않은 기회들만을 후회한다.",
+      "english": "In the end we only regret the chances we didn't take.",
       "chunks": [
         {
-          "text": "To understand to understand ideally,",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
+          "text": "In the end",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "we",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "only regret",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the chances we didn't take",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Longest Sentences",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-22-11",
-      "section": "Day 22",
-      "description": "Longest Sentences",
-      "korean": "소식을을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand having is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand having",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Longest Sentences",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-22-12",
-      "section": "Day 22",
-      "description": "Longest Sentences",
-      "korean": "그가을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand whether is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand whether",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Longest Sentences",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-22-13",
-      "section": "Day 22",
-      "description": "Longest Sentences",
-      "korean": "도착하자마자을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand hardly is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand hardly",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Longest Sentences",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-22-14",
-      "section": "Day 22",
-      "description": "Longest Sentences",
-      "korean": "그를을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand it is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand it",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Longest Sentences",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-22-15",
-      "section": "Day 22",
-      "description": "Longest Sentences",
-      "korean": "그건을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand be is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand be",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Longest Sentences",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-22-16",
-      "section": "Day 22",
-      "description": "Longest Sentences",
-      "korean": "헛간을을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand the is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand the",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Longest Sentences",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-22-17",
-      "section": "Day 22",
-      "description": "Longest Sentences",
-      "korean": "노인들이을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand the is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand the",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Longest Sentences",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-22-18",
-      "section": "Day 22",
-      "description": "Longest Sentences",
-      "korean": "그을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand the is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand the",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Longest Sentences",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-22-19",
-      "section": "Day 22",
-      "description": "Longest Sentences",
-      "korean": "버팔로의을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand buffalo is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand buffalo",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Longest Sentences",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-22-20",
-      "section": "Day 22",
-      "description": "Longest Sentences",
-      "korean": "제임스가을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand james is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand james",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Longest Sentences",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-23-1",
+      "id": "6-23-1",
       "section": "Day 23",
-      "description": "Ambiguity & Puns",
-      "korean": "그녀의을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand i is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "이 또한 지나가리라.",
+      "english": "This too shall pass.",
       "chunks": [
         {
-          "text": "To understand to understand i",
+          "text": "This too",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "shall pass",
           "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#FF7F00"
         }
       ],
-      "context": "Ambiguity & Puns",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": {
+        "title": "The Philosopher",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          }
+        ]
+      },
+      "grammarTip": null
     },
     {
-      "id": "7-23-2",
+      "id": "6-23-2",
       "section": "Day 23",
-      "description": "Ambiguity & Puns",
-      "korean": "시간은을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand time is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "시간은 아무도 기다려주지 않는다.",
+      "english": "Time waits for no one.",
       "chunks": [
         {
-          "text": "To understand to understand time",
+          "text": "Time",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "waits",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
+          "text": "for no one",
           "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Ambiguity & Puns",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-23-3",
+      "id": "6-23-3",
       "section": "Day 23",
-      "description": "Ambiguity & Puns",
-      "korean": "초파리는을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand fruit is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "변화는 삶의 유일한 상수이다.",
+      "english": "Change is the only constant in life.",
       "chunks": [
         {
-          "text": "To understand to understand fruit",
+          "text": "Change",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
+          "text": "the only constant",
+          "role": "Complement",
+          "color": "#BA68C8"
         },
         {
-          "text": "grasp the very core of",
+          "text": "in life",
           "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Ambiguity & Puns",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-23-4",
+      "id": "6-23-4",
       "section": "Day 23",
-      "description": "Ambiguity & Puns",
-      "korean": "그녀의을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand he is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "과거는 낯선 나라이다.",
+      "english": "The past is a foreign country.",
       "chunks": [
         {
-          "text": "To understand to understand he",
+          "text": "The past",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "a foreign country",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Ambiguity & Puns",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-23-5",
+      "id": "6-23-5",
       "section": "Day 23",
-      "description": "Ambiguity & Puns",
-      "korean": "애꾸눈을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand look is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "카르페 디엠, 오늘을 즐겨라.",
+      "english": "Carpe diem seize the day.",
       "chunks": [
         {
-          "text": "To understand to understand look",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
+          "text": "Carpe diem",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "seize",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the day",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Ambiguity & Puns",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-23-6",
+      "id": "6-23-6",
       "section": "Day 23",
-      "description": "Ambiguity & Puns",
-      "korean": "7이을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand seven is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "역사는 반복된다.",
+      "english": "History repeats itself.",
       "chunks": [
         {
-          "text": "To understand to understand seven",
+          "text": "History",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "repeats",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
+          "text": "itself",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Ambiguity & Puns",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-23-7",
+      "id": "6-23-7",
       "section": "Day 23",
-      "description": "Ambiguity & Puns",
-      "korean": "자전거는을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand a is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "날짜를 세지 말고, 하루하루를 의미 있게 만들어라.",
+      "english": "Don't count the days make the days count.",
       "chunks": [
         {
-          "text": "To understand to understand a",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
+          "text": "Don't count",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
+          "text": "the days",
           "role": "Object",
-          "color": "#00E676"
+          "color": "#FFD700"
         },
         {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
+          "text": "make",
+          "role": "Verb",
+          "color": "#FF7F00"
         },
         {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "the days count",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Ambiguity & Puns",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-23-8",
+      "id": "6-23-8",
       "section": "Day 23",
-      "description": "Ambiguity & Puns",
-      "korean": "일광욕하며을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand reading is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "잃어버린 시간은 결코 되찾을 수 없다.",
+      "english": "Lost time is never found again.",
       "chunks": [
         {
-          "text": "To understand to understand reading",
+          "text": "Lost time",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "is never found",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
+          "text": "again",
           "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#BA68C8"
         }
       ],
-      "context": "Ambiguity & Puns",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-23-9",
+      "id": "6-23-9",
       "section": "Day 23",
-      "description": "Ambiguity & Puns",
-      "korean": "반중력을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand i'm is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "미래는 내일이 아니라 오늘 시작된다.",
+      "english": "The future starts today not tomorrow.",
       "chunks": [
         {
-          "text": "To understand to understand i'm",
+          "text": "The future",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "starts",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
+          "text": "today",
           "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#BA68C8"
+        },
+        {
+          "text": "not tomorrow",
+          "role": "Modifier",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Ambiguity & Puns",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-23-10",
+      "id": "6-23-10",
       "section": "Day 23",
-      "description": "Ambiguity & Puns",
-      "korean": "제빵사였는데을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand i is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "인내는 쓰지만 그 열매는 달다.",
+      "english": "Patience is bitter but its fruit is sweet.",
       "chunks": [
         {
-          "text": "To understand to understand i",
+          "text": "Patience",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
+          "text": "bitter",
+          "role": "Complement",
+          "color": "#BA68C8"
         },
         {
-          "text": "grasp the very core of",
+          "text": "but",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "its fruit",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "sweet",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Ambiguity & Puns",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-23-11",
-      "section": "Day 23",
-      "description": "Ambiguity & Puns",
-      "korean": "치킨이을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand the is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand the",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Ambiguity & Puns",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-23-12",
-      "section": "Day 23",
-      "description": "Ambiguity & Puns",
-      "korean": "비행기를을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand flying is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand flying",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Ambiguity & Puns",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-23-13",
-      "section": "Day 23",
-      "description": "Ambiguity & Puns",
-      "korean": "친척을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand visiting is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand visiting",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Ambiguity & Puns",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-23-14",
-      "section": "Day 23",
-      "description": "Ambiguity & Puns",
-      "korean": "택시을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand call is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand call",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Ambiguity & Puns",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-23-15",
-      "section": "Day 23",
-      "description": "Ambiguity & Puns",
-      "korean": "망원경을을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand we is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand we",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Ambiguity & Puns",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-23-16",
-      "section": "Day 23",
-      "description": "Ambiguity & Puns",
-      "korean": "부정은을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand denial is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand denial",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Ambiguity & Puns",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-23-17",
-      "section": "Day 23",
-      "description": "Ambiguity & Puns",
-      "korean": "기하학을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand without is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand without",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Ambiguity & Puns",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-23-18",
-      "section": "Day 23",
-      "description": "Ambiguity & Puns",
-      "korean": "경찰이을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand police is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand police",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Ambiguity & Puns",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-23-19",
-      "section": "Day 23",
-      "description": "Ambiguity & Puns",
-      "korean": "나무을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand stolen is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand stolen",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Ambiguity & Puns",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-23-20",
-      "section": "Day 23",
-      "description": "Ambiguity & Puns",
-      "korean": "아이들은을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand kids is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand kids",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Ambiguity & Puns",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-24-1",
+      "id": "6-24-1",
       "section": "Day 24",
-      "description": "Dialects & Varieties",
-      "korean": "안녕을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand g'day is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "유일한 참된 지혜는 당신이 아무것도 모른다는 것을 아는 데 있다.",
+      "english": "The only true wisdom is in knowing you know nothing.",
       "chunks": [
         {
-          "text": "To understand to understand g'day",
+          "text": "The only true wisdom",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
+          "text": "in knowing you know nothing",
           "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Dialects & Varieties",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": {
+        "title": "The Philosopher",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          }
+        ]
+      },
+      "grammarTip": null
     },
     {
-      "id": "7-24-2",
+      "id": "6-24-2",
       "section": "Day 24",
-      "description": "Dialects & Varieties",
-      "korean": "건배/고마워을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand cheers is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "아는 것이 힘이다.",
+      "english": "Knowledge is power.",
       "chunks": [
         {
-          "text": "To understand to understand cheers",
+          "text": "Knowledge",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "power",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Dialects & Varieties",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-24-3",
+      "id": "6-24-3",
       "section": "Day 24",
-      "description": "Dialects & Varieties",
-      "korean": "제기랄을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand bloody is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "현실은 소설보다 낯설다 (기이하다).",
+      "english": "Truth is stranger than fiction.",
       "chunks": [
         {
-          "text": "To understand to understand bloody",
+          "text": "Truth",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
+          "text": "stranger",
+          "role": "Complement",
+          "color": "#BA68C8"
         },
         {
-          "text": "grasp the very core of",
+          "text": "than fiction",
           "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Dialects & Varieties",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-24-4",
+      "id": "6-24-4",
       "section": "Day 24",
-      "description": "Dialects & Varieties",
-      "korean": "안녕을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand howdy is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "선무당이 사람 잡는다 (얕은 지식은 위험하다).",
+      "english": "A little knowledge is a dangerous thing.",
       "chunks": [
         {
-          "text": "To understand to understand howdy",
+          "text": "A little knowledge",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "a dangerous thing",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Dialects & Varieties",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-24-5",
+      "id": "6-24-5",
       "section": "Day 24",
-      "description": "Dialects & Varieties",
-      "korean": "응?을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand eh? is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "모르는 게 약이다.",
+      "english": "Ignorance is bliss.",
       "chunks": [
         {
-          "text": "To understand to understand eh?",
+          "text": "Ignorance",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "bliss",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Dialects & Varieties",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-24-6",
+      "id": "6-24-6",
       "section": "Day 24",
-      "description": "Dialects & Varieties",
-      "korean": "쓰레기을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand rubbish is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "진리를 추구하라.",
+      "english": "Seek the truth.",
       "chunks": [
         {
-          "text": "To understand to understand rubbish",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
+          "text": "Seek",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
+          "text": "the truth",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Dialects & Varieties",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-24-7",
+      "id": "6-24-7",
       "section": "Day 24",
-      "description": "Dialects & Varieties",
-      "korean": "쓰레기을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand trash/garbage is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "사실은 무시된다고 해서 존재하기를 멈추지 않는다.",
+      "english": "Facts do not cease to exist because they are ignored.",
       "chunks": [
         {
-          "text": "To understand to understand trash/garbage",
+          "text": "Facts",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "do not cease to exist",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
+          "text": "because they are ignored",
           "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Dialects & Varieties",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-24-8",
+      "id": "6-24-8",
       "section": "Day 24",
-      "description": "Dialects & Varieties",
-      "korean": "엘리베이터을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand lift is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "모든 것을 의심하라.",
+      "english": "Question everything.",
       "chunks": [
         {
-          "text": "To understand to understand lift",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
+          "text": "Question",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
+          "text": "everything",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Dialects & Varieties",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-24-9",
+      "id": "6-24-9",
       "section": "Day 24",
-      "description": "Dialects & Varieties",
-      "korean": "엘리베이터을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand elevator is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "교육은 양동이를 채우는 것이 아니라 불을 지피는 것이다.",
+      "english": "Education is not the filling of a pail but the lighting of a fire.",
       "chunks": [
         {
-          "text": "To understand to understand elevator",
+          "text": "Education",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "is not",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
+          "text": "the filling of a pail",
+          "role": "Complement",
+          "color": "#BA68C8"
         },
         {
-          "text": "grasp the very core of",
+          "text": "but",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "the lighting of a fire",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Dialects & Varieties",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-24-10",
+      "id": "6-24-10",
       "section": "Day 24",
-      "description": "Dialects & Varieties",
-      "korean": "아파트을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand flat is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "지혜는 경이로움에서 시작된다.",
+      "english": "Wisdom begins in wonder.",
       "chunks": [
         {
-          "text": "To understand to understand flat",
+          "text": "Wisdom",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "begins",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
+          "text": "in wonder",
           "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Dialects & Varieties",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-24-11",
-      "section": "Day 24",
-      "description": "Dialects & Varieties",
-      "korean": "아파트을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand apartment is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand apartment",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Dialects & Varieties",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-24-12",
-      "section": "Day 24",
-      "description": "Dialects & Varieties",
-      "korean": "트럭을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand lorry is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand lorry",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Dialects & Varieties",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-24-13",
-      "section": "Day 24",
-      "description": "Dialects & Varieties",
-      "korean": "트럭을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand truck is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand truck",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Dialects & Varieties",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-24-14",
-      "section": "Day 24",
-      "description": "Dialects & Varieties",
-      "korean": "쿠키을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand biscuit is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand biscuit",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Dialects & Varieties",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-24-15",
-      "section": "Day 24",
-      "description": "Dialects & Varieties",
-      "korean": "쿠키을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand cookie is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand cookie",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Dialects & Varieties",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-24-16",
-      "section": "Day 24",
-      "description": "Dialects & Varieties",
-      "korean": "만사형통/끝을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand bob's is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand bob's",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Dialects & Varieties",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-24-17",
-      "section": "Day 24",
-      "description": "Dialects & Varieties",
-      "korean": "너무을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand chuffed is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand chuffed",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Dialects & Varieties",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-24-18",
-      "section": "Day 24",
-      "description": "Dialects & Varieties",
-      "korean": "어머을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand bless is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand bless",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Dialects & Varieties",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-24-19",
-      "section": "Day 24",
-      "description": "Dialects & Varieties",
-      "korean": "바베큐을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand barbie is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand barbie",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Dialects & Varieties",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-24-20",
-      "section": "Day 24",
-      "description": "Dialects & Varieties",
-      "korean": "화장실을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand loo is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand loo",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Dialects & Varieties",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-25-1",
+      "id": "6-25-1",
       "section": "Day 25",
-      "description": "Tongue Twisters",
-      "korean": "그녀는을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand she is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "미래는 꿈의 아름다움을 믿는 자들의 것이다.",
+      "english": "The future belongs to those who believe in the beauty of their dreams.",
       "chunks": [
         {
-          "text": "To understand to understand she",
+          "text": "The future",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "belongs to",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
+          "text": "those who believe in the beauty of their dreams",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Tongue Twisters",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": {
+        "title": "The Philosopher",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Object",
+            "color": "#FFD700"
+          }
+        ]
+      },
+      "grammarTip": null
     },
     {
-      "id": "7-25-2",
+      "id": "6-25-2",
       "section": "Day 25",
-      "description": "Tongue Twisters",
-      "korean": "피터을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand peter is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "모든 사람이 평화롭게 사는 것을 상상해 보라.",
+      "english": "Imagine all the people living life in peace.",
       "chunks": [
         {
-          "text": "To understand to understand peter",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
+          "text": "Imagine",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
+          "text": "all the people",
           "role": "Object",
-          "color": "#00E676"
+          "color": "#FFD700"
         },
         {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "living life in peace",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Tongue Twisters",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-25-3",
+      "id": "6-25-3",
       "section": "Day 25",
-      "description": "Tongue Twisters",
-      "korean": "우드척은을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand how is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "우리는 하나다 (우리가 세계다).",
+      "english": "We are the world.",
       "chunks": [
         {
-          "text": "To understand to understand how",
+          "text": "We",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "are",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "the world",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Tongue Twisters",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-25-4",
+      "id": "6-25-4",
       "section": "Day 25",
-      "description": "Tongue Twisters",
-      "korean": "빨간을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand red is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "천 리 길도 한 걸음부터.",
+      "english": "A journey of a thousand miles begins with a single step.",
       "chunks": [
         {
-          "text": "To understand to understand red",
+          "text": "A journey of a thousand miles",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "begins",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
+          "text": "with a single step",
           "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Tongue Twisters",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-25-5",
+      "id": "6-25-5",
       "section": "Day 25",
-      "description": "Tongue Twisters",
-      "korean": "유니크을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand unique is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "세상에서 보고 싶은 변화가 되어라.",
+      "english": "Be the change you wish to see in the world.",
       "chunks": [
         {
-          "text": "To understand to understand unique",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
+          "text": "Be",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
+          "text": "the change you wish to see",
+          "role": "Complement",
+          "color": "#BA68C8"
         },
         {
-          "text": "grasp the very core of",
+          "text": "in the world",
           "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Tongue Twisters",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-25-6",
+      "id": "6-25-6",
       "section": "Day 25",
-      "description": "Tongue Twisters",
-      "korean": "퍼지을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand fuzzy is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "항상 얼굴을 햇빛 쪽으로 향하라.",
+      "english": "Keep your face always toward the sunshine.",
       "chunks": [
         {
-          "text": "To understand to understand fuzzy",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
+          "text": "Keep",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
+          "text": "your face",
           "role": "Object",
-          "color": "#00E676"
+          "color": "#FFD700"
         },
         {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
+          "text": "always",
           "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#BA68C8"
+        },
+        {
+          "text": "toward the sunshine",
+          "role": "Modifier",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Tongue Twisters",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-25-7",
+      "id": "6-25-7",
       "section": "Day 25",
-      "description": "Tongue Twisters",
-      "korean": "우리을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand i is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "미래를 예측하는 가장 좋은 방법은 미래를 만드는 것이다.",
+      "english": "The best way to predict the future is to create it.",
       "chunks": [
         {
-          "text": "To understand to understand i",
+          "text": "The best way to predict the future",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "to create it",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Tongue Twisters",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-25-8",
+      "id": "6-25-8",
       "section": "Day 25",
-      "description": "Tongue Twisters",
-      "korean": "장난감을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand toy is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "희망은 깨어 있는 꿈이다.",
+      "english": "Hope is a waking dream.",
       "chunks": [
         {
-          "text": "To understand to understand toy",
+          "text": "Hope",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "a waking dream",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Tongue Twisters",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-25-9",
+      "id": "6-25-9",
       "section": "Day 25",
-      "description": "Tongue Twisters",
-      "korean": "아일랜드을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand irish is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "크게 꿈꾸고, 실패를 두려워하지 마라.",
+      "english": "Dream big and dare to fail.",
       "chunks": [
         {
-          "text": "To understand to understand irish",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
+          "text": "Dream",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
+          "text": "big",
           "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#BA68C8"
+        },
+        {
+          "text": "and dare to fail",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Tongue Twisters",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-25-10",
+      "id": "6-25-10",
       "section": "Day 25",
-      "description": "Tongue Twisters",
-      "korean": "좋은을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand good is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "The Philosopher",
+      "question": "What philosophical idea is expressed?",
+      "korean": "이것은 끝이 아니라 새로운 시작이다.",
+      "english": "This is not the end but a new beginning.",
       "chunks": [
         {
-          "text": "To understand to understand good",
+          "text": "This",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "is not",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
+          "text": "the end",
+          "role": "Complement",
+          "color": "#BA68C8"
         },
         {
-          "text": "grasp the very core of",
+          "text": "but",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "a new beginning",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Tongue Twisters",
-      "question": "Describe to or their status."
+      "context": "The Philosopher",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-25-11",
-      "section": "Day 25",
-      "description": "Tongue Twisters",
-      "korean": "고무을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand rubber is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand rubber",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Tongue Twisters",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-25-12",
-      "section": "Day 25",
-      "description": "Tongue Twisters",
-      "korean": "77마리의을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand seventy-seven is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand seventy-seven",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Tongue Twisters",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-25-13",
-      "section": "Day 25",
-      "description": "Tongue Twisters",
-      "korean": "어느을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand which is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand which",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Tongue Twisters",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-25-14",
-      "section": "Day 25",
-      "description": "Tongue Twisters",
-      "korean": "여섯을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand six is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand six",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Tongue Twisters",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-25-15",
-      "section": "Day 25",
-      "description": "Tongue Twisters",
-      "korean": "진짜을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand truly is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand truly",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Tongue Twisters",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-25-16",
-      "section": "Day 25",
-      "description": "Tongue Twisters",
-      "korean": "여섯을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand the is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand the",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Tongue Twisters",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-25-17",
-      "section": "Day 25",
-      "description": "Tongue Twisters",
-      "korean": "???을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand pad is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand pad",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Tongue Twisters",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-25-18",
-      "section": "Day 25",
-      "description": "Tongue Twisters",
-      "korean": "베티을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand betty is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand betty",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Tongue Twisters",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-25-19",
-      "section": "Day 25",
-      "description": "Tongue Twisters",
-      "korean": "세을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand through is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand through",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Tongue Twisters",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-25-20",
-      "section": "Day 25",
-      "description": "Tongue Twisters",
-      "korean": "통조림을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand can is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand can",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Tongue Twisters",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-26-1",
+      "id": "6-26-1",
       "section": "Day 26",
-      "description": "Philosophy",
-      "korean": "나는을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand i is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "Review",
+      "question": "What is the core message?",
+      "korean": "사실은 무시된다고 해서 존재하기를 멈추지 않는다.",
+      "english": "Facts do not cease to exist because they are ignored.",
       "chunks": [
         {
-          "text": "To understand to understand i",
+          "text": "Facts",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "do not cease to exist",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
+          "text": "because they are ignored",
           "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Philosophy",
-      "question": "Describe to or their status."
+      "context": "Review",
+      "grammarGuide": {
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          }
+        ]
+      },
+      "grammarTip": null
     },
     {
-      "id": "7-26-2",
+      "id": "6-26-2",
       "section": "Day 26",
-      "description": "Philosophy",
-      "korean": "신은을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand god is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "Review",
+      "question": "What is the core message?",
+      "korean": "미래는 내일이 아니라 오늘 시작된다.",
+      "english": "The future starts today not tomorrow.",
       "chunks": [
         {
-          "text": "To understand to understand god",
+          "text": "The future",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "starts",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
+          "text": "today",
           "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#BA68C8"
+        },
+        {
+          "text": "not tomorrow",
+          "role": "Modifier",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Philosophy",
-      "question": "Describe to or their status."
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-26-3",
+      "id": "6-26-3",
       "section": "Day 26",
-      "description": "Philosophy",
-      "korean": "너을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand know is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "Review",
+      "question": "What is the core message?",
+      "korean": "교육은 양동이를 채우는 것이 아니라 불을 지피는 것이다.",
+      "english": "Education is not the filling of a pail but the lighting of a fire.",
       "chunks": [
         {
-          "text": "To understand to understand know",
+          "text": "Education",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "is not",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
+          "text": "the filling of a pail",
+          "role": "Complement",
+          "color": "#BA68C8"
         },
         {
-          "text": "grasp the very core of",
+          "text": "but",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "the lighting of a fire",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Philosophy",
-      "question": "Describe to or their status."
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-26-4",
+      "id": "6-26-4",
       "section": "Day 26",
-      "description": "Philosophy",
-      "korean": "성찰을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand the is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "Review",
+      "question": "What is the core message?",
+      "korean": "역사는 반복된다.",
+      "english": "History repeats itself.",
       "chunks": [
         {
-          "text": "To understand to understand the",
+          "text": "History",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "repeats",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
+          "text": "itself",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Philosophy",
-      "question": "Describe to or their status."
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-26-5",
+      "id": "6-26-5",
       "section": "Day 26",
-      "description": "Philosophy",
-      "korean": "행복은을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand happiness is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "Review",
+      "question": "What ideal is expressed here?",
+      "korean": "현실은 소설보다 낯설다 (기이하다).",
+      "english": "Truth is stranger than fiction.",
       "chunks": [
         {
-          "text": "To understand to understand happiness",
+          "text": "Truth",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
+          "text": "stranger",
+          "role": "Complement",
+          "color": "#BA68C8"
         },
         {
-          "text": "grasp the very core of",
+          "text": "than fiction",
           "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Philosophy",
-      "question": "Describe to or their status."
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-26-6",
+      "id": "6-26-6",
       "section": "Day 26",
-      "description": "Philosophy",
-      "korean": "존재하는을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand to is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "Review",
+      "question": "What ideal is expressed here?",
+      "korean": "미래는 꿈의 아름다움을 믿는 자들의 것이다.",
+      "english": "The future belongs to those who believe in the beauty of their dreams.",
       "chunks": [
         {
-          "text": "To understand to understand to",
+          "text": "The future",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "belongs to",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
+          "text": "those who believe in the beauty of their dreams",
           "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#FFD700"
         }
       ],
-      "context": "Philosophy",
-      "question": "Describe to or their status."
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-26-7",
+      "id": "6-26-7",
       "section": "Day 26",
-      "description": "Philosophy",
-      "korean": "인간은을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand man is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "Review",
+      "question": "What is being urged?",
+      "korean": "이 또한 지나가리라.",
+      "english": "This too shall pass.",
       "chunks": [
         {
-          "text": "To understand to understand man",
+          "text": "This too",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "shall pass",
           "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#FF7F00"
         }
       ],
-      "context": "Philosophy",
-      "question": "Describe to or their status."
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-26-8",
+      "id": "6-26-8",
       "section": "Day 26",
-      "description": "Philosophy",
-      "korean": "우리를을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand that is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "Review",
+      "question": "What absolute claim is made?",
+      "korean": "결국, 우리는 잡지 않은 기회들만을 후회한다.",
+      "english": "In the end we only regret the chances we didn't take.",
       "chunks": [
         {
-          "text": "To understand to understand that",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
+          "text": "In the end",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "we",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "only regret",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the chances we didn't take",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Philosophy",
-      "question": "Describe to or their status."
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-26-9",
+      "id": "6-26-9",
       "section": "Day 26",
-      "description": "Philosophy",
-      "korean": "지옥은을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand hell is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "Review",
+      "question": "What absolute claim is made?",
+      "korean": "변화는 삶의 유일한 상수이다.",
+      "english": "Change is the only constant in life.",
       "chunks": [
         {
-          "text": "To understand to understand hell",
+          "text": "Change",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
+          "text": "the only constant",
+          "role": "Complement",
+          "color": "#BA68C8"
         },
         {
-          "text": "grasp the very core of",
+          "text": "in life",
           "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Philosophy",
-      "question": "Describe to or their status."
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-26-10",
+      "id": "6-26-10",
       "section": "Day 26",
-      "description": "Philosophy",
-      "korean": "우리는을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand we is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "Review",
+      "question": "What is the core message?",
+      "korean": "인생이란 당신이 다른 계획을 세우느라 바쁠 때 일어나는 것이다.",
+      "english": "Life is what happens when you're busy making other plans.",
       "chunks": [
         {
-          "text": "To understand to understand we",
+          "text": "Life",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
+          "text": "what happens",
+          "role": "Complement",
+          "color": "#BA68C8"
         },
         {
-          "text": "grasp the very core of",
+          "text": "when you're busy making other plans",
           "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Philosophy",
-      "question": "Describe to or their status."
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-26-11",
-      "section": "Day 26",
-      "description": "Philosophy",
-      "korean": "종교는을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand religion is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand religion",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Philosophy",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-26-12",
-      "section": "Day 26",
-      "description": "Philosophy",
-      "korean": "내가을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand the is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand the",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Philosophy",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-26-13",
-      "section": "Day 26",
-      "description": "Philosophy",
-      "korean": "생각은을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand thinking is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand thinking",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Philosophy",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-26-14",
-      "section": "Day 26",
-      "description": "Philosophy",
-      "korean": "살아야을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand he is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand he",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Philosophy",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-26-15",
-      "section": "Day 26",
-      "description": "Philosophy",
-      "korean": "인생은을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand life is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand life",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Philosophy",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-26-16",
-      "section": "Day 26",
-      "description": "Philosophy",
-      "korean": "실존은을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand existence is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand existence",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Philosophy",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-26-17",
-      "section": "Day 26",
-      "description": "Philosophy",
-      "korean": "같은을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand one is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand one",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Philosophy",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-26-18",
-      "section": "Day 26",
-      "description": "Philosophy",
-      "korean": "세상에서을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand be is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand be",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Philosophy",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-26-19",
-      "section": "Day 26",
-      "description": "Philosophy",
-      "korean": "아는을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand knowledge is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand knowledge",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Philosophy",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-26-20",
-      "section": "Day 26",
-      "description": "Philosophy",
-      "korean": "이을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand this is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand this",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Philosophy",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-27-1",
+      "id": "6-27-1",
       "section": "Day 27",
-      "description": "Ultimate Review",
-      "korean": "나는을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand i is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "Review",
+      "question": "What is the core message?",
+      "korean": "인내는 쓰지만 그 열매는 달다.",
+      "english": "Patience is bitter but its fruit is sweet.",
       "chunks": [
         {
-          "text": "To understand to understand i",
+          "text": "Patience",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
+          "text": "bitter",
+          "role": "Complement",
+          "color": "#BA68C8"
         },
         {
-          "text": "grasp the very core of",
+          "text": "but",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "its fruit",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "is",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "sweet",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Ultimate Review",
-      "question": "Describe to or their status."
+      "context": "Review",
+      "grammarGuide": {
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Complement",
+            "color": "#BA68C8"
+          },
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          },
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Complement",
+            "color": "#BA68C8"
+          }
+        ]
+      },
+      "grammarTip": null
     },
     {
-      "id": "7-27-2",
+      "id": "6-27-2",
       "section": "Day 27",
-      "description": "Ultimate Review",
-      "korean": "난을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand i is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "Review",
+      "question": "What is the core message?",
+      "korean": "선무당이 사람 잡는다 (얕은 지식은 위험하다).",
+      "english": "A little knowledge is a dangerous thing.",
       "chunks": [
         {
-          "text": "To understand to understand i",
+          "text": "A little knowledge",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "a dangerous thing",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Ultimate Review",
-      "question": "Describe to or their status."
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-27-3",
+      "id": "6-27-3",
       "section": "Day 27",
-      "description": "Ultimate Review",
-      "korean": "내일을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand i is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "Review",
+      "question": "What is the core message?",
+      "korean": "인생이란 당신이 다른 계획을 세우느라 바쁠 때 일어나는 것이다.",
+      "english": "Life is what happens when you're busy making other plans.",
       "chunks": [
         {
-          "text": "To understand to understand i",
+          "text": "Life",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
+          "text": "what happens",
+          "role": "Complement",
+          "color": "#BA68C8"
         },
         {
-          "text": "grasp the very core of",
+          "text": "when you're busy making other plans",
           "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Ultimate Review",
-      "question": "Describe to or their status."
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-27-4",
+      "id": "6-27-4",
       "section": "Day 27",
-      "description": "Ultimate Review",
-      "korean": "난을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand i is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "Review",
+      "question": "What is the core message?",
+      "korean": "천 리 길도 한 걸음부터.",
+      "english": "A journey of a thousand miles begins with a single step.",
       "chunks": [
         {
-          "text": "To understand to understand i",
+          "text": "A journey of a thousand miles",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "begins",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
+          "text": "with a single step",
           "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Ultimate Review",
-      "question": "Describe to or their status."
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-27-5",
+      "id": "6-27-5",
       "section": "Day 27",
-      "description": "Ultimate Review",
-      "korean": "네가을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand i is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "Review",
+      "question": "What is the core message?",
+      "korean": "모르는 게 약이다.",
+      "english": "Ignorance is bliss.",
       "chunks": [
         {
-          "text": "To understand to understand i",
+          "text": "Ignorance",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "bliss",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Ultimate Review",
-      "question": "Describe to or their status."
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-27-6",
+      "id": "6-27-6",
       "section": "Day 27",
-      "description": "Ultimate Review",
-      "korean": "내가을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand if is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "Review",
+      "question": "What action is called for?",
+      "korean": "세상에서 보고 싶은 변화가 되어라.",
+      "english": "Be the change you wish to see in the world.",
       "chunks": [
         {
-          "text": "To understand to understand if",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
+          "text": "Be",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
+          "text": "the change you wish to see",
+          "role": "Complement",
+          "color": "#BA68C8"
         },
         {
-          "text": "grasp the very core of",
+          "text": "in the world",
           "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Ultimate Review",
-      "question": "Describe to or their status."
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-27-7",
+      "id": "6-27-7",
       "section": "Day 27",
-      "description": "Ultimate Review",
-      "korean": "죽느냐을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand to is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "Review",
+      "question": "What is the core message?",
+      "korean": "교육은 양동이를 채우는 것이 아니라 불을 지피는 것이다.",
+      "english": "Education is not the filling of a pail but the lighting of a fire.",
       "chunks": [
         {
-          "text": "To understand to understand to",
+          "text": "Education",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "is not",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
+          "text": "the filling of a pail",
+          "role": "Complement",
+          "color": "#BA68C8"
         },
         {
-          "text": "grasp the very core of",
+          "text": "but",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "the lighting of a fire",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Ultimate Review",
-      "question": "Describe to or their status."
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-27-8",
+      "id": "6-27-8",
       "section": "Day 27",
-      "description": "Ultimate Review",
-      "korean": "그런을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand never is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "Review",
+      "question": "What absolute claim is made?",
+      "korean": "결국, 우리는 잡지 않은 기회들만을 후회한다.",
+      "english": "In the end we only regret the chances we didn't take.",
       "chunks": [
         {
-          "text": "To understand to understand never",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
+          "text": "In the end",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "we",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "only regret",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the chances we didn't take",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Ultimate Review",
-      "question": "Describe to or their status."
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-27-9",
+      "id": "6-27-9",
       "section": "Day 27",
-      "description": "Ultimate Review",
-      "korean": "비용을을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand considering is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "Review",
+      "question": "What is the core message?",
+      "korean": "과거는 낯선 나라이다.",
+      "english": "The past is a foreign country.",
       "chunks": [
         {
-          "text": "To understand to understand considering",
+          "text": "The past",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "a foreign country",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Ultimate Review",
-      "question": "Describe to or their status."
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-27-10",
+      "id": "6-27-10",
       "section": "Day 27",
-      "description": "Ultimate Review",
-      "korean": "내가을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand the is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "Review",
+      "question": "What ideal is expressed here?",
+      "korean": "지혜는 경이로움에서 시작된다.",
+      "english": "Wisdom begins in wonder.",
       "chunks": [
         {
-          "text": "To understand to understand the",
+          "text": "Wisdom",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "begins",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
+          "text": "in wonder",
           "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Ultimate Review",
-      "question": "Describe to or their status."
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-27-11",
-      "section": "Day 27",
-      "description": "Ultimate Review",
-      "korean": "그걸을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand it is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand it",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Ultimate Review",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-27-12",
-      "section": "Day 27",
-      "description": "Ultimate Review",
-      "korean": "시간은을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand time is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand time",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Ultimate Review",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-27-13",
-      "section": "Day 27",
-      "description": "Ultimate Review",
-      "korean": "그는을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand he is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand he",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Ultimate Review",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-27-14",
-      "section": "Day 27",
-      "description": "Ultimate Review",
-      "korean": "차는을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand the is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand the",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Ultimate Review",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-27-15",
-      "section": "Day 27",
-      "description": "Ultimate Review",
-      "korean": "도와줄을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand can is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand can",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Ultimate Review",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-27-16",
-      "section": "Day 27",
-      "description": "Ultimate Review",
-      "korean": "그녀는을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand she is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand she",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Ultimate Review",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-27-17",
-      "section": "Day 27",
-      "description": "Ultimate Review",
-      "korean": "점심을을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand i is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand i",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Ultimate Review",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-27-18",
-      "section": "Day 27",
-      "description": "Ultimate Review",
-      "korean": "행복하기을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand because is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand because",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Ultimate Review",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-27-19",
-      "section": "Day 27",
-      "description": "Ultimate Review",
-      "korean": "중요한을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand what is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand what",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Ultimate Review",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-27-20",
-      "section": "Day 27",
-      "description": "Ultimate Review",
-      "korean": "안녕,을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand goodbye, is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand goodbye,",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Ultimate Review",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-28-1",
+      "id": "6-28-1",
       "section": "Day 28",
-      "description": "Graduation",
-      "korean": "축하합니다!을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand congratulations! is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "Review",
+      "question": "What is the core message?",
+      "korean": "나는 생각한다, 고로 나는 존재한다.",
+      "english": "I think therefore I am.",
       "chunks": [
         {
-          "text": "To understand to understand congratulations!",
+          "text": "I",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "think",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
+          "text": "therefore",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "I",
+          "role": "Subject",
+          "color": "#FF0000"
+        },
+        {
+          "text": "am",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Graduation",
-      "question": "Describe to or their status."
+      "context": "Review",
+      "grammarGuide": {
+        "title": "Review",
+        "structure": [
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          },
+          {
+            "text": "Modifier",
+            "color": "#B0BEC5"
+          },
+          {
+            "text": "Subject",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Verb",
+            "color": "#FF7F00"
+          }
+        ]
+      },
+      "grammarTip": null
     },
     {
-      "id": "7-28-2",
+      "id": "6-28-2",
       "section": "Day 28",
-      "description": "Graduation",
-      "korean": "가을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand you is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "Review",
+      "question": "What is the core message?",
+      "korean": "천 리 길도 한 걸음부터.",
+      "english": "A journey of a thousand miles begins with a single step.",
       "chunks": [
         {
-          "text": "To understand to understand you",
+          "text": "A journey of a thousand miles",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "begins",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
+          "text": "with a single step",
           "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Graduation",
-      "question": "Describe to or their status."
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-28-3",
+      "id": "6-28-3",
       "section": "Day 28",
-      "description": "Graduation",
-      "korean": "당신은을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand you is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "Review",
+      "question": "What ideal is expressed here?",
+      "korean": "크게 꿈꾸고, 실패를 두려워하지 마라.",
+      "english": "Dream big and dare to fail.",
       "chunks": [
         {
-          "text": "To understand to understand you",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
+          "text": "Dream",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
+          "text": "big",
           "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#BA68C8"
+        },
+        {
+          "text": "and dare to fail",
+          "role": "Verb",
+          "color": "#FF7F00"
         }
       ],
-      "context": "Graduation",
-      "question": "Describe to or their status."
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-28-4",
+      "id": "6-28-4",
       "section": "Day 28",
-      "description": "Graduation",
-      "korean": "계속을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand keep is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "Review",
+      "question": "What absolute claim is made?",
+      "korean": "항상 얼굴을 햇빛 쪽으로 향하라.",
+      "english": "Keep your face always toward the sunshine.",
       "chunks": [
         {
-          "text": "To understand to understand keep",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
+          "text": "Keep",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
+          "text": "your face",
           "role": "Object",
-          "color": "#00E676"
+          "color": "#FFD700"
         },
         {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
+          "text": "always",
           "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#BA68C8"
+        },
+        {
+          "text": "toward the sunshine",
+          "role": "Modifier",
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Graduation",
-      "question": "Describe to or their status."
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-28-5",
+      "id": "6-28-5",
       "section": "Day 28",
-      "description": "Graduation",
-      "korean": "언어는을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand language is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "Review",
+      "question": "What is the core message?",
+      "korean": "미래를 예측하는 가장 좋은 방법은 미래를 만드는 것이다.",
+      "english": "The best way to predict the future is to create it.",
       "chunks": [
         {
-          "text": "To understand to understand language",
+          "text": "The best way to predict the future",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "to create it",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Graduation",
-      "question": "Describe to or their status."
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-28-6",
+      "id": "6-28-6",
       "section": "Day 28",
-      "description": "Graduation",
-      "korean": "새로운을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand open is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "Review",
+      "question": "What absolute claim is made?",
+      "korean": "변화는 삶의 유일한 상수이다.",
+      "english": "Change is the only constant in life.",
       "chunks": [
         {
-          "text": "To understand to understand open",
+          "text": "Change",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
+          "text": "the only constant",
+          "role": "Complement",
+          "color": "#BA68C8"
         },
         {
-          "text": "grasp the very core of",
+          "text": "in life",
           "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Graduation",
-      "question": "Describe to or their status."
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-28-7",
+      "id": "6-28-7",
       "section": "Day 28",
-      "description": "Graduation",
-      "korean": "배움을을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand never is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "Review",
+      "question": "What is being urged?",
+      "korean": "이 또한 지나가리라.",
+      "english": "This too shall pass.",
       "chunks": [
         {
-          "text": "To understand to understand never",
+          "text": "This too",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "shall pass",
           "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#FF7F00"
         }
       ],
-      "context": "Graduation",
-      "question": "Describe to or their status."
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-28-8",
+      "id": "6-28-8",
       "section": "Day 28",
-      "description": "Graduation",
-      "korean": "자신을을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand believe is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "Review",
+      "question": "What is the core message?",
+      "korean": "모르는 게 약이다.",
+      "english": "Ignorance is bliss.",
       "chunks": [
         {
-          "text": "To understand to understand believe",
+          "text": "Ignorance",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "is",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "bliss",
+          "role": "Complement",
+          "color": "#BA68C8"
         }
       ],
-      "context": "Graduation",
-      "question": "Describe to or their status."
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-28-9",
+      "id": "6-28-9",
       "section": "Day 28",
-      "description": "Graduation",
-      "korean": "해냈군요!을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand you is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "Review",
+      "question": "What is the core message?",
+      "korean": "행복은 우리 자신에게 달려 있다.",
+      "english": "Happiness depends upon ourselves.",
       "chunks": [
         {
-          "text": "To understand to understand you",
+          "text": "Happiness",
           "role": "Subject",
-          "color": "#FF1744"
+          "color": "#FF0000"
         },
         {
-          "text": "is to grasp the very",
+          "text": "depends",
           "role": "Verb",
-          "color": "#FF9100"
+          "color": "#FF7F00"
         },
         {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
+          "text": "upon ourselves",
           "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "color": "#B0BEC5"
         }
       ],
-      "context": "Graduation",
-      "question": "Describe to or their status."
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
     },
     {
-      "id": "7-28-10",
+      "id": "6-28-10",
       "section": "Day 28",
-      "description": "Graduation",
-      "korean": "한계는을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand the is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
+      "description": "Review",
+      "question": "What is the core message?",
+      "korean": "카르페 디엠, 오늘을 즐겨라.",
+      "english": "Carpe diem seize the day.",
       "chunks": [
         {
-          "text": "To understand to understand the",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
+          "text": "Carpe diem",
           "role": "Modifier",
-          "color": "#2979FF"
+          "color": "#B0BEC5"
         },
         {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
+          "text": "seize",
+          "role": "Verb",
+          "color": "#FF7F00"
+        },
+        {
+          "text": "the day",
+          "role": "Object",
+          "color": "#FFD700"
         }
       ],
-      "context": "Graduation",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-28-11",
-      "section": "Day 28",
-      "description": "Graduation",
-      "korean": "꿈을을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand dream is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand dream",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Graduation",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-28-12",
-      "section": "Day 28",
-      "description": "Graduation",
-      "korean": "호기심을을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand stay is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand stay",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Graduation",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-28-13",
-      "section": "Day 28",
-      "description": "Graduation",
-      "korean": "지식을을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand share is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand share",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Graduation",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-28-14",
-      "section": "Day 28",
-      "description": "Graduation",
-      "korean": "친절하세요.을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand be is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand be",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Graduation",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-28-15",
-      "section": "Day 28",
-      "description": "Graduation",
-      "korean": "삶을을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand love is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand love",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Graduation",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-28-16",
-      "section": "Day 28",
-      "description": "Graduation",
-      "korean": "플레이해을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand thank is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand thank",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Graduation",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-28-17",
-      "section": "Day 28",
-      "description": "Graduation",
-      "korean": "다시을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand see is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand see",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Graduation",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-28-18",
-      "section": "Day 28",
-      "description": "Graduation",
-      "korean": "레인보우을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand rainbow is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand rainbow",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Graduation",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-28-19",
-      "section": "Day 28",
-      "description": "Graduation",
-      "korean": "안녕,을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand farewell, is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand farewell,",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Graduation",
-      "question": "Describe to or their status."
-    },
-    {
-      "id": "7-28-20",
-      "section": "Day 28",
-      "description": "Graduation",
-      "korean": "끝.을 이해하는 것은 지혜의 핵심을 터득하는 것이다.을 이해하는 것은 인간 지혜의 핵심을 터득하는 것이다.",
-      "english": "To understand to understand the is to grasp the very core of wisdom is to grasp the very core of human wisdom.",
-      "chunks": [
-        {
-          "text": "To understand to understand the",
-          "role": "Subject",
-          "color": "#FF1744"
-        },
-        {
-          "text": "is to grasp the very",
-          "role": "Verb",
-          "color": "#FF9100"
-        },
-        {
-          "text": "core of wisdom is to",
-          "role": "Object",
-          "color": "#00E676"
-        },
-        {
-          "text": "grasp the very core of",
-          "role": "Modifier",
-          "color": "#2979FF"
-        },
-        {
-          "text": "human wisdom.",
-          "role": "Adverb",
-          "color": "#AA00FF"
-        }
-      ],
-      "context": "Graduation",
-      "question": "Describe to or their status."
+      "context": "Review",
+      "grammarGuide": null,
+      "grammarTip": null
     }
   ]
 }
